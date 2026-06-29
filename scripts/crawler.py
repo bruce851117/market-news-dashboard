@@ -6,11 +6,10 @@ from zoneinfo import ZoneInfo
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
-CRAWLER_VERSION = "tw-time-force-v4"
+CRAWLER_VERSION = "tw-browser-time-v5"
 
 URL = "https" + "://wallstreetcn.com/live/global"
 
-UTC_TZ = ZoneInfo("UTC")
 TW_TZ = ZoneInfo("Asia/Taipei")
 
 DATA_DIR = Path("data")
@@ -35,6 +34,12 @@ def normalize_text(s):
 
 
 def get_fetch_start_time_tw(now_tw):
+    """
+    全部用台灣時間計算：
+    - 如果今天是禮拜一：抓上週五 17:00 台灣時間之後
+    - 其他日期：抓前一天 17:00 台灣時間之後
+    """
+
     if now_tw.weekday() == 0:
         start_date = now_tw.date() - timedelta(days=3)
     else:
@@ -50,7 +55,13 @@ def get_fetch_start_time_tw(now_tw):
     )
 
 
-def parse_page_date_as_utc(line, now_tw):
+def parse_page_date_as_tw(line, now_tw):
+    """
+    華爾街見聞頁面只有 06月29日 這種格式，沒有年份。
+    Playwright 瀏覽器已設定 timezone_id="Asia/Taipei"，
+    因此頁面顯示時間直接視為台灣時間。
+    """
+
     m = DATE_RE.match(line.strip())
 
     if not m:
@@ -60,34 +71,37 @@ def parse_page_date_as_utc(line, now_tw):
     day = int(m.group(2))
     year = now_tw.year
 
-    dt_utc = datetime(year, month, day, 0, 0, tzinfo=UTC_TZ)
+    dt_tw = datetime(year, month, day, 0, 0, tzinfo=TW_TZ)
 
-    if dt_utc.astimezone(TW_TZ) > now_tw + timedelta(days=2):
-        dt_utc = datetime(year - 1, month, day, 0, 0, tzinfo=UTC_TZ)
+    # 處理跨年，例如 1月初看到 12月31日
+    if dt_tw > now_tw + timedelta(days=2):
+        dt_tw = datetime(year - 1, month, day, 0, 0, tzinfo=TW_TZ)
 
-    return dt_utc.date()
+    return dt_tw.date()
 
 
-def make_datetime_utc_and_tw(date_obj, hour, minute):
-    dt_utc = datetime(
+def make_datetime_tw(date_obj, hour, minute):
+    """
+    頁面上的日期與時間直接視為台灣時間。
+    """
+
+    dt_tw = datetime(
         date_obj.year,
         date_obj.month,
         date_obj.day,
         hour,
         minute,
-        tzinfo=UTC_TZ
+        tzinfo=TW_TZ
     )
 
-    dt_tw = dt_utc.astimezone(TW_TZ)
-
-    return dt_utc, dt_tw
+    return dt_tw
 
 
 def extract_news_items(text, now_tw):
     lines = [line.strip() for line in text.splitlines() if line.strip()]
 
     items = []
-    current_utc_date = None
+    current_tw_date = None
     current_item = None
 
     def flush_item():
@@ -127,7 +141,6 @@ def extract_news_items(text, now_tw):
 
         item = dict()
         item["datetime"] = current_item["datetime_tw"]
-        item["datetime_source_utc"] = current_item["datetime_utc"]
         item["headline"] = headline
         item["content"] = content
         item["source"] = "華爾街見聞"
@@ -139,29 +152,28 @@ def extract_news_items(text, now_tw):
         current_item = None
 
     for line in lines:
-        parsed_date = parse_page_date_as_utc(line, now_tw)
+        parsed_date = parse_page_date_as_tw(line, now_tw)
 
         if parsed_date is not None:
             flush_item()
-            current_utc_date = parsed_date
+            current_tw_date = parsed_date
             continue
 
         time_match = TIME_RE.match(line)
 
-        if time_match and current_utc_date is not None:
+        if time_match and current_tw_date is not None:
             flush_item()
 
             hour = int(time_match.group(1))
             minute = int(time_match.group(2))
 
-            dt_utc, dt_tw = make_datetime_utc_and_tw(
-                current_utc_date,
+            dt_tw = make_datetime_tw(
+                current_tw_date,
                 hour,
                 minute
             )
 
             current_item = dict()
-            current_item["datetime_utc"] = dt_utc.strftime("%Y-%m-%d %H:%M")
             current_item["datetime_tw"] = dt_tw.strftime("%Y-%m-%d %H:%M")
             current_item["lines"] = []
 
@@ -220,7 +232,8 @@ def main():
 
     log("Now Taiwan Time: " + now_tw.strftime("%Y-%m-%d %H:%M"))
     log("Fetch Start Time Taiwan: " + start_time_tw.strftime("%Y-%m-%d %H:%M"))
-    log("Page time assumption: page datetime is UTC, then converted to Asia/Taipei.")
+    log("Browser timezone: Asia/Taipei")
+    log("Page time assumption: page datetime is already rendered in Asia/Taipei.")
 
     if now_tw.weekday() == 0:
         log("Rule: Monday Taiwan time, fetch after last Friday 17:00 Taiwan time.")
@@ -337,7 +350,7 @@ def main():
     result["fetch_end_time"] = now_tw.strftime("%Y-%m-%d %H:%M")
     result["source"] = URL
     result["timezone"] = "Asia/Taipei"
-    result["source_time_assumption"] = "page datetime parsed as UTC and converted to Asia/Taipei"
+    result["source_time_assumption"] = "browser timezone Asia/Taipei; page datetime treated as Taiwan time"
     result["crawler_version"] = CRAWLER_VERSION
     result["count"] = len(filtered_items)
     result["items"] = filtered_items
