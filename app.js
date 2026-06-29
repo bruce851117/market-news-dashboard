@@ -1,204 +1,162 @@
-let allNews = [];
+import json
+import os
+import re
+import time
+from pathlib import Path
+from datetime import datetime
+from zoneinfo import ZoneInfo
+from google import genai
+from google.genai import types
 
-const categoryOrder = [
-  "bond",
-  "equity",
-  "central_bank",
-  "economy",
-  "war",
-  "commodity",
-];
+TZ = ZoneInfo("Asia/Taipei")
 
-const categoryNames = {
-  bond: "債市",
-  equity: "股市",
-  central_bank: "央行",
-  economy: "經濟",
-  war: "戰爭",
-  commodity: "商品",
-};
+DATA_DIR = Path("data")
+RAW_INPUT = DATA_DIR / "raw_news.json"
+OUTPUT = DATA_DIR / "news.json"
 
-const categoryDescriptions = {
-  bond: "利率、美債、殖利率、信用市場、財政部標售",
-  equity: "主要股指、科技龍頭、AI供應鏈、重大財報",
-  central_bank: "Fed、ECB、BOJ、BOE、PBOC、官員談話與政策預期",
-  economy: "CPI、PPI、PMI、GDP、就業、薪資、消費、關稅與財政政策",
-  war: "戰爭、地緣政治、制裁、中東、俄烏、台海與軍事衝突",
-  commodity: "原油、天然氣、黃金、銅、能源與大宗商品",
-};
+MODEL_NAME = "gemini-3.1-flash-lite"
 
-function parseDateTime(s) {
-  if (!s) return null;
-  return new Date(s.replace(" ", "T"));
+CATEGORY_MAP = {
+    "bond": "債市",
+    "equity": "股市",
+    "central_bank": "央行",
+    "economy": "經濟",
+    "war": "戰爭",
+    "commodity": "商品",
 }
 
-function toDateTimeLocalValue(date) {
-  const pad = (n) => String(n).padStart(2, "0");
-  return (
-    date.getFullYear() +
-    "-" +
-    pad(date.getMonth() + 1) +
-    "-" +
-    pad(date.getDate()) +
-    "T" +
-    pad(date.getHours()) +
-    ":" +
-    pad(date.getMinutes())
-  );
-}
 
-function stars(n) {
-  return "★".repeat(n) + "☆".repeat(5 - n);
-}
+def log(msg):
+    print(msg, flush=True)
 
-function escapeHtml(str) {
-  return String(str || "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
-}
 
-function renderNews() {
-  const container = document.getElementById("newsContainer");
-  const startValue = document.getElementById("startTime").value;
-  const endValue = document.getElementById("endTime").value;
-  const keyword = document.getElementById("keyword").value.trim().toLowerCase();
+def safe_json_loads(text):
+    text = text.strip()
+    text = re.sub(r"^```json", "", text)
+    text = re.sub(r"^```", "", text)
+    text = re.sub(r"```$", "", text)
+    text = text.strip()
 
-  const start = startValue ? new Date(startValue) : null;
-  const end = endValue ? new Date(endValue) : null;
+    start = text.find("[")
+    end = text.rfind("]")
 
-  const filtered = allNews.filter((item) => {
-    const dt = parseDateTime(item.datetime);
-    if (!dt) return false;
+    if start != -1 and end != -1 and end > start:
+        text = text[start:end + 1]
 
-    if (start && dt < start) return false;
-    if (end && dt > end) return false;
+    return json.loads(text)
 
-    if (keyword) {
-      const text = [
-        item.datetime,
-        item.category,
-        item.category_name,
-        item.headline,
-        item.summary,
-        Array.isArray(item.tags) ? item.tags.join(" ") : "",
-      ].join(" ").toLowerCase();
 
-      if (!text.includes(keyword)) return false;
-    }
+def chunk_items(items, chunk_size=25):
+    for i in range(0, len(items), chunk_size):
+        yield items[i:i + chunk_size]
 
-    return true;
-  });
 
-  document.getElementById("visibleCount").textContent = filtered.length;
+def short_headline(headline):
+    headline = str(headline or "").strip()
+    headline = headline.replace("【", "").replace("】", "")
+    headline = re.sub(r"\s+", " ", headline)
 
-  if (filtered.length === 0) {
-    container.innerHTML = `<div class="empty">沒有符合條件的新聞</div>`;
-    return;
-  }
+    if len(headline) > 30:
+        headline = headline[:30]
 
-  const grouped = {};
+    return headline
 
-  categoryOrder.forEach((category) => {
-    grouped[category] = [];
-  });
 
-  filtered.forEach((item) => {
-    const category = item.category || "economy";
-    if (!grouped[category]) {
-      grouped[category] = [];
-    }
-    grouped[category].push(item);
-  });
+def fallback_filter(items):
+    output = []
 
-  let html = "";
+    for item in items:
+        text = item.get("headline", "") + " " + item.get("content", "")
 
-  categoryOrder.forEach((category) => {
-    const items = grouped[category] || [];
+        category = "economy"
 
-    if (items.length === 0) {
-      return;
-    }
+        if any(k in text for k in ["美债", "美債", "国债", "國債", "收益率", "殖利率", "Treasury", "利率"]):
+            category = "bond"
+        elif any(k in text for k in ["Fed", "FOMC", "美联储", "聯準會", "ECB", "BOJ", "BOE", "PBOC", "央行", "降息", "升息", "加息"]):
+            category = "central_bank"
+        elif any(k in text for k in ["股市", "美股", "A股", "港股", "纳指", "納指", "标普", "標普", "道指", "Nvidia", "英伟达", "輝達"]):
+            category = "equity"
+        elif any(k in text for k in ["战争", "戰爭", "冲突", "衝突", "伊朗", "以色列", "乌克兰", "烏克蘭", "俄罗斯", "俄羅斯", "制裁"]):
+            category = "war"
+        elif any(k in text for k in ["原油", "油价", "油價", "天然气", "天然氣", "黄金", "黃金", "铜", "銅", "OPEC"]):
+            category = "commodity"
 
-    html += `
-      <section class="category-block category-${category}">
-        <div class="category-header">
-          <div>
-            <h2>${categoryNames[category] || category}</h2>
-            <p>${categoryDescriptions[category] || ""}</p>
-          </div>
-          <div class="category-count">${items.length} 則</div>
-        </div>
+        output.append({
+            "datetime": item.get("datetime", ""),
+            "category": category,
+            "category_name": CATEGORY_MAP.get(category, category),
+            "importance": 3,
+            "headline": short_headline(item.get("headline", "")),
+            "summary": "",
+            "tags": [],
+            "source": item.get("source", "華爾街見聞"),
+            "url": item.get("url", "https://wallstreetcn.com/live/global"),
+        })
 
-        <div class="category-news-list">
-          ${items.map(renderNewsCard).join("")}
-        </div>
-      </section>
-    `;
-  });
+    return output
 
-  container.innerHTML = html;
-}
 
-function renderNewsCard(item) {
-  const tags = Array.isArray(item.tags) ? item.tags : [];
+def build_prompt(batch):
+    batch_json = json.dumps(batch, ensure_ascii=False)
 
-  return `
-    <article class="news-card importance-${item.importance || 3}">
-      <div class="news-top">
-        <div>
-          <div class="news-time">${escapeHtml(item.datetime)}</div>
-          <div class="stars">${stars(item.importance || 3)}</div>
-        </div>
-      </div>
+    prompt_lines = [
+        "你是一位全球總體經濟、利率、外匯與股票市場策略分析師，使用者是一位債券/股票交易員。",
+        "",
+        "請閱讀以下華爾街見聞快訊，幫我做交易員版本的資訊整理。",
+        "",
+        "任務：",
+        "1. 你會看到完整快訊資料，請自行判斷哪些新聞重要、哪些新聞不重要。",
+        "2. 刪除不重要資訊，不要輸出那些新聞。",
+        "3. 保留對利率、債市、股市、央行政策、總經數據、戰爭地緣政治、商品能源有影響的消息。",
+        "",
+        "請特別刪除以下類型新聞：",
+        "A. 純描述價格走勢、但沒有政策、數據、事件或風險原因的新聞。",
+        "   例如：中國國債期貨早盤全線收漲、日本10年期國債收益率上升5個基點、美股期貨小幅走高。",
+        "B. 一般性債券發行、金融債發行、農發行/國開行/進出口行發債、地方債發行等例行發債消息。",
+        "   例如：農發行發行1、2年期債券，規模共110億元。",
+        "C. 體育、娛樂、地方社會新聞、無市場影響的小型個股消息。",
+        "",
+        "分類只能使用以下其中一類：",
+        "- bond：債市、利率、美債、殖利率、信用、重要財政部標售或債市政策",
+        "- equity：股市、重大企業財報、科技龍頭、AI供應鏈、主要股指",
+        "- central_bank：Fed、ECB、BOJ、BOE、PBOC、央行官員談話、升降息",
+        "- economy：CPI、PPI、PMI、GDP、就業、薪資、消費、貿易、財政政策、關稅",
+        "- war：戰爭、地緣政治、制裁、中東、俄烏、台海、軍事衝突",
+        "- commodity：原油、天然氣、黃金、銅、農產品、能源供應",
+        "",
+        "每則新聞給 importance，1到5分：",
+        "- 5：高度影響全球利率、股市、FX、油價，例如FOMC、CPI、重大就業數據、戰爭升級、重大央行政策",
+        "- 4：重要市場新聞",
+        "- 3：中等重要",
+        "- 2：低重要但仍可保留",
+        "- 1：通常應刪除",
+        "",
+        "輸出要求：",
+        "1. headline 請簡化成30個中文字以內，保留市場重點，不要扭曲原意。",
+        "2. summary 可以留空字串，但欄位必須存在。",
+        "3. tags 用英文或常用市場代號，例如 Fed、UST、CPI、Oil、ECB、China、A-share、AI。",
+        "4. 如果新聞不重要，請不要輸出該則新聞。",
+        "5. 請務必只輸出 JSON array，不要加解釋，不要 markdown。",
+        "",
+        "輸出格式如下：",
+        "[",
+        "  {",
+        "    \"datetime\": \"2026-06-29 07:30\",",
+        "    \"category\": \"bond\",",
+        "    \"importance\": 5,",
+        "    \"headline\": \"Fed釋出偏鷹訊號\",",
+        "    \"summary\": \"\",",
+        "    \"tags\": [\"Fed\", \"UST\"],",
+        "    \"source\": \"華爾街見聞\",",
+        "    \"url\": \"https://wallstreetcn.com/live/global\"",
+        "  }",
+        "]",
+        "",
+        "以下是快訊資料：",
+        batch_json
+    ]
 
-      <h3 class="news-title">${escapeHtml(item.headline)}</h3>
-      <p class="news-summary">${escapeHtml(item.summary)}</p>
+    return "\n".join(prompt_lines)
 
-      <div class="tags">
-        ${tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
-      </div>
-    </article>
-  `;
-}
 
-async function loadNews() {
-  try {
-    const res = await fetch("data/news.json?ts=" + Date.now());
-    const data = await res.json();
-
-    allNews = data.items || [];
-    document.getElementById("generatedAt").textContent = data.generated_at || "--";
-
-    const now = new Date();
-    const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
-
-    document.getElementById("startTime").value = toDateTimeLocalValue(sevenDaysAgo);
-    document.getElementById("endTime").value = toDateTimeLocalValue(now);
-
-    renderNews();
-  } catch (err) {
-    console.error(err);
-    document.getElementById("newsContainer").innerHTML =
-      `<div class="empty">讀取 data/news.json 失敗，請先執行 GitHub Actions。</div>`;
-  }
-}
-
-document.getElementById("startTime").addEventListener("change", renderNews);
-document.getElementById("endTime").addEventListener("change", renderNews);
-document.getElementById("keyword").addEventListener("input", renderNews);
-
-document.getElementById("resetBtn").addEventListener("click", () => {
-  const now = new Date();
-  const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
-
-  document.getElementById("startTime").value = toDateTimeLocalValue(sevenDaysAgo);
-  document.getElementById("endTime").value = toDateTimeLocalValue(now);
-  document.getElementById("keyword").value = "";
-
-  renderNews();
-});
-
-loadNews();
+def summarize_with_gemini(items):
