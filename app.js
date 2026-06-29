@@ -88,32 +88,7 @@ function resetFiltersToDataRange() {
 
 function renderBrief() {
   const briefList = document.getElementById("briefList");
-
-  if (!briefList) return;
-
-  let points = Array.isArray(briefPoints) ? briefPoints.filter(Boolean) : [];
-
-  if (points.length === 0 && allNews.length > 0) {
-    points = allNews
-      .slice()
-      .sort((a, b) => Number(b.importance || 3) - Number(a.importance || 3))
-      .slice(0, 10)
-      .map((item) => {
-        const categoryName = categoryNames[normalizeCategory(item.category)] || "市場";
-        const text = item.summary || item.content || item.headline || "";
-        return categoryName + "：" + text;
-      });
-  }
-
-  if (points.length === 0) {
-    briefList.innerHTML = "<li>目前沒有可顯示的重點摘要。</li>";
-    return;
-  }
-
-  briefList.innerHTML = points
-    .slice(0, 10)
-    .map((point) => `<li>${escapeHtml(point)}</li>`)
-    .join("");
+  if (briefList) briefList.innerHTML = "";
 }
 
 function getFilteredNews() {
