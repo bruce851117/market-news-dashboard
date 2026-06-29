@@ -8,51 +8,61 @@
 </head>
 
 <body>
-  <header class="header">
-    <div>
+  <header class="top-header">
+    <div class="header-left">
+      <div class="eyebrow">AI Market Monitor</div>
       <h1>Market News Dashboard</h1>
-      <p>華爾街見聞快訊｜AI 過濾｜分類晨報</p>
+      <p>華爾街見聞快訊｜Gemini 整理｜交易員版分類晨報</p>
     </div>
 
-    <div class="meta">
-      <div>更新時間</div>
-      <strong id="generatedAt">--</strong>
+    <div class="header-right">
+      <div class="meta-label">更新時間</div>
+      <div class="meta-value" id="generatedAt">--</div>
     </div>
   </header>
 
-  <section class="filters">
-    <div class="filter-group">
-      <label for="startTime">開始時間</label>
-      <input type="datetime-local" id="startTime" />
-    </div>
+  <main class="page">
+    <section class="data-info">
+      <div>
+        <div class="info-label">底層資料時間範圍</div>
+        <div class="info-value" id="dataRange">--</div>
+      </div>
 
-    <div class="filter-group">
-      <label for="endTime">結束時間</label>
-      <input type="datetime-local" id="endTime" />
-    </div>
+      <div class="info-note">
+        Reset 會自動恢復到目前 data/news.json 的完整時間範圍
+      </div>
+    </section>
 
-    <div class="filter-group search-box">
-      <label for="keyword">搜尋關鍵字</label>
-      <input type="text" id="keyword" placeholder="Fed / CPI / UST / Oil / China" />
-    </div>
-  </section>
+    <section class="filter-panel">
+      <div class="filter-group">
+        <label for="startTime">開始時間</label>
+        <input type="datetime-local" id="startTime" />
+      </div>
 
-  <section class="summary-bar">
-    <div>
-      <span class="label">目前顯示</span>
-      <strong id="visibleCount">0</strong>
-      <span>則重要新聞</span>
-    </div>
+      <div class="filter-group">
+        <label for="endTime">結束時間</label>
+        <input type="datetime-local" id="endTime" />
+      </div>
 
-    <div class="data-range" id="dataRange">
-      底層資料時間範圍：--
-    </div>
+      <div class="filter-group search-box">
+        <label for="keyword">搜尋關鍵字</label>
+        <input type="text" id="keyword" placeholder="Fed / CPI / UST / Oil / China" />
+      </div>
 
-    <button id="resetBtn">重設時間與搜尋</button>
-  </section>
+      <button id="resetBtn" class="reset-button">重設時間與搜尋</button>
+    </section>
 
-  <main id="newsContainer" class="news-container">
-    <div class="empty">Loading...</div>
+    <section class="status-bar">
+      <div>
+        目前顯示
+        <strong id="visibleCount">0</strong>
+        則重要新聞
+      </div>
+    </section>
+
+    <section id="newsContainer" class="news-container">
+      <div class="empty">Loading...</div>
+    </section>
   </main>
 
   <footer class="footer">
