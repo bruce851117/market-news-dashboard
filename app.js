@@ -1,93 +1,7 @@
-const APP_VERSION = "render-all-v2";
+const APP_VERSION = "clean-render-v3";
 
 let allNews = [];
-let briefPoints = [];
-
-const categoryOrder = [
-  "bond",
-  "equity",
-  "central_bank",
-  "economy",
-  "war",
-  "commodity",
-  "other",
-];
-
-const categoryNames = {
-  bond: "債市",
-  equity: "股市",
-  central_bank: "央行",
-  economy: "經濟",
-  war: "戰爭",
-  commodity: "商品",
-  other: "其他",
-};
-
-const categorySubtitles = {
-  bond: "利率、美債、殖利率、信用與債市政策",
-  equity: "股市、科技龍頭、AI 供應鏈與主要股指",
-  central_bank: "Fed、ECB、BOJ、BOE、PBOC 與央行政策",
-  economy: "CPI、PPI、PMI、GDP、就業、關稅與財政政策",
-  war: "戰爭、地緣政治、制裁與軍事衝突",
-  commodity: "原油、天然氣、黃金、銅與能源供應",
-  other: "其他重要市場訊息",
-};
-
-function normalizeCategory(category) {
-  const c = String(category || "").trim();
-
-  if (c === "bond" || c === "債市" || c === "债市") return "bond";
-  if (c === "equity" || c === "股市") return "equity";
-  if (c === "central_bank" || c === "央行") return "central_bank";
-  if (c === "economy" || c === "經濟" || c === "经济") return "economy";
-  if (c === "war" || c === "戰爭" || c === "战争" || c === "地緣政治" || c === "地缘政治") return "war";
-  if (c === "commodity" || c === "商品" || c === "大宗商品" || c === "能源") return "commodity";
-
-  return "other";
-}
-
-function parseDateTime(s) {
-  if (!s) return null;
-
-  const text = String(s).trim();
-
-  if (!text) return null;
-
-  const d = new Date(text.replace(" ", "T"));
-
-  if (isNaN(d.getTime())) return null;
-
-  return d;
-}
-
-function formatDisplayTime(date) {
-  if (!date || isNaN(date.getTime())) return "--";
-
-  const pad = (n) => String(n).padStart(2, "0");
-
-  return (
-    date.getFullYear() +
-    "-" +
-    pad(date.getMonth() + 1) +
-    "-" +
-    pad(date.getDate()) +
-    " " +
-    pad(date.getHours()) +
-    ":" +
-    pad(date.getMinutes())
-  );
-}
-
-function toDateTimeLocalValue(date) {
-  if (!date || isNaN(date.getTime())) return "";
-
-  const pad = (n) => String(n).padStart(2, "0");
-
-  return (
-    date.getFullYear() +
-    "-" +
-    pad(date.getMonth() + 1) +
-    "-" +
+ +let briefPoints = [];
     pad(date.getDate()) +
     "T" +
     pad(date.getHours()) +
@@ -96,8 +10,8 @@ function toDateTimeLocalValue(date) {
   );
 }
 
-function escapeHtml(str) {
-  return String(str || "")
+function escapeHtml(value) {
+  return String(value || "")
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
@@ -105,10 +19,20 @@ function escapeHtml(str) {
     .replaceAll("'", "&#039;");
 }
 
+function shortText(value, maxLength) {
+  const text = String(value || "").trim();
+
+  if (text.length > maxLength) {
+    return text.slice(0, maxLength);
+  }
+
+  return text;
+}
+
 function getMinMaxNewsTime(items) {
   const dates = items
     .map((item) => parseDateTime(item.datetime))
-    .filter((d) => d && !isNaN(d.getTime()));
+    .filter((date) => date && !isNaN(date.getTime()));
 
   if (dates.length === 0) {
     return {
@@ -126,17 +50,17 @@ function getMinMaxNewsTime(items) {
 }
 
 function updateDataRangeText() {
-  const el = document.getElementById("dataRange");
-  if (!el) return;
-
+  const rangeEl = document.getElementById("dataRange");
   const minMax = getMinMaxNewsTime(allNews);
 
+  if (!rangeEl) return;
+
   if (!minMax.min || !minMax.max) {
-    el.textContent = "--";
+    rangeEl.textContent = "--";
     return;
   }
 
-  el.textContent =
+  rangeEl.textContent =
     formatDisplayTime(minMax.min) +
     " ～ " +
     formatDisplayTime(minMax.max);
@@ -151,8 +75,11 @@ function resetFiltersToDataRange() {
 
   if (keywordEl) keywordEl.value = "";
 
-  if (minMax.min && minMax.max) {
+  if (startEl && minMax.min) {
     startEl.value = toDateTimeLocalValue(minMax.min);
+  }
+
+  if (endEl && minMax.max) {
     endEl.value = toDateTimeLocalValue(minMax.max);
   }
 
@@ -161,6 +88,7 @@ function resetFiltersToDataRange() {
 
 function renderBrief() {
   const briefList = document.getElementById("briefList");
+
   if (!briefList) return;
 
   let points = Array.isArray(briefPoints) ? briefPoints.filter(Boolean) : [];
@@ -171,9 +99,9 @@ function renderBrief() {
       .sort((a, b) => Number(b.importance || 3) - Number(a.importance || 3))
       .slice(0, 10)
       .map((item) => {
-        const category = categoryNames[normalizeCategory(item.category)] || "市場";
+        const categoryName = categoryNames[normalizeCategory(item.category)] || "市場";
         const text = item.summary || item.content || item.headline || "";
-        return category + "：" + text;
+        return categoryName + "：" + text;
       });
   }
 
@@ -189,13 +117,14 @@ function renderBrief() {
 }
 
 function getFilteredNews() {
-  const keyword = document.getElementById("keyword").value.trim().toLowerCase();
+  const keywordEl = document.getElementById("keyword");
+  const keyword = keywordEl ? keywordEl.value.trim().toLowerCase() : "";
 
   let filtered = allNews.slice();
 
   if (keyword) {
     filtered = filtered.filter((item) => {
-      const text = [
+      const searchableText = [
         item.datetime,
         item.category,
         item.category_name,
@@ -203,9 +132,11 @@ function getFilteredNews() {
         item.summary,
         item.content,
         Array.isArray(item.tags) ? item.tags.join(" ") : "",
-      ].join(" ").toLowerCase();
+      ]
+        .join(" ")
+        .toLowerCase();
 
-      return text.includes(keyword);
+      return searchableText.includes(keyword);
     });
   }
 
@@ -219,14 +150,6 @@ function renderNews() {
   if (!container || !visibleCountEl) return;
 
   let filtered = getFilteredNews();
-
-  /*
-    這版刻意不使用日期篩選來排除新聞。
-    日期欄位只用來顯示與重設，避免瀏覽器 datetime-local 格式導致 filtered = 0。
-  */
-  if (!document.getElementById("keyword").value.trim()) {
-    filtered = allNews.slice();
-  }
 
   filtered.sort((a, b) => {
     const da = parseDateTime(a.datetime);
@@ -293,33 +216,38 @@ function renderNews() {
 }
 
 function renderTimelineItem(item) {
+  const headline = item.headline || "";
   const summary = item.summary || "";
   const content = item.content || "";
 
   return `
-    <div class="timeline-item importance-${item.importance || 3}">
+    <article class="timeline-item importance-${item.importance || 3}">
       <div class="timeline-dot"></div>
-      <div class="timeline-time">${escapeHtml(item.datetime)}</div>
+      <time class="timeline-time">${escapeHtml(item.datetime)}</time>
       <div class="timeline-body">
-        <div class="timeline-headline">${escapeHtml(item.headline || "")}</div>
+        <div class="timeline-headline">${escapeHtml(headline)}</div>
         ${summary ? `<div class="timeline-summary">${escapeHtml(summary)}</div>` : ""}
         ${content && content !== summary ? `<div class="timeline-content">${escapeHtml(content)}</div>` : ""}
       </div>
-    </div>
+    </article>
   `;
 }
 
 function showLoadError(message) {
-  document.getElementById("generatedAt").textContent = "--";
-  document.getElementById("dataRange").textContent = "--";
-  document.getElementById("visibleCount").textContent = "0";
-
+  const generatedAtEl = document.getElementById("generatedAt");
+  const dataRangeEl = document.getElementById("dataRange");
+  const visibleCountEl = document.getElementById("visibleCount");
   const briefList = document.getElementById("briefList");
+  const container = document.getElementById("newsContainer");
+
+  if (generatedAtEl) generatedAtEl.textContent = "--";
+  if (dataRangeEl) dataRangeEl.textContent = "--";
+  if (visibleCountEl) visibleCountEl.textContent = "0";
+
   if (briefList) {
     briefList.innerHTML = "<li>讀取 summary 失敗。</li>";
   }
 
-  const container = document.getElementById("newsContainer");
   if (container) {
     container.innerHTML = `
       <div class="empty">
@@ -334,22 +262,24 @@ async function loadNews() {
     console.log("APP_VERSION:", APP_VERSION);
 
     const url = "data/news.json?ts=" + Date.now();
-    console.log("Loading news from:", url);
+    const response = await fetch(url);
 
-    const res = await fetch(url);
-
-    if (!res.ok) {
-      throw new Error("Cannot load data/news.json, status=" + res.status);
+    if (!response.ok) {
+      throw new Error("Cannot load data/news.json, status=" + response.status);
     }
 
-    const data = await res.json();
+    const data = await response.json();
 
     console.log("Loaded data/news.json:", data);
 
     allNews = Array.isArray(data.items) ? data.items : [];
     briefPoints = Array.isArray(data.brief_points) ? data.brief_points : [];
 
-    document.getElementById("generatedAt").textContent = data.generated_at || "--";
+    const generatedAtEl = document.getElementById("generatedAt");
+
+    if (generatedAtEl) {
+      generatedAtEl.textContent = data.generated_at || "--";
+    }
 
     updateDataRangeText();
     renderBrief();
@@ -380,3 +310,85 @@ document.getElementById("resetBtn").addEventListener("click", () => {
 });
 
 loadNews();
+
+const categoryOrder = [
+  "bond",
+  "equity",
+  "central_bank",
+  "economy",
+  "war",
+  "commodity",
+  "other",
+];
+
+const categoryNames = {
+  bond: "債市",
+  equity: "股市",
+  central_bank: "央行",
+  economy: "經濟",
+  war: "戰爭",
+  commodity: "商品",
+  other: "其他",
+};
+
+const categorySubtitles = {
+  bond: "利率、美債、殖利率、信用與債市政策",
+  equity: "股市、科技龍頭、AI 供應鏈與主要股指",
+  central_bank: "Fed、ECB、BOJ、BOE、PBOC 與央行政策",
+  economy: "CPI、PPI、PMI、GDP、就業、關稅與財政政策",
+  war: "戰爭、地緣政治、制裁與軍事衝突",
+  commodity: "原油、天然氣、黃金、銅與能源供應",
+  other: "其他重要市場訊息",
+};
+
+function normalizeCategory(value) {
+  const c = String(value || "").trim();
+
+  if (c === "bond" || c === "債市" || c === "债市") return "bond";
+  if (c === "equity" || c === "股市") return "equity";
+  if (c === "central_bank" || c === "央行") return "central_bank";
+  if (c === "economy" || c === "經濟" || c === "经济") return "economy";
+  if (c === "war" || c === "戰爭" || c === "战争" || c === "地緣政治" || c === "地缘政治") return "war";
+  if (c === "commodity" || c === "商品" || c === "能源" || c === "大宗商品") return "commodity";
+
+  return "other";
+}
+
+function parseDateTime(value) {
+  if (!value) return null;
+
+  const text = String(value).trim();
+  const date = new Date(text.replace(" ", "T"));
+
+  if (isNaN(date.getTime())) return null;
+
+  return date;
+}
+
+function pad(n) {
+  return String(n).padStart(2, "0");
+}
+
+function formatDisplayTime(date) {
+  if (!date || isNaN(date.getTime())) return "--";
+
+  return (
+    date.getFullYear() +
+    "-" +
+    pad(date.getMonth() + 1) +
+    "-" +
+    pad(date.getDate()) +
+    " " +
+    pad(date.getHours()) +
+    ":" +
+    pad(date.getMinutes())
+  );
+}
+
+function toDateTimeLocalValue(date) {
+  if (!date || isNaN(date.getTime())) return "";
+
+  return (
+    date.getFullYear() +
+    "-" +
+    pad(date.getMonth() + 1) +
