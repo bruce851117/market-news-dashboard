@@ -3,7 +3,7 @@ import os
 import re
 import time
 from pathlib import Path
-from datetime import datetime"from datetime import datetime
+from datetime import datetime
     prompt += "重要語言規則：\n"
     prompt += "1. 所有輸出內容一律使用繁體中文。\n"
     prompt += "2. 不要使用簡體中文。\n"
