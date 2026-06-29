@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-29 16:41",
+  "generated_at": "2026-06-29 16:44",
   "fetch_start_time": "2026-06-26 17:00",
-  "fetch_end_time": "2026-06-29 16:41",
+  "fetch_end_time": "2026-06-29 16:44",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
@@ -723,7 +723,7 @@
     {
       "datetime": "2026-06-29 13:54",
       "headline": "SK海力士转涨，此前一度跌近6%。",
-      "content": "相关文章： 韩国重磅芯片计划支撑市场，韩股收复跌幅，SK海力士转涨，油价一度回到70上方",
+      "content": "相关文章： 韩国重磅芯片计划支撑市场，美股盘前存储芯片股反弹，美光涨超2%，油价一度回到70上方",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -755,7 +755,7 @@
     {
       "datetime": "2026-06-29 13:42",
       "headline": "韩国首尔综指转涨，此前一度跌超3%，韩国政府宣布将在西南部建设四座芯片厂，投资约800万亿韩元。",
-      "content": "相关文章： 韩国重磅芯片计划支撑市场，韩股收复跌幅，SK海力士转涨，油价一度回到70上方",
+      "content": "相关文章： 韩国重磅芯片计划支撑市场，美股盘前存储芯片股反弹，美光涨超2%，油价一度回到70上方",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -1403,7 +1403,7 @@
     {
       "datetime": "2026-06-29 08:29",
       "headline": "韩国首尔综指日内跌幅扩大至3%，日经225指数跌1.1%。",
-      "content": "相关文章： 韩国重磅芯片计划支撑市场，韩股收复跌幅，SK海力士转涨，油价一度回到70上方",
+      "content": "相关文章： 韩国重磅芯片计划支撑市场，美股盘前存储芯片股反弹，美光涨超2%，油价一度回到70上方",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -1643,7 +1643,7 @@
     {
       "datetime": "2026-06-29 06:03",
       "headline": "布伦特原油期货周一亚市盘初涨1.9%，至每桶73.39美元；WTI原油期货接近每桶70美元。此前美伊停火协议陷入紧张状态。",
-      "content": "相关文章： 韩国重磅芯片计划支撑市场，韩股收复跌幅，SK海力士转涨，油价一度回到70上方",
+      "content": "相关文章： 韩国重磅芯片计划支撑市场，美股盘前存储芯片股反弹，美光涨超2%，油价一度回到70上方",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -3843,7 +3843,7 @@
     {
       "datetime": "2026-06-26 23:56",
       "headline": "SemiAnalysis：H100云端指数现货价格正在下跌，现在每小时2.42美元，比5月峰值低约40%。生态系统担心这表明计算需求以及由此延伸的人工智能AI需求正在减弱。",
-      "content": "重要的信号是，这很可能是一个现货价格指数，而不是期限定价。我们针对1年期H100合同价格的新云调查显示，该价格反而从去年末的大约每小时1.70美元的低谷攀升至如今的每小时约2.65美元。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.28\n-0.08\n(-0.08%)\n欧元/美元\nEURUSD.OTC\n1.1399\n+0.0016\n(+0.14%)\n美元/日元\nUSDJPY.OTC\n161.84\n+0.11\n(+0.07%)\n现货黄金\nXAUUSD.OTC\n4060.04\n-20.98\n(-0.51%)\nWTI原油\nUSCL.OTC\n70.06\n+0.83\n(+1.20%)\n离岸人民币\nUSDCNH.OTC\n6.7972\n-0.0076\n(-0.11%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
+      "content": "重要的信号是，这很可能是一个现货价格指数，而不是期限定价。我们针对1年期H100合同价格的新云调查显示，该价格反而从去年末的大约每小时1.70美元的低谷攀升至如今的每小时约2.65美元。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.29\n-0.07\n(-0.06%)\n欧元/美元\nEURUSD.OTC\n1.1397\n+0.0014\n(+0.12%)\n美元/日元\nUSDJPY.OTC\n161.85\n+0.12\n(+0.07%)\n现货黄金\nXAUUSD.OTC\n4055.52\n-25.50\n(-0.62%)\nWTI原油\nUSCL.OTC\n70.12\n+0.89\n(+1.29%)\n离岸人民币\nUSDCNH.OTC\n6.7972\n-0.0076\n(-0.11%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
