@@ -14,7 +14,7 @@ DATA_DIR = Path("data")
 RAW_INPUT = DATA_DIR / "raw_news.json"
 OUTPUT = DATA_DIR / "news.json"
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.1-flash-lite"
 
 CATEGORY_MAP = {
     "bond": "債市",
@@ -32,7 +32,6 @@ def log(msg):
 
 def safe_json_loads(text):
     text = text.strip()
-
     text = re.sub(r"^```json", "", text)
     text = re.sub(r"^```", "", text)
     text = re.sub(r"```$", "", text)
@@ -52,6 +51,17 @@ def chunk_items(items, chunk_size=25):
         yield items[i:i + chunk_size]
 
 
+def short_headline(headline):
+    headline = str(headline or "").strip()
+    headline = headline.replace("【", "").replace("】", "")
+    headline = re.sub(r"\s+", " ", headline)
+
+    if len(headline) > 30:
+        headline = headline[:30]
+
+    return headline
+
+
 def fallback_filter(items):
     output = []
 
@@ -60,7 +70,7 @@ def fallback_filter(items):
 
         category = "economy"
 
-        if any(k in text for k in ["美债", "美債", "国债", "國債", "收益率", "殖利率", "Treasury", "利率", "标售", "標售"]):
+        if any(k in text for k in ["美债", "美債", "国债", "國債", "收益率", "殖利率", "Treasury", "利率"]):
             category = "bond"
         elif any(k in text for k in ["Fed", "FOMC", "美联储", "聯準會", "ECB", "BOJ", "BOE", "PBOC", "央行", "降息", "升息", "加息"]):
             category = "central_bank"
@@ -71,17 +81,13 @@ def fallback_filter(items):
         elif any(k in text for k in ["原油", "油价", "油價", "天然气", "天然氣", "黄金", "黃金", "铜", "銅", "OPEC"]):
             category = "commodity"
 
-        headline = item.get("headline", "")
-        if len(headline) > 30:
-            headline = headline[:30] + "..."
-
         output.append({
             "datetime": item.get("datetime", ""),
             "category": category,
             "category_name": CATEGORY_MAP.get(category, category),
             "importance": 3,
-            "headline": headline,
-            "summary": item.get("content", "")[:120],
+            "headline": short_headline(item.get("headline", "")),
+            "summary": "",
             "tags": [],
             "source": item.get("source", "華爾街見聞"),
             "url": item.get("url", "https://wallstreetcn.com/live/global"),
@@ -102,26 +108,35 @@ def build_prompt(batch):
         "1. 你會看到完整快訊資料，請自行判斷哪些新聞重要、哪些新聞不重要。",
         "2. 刪除不重要資訊，不要輸出那些新聞。",
         "3. 保留對利率、債市、股市、央行政策、總經數據、戰爭地緣政治、商品能源有影響的消息。",
-        "4. 將新聞分類成以下其中一類：",
-        "   - bond：債市、利率、美債、殖利率、信用、財政部標售",
-        "   - equity：股市、重大企業財報、科技龍頭、AI供應鏈、主要股指",
-        "   - central_bank：Fed、ECB、BOJ、BOE、PBOC、央行官員談話、升降息",
-        "   - economy：CPI、PPI、PMI、GDP、就業、薪資、消費、貿易、財政政策、關稅",
-        "   - war：戰爭、地緣政治、制裁、中東、俄烏、台海、軍事衝突",
-        "   - commodity：原油、天然氣、黃金、銅、農產品、能源供應",
         "",
-        "5. 每則新聞給重要度 importance，1到5分：",
-        "   - 5：高度影響全球利率、股市、FX、油價，例如FOMC、CPI、重大就業數據、戰爭升級、重大央行政策",
-        "   - 4：重要市場新聞",
-        "   - 3：中等重要",
-        "   - 2：低重要但仍可保留",
-        "   - 1：通常應刪除",
+        "請特別刪除以下類型新聞：",
+        "A. 純描述價格走勢、但沒有政策、數據、事件或風險原因的新聞。",
+        "   例如：中國國債期貨早盤全線收漲、日本10年期國債收益率上升5個基點、美股期貨小幅走高。",
+        "B. 一般性債券發行、金融債發行、農發行/國開行/進出口行發債、地方債發行等例行發債消息。",
+        "   例如：農發行發行1、2年期債券，規模共110億元。",
+        "C. 體育、娛樂、地方社會新聞、無市場影響的小型個股消息。",
         "",
-        "6. summary 使用繁體中文，不超過80字，要站在交易員角度描述市場意義。",
-        "7. headline 請簡化成大約30個中文字以內，保留市場重點，不要扭曲原意。",
-        "8. tags 用英文或常用市場代號，例如 Fed、UST、CPI、Oil、ECB、China、A-share、AI。",
-        "9. 如果新聞不重要，請不要輸出該則新聞。",
-        "10. 請務必只輸出 JSON array，不要加解釋，不要 markdown。",
+        "分類只能使用以下其中一類：",
+        "- bond：債市、利率、美債、殖利率、信用、重要財政部標售或債市政策",
+        "- equity：股市、重大企業財報、科技龍頭、AI供應鏈、主要股指",
+        "- central_bank：Fed、ECB、BOJ、BOE、PBOC、央行官員談話、升降息",
+        "- economy：CPI、PPI、PMI、GDP、就業、薪資、消費、貿易、財政政策、關稅",
+        "- war：戰爭、地緣政治、制裁、中東、俄烏、台海、軍事衝突",
+        "- commodity：原油、天然氣、黃金、銅、農產品、能源供應",
+        "",
+        "每則新聞給 importance，1到5分：",
+        "- 5：高度影響全球利率、股市、FX、油價，例如FOMC、CPI、重大就業數據、戰爭升級、重大央行政策",
+        "- 4：重要市場新聞",
+        "- 3：中等重要",
+        "- 2：低重要但仍可保留",
+        "- 1：通常應刪除",
+        "",
+        "輸出要求：",
+        "1. headline 請簡化成30個中文字以內，保留市場重點，不要扭曲原意。",
+        "2. summary 可以留空字串，但欄位必須存在。",
+        "3. tags 用英文或常用市場代號，例如 Fed、UST、CPI、Oil、ECB、China、A-share、AI。",
+        "4. 如果新聞不重要，請不要輸出該則新聞。",
+        "5. 請務必只輸出 JSON array，不要加解釋，不要 markdown。",
         "",
         "輸出格式如下：",
         "[",
@@ -130,7 +145,7 @@ def build_prompt(batch):
         "    \"category\": \"bond\",",
         "    \"importance\": 5,",
         "    \"headline\": \"Fed釋出偏鷹訊號\",",
-        "    \"summary\": \"市場重新定價降息路徑，美債殖利率可能受壓。\",",
+        "    \"summary\": \"\",",
         "    \"tags\": [\"Fed\", \"UST\"],",
         "    \"source\": \"華爾街見聞\",",
         "    \"url\": \"https://wallstreetcn.com/live/global\"",
@@ -145,201 +160,3 @@ def build_prompt(batch):
 
 
 def summarize_with_gemini(items):
-    api_key = os.environ.get("GEMINI_API_KEY")
-
-    if not api_key:
-        raise RuntimeError("Missing GEMINI_API_KEY in GitHub Secrets")
-
-    client = genai.Client(api_key=api_key)
-
-    all_results = []
-
-    batches = list(chunk_items(items, 25))
-    total_batches = len(batches)
-
-    log(f"Total raw items sent to Gemini: {len(items)}")
-    log(f"Total Gemini batches: {total_batches}")
-
-    for batch_no, batch in enumerate(batches, start=1):
-        log(f"Summarizing batch {batch_no}/{total_batches}, items: {len(batch)}")
-
-        prompt = build_prompt(batch)
-
-        max_retries = 2
-
-        for attempt in range(1, max_retries + 1):
-            try:
-                response = client.models.generate_content(
-                    model=MODEL_NAME,
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        response_mime_type="application/json",
-                        temperature=0.2,
-                    ),
-                )
-
-                text = response.text
-                parsed = safe_json_loads(text)
-
-                if isinstance(parsed, list):
-                    all_results.extend(parsed)
-                    log(f"Batch {batch_no}/{total_batches} done. Returned items: {len(parsed)}")
-                    break
-                else:
-                    log(f"Batch {batch_no} returned non-list JSON.")
-
-            except Exception as e:
-                log(f"Batch {batch_no} attempt {attempt} failed: {e}")
-
-                if attempt < max_retries:
-                    log("Retrying after 5 seconds...")
-                    time.sleep(5)
-                else:
-                    log(f"Batch {batch_no} failed after retries. Skipping this batch.")
-
-    return all_results
-
-
-def normalize_results(results):
-    cleaned = []
-    valid_categories = set(CATEGORY_MAP.keys())
-
-    for item in results:
-        if not isinstance(item, dict):
-            continue
-
-        category = item.get("category", "economy")
-
-        if category not in valid_categories:
-            category = "economy"
-
-        importance = item.get("importance", 3)
-
-        try:
-            importance = int(importance)
-        except Exception:
-            importance = 3
-
-        importance = max(1, min(5, importance))
-
-        tags = item.get("tags", [])
-
-        if not isinstance(tags, list):
-            tags = []
-
-        headline = item.get("headline", "").strip()
-
-        if len(headline) > 34:
-            headline = headline[:34] + "..."
-
-        cleaned.append({
-            "datetime": item.get("datetime", "").strip(),
-            "category": category,
-            "category_name": CATEGORY_MAP.get(category, category),
-            "importance": importance,
-            "headline": headline,
-            "summary": item.get("summary", "").strip(),
-            "tags": tags,
-            "source": item.get("source", "華爾街見聞"),
-            "url": item.get("url", "https://wallstreetcn.com/live/global"),
-        })
-
-    cleaned = [
-        x for x in cleaned
-        if x["datetime"] and x["headline"]
-    ]
-
-    seen = set()
-    unique = []
-
-    for item in cleaned:
-        key = (item["datetime"], item["headline"])
-
-        if key in seen:
-            continue
-
-        seen.add(key)
-        unique.append(item)
-
-    unique.sort(key=lambda x: x["datetime"], reverse=True)
-
-    return unique
-
-
-def main():
-    log("========== Summarize Start ==========")
-
-    if not RAW_INPUT.exists():
-        raise FileNotFoundError("data/raw_news.json not found. Please run crawler.py first.")
-
-    raw = json.loads(RAW_INPUT.read_text(encoding="utf-8"))
-    items = raw.get("items", [])
-
-    log(f"Loaded raw items: {len(items)}")
-    log("No prefilter is applied. All raw items will be sent to Gemini in batches.")
-
-    if len(items) == 0:
-        log("No raw items found. Writing empty news.json.")
-
-        output = {
-            "generated_at": datetime.now(TZ).strftime("%Y-%m-%d %H:%M"),
-            "timezone": "Asia/Taipei",
-            "source": "https://wallstreetcn.com/live/global",
-            "fetch_start_time": raw.get("fetch_start_time", ""),
-            "fetch_end_time": raw.get("fetch_end_time", ""),
-            "raw_count": 0,
-            "count": 0,
-            "categories": CATEGORY_MAP,
-            "items": [],
-        }
-
-        OUTPUT.write_text(
-            json.dumps(output, ensure_ascii=False, indent=2),
-            encoding="utf-8",
-        )
-
-        log("Saved empty summarized news.")
-        return
-
-    try:
-        log("Calling Gemini...")
-        results = summarize_with_gemini(items)
-        results = normalize_results(results)
-        log(f"Gemini summarized items: {len(results)}")
-
-    except Exception as e:
-        log(f"Gemini failed, using fallback filter. Error: {e}")
-        results = fallback_filter(items)
-        results = normalize_results(results)
-        log(f"Fallback summarized items: {len(results)}")
-
-    now = datetime.now(TZ).strftime("%Y-%m-%d %H:%M")
-
-    output = {
-        "generated_at": now,
-        "timezone": "Asia/Taipei",
-        "source": "https://wallstreetcn.com/live/global",
-        "fetch_start_time": raw.get("fetch_start_time", ""),
-        "fetch_end_time": raw.get("fetch_end_time", ""),
-        "raw_count": raw.get("count", len(items)),
-        "count": len(results),
-        "categories": CATEGORY_MAP,
-        "items": results,
-    }
-
-    OUTPUT.write_text(
-        json.dumps(output, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-
-    log("========== Summarize Finished ==========")
-    log(f"Saved summarized news to: {OUTPUT}")
-    log(f"Final summarized items: {len(results)}")
-
-    if results:
-        log("Latest summarized item:")
-        log(json.dumps(results[0], ensure_ascii=False, indent=2))
-
-
-if __name__ == "__main__":
-    main()
