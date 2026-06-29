@@ -10,7 +10,7 @@
   <header class="header">
     <div>
       <h1>Market News Dashboard</h1>
-      <p>華爾街見聞快訊｜AI 過濾｜債市・股市・央行・經濟・戰爭・商品</p>
+      <p>華爾街見聞快訊｜AI 過濾｜分類晨報</p>
     </div>
     <div class="meta">
       <div>更新時間</div>
@@ -35,22 +35,13 @@
     </div>
   </section>
 
-  <section class="category-filter">
-    <label><input type="checkbox" value="bond" checked /> 債市</label>
-    <label><input type="checkbox" value="equity" checked /> 股市</label>
-    <label><input type="checkbox" value="central_bank" checked /> 央行</label>
-    <label><input type="checkbox" value="economy" checked /> 經濟</label>
-    <label><input type="checkbox" value="war" checked /> 戰爭</label>
-    <label><input type="checkbox" value="commodity" checked /> 商品</label>
-  </section>
-
   <section class="summary-bar">
     <div>
       <span class="label">目前顯示</span>
       <strong id="visibleCount">0</strong>
-      <span>則新聞</span>
+      <span>則重要新聞</span>
     </div>
-    <button id="resetBtn">重設篩選</button>
+    <button id="resetBtn">重設時間與搜尋</button>
   </section>
 
   <main id="newsContainer" class="news-container"></main>
