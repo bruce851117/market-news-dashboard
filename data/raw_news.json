@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-29 17:16",
+  "generated_at": "2026-06-29 17:24",
   "fetch_start_time": "2026-06-26 17:00",
-  "fetch_end_time": "2026-06-29 17:16",
+  "fetch_end_time": "2026-06-29 17:24",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v5",
-  "count": 501,
+  "count": 521,
   "items": [
+    {
+      "datetime": "2026-06-29 17:23",
+      "headline": "【莲花控股：本月算力业务回款共计280.21万元】",
+      "content": "公司于2023年11月29日收到中国证券监督管理委员会河南监管局《关于对莲花健康产业集团股份有限公司采取出具警示函及责令公开说明措施的决定》。现根据《决定书》的要求对公司本月算力业务相关进展情况进行说明。截至2026年6月28日，根据莲花紫星、新疆莲花紫星、紫星探索前期签订的算力服务合同及软件服务合同，本月回款共计280.21万元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 17:23",
+      "headline": "【国务院：推进人工智能全学段教育 提升学生人工智能素养】",
+      "content": "国务院日前印发《教育发展“十五五”规划》，对“十五五”时期加快建设教育强国作出部署。规划提出，着力提升学生能力素养。深入实施素质教育。完善科学教育体系，加强青少年科学素养、批判性思维和创新能力培养，强化科技教育和人文教育协同。推进人工智能全学段教育，提升学生人工智能素养，增强提出问题、解决问题的能力。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 17:17",
+      "headline": "【上海超硅科创板IPO审核状态变更为“已问询”】",
+      "content": "上海超硅半导体股份有限公司科创板IPO审核状态变更为“已问询”，保荐机构为长江保荐。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-29 17:13",
       "headline": "腾讯控股：于6月29日回购了价值5.01亿港元的股份。",
@@ -4003,7 +4027,143 @@
     {
       "datetime": "2026-06-26 23:54",
       "headline": "美国总统特朗普谈及伊朗：伊朗向至少四架穿越霍尔木兹海峡的船只发射了自杀式无人机（单向攻击无人机）。",
-      "content": "其中一架无人机击中了一艘货船的上层甲板，美国击落了另外三架无人机。\n这是对我们停火协议的愚蠢违反。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.28\n-0.07\n(-0.07%)\n欧元/美元\nEURUSD.OTC\n1.1399\n+0.0016\n(+0.14%)\n美元/日元\nUSDJPY.OTC\n161.84\n+0.11\n(+0.07%)\n现货黄金\nXAUUSD.OTC\n4053.14\n-27.88\n(-0.68%)\nWTI原油\nUSCL.OTC\n70.00\n+0.77\n(+1.11%)\n离岸人民币\nUSDCNH.OTC\n6.7963\n-0.0085\n(-0.12%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
+      "content": "其中一架无人机击中了一艘货船的上层甲板，美国击落了另外三架无人机。\n这是对我们停火协议的愚蠢违反。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 23:48",
+      "headline": "SemiAnalysis：我们相信中国的刻蚀本地化进程比沉积更快。前端进口数据显示，刻蚀同比下降18%，而沉积同比增长3%。",
+      "content": "全球蚀刻行业现任企业的财务数据传达了同样的信息，AMAT（应用材料） 在FY25财年的中国收入同比下降16%，TEL（泰科电子）在FY26财年的中国收入同比下降18%。\n我们将Naura视为关键驱动力。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 23:31",
+      "headline": "【德国股市周五收跌约1.3%，本周意大利股指跌约3%、英国股指涨约1.4%】",
+      "content": "欧洲STOXX 600指数收跌0.68%，报635.88点，本周累计上涨超过0.04%，延续上周涨0.38%的表现。\n德国DAX 30指数收跌1.29%，报24671.22点，本周累跌将近1.26%。\n法国CAC 40指数收跌0.55%，报8384.87点，本周累涨超0.74%。\n意大利富时MIB指数收跌1.00%，报51265.35点，本周累跌超2.99%。\n英国富时100指数收跌0.21%，报10508.02点，本周累涨超1.39%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 23:30",
+      "headline": "【美联储卡什卡利改变展望：预计今年将加息一次】",
+      "content": "美国明尼阿波利斯联储主席卡什卡利（Neel Kashkari）说，目前预计2026年将加息一次，2027年利率将维持不变。“在3月份，我原本预计年底前会降息一次。到了6月份，我已经将其调整为年底前加息一次。”\n我们需要看看没有前瞻指引的效果如何。\n相关文章： 由鸽转鹰，美联储卡什卡利：通胀高企，预计今年加息一次",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 23:18",
+      "headline": "伊朗和阿曼海关负责人提议：成立联合委员会以落实海关协议。（伊朗媒体IRNA）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 23:15",
+      "headline": "业内观察人士预计，在下个月于安卡拉举行的北约（NATO）会议之后，哪些国家可能支持“防务、安全与韧性银行”（Defence, Security and Resilience Bank）将会变得更加明朗。（路透）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 23:14",
+      "headline": "【加拿大总理宣布：卢森堡将成为新多边防务银行的欧洲总部】",
+      "content": "加拿大总理马克·卡尼表示，卢森堡将成为一家新的多边防务银行的欧洲总部，而该银行的总行将设在加拿大。\n目前有五个加拿大城市正在竞争承办由卡尼倡导的“防务、安全与韧性银行”（Defence, Security and Resilience Bank）。该银行旨在筹集1350亿美元资金，用于资助防务项目，特别是为那些难以获得低成本融资的国家提供支持。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 23:10",
+      "headline": "布伦特原油日内跌幅达4.5%，报72.06美元/桶；WTI原油日内跌幅达4.5%，报68.64美元/桶。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 23:08",
+      "headline": "【机构：霍尔木兹化肥运输回升，但恢复至战前水平仍需时日】",
+      "content": "Argus数据显示，自6月15日华盛顿与德黑兰宣布达成协议以来，约64万吨硫磺已通过该海峡运往印尼、摩洛哥、坦桑尼亚等地，而长达三个半月的战争期间仅为8万吨。CRU数据显示，同期约42.7万吨尿素通过该海峡，高于战争期间的27.5万吨。磷酸盐和氨等其他化肥及原料运输量也有所增加。\n但目前仍有超过500艘船只滞留在波斯湾，尽管近期航运量回升，但仍远低于战前日均约125艘的水平。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 23:01",
+      "headline": "【内盘期货夜市涨跌各异】",
+      "content": "焦炭夜盘收涨1.21%，焦煤涨1.13%，玉米淀粉、菜粕、豆二、玉米、玻璃、白糖、菜油、豆油至多涨0.92%，铁矿石、棉纱、豆粕、甲醇、棉花至多涨0.54%，LPG、棕榈油、PTA、豆一至多涨0.22%。\n热卷夜盘收平，乙二醇、螺纹钢、丙烯、短纤、塑料、聚丙烯、对二甲苯、瓶片、纸浆、沥青、橡胶至多收跌0.42%，纯苯、烧碱、粳米、低硫燃油至多跌0.80%，纯碱、苯乙烯至多跌0.98%，PVC跌1.08%，20号胶、燃油至多跌1.54%，合成橡胶跌2.41%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 22:59",
+      "headline": "【受权发布｜全国人民代表大会常务委员会关于批准2025年中央决算的决议】",
+      "content": "第十四届全国人民代表大会常务委员会第二十三次会议听取了财政部部长蓝佛安受国务院委托作的《国务院关于2025年中央决算的报告》和审计署审计长侯凯受国务院委托作的《国务院关于2025年度中央预算执行和其他财政收支的审计工作报告》。会议结合审议审计工作报告，对2025年中央决算草案和中央决算报告进行了审查。会议同意全国人民代表大会财政经济委员会提出的审查结果报告，决定批准2025年中央决算。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 22:58",
+      "headline": "【南非总统呼吁积极推进南部非洲区域一体化】",
+      "content": "南非总统拉马福萨26日在南非立法首都开普敦表示，南部非洲国家应积极推进区域一体化，增强经济韧性，携手迈向共同繁荣。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 22:58",
+      "headline": "阿曼告诉盟友们：船只通过霍尔木兹海峡可能不得不付费。（彭博）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 22:50",
+      "headline": "美国上诉法院裁决：驳回环保局（EPA）要求撤销2024年针对发电厂和工厂的烟尘排放限值的请求。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 22:42",
+      "headline": "【继瑞银、摩根大通、美银、高盛、大摩之后，巴克莱也下调油价预期】",
+      "content": "巴克莱银行：下调布伦特原油价格预测，将2026年的预期从每桶100美元下调至96美元，2027年的预期从88美元下调至85美元，理由是霍尔木兹海峡的石油运输正在恢复。\n霍尔木兹海峡的石油流量已大幅回升，达到战前水平的约80%。然而，这种正常化进程尚不完整。该行表示，伊朗通过征收费用和协调机制来主张控制权，这制造了摩擦，并可能给全面恢复带来潜在的延误。\n上周达成的一项旨在结束美以针对伊朗战争的临时协议，已经允许霍尔木兹海峡航运路线的交通得以恢复。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 22:41",
+      "headline": "【特朗普前国家安全事务助理认罪】",
+      "content": "美国总统特朗普第一个总统任期时的国家安全事务助理博尔顿今天（6月26日）在联邦法院承认一项非法保留国家安全信息的罪名。（CCTV国际时讯）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 22:40",
+      "headline": "美股盘初，主要行业ETF涨跌不一，医疗业ETF涨近3%，生物科技指数ETF涨超2%，半导体ETF跌超3%，科技行业ETF跌1.5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-26 22:40",
+      "headline": "伊拉克石油部：石油输出国组织（OPEC，欧佩克）已开始逐步恢复伊拉克在战前的产量配额，此举将加强伊拉克的生产能力，并支持石油行业的复苏。",
+      "content": "OPEC内部已达成高层共识，充分考虑了伊拉克过去的特殊处境以及当前的实际需求。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.29\n-0.07\n(-0.07%)\n欧元/美元\nEURUSD.OTC\n1.1397\n+0.0014\n(+0.12%)\n美元/日元\nUSDJPY.OTC\n161.87\n+0.14\n(+0.09%)\n现货黄金\nXAUUSD.OTC\n4046.59\n-34.43\n(-0.84%)\nWTI原油\nUSCL.OTC\n70.21\n+0.98\n(+1.42%)\n离岸人民币\nUSDCNH.OTC\n6.7967\n-0.0081\n(-0.12%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
