@@ -96,13 +96,13 @@ def fallback_filter(items):
     return output
 
 
-def build_prompt(batch):
+def build_news_prompt(batch):
     batch_json = json.dumps(batch, ensure_ascii=False)
 
     prompt_lines = [
         "你是一位全球總體經濟、利率、外匯與股票市場策略分析師，使用者是一位債券/股票交易員。",
         "",
-        "請閱讀以下華爾街見聞快訊，幫我做交易員版本的資訊整理。語言請使用繁體中文",
+        "請閱讀以下華爾街見聞快訊，幫我做交易員版本的資訊整理。",
         "",
         "任務：",
         "1. 你會看到完整快訊資料，請自行判斷哪些新聞重要、哪些新聞不重要。",
@@ -132,7 +132,7 @@ def build_prompt(batch):
         "- 1：通常應刪除",
         "",
         "輸出要求：",
-        "1. headline 請簡化成30個中文字以內，保留市場重點，不要扭曲原意。請幫我用繁體中文呈現",
+        "1. headline 請簡化成30個中文字以內，保留市場重點，不要扭曲原意。",
         "2. summary 請留空字串，但欄位必須存在。",
         "3. tags 用英文或常用市場代號，例如 Fed、UST、CPI、Oil、ECB、China、A-share、AI。",
         "4. 如果新聞不重要，請不要輸出該則新聞。",
@@ -159,6 +159,36 @@ def build_prompt(batch):
     return "\n".join(prompt_lines)
 
 
+def build_brief_prompt(items):
+    items_json = json.dumps(items, ensure_ascii=False)
+
+    prompt_lines = [
+        "你是一位全球總體經濟、利率、外匯與股票市場策略分析師，使用者是一位債券/股票交易員。",
+        "",
+        "以下是已經篩選過的重要市場新聞。請你將這些新聞整理成交易員早上可以快速閱讀的重點摘要。",
+        "",
+        "請依照以下規則：",
+        "1. 請輸出5到10點。",
+        "2. 使用繁體中文。",
+        "3. 每點不超過45個中文字。",
+        "4. 請聚焦市場意義，不要只是複製標題。",
+        "5. 優先整理對利率、股市、央行、總經、戰爭地緣政治、商品能源影響最大的重點。",
+        "6. 不要輸出不重要、重複或純價格波動資訊。",
+        "7. 請務必只輸出 JSON array of strings，不要加解釋，不要 markdown。",
+        "",
+        "輸出格式如下：",
+        "[",
+        "  \"Fed官員偏鷹，短端利率降息定價可能受壓。\",",
+        "  \"中東風險升溫，油價風險溢價仍需關注。\"",
+        "]",
+        "",
+        "以下是重要新聞：",
+        items_json,
+    ]
+
+    return "\n".join(prompt_lines)
+
+
 def summarize_with_gemini(items):
     api_key = os.environ.get("GEMINI_API_KEY")
 
@@ -178,7 +208,7 @@ def summarize_with_gemini(items):
     for batch_no, batch in enumerate(batches, start=1):
         log(f"Summarizing batch {batch_no}/{total_batches}, items: {len(batch)}")
 
-        prompt = build_prompt(batch)
+        prompt = build_news_prompt(batch)
         max_retries = 2
 
         for attempt in range(1, max_retries + 1):
@@ -192,8 +222,7 @@ def summarize_with_gemini(items):
                     ),
                 )
 
-                text = response.text
-                parsed = safe_json_loads(text)
+                parsed = safe_json_loads(response.text)
 
                 if isinstance(parsed, list):
                     all_results.extend(parsed)
@@ -212,6 +241,98 @@ def summarize_with_gemini(items):
                     log(f"Batch {batch_no} failed after retries. Skipping this batch.")
 
     return all_results
+
+
+def generate_brief_points(items):
+    api_key = os.environ.get("GEMINI_API_KEY")
+
+    if not api_key:
+        raise RuntimeError("Missing GEMINI_API_KEY in GitHub Secrets")
+
+    if not items:
+        return []
+
+    client = genai.Client(api_key=api_key)
+
+    # 只拿最重要的新聞給 Gemini 做總結，避免太長
+    sorted_items = sorted(
+        items,
+        key=lambda x: (int(x.get("importance", 3)), x.get("datetime", "")),
+        reverse=True,
+    )
+
+    brief_source_items = sorted_items[:80]
+
+    prompt = build_brief_prompt(brief_source_items)
+
+    log(f"Generating brief points from {len(brief_source_items)} important items...")
+
+    max_retries = 2
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            response = client.models.generate_content(
+                model=MODEL_NAME,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    temperature=0.2,
+                ),
+            )
+
+            parsed = safe_json_loads(response.text)
+
+            if isinstance(parsed, list):
+                points = []
+
+                for x in parsed:
+                    if isinstance(x, str):
+                        text = x.strip()
+                    elif isinstance(x, dict):
+                        text = str(x.get("point", "")).strip()
+                    else:
+                        text = ""
+
+                    if text:
+                        points.append(text)
+
+                points = points[:10]
+
+                log(f"Brief points generated: {len(points)}")
+                return points
+
+            log("Brief response is not a list.")
+
+        except Exception as e:
+            log(f"Brief attempt {attempt} failed: {e}")
+
+            if attempt < max_retries:
+                log("Retrying brief after 5 seconds...")
+                time.sleep(5)
+
+    log("Brief generation failed. Using fallback brief.")
+    return fallback_brief_points(items)
+
+
+def fallback_brief_points(items):
+    if not items:
+        return []
+
+    sorted_items = sorted(
+        items,
+        key=lambda x: (int(x.get("importance", 3)), x.get("datetime", "")),
+        reverse=True,
+    )
+
+    points = []
+
+    for item in sorted_items[:10]:
+        headline = short_headline(item.get("headline", ""))
+        category_name = item.get("category_name", "")
+        point = category_name + "：" + headline
+        points.append(point)
+
+    return points[:10]
 
 
 def normalize_results(results):
@@ -301,6 +422,7 @@ def main():
             "raw_count": 0,
             "count": 0,
             "categories": CATEGORY_MAP,
+            "brief_points": [],
             "items": [],
         }
 
@@ -313,7 +435,7 @@ def main():
         return
 
     try:
-        log("Calling Gemini...")
+        log("Calling Gemini for classified news...")
         results = summarize_with_gemini(items)
         results = normalize_results(results)
         log(f"Gemini summarized items: {len(results)}")
@@ -323,6 +445,12 @@ def main():
         results = fallback_filter(items)
         results = normalize_results(results)
         log(f"Fallback summarized items: {len(results)}")
+
+    try:
+        brief_points = generate_brief_points(results)
+    except Exception as e:
+        log(f"Brief generation failed, using fallback. Error: {e}")
+        brief_points = fallback_brief_points(results)
 
     now = datetime.now(TZ).strftime("%Y-%m-%d %H:%M")
 
@@ -335,6 +463,7 @@ def main():
         "raw_count": raw.get("count", len(items)),
         "count": len(results),
         "categories": CATEGORY_MAP,
+        "brief_points": brief_points,
         "items": results,
     }
 
@@ -346,6 +475,11 @@ def main():
     log("========== Summarize Finished ==========")
     log(f"Saved summarized news to: {OUTPUT}")
     log(f"Final summarized items: {len(results)}")
+    log(f"Brief points: {len(brief_points)}")
+
+    if brief_points:
+        log("Brief preview:")
+        log(json.dumps(brief_points, ensure_ascii=False, indent=2))
 
     if results:
         log("Latest summarized item:")

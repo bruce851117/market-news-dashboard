@@ -1,4 +1,5 @@
 let allNews = [];
+let briefPoints = [];
 
 const categoryOrder = [
   "bond",
@@ -124,6 +125,22 @@ function updateDataRangeText() {
     formatDisplayTime(minMax.max);
 }
 
+function renderBrief() {
+  const briefList = document.getElementById("briefList");
+
+  if (!briefList) return;
+
+  if (!briefPoints || briefPoints.length === 0) {
+    briefList.innerHTML = "<li>目前沒有可顯示的重點摘要。</li>";
+    return;
+  }
+
+  briefList.innerHTML = briefPoints
+    .slice(0, 10)
+    .map((point) => `<li>${escapeHtml(point)}</li>`)
+    .join("");
+}
+
 function resetFiltersToDataRange() {
   const minMax = getMinMaxNewsTime(allNews);
 
@@ -170,7 +187,6 @@ function renderNews() {
     return true;
   });
 
-  // 全局由舊到新排序
   filtered.sort((a, b) => {
     const da = parseDateTime(a.datetime);
     const db = parseDateTime(b.datetime);
@@ -205,7 +221,6 @@ function renderNews() {
     grouped[category].push(item);
   });
 
-  // 每個分類 block 內由舊到新排序
   Object.keys(grouped).forEach((category) => {
     grouped[category].sort((a, b) => {
       const da = parseDateTime(a.datetime);
@@ -264,10 +279,12 @@ async function loadNews() {
     const data = await res.json();
 
     allNews = data.items || [];
+    briefPoints = data.brief_points || [];
 
     document.getElementById("generatedAt").textContent = data.generated_at || "--";
 
     updateDataRangeText();
+    renderBrief();
 
     if (allNews.length === 0) {
       document.getElementById("visibleCount").textContent = "0";
@@ -290,6 +307,9 @@ async function loadNews() {
         請確認 GitHub Actions 已成功執行，且 repo 裡存在 data/news.json。
       </div>
     `;
+
+    document.getElementById("briefList").innerHTML =
+      "<li>讀取 summary 失敗。</li>";
   }
 }
 
