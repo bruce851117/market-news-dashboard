@@ -23,6 +23,24 @@ function parseDateTime(s) {
   return new Date(String(s).replace(" ", "T"));
 }
 
+function formatDisplayTime(date) {
+  if (!date || isNaN(date.getTime())) return "--";
+
+  const pad = (n) => String(n).padStart(2, "0");
+
+  return (
+    date.getFullYear() +
+    "-" +
+    pad(date.getMonth() + 1) +
+    "-" +
+    pad(date.getDate()) +
+    " " +
+    pad(date.getHours()) +
+    ":" +
+    pad(date.getMinutes())
+  );
+}
+
 function toDateTimeLocalValue(date) {
   if (!date || isNaN(date.getTime())) return "";
 
@@ -80,6 +98,37 @@ function getMinMaxNewsTime(items) {
   };
 }
 
+function updateDataRangeText() {
+  const minMax = getMinMaxNewsTime(allNews);
+  const el = document.getElementById("dataRange");
+
+  if (!el) return;
+
+  if (!minMax.min || !minMax.max) {
+    el.textContent = "底層資料時間範圍：--";
+    return;
+  }
+
+  el.textContent =
+    "底層資料時間範圍：" +
+    formatDisplayTime(minMax.min) +
+    " ～ " +
+    formatDisplayTime(minMax.max);
+}
+
+function resetFiltersToDataRange() {
+  const minMax = getMinMaxNewsTime(allNews);
+
+  document.getElementById("keyword").value = "";
+
+  if (minMax.min && minMax.max) {
+    document.getElementById("startTime").value = toDateTimeLocalValue(minMax.min);
+    document.getElementById("endTime").value = toDateTimeLocalValue(minMax.max);
+  }
+
+  renderNews();
+}
+
 function renderNews() {
   const container = document.getElementById("newsContainer");
   const startValue = document.getElementById("startTime").value;
@@ -119,7 +168,7 @@ function renderNews() {
     container.innerHTML = `
       <div class="empty">
         沒有符合條件的新聞。<br/>
-        請先確認 data/news.json 是否有 items，或按「重設時間與搜尋」。
+        目前底層資料時間範圍請看上方說明，或按「重設時間與搜尋」。
       </div>
     `;
     return;
@@ -190,6 +239,8 @@ async function loadNews() {
 
     document.getElementById("generatedAt").textContent = data.generated_at || "--";
 
+    updateDataRangeText();
+
     if (allNews.length === 0) {
       document.getElementById("visibleCount").textContent = "0";
       document.getElementById("newsContainer").innerHTML = `
@@ -201,18 +252,7 @@ async function loadNews() {
       return;
     }
 
-    const minMax = getMinMaxNewsTime(allNews);
-
-    const startFromJson = data.fetch_start_time ? parseDateTime(data.fetch_start_time) : null;
-    const endFromJson = data.fetch_end_time ? parseDateTime(data.fetch_end_time) : null;
-
-    const start = startFromJson || minMax.min;
-    const end = endFromJson || minMax.max || new Date();
-
-    document.getElementById("startTime").value = toDateTimeLocalValue(start);
-    document.getElementById("endTime").value = toDateTimeLocalValue(end);
-
-    renderNews();
+    resetFiltersToDataRange();
   } catch (err) {
     console.error(err);
 
@@ -230,16 +270,7 @@ document.getElementById("endTime").addEventListener("change", renderNews);
 document.getElementById("keyword").addEventListener("input", renderNews);
 
 document.getElementById("resetBtn").addEventListener("click", () => {
-  document.getElementById("keyword").value = "";
-
-  if (allNews.length > 0) {
-    const minMax = getMinMaxNewsTime(allNews);
-
-    document.getElementById("startTime").value = toDateTimeLocalValue(minMax.min);
-    document.getElementById("endTime").value = toDateTimeLocalValue(minMax.max);
-  }
-
-  renderNews();
+  resetFiltersToDataRange();
 });
 
 loadNews();
