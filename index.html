@@ -1,43 +1,16 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <metaCount">0</strong>  <meta charset="UTF-8" />
-      <span>則重要新聞</span>
-    </section>
-
-    <section id="briefContainer" class="brief-card">
-      <div class="brief-header">
-        <div>
-          <div class="section-label">新聞 Summary</div>
-          <h2>今日重點摘要</h2>
-        </div>
-      </div>
-
-      <ol id="briefList" class="brief-list">
-        <li>Loading...</li>
-      </ol>
-    </section>
-
-    <section id="newsContainer" class="news-container">
-      <div class="empty">Loading...</div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    Source: WallstreetCN Live Global｜Summarized by Gemini
-  </footer>
-</body>
-</html>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Market News Dashboard</title>
-
   <link rel="stylesheet" href="styles.css" />
   <script src="app.js" defer></script>
 </head>
 
 <body>
   <header class="top-header">
-    <div class="header-content">
+    <div>
       <div class="eyebrow">AI Market Monitor</div>
       <h1>Market News Dashboard</h1>
       <p>華爾街見聞快訊｜Gemini 整理｜交易員版分類晨報</p>
@@ -55,9 +28,8 @@
         <div class="section-label">底層資料時間範圍</div>
         <div class="data-range-text" id="dataRange">--</div>
       </div>
-
       <div class="data-range-note">
-        按「重設時間與搜尋」會自動恢復為目前 data/news.json 的完整時間範圍
+        按「重設時間與搜尋」會恢復完整資料時間範圍
       </div>
     </section>
 
@@ -84,3 +56,29 @@
 
     <section class="status-card">
       <span>目前顯示</span>
+      <strong id="visibleCount">0</strong>
+      <span>則重要新聞</span>
+    </section>
+
+    <section class="brief-card">
+      <div class="brief-header">
+        <div>
+          <div class="section-label">新聞 Summary</div>
+          <h2>今日重點摘要</h2>
+        </div>
+      </div>
+      <ol id="briefList" class="brief-list">
+        <li>Loading...</li>
+      </ol>
+    </section>
+
+    <section id="newsContainer" class="news-container">
+      <div class="empty">Loading...</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Source: WallstreetCN Live Global｜Summarized by Gemini
+  </footer>
+</body>
+</html>
