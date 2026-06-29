@@ -18,6 +18,15 @@ const categoryNames = {
   commodity: "商品",
 };
 
+const categorySubtitles = {
+  bond: "利率、美債、殖利率、信用與債市政策",
+  equity: "股市、科技龍頭、AI 供應鏈與主要股指",
+  central_bank: "Fed、ECB、BOJ、BOE、PBOC 與央行政策",
+  economy: "CPI、PPI、PMI、GDP、就業、關稅與財政政策",
+  war: "戰爭、地緣政治、制裁與軍事衝突",
+  commodity: "原油、天然氣、黃金、銅與能源供應",
+};
+
 function parseDateTime(s) {
   if (!s) return null;
   return new Date(String(s).replace(" ", "T"));
@@ -105,12 +114,11 @@ function updateDataRangeText() {
   if (!el) return;
 
   if (!minMax.min || !minMax.max) {
-    el.textContent = "底層資料時間範圍：--";
+    el.textContent = "--";
     return;
   }
 
   el.textContent =
-    "底層資料時間範圍：" +
     formatDisplayTime(minMax.min) +
     " ～ " +
     formatDisplayTime(minMax.max);
@@ -162,6 +170,13 @@ function renderNews() {
     return true;
   });
 
+  // 全局由舊到新排序
+  filtered.sort((a, b) => {
+    const da = parseDateTime(a.datetime);
+    const db = parseDateTime(b.datetime);
+    return da - db;
+  });
+
   document.getElementById("visibleCount").textContent = filtered.length;
 
   if (filtered.length === 0) {
@@ -190,6 +205,15 @@ function renderNews() {
     grouped[category].push(item);
   });
 
+  // 每個分類 block 內由舊到新排序
+  Object.keys(grouped).forEach((category) => {
+    grouped[category].sort((a, b) => {
+      const da = parseDateTime(a.datetime);
+      const db = parseDateTime(b.datetime);
+      return da - db;
+    });
+  });
+
   let html = "";
 
   categoryOrder.forEach((category) => {
@@ -202,12 +226,15 @@ function renderNews() {
     html += `
       <section class="category-block category-${category}">
         <div class="category-header">
-          <h2>${categoryNames[category] || category}</h2>
+          <div>
+            <h2>${categoryNames[category] || category}</h2>
+            <p>${categorySubtitles[category] || ""}</p>
+          </div>
           <span>${items.length} 則</span>
         </div>
 
-        <div class="compact-news-list">
-          ${items.map(renderCompactNewsItem).join("")}
+        <div class="timeline-list">
+          ${items.map(renderTimelineItem).join("")}
         </div>
       </section>
     `;
@@ -216,11 +243,12 @@ function renderNews() {
   container.innerHTML = html;
 }
 
-function renderCompactNewsItem(item) {
+function renderTimelineItem(item) {
   return `
-    <div class="compact-news-item importance-${item.importance || 3}">
-      <span class="compact-time">${escapeHtml(item.datetime)}</span>
-      <span class="compact-headline">${escapeHtml(shortHeadline(item.headline))}</span>
+    <div class="timeline-item importance-${item.importance || 3}">
+      <div class="timeline-dot"></div>
+      <div class="timeline-time">${escapeHtml(item.datetime)}</div>
+      <div class="timeline-headline">${escapeHtml(shortHeadline(item.headline))}</div>
     </div>
   `;
 }
