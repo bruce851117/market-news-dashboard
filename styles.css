@@ -4,35 +4,7 @@
 
 :root {
   --bg: #f4f6fa;
-  --panel: #ffffff;
-  --text: #111827;
-  --muted: #6b7280;
-  --line: #e5e7eb;
-  --dark: #0f172a;
-  --blue: #2563eb;
-  --red: #dc2626;
-  --purple: #7c3aed;
-  --green: #059669;
-  --amber: #d97706;
-  --gold: #ca8a04;
-  --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
-    "Microsoft JhengHei", sans-serif;
-  background: var(--bg);
-  color: var(--text);
-}
-
-/* Header */
-
-.top-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 24px;
+  --: 24px;  --panel: #ffffff;
   padding: 30px 40px;
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 65%, #334155 100%);
   color: #ffffff;
@@ -81,14 +53,10 @@ body {
   color: #ffffff;
 }
 
-/* Page */
-
 .page {
   width: min(1180px, calc(100% - 28px));
   margin: 20px auto 36px;
 }
-
-/* Data Range */
 
 .data-range-card {
   display: grid;
@@ -126,8 +94,6 @@ body {
   padding: 8px 12px;
   white-space: nowrap;
 }
-
-/* Filters */
 
 .filter-card {
   background: var(--panel);
@@ -193,8 +159,6 @@ input[type="text"]:focus {
   background: #020617;
 }
 
-/* Status */
-
 .status-card {
   display: inline-flex;
   align-items: baseline;
@@ -214,8 +178,6 @@ input[type="text"]:focus {
   font-size: 19px;
   font-weight: 900;
 }
-
-/* Brief */
 
 .brief-card {
   background: #ffffff;
@@ -258,8 +220,6 @@ input[type="text"]:focus {
   color: #2563eb;
   font-weight: 900;
 }
-
-/* News */
 
 .news-container {
   display: grid;
@@ -332,20 +292,16 @@ input[type="text"]:focus {
   color: var(--gold);
 }
 
-/* Timeline */
-
 .timeline-list {
   padding: 8px 18px 12px 18px;
 }
 
 .timeline-item {
-  position: relative;
   display: grid;
   grid-template-columns: 13px 138px 1fr;
   gap: 10px;
-  align-items: center;
-  min-height: 34px;
-  padding: 5px 0;
+  align-items: start;
+  padding: 9px 0;
   border-bottom: 1px solid #f1f5f9;
 }
 
@@ -358,6 +314,7 @@ input[type="text"]:focus {
   height: 8px;
   border-radius: 50%;
   background: #cbd5e1;
+  margin-top: 6px;
 }
 
 .timeline-item.importance-5 .timeline-dot {
@@ -385,23 +342,39 @@ input[type="text"]:focus {
   font-size: 12px;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+  padding-top: 2px;
+}
+
+.timeline-body {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
 }
 
 .timeline-headline {
   color: #111827;
   font-size: 14px;
-  font-weight: 650;
+  font-weight: 800;
   line-height: 1.45;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: normal;
+}
+
+.timeline-summary {
+  color: #334155;
+  font-size: 13px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.timeline-content {
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.45;
 }
 
 .timeline-item:hover .timeline-headline {
   color: #1d4ed8;
 }
-
-/* Empty / Footer */
 
 .empty {
   text-align: center;
@@ -421,8 +394,6 @@ input[type="text"]:focus {
   font-size: 12px;
   padding: 24px 12px 38px;
 }
-
-/* Mobile */
 
 @media (max-width: 900px) {
   .top-header {
@@ -456,49 +427,39 @@ input[type="text"]:focus {
   .timeline-item {
     grid-template-columns: 12px 1fr;
     gap: 8px;
-    align-items: start;
   }
 
   .timeline-time {
     grid-column: 2;
   }
 
-  .timeline-headline {
+  .timeline-body {
     grid-column: 2;
-    white-space: normal;
   }
 }
-
-
-.timeline-body {
-  display: grid;
-  gap: 4px;
-  min-width: 0;
+``
+  --text: #111827;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --dark: #0f172a;
+  --blue: #2563eb;
+  --red: #dc2626;
+  --purple: #7c3aed;
+  --green: #059669;
+  --amber: #d97706;
+  --gold: #ca8a04;
+  --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
 }
 
-.timeline-detail {
-  display: grid;
-  gap: 3px;
-  margin-top: 2px;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+    "Microsoft JhengHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
 }
 
-.timeline-summary {
-  color: #334155;
-  font-size: 13px;
-  line-height: 1.45;
-  font-weight: 600;
-}
-
-.timeline-content {
-  color: #64748b;
-  font-size: 12px;
-  line-height: 1.45;
-}
-
-.timeline-headline {
-  color: #111827;
-  font-size: 14px;
-  font-weight: 800;
-  line-height: 1.45;
-  white-space: normal;
-}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
