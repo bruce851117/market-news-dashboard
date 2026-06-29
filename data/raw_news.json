@@ -1,11 +1,25 @@
 {
-  "generated_at": "2026-06-29 14:38",
+  "generated_at": "2026-06-29 14:44",
   "fetch_start_time": "2026-06-26 17:00",
-  "fetch_end_time": "2026-06-29 14:38",
+  "fetch_end_time": "2026-06-29 14:44",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "count": 320,
   "items": [
+    {
+      "datetime": "2026-06-29 06:42",
+      "headline": "港股半导体板块午后震荡走强，兆易创新涨超14%，华虹宏力涨超8%，中芯国际涨超5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-29 06:39",
+      "headline": "【布局无人作战 英国修改驱逐舰更换方案】",
+      "content": "英国国防部28日说，将放弃更换老旧驱逐舰的原有方案，转而采购至少六艘“通用作战舰”，作为无人作战系统的指挥中枢。英国媒体报道，英国海军六艘45型驱逐舰计划于2038年年底前退役，政府原本打算采购新一代83型驱逐舰进行替换。不过，根据新版国防投资计划，替换舰艇改为混合动力通用作战舰，预计本世纪30年代初开始交付。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
     {
       "datetime": "2026-06-29 06:37",
       "headline": "外资周一净卖出价值7.7万亿韩元的韩国KOSPI股票，创历史最大单日净卖出规模。",
@@ -2228,21 +2242,7 @@
     {
       "datetime": "2026-06-26 22:44",
       "headline": "美国能源部助理部长Audrey Robertson鼓励行业聚焦技术创新，这将改变锂及其他关键矿物市场的运行逻辑。",
-      "content": "“我们今天加工锂的方式，不会是五年后的方式。”（路透）",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-26 22:44",
-      "headline": "澳大利亚最大独立锂生产商Pilbara Minerals首席执行官Dale Henderson：“政府愿意为供应安全付出多大代价？这需要支付相应的溢价，但目前尚未兑现。”",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-26 22:43",
-      "headline": "全球最大锂生产商美国雅宝（Albemarle）认为，其电池储能业务需求正稳步增长，与电动汽车需求的不规律形成反差。",
-      "content": "该公司首席商务官Eric Norris）表示：“电网储能在全球的分布更加均匀，这是一个很有意思的需求驱动因素。”（路透）\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.25\n-0.10\n(-0.10%)\n欧元/美元\nEURUSD.OTC\n1.1400\n+0.0017\n(+0.15%)\n美元/日元\nUSDJPY.OTC\n161.81\n+0.08\n(+0.05%)\n现货黄金\nXAUUSD.OTC\n4057.31\n-23.71\n(-0.58%)\nWTI原油\nUSCL.OTC\n70.19\n+0.96\n(+1.39%)\n离岸人民币\nUSDCNH.OTC\n6.7961\n-0.0087\n(-0.13%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
+      "content": "“我们今天加工锂的方式，不会是五年后的方式。”（路透）\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.24\n-0.12\n(-0.11%)\n欧元/美元\nEURUSD.OTC\n1.1402\n+0.0016\n(+0.14%)\n美元/日元\nUSDJPY.OTC\n161.79\n+0.06\n(+0.04%)\n现货黄金\nXAUUSD.OTC\n4061.16\n-28.10\n(-0.69%)\nWTI原油\nUSCL.OTC\n70.21\n+0.98\n(+1.42%)\n离岸人民币\nUSDCNH.OTC\n6.7957\n-0.0091\n(-0.13%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     }
