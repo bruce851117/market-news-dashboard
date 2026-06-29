@@ -6,12 +6,14 @@
   <title>Market News Dashboard</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="header">
     <div>
       <h1>Market News Dashboard</h1>
       <p>華爾街見聞快訊｜AI 過濾｜分類晨報</p>
     </div>
+
     <div class="meta">
       <div>更新時間</div>
       <strong id="generatedAt">--</strong>
@@ -44,10 +46,12 @@
     <button id="resetBtn">重設時間與搜尋</button>
   </section>
 
-  <main id="newsContainer" class="news-container"></main>
+  <main id="newsContainer" class="news-container">
+    <div class="empty">Loading...</div>
+  </main>
 
   <footer class="footer">
-    Source: WallstreetCN Live Global｜Summarized by Gemini 2.5 Flash
+    Source: WallstreetCN Live Global｜Summarized by Gemini
   </footer>
 
   <script src="app.js"></script>
