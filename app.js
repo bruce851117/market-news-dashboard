@@ -91,33 +91,6 @@ function renderBrief() {
   if (briefList) briefList.innerHTML = "";
 }
 
-function getFilteredNews() {
-  const keywordEl = document.getElementById("keyword");
-  const keyword = keywordEl ? keywordEl.value.trim().toLowerCase() : "";
-
-  let filtered = allNews.slice();
-
-  if (keyword) {
-    filtered = filtered.filter((item) => {
-      const searchableText = [
-        item.datetime,
-        item.category,
-        item.category_name,
-        item.headline,
-        item.summary,
-        item.content,
-        Array.isArray(item.tags) ? item.tags.join(" ") : "",
-      ]
-        .join(" ")
-        .toLowerCase();
-
-      return searchableText.includes(keyword);
-    });
-  }
-
-  return filtered;
-}
-
 function renderNews() {
   const container = document.getElementById("newsContainer");
   const visibleCountEl = document.getElementById("visibleCount");
@@ -201,6 +174,7 @@ function renderTimelineItem(item) {
     </article>
   `;
 }
+
 
 function showLoadError(message) {
   const generatedAtEl = document.getElementById("generatedAt");
