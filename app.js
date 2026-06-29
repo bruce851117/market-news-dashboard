@@ -2,7 +2,26 @@ let allNews = [];
 let briefPoints = [];
 
 const categoryOrder = [
-Subtitles = {  "bond",
+  "bond",
+  "equity",
+  "central_bank",
+  "economy",
+  "war",
+  "commodity",
+  "other",
+];
+
+const categoryNames = {
+  bond: "債市",
+  equity: "股市",
+  central_bank: "央行",
+  economy: "經濟",
+  war: "戰爭",
+  commodity: "商品",
+  other: "其他",
+};
+
+const categorySubtitles = {
   bond: "利率、美債、殖利率、信用與債市政策",
   equity: "股市、科技龍頭、AI 供應鏈與主要股指",
   central_bank: "Fed、ECB、BOJ、BOE、PBOC 與央行政策",
@@ -106,10 +125,10 @@ function getMinMaxNewsTime(items) {
 }
 
 function updateDataRangeText() {
-  const minMax = getMinMaxNewsTime(allNews);
   const el = document.getElementById("dataRange");
-
   if (!el) return;
+
+  const minMax = getMinMaxNewsTime(allNews);
 
   if (!minMax.min || !minMax.max) {
     el.textContent = "--";
@@ -129,22 +148,257 @@ function makeFallbackBriefPoints() {
 
   const sorted = [...allNews].sort((a, b) => {
     const ia = Number(a.importance || 3);
+    const ib = Number(b.importance || 3);
 
-  "equity",
-  "central_bank",
-  "economy",
-  "war",
-  "commodity",
-  "other",
-];
+    if (ib !== ia) return ib - ia;
 
-const categoryNames = {
-  bond: "債市",
-  equity: "股市",
-  central_bank: "央行",
-  economy: "經濟",
-  war: "戰爭",
-  commodity: "商品",
-  other: "其他",
-};
+    const da = parseDateTime(a.datetime);
+    const db = parseDateTime(b.datetime);
 
+    return db - da;
+  });
+
+  return sorted.slice(0, 10).map((item) => {
+    const category = categoryNames[normalizeCategory(item.category)] || "市場";
+    return category + "：" + shortHeadline(item.headline);
+  });
+}
+
+function renderBrief() {
+  const briefList = document.getElementById("briefList");
+
+  if (!briefList) return;
+
+  let points = Array.isArray(briefPoints) ? briefPoints.filter(Boolean) : [];
+
+  if (points.length === 0) {
+    points = makeFallbackBriefPoints();
+  }
+
+  if (points.length === 0) {
+    briefList.innerHTML = "<li>目前沒有可顯示的重點摘要。</li>";
+    return;
+  }
+
+  briefList.innerHTML = points
+    .slice(0, 10)
+    .map((point) => `<li>${escapeHtml(point)}</li>`)
+    .join("");
+}
+
+function resetFiltersToDataRange() {
+  const minMax = getMinMaxNewsTime(allNews);
+
+  const keywordEl = document.getElementById("keyword");
+  const startEl = document.getElementById("startTime");
+  const endEl = document.getElementById("endTime");
+
+  if (keywordEl) keywordEl.value = "";
+
+  if (minMax.min && minMax.max) {
+    startEl.value = toDateTimeLocalValue(minMax.min);
+    endEl.value = toDateTimeLocalValue(minMax.max);
+  }
+
+  renderNews();
+}
+
+function renderNews() {
+  const container = document.getElementById("newsContainer");
+
+  if (!container) return;
+
+  const startValue = document.getElementById("startTime").value;
+  const endValue = document.getElementById("endTime").value;
+  const keyword = document.getElementById("keyword").value.trim().toLowerCase();
+
+  const start = startValue ? new Date(startValue) : null;
+  const end = endValue ? new Date(endValue) : null;
+
+  const filtered = allNews.filter((item) => {
+    const dt = parseDateTime(item.datetime);
+
+    if (!dt || isNaN(dt.getTime())) return false;
+
+    if (start && dt < start) return false;
+    if (end && dt > end) return false;
+
+    if (keyword) {
+      const text = [
+        item.datetime,
+        item.category,
+        item.category_name,
+        item.headline,
+        item.summary,
+        Array.isArray(item.tags) ? item.tags.join(" ") : "",
+      ].join(" ").toLowerCase();
+
+      if (!text.includes(keyword)) return false;
+    }
+
+    return true;
+  });
+
+  filtered.sort((a, b) => {
+    const da = parseDateTime(a.datetime);
+    const db = parseDateTime(b.datetime);
+    return da - db;
+  });
+
+  document.getElementById("visibleCount").textContent = filtered.length;
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div class="empty">
+        沒有符合條件的新聞。<br/>
+        data/news.json 有讀取，但目前篩選條件下沒有資料。<br/>
+        請按「重設時間與搜尋」。
+      </div>
+    `;
+    return;
+  }
+
+  const grouped = {};
+
+  categoryOrder.forEach((category) => {
+    grouped[category] = [];
+  });
+
+  filtered.forEach((item) => {
+    const category = normalizeCategory(item.category);
+
+    if (!grouped[category]) {
+      grouped[category] = [];
+    }
+
+    grouped[category].push(item);
+  });
+
+  Object.keys(grouped).forEach((category) => {
+    grouped[category].sort((a, b) => {
+      const da = parseDateTime(a.datetime);
+      const db = parseDateTime(b.datetime);
+      return da - db;
+    });
+  });
+
+  let html = "";
+
+  categoryOrder.forEach((category) => {
+    const items = grouped[category] || [];
+
+    if (items.length === 0) {
+      return;
+    }
+
+    html += `
+      <section class="category-block category-${category}">
+        <div class="category-header">
+          <div>
+            <h2>${categoryNames[category] || category}</h2>
+            <p>${categorySubtitles[category] || ""}</p>
+          </div>
+          <span>${items.length} 則</span>
+        </div>
+
+        <div class="timeline-list">
+          ${items.map(renderTimelineItem).join("")}
+        </div>
+      </section>
+    `;
+  });
+
+  if (!html) {
+    container.innerHTML = `
+      <div class="empty">
+        有讀到資料，但分類欄位無法對應。<br/>
+        請檢查 data/news.json 裡面的 category。
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = html;
+}
+
+function renderTimelineItem(item) {
+  return `
+    <div class="timeline-item importance-${item.importance || 3}">
+      <div class="timeline-dot"></div>
+      <div class="timeline-time">${escapeHtml(item.datetime)}</div>
+      <div class="timeline-headline">${escapeHtml(shortHeadline(item.headline))}</div>
+    </div>
+  `;
+}
+
+function showLoadError(message) {
+  document.getElementById("generatedAt").textContent = "--";
+  document.getElementById("dataRange").textContent = "--";
+  document.getElementById("visibleCount").textContent = "0";
+
+  const briefList = document.getElementById("briefList");
+  if (briefList) {
+    briefList.innerHTML = "<li>讀取 summary 失敗。</li>";
+  }
+
+  const container = document.getElementById("newsContainer");
+  if (container) {
+    container.innerHTML = `
+      <div class="empty">
+        ${escapeHtml(message)}<br/>
+        請直接打開 <code>data/news.json</code> 確認檔案是否存在且格式正確。
+      </div>
+    `;
+  }
+}
+
+async function loadNews() {
+  try {
+    const url = "data/news.json?ts=" + Date.now();
+    console.log("Loading news from:", url);
+
+    const res = await fetch(url);
+
+    if (!res.ok) {
+      throw new Error("Cannot load data/news.json, status=" + res.status);
+    }
+
+    const data = await res.json();
+
+    console.log("Loaded data/news.json:", data);
+
+    allNews = Array.isArray(data.items) ? data.items : [];
+    briefPoints = Array.isArray(data.brief_points) ? data.brief_points : [];
+
+    document.getElementById("generatedAt").textContent = data.generated_at || "--";
+
+    updateDataRangeText();
+    renderBrief();
+
+    if (allNews.length === 0) {
+      document.getElementById("visibleCount").textContent = "0";
+      document.getElementById("newsContainer").innerHTML = `
+        <div class="empty">
+          data/news.json 已讀取，但 items 是空的。<br/>
+          這代表 summarize.py 產出的 news.json 沒有新聞。
+        </div>
+      `;
+      return;
+    }
+
+    resetFiltersToDataRange();
+  } catch (err) {
+    console.error("loadNews failed:", err);
+    showLoadError("讀取 data/news.json 失敗：" + err.message);
+  }
+}
+
+document.getElementById("startTime").addEventListener("change", renderNews);
+document.getElementById("endTime").addEventListener("change", renderNews);
+document.getElementById("keyword").addEventListener("input", renderNews);
+
+document.getElementById("resetBtn").addEventListener("click", () => {
+  resetFiltersToDataRange();
+});
+
+loadNews();
