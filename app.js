@@ -46,7 +46,18 @@ function normalizeCategory(category) {
 
 function parseDateTime(s) {
   if (!s) return null;
-  return new Date(String(s).replace(" ", "T"));
+
+  const text = String(s).trim();
+
+  if (!text) return null;
+
+  const d = new Date(text.replace(" ", "T"));
+
+  if (isNaN(d.getTime())) {
+    return null;
+  }
+
+  return d;
 }
 
 function formatDisplayTime(date) {
@@ -160,7 +171,8 @@ function makeFallbackBriefPoints() {
 
   return sorted.slice(0, 10).map((item) => {
     const category = categoryNames[normalizeCategory(item.category)] || "市場";
-    return category + "：" + shortHeadline(item.headline);
+    const summary = item.summary || item.content || item.headline || "";
+    return category + "：" + summary;
   });
 }
 
@@ -203,11 +215,7 @@ function resetFiltersToDataRange() {
   renderNews();
 }
 
-function renderNews() {
-  const container = document.getElementById("newsContainer");
-
-  if (!container) return;
-
+function getFilteredNews() {
   const startValue = document.getElementById("startTime").value;
   const endValue = document.getElementById("endTime").value;
   const keyword = document.getElementById("keyword").value.trim().toLowerCase();
@@ -220,8 +228,8 @@ function renderNews() {
 
     if (!dt || isNaN(dt.getTime())) return false;
 
-    if (start && dt < start) return false;
-    if (end && dt > end) return false;
+    if (start && !isNaN(start.getTime()) && dt < start) return false;
+    if (end && !isNaN(end.getTime()) && dt > end) return false;
 
     if (keyword) {
       const text = [
@@ -230,6 +238,7 @@ function renderNews() {
         item.category_name,
         item.headline,
         item.summary,
+        item.content,
         Array.isArray(item.tags) ? item.tags.join(" ") : "",
       ].join(" ").toLowerCase();
 
@@ -239,9 +248,32 @@ function renderNews() {
     return true;
   });
 
+  return filtered;
+}
+
+function renderNews() {
+  const container = document.getElementById("newsContainer");
+
+  if (!container) return;
+
+  let filtered = getFilteredNews();
+
+  /*
+    防呆：
+    如果 allNews 明明有資料，但日期欄位或瀏覽器 locale 導致 filtered 變 0，
+    就先顯示全部資料，避免畫面整片空白。
+  */
+  if (filtered.length === 0 && allNews.length > 0) {
+    console.warn("Filtered news is 0, fallback to allNews.");
+    filtered = [...allNews];
+  }
+
   filtered.sort((a, b) => {
     const da = parseDateTime(a.datetime);
     const db = parseDateTime(b.datetime);
+
+    if (!da || !db) return 0;
+
     return da - db;
   });
 
@@ -250,9 +282,8 @@ function renderNews() {
   if (filtered.length === 0) {
     container.innerHTML = `
       <div class="empty">
-        沒有符合條件的新聞。<br/>
-        data/news.json 有讀取，但目前篩選條件下沒有資料。<br/>
-        請按「重設時間與搜尋」。
+        data/news.json 已讀取，但目前沒有可顯示的新聞。<br/>
+        請確認 data/news.json 的 items 是否為空。
       </div>
     `;
     return;
@@ -278,6 +309,9 @@ function renderNews() {
     grouped[category].sort((a, b) => {
       const da = parseDateTime(a.datetime);
       const db = parseDateTime(b.datetime);
+
+      if (!da || !db) return 0;
+
       return da - db;
     });
   });
@@ -308,25 +342,32 @@ function renderNews() {
     `;
   });
 
-  if (!html) {
-    container.innerHTML = `
-      <div class="empty">
-        有讀到資料，但分類欄位無法對應。<br/>
-        請檢查 data/news.json 裡面的 category。
-      </div>
-    `;
-    return;
-  }
-
   container.innerHTML = html;
 }
 
 function renderTimelineItem(item) {
+  const summary = item.summary || "";
+  const content = item.content || "";
+
+  let detailHtml = "";
+
+  if (summary || content) {
+    detailHtml = `
+      <div class="timeline-detail">
+        ${summary ? `<div class="timeline-summary">${escapeHtml(summary)}</div>` : ""}
+        ${content && content !== summary ? `<div class="timeline-content">${escapeHtml(content)}</div>` : ""}
+      </div>
+    `;
+  }
+
   return `
     <div class="timeline-item importance-${item.importance || 3}">
       <div class="timeline-dot"></div>
       <div class="timeline-time">${escapeHtml(item.datetime)}</div>
-      <div class="timeline-headline">${escapeHtml(shortHeadline(item.headline))}</div>
+      <div class="timeline-body">
+        <div class="timeline-headline">${escapeHtml(shortHeadline(item.headline))}</div>
+        ${detailHtml}
+      </div>
     </div>
   `;
 }
@@ -346,7 +387,7 @@ function showLoadError(message) {
     container.innerHTML = `
       <div class="empty">
         ${escapeHtml(message)}<br/>
-        請直接打開 <code>data/news.json</code> 確認檔案是否存在且格式正確。
+        請直接打開 data/news.json 確認檔案是否存在且格式正確。
       </div>
     `;
   }
