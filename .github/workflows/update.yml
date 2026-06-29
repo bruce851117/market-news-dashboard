@@ -2,7 +2,7 @@ name: Update Market News
 
 on:
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "0 23 * * *"   # 台灣時間每天早上 07:00
   workflow_dispatch:
 
 permissions:
@@ -27,12 +27,21 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Crawl WallstreetCN
-        run: python scripts/crawler.py
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python -u scripts/crawler.py
+
+      - name: Upload raw news artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-news
+          path: data/raw_news.json
 
       - name: Summarize with Gemini
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/summarize.py
+          PYTHONUNBUFFERED: "1"
+        run: python -u scripts/summarize.py
 
       - name: Commit and push changes
         run: |
