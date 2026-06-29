@@ -468,3 +468,37 @@ input[type="text"]:focus {
     white-space: normal;
   }
 }
+
+
+.timeline-body {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.timeline-detail {
+  display: grid;
+  gap: 3px;
+  margin-top: 2px;
+}
+
+.timeline-summary {
+  color: #334155;
+  font-size: 13px;
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.timeline-content {
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.timeline-headline {
+  color: #111827;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.45;
+  white-space: normal;
+}
