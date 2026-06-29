@@ -30,36 +30,29 @@ def log(msg):
     print(msg, flush=True)
 
 
-def safe_json_loads(text: str):
+def safe_json_loads(text):
     text = text.strip()
 
-    # 移除 markdown code block
     text = re.sub(r"^```json", "", text)
     text = re.sub(r"^```", "", text)
     text = re.sub(r"```$", "", text)
     text = text.strip()
 
-    # 嘗試抓 JSON array
     start = text.find("[")
     end = text.rfind("]")
 
     if start != -1 and end != -1 and end > start:
-        text = text[start : end + 1]
+        text = text[start:end + 1]
 
     return json.loads(text)
 
 
 def chunk_items(items, chunk_size=25):
     for i in range(0, len(items), chunk_size):
-        yield items[i : i + chunk_size]
+        yield items[i:i + chunk_size]
 
 
 def fallback_filter(items):
-    """
-    如果 Gemini 失敗，就用 Python 簡單分類。
-    注意：這只是備援，正常情況仍由 Gemini 決定是否保留新聞。
-    """
-
     output = []
 
     for item in items:
@@ -93,28 +86,40 @@ def fallback_filter(items):
     return output
 
 
-def summarize_with_gemini(items):
-    api_key = os.environ.get("GEMINI_API_KEY")
+def build_prompt(batch):
+    batch_json = json.dumps(batch, ensure_ascii=False)
 
-    if not api_key:
-        raise RuntimeError("Missing GEMINI_API_KEY in GitHub Secrets")
-
-    client = genai.Client(api_key=api_key)
-
-    all_results = []
-
-    batches = list(chunk_items(items, 25))
-    total_batches = len(batches)
-
-    log(f"Total raw items sent to Gemini: {len(items)}")
-    log(f"Total Gemini batches: {total_batches}")
-
-    for batch_no, batch in enumerate(batches, start=1):
-        log(f"Summarizing batch {batch_no}/{total_batches}, items: {len(batch)}")
-
-        prompt = f"""
+    prompt = """
 你是一位全球總體經濟、利率、外匯與股票市場策略分析師，使用者是一位債券/股票交易員。
 
 請閱讀以下華爾街見聞快訊，幫我做交易員版本的資訊整理。
 
 任務：
+1. 你會看到完整快訊資料，請自行判斷哪些新聞重要、哪些新聞不重要。
+2. 刪除不重要資訊，不要輸出那些新聞。
+3. 保留對利率、債市、股市、央行政策、總經數據、戰爭地緣政治、商品能源有影響的消息。
+4. 將新聞分類成以下其中一類：
+   - bond：債市、利率、美債、殖利率、信用、財政部標售
+   - equity：股市、重大企業財報、科技龍頭、AI供應鏈、主要股指
+   - central_bank：Fed、ECB、BOJ、BOE、PBOC、央行官員談話、升降息
+   - economy：CPI、PPI、PMI、GDP、就業、薪資、消費、貿易、財政政策、關稅
+   - war：戰爭、地緣政治、制裁、中東、俄烏、台海、軍事衝突
+   - commodity：原油、天然氣、黃金、銅、農產品、能源供應
+
+5. 每則新聞給重要度 importance，1到5分：
+   - 5：高度影響全球利率、股市、FX、油價，例如FOMC、CPI、重大就業數據、戰爭升級、重大央行政策
+   - 4：重要市場新聞
+   - 3：中等重要
+   - 2：低重要但仍可保留
+   - 1：通常應刪除
+
+6. summary 使用繁體中文，不超過80字，要站在交易員角度描述市場意義。
+7. headline 可保留原標題，也可以精簡，但不能扭曲原意。
+8. tags 用英文或常用市場代號，例如 Fed、UST、CPI、Oil、ECB、China、A-share、AI。
+9. 如果新聞不重要，請不要輸出該則新聞。
+10. 請務必只輸出 JSON array，不要加解釋，不要 markdown。
+
+輸出格式如下：
+[
+  {
+    "datetime": "2026-06-29 07:30",
