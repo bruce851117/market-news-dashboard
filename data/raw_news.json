@@ -1,13 +1,21 @@
 {
-  "generated_at": "2026-06-29 16:44",
+  "generated_at": "2026-06-29 16:47",
   "fetch_start_time": "2026-06-26 17:00",
-  "fetch_end_time": "2026-06-29 16:44",
+  "fetch_end_time": "2026-06-29 16:47",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v5",
   "count": 483,
   "items": [
+    {
+      "datetime": "2026-06-29 16:47",
+      "headline": "【规范动力和储能电池企业供应商账款支付，工信部装备工业一司作出回应】",
+      "content": "中国汽车动力电池产业创新联盟、中关村储能产业技术联盟29日联合发布《动力和储能电池企业供应商账款支付规范倡议》。如何看待相关举措？后续将如何引导缩短供应商账期？工业和信息化部装备工业一司有关负责人回答了记者问题。\n这位负责人说，我们支持中国汽车动力电池产业创新联盟、中关村储能产业技术联盟联合发布倡议。该倡议是落实《保障中小企业款项支付条例》的重要举措，明确了订单确认与变更、交付与验收、支付与结算等要求，比如明确材料类和部件类验收时间原则上不超过7个工作日，中小企业供应商账期起算时间原则上为交付或通过验收之日，倡议对中小企业全部采用现金支付，倡导供货双方建立稳定合作关系、在当前合作基础上进一步签署长期框架协议等。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-29 16:37",
       "headline": "新华网：全资子公司亚太公司拟出售其持有的中科闻歌的股票不超过47.76万股，预计交易金额5334.79万港元，账面成本2899.03万港元。",
@@ -3835,15 +3843,7 @@
     {
       "datetime": "2026-06-26 23:59",
       "headline": "加拿大外长Anand：与土耳其讨论推进经济关系，包括未来谈判一份自由贸易协议（FTA）。",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:56",
-      "headline": "SemiAnalysis：H100云端指数现货价格正在下跌，现在每小时2.42美元，比5月峰值低约40%。生态系统担心这表明计算需求以及由此延伸的人工智能AI需求正在减弱。",
-      "content": "重要的信号是，这很可能是一个现货价格指数，而不是期限定价。我们针对1年期H100合同价格的新云调查显示，该价格反而从去年末的大约每小时1.70美元的低谷攀升至如今的每小时约2.65美元。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.29\n-0.07\n(-0.06%)\n欧元/美元\nEURUSD.OTC\n1.1397\n+0.0014\n(+0.12%)\n美元/日元\nUSDJPY.OTC\n161.85\n+0.12\n(+0.07%)\n现货黄金\nXAUUSD.OTC\n4055.52\n-25.50\n(-0.62%)\nWTI原油\nUSCL.OTC\n70.12\n+0.89\n(+1.29%)\n离岸人民币\nUSDCNH.OTC\n6.7972\n-0.0076\n(-0.11%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
+      "content": "实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.30\n-0.05\n(-0.05%)\n欧元/美元\nEURUSD.OTC\n1.1396\n+0.0013\n(+0.11%)\n美元/日元\nUSDJPY.OTC\n161.85\n+0.12\n(+0.07%)\n现货黄金\nXAUUSD.OTC\n4056.50\n-24.52\n(-0.60%)\nWTI原油\nUSCL.OTC\n70.07\n+0.84\n(+1.21%)\n离岸人民币\nUSDCNH.OTC\n6.7973\n-0.0075\n(-0.11%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
