@@ -1,13 +1,77 @@
 {
-  "generated_at": "2026-06-29 15:54",
+  "generated_at": "2026-06-29 16:05",
   "fetch_start_time": "2026-06-26 17:00",
-  "fetch_end_time": "2026-06-29 15:54",
+  "fetch_end_time": "2026-06-29 16:05",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v5",
-  "count": 461,
+  "count": 460,
   "items": [
+    {
+      "datetime": "2026-06-29 16:04",
+      "headline": "美股三大股指期货持续上涨，道琼斯指数期货涨0.41%，标普500指数期货涨0.71%，纳斯达克100指数期货涨1.08%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 16:03",
+      "headline": "【赣锋锂电：积极响应动力和储能电池企业供应商账款支付规范倡议】",
+      "content": "中国汽车动力电池产业创新联盟联合中关村储能产业技术联盟发布《动力和储能电池企业供应商账款支付规范倡议》。对此，赣锋锂电表示，积极响应倡议号召。未来将持续优化供应商管理体系，打造规范透明的账款支付流程；加强技术研发，持续推出适配各类场景的电池产品与解决方案，与广大合作伙伴携手同行，共同推动动力及储能电池产业高质量发展。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 16:03",
+      "headline": "伦敦金属交易所（LME）：铝库存减少1500吨，镍库存减少372吨，锌库存减少775吨，铜库存减少3375吨，锡库存减少40吨，铅库存减少450吨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 16:01",
+      "headline": "美股盘前，存储芯片股反弹，美光科技涨超2%，科技股多数走高，英伟达涨超1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 16:00",
+      "headline": "【普京：乌克兰就俄乌战事提出两条新建议】",
+      "content": "俄罗斯总统普京28日表示，乌方就俄乌战事提出两条新建议，一条是互相停止对境内纵深目标的打击，另一条则是将军事冲突控制在赫尔松、扎波罗热、顿涅茨克和卢甘斯克四个地区。（新华网）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 16:00",
+      "headline": "欧元区5月M3货币供应同比",
+      "content": "数据解读\n今值: 3.2% ， 预期: 2.7% ， 前值: 2.7%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 15:58",
+      "headline": "【黎议长警告否决三方协议 以色列持续袭击】",
+      "content": "黎巴嫩议会议长纳比·贝里29日说，黎议会不会通过黎巴嫩、以色列和美国先前达成的三方框架协议，因为该协议未保障黎巴嫩的权利。就在28日，以色列对黎巴嫩多地发起军事打击。\n在一份声明中，贝里说，黎以美三方框架协议没有保障黎巴嫩的权利，是一份“命令协议”，该协议不会获得黎议会通过、不会以当前形式执行。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 15:57",
+      "headline": "【消息称快手社科线两位技术高管转岗可灵事业部，或为上市做准备】",
+      "content": "有市场消息称，快手社区科学线人事调整，两位核心技术高管李晗、洪立印已完成岗位划转，正式加入可灵AI事业部，该事业部负责人为快手高级副总裁盖坤。\n两位技术负责人同步转岗，直接增强可灵在底层大模型、视频生成、商业算法等板块的技术实力。业内分析认为，两位推荐与电商算法领域的核心大将同时调入，是为可灵冲刺资本市场进行的关键技术底盘补强。对此消息，快手官方暂无回应。（新浪科技）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-29 15:54",
       "headline": "【Kimi B端负责人黄震昕：行业肯定有泡沫，但基本面很扎实】",
@@ -468,6 +532,14 @@
       "datetime": "2026-06-29 13:58",
       "headline": "Prosus全年调整后EBITDA10.5亿美元，市场预期为9.473亿美元。",
       "content": "全年持续经营业务合并营收97.1亿美元，同比增长57%，市场预期为90.2亿美元。\n全年经营亏损1.73亿美元，上年同期为盈利1.73亿美元，市场预期为盈利4.816亿美元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 13:55",
+      "headline": "东鹏饮料创始人不喝自家产品？深圳警方通报：罗某某借助AI工具造谣，已被刑拘。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -3611,87 +3683,7 @@
     {
       "datetime": "2026-06-26 23:54",
       "headline": "美国总统特朗普谈及伊朗：伊朗向至少四架穿越霍尔木兹海峡的船只发射了自杀式无人机（单向攻击无人机）。",
-      "content": "其中一架无人机击中了一艘货船的上层甲板，美国击落了另外三架无人机。\n这是对我们停火协议的愚蠢违反。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:48",
-      "headline": "SemiAnalysis：我们相信中国的刻蚀本地化进程比沉积更快。前端进口数据显示，刻蚀同比下降18%，而沉积同比增长3%。",
-      "content": "全球蚀刻行业现任企业的财务数据传达了同样的信息，AMAT（应用材料） 在FY25财年的中国收入同比下降16%，TEL（泰科电子）在FY26财年的中国收入同比下降18%。\n我们将Naura视为关键驱动力。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:31",
-      "headline": "【德国股市周五收跌约1.3%，本周意大利股指跌约3%、英国股指涨约1.4%】",
-      "content": "欧洲STOXX 600指数收跌0.68%，报635.88点，本周累计上涨超过0.04%，延续上周涨0.38%的表现。\n德国DAX 30指数收跌1.29%，报24671.22点，本周累跌将近1.26%。\n法国CAC 40指数收跌0.55%，报8384.87点，本周累涨超0.74%。\n意大利富时MIB指数收跌1.00%，报51265.35点，本周累跌超2.99%。\n英国富时100指数收跌0.21%，报10508.02点，本周累涨超1.39%。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:30",
-      "headline": "【美联储卡什卡利改变展望：预计今年将加息一次】",
-      "content": "美国明尼阿波利斯联储主席卡什卡利（Neel Kashkari）说，目前预计2026年将加息一次，2027年利率将维持不变。“在3月份，我原本预计年底前会降息一次。到了6月份，我已经将其调整为年底前加息一次。”\n我们需要看看没有前瞻指引的效果如何。\n相关文章： 由鸽转鹰，美联储卡什卡利：通胀高企，预计今年加息一次",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:18",
-      "headline": "伊朗和阿曼海关负责人提议：成立联合委员会以落实海关协议。（伊朗媒体IRNA）",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:15",
-      "headline": "业内观察人士预计，在下个月于安卡拉举行的北约（NATO）会议之后，哪些国家可能支持“防务、安全与韧性银行”（Defence, Security and Resilience Bank）将会变得更加明朗。（路透）",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:14",
-      "headline": "【加拿大总理宣布：卢森堡将成为新多边防务银行的欧洲总部】",
-      "content": "加拿大总理马克·卡尼表示，卢森堡将成为一家新的多边防务银行的欧洲总部，而该银行的总行将设在加拿大。\n目前有五个加拿大城市正在竞争承办由卡尼倡导的“防务、安全与韧性银行”（Defence, Security and Resilience Bank）。该银行旨在筹集1350亿美元资金，用于资助防务项目，特别是为那些难以获得低成本融资的国家提供支持。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:10",
-      "headline": "布伦特原油日内跌幅达4.5%，报72.06美元/桶；WTI原油日内跌幅达4.5%，报68.64美元/桶。",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:08",
-      "headline": "【机构：霍尔木兹化肥运输回升，但恢复至战前水平仍需时日】",
-      "content": "Argus数据显示，自6月15日华盛顿与德黑兰宣布达成协议以来，约64万吨硫磺已通过该海峡运往印尼、摩洛哥、坦桑尼亚等地，而长达三个半月的战争期间仅为8万吨。CRU数据显示，同期约42.7万吨尿素通过该海峡，高于战争期间的27.5万吨。磷酸盐和氨等其他化肥及原料运输量也有所增加。\n但目前仍有超过500艘船只滞留在波斯湾，尽管近期航运量回升，但仍远低于战前日均约125艘的水平。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:01",
-      "headline": "【内盘期货夜市涨跌各异】",
-      "content": "焦炭夜盘收涨1.21%，焦煤涨1.13%，玉米淀粉、菜粕、豆二、玉米、玻璃、白糖、菜油、豆油至多涨0.92%，铁矿石、棉纱、豆粕、甲醇、棉花至多涨0.54%，LPG、棕榈油、PTA、豆一至多涨0.22%。\n热卷夜盘收平，乙二醇、螺纹钢、丙烯、短纤、塑料、聚丙烯、对二甲苯、瓶片、纸浆、沥青、橡胶至多收跌0.42%，纯苯、烧碱、粳米、低硫燃油至多跌0.80%，纯碱、苯乙烯至多跌0.98%，PVC跌1.08%，20号胶、燃油至多跌1.54%，合成橡胶跌2.41%。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 22:59",
-      "headline": "【受权发布｜全国人民代表大会常务委员会关于批准2025年中央决算的决议】",
-      "content": "第十四届全国人民代表大会常务委员会第二十三次会议听取了财政部部长蓝佛安受国务院委托作的《国务院关于2025年中央决算的报告》和审计署审计长侯凯受国务院委托作的《国务院关于2025年度中央预算执行和其他财政收支的审计工作报告》。会议结合审议审计工作报告，对2025年中央决算草案和中央决算报告进行了审查。会议同意全国人民代表大会财政经济委员会提出的审查结果报告，决定批准2025年中央决算。（新华社）\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.25\n-0.10\n(-0.10%)\n欧元/美元\nEURUSD.OTC\n1.1401\n+0.0018\n(+0.16%)\n美元/日元\nUSDJPY.OTC\n161.82\n+0.09\n(+0.06%)\n现货黄金\nXAUUSD.OTC\n4065.03\n-15.99\n(-0.39%)\nWTI原油\nUSCL.OTC\n69.53\n+0.30\n(+0.43%)\n离岸人民币\nUSDCNH.OTC\n6.7953\n-0.0095\n(-0.14%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
+      "content": "其中一架无人机击中了一艘货船的上层甲板，美国击落了另外三架无人机。\n这是对我们停火协议的愚蠢违反。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.22\n-0.14\n(-0.14%)\n欧元/美元\nEURUSD.OTC\n1.1407\n+0.0024\n(+0.21%)\n美元/日元\nUSDJPY.OTC\n161.80\n+0.07\n(+0.04%)\n现货黄金\nXAUUSD.OTC\n4064.16\n-16.86\n(-0.41%)\nWTI原油\nUSCL.OTC\n69.80\n+0.57\n(+0.82%)\n离岸人民币\nUSDCNH.OTC\n6.7948\n-0.0100\n(-0.15%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
