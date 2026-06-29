@@ -1,13 +1,29 @@
 {
-  "generated_at": "2026-06-29 17:08",
+  "generated_at": "2026-06-29 17:16",
   "fetch_start_time": "2026-06-26 17:00",
-  "fetch_end_time": "2026-06-29 17:08",
+  "fetch_end_time": "2026-06-29 17:16",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v5",
   "count": 501,
   "items": [
+    {
+      "datetime": "2026-06-29 17:13",
+      "headline": "腾讯控股：于6月29日回购了价值5.01亿港元的股份。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 17:10",
+      "headline": "美联储主席沃什将在未来几周公布特别工作组更多细节。（纽约时报）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-29 17:08",
       "headline": "【轻舟试验飞船第二批在轨试验成果发布】",
@@ -1098,7 +1114,7 @@
     },
     {
       "datetime": "2026-06-29 12:01",
-      "headline": "【月之暗面声明：未授权任何第三方处理融资交易】",
+      "headline": "【月之暗面声明：未经公司批准的老股转让和SPV交易一律无效】",
       "content": "月之暗面今日发布严正声明称，近期市场上出现多起假借公司名义传播的不实融资及股权交易信息，部分机构和个人已涉嫌欺诈。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
@@ -3987,23 +4003,7 @@
     {
       "datetime": "2026-06-26 23:54",
       "headline": "美国总统特朗普谈及伊朗：伊朗向至少四架穿越霍尔木兹海峡的船只发射了自杀式无人机（单向攻击无人机）。",
-      "content": "其中一架无人机击中了一艘货船的上层甲板，美国击落了另外三架无人机。\n这是对我们停火协议的愚蠢违反。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:48",
-      "headline": "SemiAnalysis：我们相信中国的刻蚀本地化进程比沉积更快。前端进口数据显示，刻蚀同比下降18%，而沉积同比增长3%。",
-      "content": "全球蚀刻行业现任企业的财务数据传达了同样的信息，AMAT（应用材料） 在FY25财年的中国收入同比下降16%，TEL（泰科电子）在FY26财年的中国收入同比下降18%。\n我们将Naura视为关键驱动力。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-26 23:31",
-      "headline": "【德国股市周五收跌约1.3%，本周意大利股指跌约3%、英国股指涨约1.4%】",
-      "content": "欧洲STOXX 600指数收跌0.68%，报635.88点，本周累计上涨超过0.04%，延续上周涨0.38%的表现。\n德国DAX 30指数收跌1.29%，报24671.22点，本周累跌将近1.26%。\n法国CAC 40指数收跌0.55%，报8384.87点，本周累涨超0.74%。\n意大利富时MIB指数收跌1.00%，报51265.35点，本周累跌超2.99%。\n英国富时100指数收跌0.21%，报10508.02点，本周累涨超1.39%。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.29\n-0.06\n(-0.06%)\n欧元/美元\nEURUSD.OTC\n1.1397\n+0.0014\n(+0.12%)\n美元/日元\nUSDJPY.OTC\n161.85\n+0.12\n(+0.07%)\n现货黄金\nXAUUSD.OTC\n4052.96\n-28.06\n(-0.69%)\nWTI原油\nUSCL.OTC\n70.00\n+0.77\n(+1.11%)\n离岸人民币\nUSDCNH.OTC\n6.7962\n-0.0086\n(-0.13%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
+      "content": "其中一架无人机击中了一艘货船的上层甲板，美国击落了另外三架无人机。\n这是对我们停火协议的愚蠢违反。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.28\n-0.07\n(-0.07%)\n欧元/美元\nEURUSD.OTC\n1.1399\n+0.0016\n(+0.14%)\n美元/日元\nUSDJPY.OTC\n161.84\n+0.11\n(+0.07%)\n现货黄金\nXAUUSD.OTC\n4053.14\n-27.88\n(-0.68%)\nWTI原油\nUSCL.OTC\n70.00\n+0.77\n(+1.11%)\n离岸人民币\nUSDCNH.OTC\n6.7963\n-0.0085\n(-0.12%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
