@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-29 14:45",
+  "generated_at": "2026-06-29 15:19",
   "timezone": "Asia/Taipei",
   "source": "https://wallstreetcn.com/live/global",
   "fetch_start_time": "2026-06-26 17:00",
   "fetch_end_time": "2026-06-29 14:44",
   "raw_count": 320,
-  "count": 81,
+  "count": 77,
   "categories": {
     "bond": "債市",
     "equity": "股市",
@@ -95,11 +95,11 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "韩国总统李在明：将投资西南地区扩大芯片产能",
+      "headline": "韩国政府公布芯片、AI及数据中心大型投资计划",
       "summary": "",
       "tags": [
         "Korea",
-        "Chips",
+        "Semiconductor",
         "AI"
       ],
       "source": "華爾街見聞",
@@ -114,7 +114,7 @@
       "summary": "",
       "tags": [
         "PBOC",
-        "Repo"
+        "Liquidity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -168,11 +168,26 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 3,
-      "headline": "中国南部战区组织海空力量在南海进行例行巡航",
+      "headline": "中国南部战区在南海海域进行例行巡航",
       "summary": "",
       "tags": [
         "China",
+        "SouthChinaSea",
         "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-29 03:11",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "恒生指数涨幅扩大至2%，科技与生物科技领涨",
+      "summary": "",
+      "tags": [
+        "HK-stock",
+        "Tech"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -181,13 +196,12 @@
       "datetime": "2026-06-29 03:06",
       "category": "equity",
       "category_name": "股市",
-      "importance": 3,
+      "importance": 2,
       "headline": "Momenta启动招股募资58.9亿港元",
       "summary": "",
       "tags": [
         "IPO",
-        "HK-Stock",
-        "AI"
+        "HK-stock"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -197,7 +211,7 @@
       "category": "central_bank",
       "category_name": "央行",
       "importance": 3,
-      "headline": "中国SHIBOR利率全线下行",
+      "headline": "中国SHIBOR利率全线小幅下行",
       "summary": "",
       "tags": [
         "PBOC",
@@ -208,30 +222,14 @@
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-29 02:34",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 2,
-      "headline": "电池级碳酸锂中间价小幅下跌",
-      "summary": "",
-      "tags": [
-        "Lithium",
-        "EV",
-        "Commodity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-29 02:04",
+      "datetime": "2026-06-29 02:35",
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "国产异算方舟全栈计算平台发布",
+      "headline": "A股创业板指盘中跌超2%，市场情绪分化",
       "summary": "",
       "tags": [
-        "AI",
-        "Tech",
+        "A-share",
         "China"
       ],
       "source": "華爾街見聞",
@@ -258,11 +256,10 @@
       "category": "central_bank",
       "category_name": "央行",
       "importance": 4,
-      "headline": "中國央行開展1575億元逆回購，淨回籠3190億元",
+      "headline": "中国央行开展1575亿逆回购，净回笼3190亿元",
       "summary": "",
       "tags": [
         "PBOC",
-        "China",
         "Liquidity"
       ],
       "source": "華爾街見聞",
@@ -273,7 +270,7 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "人民幣兌美元中間價報6.8175，下調9點",
+      "headline": "人民币兑美元中间价报6.8175，下调9点",
       "summary": "",
       "tags": [
         "CNY",
@@ -287,11 +284,11 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "花旗：蘋果對長鑫存儲的認可將提升其全球地位",
+      "headline": "花旗：苹果认可长鑫存储，利好其全球供应链",
       "summary": "",
       "tags": [
         "Apple",
-        "CXMT",
+        "DRAM",
         "Semiconductor"
       ],
       "source": "華爾街見聞",
@@ -302,7 +299,7 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "兩市融資餘額減少205.97億元",
+      "headline": "两市融资余额减少205.97亿元",
       "summary": "",
       "tags": [
         "A-share",
@@ -316,7 +313,7 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "CFETS：6月26日人民幣匯率指數按週漲0.8至102.5",
+      "headline": "CFETS：6月26日人民币汇率指数按周涨0.8至102.5",
       "summary": "",
       "tags": [
         "CNY",
@@ -330,12 +327,11 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 4,
-      "headline": "韓國交易所啟動KOSDAQ指數熔斷機制",
+      "headline": "韩国交易所启动KOSDAQ指数熔断机制",
       "summary": "",
       "tags": [
         "Korea",
-        "KOSDAQ",
-        "Volatility"
+        "KOSDAQ"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -345,7 +341,7 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 4,
-      "headline": "美股科技基金單週流出近200億美元，避險情緒升溫",
+      "headline": "美股基金轉為淨流出，科技股遭拋售",
       "summary": "",
       "tags": [
         "Equity",
@@ -360,7 +356,7 @@
       "category": "central_bank",
       "category_name": "央行",
       "importance": 3,
-      "headline": "中國央行本週逆回購到期規模達2.3萬億元，創去年10月來新高",
+      "headline": "中國央行本週逆回購到期規模達2.3萬億元",
       "summary": "",
       "tags": [
         "PBOC",
@@ -374,7 +370,7 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "伊朗與黎巴嫩商定設立衝突管控工作組，美方將參與",
+      "headline": "伊朗與黎巴嫩商定設立衝突管控工作組",
       "summary": "",
       "tags": [
         "War",
@@ -389,7 +385,7 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "日本5月零售銷售同比增長5.3%，優於預期",
+      "headline": "日本5月零售銷售同比增長5.3%優於預期",
       "summary": "",
       "tags": [
         "Japan",
@@ -403,7 +399,7 @@
       "category": "central_bank",
       "category_name": "央行",
       "importance": 4,
-      "headline": "澳洲聯儲官員：討論低利率環境下的經濟刺激應對情景",
+      "headline": "澳洲聯儲官員討論低利率與經濟刺激應對",
       "summary": "",
       "tags": [
         "RBA",
@@ -417,7 +413,7 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "美伊局勢緊張，原油反彈，美聯儲官員卡什卡利轉鷹",
+      "headline": "美伊局勢緊張，原油反彈，Fed官員轉鷹",
       "summary": "",
       "tags": [
         "War",
@@ -448,7 +444,7 @@
       "category": "commodity",
       "category_name": "商品",
       "importance": 5,
-      "headline": "美伊停火协议陷入僵局，布油盘初涨1.9%",
+      "headline": "美伊停火协议陷僵局，布伦特原油盘初涨1.9%",
       "summary": "",
       "tags": [
         "Oil",
@@ -462,7 +458,7 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "美伊同意暂时停火，计划30日在卡塔尔会谈",
+      "headline": "美伊计划30日举行会谈，寻求霍尔木兹海峡停火",
       "summary": "",
       "tags": [
         "Geopolitics",
@@ -490,8 +486,8 @@
       "datetime": "2026-06-28 18:12",
       "category": "commodity",
       "category_name": "商品",
-      "importance": 3,
-      "headline": "普京考虑全面禁止俄罗斯柴油出口",
+      "importance": 4,
+      "headline": "普京考虑全面禁止俄罗斯柴油出口以保障国内供应",
       "summary": "",
       "tags": [
         "Oil",
@@ -502,15 +498,30 @@
       "url": "https://wallstreetcn.com/live/global"
     },
     {
+      "datetime": "2026-06-28 17:36",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "AI眼镜需求激增，分析师称行业迎来规模化拐点",
+      "summary": "",
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
       "datetime": "2026-06-28 15:14",
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "AI初创公司Firmus携手英伟达在印尼建数据中心",
+      "headline": "Firmus携手英伟达在印尼建设数据中心",
       "summary": "",
       "tags": [
+        "Nvidia",
         "AI",
-        "Nvidia"
+        "DataCenter"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -612,7 +623,7 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "伊朗稱船隻通過霍爾木茲海峽仍需與革命衛隊協調",
+      "headline": "伊朗稱船隻通過霍爾木茲海峽需與革命衛隊協調",
       "summary": "",
       "tags": [
         "Iran",
@@ -623,15 +634,16 @@
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-28 10:52",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "伊朗呼籲與海灣國家建立排除域外勢力的安全框架",
+      "datetime": "2026-06-28 11:05",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 3,
+      "headline": "潘功勝出席BIS年會，討論通膨與AI影響",
       "summary": "",
       "tags": [
-        "Iran",
-        "Geopolitics"
+        "PBOC",
+        "BIS",
+        "CentralBank"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -644,9 +656,9 @@
       "headline": "聯合國糧農組織：厄爾尼諾現象恐引發全球糧食危機",
       "summary": "",
       "tags": [
+        "Economy",
         "Commodity",
-        "Agriculture",
-        "Inflation"
+        "Food"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -656,13 +668,13 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "烏軍襲擊俄境內兩家煉油廠，持續削弱俄戰爭能力",
+      "headline": "烏軍襲擊俄境內兩家煉油廠",
       "summary": "",
       "tags": [
         "Russia",
         "Ukraine",
         "Oil",
-        "Energy"
+        "War"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -672,13 +684,13 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "巴林稱攔截並摧毀來自伊朗的導彈與無人機",
+      "headline": "巴林稱攔截並摧毀伊朗導彈與無人機",
       "summary": "",
       "tags": [
         "Iran",
         "Bahrain",
         "Geopolitics",
-        "Oil"
+        "War"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -691,25 +703,10 @@
       "headline": "韓國週一將宣布三星與SK集團大型投資計畫",
       "summary": "",
       "tags": [
+        "Korea",
         "Samsung",
         "SK",
-        "Korea",
-        "Tech"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-28 06:09",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "伊朗警告將對美軍任何違反停火行為作出強烈回應",
-      "summary": "",
-      "tags": [
-        "Iran",
-        "USA",
-        "Geopolitics"
+        "Equity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -724,8 +721,8 @@
       "tags": [
         "Iran",
         "USA",
-        "Geopolitics",
-        "Oil"
+        "War",
+        "Geopolitics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -735,7 +732,7 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "伊朗革命衛隊對巴林美軍基地發動打擊",
+      "headline": "伊朗革命衛隊攻擊巴林美軍基地與基礎設施",
       "summary": "",
       "tags": [
         "War",
@@ -750,37 +747,7 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "伊朗威脅對美軍基地發起地獄式打擊",
-      "summary": "",
-      "tags": [
-        "War",
-        "MiddleEast",
-        "Oil"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-28 01:04",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 5,
-      "headline": "伊朗稱摧毀科威特與巴林8處美軍設施",
-      "summary": "",
-      "tags": [
-        "War",
-        "MiddleEast",
-        "Oil"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-28 01:01",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 5,
-      "headline": "美軍空襲伊朗在霍爾木茲海峽10個軍事目標",
+      "headline": "伊朗威脅對美軍基地發動地獄式打擊",
       "summary": "",
       "tags": [
         "War",
@@ -795,7 +762,7 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "特朗普威脅伊朗若不停止攻擊將不復存在",
+      "headline": "特朗普警告伊朗若不停止攻擊將面臨毀滅",
       "summary": "",
       "tags": [
         "War",
@@ -809,8 +776,8 @@
       "datetime": "2026-06-27 14:03",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 4,
-      "headline": "歐盟回應特朗普關稅威脅將堅決捍衛權利",
+      "importance": 3,
+      "headline": "歐盟回應特朗普關稅威脅：將堅決捍衛自身權利",
       "summary": "",
       "tags": [
         "Trade",
@@ -825,7 +792,7 @@
       "category": "central_bank",
       "category_name": "央行",
       "importance": 4,
-      "headline": "歐洲央行執委：能源衝擊恐推升通膨並需進一步升息",
+      "headline": "ECB執委Schnabel：能源衝擊恐推升通膨，預計進一步升",
       "summary": "",
       "tags": [
         "ECB",
@@ -840,43 +807,42 @@
       "category": "commodity",
       "category_name": "商品",
       "importance": 4,
-      "headline": "歐洲央行預計油價將持續走高",
+      "headline": "ECB執委Schnabel：預計油價將持續走高，能源衝擊拖累",
       "summary": "",
       "tags": [
         "Oil",
-        "Inflation",
-        "ECB"
+        "ECB",
+        "Inflation"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-27 11:41",
-      "category": "war",
-      "category_name": "戰爭",
+      "category": "commodity",
+      "category_name": "商品",
       "importance": 5,
-      "headline": "伊朗稱更多船隻申請通過霍爾木茲海峽",
-      "summary": "",
-      "tags": [
-        "Oil",
-        "Geopolitics",
-        "Iran"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-27 10:41",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 5,
-      "headline": "伊朗指責美方在霍爾木茲海峽製造緊張局勢",
+      "headline": "霍爾木茲海峽局勢升溫，油輪遭襲引發斷航擔憂",
       "summary": "",
       "tags": [
         "Oil",
         "Geopolitics",
         "Iran",
-        "USA"
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-27 11:20",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "下週A股解禁市值逾1000億元",
+      "summary": "",
+      "tags": [
+        "A-share",
+        "Equity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -886,7 +852,7 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "俄羅斯伏爾加格勒一企業遭烏軍襲擊",
+      "headline": "俄羅斯伏爾加格勒軍工企業遭烏軍導彈襲擊",
       "summary": "",
       "tags": [
         "Russia",
@@ -898,25 +864,10 @@
     },
     {
       "datetime": "2026-06-27 10:33",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 5,
-      "headline": "聯合海上信息中心上調霍爾木茲海峽威脅等級",
-      "summary": "",
-      "tags": [
-        "Oil",
-        "Geopolitics",
-        "Shipping"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-27 09:59",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 5,
-      "headline": "一艘油輪在霍爾木茲海峽遭不明投射物擊中",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 4,
+      "headline": "聯合海上信息中心上調霍爾木茲海峽安全威脅等級",
       "summary": "",
       "tags": [
         "Oil",
@@ -931,7 +882,7 @@
       "category": "commodity",
       "category_name": "商品",
       "importance": 3,
-      "headline": "招商證券：銅價短期關注流動性與地緣風險",
+      "headline": "招商證券：銅價短期受流動性與地緣風險影響",
       "summary": "",
       "tags": [
         "Copper",
@@ -945,28 +896,13 @@
       "datetime": "2026-06-27 09:49",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 4,
+      "importance": 3,
       "headline": "中俄兩軍實施第11次聯合空中戰略巡航",
       "summary": "",
       "tags": [
-        "Geopolitics",
         "China",
-        "Russia"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-27 09:23",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "巴林譴責伊朗無人機攻擊其領土",
-      "summary": "",
-      "tags": [
-        "Geopolitics",
-        "Iran",
-        "MiddleEast"
+        "Russia",
+        "Geopolitics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -991,7 +927,7 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 4,
-      "headline": "蘋果尋求獲准採購中國長鑫存儲內存晶片",
+      "headline": "蘋果遊說美政府，擬採購長鑫存儲內存芯片",
       "summary": "",
       "tags": [
         "Apple",
@@ -1006,7 +942,7 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "伊朗譴責美軍空襲，美伊交火局勢升溫",
+      "headline": "伊朗譴責美軍空襲，雙方交火局勢升溫",
       "summary": "",
       "tags": [
         "Iran",
@@ -1037,7 +973,7 @@
       "category": "commodity",
       "category_name": "商品",
       "importance": 4,
-      "headline": "沙特阿美時隔4個月重啟海灣原油出口終端",
+      "headline": "沙特阿美時隔四個月，重啟海灣原油出口終端",
       "summary": "",
       "tags": [
         "Oil",
@@ -1051,8 +987,8 @@
       "datetime": "2026-06-27 03:06",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 4,
-      "headline": "霍爾木茲海峽局勢緊張，約2500名海員已撤離",
+      "importance": 3,
+      "headline": "霍爾木茲海峽局勢緊張，約2500名海員撤離",
       "summary": "",
       "tags": [
         "War",
@@ -1067,7 +1003,7 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "美伊交火升級：伊朗革命衛隊打擊美軍目標以回應空襲",
+      "headline": "美伊交火升級，伊朗革命衛隊打擊美軍目標",
       "summary": "",
       "tags": [
         "War",
@@ -1083,12 +1019,12 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "日本7月將有近2300種食品漲價，通膨壓力持續",
+      "headline": "日本7月將有近2300種食品漲價",
       "summary": "",
       "tags": [
         "Japan",
         "CPI",
-        "Economy"
+        "Inflation"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -1098,13 +1034,12 @@
       "category": "commodity",
       "category_name": "商品",
       "importance": 3,
-      "headline": "中國原材料製造業利潤增長，有色金屬行業利潤翻倍",
+      "headline": "中國原材料製造業利潤增長，石油加工扭虧為盈",
       "summary": "",
       "tags": [
-        "China",
         "Commodity",
-        "Copper",
-        "Aluminum"
+        "Oil",
+        "China"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -1114,7 +1049,7 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 4,
-      "headline": "中國電子行業前五個月利潤大增103.9%，AI算力需求強勁",
+      "headline": "中國電子行業前五月利潤大增103.9%受AI驅動",
       "summary": "",
       "tags": [
         "China",
@@ -1130,7 +1065,7 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "中國1-5月規模以上工業企業利潤同比增長18.8%",
+      "headline": "中國1-5月規模以上工業企業利潤同比增18.8%",
       "summary": "",
       "tags": [
         "China",
@@ -1144,8 +1079,8 @@
       "datetime": "2026-06-27 01:04",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 5,
-      "headline": "美副總統警告：若伊朗訴諸暴力將遭武力回擊",
+      "importance": 4,
+      "headline": "美副总统警告：若伊朗诉诸暴力将遭武力回击",
       "summary": "",
       "tags": [
         "Iran",
@@ -1160,12 +1095,12 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "AI算力需求爆發，半導體設備迎擴產大年",
+      "headline": "AI算力需求爆发，半导体设备迎增长大年",
       "summary": "",
       "tags": [
-        "Semiconductor",
         "AI",
-        "A-share"
+        "Semiconductor",
+        "Equity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -1175,12 +1110,12 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "上交所科創板新規：量子科技納入戰略新興產業",
+      "headline": "上交所科创板修订征求意见稿，新增量子科技领域",
       "summary": "",
       "tags": [
+        "China",
         "Quantum",
-        "Tech",
-        "A-share"
+        "Equity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -1189,13 +1124,13 @@
       "datetime": "2026-06-27 00:33",
       "category": "equity",
       "category_name": "股市",
-      "importance": 4,
-      "headline": "Anthropic獲准向美機構重新部署網路安全模型",
+      "importance": 3,
+      "headline": "Anthropic网络安全模型Mythos 5获准重新部署",
       "summary": "",
       "tags": [
         "Anthropic",
         "AI",
-        "Tech"
+        "Cybersecurity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -1205,7 +1140,7 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 4,
-      "headline": "SpaceX將被納入納斯達克100指數",
+      "headline": "SpaceX获纳入纳斯达克100指数，7月7日生效",
       "summary": "",
       "tags": [
         "SpaceX",
@@ -1220,12 +1155,12 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "玻利維亞放棄美元掛鉤，轉向浮動匯率制度",
+      "headline": "玻利维亚转向浮动汇率，结束15年美元挂钩",
       "summary": "",
       "tags": [
         "Bolivia",
         "FX",
-        "Macro"
+        "Economy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
