@@ -177,6 +177,37 @@
       white-space: nowrap;
     }
 
+    .brief-card {
+      padding: 16px 20px 20px;
+      margin-bottom: 14px;
+    }
+
+    .brief-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .brief-list {
+      margin: 0;
+      padding-left: 20px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .brief-list li {
+      color: #1f2937;
+      font-size: 14px;
+      line-height: 1.6;
+      font-weight: 600;
+    }
+
+    .brief-list li::marker {
+      color: #2563eb;
+      font-weight: 900;
+    }
+
     .status-card {
       display: inline-flex;
       align-items: baseline;
@@ -194,37 +225,6 @@
     .status-card strong {
       color: #111827;
       font-size: 19px;
-      font-weight: 900;
-    }
-
-    .brief-card {
-      padding: 18px 20px;
-      margin-bottom: 16px;
-    }
-
-    .brief-header h2 {
-      margin: 4px 0 10px;
-      font-size: 20px;
-      font-weight: 900;
-      color: #111827;
-    }
-
-    .brief-list {
-      margin: 0;
-      padding-left: 22px;
-      display: grid;
-      gap: 8px;
-    }
-
-    .brief-list li {
-      color: #1f2937;
-      font-size: 14px;
-      line-height: 1.55;
-      font-weight: 600;
-    }
-
-    .brief-list li::marker {
-      color: #2563eb;
       font-weight: 900;
     }
 
@@ -435,6 +435,11 @@
       </div>
     </section>
 
+    <section class="brief-card card">
+      <div class="brief-title">重點摘要</div>
+      <ol id="briefList" class="brief-list"></ol>
+    </section>
+
     <section class="status-card">
       <span>目前顯示</span>
       <strong id="visibleCount">0</strong>
@@ -452,6 +457,7 @@
 
   <script>
     let allNews = [];
+    let briefPoints = [];
 
     const categoryOrder = ["bond", "equity", "central_bank", "economy", "war", "commodity", "other"];
 
@@ -556,6 +562,16 @@
       renderNews();
     }
 
+    function renderBrief() {
+      const briefList = document.getElementById("briefList");
+      if (!briefList) return;
+      const points = briefPoints.filter(Boolean).slice(0, 10);
+      if (points.length === 0) { briefList.innerHTML = ""; return; }
+      briefList.innerHTML = points
+        .map((p) => `<li>${escapeHtml(p)}</li>`)
+        .join("");
+    }
+
     function getFilteredNews() {
       const keywordEl = document.getElementById("keyword");
       const keyword = keywordEl ? keywordEl.value.trim().toLowerCase() : "";
@@ -648,9 +664,12 @@
         const data = await response.json();
 
         allNews = Array.isArray(data.items) ? data.items : [];
+        briefPoints = Array.isArray(data.brief_points) ? data.brief_points : [];
+
         document.getElementById("generatedAt").textContent = data.generated_at || "--";
 
         updateDataRangeText();
+        renderBrief();
 
         if (allNews.length === 0) {
           document.getElementById("visibleCount").textContent = "0";
