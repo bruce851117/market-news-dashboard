@@ -1,7 +1,12 @@
 import json
 import os
 import re
-import.genai import typesimport time
+import time
+from pathlib import Path
+from datetime import datetime
+from zoneinfo import ZoneInfo
+from google import genai
+from google.genai import types
 
 TZ = ZoneInfo("Asia/Taipei")
 
@@ -76,39 +81,3 @@ def fallback_filter(items):
         elif any(k in text for k in ["原油", "油价", "油價", "天然气", "天然氣", "黄金", "黃金", "铜", "銅", "OPEC"]):
             category = "commodity"
 
-        output.append({
-            "datetime": item.get("datetime", ""),
-            "category": category,
-            "category_name": CATEGORY_MAP.get(category, category),
-            "importance": 3,
-            "headline": short_headline(item.get("headline", "")),
-            "summary": "",
-            "tags": [],
-            "source": item.get("source", "華爾街見聞"),
-            "url": item.get("url", "https://wallstreetcn.com/live/global"),
-        })
-
-    return output
-
-
-def build_prompt(batch):
-    batch_json = json.dumps(batch, ensure_ascii=False)
-
-    prompt_lines = [
-        "你是一位全球總體經濟、利率、外匯與股票市場策略分析師，使用者是一位債券/股票交易員。",
-        "",
-        "請閱讀以下華爾街見聞快訊，幫我做交易員版本的資訊整理。",
-        "",
-        "任務：",
-        "1. 你會看到完整快訊資料，請自行判斷哪些新聞重要、哪些新聞不重要。",
-        "2. 刪除不重要資訊，不要輸出那些新聞。",
-        "3. 保留對利率、債市、股市、央行政策、總經數據、戰爭地緣政治、商品能源有影響的消息。",
-        "",
-        "請特別刪除以下類型新聞：",
-        "A. 純描述價格走勢、但沒有政策、數據、事件或風險原因的新聞。",
-        "   例如：中國國債期貨早盤全線收漲、日本10年期國債收益率上升5個基點、美股期貨小幅走高。",
-
-from pathlib import Path
-from datetime import datetime
-from zoneinfo import ZoneInfo
-from google import genai
