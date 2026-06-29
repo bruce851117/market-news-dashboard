@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-29 16:37",
+  "generated_at": "2026-06-29 16:41",
   "fetch_start_time": "2026-06-26 17:00",
-  "fetch_end_time": "2026-06-29 16:37",
+  "fetch_end_time": "2026-06-29 16:41",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
@@ -3843,7 +3843,7 @@
     {
       "datetime": "2026-06-26 23:56",
       "headline": "SemiAnalysis：H100云端指数现货价格正在下跌，现在每小时2.42美元，比5月峰值低约40%。生态系统担心这表明计算需求以及由此延伸的人工智能AI需求正在减弱。",
-      "content": "重要的信号是，这很可能是一个现货价格指数，而不是期限定价。我们针对1年期H100合同价格的新云调查显示，该价格反而从去年末的大约每小时1.70美元的低谷攀升至如今的每小时约2.65美元。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.27\n-0.09\n(-0.09%)\n欧元/美元\nEURUSD.OTC\n1.1402\n+0.0019\n(+0.17%)\n美元/日元\nUSDJPY.OTC\n161.83\n+0.10\n(+0.06%)\n现货黄金\nXAUUSD.OTC\n4062.42\n-18.60\n(-0.46%)\nWTI原油\nUSCL.OTC\n70.01\n+0.78\n(+1.13%)\n离岸人民币\nUSDCNH.OTC\n6.7968\n-0.0080\n(-0.12%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
+      "content": "重要的信号是，这很可能是一个现货价格指数，而不是期限定价。我们针对1年期H100合同价格的新云调查显示，该价格反而从去年末的大约每小时1.70美元的低谷攀升至如今的每小时约2.65美元。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.28\n-0.08\n(-0.08%)\n欧元/美元\nEURUSD.OTC\n1.1399\n+0.0016\n(+0.14%)\n美元/日元\nUSDJPY.OTC\n161.84\n+0.11\n(+0.07%)\n现货黄金\nXAUUSD.OTC\n4060.04\n-20.98\n(-0.51%)\nWTI原油\nUSCL.OTC\n70.06\n+0.83\n(+1.20%)\n离岸人民币\nUSDCNH.OTC\n6.7972\n-0.0076\n(-0.11%)\n财经日历\n查看更多 >\n2026-06-29 星期一",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
