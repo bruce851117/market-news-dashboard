@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Market News Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h1>Market News Dashboard</h1>
+      <p>華爾街見聞快訊｜AI 過濾｜債市・股市・央行・經濟・戰爭・商品</p>
+    </div>
+    <div class="meta">
+      <div>更新時間</div>
+      <strong id="generatedAt">--</strong>
+    </div>
+  </header>
 
+  <section class="filters">
+    <div class="filter-group">
+      <label for="startTime">開始時間</label>
+      <input type="datetime-local" id="startTime" />
+    </div>
+
+    <div class="filter-group">
+      <label for="endTime">結束時間</label>
+      <input type="datetime-local" id="endTime" />
+    </div>
+
+    <div class="filter-group search-box">
+      <label for="keyword">搜尋關鍵字</label>
+      <input type="text" id="keyword" placeholder="Fed / CPI / UST / Oil / China" />
+    </div>
+  </section>
+
+  <section class="category-filter">
+    <label><input type="checkbox" value="bond" checked /> 債市</label>
+    <label><input type="checkbox" value="equity" checked /> 股市</label>
+    <label><input type="checkbox" value="central_bank" checked /> 央行</label>
+    <label><input type="checkbox" value="economy" checked /> 經濟</label>
+    <label><input type="checkbox" value="war" checked /> 戰爭</label>
+    <label><input type="checkbox" value="commodity" checked /> 商品</label>
+  </section>
+
+  <section class="summary-bar">
+    <div>
+      <span class="label">目前顯示</span>
+      <strong id="visibleCount">0</strong>
+      <span>則新聞</span>
+    </div>
+    <button id="resetBtn">重設篩選</button>
+  </section>
+
+  <main id="newsContainer" class="news-container"></main>
+
+  <footer class="footer">
+    Source: WallstreetCN Live Global｜Summarized by Gemini 2.5 Flash
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
