@@ -1,162 +1,245 @@
-import json
-import os
-import re
-import time
-from pathlib import Path
-from datetime import datetime
-from zoneinfo import ZoneInfo
-from google import genai
-from google.genai import types
+let allNews = [];
 
-TZ = ZoneInfo("Asia/Taipei")
+const categoryOrder = [
+  "bond",
+  "equity",
+  "central_bank",
+  "economy",
+  "war",
+  "commodity",
+];
 
-DATA_DIR = Path("data")
-RAW_INPUT = DATA_DIR / "raw_news.json"
-OUTPUT = DATA_DIR / "news.json"
+const categoryNames = {
+  bond: "債市",
+  equity: "股市",
+  central_bank: "央行",
+  economy: "經濟",
+  war: "戰爭",
+  commodity: "商品",
+};
 
-MODEL_NAME = "gemini-3.1-flash-lite"
-
-CATEGORY_MAP = {
-    "bond": "債市",
-    "equity": "股市",
-    "central_bank": "央行",
-    "economy": "經濟",
-    "war": "戰爭",
-    "commodity": "商品",
+function parseDateTime(s) {
+  if (!s) return null;
+  return new Date(String(s).replace(" ", "T"));
 }
 
+function toDateTimeLocalValue(date) {
+  if (!date || isNaN(date.getTime())) return "";
 
-def log(msg):
-    print(msg, flush=True)
+  const pad = (n) => String(n).padStart(2, "0");
 
+  return (
+    date.getFullYear() +
+    "-" +
+    pad(date.getMonth() + 1) +
+    "-" +
+    pad(date.getDate()) +
+    "T" +
+    pad(date.getHours()) +
+    ":" +
+    pad(date.getMinutes())
+  );
+}
 
-def safe_json_loads(text):
-    text = text.strip()
-    text = re.sub(r"^```json", "", text)
-    text = re.sub(r"^```", "", text)
-    text = re.sub(r"```$", "", text)
-    text = text.strip()
+function escapeHtml(str) {
+  return String(str || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
 
-    start = text.find("[")
-    end = text.rfind("]")
+function shortHeadline(str) {
+  const text = String(str || "").trim();
 
-    if start != -1 and end != -1 and end > start:
-        text = text[start:end + 1]
+  if (text.length > 30) {
+    return text.slice(0, 30);
+  }
 
-    return json.loads(text)
+  return text;
+}
 
+function getMinMaxNewsTime(items) {
+  const dates = items
+    .map((item) => parseDateTime(item.datetime))
+    .filter((d) => d && !isNaN(d.getTime()));
 
-def chunk_items(items, chunk_size=25):
-    for i in range(0, len(items), chunk_size):
-        yield items[i:i + chunk_size]
+  if (dates.length === 0) {
+    return {
+      min: null,
+      max: null,
+    };
+  }
 
+  dates.sort((a, b) => a - b);
 
-def short_headline(headline):
-    headline = str(headline or "").strip()
-    headline = headline.replace("【", "").replace("】", "")
-    headline = re.sub(r"\s+", " ", headline)
+  return {
+    min: dates[0],
+    max: dates[dates.length - 1],
+  };
+}
 
-    if len(headline) > 30:
-        headline = headline[:30]
+function renderNews() {
+  const container = document.getElementById("newsContainer");
+  const startValue = document.getElementById("startTime").value;
+  const endValue = document.getElementById("endTime").value;
+  const keyword = document.getElementById("keyword").value.trim().toLowerCase();
 
-    return headline
+  const start = startValue ? new Date(startValue) : null;
+  const end = endValue ? new Date(endValue) : null;
 
+  const filtered = allNews.filter((item) => {
+    const dt = parseDateTime(item.datetime);
 
-def fallback_filter(items):
-    output = []
+    if (!dt || isNaN(dt.getTime())) return false;
 
-    for item in items:
-        text = item.get("headline", "") + " " + item.get("content", "")
+    if (start && dt < start) return false;
+    if (end && dt > end) return false;
 
-        category = "economy"
+    if (keyword) {
+      const text = [
+        item.datetime,
+        item.category,
+        item.category_name,
+        item.headline,
+        item.summary,
+        Array.isArray(item.tags) ? item.tags.join(" ") : "",
+      ].join(" ").toLowerCase();
 
-        if any(k in text for k in ["美债", "美債", "国债", "國債", "收益率", "殖利率", "Treasury", "利率"]):
-            category = "bond"
-        elif any(k in text for k in ["Fed", "FOMC", "美联储", "聯準會", "ECB", "BOJ", "BOE", "PBOC", "央行", "降息", "升息", "加息"]):
-            category = "central_bank"
-        elif any(k in text for k in ["股市", "美股", "A股", "港股", "纳指", "納指", "标普", "標普", "道指", "Nvidia", "英伟达", "輝達"]):
-            category = "equity"
-        elif any(k in text for k in ["战争", "戰爭", "冲突", "衝突", "伊朗", "以色列", "乌克兰", "烏克蘭", "俄罗斯", "俄羅斯", "制裁"]):
-            category = "war"
-        elif any(k in text for k in ["原油", "油价", "油價", "天然气", "天然氣", "黄金", "黃金", "铜", "銅", "OPEC"]):
-            category = "commodity"
+      if (!text.includes(keyword)) return false;
+    }
 
-        output.append({
-            "datetime": item.get("datetime", ""),
-            "category": category,
-            "category_name": CATEGORY_MAP.get(category, category),
-            "importance": 3,
-            "headline": short_headline(item.get("headline", "")),
-            "summary": "",
-            "tags": [],
-            "source": item.get("source", "華爾街見聞"),
-            "url": item.get("url", "https://wallstreetcn.com/live/global"),
-        })
+    return true;
+  });
 
-    return output
+  document.getElementById("visibleCount").textContent = filtered.length;
 
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div class="empty">
+        沒有符合條件的新聞。<br/>
+        請先確認 data/news.json 是否有 items，或按「重設時間與搜尋」。
+      </div>
+    `;
+    return;
+  }
 
-def build_prompt(batch):
-    batch_json = json.dumps(batch, ensure_ascii=False)
+  const grouped = {};
 
-    prompt_lines = [
-        "你是一位全球總體經濟、利率、外匯與股票市場策略分析師，使用者是一位債券/股票交易員。",
-        "",
-        "請閱讀以下華爾街見聞快訊，幫我做交易員版本的資訊整理。",
-        "",
-        "任務：",
-        "1. 你會看到完整快訊資料，請自行判斷哪些新聞重要、哪些新聞不重要。",
-        "2. 刪除不重要資訊，不要輸出那些新聞。",
-        "3. 保留對利率、債市、股市、央行政策、總經數據、戰爭地緣政治、商品能源有影響的消息。",
-        "",
-        "請特別刪除以下類型新聞：",
-        "A. 純描述價格走勢、但沒有政策、數據、事件或風險原因的新聞。",
-        "   例如：中國國債期貨早盤全線收漲、日本10年期國債收益率上升5個基點、美股期貨小幅走高。",
-        "B. 一般性債券發行、金融債發行、農發行/國開行/進出口行發債、地方債發行等例行發債消息。",
-        "   例如：農發行發行1、2年期債券，規模共110億元。",
-        "C. 體育、娛樂、地方社會新聞、無市場影響的小型個股消息。",
-        "",
-        "分類只能使用以下其中一類：",
-        "- bond：債市、利率、美債、殖利率、信用、重要財政部標售或債市政策",
-        "- equity：股市、重大企業財報、科技龍頭、AI供應鏈、主要股指",
-        "- central_bank：Fed、ECB、BOJ、BOE、PBOC、央行官員談話、升降息",
-        "- economy：CPI、PPI、PMI、GDP、就業、薪資、消費、貿易、財政政策、關稅",
-        "- war：戰爭、地緣政治、制裁、中東、俄烏、台海、軍事衝突",
-        "- commodity：原油、天然氣、黃金、銅、農產品、能源供應",
-        "",
-        "每則新聞給 importance，1到5分：",
-        "- 5：高度影響全球利率、股市、FX、油價，例如FOMC、CPI、重大就業數據、戰爭升級、重大央行政策",
-        "- 4：重要市場新聞",
-        "- 3：中等重要",
-        "- 2：低重要但仍可保留",
-        "- 1：通常應刪除",
-        "",
-        "輸出要求：",
-        "1. headline 請簡化成30個中文字以內，保留市場重點，不要扭曲原意。",
-        "2. summary 可以留空字串，但欄位必須存在。",
-        "3. tags 用英文或常用市場代號，例如 Fed、UST、CPI、Oil、ECB、China、A-share、AI。",
-        "4. 如果新聞不重要，請不要輸出該則新聞。",
-        "5. 請務必只輸出 JSON array，不要加解釋，不要 markdown。",
-        "",
-        "輸出格式如下：",
-        "[",
-        "  {",
-        "    \"datetime\": \"2026-06-29 07:30\",",
-        "    \"category\": \"bond\",",
-        "    \"importance\": 5,",
-        "    \"headline\": \"Fed釋出偏鷹訊號\",",
-        "    \"summary\": \"\",",
-        "    \"tags\": [\"Fed\", \"UST\"],",
-        "    \"source\": \"華爾街見聞\",",
-        "    \"url\": \"https://wallstreetcn.com/live/global\"",
-        "  }",
-        "]",
-        "",
-        "以下是快訊資料：",
-        batch_json
-    ]
+  categoryOrder.forEach((category) => {
+    grouped[category] = [];
+  });
 
-    return "\n".join(prompt_lines)
+  filtered.forEach((item) => {
+    const category = item.category || "economy";
 
+    if (!grouped[category]) {
+      grouped[category] = [];
+    }
 
-def summarize_with_gemini(items):
+    grouped[category].push(item);
+  });
+
+  let html = "";
+
+  categoryOrder.forEach((category) => {
+    const items = grouped[category] || [];
+
+    if (items.length === 0) {
+      return;
+    }
+
+    html += `
+      <section class="category-block category-${category}">
+        <div class="category-header">
+          <h2>${categoryNames[category] || category}</h2>
+          <span>${items.length} 則</span>
+        </div>
+
+        <div class="compact-news-list">
+          ${items.map(renderCompactNewsItem).join("")}
+        </div>
+      </section>
+    `;
+  });
+
+  container.innerHTML = html;
+}
+
+function renderCompactNewsItem(item) {
+  return `
+    <div class="compact-news-item importance-${item.importance || 3}">
+      <span class="compact-time">${escapeHtml(item.datetime)}</span>
+      <span class="compact-headline">${escapeHtml(shortHeadline(item.headline))}</span>
+    </div>
+  `;
+}
+
+async function loadNews() {
+  try {
+    const res = await fetch("data/news.json?ts=" + Date.now());
+
+    if (!res.ok) {
+      throw new Error("Cannot load data/news.json");
+    }
+
+    const data = await res.json();
+
+    allNews = data.items || [];
+
+    document.getElementById("generatedAt").textContent = data.generated_at || "--";
+
+    if (allNews.length === 0) {
+      document.getElementById("visibleCount").textContent = "0";
+      document.getElementById("newsContainer").innerHTML = `
+        <div class="empty">
+          data/news.json 已讀取，但 items 是空的。<br/>
+          這代表 Gemini 可能把新聞全部刪掉，或 workflow 沒成功產生資料。
+        </div>
+      `;
+      return;
+    }
+
+    const minMax = getMinMaxNewsTime(allNews);
+
+    const startFromJson = data.fetch_start_time ? parseDateTime(data.fetch_start_time) : null;
+    const endFromJson = data.fetch_end_time ? parseDateTime(data.fetch_end_time) : null;
+
+    const start = startFromJson || minMax.min;
+    const end = endFromJson || minMax.max || new Date();
+
+    document.getElementById("startTime").value = toDateTimeLocalValue(start);
+    document.getElementById("endTime").value = toDateTimeLocalValue(end);
+
+    renderNews();
+  } catch (err) {
+    console.error(err);
+
+    document.getElementById("newsContainer").innerHTML = `
+      <div class="empty">
+        讀取 data/news.json 失敗。<br/>
+        請確認 GitHub Actions 已成功執行，且 repo 裡存在 data/news.json。
+      </div>
+    `;
+  }
+}
+
+document.getElementById("startTime").addEventListener("change", renderNews);
+document.getElementById("endTime").addEventListener("change", renderNews);
+document.getElementById("keyword").addEventListener("input", renderNews);
+
+document.getElementById("resetBtn").addEventListener("click", () => {
+  document.getElementById("keyword").value = "";
+
+  if (allNews.length > 0) {
+    const minMax = getMinMaxNewsTime(allNews);
+
+    document.getElementById("startTime").value = toDateTimeLocalValue(minMax.min);
+    document.getElementById("endTime").value = toDateTimeLocalValue(minMax.max);
+  }
+
+  renderNews();
+});
+
+loadNews();
