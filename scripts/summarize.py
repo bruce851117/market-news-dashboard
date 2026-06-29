@@ -2,57 +2,7 @@ import json
 import os
 import re
 import time
-from pathlib import Path
-from datetime import = DATA_DIR / "news.json"from datetime import datetime
-
-MODEL_NAME = "gemini-3.1-flash-lite"
-
-CATEGORY_MAP = {
-    "bond": "債市",
-    "equity": "股市",
-    "central_bank": "央行",
-    "economy": "經濟",
-    "war": "戰爭",
-    "commodity": "商品",
-}
-
-
-def log(msg):
-    print(msg, flush=True)
-
-
-def clean_url(url):
-    url = str(url or "").strip()
-
-    if "wallstreetcn.com/live/global" in url:
-        return "https://wallstreetcn.com/live/global"
-
-    return url
-
-
-def safe_json_loads(text):
-    text = str(text or "").strip()
-    text = re.sub(r"^```json", "", text)
-    text = re.sub(r"^```", "", text)
-    text = re.sub(r"```$", "", text)
-    text = text.strip()
-
-    start = text.find("[")
-    end = text.rfind("]")
-
-    if start != -1 and end != -1 and end > start:
-        text = text[start:end + 1]
-
-    return json.loads(text)
-
-
-def chunk_items(items, chunk_size=25):
-    for i in range(0, len(items), chunk_size):
-        yield items[i:i + chunk_size]
-
-
-def short_text(text, max_len):
-    text = str(text or "").strip()
+from pathlib()from pathlib import Path
     text = text.replace("【", "").replace("】", "")
     text = re.sub(r"\s+", " ", text)
 
@@ -121,7 +71,7 @@ def build_news_prompt(batch):
     prompt += "6. 請務必只輸出 JSON array，不要加解釋，不要 markdown。\n\n"
 
     prompt += "輸出格式範例：\n"
-    prompt += "[{\"datetime\":\"2026-06-29 07:30\",\"category\":\"bond\",\"importance\":5,\"headline\":\"Fed釋出偏鷹訊號\",\"summary\":\"Fed官員談話偏鷹，市場可能下修降息預期。\",\"content\":\"Fed官員釋出偏鷹訊號，使短端利率與美債殖利率面臨重新定價壓力，股市風險偏好可能受抑。\",\"tags\":[\"Fed\",\"UST\"],\"source\":\"華爾街見聞\",\"url\":\"https://wallstreetcn.com/live/global\"}]\n\n"
+    prompt += '[{"datetime":"2026-06-29 07:30","category":"bond","importance":5,"headline":"Fed釋出偏鷹訊號","summary":"Fed官員談話偏鷹，市場可能下修降息預期。","content":"Fed官員釋出偏鷹訊號，使短端利率與美債殖利率面臨重新定價壓力，股市風險偏好可能受抑。","tags":["Fed","UST"],"source":"華爾街見聞","url":"https://wallstreetcn.com/live/global"}]\n\n'
 
     prompt += "以下是快訊資料：\n"
     prompt += batch_json
@@ -149,7 +99,8 @@ def build_brief_prompt(items):
     prompt += "6. 請務必只輸出 JSON array of strings，不要加解釋，不要 markdown。\n\n"
 
     prompt += "輸出格式範例：\n"
-    prompt += "[\"Fed官員偏鷹，短端利率降息定價可能受壓。\",\"中東風險升溫，油價風險溢價仍需關注。\"]\n\n"
+    prompt += '["Fed官員偏鷹，短端利率降息定價可能受壓。","中東風險升溫，油價風險溢價仍需關注。"]\n\n'
+
     prompt += "以下是重要新聞：\n"
     prompt += items_json
 
@@ -161,7 +112,6 @@ def fallback_filter(items):
 
     for item in items:
         text = item.get("headline", "") + " " + item.get("content", "")
-
         category = "economy"
 
         if any(k in text for k in ["美債", "國債", "收益率", "殖利率", "Treasury", "利率"]):
@@ -176,10 +126,7 @@ def fallback_filter(items):
             category = "commodity"
 
         raw_content = item.get("content", "")
-        fallback_summary = short_summary(raw_content)
-
-        if not fallback_summary:
-            fallback_summary = short_headline(item.get("headline", ""))
+        fallback_summary = short_summary(raw_content) or short_headline(item.get("headline", ""))
 
         output.append({
             "datetime": item.get("datetime", ""),
@@ -279,156 +226,8 @@ def normalize_results(results):
         summary = short_summary(item.get("summary", ""))
         content = short_content(item.get("content", ""))
 
-        if not summary:
-            summary = headline
 
-        if not content:
-            content = summary
-
-        cleaned.append({
-            "datetime": item.get("datetime", "").strip(),
-            "category": category,
-            "category_name": CATEGORY_MAP.get(category, category),
-            "importance": importance,
-            "headline": headline,
-            "summary": summary,
-            "content": content,
-            "tags": tags,
-            "source": "華爾街見聞",
-            "url": "https://wallstreetcn.com/live/global",
-        })
-
-    cleaned = [x for x in cleaned if x["datetime"] and x["headline"]]
-
-    seen = set()
-    unique = []
-
-    for item in cleaned:
-        key = (item["datetime"], item["headline"])
-
-        if key in seen:
-            continue
-
-        seen.add(key)
-        unique.append(item)
-
-    unique.sort(key=lambda x: x["datetime"], reverse=True)
-
-    return unique
-
-
-def fallback_brief_points(items):
-    if not items:
-        return []
-
-    sorted_items = sorted(
-        items,
-        key=lambda x: (int(x.get("importance", 3)), x.get("datetime", "")),
-        reverse=True,
-    )
-
-    points = []
-
-    for item in sorted_items[:10]:
-        category_name = item.get("category_name", "")
-        summary = item.get("summary", "")
-        headline = short_headline(item.get("headline", ""))
-
-        if summary:
-            points.append(category_name + "：" + summary)
-        else:
-            points.append(category_name + "：" + headline)
-
-    return points[:10]
-
-
-def generate_brief_points(items):
-    api_key = os.environ.get("GEMINI_API_KEY")
-
-    if not api_key:
-        raise RuntimeError("Missing GEMINI_API_KEY in GitHub Secrets")
-
-    if not items:
-        return []
-
-    client = genai.Client(api_key=api_key)
-
-    sorted_items = sorted(
-        items,
-        key=lambda x: (int(x.get("importance", 3)), x.get("datetime", "")),
-        reverse=True,
-    )
-
-    brief_source_items = sorted_items[:80]
-    prompt = build_brief_prompt(brief_source_items)
-
-    log(f"Generating brief points from {len(brief_source_items)} important items...")
-
-    for attempt in range(1, 3):
-        try:
-            response = client.models.generate_content(
-                model=MODEL_NAME,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                    temperature=0.2,
-                ),
-            )
-
-            parsed = safe_json_loads(response.text)
-
-            if isinstance(parsed, list):
-                points = []
-
-                for x in parsed:
-                    if isinstance(x, str):
-                        text = x.strip()
-                    elif isinstance(x, dict):
-                        text = str(x.get("point", "")).strip()
-                    else:
-                        text = ""
-
-                    if text:
-                        points.append(text)
-
-                points = points[:10]
-                log(f"Brief points generated: {len(points)}")
-                return points
-
-            log("Brief response is not a list.")
-
-        except Exception as e:
-            log(f"Brief attempt {attempt} failed: {e}")
-
-            if attempt < 2:
-                log("Retrying brief after 5 seconds...")
-                time.sleep(5)
-
-    log("Brief generation failed. Using fallback brief.")
-    return fallback_brief_points(items)
-
-
-def main():
-    log("========== Summarize Start ==========")
-
-    if not RAW_INPUT.exists():
-        raise FileNotFoundError("data/raw_news.json not found. Please run crawler.py first.")
-
-    raw = json.loads(RAW_INPUT.read_text(encoding="utf-8"))
-    items = raw.get("items", [])
-
-    log(f"Loaded raw items: {len(items)}")
-    log("No prefilter is applied. All raw items will be sent to Gemini in batches.")
-
-    if len(items) == 0:
-        output = {
-            "generated_at": datetime.now(TZ).strftime("%Y-%m-%d %H:%M"),
-            "timezone": "Asia/Taipei",
-            "source": "https://wallstreetcn.com/live/global",
-            "fetch_start_time": raw.get("fetch_start_time", ""),
-            "fetch_end_time": raw.get("fetch_end_time", ""),
-            "raw_count": 0,
-
+from datetime import datetime
 from zoneinfo import ZoneInfo
 
 from google import genai
@@ -439,3 +238,52 @@ TZ = ZoneInfo("Asia/Taipei")
 
 DATA_DIR = Path("data")
 RAW_INPUT = DATA_DIR / "raw_news.json"
+OUTPUT = DATA_DIR / "news.json"
+
+MODEL_NAME = "gemini-3.1-flash-lite"
+
+CATEGORY_MAP = {
+    "bond": "債市",
+    "equity": "股市",
+    "central_bank": "央行",
+    "economy": "經濟",
+    "war": "戰爭",
+    "commodity": "商品",
+}
+
+
+def log(msg):
+    print(msg, flush=True)
+
+
+def clean_url(url):
+    url = str(url or "").strip()
+
+    if "wallstreetcn.com/live/global" in url:
+        return "https://wallstreetcn.com/live/global"
+
+    return url
+
+
+def safe_json_loads(text):
+    text = str(text or "").strip()
+    text = re.sub(r"^```json", "", text)
+    text = re.sub(r"^```", "", text)
+    text = re.sub(r"```$", "", text)
+    text = text.strip()
+
+    start = text.find("[")
+    end = text.rfind("]")
+
+    if start != -1 and end != -1 and end > start:
+        text = text[start:end + 1]
+
+    return json.loads(text)
+
+
+def chunk_items(items, chunk_size=25):
+    for i in range(0, len(items), chunk_size):
+        yield items[i:i + chunk_size]
+
+
+def short_text(text, max_len):
