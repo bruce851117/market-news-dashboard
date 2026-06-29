@@ -1,3 +1,5 @@
+const APP_VERSION = "render-all-v2";
+
 let allNews = [];
 let briefPoints = [];
 
@@ -53,9 +55,7 @@ function parseDateTime(s) {
 
   const d = new Date(text.replace(" ", "T"));
 
-  if (isNaN(d.getTime())) {
-    return null;
-  }
+  if (isNaN(d.getTime())) return null;
 
   return d;
 }
@@ -105,16 +105,6 @@ function escapeHtml(str) {
     .replaceAll("'", "&#039;");
 }
 
-function shortHeadline(str) {
-  const text = String(str || "").trim();
-
-  if (text.length > 30) {
-    return text.slice(0, 30);
-  }
-
-  return text;
-}
-
 function getMinMaxNewsTime(items) {
   const dates = items
     .map((item) => parseDateTime(item.datetime))
@@ -152,52 +142,6 @@ function updateDataRangeText() {
     formatDisplayTime(minMax.max);
 }
 
-function makeFallbackBriefPoints() {
-  if (!allNews || allNews.length === 0) {
-    return [];
-  }
-
-  const sorted = [...allNews].sort((a, b) => {
-    const ia = Number(a.importance || 3);
-    const ib = Number(b.importance || 3);
-
-    if (ib !== ia) return ib - ia;
-
-    const da = parseDateTime(a.datetime);
-    const db = parseDateTime(b.datetime);
-
-    return db - da;
-  });
-
-  return sorted.slice(0, 10).map((item) => {
-    const category = categoryNames[normalizeCategory(item.category)] || "市場";
-    const summary = item.summary || item.content || item.headline || "";
-    return category + "：" + summary;
-  });
-}
-
-function renderBrief() {
-  const briefList = document.getElementById("briefList");
-
-  if (!briefList) return;
-
-  let points = Array.isArray(briefPoints) ? briefPoints.filter(Boolean) : [];
-
-  if (points.length === 0) {
-    points = makeFallbackBriefPoints();
-  }
-
-  if (points.length === 0) {
-    briefList.innerHTML = "<li>目前沒有可顯示的重點摘要。</li>";
-    return;
-  }
-
-  briefList.innerHTML = points
-    .slice(0, 10)
-    .map((point) => `<li>${escapeHtml(point)}</li>`)
-    .join("");
-}
-
 function resetFiltersToDataRange() {
   const minMax = getMinMaxNewsTime(allNews);
 
@@ -215,23 +159,42 @@ function resetFiltersToDataRange() {
   renderNews();
 }
 
+function renderBrief() {
+  const briefList = document.getElementById("briefList");
+  if (!briefList) return;
+
+  let points = Array.isArray(briefPoints) ? briefPoints.filter(Boolean) : [];
+
+  if (points.length === 0 && allNews.length > 0) {
+    points = allNews
+      .slice()
+      .sort((a, b) => Number(b.importance || 3) - Number(a.importance || 3))
+      .slice(0, 10)
+      .map((item) => {
+        const category = categoryNames[normalizeCategory(item.category)] || "市場";
+        const text = item.summary || item.content || item.headline || "";
+        return category + "：" + text;
+      });
+  }
+
+  if (points.length === 0) {
+    briefList.innerHTML = "<li>目前沒有可顯示的重點摘要。</li>";
+    return;
+  }
+
+  briefList.innerHTML = points
+    .slice(0, 10)
+    .map((point) => `<li>${escapeHtml(point)}</li>`)
+    .join("");
+}
+
 function getFilteredNews() {
-  const startValue = document.getElementById("startTime").value;
-  const endValue = document.getElementById("endTime").value;
   const keyword = document.getElementById("keyword").value.trim().toLowerCase();
 
-  const start = startValue ? new Date(startValue) : null;
-  const end = endValue ? new Date(endValue) : null;
+  let filtered = allNews.slice();
 
-  const filtered = allNews.filter((item) => {
-    const dt = parseDateTime(item.datetime);
-
-    if (!dt || isNaN(dt.getTime())) return false;
-
-    if (start && !isNaN(start.getTime()) && dt < start) return false;
-    if (end && !isNaN(end.getTime()) && dt > end) return false;
-
-    if (keyword) {
+  if (keyword) {
+    filtered = filtered.filter((item) => {
       const text = [
         item.datetime,
         item.category,
@@ -242,30 +205,27 @@ function getFilteredNews() {
         Array.isArray(item.tags) ? item.tags.join(" ") : "",
       ].join(" ").toLowerCase();
 
-      if (!text.includes(keyword)) return false;
-    }
-
-    return true;
-  });
+      return text.includes(keyword);
+    });
+  }
 
   return filtered;
 }
 
 function renderNews() {
   const container = document.getElementById("newsContainer");
+  const visibleCountEl = document.getElementById("visibleCount");
 
-  if (!container) return;
+  if (!container || !visibleCountEl) return;
 
   let filtered = getFilteredNews();
 
   /*
-    防呆：
-    如果 allNews 明明有資料，但日期欄位或瀏覽器 locale 導致 filtered 變 0，
-    就先顯示全部資料，避免畫面整片空白。
+    這版刻意不使用日期篩選來排除新聞。
+    日期欄位只用來顯示與重設，避免瀏覽器 datetime-local 格式導致 filtered = 0。
   */
-  if (filtered.length === 0 && allNews.length > 0) {
-    console.warn("Filtered news is 0, fallback to allNews.");
-    filtered = [...allNews];
+  if (!document.getElementById("keyword").value.trim()) {
+    filtered = allNews.slice();
   }
 
   filtered.sort((a, b) => {
@@ -277,13 +237,13 @@ function renderNews() {
     return da - db;
   });
 
-  document.getElementById("visibleCount").textContent = filtered.length;
+  visibleCountEl.textContent = filtered.length;
 
   if (filtered.length === 0) {
     container.innerHTML = `
       <div class="empty">
-        data/news.json 已讀取，但目前沒有可顯示的新聞。<br/>
-        請確認 data/news.json 的 items 是否為空。
+        已讀取 data/news.json，但目前沒有符合搜尋條件的新聞。<br/>
+        請清空搜尋關鍵字，或按「重設時間與搜尋」。
       </div>
     `;
     return;
@@ -305,25 +265,12 @@ function renderNews() {
     grouped[category].push(item);
   });
 
-  Object.keys(grouped).forEach((category) => {
-    grouped[category].sort((a, b) => {
-      const da = parseDateTime(a.datetime);
-      const db = parseDateTime(b.datetime);
-
-      if (!da || !db) return 0;
-
-      return da - db;
-    });
-  });
-
   let html = "";
 
   categoryOrder.forEach((category) => {
     const items = grouped[category] || [];
 
-    if (items.length === 0) {
-      return;
-    }
+    if (items.length === 0) return;
 
     html += `
       <section class="category-block category-${category}">
@@ -349,24 +296,14 @@ function renderTimelineItem(item) {
   const summary = item.summary || "";
   const content = item.content || "";
 
-  let detailHtml = "";
-
-  if (summary || content) {
-    detailHtml = `
-      <div class="timeline-detail">
-        ${summary ? `<div class="timeline-summary">${escapeHtml(summary)}</div>` : ""}
-        ${content && content !== summary ? `<div class="timeline-content">${escapeHtml(content)}</div>` : ""}
-      </div>
-    `;
-  }
-
   return `
     <div class="timeline-item importance-${item.importance || 3}">
       <div class="timeline-dot"></div>
       <div class="timeline-time">${escapeHtml(item.datetime)}</div>
       <div class="timeline-body">
-        <div class="timeline-headline">${escapeHtml(shortHeadline(item.headline))}</div>
-        ${detailHtml}
+        <div class="timeline-headline">${escapeHtml(item.headline || "")}</div>
+        ${summary ? `<div class="timeline-summary">${escapeHtml(summary)}</div>` : ""}
+        ${content && content !== summary ? `<div class="timeline-content">${escapeHtml(content)}</div>` : ""}
       </div>
     </div>
   `;
@@ -386,8 +323,7 @@ function showLoadError(message) {
   if (container) {
     container.innerHTML = `
       <div class="empty">
-        ${escapeHtml(message)}<br/>
-        請直接打開 data/news.json 確認檔案是否存在且格式正確。
+        ${escapeHtml(message)}
       </div>
     `;
   }
@@ -395,6 +331,8 @@ function showLoadError(message) {
 
 async function loadNews() {
   try {
+    console.log("APP_VERSION:", APP_VERSION);
+
     const url = "data/news.json?ts=" + Date.now();
     console.log("Loading news from:", url);
 
@@ -420,8 +358,7 @@ async function loadNews() {
       document.getElementById("visibleCount").textContent = "0";
       document.getElementById("newsContainer").innerHTML = `
         <div class="empty">
-          data/news.json 已讀取，但 items 是空的。<br/>
-          這代表 summarize.py 產出的 news.json 沒有新聞。
+          data/news.json 已讀取，但 items 是空的。
         </div>
       `;
       return;
