@@ -1,4 +1,3 @@
-
 import json
 import re
 import time
@@ -19,11 +18,38 @@ DATE_RE = re.compile(r"^(\d{2})月(\d{2})日")
 TIME_RE = re.compile(r"^([01]\d|2[0-3]):([0-5]\d)$")
 
 
+def log(msg):
+    print(msg, flush=True)
+
+
 def normalize_text(s: str) -> str:
     s = s.replace("\u3000", " ")
     s = re.sub(r"\s+", " ", s).strip()
     s = s.replace("### ", "").replace("###", "")
     return s.strip()
+
+
+def get_fetch_start_time(now: datetime):
+    """
+    規則：
+    - 如果今天是禮拜一：抓上週五 17:00 之後
+    - 其他日期：抓前一天 17:00 之後
+    """
+
+    # Python weekday: Monday=0, Tuesday=1, ..., Sunday=6
+    if now.weekday() == 0:
+        start_date = now.date() - timedelta(days=3)
+    else:
+        start_date = now.date() - timedelta(days=1)
+
+    return datetime(
+        start_date.year,
+        start_date.month,
+        start_date.day,
+        17,
+        0,
+        tzinfo=TZ,
+    )
 
 
 def parse_date_line(line: str, now: datetime):
@@ -37,24 +63,11 @@ def parse_date_line(line: str, now: datetime):
 
     dt = datetime(year, month, day, tzinfo=TZ)
 
-    # 處理跨年，避免 12月底 / 1月初抓錯年份
+    # 處理跨年
     if dt > now + timedelta(days=2):
         dt = datetime(year - 1, month, day, tzinfo=TZ)
 
     return dt.date()
-
-
-def get_oldest_date_from_text(text: str, now: datetime):
-    dates = []
-    for line in text.splitlines():
-        d = parse_date_line(line.strip(), now)
-        if d:
-            dates.append(d)
-
-    if not dates:
-        return None
-
-    return min(dates)
 
 
 def extract_news_items(text: str, now: datetime):
@@ -66,6 +79,7 @@ def extract_news_items(text: str, now: datetime):
 
     def flush_item():
         nonlocal current_item
+
         if not current_item:
             return
 
@@ -85,7 +99,6 @@ def extract_news_items(text: str, now: datetime):
         headline = raw_lines[0]
         content = "\n".join(raw_lines[1:]).strip()
 
-        # 如果 headline 太長，取前一段當標題
         if len(headline) > 120:
             content = headline
             headline = headline[:80] + "..."
@@ -102,8 +115,6 @@ def extract_news_items(text: str, now: datetime):
         current_item = None
 
     for line in lines:
-        line = line.strip()
-
         d = parse_date_line(line, now)
         if d:
             flush_item()
@@ -140,6 +151,7 @@ def extract_news_items(text: str, now: datetime):
     # 去重
     seen = set()
     unique = []
+
     for item in items:
         key = (item["datetime"], item["headline"])
         if key in seen:
@@ -151,14 +163,41 @@ def extract_news_items(text: str, now: datetime):
     return unique
 
 
+def get_oldest_datetime(items):
+    if not items:
+        return None
+
+    dts = []
+
+    for item in items:
+        try:
+            dt = datetime.strptime(item["datetime"], "%Y-%m-%d %H:%M").replace(tzinfo=TZ)
+            dts.append(dt)
+        except Exception:
+            pass
+
+    if not dts:
+        return None
+
+    return min(dts)
+
+
 def main():
     now = datetime.now(TZ)
-    cutoff = now - timedelta(days=7)
+    start_time = get_fetch_start_time(now)
 
-    print(f"Now: {now}")
-    print(f"Cutoff: {cutoff}")
+    log("========== Crawl Start ==========")
+    log(f"Now Taipei Time: {now.strftime('%Y-%m-%d %H:%M')}")
+    log(f"Fetch Start Time: {start_time.strftime('%Y-%m-%d %H:%M')}")
+
+    if now.weekday() == 0:
+        log("Rule: Today is Monday, fetching news after last Friday 17:00.")
+    else:
+        log("Rule: Today is not Monday, fetching news after previous day 17:00.")
 
     with sync_playwright() as p:
+        log("Launching Chromium...")
+
         browser = p.chromium.launch(
             headless=True,
             args=[
@@ -176,36 +215,49 @@ def main():
             ),
         )
 
+        log(f"Opening URL: {URL}")
         page.goto(URL, wait_until="networkidle", timeout=90000)
         time.sleep(5)
 
         last_height = 0
         same_height_count = 0
+        latest_items_count = 0
 
-        for i in range(100):
+        for i in range(80):
             text = page.locator("body").inner_text(timeout=30000)
-            oldest = get_oldest_date_from_text(text, now)
+            items = extract_news_items(text, now)
+            oldest_dt = get_oldest_datetime(items)
 
-            print(f"Scroll {i + 1}, oldest date: {oldest}")
+            latest_items_count = len(items)
 
-            if oldest and oldest <= cutoff.date():
-                print("Reached one week ago.")
+            log(
+                f"Scroll {i + 1}: "
+                f"items={len(items)}, "
+                f"oldest={oldest_dt.strftime('%Y-%m-%d %H:%M') if oldest_dt else 'N/A'}"
+            )
+
+            if oldest_dt and oldest_dt <= start_time:
+                log("Reached required start time. Stop scrolling.")
                 break
 
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
             time.sleep(3)
 
             height = page.evaluate("document.body.scrollHeight")
+
             if height == last_height:
                 same_height_count += 1
+                log(f"Page height unchanged. Count={same_height_count}")
             else:
                 same_height_count = 0
 
             last_height = height
 
             if same_height_count >= 5:
-                print("Page height no longer changes. Stop scrolling.")
+                log("Page height no longer changes. Stop scrolling.")
                 break
+
+        log(f"Finished scrolling. Last detected items count: {latest_items_count}")
 
         final_text = page.locator("body").inner_text(timeout=30000)
         browser.close()
@@ -213,13 +265,22 @@ def main():
     all_items = extract_news_items(final_text, now)
 
     filtered_items = []
+
     for item in all_items:
-        dt = datetime.strptime(item["datetime"], "%Y-%m-%d %H:%M").replace(tzinfo=TZ)
-        if cutoff <= dt <= now:
+        try:
+            dt = datetime.strptime(item["datetime"], "%Y-%m-%d %H:%M").replace(tzinfo=TZ)
+        except Exception:
+            continue
+
+        if start_time <= dt <= now:
             filtered_items.append(item)
+
+    filtered_items.sort(key=lambda x: x["datetime"], reverse=True)
 
     result = {
         "generated_at": now.strftime("%Y-%m-%d %H:%M"),
+        "fetch_start_time": start_time.strftime("%Y-%m-%d %H:%M"),
+        "fetch_end_time": now.strftime("%Y-%m-%d %H:%M"),
         "source": URL,
         "timezone": "Asia/Taipei",
         "count": len(filtered_items),
@@ -231,7 +292,19 @@ def main():
         encoding="utf-8",
     )
 
-    print(f"Saved {len(filtered_items)} raw news items to {RAW_OUTPUT}")
+    log("========== Crawl Finished ==========")
+    log(f"Raw items before time filter: {len(all_items)}")
+    log(f"Raw items after time filter: {len(filtered_items)}")
+    log(f"Saved raw news to: {RAW_OUTPUT}")
+
+    if filtered_items:
+        log("Latest item:")
+        log(json.dumps(filtered_items[0], ensure_ascii=False, indent=2))
+
+        log("Oldest item:")
+        log(json.dumps(filtered_items[-1], ensure_ascii=False, indent=2))
+    else:
+        log("Warning: No items captured after time filter.")
 
 
 if __name__ == "__main__":
