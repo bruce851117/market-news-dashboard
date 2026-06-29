@@ -216,18 +216,12 @@ function renderNews() {
 }
 
 function renderTimelineItem(item) {
-  const headline = item.headline || "";
-  const summary = item.summary || "";
-  const content = item.content || "";
-
   return `
     <article class="timeline-item importance-${item.importance || 3}">
       <div class="timeline-dot"></div>
       <time class="timeline-time">${escapeHtml(item.datetime)}</time>
       <div class="timeline-body">
-        <div class="timeline-headline">${escapeHtml(headline)}</div>
-        ${summary ? `<div class="timeline-summary">${escapeHtml(summary)}</div>` : ""}
-        ${content && content !== summary ? `<div class="timeline-content">${escapeHtml(content)}</div>` : ""}
+        ${item.summary ? `<div class="timeline-summary">${escapeHtml(item.summary)}</div>` : ""}
       </div>
     </article>
   `;
