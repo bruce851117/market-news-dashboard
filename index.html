@@ -1,22 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">--</div>  <meta charset="UTF-8" />
-      </div>
-      <div class="data-range-note">
-        按「重設時間與搜尋」會自動恢復為目前 data/news.json 的完整時間範圍
-      </div>
-    </section>
-
-    <section class="filter-card">
-      <div class="filter-grid">
-        <div class="filter-group">
-          <label for="startTime">開始時間</label>
-          <input type="datetime-local" id="startTime" />
-        </div>
-
-        <div class="filter-group">
-          <label for="endTime">結束時間</label>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content">結束時間</label>  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <input type="datetime-local" id="endTime" />
         </div>
 
@@ -57,8 +43,8 @@
   </footer>
 </body>
 </html>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Market News Dashboard</title>
+
   <link rel="stylesheet" href="styles.css" />
   <script src="app.js" defer></script>
 </head>
@@ -81,3 +67,18 @@
     <section class="data-range-card">
       <div>
         <div class="section-label">底層資料時間範圍</div>
+        <div class="data-range-text" id="dataRange">--</div>
+      </div>
+      <div class="data-range-note">
+        按「重設時間與搜尋」會自動恢復為目前 data/news.json 的完整時間範圍
+      </div>
+    </section>
+
+    <section class="filter-card">
+      <div class="filter-grid">
+        <div class="filter-group">
+          <label for="startTime">開始時間</label>
+          <input type="datetime-local" id="startTime" />
+        </div>
+
+        <div class="filter-group">
