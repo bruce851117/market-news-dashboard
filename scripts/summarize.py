@@ -16,14 +16,17 @@ RAW_INPUT = DATA_DIR / "raw_news.json"
 OUTPUT = DATA_DIR / "news.json"
 MODEL_NAME = "gemini-3.1-flash-lite"
 
+
 CATEGORY_MAP = {
     "bond": "債市",
     "equity": "股市",
     "central_bank": "央行",
     "economy": "經濟",
+    "fiscal_policy": "財政政策",
     "war": "戰爭",
     "commodity": "商品",
 }
+
 
 
 def log(msg):
@@ -77,11 +80,11 @@ def build_news_prompt(batch):
     prompt += "你是全球總體經濟、利率、外匯與股票市場策略分析師。\n"
     prompt += "使用者是債券與股票交易員。請用繁體中文整理快訊。不要使用簡體中文。\n"
     prompt += "專有名詞如 Fed、ECB、BOJ、UST、CPI、Nvidia、TSMC 可保留英文。\n\n"
-    prompt += "請保留會影響利率、債市、股市、央行、總經、地緣政治、商品能源的新聞。\n"
+    prompt += "請保留會影響利率、債市、股市、央行、總經、財政政策、地緣政治、商品能源的新聞。\n"
     prompt += "請刪除不重要新聞、純價格走勢新聞、例行債券發行新聞、體育娛樂地方社會新聞。\n"
     prompt += "純價格走勢例子：中國國債期貨早盤全線收漲、日本10年期國債收益率上升5個基點、美股期貨小幅走高。\n"
     prompt += "例行發債例子：農發行發行1、2年期債券，規模共110億元。\n\n"
-    prompt += "category 只能是 bond、equity、central_bank、economy、war、commodity。\n"
+    prompt += "category 只能是 bond、equity、central_bank、fiscal_policy、economy、war、commodity。\n"
     prompt += "importance 為1到5，5代表最重要。\n"
     prompt += "headline：30個中文字以內，繁體中文。\n"
     prompt += "summary：必填，90個中文字以內，繁體中文，說明市場或交易意義。\n"
@@ -117,6 +120,13 @@ def fallback_filter(items):
             category = "bond"
         elif any(k in text for k in ["Fed", "FOMC", "聯準會", "美聯儲", "ECB", "BOJ", "BOE", "PBOC", "央行"]):
             category = "central_bank"
+        elif any(k in text for k in [
+            "財政", "财政", "預算", "预算", "赤字", "政府支出", "公共支出",
+            "減稅", "减税", "增稅", "增税", "稅改", "税改", "補貼", "补贴",
+            "國債發行", "国债发行", "債務上限", "债务上限", "財政部", "财政部",
+            "Treasury", "tariff", "關稅", "关税", "刺激方案", "財政刺激", "财政刺激"
+        ]):
+            category = "fiscal_policy"
         elif any(k in text for k in ["股市", "美股", "A股", "港股", "納指", "標普", "道指", "Nvidia", "輝達"]):
             category = "equity"
         elif any(k in text for k in ["戰爭", "衝突", "伊朗", "以色列", "烏克蘭", "俄羅斯", "制裁"]):

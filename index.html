@@ -459,12 +459,13 @@
     let allNews = [];
     let briefPoints = [];
 
-    const categoryOrder = ["bond", "equity", "central_bank", "economy", "war", "commodity", "other"];
+    const categoryOrder = ["bond", "equity", "central_bank","fiscal_policy", "economy", "war", "commodity", "other"];
 
     const categoryNames = {
       bond: "債市",
       equity: "股市",
       central_bank: "央行",
+      fiscal_policy: "財政政策",
       economy: "經濟",
       war: "戰爭",
       commodity: "商品",
@@ -475,6 +476,7 @@
       bond: "利率、美債、殖利率、信用與債市政策",
       equity: "股市、科技龍頭、AI 供應鏈與主要股指",
       central_bank: "Fed、ECB、BOJ、BOE、PBOC 與央行政策",
+      fiscal_policy: "財政赤字、預算、稅改、關稅、補貼、政府支出與公債供給",
       economy: "CPI、PPI、PMI、GDP、就業、關稅與財政政策",
       war: "戰爭、地緣政治、制裁與軍事衝突",
       commodity: "原油、天然氣、黃金、銅與能源供應",
@@ -486,6 +488,16 @@
       if (c === "bond" || c === "債市" || c === "债市") return "bond";
       if (c === "equity" || c === "股市") return "equity";
       if (c === "central_bank" || c === "央行") return "central_bank";
+      
+      if (
+        c === "fiscal_policy" ||
+        c === "財政政策" ||
+        c === "财政政策" ||
+        c === "財政" ||
+        c === "财政"
+      ) return "fiscal_policy";
+      
+
       if (c === "economy" || c === "經濟" || c === "经济") return "economy";
       if (c === "war" || c === "戰爭" || c === "战争" || c === "地緣政治" || c === "地缘政治") return "war";
       if (c === "commodity" || c === "商品" || c === "能源" || c === "大宗商品") return "commodity";
