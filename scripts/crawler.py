@@ -8,7 +8,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 
-CRAWLER_VERSION = "tw-browser-time-v6-clean-stop"
+CRAWLER_VERSION = "tw-browser-time-v7-inline-date-fix"
 
 URL = "https" + "://wallstreetcn.com/live/global"
 
@@ -19,7 +19,8 @@ DATA_DIR.mkdir(exist_ok=True)
 
 RAW_OUTPUT = DATA_DIR / "raw_news.json"
 
-DATE_RE = re.compile(r"^(\d{2})月(\d{2})日$")
+DATE_LINE_RE = re.compile(r"^(\d{2})月(\d{2})日(?:[，,\s、]*星期[一二三四五六日天])?$")
+DATE_MARKER_RE = re.compile(r"(\d{2}月\d{2}日(?:[，,\s、]*星期[一二三四五六日天])?)")
 TIME_RE = re.compile(r"^([01]\d|2[0-3]):([0-5]\d)$")
 
 
@@ -44,40 +45,92 @@ def get_fetch_start_time_tw(now_tw):
     today_1700 = now_tw.replace(hour=17, minute=0, second=0, microsecond=0)
 
     if now_tw.weekday() == 0:
-        # Monday: previous Friday 17:00
-        days_back = 3
+        fetch_start = today_1700 - timedelta(days=3)
         rule = "Monday Taiwan time, fetch after previous Friday 17:00 Taiwan time."
     else:
-        # Other days: previous day 17:00
-        days_back = 1
+        fetch_start = today_1700 - timedelta(days=1)
         rule = "Non-Monday Taiwan time, fetch after previous day 17:00 Taiwan time."
-
-    fetch_start = today_1700 - timedelta(days=days_back)
 
     return fetch_start, rule
 
 
 def parse_page_date_as_tw(line, now_tw):
     """
-    華爾街見聞頁面常見日期格式：06月30日
-    頁面瀏覽器 timezone 已設為 Asia/Taipei，所以直接視為台灣時間。
+    支援：
+    - 06月29日
+    - 06月29日， 星期一
+    - 06月29日 星期一
     """
-    m = DATE_RE.match(line)
+    line = normalize_text(line)
+    m = DATE_LINE_RE.match(line)
+
     if not m:
         return None
 
     month = int(m.group(1))
     day = int(m.group(2))
-
     year = now_tw.year
+
     dt = datetime(year, month, day, tzinfo=TW_TZ)
 
-    # 年底跨年防呆：
-    # 如果頁面日期比現在還晚超過 7 天，視為前一年。
+    # 跨年防呆
     if dt > now_tw + timedelta(days=7):
         dt = datetime(year - 1, month, day, tzinfo=TW_TZ)
 
     return dt.date()
+
+
+def split_inline_date_markers(lines):
+    """
+    華爾街見聞 inner_text 有時會把日期標籤接在上一則新聞 content 後面，例如：
+    亞馬遜評估...（The Information） 06月29日， 星期一
+
+    這裡將其拆成：
+    亞馬遜評估...（The Information）
+    06月29日， 星期一
+    """
+    output = []
+
+    for raw_line in lines:
+        line = normalize_text(raw_line)
+
+        if not line:
+            continue
+
+        matches = list(DATE_MARKER_RE.finditer(line))
+
+        if not matches:
+            output.append(line)
+            continue
+
+        pos = 0
+
+        for m in matches:
+            before = normalize_text(line[pos:m.start()])
+            marker = normalize_text(m.group(1))
+
+            if before:
+                output.append(before)
+
+            if marker:
+                output.append(marker)
+
+            pos = m.end()
+
+        after = normalize_text(line[pos:])
+
+        if after:
+            output.append(after)
+
+    return output
+
+
+def is_date_line(line, now_tw):
+    return parse_page_date_as_tw(line, now_tw) is not None
+
+
+def is_time_line(line):
+    return TIME_RE.match(normalize_text(line)) is not None
 
 
 def make_datetime_tw(date_obj, hour, minute):
@@ -91,19 +144,7 @@ def make_datetime_tw(date_obj, hour, minute):
     )
 
 
-def is_date_line(line):
-    return DATE_RE.match(line) is not None
-
-
-def is_time_line(line):
-    return TIME_RE.match(line) is not None
-
-
 def is_obvious_page_widget_text(text):
-    """
-    過濾華爾街見聞頁面中的行情、財經日曆、側邊欄、導航區塊。
-    這些區塊會污染 crawler 的停止判斷。
-    """
     text = str(text or "")
 
     widget_keywords = [
@@ -132,77 +173,42 @@ def is_obvious_page_widget_text(text):
         "USDJPY.OTC",
         "XAUUSD.OTC",
         "WTI原油",
-        "财经日历",
-        "2026-",
     ]
 
     hit_count = sum(1 for k in widget_keywords if k in text)
 
-    # 命中多個 widget 關鍵字，幾乎一定不是單則新聞正文
-    if hit_count >= 3:
-        return True
-
-    return False
+    return hit_count >= 3
 
 
 def is_junk_item(item):
     headline = normalize_text(item.get("headline", ""))
     content = normalize_text(item.get("content", ""))
-    text = headline + "\n" + content
 
     if not headline:
         return True
 
-    hard_junk_headlines = [
-        "实时行情",
-        "即時行情",
-        "财经日历",
-        "財經日曆",
-        "查看更多",
-        "综览",
-        "綜覽",
-        "外汇",
-        "外匯",
-        "商品",
-        "债券",
-        "債券",
-        "资产",
-        "資產",
-        "现价",
-        "現價",
-        "涨跌",
-        "漲跌",
-    ]
-
-    if headline in hard_junk_headlines:
-        return True
+    text = headline + "\n" + content
 
     if is_obvious_page_widget_text(text):
         return True
 
-    # 跳過空 headline 或只有符號的內容
-    if len(re.sub(r"[^\w\u4e00-\u9fff]", "", headline)) < 2:
+    # 過濾掉過短或非新聞內容
+    meaningful = re.sub(r"[^\w\u4e00-\u9fff]", "", headline)
+
+    if len(meaningful) < 2:
         return True
 
     return False
 
 
 def extract_news_items(text, now_tw):
-    """
-    從整頁 inner_text 解析快訊。
-
-    基本結構通常是：
-    06月30日
-    08:09
-    【新聞標題】
-    新聞內容...
-    08:01
-    下一則...
-    """
-    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    raw_lines = [line.strip() for line in text.splitlines() if line.strip()]
+    lines = split_inline_date_markers(raw_lines)
 
     items = []
+
     current_date = now_tw.date()
+    last_dt_tw = None
 
     i = 0
 
@@ -210,29 +216,55 @@ def extract_news_items(text, now_tw):
         line = normalize_text(lines[i])
 
         parsed_date = parse_page_date_as_tw(line, now_tw)
+
         if parsed_date:
             current_date = parsed_date
             i += 1
             continue
 
         tm = TIME_RE.match(line)
+
         if not tm:
             i += 1
             continue
 
         hour = int(tm.group(1))
         minute = int(tm.group(2))
+
         dt_tw = make_datetime_tw(current_date, hour, minute)
 
-        # 下一行通常是 headline
+        # 這是關鍵：
+        # 快訊由新到舊排列，如果下一則時間突然比上一則更晚很多，
+        # 通常代表跨到前一天，例如 00:04 之後遇到 23:58。
+        if last_dt_tw and dt_tw > last_dt_tw + timedelta(minutes=10):
+            current_date = current_date - timedelta(days=1)
+            dt_tw = make_datetime_tw(current_date, hour, minute)
+            log(
+                "Adjusted by chronological order: "
+                + line
+                + " -> "
+                + dt_tw.strftime("%Y-%m-%d %H:%M")
+            )
+
+        # 第一筆如果被錯配成未來時間，才做保守修正。
+        # 這不是主要判斷，只是防呆。
+        while dt_tw > now_tw + timedelta(minutes=5):
+            current_date = current_date - timedelta(days=1)
+            dt_tw = make_datetime_tw(current_date, hour, minute)
+            log(
+                "Adjusted future datetime: "
+                + line
+                + " -> "
+                + dt_tw.strftime("%Y-%m-%d %H:%M")
+            )
+
         if i + 1 >= len(lines):
             i += 1
             continue
 
         headline = normalize_text(lines[i + 1])
 
-        # headline 不應該是日期或時間
-        if is_date_line(headline) or is_time_line(headline):
+        if is_time_line(headline) or is_date_line(headline, now_tw):
             i += 1
             continue
 
@@ -242,11 +274,9 @@ def extract_news_items(text, now_tw):
         while j < len(lines):
             next_line = normalize_text(lines[j])
 
-            # 遇到下一個日期或時間，代表下一則開始
-            if is_date_line(next_line) or is_time_line(next_line):
+            if is_time_line(next_line) or is_date_line(next_line, now_tw):
                 break
 
-            # 一些頁面導航 / widget 起點，直接不要再吃進 content
             if next_line in [
                 "实时行情",
                 "即時行情",
@@ -274,6 +304,7 @@ def extract_news_items(text, now_tw):
 
         items.append(item)
 
+        last_dt_tw = dt_tw
         i = j
 
     return items
@@ -291,6 +322,7 @@ def get_oldest_datetime_tw(items):
 
     for item in items:
         dt = parse_item_datetime_tw(item)
+
         if dt:
             dts.append(dt)
 
@@ -305,6 +337,7 @@ def get_latest_datetime_tw(items):
 
     for item in items:
         dt = parse_item_datetime_tw(item)
+
         if dt:
             dts.append(dt)
 
@@ -340,6 +373,7 @@ def filter_items_after_start(items, fetch_start_tw):
 
     for item in items:
         dt = parse_item_datetime_tw(item)
+
         if not dt:
             continue
 
@@ -400,9 +434,9 @@ def main():
 
         page.wait_for_timeout(6000)
 
-        max_scrolls = 40
+        max_scrolls = 45
+        previous_count = 0
         no_growth_count = 0
-        previous_clean_count = 0
 
         for scroll_no in range(1, max_scrolls + 1):
             page_text = page.locator("body").inner_text(timeout=60000)
@@ -415,54 +449,44 @@ def main():
 
             all_items = dedupe_items(all_items + clean_items)
 
-            clean_oldest_tw = get_oldest_datetime_tw(clean_items)
             all_oldest_tw = get_oldest_datetime_tw(all_items)
+            all_latest_tw = get_latest_datetime_tw(all_items)
 
-            if clean_oldest_tw:
-                clean_oldest_str = clean_oldest_tw.strftime("%Y-%m-%d %H:%M")
-            else:
-                clean_oldest_str = "None"
-
-            if all_oldest_tw:
-                all_oldest_str = all_oldest_tw.strftime("%Y-%m-%d %H:%M")
-            else:
-                all_oldest_str = "None"
+            oldest_str = all_oldest_tw.strftime("%Y-%m-%d %H:%M") if all_oldest_tw else "None"
+            latest_str = all_latest_tw.strftime("%Y-%m-%d %H:%M") if all_latest_tw else "None"
 
             log(
                 f"Scroll {scroll_no}: "
                 f"parsed={len(parsed_items)}, "
                 f"clean={len(clean_items)}, "
                 f"all_clean={len(all_items)}, "
-                f"clean_oldest_tw={clean_oldest_str}, "
-                f"all_oldest_tw={all_oldest_str}"
+                f"latest_tw={latest_str}, "
+                f"oldest_tw={oldest_str}"
             )
 
-            if len(all_items) <= previous_clean_count:
+            if len(all_items) <= previous_count:
                 no_growth_count += 1
             else:
                 no_growth_count = 0
 
-            previous_clean_count = len(all_items)
+            previous_count = len(all_items)
 
-            # 只有 clean oldest 達到抓取起點，才累計停止條件
             if all_oldest_tw and all_oldest_tw <= fetch_start_tw:
                 reached_start_count += 1
                 log(
                     "Reached start candidate "
                     + str(reached_start_count)
-                    + "/5, all_oldest_tw="
+                    + "/5, oldest_tw="
                     + all_oldest_tw.strftime("%Y-%m-%d %H:%M")
                 )
 
-                # 連續 5 次都達標才停止，避免被頁面 widget 假時間誤導
                 if reached_start_count >= 5:
                     log("Reached required Taiwan start time for 5 consecutive checks. Stop scrolling.")
                     break
             else:
                 reached_start_count = 0
 
-            # 如果已經很久沒有新增 clean item，且至少捲過一定次數，也停止
-            if scroll_no >= 12 and no_growth_count >= 5:
+            if scroll_no >= 15 and no_growth_count >= 5:
                 log("No new clean items for 5 consecutive scrolls. Stop scrolling.")
                 break
 
@@ -470,8 +494,6 @@ def main():
             page.wait_for_timeout(2500)
 
         browser.close()
-
-    log("Finished scrolling. Last detected clean items count: " + str(len(all_items)))
 
     clean_all_items = [item for item in all_items if not is_junk_item(item)]
     clean_all_items = dedupe_items(clean_all_items)
@@ -507,15 +529,13 @@ def main():
     log("Output fetch_start_time: " + output["fetch_start_time"])
     log("Output fetch_end_time: " + output["fetch_end_time"])
 
-    if latest_tw:
+    if latest_tw and filtered_items:
         log("Latest item in Taiwan time:")
-        latest_item = filtered_items[0]
-        log(json.dumps(latest_item, ensure_ascii=False, indent=2))
+        log(json.dumps(filtered_items[0], ensure_ascii=False, indent=2))
 
-    if oldest_tw:
+    if oldest_tw and filtered_items:
         log("Oldest item in Taiwan time:")
-        oldest_item = filtered_items[-1]
-        log(json.dumps(oldest_item, ensure_ascii=False, indent=2))
+        log(json.dumps(filtered_items[-1], ensure_ascii=False, indent=2))
 
     log("===== raw_news.json preview =====")
     log("raw_news exists: " + str(RAW_OUTPUT.exists()))
@@ -524,6 +544,7 @@ def main():
     log("fetch_end_time: " + output["fetch_end_time"])
     log("timezone: " + output["timezone"])
     log("source_time_assumption: " + output["source_time_assumption"])
+    log("crawler_version: " + output["crawler_version"])
     log("count: " + str(output["count"]))
 
     if filtered_items:
