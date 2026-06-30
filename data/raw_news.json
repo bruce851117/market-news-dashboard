@@ -1,13 +1,29 @@
 {
-  "generated_at": "2026-06-30 08:03",
+  "generated_at": "2026-06-30 08:20",
   "fetch_start_time": "2026-06-29 17:00",
-  "fetch_end_time": "2026-06-30 08:03",
+  "fetch_end_time": "2026-06-30 08:20",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v5",
   "count": 100,
   "items": [
+    {
+      "datetime": "2026-06-30 08:12",
+      "headline": "三星电子股价上涨3%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 08:09",
+      "headline": "【前日本央行理事称下一次加息可能在12月之前到来】",
+      "content": "前日本央行理事Kenzo Yamamoto称，随着该行推进目前仍过于宽松的金融环境回归正常，其加息时间可能会早于大多数人的预期。“日本央行处于需要迅速采取行动的局面，” Yamamoto周一表示。当被问及日本央行是否会如大多数经济学家预测的那样在12月再次加息时，他表示“鉴于目前的货币宽松程度，下一次加息可能会在那之前就到来。”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-30 08:01",
       "headline": "韩国首尔综指盘初涨幅扩大至1.1%。",
@@ -787,23 +803,7 @@
     {
       "datetime": "2026-06-29 23:13",
       "headline": "美国最高法院：周二将发布剩余法律意见书。",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-29 23:09",
-      "headline": "【SpaceX推动美国股票发行规模创下2510亿美元的半年最高纪录】",
-      "content": "彭博数据显示，不包括特殊目的收购公司（SPAC）和其他投资工具，截至6月26日，今年美国IPO和股票发行总额达到创纪录的2510亿美元。这一数字超过了2021年发行热潮期间创下的半年最高纪录。\n更多交易即将到来，包括未来几周将持续进行的IPO，以及最早可能在10月进行的Anthropic PBC超大规模新股发行交易。可转债等其他形式的融资势头也有望持续，所谓的超大规模云服务商（Hyperscalers）正不断向投资者寻求资金，以支持数据中心和其他AI基础设施建设。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-29 23:05",
-      "headline": "【霍尔木兹海峡运输环境改善，伊拉克1400万桶受困石油终运出】",
-      "content": "根据彭博汇编的油轮追踪数据，载有约1400万桶伊拉克石油的船只于6月下旬驶离海湾，目前正在向亚洲、欧洲和美国的买家运送原油。这相当于在过去10天内每天运送约140万桶。本月迄今油轮已装载约600万桶伊拉克原油，目前有一艘油轮停泊在巴士拉港。虽然这一数字较过去两个月有所增长，但仍远低于冲突前伊拉克每月约1亿桶的正常出口量。自2月下旬以来装载的所有货物，以及滞留在波斯湾的所有货物，现在都已驶向最终目的地。\n实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.15\n+0.04\n(+0.04%)\n欧元/美元\nEURUSD.OTC\n1.1418\n-0.0002\n(-0.02%)\n美元/日元\nUSDJPY.OTC\n161.94\n0.00\n(0.00%)\n现货黄金\nXAUUSD.OTC\n4009.41\n-7.04\n(-0.18%)\nWTI原油\nUSCL.OTC\n70.23\n-0.52\n(-0.73%)\n离岸人民币\nUSDCNH.OTC\n6.8000\n-0.0004\n(-0.01%)\n财经日历\n查看更多 >\n2026-06-30 星期二",
+      "content": "实时行情\n查看更多 >\n综览\n外汇\n商品\n债券\n资产\n现价\n涨跌\n美元指数\nDXY.OTC\n101.17\n+0.06\n(+0.06%)\n欧元/美元\nEURUSD.OTC\n1.1415\n-0.0005\n(-0.04%)\n美元/日元\nUSDJPY.OTC\n161.93\n-0.01\n(-0.01%)\n现货黄金\nXAUUSD.OTC\n4007.12\n-9.33\n(-0.23%)\nWTI原油\nUSCL.OTC\n70.27\n-0.48\n(-0.68%)\n离岸人民币\nUSDCNH.OTC\n6.8006\n+0.0002\n(+0.00%)\n财经日历\n查看更多 >\n2026-06-30 星期二",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
