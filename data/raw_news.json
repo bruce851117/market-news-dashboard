@@ -1,13 +1,685 @@
 {
-  "generated_at": "2026-07-01 00:18",
+  "generated_at": "2026-07-01 07:05",
   "fetch_start_time": "2026-06-30 17:00",
-  "fetch_end_time": "2026-07-01 00:18",
+  "fetch_end_time": "2026-07-01 07:05",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 196,
+  "count": 283,
   "items": [
+    {
+      "datetime": "2026-07-01 06:59",
+      "headline": "【6月份私募调研近1800次，电子行业热度居前】",
+      "content": "Wind数据显示，6月份共有842家私募机构参与到A股公司调研活动中，合计调研次数达1797次，涉及373家A股公司。其中，电子等行业A股公司被调研频次居于前列。今年1月份至6月份，私募机构调研次数分别为3619次、1485次、4740次、10117次、3554次、1797次。剔除春节假期所在的2月份，6月份私募机构整体调研节奏明显放缓。（证券日报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:57",
+      "headline": "【机构密集调研A股上市公司，人形机器人、半导体材料受追捧】",
+      "content": "6月份，共有989家A股上市公司迎来机构调研。从调研逻辑看，硬科技赛道凭借清晰的产业升级路径、持续推进的国产替代进程以及充足的中长期成长空间，成为当前机构调研和中长期资金布局的主线。受访专家表示，当前公募、私募、外资、券商等各类机构布局风格差异化凸显，但对科技成长赛道的看多共识高度一致。其中，人形机器人、AI硬件、高端半导体材料等前沿细分领域，受益于产业迭代提速、上市公司业绩集中兑现、市场流动性持续改善三重利好共振，成为市场资金重点关注领域。（证券日报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:56",
+      "headline": "【加码财富管理，上半年券商投顾逆势增员1627人】",
+      "content": "今年以来，证券行业人才结构持续优化，在一般证券业务、证券经纪人等传统基础岗位人数持续缩减的同时，作为财富管理转型抓手的投顾队伍逆势扩容。数据显示，截至上半年末，证券行业投顾人员合计8.82万人，较去年末增加1627人。分析师队伍则在总量微降中步入存量优化阶段。各业务条线从业人员版图的重塑，折射出当前券商深化财富管理业务转型、加速研究业务“出海”的发展战略。（证券日报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:55",
+      "headline": "【多地发布脑机接口产业专项扶持政策】",
+      "content": "二季度以来，已有天津市、广东省、安徽省等多地发布了脑机接口产业专项扶持政策，出台本地脑机接口产业总体目标、重点任务、组织保障等举措。各地加码布局脑机接口产业的切入点并不相同。其中，培育企业梯队、开发重点领域产品两项措施广受关注。与此同时，多地增量政策还聚焦金融服务水平的提升，鼓励并支持以多元化资金投入和风险保障体系支撑脑机接口产业的可持续发展。（证券日报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:38",
+      "headline": "【国产存储主控芯片商“竞速”资本市场】",
+      "content": "据上海证券交易所网站披露，英韧科技股份有限公司科创板IPO申请已于6月29日获受理，保荐机构为国泰海通证券。历经多年积累，国产存储主控芯片龙头公司在技术和市场端实现快速突破，正加速走进资本市场。记者注意到，除了英韧科技IPO获受理外，联芸科技、大普微已经率先登陆A股，得一微正在二度冲刺IPO，忆芯科技高管则在年初表示即将开启IPO征途。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:31",
+      "headline": "苹果公司库克、欧盟官员Virkkunen讨论“Siri AI”。（英国金融时报）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:31",
+      "headline": "【6月IPO迎受理小高峰，未来产业“新生”密集赶考】",
+      "content": "6月，伴随财报更新时间节点来临，拟IPO企业通常会掀起一轮受理小高峰。与往年不同的是，今年一批未来产业“新考生”加速叩响资本市场大门，为IPO“考场”增添了不少暖意与新意。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:31",
+      "headline": "美国高级官员：美国特使Witkoff、库什纳、以及（中东）地区领导人在多哈进行了积极的会谈。",
+      "content": "霍尔木兹海峡的船只通行规模提高了。 技术层面的会谈继续进行，将取得良好进展。（彭博）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:30",
+      "headline": "【报道：Anthropic的Fable模型出口限制将于今晚解除】",
+      "content": "据白宫一位高级官员透露，美国商务部预计将于今晚解除对Anthropic公司Fable人工智能（AI）模型的出口管制。（Politico）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:30",
+      "headline": "【提醒：日内请重点关注（以下均为北京时间）】",
+      "content": "① 07:50 日本二季度短观大型制造业前景指数； ② 08:00 韩国6月出口； ③ 08:30 越南6月制造业PMI； ④ 08:30 韩国6月制造业PMI，日本6月制造业PMI终值； ⑤ 时间待定 达沃斯科技峰会（Davos Tech Summit 2026）在辽宁开幕； ⑥ 09:45 中国6月RatingDog制造业PMI； ⑦ 13:00 印度6月制造业PMI终值； ⑧ 15:45 意大利6月制造业PMI，15:45 欧洲央行副行长Vujcic在葡萄牙Sintra主持一场会议； ⑨ 15:50 法国6月制造业PMI终值； ⑩ 15:55 德国6月制造业PMI终值； ⑪ 16:00 欧元区6月制造业PMI终值； ⑫ 16:30 英国6月制造业PMI终值； ⑬ 16:45 欧洲央行执委Cipollone在葡萄牙Sintra主持一场会议； ⑭ 17:00 欧元区6月调和CPI初值； ⑮ 18:15 欧洲央行首席经济学家Lane在葡萄牙Sintra主持一场会议； ⑯ 20:15 美国6月ADP就业人数（小非农就业报告）； ⑰ 21:00 欧洲央行行长拉加德、美联储主席沃什、英国央行行长贝利、加拿大央行行长Macklem讲话，沃什出席欧洲央行论坛的一个会议； ⑱ 22:00 美国6月ISM制造业就业指数，欧洲央行行长拉加德在葡萄牙Sintra致闭幕词； ⑲ 22:30 美国能源信息署（EIA）发布政府版原油库存周报； 微信小程序搜索“见闻历”，了解更多。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:27",
+      "headline": "【A股已有35家公司预告上半年业绩，预喜比例达74.29%，AI、锂电、化工三大板块领衔高增长】",
+      "content": "随着2026年半年报披露窗口期临近，A股上市公司业绩预告进入密集披露期。Wind数据显示，截至6月30日，A股已有35家公司披露了半年度业绩预告。其中：预增11家，略增12家，扭亏3家，整体预喜比例达74.29%。梳理发现，AI产业爆发带动多个细分行业步入业绩收获期。上半年，A股公司盈利延续了“制造升级、周期修复”的结构特征，AI、新能源、化工三大领域的增长逻辑清晰可辨。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:20",
+      "headline": "【港股上半年IPO火热，券商加码在港业务】",
+      "content": "6月30日，真健康医疗-B、来福谐波、鲟龙科技、江西生物4家公司敲锣上市，至此2026年上半年港股IPO正式收官。今年上半年，港股市场“锣声不断”，共迎来85家公司上市。Wind数据显示，中金公司共保荐28家、承销36家港股新股，领跑港股IPO市场。此外，港股IPO火热之下，中资券商的国际化业务也不断拓展，国泰海通、中信证券、华泰证券、广发证券等机构纷纷加码国际化业务。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:15",
+      "headline": "【首批4只REITs指数基金今日发售】",
+      "content": "公募REITs市场即将迎来“源头活水”。公告显示，首批4只REITs指数基金将于7月1日至7日正式发售，此举意味着公募REITs市场正式迈入指数化投资阶段。根据华夏基金、易方达基金、南方基金、中金基金4家机构披露的招募说明书及发售公告，首批4只REITs指数基金单只募集上限均为3亿元，基金业绩比较基准为“中证REITs全收益指数收益率×95%+活期存款基准利率×5%”，基金投资于标的指数成分券及备选成分券的比例均不低于基金资产净值的90%。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:12",
+      "headline": "美国总统特朗普：Pierre Yared辞去经济顾问委员会的代理主席。",
+      "content": "其将重返哥伦比亚大学研究生院。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:04",
+      "headline": "【交易员加码联邦基金利率期货空头头寸，冒险押注7月加息】",
+      "content": "联邦基金利率市场交易员正在加大押注，认为美联储最早可能7月开始加息。这一此前难以想象的举措可能会被一系列经济数据打乱。 7月政策会议加息的概率仍然较低，利率互换目前定价反映约9个基点的加息幅度，相当于加息25个基点的概率约为36%。尽管如此，这一概率已明显上升；在新任美联储主席凯文·沃什将重点转向物价稳定之前，概率几乎为零。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 06:03",
+      "headline": "周二（6月30日），美股存储芯片与硬件供应链指数收涨3.83%，报268.03点，6月份累涨27.26%，二季度累涨159.01%，上半年持续上扬——从69.59点涨至277.74点。",
+      "content": "二季度，成分股闪迪累涨257.88%，美光科技涨241.67%，希捷科技涨146.55%，西部数据涨136.19%，应用材料涨111.78%，拉姆研究涨103.01%，泰瑞达涨63.28%，Rambus反弹54.30%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 05:59",
+      "headline": "【卡塔尔首相与美特使举行会谈 讨论黎巴嫩问题】",
+      "content": "7月1日，卡塔尔外交部宣布，卡塔尔首相兼外交大臣穆罕默德与美国特使史蒂夫·威特科夫和贾里德·库什纳讨论了地区局势和黎巴嫩停火问题。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 05:54",
+      "headline": "【受美联储风险及美元走强拖累，拉美股市终结季度连涨势头】",
+      "content": "周二，拉丁美洲的货币和股市表现喜忧参半。正值月底和季度末，投资者正在权衡当地政治发展以及美国政策带来的风险。 MSCI拉美货币指数微涨0.2%，有望连续第六个季度录得涨幅。然而，在连续两个月上涨后，该指数本月料将下跌。 同地区的股票指数下跌0.2%，且面临月度和季度双跌的局面，从而终结了此前连续五个季度的上涨势头。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 05:39",
+      "headline": "【两名美国宇航员完成太空行走 更换机械臂故障部件】",
+      "content": "美国航空航天局6月30日表示，国际空间站两名美国宇航员当天完成太空行走任务，更换空间站机械臂“加拿大臂2号”出现故障的关键部件，任务总共持续约7小时20分钟。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 05:36",
+      "headline": "South32 Ltd.（S32.AU）将出售铝资产给美国铝业，交易价值高达56亿美元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 05:15",
+      "headline": "富时A50期指连续夜盘收涨0.18%，报15542点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 05:13",
+      "headline": "周二（6月30日）纽约尾盘，标普500股指期货最终涨0.59%，道指期货涨0.02%，纳斯达克100股指期货涨1.54%。",
+      "content": "罗素2000股指期货涨0.37%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 05:11",
+      "headline": "周二（6月30日）纽约尾盘（周三北京时间04:59），离岸人民币（CNH）兑美元报6.7918元，较周一纽约尾盘涨88点，日内整体交投于6.8026-6.7864元区间。",
+      "content": "6月份，离岸人民币累计下跌大约0.4%，二季度累涨超1.4%，上半年持续走高、从6.9959元涨至6.7539元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 05:08",
+      "headline": "耐克美股盘后跌幅扩大至6.6%，虽然最新季度业绩超出预期，但其提振作用被公司高管谨慎的言论所抵消。",
+      "content": "该公司即将离任的首席财务官Matt Friend表示，耐克对产品去库存的举措“仍然面临挑战”，而首席执行官Elliott Hill指出营收增长面临“不利因素”。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 05:01",
+      "headline": "周二（6月30日）纽约尾盘，现货黄金跌0.18%，报4008.98美元/盎司，6月份累跌10.65%，二季度累跌14.31%，上半年冲高回落，1月29日涨至5595.47美元创历史最高，随后逐步回撤，6月30日一度跌至3943.29美元。",
+      "content": "现货白银涨0.62%，报58.6190美元/盎司，6月份累跌21.71%，二季度累跌19.74%，1月29日达到121.6540美元，之后逐步回撤，6月24日曾跌至55.6125美元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:53",
+      "headline": "【美公布6亿美元月球任务计划，推进月球基地建设】",
+      "content": "美国航空航天局30日公布月球基地建设项目最新安排，表示已与三家美国企业签订总额近6亿美元合同，将于2028年底执行4项新的月球登陆任务。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:50",
+      "headline": "【美光、英特尔和AMD二季度合计市值增加2万亿美元，得益于创纪录的芯片热潮】",
+      "content": "随着投资者将人工智能（AI）投资组合扩展至英伟达以外的企业，芯片股在第二季度创下历史性涨幅。美光在本季度上涨超过240%，市值增加约9200亿美元。英特尔在本季度上涨216%，市值增加4800亿美元。AMD股价几乎翻了两番后，市值增加6150亿美元。目前它们已成为美国市值排名第10、第11和第12的科技巨头。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:42",
+      "headline": "【信披：特朗普对苹果、英伟达持股分别至少500万美元】",
+      "content": "美国总统特朗普的年度财务信息被披露。 特朗普持有苹果股票至少500万美元，持有至少500万美元的英伟达股票，持有至少100万美元Palantir股票。 特朗普披露获得至少数百万美元加密货币收入。 披露超过10亿美元加密货币相关收入，超过12亿美元加密货币收益。 2025年10月16日，特朗普对英伟达抛售至少2.5亿美元。 相关文章： “炒币”高手特朗普！官方披露2025年加密货币业务斩获超10亿美元，重仓美股科技巨头",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:41",
+      "headline": "委内瑞拉地震死亡人数升至1943人。（新华社）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:35",
+      "headline": "【行业周报：美国上周API原油库存锐减超600万桶】",
+      "content": "美国石油协会（API）数据显示，上周，美国API原油库存 -607.2万桶，之前一周 -76.5万桶。 上周API库欣原油库存 +50.3万桶，前值 -98.2万桶。 上周API成品油汽油库存 -210.6万桶（前值 +123.8万桶）、馏分油库存 +292.2万桶（前值 +144.7万桶）。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:31",
+      "headline": "【新兴市场二季度涨23%，创2009年以来最佳单季表现。】",
+      "content": "新兴市场股市创17年来最佳季度表现，在亚洲人工智能股票上涨的支撑下，市场经受住了伊朗战争和油价上涨带来的冲击。 MSCI新兴市场股票指数在6月最后一个交易日上涨0.9%。新兴市场股票指数单季上涨23%，为2009年第二季度以来最大。 相关文章： AI热潮引爆亚洲科技股，新兴市场股市单季大涨23%，创17年来最佳表现",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:21",
+      "headline": "【美股大类资产类ETF多数收跌，上半年布油基金涨超43%，新兴市场ETF、纳指ETF等涨超20%】",
+      "content": "周二（6月30日），恐慌指数做多收跌2.04%，美国房地产ETF跌1.75%，美国20+年ETF跌1.18%，日元做多、美国布伦特油价基金、黄金ETF、欧元做多至多跌0.39%，道指ETF、做多美元指数涨0.14%，罗素2000指数ETF、农产品基金、大豆基金、标普500 ETF至多涨0.78%，新兴市场ETF涨1.45%，纳指100 ETF涨1.70%。 2026年上半年，布油基金累计上涨43.68%，新兴市场ETF、罗素2000 ETF、巴克莱美国可转债ETF、纳指100 ETF涨25.69%-20.16%，欧元做多、日元做多、黄金ETF则跌2.43%-7.05%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:20",
+      "headline": "提醒：北京时间04:30，美国石油协会（API）将发布行业版原油库存周报，非API会员最早可在04:32前后获得数据详情。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:16",
+      "headline": "耐克第四财季营收109.7亿美元，同比下滑1.1%。",
+      "content": "第四财季总体耐克品牌营收107.2亿美元，同比下滑0.4%。 第四财季大中华区EBIT为2.43亿美元，同比下降20%。 第四财季毛利润率49.2%，上年同期40.3%。 第四财季每股收益（EPS）为0.72美元，上年同期0.14美元。 耐克美股盘后涨5%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:13",
+      "headline": "【知名投资者Burry：做空英伟达、特斯拉、应用材料】",
+      "content": "“大空头”Michael Burry：我首次做空卡特彼勒。做空英伟达、特斯拉、应用材料。 相关文章： “大空头”Burry最新持仓：首次做空卡特彼勒，同时做空特斯拉、英伟达和应用材料",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:13",
+      "headline": "Bloom Energy美股盘后涨8%，同行、燃料电池能源公司（FuelCell Energy, Inc.）涨2.4%。",
+      "content": "Bloom Energy宣布，与Brookfield的合作伙伴关系从50亿美元扩大至250亿美元，来推动双方在全球的燃料电池合作。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:12",
+      "headline": "【墨西哥北部发生6.1级地震】",
+      "content": "据墨西哥国家地震监测局发布的消息，当地时间6月30日13时45分，墨西哥北部锡那罗亚州瓜萨沃市西南方向约116公里处发生6.1级地震，震源深度约5公里。目前没有人员伤亡的报告。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:12",
+      "headline": "周二（6月30日），美股行业ETF多数收涨，半导体ETF涨3.78%，全球科技股指数ETF、科技行业ETF至少涨2.76%，医疗业ETF、日常消费品ETF、公用事业ETF、日常消费品ETF跌1.29%-1.54%。",
+      "content": "上半年，半导体ETF累计上涨82.13%，全球科技股指数ETF、科技行业ETF至少涨32.66%，能源业ETF、工业ETF至少涨20.04%，金融业ETF、可选消费ETF、网络股指数ETF则至多累跌1.66%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:09",
+      "headline": "美股七巨头收盘播报｜周二（6月30日），美国科技股七巨头（Magnificent 7）指数涨1.58%，报207.64点，6月份累计下跌8.63%，创2025年3月份以来最差单月表现，二季度累涨12.80%。",
+      "content": "“超大”市值科技股指数涨2.12%，报434.07点，6月份累跌8.40%，二季度累涨23.78%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:03",
+      "headline": "Circle Internet收跌18%，创3月份以来最差单日表现。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:00",
+      "headline": "【中概指数二季度跌13.4%，CQQQ累涨超23.9%，周二日月光半导体收涨7.1%】",
+      "content": "纳斯达克金龙中国指数收涨0.63%，报5847.59点，6月份累计下跌11.22%，二季度累跌13.41%。 中国科技指数ETF（CQQQ）收涨2.92%，6月份累涨8.01%连涨三个月，二季度累涨23.92%，上半年累涨9.67%； XtrackersHarvest中证50（ASHS）收涨2.40%，6月份累涨8.53%，二季度19.96%连续六个季度走高，上半年涨25.54%； MSCI新兴市场ex中国ETF（EMXC）收涨1.83%，6月份涨1.85%，二季度涨30.87%，上半年涨41.64%； 德银嘉实沪深300指数ETF（ASHR）收涨1.13%，6月份累涨1.92%，二季度涨12.32%，上半年涨11.60%； 中概互联网指数ETF（KWEB）收涨0.70%，6月份跌8.45%，二季度跌13.93%连续三个季度走低，上半年跌28.14%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 04:00",
+      "headline": "【标普创2020年以来最佳单季表现】",
+      "content": "标普500指数收涨58.93点，涨幅0.79%，报7499.36点，6月份累跌1.06%，二季度累涨14.87%，上半年呈现出V形反转行情、3月30日曾跌至6316.90点。 道琼斯工业平均指数收涨136.46点，涨幅0.26%，报52319.20点，6月份累涨2.52%，二季度累涨12.90%。 纳斯达克综合指数（纳指）收涨393.576点，涨幅1.52%，报262313.72点，6月份累跌2.81%，二季度累涨21.41%。 纳斯达克100指数收涨501.597点，涨幅1.69%，报30276.348点，6月份累跌0.19%，二季度累涨27.53%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:53",
+      "headline": "【6月份两年期美债实际收益率涨超77个基点，二季度两年期收益率涨超35个基点】",
+      "content": "周二（6月30日）纽约尾盘，美国10年期国债收益率涨5.72个基点，刷新日高至4.4316%，6月份持平，二季度累涨11.70个基点。 两年期美债收益率涨4.11个基点，刷新日高至4.1455%，6月份累计上涨14.35个基点，二季度累涨35.25个基点；30年期美债收益率涨5.63个基点，刷新日高至4.9193%，6月份累跌5.03个基点。 2/10年期美债收益率利差涨1.814个基点，报+28.401个基点，6月份累跌14.132个基点。 10年期通胀保值国债（TIPS）收益率涨4.72个基点，刷新日高至2.1924%，6月份累涨16.40个基点；两年期TIPS收益率涨5.10个基点，至刷新日高至2.1487%，6月份累涨77.59个基点，二季度累涨160.12个基点；30年期TIPS收益率涨5.74个基点，刷新日高至2.7482%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:47",
+      "headline": "【全美最大电网面临破纪录高温，紧急状态令已下达】",
+      "content": "为应对一场可能使电力基础设施承压的危险热浪，特朗普政府已宣布全美最大的能源电网进入电力紧急状态。美国能源部（DOE）周二发布的紧急命令授权 PJM Interconnection LLC 地区的发电厂以最大负荷运行，并允许其超出部分环保要求。PJM 电网覆盖 13 个州，为 6700 万人口提供电力服务。能源部发布的第二项命令授权 PJM 地区“作为最后手段”启用备用发电机。PJM 表示，这两项命令的有效期均持续至纽约时间 7 月 3 日晚上 11:59。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:41",
+      "headline": "【日元自1986年以来首次跌穿162，二季度累跌约2.4%】",
+      "content": "周二（6月30日）纽约尾盘，美元兑日元涨0.41%，报162.61日元，北京时间08:52突破162日元关口并显著拉升，全天持续走高，00:17达到162.67日元，逼近1986年6月30日彭博报价163.80日元、当年6月4日报价171.53日元、当年4月9日报价180.05日元，6月份累计上涨2.09%，整体持续走高，二季度累涨2.38%。 欧元兑日元涨0.38%，报185.66日元，6月份大致持平；英镑兑日元涨0.40%，报215.533日元，6月份累涨0.59%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:27",
+      "headline": "美国联邦航空管理局（FAA）：部门员工不可以持有SpaceX股票。（Politico）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:26",
+      "headline": "【美元指数在6月份涨超2.2%】",
+      "content": "周二（6月30日）纽约尾盘，ICE美元指数涨0.08%，报101.185点，6月份累计上涨2.26%，二季度累涨1.45%，1月27日下挫至95.551点，随后出现两波持续上扬，6月24日达到101.800点。 彭博美元指数涨0.08%，报1222.46点，6月份累涨1.98%，二季度累涨0.60%，上半年交投于1173.47-1228.36点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:19",
+      "headline": "【芝加哥玉米期货涨1.5%，6月份累跌8.2%】",
+      "content": "周二（6月30日）纽约尾盘，彭博谷物分类指数涨1.19%，报29.1626点，北京时间00:00美国农业部（USDA）发布季度报告时从日低28.5446点附近显著拉升、刷新日高至29.3639点，6月份累跌6.30%。 CBOT玉米期货涨1.51%，报4.3650美元/蒲式耳，6月份累跌8.20%。 CBOT小麦期货涨1.34%，报5.8750美元/蒲式耳。 CBOT大豆期货涨0.40%，报11.4350美元/蒲式耳，一度从日低11.2475美元附近拉升至11.5650美元刷新日高，6月份累跌4.33%；6月份，豆粕期货累跌5.34%，豆油期货累跌6.95%。 6月份，CBOT瘦肉猪期货累跌0.20%，活牛期货累涨0.88%，饲牛期货累涨4.02%。 ICE原糖期货累涨1.85%%，ICE白糖期货涨5.15%。 ICE阿拉比卡咖啡期货累涨18.26%，咖啡“C”期货累涨16.80%。罗布斯塔咖啡期货累涨10.50%。 纽约可可期货累涨26.63%，报5064美元/吨。伦敦可可期货累涨29.24%。 芝加哥WCE双低油菜籽期货累跌6.73%。 ICE棉花期货累跌3.56%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:13",
+      "headline": "欧洲央行管委Kazaks：继续加息的紧迫性已经显著下降。",
+      "content": "当前无需采取强有力的通胀应对手段。 难以判断央行将在7月、9月采取什么行动。（彭博）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:12",
+      "headline": "【伊朗石油出口在美国封锁解除后超过4000万桶】",
+      "content": "伊朗议长卡利巴夫在国家电视台表示，美国解除封锁以来，伊朗石油出口已经超过4000万桶，“我们按20%的溢价销售石油”，伊朗石油制裁已经（被美国）解除。 120亿美元被冻结的伊朗资金的解冻工作正在推进。 伊朗称，霍尔木兹海峡免费通行限期60天。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:03",
+      "headline": "巴西计划部长Moretti：随着油价下跌，我们正撤销补贴政策。",
+      "content": "随着油价下跌，我们可以针对其他燃油采取行动。 油价下跌还影响到政府税收。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:01",
+      "headline": "在岸人民币兑美元（CNY）北京时间03:00收报6.7880元，较周一夜盘收盘涨80点。成交量551.49亿美元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 03:00",
+      "headline": "恒生指数主连夜盘收涨0.63%，报22990点。",
+      "content": "恒生科技指数主连夜盘收涨0.94%，报4510点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:54",
+      "headline": "【埃及、土耳其同哈马斯讨论落实加沙停火事宜】",
+      "content": "埃及与土耳其情报官员30日在埃及首都开罗同巴勒斯坦伊斯兰抵抗运动（哈马斯）多名高级官员举行会晤，就落实加沙停火事宜展开讨论。 据埃及媒体报道，由哈利勒·哈亚、哈立德·迈沙阿勒等哈马斯高级官员组成的代表团当日早些时候抵达开罗，恢复关于加沙停火第二阶段的谈判。埃及情报总局局长哈桑·拉沙德与土耳其国家情报局局长卡林同哈马斯代表团举行会谈。三方当天的会谈取得“积极进展”。各方对美国提出的结束加沙冲突计划持乐观看法。哈马斯官员确认将全力支持和落实该计划。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:31",
+      "headline": "WTI 7月原油期货收跌1.25美元，跌幅1.77%，报69.50美元/桶，6月份累计下跌超18.52%，二季度累跌将近14.86%。",
+      "content": "布伦特8月原油期货收跌0.23美元，跌幅0.31%，报72.92美元/桶，6月份累跌超19.97%，二季度累跌19.13%。 中东Abu Dhabi Murban原油期货涨1.21%，报70.00美元/桶，6月份累计上涨0.84%，二季度累跌23.10%。 NYMEX 7月天然气期货收报3.2750美元/百万英热单位。 NYMEX 7月汽油期货收报3.0144美元/加仑，NYMEX 7月取暖油期货收报3.3168美元/加仑。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:30",
+      "headline": "上期所原油期货2608合约夜盘收跌1.17%，报456.70元人民币/桶。",
+      "content": "沪金夜盘收涨0.80%，沪银收涨3.43%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:29",
+      "headline": "【市长曼达尼与美国纽约市议会就1260亿美元最终预算达成协议】",
+      "content": "经过数日谈判，美国纽约市市长佐赫兰·曼达尼（Zohran Mamdani）和市议会议长朱莉·梅宁（Julie Menin）宣布就1258亿美元的最终城市预算达成协议。该预算包括为城市租金援助计划拨款1.75亿美元，并出资为每一位就读公立幼儿园的孩子投资1000美元建立大学储蓄账户。预算还包括为“公平票价”（Fair Fares）公共交通折扣计划额外拨款5400万美元，并创建一个新的在线门户，供公众查阅与2001年9月11日恐怖袭击相关的文件。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:28",
+      "headline": "WTI原油日内跌幅达2.0%，报69.33美元/桶；布伦特原油日内跌幅达1.5%，报72.8美元/桶。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:18",
+      "headline": "哥伦比亚央行加息至12%，之前的贷款利率为11.25%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:17",
+      "headline": "【俄罗斯关闭西北边境部分口岸】",
+      "content": "俄罗斯联邦政府总理米舒斯京6月30日签署政府令，关闭与拉脱维亚、芬兰和爱沙尼亚边境的一系列口岸。根据政府令，指定口岸将于7月1日起临时暂停人员、车辆、商品和货物通行。俄外交部将于当天起正式向拉脱维亚、芬兰和爱沙尼亚政府通报这一决定。政府令未说明关闭原因。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:06",
+      "headline": "欧洲央行管委Dolenc：下次货币政策会议之前，形势可能会瞬息万变。",
+      "content": "与中东相关的不确定性仍然偏高。 鉴于当前数据，央行在7月按兵不动可能是适宜的。 如果能源价格持续受抑，不急于加息。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:06",
+      "headline": "美国货币监理署（OCC）：美国银行业一季度交易收入增长5.6%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:04",
+      "headline": "波音公司与工程师工会将于7月1日启动合同磋商。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:03",
+      "headline": "独立半导体研究机构SemiAnalysis预计，英伟达在2027财年下半年的数据中心计算收入将较华尔街一致预期高出约20%，主要基于供应瓶颈缓解以及Vera Rubin平台加速放量。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 02:00",
+      "headline": "【英国对派拉蒙收购华纳兄弟的交易提出媒体所有权担忧】",
+      "content": "据英国文化与媒体大臣莉萨·南迪表示，出于对媒体所有权多样性的担忧，英国政府可能会介入派拉蒙天空之舞公司（Paramount Skydance Corp.）对华纳兄弟探索公司（WBD）的收购案。南迪表示，她“倾向于介入”该交易，理由是出于公共利益考量，需要确保新闻媒体中“足够多元”的观点，并防止国际新闻领域出现声音过度集中的情况。如果她决定介入，英国媒体监管机构和反垄断监管机构将就交易对竞争的影响向南迪提交报告，派拉蒙需在7月6日前作出回应。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 01:59",
+      "headline": "【Anthropic推出Claude Sonnet 5，低价策略冲刺IPO】",
+      "content": "6月30日，Anthropic正式发布Claude Sonnet 5，这款中端模型在多项基准测试中性能接近旗舰Opus 4.8，价格却低约60%。此举正值该公司推进IPO进程，旨在以高性价比策略扩大企业市场份额。 Sonnet 5在SWE-bench Pro智能体编程测试中得分63.2%，高于前代Sonnet 4.6的58.1%，逼近Opus 4.8的69.2%。在GDPval-AA v2知识工作基准测试中，Sonnet 5以1618分超越Opus 4.8的1615分。发布初期API定价为每百万输入token 2美元、每百万输出token 10美元，截至8月31日；优惠期后将调整为3美元和15美元，仍远低于Opus 4.8的5美元和25美元。 相关文章： Anthropic出性价比王牌Claude Sonnet 5，提升智能体能力，直指企业AI自动化市场",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 01:42",
+      "headline": "谷歌公司：现在可以在移动端通过Drive Now向Gemini提问。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 01:29",
+      "headline": "【美国东部热浪来袭，世界杯赛事面临严峻考验】",
+      "content": "未来几天，一场危险的热浪预计将席卷美国东部，正值7月4日周末前一系列关键的世界杯足球赛即将开打之际，此次热浪对电网构成了威胁。 商业气象预报公司 Vaisala 预测，周二新泽西州纽瓦克的气温将达到90华氏度（32摄氏度），而数小时后，位于该州露天的大都会人寿体育场（MetLife Stadium）就将举行一场淘汰赛。美国最大的电网运营商 PJM Interconnection LLC 已宣布从周三清晨起进入低级别紧急状态，公用事业公司正严阵以待，准备应对可能打破纪录的用电需求。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 01:25",
+      "headline": "周二（6月30日），韩元兑美元最终跌0.46%，报1548.73韩元，6月份累跌2.94%，二季度累跌1.66%，上半年持续震荡下行，从1419.33韩元走低至1562.29韩元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 01:22",
+      "headline": "【对冲基金Millennium高层调整继续，联席首席投资官Russo年底退休】",
+      "content": "Millennium Management联席首席投资官Paul Russo将于今年年底退休，标志着这家多策略对冲基金巨头高层领导的最新变动。据知情人士透露，Russo在退休后将与公司保持联系，并根据需要提供协助。Russo负责公司股票业务的风险管理，同时也是首席投资官办公室的成员。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 01:20",
+      "headline": "苹果公司：很高兴最高法院将审理我们的案件。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 01:16",
+      "headline": "周二（6月30日），美联储隔夜逆回购协议（RRP）使用规模为269.00亿美元（交易对手10家），上个交易日报35.46亿美元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 01:03",
+      "headline": "【Anthropic推出Claude Science，助力科研自动化】",
+      "content": "Anthropic推出一款新软件，旨在帮助科学家实现研究自动化，以期减少其工作中繁琐重复的部分。Anthropic于周二在一份声明中表示，Claude Science可用于自动化处理一系列生物学和化学任务，例如预测蛋白质结构。该软件汇集了科学家常用的多种工具，包括60多个科学数据库。据该公司称，其理念在于让科学家能够更便捷地自动化执行多步骤任务、使用自然语言提问，并无需查询多个独立信息来源即可获得答案。Anthropic表示，Claude Science将作为测试版向该公司的付费用户提供。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 01:01",
+      "headline": "国际铜夜盘收涨0.56%，沪铜收涨0.38%，沪铝收涨0.11%，沪锌收涨1.40%，沪铅收跌0.47%，沪镍收涨0.32%，沪锡收涨2.25%。",
+      "content": "氧化铝夜盘收跌0.25%，铝合金收涨0.42%。 不锈钢夜盘收涨0.92%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 01:00",
+      "headline": "【加密货币市场二季度普跌，比特币已累跌超14%，以太币累跌超25%】",
+      "content": "最近24小时，MarketVectorTM数字资产100小盘指数跌0.79%，暂报2100.97点，二季度累计下跌13.20%，5月11日曾涨至3102.85点，随后逐步下挫、6月25日达到2016.98点。 MarketVectorTM数字资产100中盘指数跌1.40%，报2426.09点，二季度累跌12.45%。 MarketVector数字资产100指数跌2.00%，报11598.62点，二季度累跌14.87%。 二季度迄今，Solana累跌11.44%，狗狗币累跌22.63%，XRP累跌22.49%。 比特币累跌14.20%，暂报58440.11美元，4月1日以来持续走高、5月6日涨至82807.12美元，6月初显著地加速回撤；以太坊累跌25.49%，暂报1569.284美元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 00:53",
+      "headline": "LME期铜收涨96美元，报13375美元/吨。",
+      "content": "LME期铝收跌2美元，报3086美元/吨。 LME期锌收涨77美元，报3552美元/吨。 LME期铅收跌18美元，报1875美元/吨。 LME期镍收跌24美元，报16287美元/吨。 LME期锡收涨1195美元，报51570美元/吨。 LME期钴收平，报56290美元/吨。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 00:43",
+      "headline": "二季度，欧洲航运股马士基哥本哈根股价累计下跌4.37%，赫伯罗特（HLAG.GR）德国法兰克福股价累跌5.12%，德迅国际（KNIN.SW）瑞士股价收累涨11.05%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 00:29",
+      "headline": "【以色列逮捕一名“涉嫌从事间谍活动”的美国公民】",
+      "content": "当地时间30日，据以色列安全机构消息，一名美国公民在耶路撒冷被捕。据称，他涉嫌为伊朗情报机构执行任务，包括记录和拍摄“敏感地点”。预计未来几天内以色列方面将对他提起诉讼。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 00:28",
+      "headline": "【英国两年期国债收益率在二季度累跌超25个基点】",
+      "content": "周二（6月30日）欧市尾盘，英国10年期国债收益率涨4.1个基点，报4.757%，二季度累跌15.9个基点，整体冲高回落、5月18日曾高开至5.189%。 两年期英债收益率涨2.7个基点，报4.153%，二季度累跌25.3个基点。 30年期英债收益率涨4.7个基点，报5.473%；50年期英债收益率涨4.5个基点，报5.079%。 2/10年期英债收益率利差涨1.360个基点，报+60.336个基点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 00:25",
+      "headline": "【伊朗队启程回国】",
+      "content": "在本届世界杯小组赛出局后，伊朗队于当地时间30日晨从墨西哥边境城市蒂华纳所在酒店出发，启程返回伊朗。 当日6时许，数十名当地民众和球迷陆续聚集在伊朗队驻地外送行，不少人手持伊朗和墨西哥国旗，在酒店外等待球队离开。7时左右，伊朗队乘坐大巴从下榻酒店出发前往蒂华纳国际机场。 据当地媒体报道，伊朗队将经土耳其转机后返回伊朗。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 00:25",
+      "headline": "美国总统特朗普回应“最高法院推翻特朗普限制‘出生公民权’行政令”，称：最高法院的裁决对美国来说太糟糕了。",
+      "content": "国会山应该着手废除出生公民权。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 00:24",
+      "headline": "【德国两年期国债收益率二季度累跌约7个基点，10年期意债、希债收益率跌超20个基点】",
+      "content": "周二（6月30日）欧市尾盘，德国10年期国债收益率涨0.2个基点，报2.860%，二季度累计下跌12.6个基点，2月27日下挫至2.643%，随后持续上扬、5月19日达到3.201%。 两年期德债收益率跌1.2个基点，报2.528%，二季度累跌6.9个基点，6月18日开盘时曾从2.6%附近飙升至2.827%，上半年交投于1.998%-2.827%，美国和以色列在2月末发动伊朗转正后从期内底部显著走高；30年期德债收益率涨0.9个基点，报3.421%，二季度累跌4.0个基点。 2/10年期德债收益率利差涨1.382个基点，报+32.940个基点，二季度累跌5.656个基点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 00:22",
+      "headline": "纳斯达克100指数涨幅扩大至1.5%，标普500指数涨0.7%，半导体指数涨3.3%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 00:21",
+      "headline": "【科技繁荣助力，新兴市场股市有望创2009年以来最佳季度表现】",
+      "content": "新兴市场股票指数有望迎来十七年来的最佳季度表现，亚洲人工智能（AI）股的上涨帮助市场抵御了伊朗战争和高油价的冲击。在当月的最后一个交易日，受韩国和台股市场的提振，MSCI新兴市场股票指数上涨近1%，这两个市场为今年的反弹提供了有力支撑。以季度计算，该新兴市场股票指数已攀升超过23%，创下自2009年6月以来的最大涨幅。尽管美元走强导致新兴市场货币指数仍面临1%的月度跌幅，且随着市场对美联储加息的预期升温，发展中国家货币可能面临更多逆风。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-01 00:15",
       "headline": "【芯片设备类股走强，受三星和SK海力士宣布投资计划提振】",
@@ -34,8 +706,8 @@
     },
     {
       "datetime": "2026-07-01 00:02",
-      "headline": "美国最高法院将聆听苹果公司针对Epic AppStore费用问题的申诉。",
-      "content": "",
+      "headline": "【美最高法院将审理苹果公司上诉，涉其与Epic Games应用商店收费纠纷】",
+      "content": "美国最高法院同意受理苹果公司有关一项藐视法庭裁决的上诉。该案件涉及苹果与《堡垒之夜》开发商Epic Games Inc.之间旷日持久的反垄断纠纷。 最高法院大法官周二在一份简短的命令中表示，他们将审议下级法院的裁决。相关裁决称苹果公司故意违反2021年一项涉及苹果应用商店开发者费用的裁决。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -50,8 +722,8 @@
     },
     {
       "datetime": "2026-06-30 23:59",
-      "headline": "美国能源信息署（EIA）表示，美国原油产量升至每日1393万桶，创历史新高。",
-      "content": "",
+      "headline": "【美国原油产量升至每日1393万桶，创历史新高】",
+      "content": "美国能源信息署（EIA）周二公布的月度数据显示，受伊朗战争推高油价、生产商加大开采力度的影响，美国4月原油产量攀升至1393万桶/日，创下历史最高纪录。 EIA数据显示，4月产量增加了21.6万桶/日，其中新墨西哥州产量创下237万桶/日的纪录新高。得克萨斯州原油产量微增3.6万桶/日，达到583万桶/日，为去年11月以来的最高水平。得州与新墨西哥州同处二叠纪盆地，该盆地约占美国原油总产量的一半。第三大产油州北达科他州的原油产量也升至113万桶/日，同样是自去年11月以来的最高水平。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -114,8 +786,8 @@
     },
     {
       "datetime": "2026-06-30 23:30",
-      "headline": "德国DAX 30指数初步收涨1.52%，报25000.27点。",
-      "content": "法国股指初步收跌0.55%，意大利股指初步收涨0.91%、银行指数涨1.53%，英国股指初步收涨0.35%。",
+      "headline": "【二季度德国股市收涨超10%，意大利银行板块涨25%】",
+      "content": "德国DAX 30指数收涨1.50%，报24995.81点，6月份累计下跌0.43%，二季度累涨10.21%。 法国CAC 40指数收跌0.55%，报8384.87点，6月份累涨2.64%，二季度累涨7.53%。 意大利富时MIB指数收涨1.01%，报51682.42点，6月份累涨3.29%，二季度累涨16.79%；富时意大利综合股价银行指数6月份累涨7.10%，二季度累涨25.02%。 英国富时100指数收涨0.12%，报10497.12点，6月份累涨0.84%，二季度累涨3.04%；二季度，富时250指数累涨8.22%，富时350指数累涨3.65%。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -123,7 +795,7 @@
     {
       "datetime": "2026-06-30 23:30",
       "headline": "【欧洲股市创收盘历史新高，并创2020年以来最佳单季表现】",
-      "content": "欧洲STOXX 600指数初步收涨0.99%，报642.40点，创收盘历史新高。 欧元区STOXX 50指数初步收涨1.53%，报6327.13点。 富时泛欧绩优300指数初步收涨1.03%，报2574.38点。",
+      "content": "欧洲STOXX 600指数收涨0.88%，报641.73点，突破6月25日所创收盘历史最高位640.21点，6月份累计上涨2.51%，二季度累计上涨10.05%。 欧元区STOXX 50指数收涨1.55%，报6328.09点，突破6月18日所创收盘历史最高位6323.27点，6月份累涨4.59%，二季度累涨13.62%。 富时泛欧绩优300指数收涨0.93%，报2571.87点。 相关文章： 欧股Q2劲涨10%创2020年来最佳季表现，AI热情与油价回落成推手",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -162,8 +834,8 @@
     },
     {
       "datetime": "2026-06-30 23:15",
-      "headline": "英国央行行长贝利：英国通胀仍然可能会在今年稍晚上扬至3.2%。",
-      "content": "",
+      "headline": "【英国央行行长贝利：不急于对利率采取行动】",
+      "content": "英国央行行长安德鲁·贝利表示，面对油价上涨，央行并不急于做出应对。尽管通胀回归2%目标的时间比他预期的要晚，但目前的走势依然符合预期。 贝利表示，此前油价的上涨意味着英国通胀率可能从5月份的2.8%在今年晚些时候升至3.2%左右，但目前的油价并不比2月底伊朗战争爆发前高出多少。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -234,8 +906,8 @@
     },
     {
       "datetime": "2026-06-30 23:01",
-      "headline": "提醒：NPR撤回了之前关于“美国最高法院大法官Alito将退休”的报道。",
-      "content": "",
+      "headline": "【美国国家公共电台撤回有关最高法院大法官阿利托退休的报道】",
+      "content": "美国全国公共广播电台(NPR)撤回周二发布的一篇报道关于最高法院大法官塞缪尔·阿利托退休的报道。NPR在一则编者按中表示：“阿利托并未宣布退休，我们已撤回这篇报道”。这家广播机构表示，此前“错误发布”了这篇报道。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -649,6 +1321,30 @@
       "timezone": "Asia/Taipei"
     },
     {
+      "datetime": "2026-06-30 21:00",
+      "headline": "美国4月S&P/CS20座大城市季调后房价指数环比",
+      "content": "今值: -0.04% ， 预期: -0.14% ， 前值: -0.16% (修正: -0.15%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 21:00",
+      "headline": "美国4月S&P/CS20座大城市房价指数同比",
+      "content": "今值: 1.14% ， 预期: 0.92% ， 前值: 0.83% (修正: 0.88%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 21:00",
+      "headline": "美国4月FHFA房价指数环比",
+      "content": "今值: -0.1% ， 预期: 0.2% ， 前值: 0.1% (修正: 0.2%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
       "datetime": "2026-06-30 20:58",
       "headline": "【贸促会：中国企业期待对话协商解决中欧经贸合作问题】",
       "content": "中国贸促会在6月30日举行的例行新闻发布会上发布《欧盟营商环境报告2025》。中国贸促会新闻发言人王一斐表示，广大中国企业期待中欧双方通过对话协商推动解决中欧经贸合作中存在的问题，也希望欧方能为中国赴欧企业提供公平、公正、非歧视的营商环境。报告显示，2025年，中欧工商界积极互动交流，合作成果丰硕、意愿增强，53%的受访在欧中资企业对欧盟营商环境评价积极，48.8%的企业拟增加与欧盟企业间供应链合作。（新华社）",
@@ -748,14 +1444,6 @@
       "datetime": "2026-06-30 20:30",
       "headline": "加拿大4月GDP同比",
       "content": "今值: 1.1% ， 预期: 0.9% ， 前值: 0.4%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 20:30",
-      "headline": "加拿大4月GDP环比",
-      "content": "今值: 0.5% ， 预期: 0.4% ， 前值: -0.1%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -908,6 +1596,14 @@
       "datetime": "2026-06-30 20:00",
       "headline": "德国6月CPI同比初值",
       "content": "今值: 2.3% ， 预期: 2.6% ， 前值: 2.6%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 20:00",
+      "headline": "德国6月调和CPI同比初值 2.4%，预期 2.5%，前值 2.7%。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
