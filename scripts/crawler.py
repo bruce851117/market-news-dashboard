@@ -7,7 +7,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 
-CRAWLER_VERSION = "tw-browser-time-v9-feed-scope-date-marker"
+CRAWLER_VERSION = "tw-browser-time-v10-feed-scope-date-marker-fix"
 URL = "https" + "://wallstreetcn.com/live/global"
 TW_TZ = ZoneInfo("Asia/Taipei")
 
@@ -22,9 +22,13 @@ SAVE_DEBUG = True
 DATE_LINE_RE = re.compile(
     r"^(\d{1,2})月(\d{1,2})日(?:[，,\s、]*星期[一二三四五六日天])?(?:[，,\s、]*\d{2}:\d{2}:\d{2})?$"
 )
+
+# 只拆真正的換日標籤，例如：06月29日， 星期一
+# 不拆正文中的一般日期，例如：2026年12月31日、6月29日晚、6月29日發布
 DATE_MARKER_RE = re.compile(
-    r"(\d{1,2}月\d{1,2}日(?:[，,\s、]*星期[一二三四五六日天])?)"
+    r"(?<![\d年])(\d{1,2}月\d{1,2}日[，,\s、]*星期[一二三四五六日天])"
 )
+
 TIME_RE = re.compile(r"^([01]\d|2[0-3]):([0-5]\d)$")
 
 
@@ -74,6 +78,21 @@ def parse_page_date_as_tw(line, now_tw):
 
 
 def split_inline_date_markers(lines):
+    """
+    只拆真正的日期分隔標籤，例如：
+
+    亞馬遜評估...（The Information） 06月29日， 星期一
+
+    拆成：
+
+    亞馬遜評估...（The Information）
+    06月29日， 星期一
+
+    不拆一般正文日期，例如：
+    2026年12月31日
+    6月29日晚
+    6月29日發布
+    """
     output = []
 
     for raw_line in lines:
@@ -467,3 +486,105 @@ def main():
             oldest_tw = get_oldest_datetime_tw(all_items)
             latest_tw = get_latest_datetime_tw(all_items)
 
+            oldest_str = oldest_tw.strftime("%Y-%m-%d %H:%M") if oldest_tw else "None"
+            latest_str = latest_tw.strftime("%Y-%m-%d %H:%M") if latest_tw else "None"
+
+            log(
+                f"Scroll {scroll_no}: "
+                f"feed_lines={len(feed_lines)}, "
+                f"parsed={len(parsed_items)}, "
+                f"clean={len(clean_items)}, "
+                f"all_clean={len(all_items)}, "
+                f"latest_tw={latest_str}, "
+                f"oldest_tw={oldest_str}"
+            )
+
+            if len(all_items) <= previous_count:
+                no_growth_count += 1
+            else:
+                no_growth_count = 0
+
+            previous_count = len(all_items)
+
+            # 只用已經過 fetch_start_time 篩選後的資料判斷是否足夠。
+            # 不再被財經日曆或 footer 的 09:30 污染。
+            ranged_items_preview = filter_items_in_range(all_items, fetch_start_tw, now_tw)
+            ranged_oldest = get_oldest_datetime_tw(ranged_items_preview)
+
+            if ranged_oldest and ranged_oldest <= fetch_start_tw and scroll_no >= 8:
+                log("Range already covered by parsed feed. Continue 2 more scrolls for safety.")
+
+                for _ in range(2):
+                    page.mouse.wheel(0, 2200)
+                    page.wait_for_timeout(2500)
+
+                break
+
+            if scroll_no >= 15 and no_growth_count >= 8:
+                log("No new clean items for 8 consecutive scrolls. Stop scrolling.")
+                break
+
+            page.mouse.wheel(0, 2200)
+            page.wait_for_timeout(2500)
+
+        browser.close()
+
+    clean_all_items = dedupe_items([item for item in all_items if not is_junk_item(item)])
+    filtered_items = filter_items_in_range(clean_all_items, fetch_start_tw, now_tw)
+
+    latest_tw = get_latest_datetime_tw(filtered_items)
+    oldest_tw = get_oldest_datetime_tw(filtered_items)
+
+    output = {
+        "generated_at": now_tw.strftime("%Y-%m-%d %H:%M"),
+        "fetch_start_time": fetch_start_tw.strftime("%Y-%m-%d %H:%M"),
+        "fetch_end_time": now_tw.strftime("%Y-%m-%d %H:%M"),
+        "source": URL,
+        "timezone": "Asia/Taipei",
+        "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
+        "crawler_version": CRAWLER_VERSION,
+        "count": len(filtered_items),
+        "items": filtered_items,
+    }
+
+    RAW_OUTPUT.write_text(
+        json.dumps(output, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    log("========== Crawl Finished ==========")
+    log("Raw clean items before time filter: " + str(len(clean_all_items)))
+    log("Raw items after Taiwan time filter: " + str(len(filtered_items)))
+    log("Saved raw news to: " + str(RAW_OUTPUT))
+    log("Output timezone: Asia/Taipei")
+    log("Output generated_at: " + output["generated_at"])
+    log("Output fetch_start_time: " + output["fetch_start_time"])
+    log("Output fetch_end_time: " + output["fetch_end_time"])
+
+    if latest_tw and filtered_items:
+        log("Latest item in Taiwan time:")
+        log(json.dumps(filtered_items[0], ensure_ascii=False, indent=2))
+
+    if oldest_tw and filtered_items:
+        log("Oldest item in Taiwan time:")
+        log(json.dumps(filtered_items[-1], ensure_ascii=False, indent=2))
+
+    log("===== raw_news.json preview =====")
+    log("raw_news exists: " + str(RAW_OUTPUT.exists()))
+    log("generated_at: " + output["generated_at"])
+    log("fetch_start_time: " + output["fetch_start_time"])
+    log("fetch_end_time: " + output["fetch_end_time"])
+    log("timezone: " + output["timezone"])
+    log("source_time_assumption: " + output["source_time_assumption"])
+    log("crawler_version: " + output["crawler_version"])
+    log("count: " + str(output["count"]))
+
+    if filtered_items:
+        log("latest item:")
+        log(json.dumps(filtered_items[0], ensure_ascii=False, indent=2))
+        log("oldest item:")
+        log(json.dumps(filtered_items[-1], ensure_ascii=False, indent=2))
+
+
+if __name__ == "__main__":
+    main()
