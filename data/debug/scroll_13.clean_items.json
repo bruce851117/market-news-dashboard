@@ -1,5 +1,45 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:02",
+    "headline": "【去年全国用水总量达5944.5亿立方米】",
+    "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "伦敦金属交易所（LME）：锌库存减少700吨，锡库存增加15吨，镍库存增加6吨，铜库存减少3875吨，铝库存减少1550吨，铅库存增加375吨。",
     "content": "",
@@ -323,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -1987,102 +2075,6 @@
     "datetime": "2026-06-30 00:21",
     "headline": "【鱼子酱生产商鲟龙科技香港IPO公开发售部分获得逾2100倍认购】",
     "content": "据港交所文件，杭州千岛湖鲟龙科技通过香港首次公开募股(IPO)募集资金总额12.3亿港元。 公司将香港IPO发行价定为每股75.50港元。 分配给散户投资者的160万股获得2,134.81倍认购，分配给国际投资者的1,470万股获得19.87倍认购。 该股将于6月30日开始交易。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 00:20",
-    "headline": "麦格理给予寒武纪跑赢大盘的初始评级，目标价2,060元人民币。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 00:17",
-    "headline": "【以防长称以军已做好对伊采取独立军事行动的准备】",
-    "content": "以色列国防部长卡茨日前在与军事记者的闭门谈话中，阐述了以色列在黎巴嫩、伊朗及加沙地带等多条战线的最新地缘军事战略。卡茨明确表示，以色列国防军已做好对伊朗采取独立军事行动的准备，并重申以军将在黎巴嫩南部保持长期军事存在。 卡茨透露，以军已选定针对伊朗境内的打击目标，并做好了采取独立军事行动的准备，目前正密切关注美国与伊朗的互动步骤。卡茨称，若伊朗向以色列发射导弹，以方将在伊朗境内实施“具有震撼力”的回击，并宣称“以色列明天就可能与伊朗陷入战争状态”。但他同时强调，以色列目前不会干扰美国总统特朗普针对伊朗采取的行动。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 00:06",
-    "headline": "【美国最高法院做出历史性判决，扩大总统解职联邦高级官员的权力】",
-    "content": "美国最高法院同意扩大总统解职高级政府官员的权力。这项具有里程碑意义的判决使白宫得以牢牢掌控数十个长期独立运作的联邦机构。最高法院以6比3的投票结果推翻1935年的一项判例。该判例长期以来一直是现代行政国家法律框架的重要基础。根据这一裁决，特朗普可以解除联邦贸易委员会民主党委员丽贝卡·凯利·斯劳特的职务，尽管相关法律规定，委员只能因特定理由被免职。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 00:04",
-    "headline": "根据最新协议，亚马逊可能会对Anthropic支付更多。",
-    "content": "亚马逊评估“通过使用其他模型来节省成本”。（The Information）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 23:58",
-    "headline": "周一（6月29日）欧市尾盘，英国10年期国债收益率跌1.4个基点，报4.718%。",
-    "content": "两年期英债收益率涨0.2个基点，报4.127%。 30年期英债收益率跌2.0个基点，50年期英债收益率跌2.6个基点。 2/10年期英债收益率利差跌1.607个基点，报+58.980个基点。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 23:48",
-    "headline": "美联储理事库克在一份声明中表示，美国最高法院6月29日的裁决“重申了一项支撑数代稳健经济管理的原则：美联储必须在不受政治干预的情况下，完全基于证据和独立判断作出所有政策决策”。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 23:45",
-    "headline": "周一（6月29日）欧市尾盘，ICE英国天然气期货涨4.90%，报102.590便士/千卡，北京时间22:00过后出现一波加速上涨行情、一度达到103.670便士。",
-    "content": "TTF基准荷兰天然气期货涨2.51%，报42.560欧元/兆瓦时，22:25也曾一度拉升至42.914欧元。 ICE欧盟碳排放交易许可（期货价格）跌1.69%，报77.90欧元/吨。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 23:45",
-    "headline": "【刚果（金）责令钴矿企业上交未使用的出口配额】",
-    "content": "果民主共和国的钴矿企业将被要求向政府监管机构上交上半年未使用的出口配额。自去年年初以来，这种电池金属的全球主导供应国就对运输量实施了严格限制，并于去年10月用配额制取代了全面禁令。新制度又花了数月时间才得以实施，这促使刚果当局两次延长了季度截止日期。 然而，刚果（金）战略矿产物质市场监管与控制局（ARECOMS）在6月29日表示，今年前六个月授予的出口配额中，“截至2026年6月30日仍未使用的部分将被视为作废”。该机构表示，这些数量将“自动重新分配”给监管机构自身的配额。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 23:43",
-    "headline": "特朗普政府取消能源公司Duke Energy在美国北卡莱罗纳州近海的风电租赁合同。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 23:38",
-    "headline": "【德银：6月底买盘料将使美国国债收益率曲线趋平】",
-    "content": "德意志银行表示，受月底前“养老金及指数相关买盘”推动，美国国债收益率曲线预计将趋于平缓。 对于6月季末，德意志银行策略师估计，确定给付型养老金计划需要买入444亿美元固定收益资产，这“表明尽管存在宏观因素影响，但10年期至30年期美债收益率曲线仍存在略微更强的走平倾向”。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 23:36",
-    "headline": "明晟公司MSCI北欧国家指数涨0.1%，报384.76点。",
-    "content": "在十个板块中，北欧工业板块涨幅最大。 军工股Kongsberg Gruppen ASA涨5.3%，在一众北欧个股里领跑。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 23:32",
-    "headline": "美国财政部拍卖三个月期国债，得标利率3.740%，投标倍数2.32。",
-    "content": "拍卖六个月期国债，得标利率3.840%，投标倍数2.58。",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"

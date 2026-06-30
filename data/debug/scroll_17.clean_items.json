@@ -1,5 +1,37 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "【去年全国用水总量达5944.5亿立方米】",
     "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
@@ -331,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -2475,262 +2555,6 @@
     "datetime": "2026-06-29 21:38",
     "headline": "美光科技股价跌幅扩大至3.5%，闪迪跌超5%。",
     "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:38",
-    "headline": "【龚正市长调研促消费工作，更大力度激发消费活力】",
-    "content": "上海市委副书记、市长龚正今天（6月29日）调研促消费工作时指出，要深入着力扩大内需，深入实施提振消费专项行动，更大力度激发消费活力，持续放大文商旅体展融合效应，加快建设国际消费中心城市，进一步发挥消费对经济增长的主引擎作用。（澎湃）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:36",
-    "headline": "美股太空股ETF涨幅一度高达4.6%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:34",
-    "headline": "北美科技软件股指数ETF美股盘初涨约2.1%，进入连续第二个交易日反弹，报90.02美元，",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:31",
-    "headline": "美股三大指数集体高开，纳指涨0.8%，标普500指数涨0.5%，道指涨0.23%。科技股涨跌不一，英伟达涨0.66%，部分存储概念股走低，美光科技跌超2%，闪迪跌超1%。Strategy涨近5%，此前公司宣布授权10亿美元优先股回购计划。康卡斯特上涨12%，公司计划分拆NBC环球。",
-    "content": "相关文章： 科技股力撑美股反弹，标普纳指终结五连跌，谷歌涨5%，油价反弹，日元跌至40年低位",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:30",
-    "headline": "标普500指数高开37.86点，涨幅0.51%，报7391.88点；",
-    "content": "道琼斯工业平均指数高开119.03点，涨幅0.23%，报51995.14点； 纳斯达克综合指数高开204.47点，涨幅0.81%，报25502.09点。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:26",
-    "headline": "【宣布将NBC环球和Sky业务从有线电视业务中剥离后，康卡斯特股价盘前飙升20%】",
-    "content": "（Comcast）康卡斯特计划将其NBC环球（NBCUniversal）和Sky业务剥离为一家新的上市公司，就在其完成Versant品牌剥离的几个月后。康卡斯特联席CEO Mike Cavanagh将出任NBC环球CEO，而康卡斯特前CFO Michael Angelakis将出任康卡斯特CEO。在过去12个月里，受媒体行业从传统电视捆绑包向流媒体转型带来的巨大挑战影响，该公司股价大幅下跌。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:19",
-    "headline": "【印尼塞梅鲁火山喷发 火山灰柱高约1200米】",
-    "content": "据印尼火山地质减灾中心（PVMBG）消息，当地时间6月29日16时39分，位于印尼东爪哇省的塞梅鲁火山发生喷发。火山灰柱高约1200米，持续时间为129秒。（央视）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:16",
-    "headline": "【以色列称打死哈马斯拉法旅一负责人】",
-    "content": "以色列国防军和以色列国家安全总局（辛贝特）29日发表联合声明称，以色列国防军和辛贝特日前打死了巴勒斯坦伊斯兰抵抗运动（哈马斯）拉法旅军事防御方面的负责人伊斯梅尔·马斯里。（新华社）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:12",
-    "headline": "【伊媒：近期更多船只经伊方指定航线通过霍尔木兹海峡】",
-    "content": "据伊朗伊斯兰共和国广播电视台29日报道，近期越来越多船只选择经由霍尔木兹海峡北部拉腊克岛以南航线通行。 报道称，伊朗伊斯兰革命卫队海军已发出警告，称除伊方指定航线以外的其他航线存在安全风险。 报道未提及通行船只数量及具体情况。（新华社）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:08",
-    "headline": "【苏宁易购起诉万达集团一审胜诉，万达需支付17.47亿元及延期付款损失】",
-    "content": "6月29日，苏宁易购集团股份有限公司发布公告称，其与子公司苏宁国际诉大连万达集团股份有限公司合同纠纷案获南京市中级人民法院一审判决。法院判令万达集团支付剩余资金及延期付款损失。判决结果显示，万达集团应于判决生效之日起十日内向苏宁易购支付剩余资金17.47亿元，并支付自2024年2月26日起至2026年2月13日止的延期付款损失（按一年期LPR的1.5倍计算）。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:05",
-    "headline": "Meta Platforms因担心模型蒸馏风险，而限制工程师对Claude和Codex的使用。（The Information）",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:02",
-    "headline": "【万达广场批量易主 多位投资人正式入局】",
-    "content": "近期，一家名为上海安垭企业管理合伙企业（有限合伙）的公司，股权发生变更。苏州安益股权投资基金合伙企业（有限合伙）认缴出资21.98亿元，持有前者99.9995%权益，成为绝对控制方。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:00",
-    "headline": "【热浪之下中国空调在欧洲唱主角】",
-    "content": "欧洲今夏持续遭遇罕见热浪，为中国家电企业带来爆发式增长机遇。美的空调欧洲大区总监熊学勤透露，针对激增的需求，美的已紧急协调工厂加班生产，并通过时效约25天的中欧班列加速补货，“集中爆发大约在两周前，紧急与当地分公司和销售团队开会讨论，增加了备货。新一批产品已在生产中，同样会通过中欧班列加速运往市场。”熊学勤介绍。“今年美的PortaSplit系列空调，To B端销量已超过20万套，同比翻了一倍。”",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:00",
-    "headline": "夜盘期货开盘，焦煤涨2%，聚丙烯、丙烯、沪锡、纸浆、20号胶、焦炭、对二甲苯、低硫燃油、棉花、PTA、乙二醇涨逾1%；沪镍、沪金等下跌。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:59",
-    "headline": "【周一美股盘前你需要了解的全球要闻】",
-    "content": "非农提前剧透？哈塞特：就业报告将再次强劲，当前加息的理由并不充分。 特朗普坚称美伊会谈“将于明日在多哈举行”。 韩国史上最大规模产业投资计划！五年内DRAM产能翻倍，三星、SK海力士各新建两座芯片厂。 三星、SK海力士相继宣布投资计划：从HBM、数据中心到人形机器人，合计逾4800万亿韩元。 存储三巨头三星、海力士、美光遭美国集体诉讼，HBM转型被指操纵DRAM价格。 台积电携手华邦供应DRAM晶圆，不再只靠三星海力士美光。 报道：比亚迪自研智驾芯片预计2027年首搭量产车型。 DeepSeek V4定档7月中旬，峰谷API定价同步落地。 字节跳动考虑合作百度昆仑芯？接近人士回应：字节跳动目前没有和昆仑芯片合作的意向。 日经225指数收涨0.2%，沪指收涨1.16%；恒生指数收涨1.57%。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:58",
-    "headline": "【半年2893张监管罚单！超六成银行违规问题指向信贷业务】",
-    "content": "记者依据企业预警通数据梳理，今年截至6月29日，监管对516家银行累计开出2893张罚单，罚没金额9.97亿元。其中与信贷业务相关的违规罚单1804张，占比超六成，100万元以上罚单数量为137张。（21财经）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:52",
-    "headline": "【多位DeepSeek API用户确认已收到调价邮件：V4正式版高峰期价格将翻倍】",
-    "content": "多位开发者向记者确认，已收到DeepSeek发送的升级提醒邮件。邮件显示，DeepSeekV4正式版计划于7月中旬正式上线，并将同步调整API定价策略，引入峰谷定价机制，以更合理地配置资源、提升服务稳定性。根据邮件内容，V4Pro和V4Flash模型在平时价格保持不变，但高峰时段API价格将调整为平时的2倍。高峰时段为每天上午9点至12点、下午2点至6点。（蓝鲸新闻） 相关文章： DeepSeek V4定档7月中旬，峰谷API定价同步落地",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:49",
-    "headline": "【江苏银行副行长高增银拟任省委管理领导班子企业正职】",
-    "content": "中共江苏省委组织部发布的省管干部任职前公示显示，江苏银行股份有限公司副行长、党委委员高增银，拟任省委管理领导班子企业正职。（澎湃）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:43",
-    "headline": "【6天全透明直播，智元精灵G2产线作业成功率99.99%】",
-    "content": "6月28日，龙旗科技江西南昌工厂内，为期6天的智元精灵G2平板质检工段全覆盖作业完美收官。精灵G2完整承接平板质检工段四大工序，累计完成17625次作业，任务成功率高达99.99%。本次直播充分验证智元机器人的工业级稳定作业能力，标志着具身智能正式从单点试点走向“部署态”规模化落地。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:40",
-    "headline": "南亚新材：拟投资建设年产1400万平方米高端覆铜板研发及产业化项目，项目总投资额约为人民币7.9亿元。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:37",
-    "headline": "【白宫：美国总统特使等本周将赴多哈参加美伊会谈】",
-    "content": "据美国福克斯新闻29日报道，美国白宫新闻秘书莱维特表示，美国总统特使威特科夫和美国总统特朗普的女婿库什纳“本周将飞往（卡塔尔）多哈”，参加美国和伊朗的高级别会谈。（新华社） 相关文章： 美伊谈判前途未卜：特朗普称周二将在多哈谈，伊朗否认计划会谈，以防长称以伊明天就可能重开战火",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:33",
-    "headline": "【国家医保局局长章轲赴新疆调研医疗保障工作】",
-    "content": "2026年6月25日至26日，国家医疗保障局党组书记、局长章轲赴新疆维吾尔自治区调研医疗保障工作。章轲强调，要坚持人民至上，坚定不移推进医保赋能医药产业高质量发展。要秉承价值购买理念，真金白银支持真正具有临床价值的创新成果。要健全药品价格形成机制，支持中国医药拓展国际市场。要丰富创新药械应用场景，推动医保从“事后买单”向“产业赋能”转型。（国家医保局微信公号）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:32",
-    "headline": "【ST易购：收到南京中院民事判决书，万达集团支付17.47亿元及损失】",
-    "content": "近日就公司及子公司苏宁国际在南京中院发起的要求万达集团继续按照相关合同约定履行付款义务的诉讼，收到南京中院民事判决书。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:31",
-    "headline": "荣盛发展：2026年截至目前，公司经营债务化解完成7.06亿元。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:24",
-    "headline": "海川智能：拟通过股权受让形式以人民币1.3亿元购买南京集溢半导体科技有限公司15.30%的股权。标的公司主要产品为砷化镓（GaAs）晶片、原材料4N金属镓（N代表纯度），该两类产品2025年收入占比分别约为84.77%、15.02%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:24",
-    "headline": "【农行河北省分行原党委委员、副行长许树宝被查】",
-    "content": "据中央纪委国家监委驻中国农业银行纪检监察组、河北省纪委监委消息：中国农业银行河北省分行原党委委员、副行长许树宝涉嫌严重违纪违法，目前正接受中央纪委国家监委驻中国农业银行纪检监察组纪律审查和河北省监委监察调查。（中央纪委国家监委网站）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:22",
-    "headline": "【暑期旅游市场全面启动：亲子客群占比超六成】",
-    "content": "临近7月，多家在线旅游平台发布的报告显示，2026年暑期旅游市场已全面启动。途牛的报告显示，亲子客群构成了暑期出游的主力军，在途牛暑期出游用户中的出游人次占比超过60%。从境内亲子游热门目的地来看，上海、北京、三亚、桂林、呼伦贝尔、珠海、成都、南京、广州、贵阳等预订热度领先。（澎湃）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:20",
-    "headline": "白宫经济顾问哈塞特：多项指标表明就业报告将再次表现强劲。",
-    "content": "当前加息的理由并不充分。 相关文章： 非农提前剧透？哈塞特：就业报告将再次强劲，当前加息的理由并不充分",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:19",
-    "headline": "【央行首次开展隔夜逆回购操作：规模3000亿元，为何未公布利率？东方金诚首席宏观分析师王青：可能有两个原因】",
-    "content": "2026年6月29日，央行发布公开市场业务交易公告称，当日以固定利率、数量招标方式开展了1575亿元7天期逆回购操作，全额满足了一级交易商需求。同时，开展了3000亿元隔夜逆回购操作。 在6月25日预告隔夜将实施隔夜逆回购时，市场对操作利率格外关注。从今日公开市场操作公告看，央行并未公布隔夜逆回购操作利率。 东方金诚首席宏观分析师王青表示，未公布隔夜逆回购操作利率可能有两个原因：一是当前主要强调其数量调控意义，而非价格调控作用。二是当前隔夜逆回购主要是对7天期逆回购的补充，操作模式有待逐步成熟。他判断，未来隔夜逆回购有望常态化操作，并成为主要政策利率，利率水平会适时公布。（澎湃） 相关文章： 央行公告：首次3000亿元落地！",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:18",
-    "headline": "波罗的海干散货指数下跌1.35%，报2490点。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:17",
-    "headline": "【“杭州六小龙”云深处更名】",
-    "content": "记者获悉，“杭州六小龙”之一的杭州云深处科技股份有限公司正式更名为“云深处科技股份有限公司”。云深处方面表示，此次更名是为了公司战略发展和全球化市场布局。 据上交所官网显示，云深处拟在上交所科创板上市，发行股数不低于8298万股，不低于发行后总股本的18％，募资额25.03亿元，目前处于已问询状态。（澎湃）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:16",
-    "headline": "【海信空调法国销量同比增长超100％，移动空调多国脱销】",
-    "content": "6月下旬以来，欧洲多地最高气温刷新历史纪录，多国政府发布高温预警。大范围高温拉动制冷家电刚需爆发，中国品牌海信空调销售数据显示，今年前6个月，海信空调西欧市场销售额同比增长超20%，法国市场增幅超100%，移动空调更是“一机难求”。",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"

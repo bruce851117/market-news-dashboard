@@ -1,5 +1,45 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:02",
+    "headline": "【去年全国用水总量达5944.5亿立方米】",
+    "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "伦敦金属交易所（LME）：锌库存减少700吨，锡库存增加15吨，镍库存增加6吨，铜库存减少3875吨，铝库存减少1550吨，铅库存增加375吨。",
     "content": "",
@@ -323,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -1827,102 +1915,6 @@
     "datetime": "2026-06-30 02:27",
     "headline": "伊朗副外长：我们已告知阿曼方面，需要重新划定霍尔木兹海峡的通航航线，双方将就此举行技术性会谈。",
     "content": "伊朗反对任何船只通过德黑兰未指定的霍尔木兹海峡航线，并将设法阻止此类通行。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 02:22",
-    "headline": "【报道：苹果iPhone 18 Pro供应链机密遭暗网曝光，涉印度供应商塔塔泄密事件】",
-    "content": "据相关文件及一位消息人士透露，一个此前从苹果印度供应商塔塔电子（Tata Electronics）窃取数据的勒索软件组织，已在暗网上发布包含苹果即将推出的iPhone 18 Pro机型照片以及敏感零部件和供应商名单的文件。此次信息泄露威胁到苹果精心管理的 iPhone 生产体系。塔塔既为苹果供应零部件，也作为代工厂组装 iPhone。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 02:18",
-    "headline": "苹果公司推出 iOS 26.6 Beta 3。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 02:10",
-    "headline": "超微电脑跌9.2%",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 01:46",
-    "headline": "【在美上市新兴市场ETF继续吸金】",
-    "content": "上周，投资者连续第二周涌向投资于新兴市场股票和债券的交易所交易基金（ETF）。彭博汇编数据显示，截至6月26日当周，在美国上市、投资于多个发展中国家以及特定国家的新兴市场ETF资金流入总额为4.669亿美元，而前一周流入为21.6亿美元。今年迄今为止，资金流入总额为419亿美元。分市场看，韩国资金流规模最大，为2.751亿美元，以iShares MSCI South Korea为首。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 01:39",
-    "headline": "【伊朗称未来几天内没有与美方开展任何谈判的计划】",
-    "content": "当地时间29日晚间，伊朗外交部发言人巴加埃对外界表示，伊方未来几天没有与美方开展任何谈判的计划。他同时透露，伊朗专家代表团将前往多哈跟进《伊斯兰堡谅解备忘录》的执行情况，但这一访问与美方代表团对卡塔尔的访问无关。（央视）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 01:23",
-    "headline": "【航运巨头马士基上调全年业绩预期，因为集装箱市场需求强劲】",
-    "content": "马士基预计全年基础Ebitda为80亿-100亿美元，之前预计45亿-70亿美元。 预计全年基础EBIT为20亿-40亿美元，分析师预期14.2亿美元。 上调业绩指引，是因为集装箱市场需求强劲，且现货市场近期持续上涨。 该公司ADR涨7.6%，Zim Integrated Shipping涨1%。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 01:21",
-    "headline": "【伊朗称霍尔木兹海峡排雷工作将由伊方单独执行】",
-    "content": "伊朗外交部当地时间29日晚间在一份声明中表示，根据《伊斯兰堡谅解备忘录》，霍尔木兹海峡的排雷工作将由伊朗单独执行，伊方不会就此与任何国家开展合作。前地区局势“敏感且复杂”，伊方强烈建议法国不要以“挑衅行为”使局势进一步复杂化。 当天早些时候，法国总统马克龙对外界表示，法国决定与合作伙伴一道，在霍尔木兹海峡开展联合排雷，以保障海上航道安全，确保霍尔木兹海峡自由通行。（央视）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 01:16",
-    "headline": "周一（6月29日），美联储隔夜逆回购协议（RRP）使用规模为35.46亿美元（交易对手4家），上个交易日报64.26亿美元。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 01:15",
-    "headline": "标普500指数涨超1%，纳指涨超1.7%，纳斯达克100指数涨幅扩大至2%，半导体指数涨3.5%。",
-    "content": "相关文章： 科技股力撑美股反弹，标普纳指终结五连跌，谷歌涨5%，油价反弹，日元跌至40年低位",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 01:12",
-    "headline": "美国内政部长Burgum：汽油价格“绝对”可以跌回3美元/加仑下方。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 01:09",
-    "headline": "据华尔街日报，Carlisle提议，按照现金+股票方式收购建筑行业的Owens Corning。",
-    "content": "但Owens Corning迄今并没有投入太多精力去洽谈这笔潜在交易。 Owens Corning（OS）涨幅扩大至11.8%。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 01:00",
-    "headline": "【沪铝、沪镍夜盘收跌超2%】",
-    "content": "国际铜夜盘收跌0.24%，沪铜收跌0.27%，沪铝收跌2.19%，沪锌收涨0.12%，沪铅收跌0.37%，沪镍收跌2.55%，沪锡收跌0.21%。 氧化铝夜盘收跌0.82%，铝合金收跌1.08%。",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"

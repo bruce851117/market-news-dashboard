@@ -1,5 +1,45 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:02",
+    "headline": "【去年全国用水总量达5944.5亿立方米】",
+    "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "伦敦金属交易所（LME）：锌库存减少700吨，锡库存增加15吨，镍库存增加6吨，铜库存减少3875吨，铝库存减少1550吨，铅库存增加375吨。",
     "content": "",
@@ -313,8 +353,8 @@
   },
   {
     "datetime": "2026-06-30 14:45",
-    "headline": "法国6月调和CPI环比初值",
-    "content": "今值: -0.3% ， 预期: 0% ， 前值: 0.1%",
+    "headline": "法国6月调和CPI环比初值 -0.3%，预期 0%，前值 0.1%。",
+    "content": "",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -323,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比 0.3%，预期 0.1%，前值 -0.4%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值 2%，预期 2.3%，前值 2.8%。",
+    "content": "",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -386,103 +474,7 @@
   {
     "datetime": "2026-06-30 14:32",
     "headline": "【江波龙：建设完成mSSD月产能百万交付能力】",
-    "content": "江波龙宣布mSSD高速存储介质产能迎来重要里程碑，公司已建设完成mSSD月产能百万级交付能力，具备稳定且规模化量产交付条件。（界面）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:32",
-    "headline": "日经225指数收涨0.86%，报70062.32点。",
-    "content": "日本东证指数收涨0.52%，报3994.76点。 韩国首尔综指收涨0.97%，报8476.47点。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:30",
-    "headline": "【水晶光电：滤片类、硅透镜类产品预计下半年有望实现小批量量产】",
-    "content": "水晶光电6月29日在路演活动上表示，公司聚焦“3+2”布局（“滤片、棱镜、透镜”+“玻璃基板、波导”）。滤片类、硅透镜类产品预计2026年下半年有望实现小批量量产并贡献收入；玻璃基板、波导类产品系面向更前沿技术方向的产品，目前尚正处于早期技术对接阶段。（证券时报）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:29",
-    "headline": "【无人机袭击造成白俄罗斯平民伤亡，中方表态】",
-    "content": "中国常驻联合国副代表孙磊29日在安理会关于无人机袭击白俄罗斯平民问题紧急公开会上发言，对袭击造成白俄罗斯平民伤亡表示关切。孙磊说，中方注意到俄罗斯布良斯克州一辆大巴车遭无人机攻击的报道，对事件造成白俄罗斯平民伤亡深表关切。中方谴责任何针对平民的袭击。任何情况下，平民都不应该成为袭击目标，平民的安全应该得到保护。（新华社）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:28",
-    "headline": "【保时捷中国回应取消多门店销售授权】",
-    "content": "保时捷中国表示，山东济宁、江苏淮安、广西南宁兴宁保时捷中心将于6月30日终止经销业务，安徽芜湖保时捷中心将于7月31日终止销售业务，但售后仍正常运营，为车主提供符合保时捷标准的售后服务。保时捷中国表示，面对市场环境与汽车产业转型带来的挑战，保时捷积极响应市场变化，持续深化“质大于量”的策略，进一步整合中国经销商网络。保时捷中国充分尊重合作伙伴基于自身发展所做出的决策，对于近期若干经销商的运营调整，将与合作伙伴合作，保证客户服务的连续性和高品质。（中新网）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:27",
-    "headline": "【优必选超仿生人形机器人优世界U1全渠道订单破万】",
-    "content": "在优必选2026年度全球发布会上，优必选创始人、董事会主席兼CEO周剑宣布优必选超仿生人形机器人优世界U1系列全渠道订单已突破1万台，力争今年交付。据悉，这也是全球唯一具备规模化量产能力的全尺寸超仿生人形机器人。（界面）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:27",
-    "headline": "碳酸锂期货主力合约涨近7%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:26",
-    "headline": "欧洲央行首席经济学家Lane：欧洲已做好充分准备采用AI。",
-    "content": "AI是生产力和投资的积极因素。 油价目前已恢复到冲突前水平。 预计2027年和2028年的油价仍将高于战前水准。 能源价格攀高的第二轮影响可能需要一些时间才能显现。 油价可能在未来几年内都超过冲突前水准。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:26",
-    "headline": "【水晶光电：公司基本面未因大客户调价事项受到明显影响 订单及价格层面均未出现重大变化】",
-    "content": "水晶光电6月29日举办路演活动，有投资者提问：“北美大客户近期产品价格调整，是否会影响公司今年的订单与业绩？”水晶光电表示，截至目前，公司基本面未因大客户调价事项受到明显影响，订单及价格层面均未出现重大变化。公司深度参与大客户的光学创新升级，增长核心驱动为新品的放量。2026年，公司北美涂布滤光片业务将继续推进份额提升，同时为大客户两款高端机型的主摄摄像头模组光学创新升级独家供应全新的光学元件，预计将为公司2026、2027年业绩增长提供有力支撑。（证券时报）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:24",
-    "headline": "欧洲央行首席经济学家Lane：6月决策并非决定性转折，也非保险性加息。",
-    "content": "油价带来的第二轮效应可能需要一段时间才能显现。 需要观察油价对食品通胀的影响。 致力于逐次会议作出决策。 欧洲央行不会被束缚在一条利率路径上。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:22",
-    "headline": "【日美举行大规模联合军演】",
-    "content": "日本陆上自卫队和美国海军陆战队从6月20日开始，在日本九州和冲绳的多个地点举行“坚毅之龙”大规模联合军演。演习期间，日本陆上自卫队的“鱼鹰”运输机首次飞抵宫古岛。（CCTV国际时讯）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:21",
-    "headline": "三星电子高管：未来芯片需求将大幅增长。",
-    "content": "呼吁扩大核电产能。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:20",
-    "headline": "欧洲央行首席经济学家Lane：当前油价已回到战前水平。",
-    "content": "2027年、2028年的油价仍预计高于战前水平。 补库行为可能使油价保持在高位。 油价可能在未来几年内超过战前水平。 由于油价已连续四个月处于高位，加息是合理的。",
+    "content": "江波龙宣布mSSD高速存储介质产能迎来重要里程碑，公司已建设完成mSSD月产能百万级交付能力，具备稳定且规模化量产交付条件。（界面） 加载中… 加载中…",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"

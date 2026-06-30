@@ -1,5 +1,37 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "【去年全国用水总量达5944.5亿立方米】",
     "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
@@ -331,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -2155,102 +2235,6 @@
     "datetime": "2026-06-29 23:04",
     "headline": "美股费城半导体指数转涨。",
     "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 23:03",
-    "headline": "【浙商银行计划发行不超过1400亿元金融债券】",
-    "content": "浙商银行发布公告称，公司董事会审议通过议案，拟申请发行不超过1400亿元金融债券，发行额度有效期至2027年6月底，债券品种包括小微金融债、绿色金融债、普通金融债、科创债、三农债等。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 23:00",
-    "headline": "【内盘夜市多数收涨，低硫燃油涨2%】",
-    "content": "纯苯、低硫燃油夜盘至少收涨2.00%，苯乙烯涨1.72%，PTA涨1.16%，燃油涨0.68%，铁矿石涨0.61%，焦煤涨0.16%。 热卷、螺纹钢、焦炭夜盘则至多收跌0.18%，LPG跌0.51%，PVC跌0.87%，烧碱、纯碱至多跌1.00%。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:56",
-    "headline": "【微软市值蒸发5300亿美元，股价恐创2008年以来最差月度表现】",
-    "content": "微软公司股价正迈向多年来表现最差的一个月，投资者持续担忧这家软件巨头在人工智能时代的前景。微软股价6月一度下跌逾20%，这代表着2000年12月以来最大单月跌幅。但在连续两日反弹后，微软股价收复了部分失地，目前仍迈向2008年金融危机以来最差单月表现。周一，微软股价一度上涨1.8%。此次抛售已令微软市值蒸发逾5,300亿美元，并推动股价在上周四跌至2023年以来最低收盘水平，随后出现反弹。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:49",
-    "headline": "【法国将与阿曼合作在霍尔木兹海峡排雷】",
-    "content": "法国总统马克龙6月29日表示，法国和阿曼决定与合作伙伴一道，在霍尔木兹海峡开展联合排雷合作，保障海上航道安全，确保霍尔木兹海峡自由、无条件通行。马克龙表示，双方还将共同推动中东局势缓和。马克龙当天在巴黎会见到访的阿曼苏丹海赛姆，这是海赛姆首次对法国进行正式访问。（央视）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:47",
-    "headline": "【前美国贸易代表莱特希泽将担任五角大楼国防政策委员会主席】",
-    "content": "国国防部在一份声明中表示，前美国贸易代表罗伯特·莱特希泽将担任五角大楼国防政策委员会主席。五角大楼表示，Marc L. Andreessen是十三名委员会成员之一，他们的任命也得到了国防部长皮特·海格塞斯的批准。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:45",
-    "headline": "【同程旅行拟全面要约收购嘀嗒出行】",
-    "content": "同程旅行与嘀嗒出行发布联合公告显示，同程旅行将通过旗下全资子公司eLong, Inc.向嘀嗒出行发起自愿有条件全面现金要约收购。此次要约收购范围包括嘀嗒出行全部已发行股份，并同步处理尚未行使购股权及受限制性股份单位（RSU）相关权益。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:39",
-    "headline": "【以防长称美方施压迫使以军改变对黎真主党军事策略】",
-    "content": "记者获悉，以色列国防部长卡茨日前在与军事记者的闭门谈话中披露，受美国政府施压以及美方将“伊朗与黎巴嫩相互绑定”的政策影响，以军被迫改变了针对黎巴嫩真主党的军事策略。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:37",
-    "headline": "美国特使Witkoff与库什纳将于周一稍晚前往（卡塔尔）多哈。",
-    "content": "美国团队、伊朗团队将于周三分别与（多个）调停方会谈。 白宫官员说，Witkoff与国务卿卢比奥将通过电话向国会山介绍与伊朗的和平协议。（Axios，彭博）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:37",
-    "headline": "【创业板第四套上市标准企业再添一例，上海企业西井科技IPO申请获受理】",
-    "content": "人工智能公司西井科技创业板上市申请获深交所受理，公司于2015年成立于上海，是国家专精特新重点“小巨人”企业。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:33",
-    "headline": "【兆易创新：公司为无晶圆厂模式，存在上游合作的晶圆厂产能供给进一步紧张的风险】",
-    "content": "兆易创新发布关于股票交易风险提示的公告，公司目前所经营的存储产品属于利基存储产品，即主要供给的下游为除手机、PC、服务器以外的广泛且分散的市场，如消费、工业、网通、汽车等领域。当前相关产品价格的上涨，主要来自于主流存储市场围绕AI需求的显著增加，使得国际存储大厂将经营重心切换至相关产品领域，利基存储市场主要间接受益于供应紧张。与主流存储市场不同，利基存储市场的下游需求总量相对稳定，在行业价格快速上行的过程中，下游需求已经受到一定程度的抑制。后续伴随利基存储市场产能边际增加，价格将出现相当幅度的回落。公司为无晶圆厂模式，在当前利基存储市场整体供应短缺的背景下，存在上游合作的晶圆厂产能供给进一步紧张的风险。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:33",
-    "headline": "美国6月达拉斯联储商业活动指数",
-    "content": "今值: 0 ， 预期: 1 ， 前值: 0.4",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:32",
-    "headline": "【Millennium建立人工智能实验室 ，求研发应用尖端技术】",
-    "content": "Millennium Management正在筹建人工智能（AI）实验室，以扩大公司尖端技术的研发和应用。一份备忘录显示，新实验室将在未来几周内投入运营。备忘录称，该实验室将致力于加速人工智能产品的早期获取和评估，同时与人工智能公司合作开展项目并吸引顶尖人工智能人才。Millennium首席信息官Vlad Torgovnik在备忘录中表示，该设施将“提供高度具有创业精神的环境，以吸引并留住人工智能人才”。（彭博）",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"

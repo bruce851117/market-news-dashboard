@@ -1,5 +1,45 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:02",
+    "headline": "【去年全国用水总量达5944.5亿立方米】",
+    "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "伦敦金属交易所（LME）：锌库存减少700吨，锡库存增加15吨，镍库存增加6吨，铜库存减少3875吨，铝库存减少1550吨，铅库存增加375吨。",
     "content": "",
@@ -328,6 +368,54 @@
     "timezone": "Asia/Taipei"
   },
   {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 14:44",
     "headline": "山东发行7年期棚改专项地方债，规模1.1000亿元，发行利率1.6200%，边际倍数2.91倍，倍数预期1.62；",
     "content": "山东发行30年期其他专项地方债，规模45.4100亿元，发行利率2.4100%，边际倍数11.23倍，倍数预期2.40； 山东发行15年期其他专项地方债，规模14.0600亿元，发行利率2.1700%，边际倍数2.17倍，倍数预期2.15。",
@@ -547,102 +635,6 @@
     "datetime": "2026-06-30 14:00",
     "headline": "德国5月零售销售环比",
     "content": "今值: 1.1% ， 预期: 0% ， 前值: -0.3%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:00",
-    "headline": "德国5月进口价格指数环比",
-    "content": "今值: 0.7% ， 预期: 0.5% ， 前值: 1.2%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:00",
-    "headline": "英国一季度商业投资总额季环比终值",
-    "content": "今值: 0.94% ， 预期: 0.7% ， 前值: 0.7%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:00",
-    "headline": "英国一季度GDP季环比终值",
-    "content": "今值: 0.6% ， 预期: 0.6% ， 前值: 0.6%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:00",
-    "headline": "英国一季度商业投资总额同比终值",
-    "content": "今值: -1.31% ， 预期: -1.8% ， 前值: -1.8%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:00",
-    "headline": "英国一季度GDP同比终值",
-    "content": "今值: 0.9% ， 预期: 1.1% ， 前值: 1.1%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:00",
-    "headline": "英国一季度私人家庭消费支出季环比终值",
-    "content": "今值: 0.6% ， 预期: 0.6% ， 前值: 0.6%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:00",
-    "headline": "英国一季度经常帐(亿英镑)",
-    "content": "今值: -221 ， 预期: -213 ， 前值: -184",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 13:54",
-    "headline": "【印度东部一炼化厂起火 多人受伤】",
-    "content": "当地时间30日凌晨，印度东部西孟加拉邦霍尔迪亚区一家炼化厂发生火灾，造成至少十余人受伤。据当地警方通报，其中几名伤者情况危重，已被送往医院接受治疗。据悉，火灾发生在当地时间凌晨4时至5时之间，炼化厂一条输送石脑油的管道起火。炼化厂运营方霍尔迪亚石油化工有限公司表示，事故可能关联偷窃石脑油活动，具体原因仍在调查中。 (央视新闻)",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 13:50",
-    "headline": "【随着财政担忧加剧 日本超长期国债收益率攀升】",
-    "content": "日本30年期国债收益率上行10个基点至3.93%；20年期国债收益率上行10个基点至3.65%。此前日本首相高市早苗政府公布了一份路线图，计划到2040财年，在人工智能和半导体等战略领域实现超过370万亿日元（2.3万亿美元）的公共和私人投资，这加剧了市场对日本巨额债务与GDP比率问题的担忧。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 13:37",
-    "headline": "A股铜高速连接概念震荡走强，神宇股份20cm涨停，华丰科技、胜蓝股份涨超10%，双双创历史新高，长盈精密、金信诺、航天电器等涨幅靠前。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 13:35",
-    "headline": "中国台湾证交所加权股价指数收高2.5%报46,125.91点。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 13:34",
-    "headline": "科创50指数涨幅扩大至4%，格科微、翱捷科技20CM涨停，中科飞测涨超10%。",
-    "content": "",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"

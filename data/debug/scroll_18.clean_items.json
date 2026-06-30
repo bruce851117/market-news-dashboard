@@ -1,5 +1,37 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "【去年全国用水总量达5944.5亿立方米】",
     "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
@@ -331,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -2634,262 +2714,6 @@
   {
     "datetime": "2026-06-29 20:40",
     "headline": "南亚新材：拟投资建设年产1400万平方米高端覆铜板研发及产业化项目，项目总投资额约为人民币7.9亿元。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:37",
-    "headline": "【白宫：美国总统特使等本周将赴多哈参加美伊会谈】",
-    "content": "据美国福克斯新闻29日报道，美国白宫新闻秘书莱维特表示，美国总统特使威特科夫和美国总统特朗普的女婿库什纳“本周将飞往（卡塔尔）多哈”，参加美国和伊朗的高级别会谈。（新华社） 相关文章： 美伊谈判前途未卜：特朗普称周二将在多哈谈，伊朗否认计划会谈，以防长称以伊明天就可能重开战火",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:33",
-    "headline": "【国家医保局局长章轲赴新疆调研医疗保障工作】",
-    "content": "2026年6月25日至26日，国家医疗保障局党组书记、局长章轲赴新疆维吾尔自治区调研医疗保障工作。章轲强调，要坚持人民至上，坚定不移推进医保赋能医药产业高质量发展。要秉承价值购买理念，真金白银支持真正具有临床价值的创新成果。要健全药品价格形成机制，支持中国医药拓展国际市场。要丰富创新药械应用场景，推动医保从“事后买单”向“产业赋能”转型。（国家医保局微信公号）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:32",
-    "headline": "【ST易购：收到南京中院民事判决书，万达集团支付17.47亿元及损失】",
-    "content": "近日就公司及子公司苏宁国际在南京中院发起的要求万达集团继续按照相关合同约定履行付款义务的诉讼，收到南京中院民事判决书。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:31",
-    "headline": "荣盛发展：2026年截至目前，公司经营债务化解完成7.06亿元。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:24",
-    "headline": "海川智能：拟通过股权受让形式以人民币1.3亿元购买南京集溢半导体科技有限公司15.30%的股权。标的公司主要产品为砷化镓（GaAs）晶片、原材料4N金属镓（N代表纯度），该两类产品2025年收入占比分别约为84.77%、15.02%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:24",
-    "headline": "【农行河北省分行原党委委员、副行长许树宝被查】",
-    "content": "据中央纪委国家监委驻中国农业银行纪检监察组、河北省纪委监委消息：中国农业银行河北省分行原党委委员、副行长许树宝涉嫌严重违纪违法，目前正接受中央纪委国家监委驻中国农业银行纪检监察组纪律审查和河北省监委监察调查。（中央纪委国家监委网站）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:22",
-    "headline": "【暑期旅游市场全面启动：亲子客群占比超六成】",
-    "content": "临近7月，多家在线旅游平台发布的报告显示，2026年暑期旅游市场已全面启动。途牛的报告显示，亲子客群构成了暑期出游的主力军，在途牛暑期出游用户中的出游人次占比超过60%。从境内亲子游热门目的地来看，上海、北京、三亚、桂林、呼伦贝尔、珠海、成都、南京、广州、贵阳等预订热度领先。（澎湃）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:20",
-    "headline": "白宫经济顾问哈塞特：多项指标表明就业报告将再次表现强劲。",
-    "content": "当前加息的理由并不充分。 相关文章： 非农提前剧透？哈塞特：就业报告将再次强劲，当前加息的理由并不充分",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:19",
-    "headline": "【央行首次开展隔夜逆回购操作：规模3000亿元，为何未公布利率？东方金诚首席宏观分析师王青：可能有两个原因】",
-    "content": "2026年6月29日，央行发布公开市场业务交易公告称，当日以固定利率、数量招标方式开展了1575亿元7天期逆回购操作，全额满足了一级交易商需求。同时，开展了3000亿元隔夜逆回购操作。 在6月25日预告隔夜将实施隔夜逆回购时，市场对操作利率格外关注。从今日公开市场操作公告看，央行并未公布隔夜逆回购操作利率。 东方金诚首席宏观分析师王青表示，未公布隔夜逆回购操作利率可能有两个原因：一是当前主要强调其数量调控意义，而非价格调控作用。二是当前隔夜逆回购主要是对7天期逆回购的补充，操作模式有待逐步成熟。他判断，未来隔夜逆回购有望常态化操作，并成为主要政策利率，利率水平会适时公布。（澎湃） 相关文章： 央行公告：首次3000亿元落地！",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:18",
-    "headline": "波罗的海干散货指数下跌1.35%，报2490点。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:17",
-    "headline": "【“杭州六小龙”云深处更名】",
-    "content": "记者获悉，“杭州六小龙”之一的杭州云深处科技股份有限公司正式更名为“云深处科技股份有限公司”。云深处方面表示，此次更名是为了公司战略发展和全球化市场布局。 据上交所官网显示，云深处拟在上交所科创板上市，发行股数不低于8298万股，不低于发行后总股本的18％，募资额25.03亿元，目前处于已问询状态。（澎湃）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:16",
-    "headline": "【海信空调法国销量同比增长超100％，移动空调多国脱销】",
-    "content": "6月下旬以来，欧洲多地最高气温刷新历史纪录，多国政府发布高温预警。大范围高温拉动制冷家电刚需爆发，中国品牌海信空调销售数据显示，今年前6个月，海信空调西欧市场销售额同比增长超20%，法国市场增幅超100%，移动空调更是“一机难求”。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:10",
-    "headline": "【上海市多部门联合召开网约车平台合规治理集中约谈会】",
-    "content": "6月29日下午，上海市网约车协同监管工作专班牵头，统筹交通、公安、市场监管、人社、数据、通信管理多部门，召开全市网约车平台企业合规治理集中约谈会。全市24家网约车平台及聚合平台企业主要负责人到场参会。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:09",
-    "headline": "白宫新闻秘书莱维特：美国总统特使威特科夫和特朗普女婿库什纳将出席伊朗会议。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:03",
-    "headline": "【实施价格监督员制度暂行规定 市场监管总局公开征求意见】",
-    "content": "记者今天（29日）从市场监管总局了解到，为完善价格社会监督体系，探索在重要商品现货交易场所、行业协会建立价格监督员制度，规范经营主体价格竞争行为，近日，市场监管总局起草形成《实施价格监督员制度暂行规定（征求意见稿）》，自6月29日至7月28日向社会公开征求意见。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:03",
-    "headline": "【Strategy宣布授权10亿美元优先股回购计划】",
-    "content": "Strategy美股盘前涨超4%，公司宣布已设立一项回购计划，拟以不超过10亿美元的总金额回购其未偿付的数字信用证券，包括STRC、STRF、STRD和STRK优先股。公司还单独授权了10亿美元的A类普通股回购计划。公司表示不会使用其25.5亿美元的美元储备基金来进行回购。Strategy可能会通过新的比特币变现计划（BTC Monetization Program）出售比特币，为回购提供资金。董事会已授权出售最多12.5亿美元的比特币，以补充美元储备。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 20:00",
-    "headline": "【宁德时代枧下窝矿已获批安全生产许可证】",
-    "content": "宁德时代枧下窝矿复产进度如何？6月29日晚间，有接近宁德时代的行业知情人士告诉记者：“所有与生产相关的证件已经全部拿到手，最关键的安全生产许可证于今日拿到手。” 6月24日、25日，记者曾实地走访枧下窝矿。据悉，部分在矿上工作的当地居民，已经陆续接受培训准备复工。6月28日，有相关投资者拍到，有大型板车运输电动矿卡停在枧下窝矿入口处。(每日经济新闻)",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:58",
-    "headline": "以色列外交部长：我们的目标是与黎巴嫩实现和平。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:53",
-    "headline": "【国家超算互联网推出万卡共创者激励计划】",
-    "content": "国家超算互联网近日正式启动SCNet万卡共创者激励计划，将基于scaleX万卡超集群，面向全球AI开发者、初创团队、科研机构提供最高亿级词元（Tokens）额度与千卡时国产算力资源，用普惠算力促进全球AI多元化发展。该计划将持续至2026年12月31日，围绕AI、AI4S两大核心主题，开展国产算力最佳实践、开发者竞赛、AI应用孵化等共创项目，覆盖民生应用、工业仿真、生物医药等多元场景。入选该计划的主体除可零成本使用1500余款开源模型外，还将享受技术赋能、品牌曝光、现金分成等权益。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:52",
-    "headline": "【报道：比亚迪自研智驾芯片预计2027年首搭量产车型】",
-    "content": "比亚迪正计划明年在腾势品牌的量产新车上首搭自研智驾芯片璇玑A3。截至发稿，比亚迪没有回复询问。 另外，我们也了解到，曾任OPPO芯片子公司哲库总监、主要参与SoC芯片IP设计的周延，已经于4月离开比亚迪，加入了一家芯片创业公司。（晚点 Auto）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:50",
-    "headline": "【风华高科：公司为“国内唯一通过英伟达全系列MLCC认证的企业”的信息不属实】风华高科股票交易严重异常波动的公告，公司关注到近期有媒体提及公司“针对代理商0402、0603芯片电阻、MLCC全线暂停接单”，经核查，以上信息不属实，为做好部分数字系统升级及产品结构调整，公司执行部分产品暂缓接单，随后已恢复接单。公司关注到近期有媒体提及公司为“国内唯一通过英伟达全系列MLCC认证的企业”，经核查，以上信息不属实，截至公告日，英伟达未对公司开展任何产品认证。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:49",
-    "headline": "【财政部内部控制委员会召开会议研究部署财政内控工作】",
-    "content": "2026年6月22日，财政部内部控制委员会召开会议，听取2025年以来财政内控工作情况汇报，通报2025年开展审计查出问题内控审核及部机关内控考评情况，对下一阶段财政内控工作作出部署。3家部机关内控考评先进单位作经验交流。财政部党组书记、部长、内控委主任蓝佛安同志出席并讲话。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:48",
-    "headline": "【蓝佛安会见巴西财政部部长杜里甘】",
-    "content": "2026年6月26日，财政部部长蓝佛安在京会见巴西财政部部长杜里甘。双方主要就当前宏观经济形势、中巴在多双边财金合作机制下的交流与合作等中巴财金合作重点问题交换意见。财政部部长助理常军红、中国进出口银行副行长陈斌、中国银行副行长刘承钢，巴西驻华大使高望，巴西财政部副部长阿伦卡斯特罗、莱亚尔和雷斯等参加会见。 （财政部网站）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:42",
-    "headline": "西班牙：向欧洲芯片设计公司OpenChip投资1.15亿欧元。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:38",
-    "headline": "【特朗普坚称美伊会谈“将于明日在多哈举行”】",
-    "content": "美国总统特朗普29日在社交媒体发文称，伊朗已提出会谈请求，“会谈将于明日在（卡塔尔）多哈举行”。（新华社） 相关文章： 美伊谈判前途未卜：特朗普称周二将在多哈谈，伊朗否认计划会谈，以防长称以伊明天就可能重开战火",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:37",
-    "headline": "英镑兑美元延续涨势，上涨0.3%至1.3234，创日内新高。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:36",
-    "headline": "【伊朗军方仅允许船只经拉腊克岛以南航道通过霍尔木兹海峡】当地时间29日下午，伊朗军方通告称，所有通过霍尔木兹海峡的船只仅被允许从拉腊克岛以南航道通行。 此前，伊朗方面曾在28日发布消息称，船只通过霍尔木兹海峡仍需与革命卫队协调，进入波斯湾的船只最安全的航线位于霍尔木兹岛以南，而驶离波斯湾的船只则应选择拉腊克岛以南航道通行。（央视）",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:32",
-    "headline": "美国总统特朗普：伊朗已请求召开会议。会议将于明天在多哈举行。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:31",
-    "headline": "【首次！全球最火存储ETF，纳入中国芯片龙头兆易创新】",
-    "content": "近日，全球首只内存领域主动管理型ETF——Roundhill Memory ETF（DRAM）进行调仓，首次将A股存储龙头兆易创新纳入投资组合，为第八大重仓股。业内人士认为，这一配置变化，折射出在全球存储产业格局中，中国半导体企业的市场地位正受到海外资金进一步关注。（上证报）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:29",
-    "headline": "迈信林：公司与A公司签署《设备采购合同》，约定公司向A公司采购算力服务器相关设备，合同总金额约为8.90亿元。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:28",
-    "headline": "*ST艾艾：公司股票将于2026年6月30日停牌一天，自2026年7月1日起复牌交易，公司股票将撤销退市风险警示，公司证券简称由“*ST艾艾”变更为“艾艾精工”。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 19:23",
-    "headline": "港交所文件显示，本末动力（北京）科技股份有限公司通过港交所上市聆讯。",
     "content": "",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",

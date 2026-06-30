@@ -1,5 +1,45 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:02",
+    "headline": "【去年全国用水总量达5944.5亿立方米】",
+    "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "伦敦金属交易所（LME）：锌库存减少700吨，锡库存增加15吨，镍库存增加6吨，铜库存减少3875吨，铝库存减少1550吨，铅库存增加375吨。",
     "content": "",
@@ -323,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -1347,102 +1435,6 @@
     "datetime": "2026-06-30 08:01",
     "headline": "韩国首尔综指盘初涨幅扩大至1.1%。",
     "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 08:01",
-    "headline": "日经225指数高开1%，韩国首尔综指高开0.3%。",
-    "content": "相关文章： AI热情驱动，亚太股市收高，日元跌破162创40年新低，黄金铝价双双重挫",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 08:00",
-    "headline": "【齐云山食品香港IPO拟筹资不超过2亿港元】",
-    "content": "根据呈交香港交易所的公告，齐云山食品在香港发售2500万股股票，发行价区间为每股5港元至8港元。预计7月9日上市交易。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 08:00",
-    "headline": "中国即将发行或正在发行的地方政府债",
-    "content": "证券简称 发债主体 发行规模(亿元) 期限(年) 招标日期 债券类别 发行起始日期 发行截止日期 26山西债36N 地方政府 110.4000 10.0 2026-06-30 记账式 2026-06-30 -- 26山西债35N 地方政府 72.2500 15.0 2026-06-30 记账式 2026-06-30 -- 26山西债34N 地方政府 96.2500 15.0 2026-06-30 记账式 2026-06-30 -- 26山西债33N 地方政府 44.6000 15.0 2026-06-30 记账式 2026-06-30 -- 26山西债32N 地方政府 13.9000 30.0 2026-06-30 记账式 2026-06-30 -- 数据来源：qeubee终端",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 08:00",
-    "headline": "中国即将发行或正在发行的国债和政策性金融债",
-    "content": "证券简称 发行规模(亿元) 期限(年) 招标日期 债券类别 发行起始日期 发行截止日期 上市日期 25农发清发07(增发44) 30.0000 7.0 2026-06-30 记账式 2026-06-30 -- 2026-07-01 26农发清发02(增发2) 40.0000 2.0 2026-06-30 记账式 2026-06-30 -- 2026-07-01 数据来源：qeubee终端",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 07:59",
-    "headline": "【三环集团寻求通过香港上市募资至多71.6亿港元】",
-    "content": "根据呈交香港交易所的文件，潮州三环（集团）股份有限公司香港上市拟发行7100万股股份，每股发行价至多为100.30港元。预计将于7月9日挂牌上市。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 07:53",
-    "headline": "日本经济产业省预计6月份工业产出环比增长3.7%，7月份维持不变。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 07:52",
-    "headline": "【中金：SiC/GaN等核心第三代化合物半导体器件有望持续受益于数据中心电力相关系统升级】",
-    "content": "中金指出，在AI算力走向高密度、连续满载、强瞬态冲击之后，高压架构是数据中心供电系统发展的确定方向。在硬件技术进步推动下，2026年数据中心高压架构迎来落地元年。中金认为，SiC/GaN等核心第三代化合物半导体器件有望持续受益于数据中心电力相关系统升级，SiC有望统领机房侧（灰区）应用，而GaN有望在机柜内（白区）大规模渗透，从灰、白区分界线形成“SiC左，GaN向右”的市场格局，共同受益于数据中心电源方案迭代。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 07:50",
-    "headline": "日本5月工业产出同比初值",
-    "content": "今值: -1.7% ， 预期: 1.3% ， 前值: 2%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 07:50",
-    "headline": "日本5月工业产出环比初值",
-    "content": "今值: 0.5% ， 预期: 0.7% ， 前值: 0.5%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 07:30",
-    "headline": "日本5月失业率",
-    "content": "今值: 2.5% ， 预期: 2.5% ， 前值: 2.5%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 07:30",
-    "headline": "日本5月求才求职比",
-    "content": "今值: 1.17 ， 预期: 1.18 ， 前值: 1.18",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 07:27",
-    "headline": "【定增定价基准日调整，单一大股东全额认购现象“降温”】",
-    "content": "自6月初多家上市公司集体修订定增定价基准日后，政策预期迅速传导至一级市场。统计发现，截至6月29日，剔除并购定增后，6月仅新增2单面向大股东或其关联方发行募资的定增项目，且均为“竞价发行”。相较来看，1—4月平均每月新增约7单大股东定增项目，且均为“锁价发行”。单一大股东全额认购现象“降温”后，上市公司有意引入其他机构投资者的案例有所增加。6月以来，新增4单定增预案，发行对象共性特征为“包括大股东在内的不超过35名机构投资者”。",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"

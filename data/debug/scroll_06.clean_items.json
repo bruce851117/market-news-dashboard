@@ -1,5 +1,45 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:02",
+    "headline": "【去年全国用水总量达5944.5亿立方米】",
+    "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "伦敦金属交易所（LME）：锌库存减少700吨，锡库存增加15吨，镍库存增加6吨，铜库存减少3875吨，铝库存减少1550吨，铅库存增加375吨。",
     "content": "",
@@ -323,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -866,102 +954,6 @@
   {
     "datetime": "2026-06-30 11:29",
     "headline": "菲律宾股指日内跌幅扩大至1%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 11:23",
-    "headline": "【我国首个550兆瓦F级燃机项目全容量投产发电】",
-    "content": "6月30日凌晨，我国首个550兆瓦F级燃机项目——华电重庆潼南燃机项目实现全容量投产发电，为成渝地区双城经济圈迎峰度夏电力保供、绿色低碳转型注入清洁能源动能。据介绍，华电重庆潼南燃机项目规划建设两台550.12兆瓦分轴燃气—蒸汽联合循环调峰发电机组，总装机容量达1100兆瓦，年发电量可达21亿千瓦时，能满足约175万个家庭一年的用电需求，每年可节约标准煤20万吨，减少二氧化碳排放86万吨。（新华社）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 11:23",
-    "headline": "【美团开源万亿参数大模型LongCat-2.0，训练全程由国产芯片完成】",
-    "content": "美团正式发布新一代万亿参数大模型LongCat-2.0，并将对外开源。作为业界首个在五万卡国产算力集群上完成全流程训练与推理的万亿参数模型（总参数1.6T，平均激活约48B，动态范围33B~56B），LongCat-2.0从零开始预训练，原生支持1M超长上下文。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 11:22",
-    "headline": "创业板指、北证50、科创50均涨逾3%，沪指涨0.19%，深成指涨2.43%，玻璃基板、半导体芯片、算力硬件等方向涨幅居前，沪深京三市上涨个股近2700只。",
-    "content": "相关文章： A股上半年收官！创业板涨超35%，科创50暴涨64%，算力硬件、芯片半导体全线飙涨",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 11:22",
-    "headline": "【交通银行：将关闭上海黄金交易所贵金属代理个人业务功能】",
-    "content": "交通银行公告，根据贵金属风险管理和业务需要，该行将关闭上海黄金交易所贵金属代理个人业务功能。现将相关工作安排公告如下:自2026年7月24日(星期五)日终清算时起，该行将关闭上海黄金交易所贵金属代理个人业务功能，涉及的合约品种包括：Au99.99、Au100g、Au99.95、PGC30g、Au(T+D)、mAu(T+D)、Ag(T+D)等。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 11:18",
-    "headline": "重庆发行20年期其他专项地方债，规模27.7900亿元，发行利率2.3500%，边际倍数93.68倍，倍数预期2.33；",
-    "content": "重庆发行30年期其他专项地方债，规模38.6600亿元，发行利率2.4000%，边际倍数1.29倍，倍数预期2.40； 重庆发行5年期土储专项地方债，规模26.6300亿元，发行利率1.4900%，边际倍数3.94倍，倍数预期1.49； 重庆发行10年期棚改专项地方债，规模3.9000亿元，发行利率1.7900%，边际倍数1.92倍，倍数预期1.79。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 11:14",
-    "headline": "重庆发行15年期其他专项地方债，规模31.7600亿元，发行利率2.1800%，边际倍数3.09倍，倍数预期2.15。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 11:01",
-    "headline": "隔夜SHIBOR报1.3600%，上涨0.40个基点。",
-    "content": "7天SHIBOR报1.4580%，上涨0.80个基点。 3个月SHIBOR报1.4380%，上涨0.10个基点。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 11:00",
-    "headline": "寒武纪日内涨超7%再创历史新高，市值突破1万亿元。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:43",
-    "headline": "创业板指涨超2%，沪指跌0.24%，深成指涨1.68%，玻璃基板、CPO、消费电子、商业航天等方向领涨，沪深京三市上涨个股超2500只。",
-    "content": "相关文章： A股上半年收官！创业板涨超35%，科创50暴涨64%，算力硬件、芯片半导体全线飙涨",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:36",
-    "headline": "印尼基准股指日内跌幅扩大至3%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:36",
-    "headline": "PCB概念股震荡走强，方正科技封涨停，明阳电路、胜宏科技、大族激光、生益电子、沪电股份均涨超7%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:32",
-    "headline": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报155950元/吨，较上日16:30价格上涨6150元/吨。",
     "content": "",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",

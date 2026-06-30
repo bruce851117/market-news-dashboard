@@ -1,5 +1,37 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "【去年全国用水总量达5944.5亿立方米】",
     "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
@@ -331,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -2315,262 +2395,6 @@
     "datetime": "2026-06-29 22:24",
     "headline": "法国总统马克龙：我们与阿曼决定，就霍尔木兹海峡问题与伙伴们协同。",
     "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:19",
-    "headline": "【美国最高法院裁定，美联储理事库克可以留任】",
-    "content": "美国最高法院加强了美联储独立于白宫的地位，保护美联储理事免遭总统在没有确凿不当行为证据的情况下被解职。法院裁定，美联储理事莉萨·库克（Lisa Cook）可以在其就未经证实的抵押贷款欺诈指控进行抗辩、反击特朗普解职企图的期间，继续留任。法院表示，“货币政策不应受到政治干预”。 法院并未明确表示，如果指控属实，是否足以成为在库克14年任期期间将其解职的正当理由。 相关文章： 美最高法院裁定库克暂时留任，特朗普称将确保其不影响重大货币政策决定",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:14",
-    "headline": "纳斯达克100指数转跌，此前一度涨1.5%。",
-    "content": "费城半导体指数跌超2.7%。 标普500指数几乎完全回吐日内稍早涨幅，道指涨幅收窄至0.3%。 亚马逊涨幅扩大至5%，刷新日高；美股超大规模云服务商指数涨幅重新扩大至超过2.6%，暂报90.53点，美股盘初曾达到90.95点。 现货黄金跌超2%，报4000.49美元/盎司。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:12",
-    "headline": "【蓝箭航天：公司预计最早于2029年实现合并报表盈利】",
-    "content": "蓝箭航天更新的招股说明书显示，公司管理层基于市场空间、商业化进程、产品研发进展等因素，预计公司最早可于2029年实现合并报表盈利。公司前瞻性分析系基于未来商业航天火箭发射需求市场空间、公司研发进展取得关键性突破、经营规划及预算等因素做出的初步估算，不构成公司的盈利预测或业绩承诺。（一财）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:09",
-    "headline": "标普500平权指数转跌。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:09",
-    "headline": "现货铂金跌3%，报1565.75美元。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:07",
-    "headline": "美国加州州长纽森宣布该州与Anthropic建立合作伙伴关系。",
-    "content": "加州州政府机构可享受CLAUDE五折优惠。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:05",
-    "headline": "【阿曼伊朗联合工作组就霍尔木兹海峡问题举行首次会议】",
-    "content": "当地时间29日，阿曼与伊朗联合工作组围绕霍尔木兹海峡问题在马斯喀特举行首次会议，双方就海峡未来管理及相关议题交换意见。 据阿曼外交部发布的声明，双方探讨了如何在符合两国共同利益和主权的前提下，加强在霍尔木兹海峡问题上的协调，重申双方将遵守国际法。 双方还就航运和海事服务合作框架进行了磋商。声明指出，作为霍尔木兹海峡沿岸国，阿曼和伊朗将在现有双边和国际谅解基础上，继续推进相关合作。（央视）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:04",
-    "headline": "据美国纽约联储数据，上个交易日（6月26日）担保隔夜融资利率（SOFR）报3.62%，之前一天报3.64%。",
-    "content": "上个交易日有效的联邦基金利率报3.63%，之前一天报3.63%。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:03",
-    "headline": "纳斯达克100指数涨幅从1.5%收窄至0.6%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:03",
-    "headline": "【报告显示：美国许可审批停滞威胁1210亿美元风能和太阳能投资】",
-    "content": "周一发布的一份报告显示，美国总统特朗普的政府导致可再生能源项目许可审批停滞的政策，正使超过1210亿美元的投资面临风险，并减缓了为满足日益增长的电力需求所必需的风能、太阳能和储能容量的开发。报告称，其评估了价值1210亿美元的早期阶段项目，这些项目因审批延误而面临投资风险。 能源研究公司伍德麦肯兹（Wood Mackenzie）的研究结果凸显了朗普在“加速能源基础设施建设以支持人工智能热潮”与“反对可再生能源”这两项目标之间的紧张关系。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 22:00",
-    "headline": "【日元兑美元跌至1986年以来最低水平】",
-    "content": "日元兑美元日内跌0.1%，报161.96，创1986年以来最低水平。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:59",
-    "headline": "【达飞海运与阿萨亚德集团计划在阿曼苏哈尔港建设4亿美元码头】",
-    "content": "法国达飞海运集团（CMA CGM）与阿曼阿萨亚德集团（Asyad Group）已达成合作伙伴关系，计划在苏哈尔港（Sohar）开发一座价值4亿美元的物流码头。在伊朗战争期间，该港口已成为海湾贸易的替代路线。 这两家航运和物流公司在一份声明中表示，该框架协议是在阿曼苏丹海赛姆·本·塔里克访问法国期间签署的，要求达飞海运和阿萨亚德集团“在苏哈尔港开发、管理和运营一个多用途物流码头”。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:57",
-    "headline": "LME期铝跌至3104美元/吨，创2月25日以来盘中新低，当前跌幅2%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:56",
-    "headline": "美国国务卿鲁比奥和美国总统特使威特科夫今天将向众议院和参议院汇报伊朗局势。（PunchBowl）",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:55",
-    "headline": "标普500指数一度涨1%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:51",
-    "headline": "【欧洲极端高温逼停发电厂，多国电价飙升创多年新高】",
-    "content": "创纪录的热浪侵袭及其连锁反应，令欧洲电力系统不堪重负。极端高温导致所有类型发电机组的运行效率打折，而制冷需求同步激增，多国电价创下近年来的新高，晚高峰时段电价更是刷新历史极值。（澎湃）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:50",
-    "headline": "【世界能源理事会秘书长：比转型速度更严峻的挑战，是地缘政治的碎片化】",
-    "content": "“能源领域的领导者如今面临的挑战已不仅是能源转型速度本身，更在于一个日益碎片化的新环境。”世界能源理事会秘书长兼首席执行官安吉拉·威尔金森（Angela Wilkinson）近日接受采访时表示，当前全球能源体系面临被割裂的风险。技术本身已不再是主要瓶颈，真正的挑战在于电网、储能和系统集成等基础设施，以及信任、专业技能和制度建设。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:46",
-    "headline": "纳斯达克中国金龙指数涨超2%。百度涨超5%，哔哩哔哩涨超3%，爱奇艺、贝壳涨近3%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:39",
-    "headline": "【沪市公募REITs总市值突破1600亿元，累计分红约240亿元】",
-    "content": "自2021年6月21日以来，沪市公募REITs已平稳运行五年有余。截至2026年6月，沪市公募REITs已上市59单，总市值突破1600亿元，累计分红金额约240亿元，稳居亚洲前列。（澎湃）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:38",
-    "headline": "美光科技股价跌幅扩大至3.5%，闪迪跌超5%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:38",
-    "headline": "【龚正市长调研促消费工作，更大力度激发消费活力】",
-    "content": "上海市委副书记、市长龚正今天（6月29日）调研促消费工作时指出，要深入着力扩大内需，深入实施提振消费专项行动，更大力度激发消费活力，持续放大文商旅体展融合效应，加快建设国际消费中心城市，进一步发挥消费对经济增长的主引擎作用。（澎湃）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:36",
-    "headline": "美股太空股ETF涨幅一度高达4.6%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:34",
-    "headline": "北美科技软件股指数ETF美股盘初涨约2.1%，进入连续第二个交易日反弹，报90.02美元，",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:31",
-    "headline": "美股三大指数集体高开，纳指涨0.8%，标普500指数涨0.5%，道指涨0.23%。科技股涨跌不一，英伟达涨0.66%，部分存储概念股走低，美光科技跌超2%，闪迪跌超1%。Strategy涨近5%，此前公司宣布授权10亿美元优先股回购计划。康卡斯特上涨12%，公司计划分拆NBC环球。",
-    "content": "相关文章： 科技股力撑美股反弹，标普纳指终结五连跌，谷歌涨5%，油价反弹，日元跌至40年低位",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:30",
-    "headline": "标普500指数高开37.86点，涨幅0.51%，报7391.88点；",
-    "content": "道琼斯工业平均指数高开119.03点，涨幅0.23%，报51995.14点； 纳斯达克综合指数高开204.47点，涨幅0.81%，报25502.09点。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:26",
-    "headline": "【宣布将NBC环球和Sky业务从有线电视业务中剥离后，康卡斯特股价盘前飙升20%】",
-    "content": "（Comcast）康卡斯特计划将其NBC环球（NBCUniversal）和Sky业务剥离为一家新的上市公司，就在其完成Versant品牌剥离的几个月后。康卡斯特联席CEO Mike Cavanagh将出任NBC环球CEO，而康卡斯特前CFO Michael Angelakis将出任康卡斯特CEO。在过去12个月里，受媒体行业从传统电视捆绑包向流媒体转型带来的巨大挑战影响，该公司股价大幅下跌。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:19",
-    "headline": "【印尼塞梅鲁火山喷发 火山灰柱高约1200米】",
-    "content": "据印尼火山地质减灾中心（PVMBG）消息，当地时间6月29日16时39分，位于印尼东爪哇省的塞梅鲁火山发生喷发。火山灰柱高约1200米，持续时间为129秒。（央视）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:16",
-    "headline": "【以色列称打死哈马斯拉法旅一负责人】",
-    "content": "以色列国防军和以色列国家安全总局（辛贝特）29日发表联合声明称，以色列国防军和辛贝特日前打死了巴勒斯坦伊斯兰抵抗运动（哈马斯）拉法旅军事防御方面的负责人伊斯梅尔·马斯里。（新华社）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:12",
-    "headline": "【伊媒：近期更多船只经伊方指定航线通过霍尔木兹海峡】",
-    "content": "据伊朗伊斯兰共和国广播电视台29日报道，近期越来越多船只选择经由霍尔木兹海峡北部拉腊克岛以南航线通行。 报道称，伊朗伊斯兰革命卫队海军已发出警告，称除伊方指定航线以外的其他航线存在安全风险。 报道未提及通行船只数量及具体情况。（新华社）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:08",
-    "headline": "【苏宁易购起诉万达集团一审胜诉，万达需支付17.47亿元及延期付款损失】",
-    "content": "6月29日，苏宁易购集团股份有限公司发布公告称，其与子公司苏宁国际诉大连万达集团股份有限公司合同纠纷案获南京市中级人民法院一审判决。法院判令万达集团支付剩余资金及延期付款损失。判决结果显示，万达集团应于判决生效之日起十日内向苏宁易购支付剩余资金17.47亿元，并支付自2024年2月26日起至2026年2月13日止的延期付款损失（按一年期LPR的1.5倍计算）。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:05",
-    "headline": "Meta Platforms因担心模型蒸馏风险，而限制工程师对Claude和Codex的使用。（The Information）",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-29 21:02",
-    "headline": "【万达广场批量易主 多位投资人正式入局】",
-    "content": "近期，一家名为上海安垭企业管理合伙企业（有限合伙）的公司，股权发生变更。苏州安益股权投资基金合伙企业（有限合伙）认缴出资21.98亿元，持有前者99.9995%权益，成为绝对控制方。",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"

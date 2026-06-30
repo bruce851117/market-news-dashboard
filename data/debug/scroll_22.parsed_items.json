@@ -1,5 +1,37 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "【去年全国用水总量达5944.5亿立方米】",
     "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
@@ -331,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -3210,7 +3290,71 @@
   {
     "datetime": "2026-06-29 18:01",
     "headline": "【日本防卫省正考虑引进美企人工智能系统】",
-    "content": "据日本方面近日消息，日本防卫省已确定在“指挥控制”方面引入人工智能系统的方针，目前正就引进美国企业的军用人工智能系统进行探讨。消息称，据政府相关人士透露，日本政府目前正重点考虑引进的是美国帕兰蒂尔技术公司的“梅文智能系统”。不过，日本政府及执政党内部一直有呼声要求采用日本国产人工智能系统。因此，相关方面也在考虑将二者结合使用，或是未来最终替换为日本国产人工智能系统的方案。（央视新闻） 加载中… 加载中…",
+    "content": "据日本方面近日消息，日本防卫省已确定在“指挥控制”方面引入人工智能系统的方针，目前正就引进美国企业的军用人工智能系统进行探讨。消息称，据政府相关人士透露，日本政府目前正重点考虑引进的是美国帕兰蒂尔技术公司的“梅文智能系统”。不过，日本政府及执政党内部一直有呼声要求采用日本国产人工智能系统。因此，相关方面也在考虑将二者结合使用，或是未来最终替换为日本国产人工智能系统的方案。（央视新闻）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-29 17:59",
+    "headline": "据伊朗塔斯尼姆通讯社，伊朗表示本周没有与美国进行技术性会谈的计划。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-29 17:56",
+    "headline": "【中国移动确认设立Token办公室】",
+    "content": "有消息称，中国移动继设立数智事业部、算力办之后，又设立了Token办公室，旨在打通“创造Token、输送Token、应用Token”的全流程，打破多个二级部门“各管一摊”的局面。记者从中国移动方面独家获悉，中国移动确实成立了Token办公室，但其余网传内容，如“Token 办公室级别更高，由集团核心领导直接挂帅”等则未获确认。 (每日经济新闻)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-29 17:50",
+    "headline": "【蓝箭航天科创板IPO进展：公司已更新提交相关财务资料，IPO审核状态仍为“已问询”】",
+    "content": "6月29日，上交所官网显示，蓝箭航天空间科技股份有限公司已更新提交相关财务资料。去年12月31日，蓝箭航天科创板IPO显示已受理，今年1月22日已问询。3月31日，上交所官网显示，蓝箭航天科创板IPO中止。蓝箭航天此前回应称，上交所网站显示的“中止”，系因公司申报材料中引用的财务资料已过有效期，需要补充提交更新后的相关财务资料及申报文件，属于程序性审核状态调整。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-29 17:39",
+    "headline": "【报道：联想锁定美光、三星、SK海力士长协，内部人称“谁有供应谁有优势”】",
+    "content": "据上证报，联想集团不仅是美光科技的长期协议客户，亦与三星、SK海力士签有存储产品的长期供货协议。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-29 17:29",
+    "headline": "【7天4板威派格：公司业务聚集于城乡供水领域，目前未涉足液冷领域】",
+    "content": "威派格发布异动公告，公司股票于2026年6月24日、6月25日、6月26日连续三个交易日内日收盘价格涨幅偏离值累计超过20%，根据《上海证券交易所交易规则》的有关规定，属于股票交易异常波动。公司业务聚集于城乡供水领域，目前未涉足液冷领域，公司无液冷产品相关项目和订单，亦无相关收入。近年来，AI软件开发技术在各行业得到了广泛应用，公司水务管理平台亦探索相关开发技术，属于行业普遍现象。截至目前，公司水务管理平台仅用于水务行业数据监测及管理，相关产品业务收入占比极低，不会对公司目前经营业绩产生重大影响。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-29 17:23",
+    "headline": "【莲花控股：本月算力业务回款共计280.21万元】",
+    "content": "公司于2023年11月29日收到中国证券监督管理委员会河南监管局《关于对莲花健康产业集团股份有限公司采取出具警示函及责令公开说明措施的决定》。现根据《决定书》的要求对公司本月算力业务相关进展情况进行说明。截至2026年6月28日，根据莲花紫星、新疆莲花紫星、紫星探索前期签订的算力服务合同及软件服务合同，本月回款共计280.21万元。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-29 17:17",
+    "headline": "【上海超硅科创板IPO审核状态变更为“已问询”】",
+    "content": "上海超硅半导体股份有限公司科创板IPO审核状态变更为“已问询”，保荐机构为长江保荐。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-29 17:13",
+    "headline": "腾讯控股：于6月29日回购了价值5.01亿港元的股份。",
+    "content": "",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"

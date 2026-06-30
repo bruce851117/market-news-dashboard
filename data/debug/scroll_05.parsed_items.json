@@ -1,5 +1,45 @@
 [
   {
+    "datetime": "2026-06-30 16:09",
+    "headline": "港股收盘，恒生指数收跌0.63%，恒生科技指数收涨1.80%。联想集团涨超8%，智谱涨超7%，华虹宏力涨超5%。消费板块走弱，沪上阿姨跌超11%，蜜雪集团跌超7%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:08",
+    "headline": "【伊朗总统：达成伊美谅解备忘录经与穆杰塔巴充分协调】",
+    "content": "据伊朗迈赫尔通讯社6月30日报道，伊朗总统佩泽希齐扬当天表示，伊朗和美国的谅解备忘录是在与伊朗最高领袖穆杰塔巴·哈梅内伊充分协调并得到民众支持的情况下达成的。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:07",
+    "headline": "日本央行委员佐藤绫野：日元贬值总体上提振了出口企业的利润。",
+    "content": "日元贬值拖累了家庭的实际收入。 需要关注汇率对价格趋势的影响。 汇率剧烈波动并不可取。 汇率水平应由经济基本面决定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:05",
+    "headline": "【中年胰岛素抵抗或增加老年记忆力下降风险】",
+    "content": "芬兰图尔库大学等机构开展的一项20年随访研究显示，中年出现胰岛素抵抗与老年情景记忆力下降有关，还可能与阿尔茨海默病等脑部疾病有潜在关联。这一发现为老年脑部疾病的早期检测和预防提供了新思路。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:02",
+    "headline": "【去年全国用水总量达5944.5亿立方米】",
+    "content": "近日，水利部发布了2025年度《中国水资源公报》。2025年，全国水资源总量为27229.3亿立方米，全国用水总量为5944.5亿立方米。与2024年相比，万元国内生产总值用水量和万元工业增加值用水量分别下降4.5%和7.2%。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:02",
     "headline": "伦敦金属交易所（LME）：锌库存减少700吨，锡库存增加15吨，镍库存增加6吨，铜库存减少3875吨，铝库存减少1550吨，铅库存增加375吨。",
     "content": "",
@@ -323,6 +363,54 @@
     "datetime": "2026-06-30 14:45",
     "headline": "法国5月PPI环比",
     "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月PPI同比",
+    "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出同比",
+    "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国5月家庭消费支出环比",
+    "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI环比初值",
+    "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月CPI同比初值",
+    "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 14:45",
+    "headline": "法国6月调和CPI同比初值",
+    "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -707,102 +795,6 @@
     "datetime": "2026-06-30 13:00",
     "headline": "日本5月新屋开工年化户数(万户)",
     "content": "今值: 75.7 ， 预期: 73 ， 前值: 72.4",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:56",
-    "headline": "【国家能源局：电网企业线上服务平台注册用户数达5.7亿户 用电业务线上办理率超97%】",
-    "content": "国家能源局今天发布《中国供电发展报告2026》，《报告》显示，我国已建成全球规模最大的电力供应体系，形成覆盖城乡、全域贯通的世界级巨型供电服务网络。《报告》显示，2025年，我国全社会用电量迈上新的里程碑，突破10万亿千瓦时大关，电力用户也接近8亿户，用户体量领跑全球，全国各地还设有供电服务网点9.9万个，从业者超56万人，推动我国供电能力和服务水平跻身国际第一方阵。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:52",
-    "headline": "【聚辰股份发布涨价函：Nor flash全系列涨价25%】",
-    "content": "聚辰股份发布涨价函：近期受全球半导体产业链波动影响，Nor Flash芯片核心原材料及晶圆、封测等生产环节成本持续攀升，导致公司整体生产成本上浮。为保障Nor Flash产品的稳定供应，公司决定对Nor flash全系列在现有价格基础上上调25%，自2026年7月6日起，所有新签订单及未交付订单的未执行部分均按新价格执行。（证券时报）",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:49",
-    "headline": "【上海临港新片区芯港集成晶圆制造项目正式开工】",
-    "content": "据“上海临港”微信公众号，6月29日，临港新片区芯港集成项目开工仪式在万祥镇新路村项目现场正式举行。其中，一期项目计划于2026年第三季度启动建设，并于2027年底前交付使用。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:48",
-    "headline": "三星电子股价上涨6%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:45",
-    "headline": "【东芝推出采用最新一代工艺的80V N沟道功率MOSFET】",
-    "content": "东芝电子元件及存储装置株式会社宣布，推出采用东芝最新一代工艺U-MOS11-H制造的80V N沟道功率MOSFET——TPM1R408RH。该MOSFET面向AI数据中心和通信基站等工业设备的开关电源。新产品即日起开始出货。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:44",
-    "headline": "日本经济产业省将向新的AI企业提供3873亿日元支持。（日本共同社）",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:35",
-    "headline": "【早间要闻汇总】",
-    "content": "创业板指半日涨超3%，寒武纪总市值突破万亿元。 恒指半日跌1.4%，恒生科技指数涨1.4%，中芯国际涨超7%。 日元兑美元跌破162.00关口，为四十年来首次。日本财务大臣称已准备好采取行动。 工信部人士：加大富锂锰基正极、硅基负极、固态电解质等材料攻关。 欧洲央行消息人士：油价快速回落缓解了欧洲央行7月加息的压力；目前看来9月加息的可能性更大。 中国央行月末操作“一增一减”：隔夜逆回购翻倍至6000亿，精准熨平跨季资金面。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:35",
-    "headline": "韩国首尔综指日内涨幅扩大至3%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:35",
-    "headline": "【提醒：日内请重点关注（以下均为北京时间）】",
-    "content": "① 14:00 英国一季度GDP终值； ② 15:40 欧洲央行副行长Vujcic主持一场会议（6月29日至7月1日，欧洲央行在葡萄牙Sintra举办中央银行论坛）； ③ 15:55 德国6月失业人数与失业率； ④ 16:40 欧洲央行执委Elderson主持一场会议； ⑤ 18:40 欧洲央行执委Schnabel主持一场会议，英国央行副行长Breeden将在该场合谈论人工智能（AI）； ⑥ 20:00 德国6月CPI初值，欧洲央行执委Cipollone讲话； ⑦ 20:30 加拿大4月GDP； ⑧ 21:00 美国4月FHFA房价指数，S&P/CS20座大城市房价指数； ⑨ 21:30 欧洲央行首席经济学家Philip Lane与OpenAI首席分析师Chatterji对话； ⑩ 22:00 美国5月JOLTS职位空缺，6月谘商会消费者信心指数； ⑪ 美股盘后 耐克发布业绩报告； 微信小程序搜索“见闻历”，了解更多。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:21",
-    "headline": "日本10年期国债收益率上行5个基点至2.68%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:16",
-    "headline": "四川发行7年期其他专项地方债，规模26.5716亿元，发行利率1.6200%，边际倍数5.87倍，倍数预期1.62；",
-    "content": "四川发行10年期其他专项地方债，规模5.9800亿元，发行利率1.7900%，边际倍数4.55倍，倍数预期1.79； 四川发行15年期其他专项地方债，规模2.2431亿元，发行利率2.0800%，边际倍数1.83倍，倍数预期2.14； 四川发行20年期其他专项地方债，规模4.6152亿元，发行利率2.3300%，边际倍数243.42倍，倍数预期2.33； 四川发行30年期其他专项地方债，规模25.4890亿元，发行利率2.4000%，边际倍数2.34倍，倍数预期2.40； 四川发行30年期其他专项地方债，规模1.0600亿元，发行利率2.4100%，边际倍数3.85倍，倍数预期2.39。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 12:10",
-    "headline": "【工信部人士：加大富锂锰基正极、硅基负极、固态电解质等材料攻关】",
-    "content": "6月30日，中国汽车动力电池产业创新联盟2026年度论坛召开，工信部装备工业一司汽车发展处处长马春生在论坛上表示：“当前全球新能源汽车产业已进入加速发展的新阶段，对动力电池安全、绿色、耐久等性能提出更高要求，需要进一步强化创新驱动。”“下一步我们将加强协同，完善支持政策，持续推动动力电池产业高质量发展。”马春生说。（中证金牛座）",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
