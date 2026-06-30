@@ -2,7 +2,7 @@ name: Update Market News
 
 on:
   schedule:
-    - cron: "55 02 * * *"   # 台灣時間每天早上 07:01
+    - cron: "02 03 * * *"   # 台灣時間每天早上 07:01
   workflow_dispatch:
 
 permissions:
