@@ -1,13 +1,405 @@
 {
-  "generated_at": "2026-06-30 13:40",
+  "generated_at": "2026-06-30 14:54",
   "fetch_start_time": "2026-06-29 17:00",
-  "fetch_end_time": "2026-06-30 13:40",
+  "fetch_end_time": "2026-06-30 14:54",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 340,
+  "count": 391,
   "items": [
+    {
+      "datetime": "2026-06-30 14:53",
+      "headline": "【自研芯片璇玑A3计划2027年首搭腾势量产新车？比亚迪暂未回应 王传福：“已开启规模化量产”】",
+      "content": "日前，有消息称，比亚迪自研芯片璇玑A3预计2027年量产上车，首搭腾势量产新车型。对此，未获比亚迪集团及腾势汽车相关负责人回应。事实上，早在5月28日璇玑A3正式发布时，比亚迪集团董事长兼总裁王传福就曾宣布，璇玑A3已开启规模化量产。（每经网）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:50",
+      "headline": "欧洲央行管委Sleijpen：油价下跌，但充满不确定性。",
+      "content": "能源价格回落将对价格产生影响。 将在7月利率决议时获得新数据。 仍需观察价格方面的后续变化。 市场理解欧洲央行的反应机制。 欧洲结构性增长数据仍然相当低。 欧洲央行不想让市场感到意外。 人工智能在短期内具有通胀效应。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:48",
+      "headline": "山东发行10年期其他专项地方债，规模1.6200亿元，发行利率1.7900%，边际倍数1.79倍，倍数预期1.79；",
+      "content": "山东发行10年期保障房专项地方债，规模1.3700亿元，发行利率1.7900%，边际倍数1.90倍，倍数预期1.79； 山东发行15年期其他专项地方债，规模3.3400亿元，发行利率2.2000%，边际倍数5.59倍，倍数预期2.15。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:46",
+      "headline": "【广州2宗宅地均溢价超45%成交】",
+      "content": "广州2宗宅地出让，最终均溢价超45%成交，总成交金额24.04亿元。其中，番禺区宅地吸引了4家房企参与竞价，经过74轮竞价，最终厦门国贸以总价10.29亿元竞得该地块，成交楼面价18791元/㎡，溢价率55%；海珠区宅地吸引了7家房企参与竞价，经过88轮竞价，最终越秀以总价13.75亿元竞得该地块，成交楼面价60706元/㎡，溢价率46.28%。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:45",
+      "headline": "法国6月调和CPI环比初值",
+      "content": "今值: -0.3% ， 预期: 0% ， 前值: 0.1%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:45",
+      "headline": "法国5月PPI环比",
+      "content": "今值: -0.3% ， 预期: - - ， 前值: -2.1%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:45",
+      "headline": "法国5月PPI同比",
+      "content": "今值: 3% ， 预期: - - ， 前值: 2.1% (修正: 2.3%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:45",
+      "headline": "法国5月家庭消费支出同比",
+      "content": "今值: 0.3% ， 预期: 0.1% ， 前值: -0.4% (修正: -0.3%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:45",
+      "headline": "法国5月家庭消费支出环比",
+      "content": "今值: 0.5% ， 预期: 0.3% ， 前值: -0.5%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:45",
+      "headline": "法国6月CPI环比初值",
+      "content": "今值: -0.2% ， 预期: 0% ， 前值: 0.1%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:45",
+      "headline": "法国6月CPI同比初值",
+      "content": "今值: 1.8% ， 预期: 2% ， 前值: 2.4%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:45",
+      "headline": "法国6月调和CPI同比初值",
+      "content": "今值: 2% ， 预期: 2.3% ， 前值: 2.8%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:44",
+      "headline": "山东发行7年期棚改专项地方债，规模1.1000亿元，发行利率1.6200%，边际倍数2.91倍，倍数预期1.62；",
+      "content": "山东发行30年期其他专项地方债，规模45.4100亿元，发行利率2.4100%，边际倍数11.23倍，倍数预期2.40； 山东发行15年期其他专项地方债，规模14.0600亿元，发行利率2.1700%，边际倍数2.17倍，倍数预期2.15。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:43",
+      "headline": "【汇丰称美元“爆发性”上涨将是下半年最大的痛苦交易之一】",
+      "content": "汇丰表示，美元大幅上涨可能成为今年下半年最大的“痛苦交易”之一。该行预计美元将在2027年上半年逐步走强，并警告称，如果美联储暗示准备收紧政策的力度要强于市场预期，以及如果地缘政治紧张局势再次爆发，那么美元可能出现“爆发性”上涨行情。自美联储6月会议以来，风险有所增加。在6月会议上，政策制定者将重点放在通胀上，并未提供太多前瞻性指引。这使得市场注意力重新转向利差，并推动美元兑主要货币过去两周均走强。“美元走强固然会带来痛苦，但我们认为外汇市场的‘痛苦交易’将表现为美元的爆发性上涨，”Paul Mackel等分析师在6月29日的一份报告中指出。（彭博）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:40",
+      "headline": "A股机器人概念持续走高，天奇股份直线涨停，此前昊志机电、领益智造、中坚科技、柯力传感、埃斯顿、晋拓股份等多股涨停，绿的谐波、华依科技、祥明智能、埃夫特等多股涨超10%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:38",
+      "headline": "【成都武侯区宅地溢价18.5%成交】",
+      "content": "成都2宗涉宅用地出让，其中武侯区地块有6家房企激烈争抢，最终厦门国贸以楼面价23700元/㎡竞得该地块，成交总价7.9亿元，溢价率18.5%。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:38",
+      "headline": "【杭州5宗涉宅用地合计51.25亿元成交 最高溢价率69.34%】",
+      "content": "6月30日，杭州5宗涉宅用地出让，最终3宗溢价成交、2宗底价成交，5宗地块总成交金额51.25亿元。其中，萧山区宅地经过75轮竞价，最终由浙江国丰以总价13.68亿元竞得，成交楼面价33868元/㎡，溢价率69.34%；余杭区良渚东单元商住用地经过29轮竞价，最终由绿城以总价15.3亿元竞得，成交楼面价15875元/㎡，溢价率40.38%；余杭区西站新城单元宅地经过16轮竞价，最终由保利发展以总价13.78亿元竞得，成交楼面价18516元/㎡，溢价率12.22%。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:35",
+      "headline": "【中国贸促会：全国贸促系统原产地证书签证金额持续较大幅度增长】",
+      "content": "中国贸促会新闻发言人王一斐6月30日在中国贸促会新闻发布会上表示，2026年5月份，全国贸促系统累计签发原产地证书、ATA单证册、商事证明书等各类证书71.7万份，同比增长12.14%。其中，全国贸促系统非优惠原产地证书签证金额为302.56亿美元，同比增长14.36%；签证份数为35.72万份，同比增长5.99%。全国贸促系统优惠原产地证书签证金额为110.66亿美元，同比增长43.89%；签证份数为31.08万份，同比增长32.26%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:35",
+      "headline": "现货黄金短线拉升，突破4030美元/盎司，日内涨0.36%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:32",
+      "headline": "【江波龙：建设完成mSSD月产能百万交付能力】",
+      "content": "江波龙宣布mSSD高速存储介质产能迎来重要里程碑，公司已建设完成mSSD月产能百万级交付能力，具备稳定且规模化量产交付条件。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:32",
+      "headline": "日经225指数收涨0.86%，报70062.32点。",
+      "content": "日本东证指数收涨0.52%，报3994.76点。 韩国首尔综指收涨0.97%，报8476.47点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:30",
+      "headline": "【水晶光电：滤片类、硅透镜类产品预计下半年有望实现小批量量产】",
+      "content": "水晶光电6月29日在路演活动上表示，公司聚焦“3+2”布局（“滤片、棱镜、透镜”+“玻璃基板、波导”）。滤片类、硅透镜类产品预计2026年下半年有望实现小批量量产并贡献收入；玻璃基板、波导类产品系面向更前沿技术方向的产品，目前尚正处于早期技术对接阶段。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:29",
+      "headline": "【无人机袭击造成白俄罗斯平民伤亡，中方表态】",
+      "content": "中国常驻联合国副代表孙磊29日在安理会关于无人机袭击白俄罗斯平民问题紧急公开会上发言，对袭击造成白俄罗斯平民伤亡表示关切。孙磊说，中方注意到俄罗斯布良斯克州一辆大巴车遭无人机攻击的报道，对事件造成白俄罗斯平民伤亡深表关切。中方谴责任何针对平民的袭击。任何情况下，平民都不应该成为袭击目标，平民的安全应该得到保护。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:28",
+      "headline": "【保时捷中国回应取消多门店销售授权】",
+      "content": "保时捷中国表示，山东济宁、江苏淮安、广西南宁兴宁保时捷中心将于6月30日终止经销业务，安徽芜湖保时捷中心将于7月31日终止销售业务，但售后仍正常运营，为车主提供符合保时捷标准的售后服务。保时捷中国表示，面对市场环境与汽车产业转型带来的挑战，保时捷积极响应市场变化，持续深化“质大于量”的策略，进一步整合中国经销商网络。保时捷中国充分尊重合作伙伴基于自身发展所做出的决策，对于近期若干经销商的运营调整，将与合作伙伴合作，保证客户服务的连续性和高品质。（中新网）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:27",
+      "headline": "【优必选超仿生人形机器人优世界U1全渠道订单破万】",
+      "content": "在优必选2026年度全球发布会上，优必选创始人、董事会主席兼CEO周剑宣布优必选超仿生人形机器人优世界U1系列全渠道订单已突破1万台，力争今年交付。据悉，这也是全球唯一具备规模化量产能力的全尺寸超仿生人形机器人。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:27",
+      "headline": "碳酸锂期货主力合约涨近7%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:26",
+      "headline": "欧洲央行首席经济学家Lane：欧洲已做好充分准备采用AI。",
+      "content": "AI是生产力和投资的积极因素。 油价目前已恢复到冲突前水平。 预计2027年和2028年的油价仍将高于战前水准。 能源价格攀高的第二轮影响可能需要一些时间才能显现。 油价可能在未来几年内都超过冲突前水准。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:26",
+      "headline": "【水晶光电：公司基本面未因大客户调价事项受到明显影响 订单及价格层面均未出现重大变化】",
+      "content": "水晶光电6月29日举办路演活动，有投资者提问：“北美大客户近期产品价格调整，是否会影响公司今年的订单与业绩？”水晶光电表示，截至目前，公司基本面未因大客户调价事项受到明显影响，订单及价格层面均未出现重大变化。公司深度参与大客户的光学创新升级，增长核心驱动为新品的放量。2026年，公司北美涂布滤光片业务将继续推进份额提升，同时为大客户两款高端机型的主摄摄像头模组光学创新升级独家供应全新的光学元件，预计将为公司2026、2027年业绩增长提供有力支撑。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:24",
+      "headline": "欧洲央行首席经济学家Lane：6月决策并非决定性转折，也非保险性加息。",
+      "content": "油价带来的第二轮效应可能需要一段时间才能显现。 需要观察油价对食品通胀的影响。 致力于逐次会议作出决策。 欧洲央行不会被束缚在一条利率路径上。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:22",
+      "headline": "【日美举行大规模联合军演】",
+      "content": "日本陆上自卫队和美国海军陆战队从6月20日开始，在日本九州和冲绳的多个地点举行“坚毅之龙”大规模联合军演。演习期间，日本陆上自卫队的“鱼鹰”运输机首次飞抵宫古岛。（CCTV国际时讯）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:21",
+      "headline": "三星电子高管：未来芯片需求将大幅增长。",
+      "content": "呼吁扩大核电产能。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:20",
+      "headline": "欧洲央行首席经济学家Lane：当前油价已回到战前水平。",
+      "content": "2027年、2028年的油价仍预计高于战前水平。 补库行为可能使油价保持在高位。 油价可能在未来几年内超过战前水平。 由于油价已连续四个月处于高位，加息是合理的。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:19",
+      "headline": "【华为云将停售应用平台AppStage、应用身份管理服务OneAccess等】",
+      "content": "华为云发布通知，计划于2026年12月30日00:00:00（北京时间）正式停售应用平台-AppStage、应用身份管理服务-OneAccess、智能制造云-Intelligent Manufacturing Cloud、Astro轻应用-Astro Zero（包含子产品Astro大屏应用-Astro Canvas）。停售区域为华为云所有区域。正式停售后，应用平台-AppStage、应用身份管理服务-OneAccess、智能制造云-Intelligent Manufacturing Cloud、Astro轻应用-Astro Zero（包含子产品Astro大屏应用-Astro Canvas）服务将无法新购，用户已购买的服务使用不受影响，在订阅期内可继续获得产品技术支持。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:10",
+      "headline": "【阿联酋解除赴黎巴嫩旅行禁令】",
+      "content": "当地时间6月29日，阿拉伯联合酋长国外交部宣布，自当日起允许本国公民前往黎巴嫩旅行，正式解除持续近两个月的旅行禁令。阿联酋外交部强调，所有计划赴黎的本国公民必须在出行前通过领事服务平台完成注册，否则将不被允许出境。这些旅客须如实填报在黎居住地址、紧急联系方式等信息，返回阿联酋后亦需通过同一平台告知外交部。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:06",
+      "headline": "【168轮竞价！建发国际72.89亿元竞得上海大宁板块宅地，楼板价8.17万元/平方米】",
+      "content": "上海今年第五批出让的地块进入现场竞价环节。其中，静安区N070402单元081a-08地块吸引五位竞买人参与，最终，经过168轮竞价，以72.8943亿元的总价成交，竞得人为建发国际集团全资附属公司厦门益悦置业有限公司，溢价率29.63%，成交楼板价8.17万元/平方米。（澎湃）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:04",
+      "headline": "恒生科技指数午后涨幅扩大至2%，智谱、联想集团涨超7%。腾讯控股短线拉升涨超3%，百度涨超4%，美团、哔哩哔哩等跟涨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:04",
+      "headline": "【上海合作组织开发银行多边磋商第四次会议在广东深圳举行】",
+      "content": "2026年6月29日至30日，上海合作组织开发银行多边磋商第四次会议在广东深圳举行。财政部副部长廖岷与吉尔吉斯斯坦财政部副部长阿克若洛夫共同主持会议，部长助理常军红出席会议并发言。（财政部网站）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:01",
+      "headline": "德国5月零售销售同比",
+      "content": "今值: 1.8% ， 预期: - - ， 前值: -2.7%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:00",
+      "headline": "德国5月进口价格指数同比",
+      "content": "今值: 6.8% ， 预期: 6.6% ， 前值: 5.3%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:00",
+      "headline": "德国5月零售销售环比",
+      "content": "今值: 1.1% ， 预期: 0% ， 前值: -0.3%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:00",
+      "headline": "德国5月进口价格指数环比",
+      "content": "今值: 0.7% ， 预期: 0.5% ， 前值: 1.2%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:00",
+      "headline": "英国一季度商业投资总额季环比终值",
+      "content": "今值: 0.94% ， 预期: 0.7% ， 前值: 0.7%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:00",
+      "headline": "英国一季度GDP季环比终值",
+      "content": "今值: 0.6% ， 预期: 0.6% ， 前值: 0.6%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:00",
+      "headline": "英国一季度商业投资总额同比终值",
+      "content": "今值: -1.31% ， 预期: -1.8% ， 前值: -1.8%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:00",
+      "headline": "英国一季度GDP同比终值",
+      "content": "今值: 0.9% ， 预期: 1.1% ， 前值: 1.1%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:00",
+      "headline": "英国一季度私人家庭消费支出季环比终值",
+      "content": "今值: 0.6% ， 预期: 0.6% ， 前值: 0.6%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:00",
+      "headline": "英国一季度经常帐(亿英镑)",
+      "content": "今值: -221 ， 预期: -213 ， 前值: -184",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 13:54",
+      "headline": "【印度东部一炼化厂起火 多人受伤】",
+      "content": "当地时间30日凌晨，印度东部西孟加拉邦霍尔迪亚区一家炼化厂发生火灾，造成至少十余人受伤。据当地警方通报，其中几名伤者情况危重，已被送往医院接受治疗。据悉，火灾发生在当地时间凌晨4时至5时之间，炼化厂一条输送石脑油的管道起火。炼化厂运营方霍尔迪亚石油化工有限公司表示，事故可能关联偷窃石脑油活动，具体原因仍在调查中。 (央视新闻)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 13:50",
+      "headline": "【随着财政担忧加剧 日本超长期国债收益率攀升】",
+      "content": "日本30年期国债收益率上行10个基点至3.93%；20年期国债收益率上行10个基点至3.65%。此前日本首相高市早苗政府公布了一份路线图，计划到2040财年，在人工智能和半导体等战略领域实现超过370万亿日元（2.3万亿美元）的公共和私人投资，这加剧了市场对日本巨额债务与GDP比率问题的担忧。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-30 13:37",
       "headline": "A股铜高速连接概念震荡走强，神宇股份20cm涨停，华丰科技、胜蓝股份涨超10%，双双创历史新高，长盈精密、金信诺、航天电器等涨幅靠前。",
@@ -235,7 +627,7 @@
     {
       "datetime": "2026-06-30 11:30",
       "headline": "【6月30日午间收评：创业板指半日涨超3%，寒武纪总市值突破万亿】",
-      "content": "1、沪指早间窄幅震荡，创业板指、北证50、科创50均涨逾3%。算力硬件股集体走强，锐捷网络、长光华芯、方正科技等多股涨停。半导体芯片股延续涨势，格科微、晶方科技等涨停，寒武纪涨超8%，总市值突破1万亿。玻璃基板概念持续走强，联建光电、彩虹股份、TCL科技等涨停。下跌方面，医药股迎来调整，通化金马等跌停。个股涨跌互现，上午半天成交2.12万亿。午间收盘沪指涨0.2%，深成指涨2.47%，创业板涨3.06%。 2、板块概念方面，玻璃基板、半导体芯片、算力硬件、消费电子等板块领涨；医药、保险、煤炭、白酒等板块领跌； 3、两市共2562只个股上涨，106只个股涨停；2538只个股下跌，15只个股跌停；22只股票炸板，炸板率23%。",
+      "content": "1、沪指早间窄幅震荡，创业板指、北证50、科创50均涨逾3%。算力硬件股集体走强，锐捷网络、长光华芯、方正科技等多股涨停。半导体芯片股延续涨势，格科微、晶方科技等涨停，寒武纪涨超8%，总市值突破1万亿。玻璃基板概念持续走强，联建光电、彩虹股份、TCL科技等涨停。下跌方面，医药股迎来调整，通化金马等跌停。个股涨跌互现，上午半天成交2.12万亿。午间收盘沪指涨0.2%，深成指涨2.47%，创业板涨3.06%。 2、板块概念方面，玻璃基板、半导体芯片、算力硬件、消费电子等板块领涨；医药、保险、煤炭、白酒等板块领跌； 3、两市共2562只个股上涨，106只个股涨停；2538只个股下跌，15只个股跌停；22只股票炸板，炸板率23%。 相关文章： 创业板大涨3%，寒武纪市值破万亿，光模块、玻璃基板爆发，MLCC龙头跌停，恒科指涨超1%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -275,7 +667,7 @@
     {
       "datetime": "2026-06-30 11:22",
       "headline": "创业板指、北证50、科创50均涨逾3%，沪指涨0.19%，深成指涨2.43%，玻璃基板、半导体芯片、算力硬件等方向涨幅居前，沪深京三市上涨个股近2700只。",
-      "content": "",
+      "content": "相关文章： 创业板大涨3%，寒武纪市值破万亿，光模块、玻璃基板爆发，MLCC龙头跌停，恒科指涨超1%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -323,7 +715,7 @@
     {
       "datetime": "2026-06-30 10:43",
       "headline": "创业板指涨超2%，沪指跌0.24%，深成指涨1.68%，玻璃基板、CPO、消费电子、商业航天等方向领涨，沪深京三市上涨个股超2500只。",
-      "content": "",
+      "content": "相关文章： 创业板大涨3%，寒武纪市值破万亿，光模块、玻璃基板爆发，MLCC龙头跌停，恒科指涨超1%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -459,7 +851,7 @@
     {
       "datetime": "2026-06-30 09:35",
       "headline": "【国家统计局：高技术制造业持续向好】",
-      "content": "6月高技术制造业PMI为53.5%，比上月上升0.6个百分点，明显高于制造业总体，高端制造发展持续向好，引领作用进一步增强；装备制造业和消费品行业PMI分别为52.5%和50.2%，比上月上升0.4个和0.5个百分点，行业景气度有所增强；高耗能行业PMI为47.1%，与上月持平。",
+      "content": "6月高技术制造业PMI为53.5%，比上月上升0.6个百分点，明显高于制造业总体，高端制造发展持续向好，引领作用进一步增强；装备制造业和消费品行业PMI分别为52.5%和50.2%，比上月上升0.4个和0.5个百分点，行业景气度有所增强；高耗能行业PMI为47.1%，与上月持平。 相关文章： 中国6月制造业PMI升至50.3重返扩张区间，非制造业商务活动指数继续扩张",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -483,7 +875,7 @@
     {
       "datetime": "2026-06-30 09:32",
       "headline": "【国家统计局：6月大、中型企业制造业PMI均高于临界点】",
-      "content": "6月制造业大型企业PMI为50.7%，继续保持扩张；中型企业PMI为50.5%，比上月上升1.9个百分点，景气水平明显回升；小型企业PMI为48.2%，景气水平有所回落。",
+      "content": "6月制造业大型企业PMI为50.7%，继续保持扩张；中型企业PMI为50.5%，比上月上升1.9个百分点，景气水平明显回升；小型企业PMI为48.2%，景气水平有所回落。 相关文章： 中国6月制造业PMI升至50.3重返扩张区间，非制造业商务活动指数继续扩张",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -555,7 +947,7 @@
     {
       "datetime": "2026-06-30 09:25",
       "headline": "上证指数开盘报4058.17点，跌0.39%。",
-      "content": "深证成指开盘报15811.67点，跌0.01%。 创业板指开盘报4217.63点，涨0.02%。 沪深300开盘报4914.49点，跌0.25%。 科创50开盘报2132.88点，涨0.32%。 中证500开盘报8815.11点，跌0.07%。 中证1000开盘报8574.25点，跌0.27%。",
+      "content": "深证成指开盘报15811.67点，跌0.01%。 创业板指开盘报4217.63点，涨0.02%。 沪深300开盘报4914.49点，跌0.25%。 科创50开盘报2132.88点，涨0.32%。 中证500开盘报8815.11点，跌0.07%。 中证1000开盘报8574.25点，跌0.27%。 相关文章： 创业板大涨3%，寒武纪市值破万亿，光模块、玻璃基板爆发，MLCC龙头跌停，恒科指涨超1%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -659,7 +1051,7 @@
     {
       "datetime": "2026-06-30 08:54",
       "headline": "日元兑美元跌破162.00关口，为四十年来首次。",
-      "content": "",
+      "content": "相关文章： 日韩股市高开低走，Kospi指数跌2%，日元四十年来首次跌破162关口",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -739,7 +1131,7 @@
     {
       "datetime": "2026-06-30 08:01",
       "headline": "日经225指数高开1%，韩国首尔综指高开0.3%。",
-      "content": "",
+      "content": "相关文章： 日韩股市高开低走，Kospi指数跌2%，日元四十年来首次跌破162关口",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -955,7 +1347,7 @@
     {
       "datetime": "2026-06-30 06:15",
       "headline": "【立讯精密：拟全球发售约3.83亿股H股，发售价不超63.28港元】",
-      "content": "Luxshare Precision（立讯精密）申请通过香港IPO发行3.83亿股股票。 发行价指导区间上限为每股63.28港元。 预计股票将于7月7日定价，将从7月9日开始交易。",
+      "content": "Luxshare Precision（立讯精密）申请通过香港IPO发行3.83亿股股票。 发行价指导区间上限为每股63.28港元。 预计股票将于7月7日定价，将从7月9日开始交易。 相关文章： 立讯精密正式启动H股全球发售，最高募资31亿美元，预计7月9日上市",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -2724,6 +3116,22 @@
       "datetime": "2026-06-29 17:00",
       "headline": "欧元区6月服务业景气指数",
       "content": "今值: 3.2 ， 预期: 2.8 ， 前值: 2.2",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 17:00",
+      "headline": "欧元区6月经济景气指数",
+      "content": "今值: 95 ， 预期: 94.3 ， 前值: 93.5",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 17:00",
+      "headline": "欧元区6月消费者信心指数终值",
+      "content": "今值: -17.7 ， 预期: - - ， 前值: -17.7",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
