@@ -1,2 +1,127 @@
+name: Update Market News
+
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright beautifulsoup4 google-genai
+          playwright install --with-deps chromium
+
+      - name: Crawl WallstreetCN
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python -u scripts/crawler.py
+          echo "===== raw_news.json preview ====="
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path("data/raw_news.json")
+          print("raw_news exists:", p.exists())
+
+          if p.exists():
+              data = json.loads(p.read_text(encoding="utf-8"))
+              print("generated_at:", data.get("generated_at"))
+              print("fetch_start_time:", data.get("fetch_start_time"))
+              print("fetch_end_time:", data.get("fetch_end_time"))
+              print("timezone:", data.get("timezone"))
+              print("source_time_assumption:", data.get("source_time_assumption"))
+              print("crawler_version:", data.get("crawler_version"))
+              print("count:", data.get("count"))
+
+              items = data.get("items", [])
+              if items:
+                  print("latest item:")
+                  print(json.dumps(items[0], ensure_ascii=False, indent=2))
+                  print("oldest item:")
+                  print(json.dumps(items[-1], ensure_ascii=False, indent=2))
+              else:
+                  print("items is empty")
+          PY
+
+      - name: Commit raw news immediately
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git status
+          git add data/raw_news.json data/debug || true
+
+          if git diff --cached --quiet; then
+            echo "No raw_news.json changes to commit"
+          else
+            git commit -m "update raw news"
+            git push
+          fi
+
+      - name: Upload raw news artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: raw-news
+          path: |
+            data/raw_news.json
+            data/debug/
+
+      - name: Summarize with Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python -u scripts/summarize.py
+          echo "===== news.json preview ====="
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path("data/news.json")
+          print("news exists:", p.exists())
+
+          if p.exists():
+              data = json.loads(p.read_text(encoding="utf-8"))
+              print("generated_at:", data.get("generated_at"))
+              print("fetch_start_time:", data.get("fetch_start_time"))
+              print("fetch_end_time:", data.get("fetch_end_time"))
+              print("timezone:", data.get("timezone"))
+              print("raw_count:", data.get("raw_count"))
+              print("count:", data.get("count"))
+
+              items = data.get("items", [])
+              if items:
+                  print("latest summarized item:")
+                  print(json.dumps(items[0], ensure_ascii=False, indent=2))
+              else:
+                  print("items is empty")
+          PY
+
+      - name: Commit summarized news
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git status
+          git add data/news.json
+
+          if git diff --cached --quiet; then
+            echo "No news.json changes to commit"
+          else
+            git commit -m "update summarized news"
+            git push
+          fi
