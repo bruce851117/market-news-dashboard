@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-06-30 14:54",
+  "generated_at": "2026-06-30 15:04",
   "fetch_start_time": "2026-06-29 17:00",
-  "fetch_end_time": "2026-06-30 14:54",
+  "fetch_end_time": "2026-06-30 15:04",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 391,
+  "count": 396,
   "items": [
+    {
+      "datetime": "2026-06-30 15:05",
+      "headline": "【王毅将访问丹麦、瑞典、芬兰、挪威】",
+      "content": "外交部发言人宣布：应丹麦外交大臣拉斯穆森、瑞典外交大臣斯蒂纳加德、芬兰外交部长瓦尔托宁、挪威外交大臣艾德邀请，中共中央政治局委员、外交部长王毅将于7月2日至8日访问丹麦、瑞典、芬兰、挪威。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 15:02",
+      "headline": "【科创50指数本月大涨超26%，半导体芯片股强势爆发】市场全天震荡走强，创业板指涨近3%，科创50涨近4%再创新高，本月累计大涨超26%。半导体芯片股延续涨势，晶方科技、斯达半导、格科微等多股涨停，寒武纪涨超7%，总市值突破万亿大关。机器人概念股表现活跃，锋龙股份、鸣志电器、天奇股份等多股涨停。CPO等算力硬件股走强，锐捷网络、铭普光磁、红板科技等涨停。个股涨多跌少，沪深京三市超3000股飘红，今日成交3.29万亿。截止收盘沪指涨0.5%，深成指涨2.48%，创业板指涨2.99%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 15:01",
+      "headline": "欧股集体高开，德国DAX30指数涨超0.8%，英国富时100指数涨约0.3%，欧洲斯托克50指数涨超0.5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 15:01",
+      "headline": "商品期货收盘，碳酸锂主力合约涨超8%，鸡蛋涨超3%，纯苯、BR橡胶涨超2%，20号胶、沪锡涨近2%。铂、菜籽粕跌超2%，沪铝跌近2%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 15:00",
+      "headline": "瑞士6月KOF经济领先指标",
+      "content": "今值: 101.2 ， 预期: 99.1 ， 前值: 98 (修正: 98.6)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 14:59",
+      "headline": "【i茅台：将于7月8日起上线茅台酒二维码扫码核验、签收功能】",
+      "content": "i茅台宣布茅台酒扫码核验新功能上线试点。6月30日起贵州省区域内茅台酒订单启动试点；7月8日起，茅台酒二维码扫码核验、签收功能将正式上线。该系统覆盖从仓库出库到消费者签收的全配送链路。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-30 14:53",
       "headline": "【自研芯片璇玑A3计划2027年首搭腾势量产新车？比亚迪暂未回应 王传福：“已开启规模化量产”】",
@@ -764,14 +812,6 @@
       "datetime": "2026-06-30 10:18",
       "headline": "山西发行5年期一般债地方债，规模4.6000亿元，发行利率1.4900%，边际倍数4.13倍，倍数预期1.49；",
       "content": "山西发行10年期棚改专项地方债，规模2.8000亿元，发行利率1.8200%，边际倍数1.50倍，倍数预期1.79； 山西发行10年期其他专项地方债，规模4.1000亿元，发行利率1.7900%，边际倍数1.22倍，倍数预期1.79； 山西发行15年期其他专项地方债，规模6.8000亿元，发行利率2.1800%，边际倍数1.07倍，倍数预期2.15； 山西发行20年期其他专项地方债，规模34.5000亿元，发行利率2.3400%，边际倍数1.25倍，倍数预期2.35； 山西发行30年期其他专项地方债，规模13.9000亿元，发行利率2.4000%，边际倍数2.51倍，倍数预期2.40； 山西发行15年期其他专项地方债，规模44.6000亿元，发行利率2.1700%，边际倍数2.60倍，倍数预期2.15； 山西发行15年期其他专项地方债，规模96.2500亿元，发行利率2.1600%，边际倍数3.76倍，倍数预期2.15； 山西发行15年期其他专项地方债，规模72.2500亿元，发行利率2.1600%，边际倍数2.54倍，倍数预期2.15； 山西发行10年期一般债地方债，规模110.4000亿元，发行利率1.7900%，边际倍数1.22倍，倍数预期1.79。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 10:18",
-      "headline": "印尼基准股指日内跌幅扩大至2%。",
-      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -3106,8 +3146,8 @@
     },
     {
       "datetime": "2026-06-29 17:00",
-      "headline": "欧元区6月工业景气指数",
-      "content": "今值: -7.7 ， 预期: -7.2 ， 前值: -8",
+      "headline": "欧元区6月工业景气指数 -7.7，预期 -7.2，前值 -8。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -3122,8 +3162,8 @@
     },
     {
       "datetime": "2026-06-29 17:00",
-      "headline": "欧元区6月经济景气指数",
-      "content": "今值: 95 ， 预期: 94.3 ， 前值: 93.5",
+      "headline": "欧元区6月经济景气指数 95，预期 94.3，前值 93.5。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
