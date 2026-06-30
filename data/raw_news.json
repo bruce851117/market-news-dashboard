@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-30 13:28",
+  "generated_at": "2026-06-30 13:40",
   "fetch_start_time": "2026-06-29 17:00",
-  "fetch_end_time": "2026-06-30 13:28",
+  "fetch_end_time": "2026-06-30 13:40",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 342,
+  "count": 340,
   "items": [
+    {
+      "datetime": "2026-06-30 13:37",
+      "headline": "A股铜高速连接概念震荡走强，神宇股份20cm涨停，华丰科技、胜蓝股份涨超10%，双双创历史新高，长盈精密、金信诺、航天电器等涨幅靠前。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 13:35",
+      "headline": "中国台湾证交所加权股价指数收高2.5%报46,125.91点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 13:34",
+      "headline": "科创50指数涨幅扩大至4%，格科微、翱捷科技20CM涨停，中科飞测涨超10%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-30 13:27",
       "headline": "【华为：openPangu-2.0-Flash模型正式开源上线】",
@@ -484,30 +508,6 @@
       "datetime": "2026-06-30 09:30",
       "headline": "中国6月官方制造业PMI",
       "content": "今值: 50.3 ， 预期: - - ， 前值: 50",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 09:30",
-      "headline": "中国6月官方非制造业PMI 50.2，前值 50.1。",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 09:30",
-      "headline": "澳大利亚5月私营企业贷款环比 0.7%，预期 0.6%，前值 0.7%。",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 09:30",
-      "headline": "澳大利亚5月私营企业贷款同比 8.2%，前值 8%。",
-      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -2724,22 +2724,6 @@
       "datetime": "2026-06-29 17:00",
       "headline": "欧元区6月服务业景气指数",
       "content": "今值: 3.2 ， 预期: 2.8 ， 前值: 2.2",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-29 17:00",
-      "headline": "欧元区6月经济景气指数",
-      "content": "今值: 95 ， 预期: 94.3 ， 前值: 93.5",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-29 17:00",
-      "headline": "欧元区6月消费者信心指数终值",
-      "content": "今值: -17.7 ， 预期: - - ， 前值: -17.7",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
