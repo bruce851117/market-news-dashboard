@@ -1,13 +1,133 @@
 {
-  "generated_at": "2026-06-30 10:42",
+  "generated_at": "2026-06-30 12:00",
   "fetch_start_time": "2026-06-29 17:00",
-  "fetch_end_time": "2026-06-30 10:42",
+  "fetch_end_time": "2026-06-30 12:00",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 300,
+  "count": 320,
   "items": [
+    {
+      "datetime": "2026-06-30 11:55",
+      "headline": "【美媒称美国总统特使威特科夫正前往多哈】",
+      "content": "美国有线电视新闻网29日晚援引两名美国官员的话报道说，美国总统特使威特科夫正在前往卡塔尔首都多哈的途中。报道说，目前尚不清楚美国总统特朗普的女婿库什纳是否与威特科夫同行。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:48",
+      "headline": "【蓝色向量完成新一轮超亿元融资】",
+      "content": "6月30日，蓝色向量（Skyla母公司）宣布完成新一轮融资，融资额超亿元人民币。本轮融资由深创投和某产业方美元基金联合领投，老股东厚雪资本、弘晖基金、金鼎资本等持续加码，上海天使会联合投资。至此，蓝色向量eVTOL业务，近半年已连续完成5轮融资，融资额超4亿元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:31",
+      "headline": "上证指数早盘收报4082.13点，涨0.20%。",
+      "content": "深证成指早盘收报16202.90点，涨2.47%。 创业板指早盘收报4345.84点，涨3.06%。 沪深300早盘收报4982.06点，涨1.12%。 科创50早盘收报2200.53点，涨3.51%。 中证500早盘收报8989.11点，涨1.90%。 中证1000早盘收报8763.70点，涨1.93%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:30",
+      "headline": "【6月30日午间收评：创业板指半日涨超3%，寒武纪总市值突破万亿】",
+      "content": "1、沪指早间窄幅震荡，创业板指、北证50、科创50均涨逾3%。算力硬件股集体走强，锐捷网络、长光华芯、方正科技等多股涨停。半导体芯片股延续涨势，格科微、晶方科技等涨停，寒武纪涨超8%，总市值突破1万亿。玻璃基板概念持续走强，联建光电、彩虹股份、TCL科技等涨停。下跌方面，医药股迎来调整，通化金马等跌停。个股涨跌互现，上午半天成交2.12万亿。午间收盘沪指涨0.2%，深成指涨2.47%，创业板涨3.06%。 2、板块概念方面，玻璃基板、半导体芯片、算力硬件、消费电子等板块领涨；医药、保险、煤炭、白酒等板块领跌； 3、两市共2562只个股上涨，106只个股涨停；2538只个股下跌，15只个股跌停；22只股票炸板，炸板率23%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:30",
+      "headline": "国债期货早盘收盘，30年期主力合约跌0.37%，10年期主力合约跌0.09%，5年期主力合约跌0.05%，2年期主力合约跌0.02%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:29",
+      "headline": "菲律宾股指日内跌幅扩大至1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:23",
+      "headline": "【我国首个550兆瓦F级燃机项目全容量投产发电】",
+      "content": "6月30日凌晨，我国首个550兆瓦F级燃机项目——华电重庆潼南燃机项目实现全容量投产发电，为成渝地区双城经济圈迎峰度夏电力保供、绿色低碳转型注入清洁能源动能。据介绍，华电重庆潼南燃机项目规划建设两台550.12兆瓦分轴燃气—蒸汽联合循环调峰发电机组，总装机容量达1100兆瓦，年发电量可达21亿千瓦时，能满足约175万个家庭一年的用电需求，每年可节约标准煤20万吨，减少二氧化碳排放86万吨。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:23",
+      "headline": "【美团开源万亿参数大模型LongCat-2.0】",
+      "content": "美团正式发布新一代万亿参数大模型LongCat-2.0，并将对外开源。作为业界首个在五万卡国产算力集群上完成全流程训练与推理的万亿参数模型（总参数1.6T，平均激活约48B，动态范围33B~56B），LongCat-2.0从零开始预训练，原生支持1M超长上下文。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:22",
+      "headline": "创业板指、北证50、科创50均涨逾3%，沪指涨0.19%，深成指涨2.43%，玻璃基板、半导体芯片、算力硬件等方向涨幅居前，沪深京三市上涨个股近2700只。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:22",
+      "headline": "【交通银行：将关闭上海黄金交易所贵金属代理个人业务功能】",
+      "content": "交通银行公告，根据贵金属风险管理和业务需要，该行将关闭上海黄金交易所贵金属代理个人业务功能。现将相关工作安排公告如下:自2026年7月24日(星期五)日终清算时起，该行将关闭上海黄金交易所贵金属代理个人业务功能，涉及的合约品种包括：Au99.99、Au100g、Au99.95、PGC30g、Au(T+D)、mAu(T+D)、Ag(T+D)等。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:18",
+      "headline": "重庆发行20年期其他专项地方债，规模27.7900亿元，发行利率2.3500%，边际倍数93.68倍，倍数预期2.33；",
+      "content": "重庆发行30年期其他专项地方债，规模38.6600亿元，发行利率2.4000%，边际倍数1.29倍，倍数预期2.40； 重庆发行5年期土储专项地方债，规模26.6300亿元，发行利率1.4900%，边际倍数3.94倍，倍数预期1.49； 重庆发行10年期棚改专项地方债，规模3.9000亿元，发行利率1.7900%，边际倍数1.92倍，倍数预期1.79。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:14",
+      "headline": "重庆发行15年期其他专项地方债，规模31.7600亿元，发行利率2.1800%，边际倍数3.09倍，倍数预期2.15。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:01",
+      "headline": "隔夜SHIBOR报1.3600%，上涨0.40个基点。",
+      "content": "7天SHIBOR报1.4580%，上涨0.80个基点。 3个月SHIBOR报1.4380%，上涨0.10个基点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 11:00",
+      "headline": "寒武纪日内涨超7%再创历史新高，市值突破1万亿元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 10:43",
+      "headline": "创业板指涨超2%，沪指跌0.24%，深成指涨1.68%，玻璃基板、CPO、消费电子、商业航天等方向领涨，沪深京三市上涨个股超2500只。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-30 10:36",
       "headline": "印尼基准股指日内跌幅扩大至3%。",
@@ -204,14 +324,6 @@
       "datetime": "2026-06-30 09:30",
       "headline": "澳大利亚5月私营企业贷款环比",
       "content": "今值: 0.7% ， 预期: 0.6% ， 前值: 0.7%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 09:30",
-      "headline": "澳大利亚5月私营企业贷款同比",
-      "content": "今值: 8.2% ， 预期: - - ， 前值: 8%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -474,6 +586,22 @@
     },
     {
       "datetime": "2026-06-30 07:50",
+      "headline": "日本5月工业产出同比初值 -1.7%，预期 1.3%，前值 2%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 07:50",
+      "headline": "日本5月工业产出环比初值 0.5%，预期 0.7%，前值 0.5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 07:50",
       "headline": "日本5月工业产出同比初值",
       "content": "今值: -1.7% ， 预期: 1.3% ， 前值: 2%",
       "source": "華爾街見聞",
@@ -484,6 +612,22 @@
       "datetime": "2026-06-30 07:50",
       "headline": "日本5月工业产出环比初值",
       "content": "今值: 0.5% ， 预期: 0.7% ， 前值: 0.5%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 07:30",
+      "headline": "日本5月失业率 2.5%，预期 2.5%，前值 2.5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 07:30",
+      "headline": "日本5月求才求职比 1.17，预期 1.18，前值 1.18。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -2404,6 +2548,22 @@
       "datetime": "2026-06-29 17:00",
       "headline": "欧元区6月服务业景气指数",
       "content": "今值: 3.2 ， 预期: 2.8 ， 前值: 2.2",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 17:00",
+      "headline": "欧元区6月经济景气指数",
+      "content": "今值: 95 ， 预期: 94.3 ， 前值: 93.5",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-29 17:00",
+      "headline": "欧元区6月消费者信心指数终值",
+      "content": "今值: -17.7 ， 预期: - - ， 前值: -17.7",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
