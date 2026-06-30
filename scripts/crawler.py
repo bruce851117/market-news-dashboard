@@ -7,19 +7,24 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 
-CRAWLER_VERSION = "tw-browser-time-v8-no-chrono-stop"
-
+CRAWLER_VERSION = "tw-browser-time-v9-feed-scope-date-marker"
 URL = "https" + "://wallstreetcn.com/live/global"
-
 TW_TZ = ZoneInfo("Asia/Taipei")
 
 DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
-
 RAW_OUTPUT = DATA_DIR / "raw_news.json"
 
-DATE_LINE_RE = re.compile(r"^(\d{2})月(\d{2})日(?:[，,\s、]*星期[一二三四五六日天])?$")
-DATE_MARKER_RE = re.compile(r"(\d{2}月\d{2}日(?:[，,\s、]*星期[一二三四五六日天])?)")
+DEBUG_DIR = DATA_DIR / "debug"
+DEBUG_DIR.mkdir(exist_ok=True)
+SAVE_DEBUG = True
+
+DATE_LINE_RE = re.compile(
+    r"^(\d{1,2})月(\d{1,2})日(?:[，,\s、]*星期[一二三四五六日天])?(?:[，,\s、]*\d{2}:\d{2}:\d{2})?$"
+)
+DATE_MARKER_RE = re.compile(
+    r"(\d{1,2}月\d{1,2}日(?:[，,\s、]*星期[一二三四五六日天])?)"
+)
 TIME_RE = re.compile(r"^([01]\d|2[0-3]):([0-5]\d)$")
 
 
@@ -30,17 +35,13 @@ def log(msg):
 def normalize_text(s):
     s = str(s or "")
     s = s.replace("\u3000", " ")
+    s = s.replace("\xa0", " ")
     s = re.sub(r"\s+", " ", s).strip()
     s = s.replace("### ", "").replace("###", "")
     return s.strip()
 
 
 def get_fetch_start_time_tw(now_tw):
-    """
-    全部用台灣時間計算：
-    - 如果今天是禮拜一：抓上週五 17:00 台灣時間之後
-    - 其他日期：抓前一天 17:00 台灣時間之後
-    """
     today_1700 = now_tw.replace(hour=17, minute=0, second=0, microsecond=0)
 
     if now_tw.weekday() == 0:
@@ -73,16 +74,6 @@ def parse_page_date_as_tw(line, now_tw):
 
 
 def split_inline_date_markers(lines):
-    """
-    修正這種情況：
-
-    亞馬遜評估...（The Information） 06月29日， 星期一
-
-    拆成：
-
-    亞馬遜評估...（The Information）
-    06月29日， 星期一
-    """
     output = []
 
     for raw_line in lines:
@@ -119,6 +110,40 @@ def split_inline_date_markers(lines):
     return output
 
 
+def extract_feed_lines(page_text):
+    raw_lines = [normalize_text(x) for x in page_text.splitlines() if normalize_text(x)]
+
+    # 只解析「日期」之後的快訊列表，避免 header/nav 污染
+    start_idx = 0
+    for idx, line in enumerate(raw_lines):
+        if line == "日期":
+            start_idx = idx + 1
+            break
+
+    # 只解析到「实时行情」之前，避免行情、財經日曆、footer 污染
+    end_idx = len(raw_lines)
+    stop_markers = [
+        "实时行情",
+        "即時行情",
+        "财经日历",
+        "財經日曆",
+        "华尔街见闻",
+        "華爾街見聞",
+        "关于我们",
+        "關於我們",
+    ]
+
+    for idx in range(start_idx, len(raw_lines)):
+        if raw_lines[idx] in stop_markers:
+            end_idx = idx
+            break
+
+    feed_lines = raw_lines[start_idx:end_idx]
+    feed_lines = split_inline_date_markers(feed_lines)
+
+    return feed_lines
+
+
 def is_date_line(line, now_tw):
     return parse_page_date_as_tw(line, now_tw) is not None
 
@@ -138,8 +163,36 @@ def make_datetime_tw(date_obj, hour, minute):
     )
 
 
-def is_page_widget_text(text):
-    text = str(text or "")
+def should_skip_line(line):
+    line = normalize_text(line)
+
+    skip_exact = {
+        "展开",
+        "收起",
+        "数据解读",
+        "相关文章：",
+        "实时行情",
+        "即時行情",
+        "财经日历",
+        "財經日曆",
+        "查看更多 >",
+        "查看更多",
+    }
+
+    if line in skip_exact:
+        return True
+
+    return False
+
+
+def is_junk_item(item):
+    headline = normalize_text(item.get("headline", ""))
+    content = normalize_text(item.get("content", ""))
+
+    if not headline:
+        return True
+
+    text = headline + "\n" + content
 
     widget_keywords = [
         "实时行情",
@@ -159,59 +212,13 @@ def is_page_widget_text(text):
         "現價",
         "涨跌",
         "漲跌",
-        "美元指数",
-        "美元指數",
         "DXY.OTC",
         "EURUSD.OTC",
         "USDJPY.OTC",
         "XAUUSD.OTC",
-        "财经",
-        "日历",
     ]
 
-    hit_count = sum(1 for k in widget_keywords if k in text)
-
-    return hit_count >= 3
-
-
-def is_calendar_or_reminder_item(item):
-    headline = normalize_text(item.get("headline", ""))
-    content = normalize_text(item.get("content", ""))
-    text = headline + "\n" + content
-
-    calendar_keywords = [
-        "提醒：日内请重点关注",
-        "提醒：日內請重點關注",
-        "日内请重点关注",
-        "日內請重點關注",
-        "华尔街见闻早餐",
-        "華爾街見聞早餐",
-        "财经日历",
-        "財經日曆",
-        "小程序搜索",
-        "见闻历",
-        "見聞曆",
-    ]
-
-    if any(k in text for k in calendar_keywords):
-        return True
-
-    return False
-
-
-def is_junk_item(item):
-    headline = normalize_text(item.get("headline", ""))
-    content = normalize_text(item.get("content", ""))
-
-    if not headline:
-        return True
-
-    text = headline + "\n" + content
-
-    if is_page_widget_text(text):
-        return True
-
-    if is_calendar_or_reminder_item(item):
+    if sum(1 for k in widget_keywords if k in text) >= 3:
         return True
 
     meaningful = re.sub(r"[^\w\u4e00-\u9fff]", "", headline)
@@ -222,9 +229,8 @@ def is_junk_item(item):
     return False
 
 
-def extract_news_items(text, now_tw):
-    raw_lines = [line.strip() for line in text.splitlines() if line.strip()]
-    lines = split_inline_date_markers(raw_lines)
+def extract_news_items(page_text, now_tw):
+    lines = extract_feed_lines(page_text)
 
     items = []
     current_date = now_tw.date()
@@ -258,7 +264,7 @@ def extract_news_items(text, now_tw):
 
         headline = normalize_text(lines[i + 1])
 
-        if is_time_line(headline) or is_date_line(headline, now_tw):
+        if is_time_line(headline) or is_date_line(headline, now_tw) or should_skip_line(headline):
             i += 1
             continue
 
@@ -271,16 +277,9 @@ def extract_news_items(text, now_tw):
             if is_time_line(next_line) or is_date_line(next_line, now_tw):
                 break
 
-            if next_line in [
-                "实时行情",
-                "即時行情",
-                "财经日历",
-                "財經日曆",
-                "查看更多",
-                "综览",
-                "綜覽",
-            ]:
-                break
+            if should_skip_line(next_line):
+                j += 1
+                continue
 
             content_lines.append(next_line)
             j += 1
@@ -311,33 +310,17 @@ def parse_item_datetime_tw(item):
 
 
 def get_oldest_datetime_tw(items):
-    dts = []
+    dts = [parse_item_datetime_tw(x) for x in items]
+    dts = [x for x in dts if x]
 
-    for item in items:
-        dt = parse_item_datetime_tw(item)
-
-        if dt:
-            dts.append(dt)
-
-    if not dts:
-        return None
-
-    return min(dts)
+    return min(dts) if dts else None
 
 
 def get_latest_datetime_tw(items):
-    dts = []
+    dts = [parse_item_datetime_tw(x) for x in items]
+    dts = [x for x in dts if x]
 
-    for item in items:
-        dt = parse_item_datetime_tw(item)
-
-        if dt:
-            dts.append(dt)
-
-    if not dts:
-        return None
-
-    return max(dts)
+    return max(dts) if dts else None
 
 
 def dedupe_items(items):
@@ -363,8 +346,7 @@ def dedupe_items(items):
 
 def filter_items_in_range(items, fetch_start_tw, now_tw):
     output = []
-
-    max_allowed_time = now_tw + timedelta(minutes=5)
+    max_allowed = now_tw + timedelta(minutes=5)
 
     for item in items:
         dt = parse_item_datetime_tw(item)
@@ -375,7 +357,7 @@ def filter_items_in_range(items, fetch_start_tw, now_tw):
         if dt < fetch_start_tw:
             continue
 
-        if dt > max_allowed_time:
+        if dt > max_allowed:
             log(
                 "Drop future item: "
                 + item.get("datetime", "")
@@ -389,6 +371,33 @@ def filter_items_in_range(items, fetch_start_tw, now_tw):
     output.sort(key=lambda x: x.get("datetime", ""), reverse=True)
 
     return output
+
+
+def save_debug(scroll_no, page_text, feed_lines, parsed_items, clean_items):
+    if not SAVE_DEBUG:
+        return
+
+    prefix = DEBUG_DIR / f"scroll_{scroll_no:02d}"
+
+    prefix.with_suffix(".body_inner_text.txt").write_text(
+        page_text,
+        encoding="utf-8",
+    )
+
+    prefix.with_suffix(".feed_lines.txt").write_text(
+        "\n".join(feed_lines),
+        encoding="utf-8",
+    )
+
+    (DEBUG_DIR / f"scroll_{scroll_no:02d}.parsed_items.json").write_text(
+        json.dumps(parsed_items, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    (DEBUG_DIR / f"scroll_{scroll_no:02d}.clean_items.json").write_text(
+        json.dumps(clean_items, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 
 def main():
@@ -446,106 +455,15 @@ def main():
         for scroll_no in range(1, max_scrolls + 1):
             page_text = page.locator("body").inner_text(timeout=60000)
 
-            parsed_items = extract_news_items(page_text, now_tw)
-            parsed_items = dedupe_items(parsed_items)
+            feed_lines = extract_feed_lines(page_text)
 
-            clean_items = [item for item in parsed_items if not is_junk_item(item)]
-            clean_items = dedupe_items(clean_items)
+            parsed_items = dedupe_items(extract_news_items(page_text, now_tw))
+            clean_items = dedupe_items([item for item in parsed_items if not is_junk_item(item)])
 
             all_items = dedupe_items(all_items + clean_items)
+
+            save_debug(scroll_no, page_text, feed_lines, parsed_items, clean_items)
 
             oldest_tw = get_oldest_datetime_tw(all_items)
             latest_tw = get_latest_datetime_tw(all_items)
 
-            oldest_str = oldest_tw.strftime("%Y-%m-%d %H:%M") if oldest_tw else "None"
-            latest_str = latest_tw.strftime("%Y-%m-%d %H:%M") if latest_tw else "None"
-
-            log(
-                f"Scroll {scroll_no}: "
-                f"parsed={len(parsed_items)}, "
-                f"clean={len(clean_items)}, "
-                f"all_clean={len(all_items)}, "
-                f"latest_tw={latest_str}, "
-                f"oldest_tw={oldest_str}"
-            )
-
-            if len(all_items) <= previous_count:
-                no_growth_count += 1
-            else:
-                no_growth_count = 0
-
-            previous_count = len(all_items)
-
-            # 注意：
-            # 不再用 oldest_tw <= fetch_start_tw 來停止。
-            # 因為頁面中的財經日曆 / 提醒區可能含有 09:30 這種假新聞時間。
-            if scroll_no >= 15 and no_growth_count >= 8:
-                log("No new clean items for 8 consecutive scrolls. Stop scrolling.")
-                break
-
-            page.mouse.wheel(0, 2200)
-            page.wait_for_timeout(2500)
-
-        browser.close()
-
-    clean_all_items = [item for item in all_items if not is_junk_item(item)]
-    clean_all_items = dedupe_items(clean_all_items)
-
-    filtered_items = filter_items_in_range(clean_all_items, fetch_start_tw, now_tw)
-
-    latest_tw = get_latest_datetime_tw(filtered_items)
-    oldest_tw = get_oldest_datetime_tw(filtered_items)
-
-    output = {
-        "generated_at": now_tw.strftime("%Y-%m-%d %H:%M"),
-        "fetch_start_time": fetch_start_tw.strftime("%Y-%m-%d %H:%M"),
-        "fetch_end_time": now_tw.strftime("%Y-%m-%d %H:%M"),
-        "source": URL,
-        "timezone": "Asia/Taipei",
-        "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
-        "crawler_version": CRAWLER_VERSION,
-        "count": len(filtered_items),
-        "items": filtered_items,
-    }
-
-    RAW_OUTPUT.write_text(
-        json.dumps(output, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
-
-    log("========== Crawl Finished ==========")
-    log("Raw clean items before time filter: " + str(len(clean_all_items)))
-    log("Raw items after Taiwan time filter: " + str(len(filtered_items)))
-    log("Saved raw news to: " + str(RAW_OUTPUT))
-    log("Output timezone: Asia/Taipei")
-    log("Output generated_at: " + output["generated_at"])
-    log("Output fetch_start_time: " + output["fetch_start_time"])
-    log("Output fetch_end_time: " + output["fetch_end_time"])
-
-    if latest_tw and filtered_items:
-        log("Latest item in Taiwan time:")
-        log(json.dumps(filtered_items[0], ensure_ascii=False, indent=2))
-
-    if oldest_tw and filtered_items:
-        log("Oldest item in Taiwan time:")
-        log(json.dumps(filtered_items[-1], ensure_ascii=False, indent=2))
-
-    log("===== raw_news.json preview =====")
-    log("raw_news exists: " + str(RAW_OUTPUT.exists()))
-    log("generated_at: " + output["generated_at"])
-    log("fetch_start_time: " + output["fetch_start_time"])
-    log("fetch_end_time: " + output["fetch_end_time"])
-    log("timezone: " + output["timezone"])
-    log("source_time_assumption: " + output["source_time_assumption"])
-    log("crawler_version: " + output["crawler_version"])
-    log("count: " + str(output["count"]))
-
-    if filtered_items:
-        log("latest item:")
-        log(json.dumps(filtered_items[0], ensure_ascii=False, indent=2))
-        log("oldest item:")
-        log(json.dumps(filtered_items[-1], ensure_ascii=False, indent=2))
-
-
-if __name__ == "__main__":
-    main()
