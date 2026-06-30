@@ -586,15 +586,54 @@
 
     function getFilteredNews() {
       const keywordEl = document.getElementById("keyword");
+      const startEl = document.getElementById("startTime");
+      const endEl = document.getElementById("endTime");
+
       const keyword = keywordEl ? keywordEl.value.trim().toLowerCase() : "";
+      const startValue = startEl ? startEl.value : "";
+      const endValue = endEl ? endEl.value : "";
+
+      const start = startValue ? new Date(startValue) : null;
+      const end = endValue ? new Date(endValue) : null;
+
       let filtered = allNews.slice();
-      if (keyword) {
-        filtered = filtered.filter((item) => {
-          const text = [item.datetime, item.category, item.headline, item.summary]
-            .join(" ").toLowerCase();
-          return text.includes(keyword);
-        });
-      }
+
+      filtered = filtered.filter((item) => {
+        const dt = parseDateTime(item.datetime);
+
+        if (!dt || isNaN(dt.getTime())) {
+          return false;
+        }
+
+        if (start && !isNaN(start.getTime()) && dt < start) {
+          return false;
+        }
+
+        if (end && !isNaN(end.getTime()) && dt > end) {
+          return false;
+        }
+
+        if (keyword) {
+          const text = [
+            item.datetime,
+            item.category,
+            item.category_name,
+            item.headline,
+            item.summary,
+            item.content,
+            Array.isArray(item.tags) ? item.tags.join(" ") : "",
+          ]
+            .join(" ")
+            .toLowerCase();
+
+          if (!text.includes(keyword)) {
+            return false;
+          }
+        }
+
+        return true;
+      });
+
       return filtered;
     }
 
