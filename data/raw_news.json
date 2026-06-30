@@ -1,13 +1,29 @@
 {
-  "generated_at": "2026-06-30 15:36",
+  "generated_at": "2026-06-30 15:42",
   "fetch_start_time": "2026-06-29 17:00",
-  "fetch_end_time": "2026-06-30 15:36",
+  "fetch_end_time": "2026-06-30 15:42",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 412,
+  "count": 415,
   "items": [
+    {
+      "datetime": "2026-06-30 15:43",
+      "headline": "【交易员称对冲基金警惕日本财务省周五出手干预 支撑日元汇率】",
+      "content": "交易员称，对冲基金不愿在当前水平建立新的美元兑日元多头头寸，担心日本可能在周五美国市场休市时入市干预。交易员补充说，如果沃什发表鹰派言论，而美国非农就业数据支持美联储加息美元兑日元汇率可能逼近165。不过交易员指出，日本财务省已多次警告可能进行干预，美国市场因假日休市时流动性会较为清淡，因此日方可能会在周五出手干预。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 15:39",
+      "headline": "【韩正会见沙特外交大臣费萨尔】",
+      "content": "国家副主席韩正在北京会见沙特外交大臣费萨尔。韩正表示，中方愿同沙方共同落实好两国领导人重要共识，深化政治互信、加强高层交往、拓展务实合作，推动中沙关系取得新的进展。中国和沙特作为全球南方重要成员，要加强沟通协调，为维护地区和世界和平稳定作出努力。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-30 15:37",
       "headline": "【绿城中国9.2亿元竞得上海浦东周浦宅地，楼板价33657元/平方米】",
@@ -652,6 +668,14 @@
       "datetime": "2026-06-30 13:00",
       "headline": "日本5月新屋开工同比",
       "content": "今值: 33.86% ， 预期: 31.9% ， 前值: 11.4% (修正: 11.36%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 13:00",
+      "headline": "日本5月新屋开工年化户数(万户)",
+      "content": "今值: 75.7 ， 预期: 73 ， 前值: 72.4",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
