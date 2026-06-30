@@ -1,6 +1,5 @@
 import json
 import re
-import time
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from pathlib import Path
@@ -8,7 +7,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 
-CRAWLER_VERSION = "tw-browser-time-v7-inline-date-fix"
+CRAWLER_VERSION = "tw-browser-time-v8-no-chrono-stop"
 
 URL = "https" + "://wallstreetcn.com/live/global"
 
@@ -55,12 +54,6 @@ def get_fetch_start_time_tw(now_tw):
 
 
 def parse_page_date_as_tw(line, now_tw):
-    """
-    支援：
-    - 06月29日
-    - 06月29日， 星期一
-    - 06月29日 星期一
-    """
     line = normalize_text(line)
     m = DATE_LINE_RE.match(line)
 
@@ -73,7 +66,6 @@ def parse_page_date_as_tw(line, now_tw):
 
     dt = datetime(year, month, day, tzinfo=TW_TZ)
 
-    # 跨年防呆
     if dt > now_tw + timedelta(days=7):
         dt = datetime(year - 1, month, day, tzinfo=TW_TZ)
 
@@ -82,10 +74,12 @@ def parse_page_date_as_tw(line, now_tw):
 
 def split_inline_date_markers(lines):
     """
-    華爾街見聞 inner_text 有時會把日期標籤接在上一則新聞 content 後面，例如：
+    修正這種情況：
+
     亞馬遜評估...（The Information） 06月29日， 星期一
 
-    這裡將其拆成：
+    拆成：
+
     亞馬遜評估...（The Information）
     06月29日， 星期一
     """
@@ -144,7 +138,7 @@ def make_datetime_tw(date_obj, hour, minute):
     )
 
 
-def is_obvious_page_widget_text(text):
+def is_page_widget_text(text):
     text = str(text or "")
 
     widget_keywords = [
@@ -157,7 +151,6 @@ def is_obvious_page_widget_text(text):
         "綜覽",
         "外汇",
         "外匯",
-        "商品",
         "债券",
         "債券",
         "资产",
@@ -172,12 +165,38 @@ def is_obvious_page_widget_text(text):
         "EURUSD.OTC",
         "USDJPY.OTC",
         "XAUUSD.OTC",
-        "WTI原油",
+        "财经",
+        "日历",
     ]
 
     hit_count = sum(1 for k in widget_keywords if k in text)
 
     return hit_count >= 3
+
+
+def is_calendar_or_reminder_item(item):
+    headline = normalize_text(item.get("headline", ""))
+    content = normalize_text(item.get("content", ""))
+    text = headline + "\n" + content
+
+    calendar_keywords = [
+        "提醒：日内请重点关注",
+        "提醒：日內請重點關注",
+        "日内请重点关注",
+        "日內請重點關注",
+        "华尔街见闻早餐",
+        "華爾街見聞早餐",
+        "财经日历",
+        "財經日曆",
+        "小程序搜索",
+        "见闻历",
+        "見聞曆",
+    ]
+
+    if any(k in text for k in calendar_keywords):
+        return True
+
+    return False
 
 
 def is_junk_item(item):
@@ -189,10 +208,12 @@ def is_junk_item(item):
 
     text = headline + "\n" + content
 
-    if is_obvious_page_widget_text(text):
+    if is_page_widget_text(text):
         return True
 
-    # 過濾掉過短或非新聞內容
+    if is_calendar_or_reminder_item(item):
+        return True
+
     meaningful = re.sub(r"[^\w\u4e00-\u9fff]", "", headline)
 
     if len(meaningful) < 2:
@@ -206,9 +227,7 @@ def extract_news_items(text, now_tw):
     lines = split_inline_date_markers(raw_lines)
 
     items = []
-
     current_date = now_tw.date()
-    last_dt_tw = None
 
     i = 0
 
@@ -232,31 +251,6 @@ def extract_news_items(text, now_tw):
         minute = int(tm.group(2))
 
         dt_tw = make_datetime_tw(current_date, hour, minute)
-
-        # 這是關鍵：
-        # 快訊由新到舊排列，如果下一則時間突然比上一則更晚很多，
-        # 通常代表跨到前一天，例如 00:04 之後遇到 23:58。
-        if last_dt_tw and dt_tw > last_dt_tw + timedelta(minutes=10):
-            current_date = current_date - timedelta(days=1)
-            dt_tw = make_datetime_tw(current_date, hour, minute)
-            log(
-                "Adjusted by chronological order: "
-                + line
-                + " -> "
-                + dt_tw.strftime("%Y-%m-%d %H:%M")
-            )
-
-        # 第一筆如果被錯配成未來時間，才做保守修正。
-        # 這不是主要判斷，只是防呆。
-        while dt_tw > now_tw + timedelta(minutes=5):
-            current_date = current_date - timedelta(days=1)
-            dt_tw = make_datetime_tw(current_date, hour, minute)
-            log(
-                "Adjusted future datetime: "
-                + line
-                + " -> "
-                + dt_tw.strftime("%Y-%m-%d %H:%M")
-            )
 
         if i + 1 >= len(lines):
             i += 1
@@ -304,7 +298,6 @@ def extract_news_items(text, now_tw):
 
         items.append(item)
 
-        last_dt_tw = dt_tw
         i = j
 
     return items
@@ -368,8 +361,10 @@ def dedupe_items(items):
     return output
 
 
-def filter_items_after_start(items, fetch_start_tw):
+def filter_items_in_range(items, fetch_start_tw, now_tw):
     output = []
+
+    max_allowed_time = now_tw + timedelta(minutes=5)
 
     for item in items:
         dt = parse_item_datetime_tw(item)
@@ -377,8 +372,19 @@ def filter_items_after_start(items, fetch_start_tw):
         if not dt:
             continue
 
-        if dt >= fetch_start_tw:
-            output.append(item)
+        if dt < fetch_start_tw:
+            continue
+
+        if dt > max_allowed_time:
+            log(
+                "Drop future item: "
+                + item.get("datetime", "")
+                + " headline="
+                + item.get("headline", "")
+            )
+            continue
+
+        output.append(item)
 
     output.sort(key=lambda x: x.get("datetime", ""), reverse=True)
 
@@ -400,7 +406,6 @@ def main():
     log("Rule: " + rule)
 
     all_items = []
-    reached_start_count = 0
 
     with sync_playwright() as p:
         log("Launching Chromium...")
@@ -449,11 +454,11 @@ def main():
 
             all_items = dedupe_items(all_items + clean_items)
 
-            all_oldest_tw = get_oldest_datetime_tw(all_items)
-            all_latest_tw = get_latest_datetime_tw(all_items)
+            oldest_tw = get_oldest_datetime_tw(all_items)
+            latest_tw = get_latest_datetime_tw(all_items)
 
-            oldest_str = all_oldest_tw.strftime("%Y-%m-%d %H:%M") if all_oldest_tw else "None"
-            latest_str = all_latest_tw.strftime("%Y-%m-%d %H:%M") if all_latest_tw else "None"
+            oldest_str = oldest_tw.strftime("%Y-%m-%d %H:%M") if oldest_tw else "None"
+            latest_str = latest_tw.strftime("%Y-%m-%d %H:%M") if latest_tw else "None"
 
             log(
                 f"Scroll {scroll_no}: "
@@ -471,23 +476,11 @@ def main():
 
             previous_count = len(all_items)
 
-            if all_oldest_tw and all_oldest_tw <= fetch_start_tw:
-                reached_start_count += 1
-                log(
-                    "Reached start candidate "
-                    + str(reached_start_count)
-                    + "/5, oldest_tw="
-                    + all_oldest_tw.strftime("%Y-%m-%d %H:%M")
-                )
-
-                if reached_start_count >= 5:
-                    log("Reached required Taiwan start time for 5 consecutive checks. Stop scrolling.")
-                    break
-            else:
-                reached_start_count = 0
-
-            if scroll_no >= 15 and no_growth_count >= 5:
-                log("No new clean items for 5 consecutive scrolls. Stop scrolling.")
+            # 注意：
+            # 不再用 oldest_tw <= fetch_start_tw 來停止。
+            # 因為頁面中的財經日曆 / 提醒區可能含有 09:30 這種假新聞時間。
+            if scroll_no >= 15 and no_growth_count >= 8:
+                log("No new clean items for 8 consecutive scrolls. Stop scrolling.")
                 break
 
             page.mouse.wheel(0, 2200)
@@ -498,7 +491,7 @@ def main():
     clean_all_items = [item for item in all_items if not is_junk_item(item)]
     clean_all_items = dedupe_items(clean_all_items)
 
-    filtered_items = filter_items_after_start(clean_all_items, fetch_start_tw)
+    filtered_items = filter_items_in_range(clean_all_items, fetch_start_tw, now_tw)
 
     latest_tw = get_latest_datetime_tw(filtered_items)
     oldest_tw = get_oldest_datetime_tw(filtered_items)
