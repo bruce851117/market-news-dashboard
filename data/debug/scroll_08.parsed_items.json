@@ -1,5 +1,293 @@
 [
   {
+    "datetime": "2026-06-30 17:51",
+    "headline": "【恒尚节能：拟购买金胜电子100%股权 切入存储领域】",
+    "content": "恒尚节能6月30日公告，公司拟通过发行股份及支付现金的方式购买沈嘉琦、青岛鼎量、谭勇、银河芯云、沈金良、海松领航、赵旭等7名交易对方合计持有的金胜电子100%股权，并募集配套资金，交易价格预计不超过6亿元。标的公司主要从事存储器的研发设计、生产制造及销售，本次交易完成后，上市公司将切入存储领域。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:47",
+    "headline": "【工信部等八部门：推动工业互联网基础设施和智算设施、超算设施等算力基础设施一体规划、同步建设】",
+    "content": "工信部等八部门印发《关于推动工业互联网高质量发展的实施意见》。其中提到，推动工业互联网基础设施和智算设施、超算设施等算力基础设施一体规划、同步建设。探索构建工业算力网络体系，加强端边云多层级算力动态协同能力，满足各类主体业务发展算网存用需求。依托一体化算力网，强化算力互联互通，加强智能、边缘算力匹配供给，增强对海量异构数据高速处理和深度加工能力，深度赋能工业领域大模型训练、工业元宇宙实时交互等场景。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:43",
+    "headline": "【工信部等八部门：到2030年建设5万张工业5G专网】",
+    "content": "工信部等八部门印发《关于推动工业互联网高质量发展的实施意见》的通知。到2030年，工业互联网实现更广范围、更深程度、更高水平发展，推动实体经济和数字经济深度融合迈上新台阶。新型基础设施实现规模化部署，建设5万张工业5G专网，标识解析服务企业范围不断拓展，打造5个左右具有国际影响力的综合型平台，初步构建较为完备的工业数据基础制度体系。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:37",
+    "headline": "英国国防大臣：英国将投入史上最大规模无人机相关投资。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:32",
+    "headline": "【数据显示29日24艘油轮及商船通过霍尔木兹海峡】",
+    "content": "当地时间6月30日，航运分析机构克普勒公司发布数据显示，29日共有24艘油轮及商船通过霍尔木兹海峡。（央视新闻）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:20",
+    "headline": "【优必选正式发布超仿生人形机器人，顶配版售价99万元】",
+    "content": "6月30日，深圳，优必选正式发布消费级人形机器人品牌“优世界”的超仿生人形机器人U1系列，分为Lite、Pro和Ultra三个版本。Lite版本售价11.98万元，Pro版售价16.98万元，Ultra售价99万元（男款）和88万元（女款）。据介绍，U1系列线上线下订单已超1.3万台，将于9月16日开始交付。(澎湃新闻)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:18",
+    "headline": "知情人士：美的考虑最早于2027年让旗下机器人制造商德国库卡在中国上市。（彭博）",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:15",
+    "headline": "【董明珠：出口没做好，接下来加快改进】",
+    "content": "6月30日，格力电器董事长董明珠在公司2025年年度股东会上与投资者互动时表示，公司出口没做好，接下来加快改进。她还表示，格力电器海外销售渠道变革迫在眉睫，接下来模式要做重大改革。从市场看，格力电器在海外还有巨大空间，因为产品已经从空调拓展到多品类。（一财）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:11",
+    "headline": "【香港金管局：5月底香港外汇基金总资产增加367亿港元至4.39万亿港元】",
+    "content": "香港金融管理局公布，截至2026年5月31日，外汇基金总资产为43,907亿港元，较4月底增加367亿港元。其中，外币资产增加398亿港元，港元资产则减少31亿港元。外币资产增加，主要由于利息收入及投资按市价重估，以及发行政府债券所得的款项，但有关增幅因已购入但未结算证券的月底余额减少而被部分抵销。港元资产减少，主要因香港股票按市价重估。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:08",
+    "headline": "晋控电力：设立全资子公司并投资建设塔山三期2×100万千瓦煤电项目，项目估算总投资78.31亿元。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:08",
+    "headline": "【永太科技：预计上半年净利润2.65亿元—3.3亿元，同比增长350.68%—461.22%】",
+    "content": "永太科技公告，预计2026年上半年净利润为2.65亿元—3.3亿元，同比增长350.68%—461.22%。报告期内，受益于新能源汽车及储能市场需求的快速增长，公司六氟磷酸锂、双氟磺酰亚胺锂（LiFSI）、碳酸亚乙烯酯（VC）及电解液等锂电材料类核心产品销量与价格均同比提升；同时，2025年底新投产的5000吨/年的VC产能亦稳步释放，共同构成了营收规模扩大与经营效益持续向好的双重引擎，推动业绩实现同比增长。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:06",
+    "headline": "【永和股份：全资子公司投资19.14亿元建设邵武永和氟材料及中试基地项目】",
+    "content": "永和股份公告，全资子公司邵武永和金塘新材料有限公司拟投资19.14亿元建设邵武永和氟材料及中试基地项目，预计建设周期为60个月。项目主要内容包括新增用地面积400亩，建设多种氟材料装置和研发中试基地等配套设施。项目资金来源为公司自有资金和银行贷款。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:06",
+    "headline": "劳埃德银行（Lloyds）将在2030年重点拓展财富管理和职场养老金业务。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:04",
+    "headline": "【圆通速递：预计2026年上半年净利润同比增长69.34%到85.73%】",
+    "content": "圆通速递公告，预计2026年半年度实现归属于母公司所有者的净利润31亿元到34亿元，较上年同期增加12.69亿元到15.69亿元，同比增长69.34%到85.73%。报告期内，行业持续落实反内卷相关举措，竞争秩序逐步改善，终端价格合理修复，推动行业经营环境边际向好；同时，近年来公司全面推进人工智能转型，深化前沿技术在快递物流的垂直应用，推动AI应用与组织管理、业务场景的深度融合，多维度提升全链路运营效率，降低干线运输、中转操作及末端履约等环节的综合成本，改善服务质量和客户体验，增强市场拓展能力，品牌价值和溢价显著增强，带动经营业绩同比大幅增长。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:02",
+    "headline": "【受权发布｜退役军人就业创业促进条例】",
+    "content": "据新华社，引导退役军人树立正确的择业观念，通过教育培训、就业支持、创业扶持等措施，促进退役军人高质量充分就业。 各级人民政府应当加强对退役军人就业创业的指导和服务，推动机关、群团组织、企业事业单位等各负其责、密切配合，形成支持退役军人就业创业的合力。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:01",
+    "headline": "【中矿资源：全资子公司合计年产6.5万吨锂盐生产线临时停产检修】",
+    "content": "中矿资源公告称，公司全资子公司江西中矿锂业因自产锂精矿运输周期与生产调度错配，自2026年6月30日起对“年产3万吨高纯锂盐”生产线临时停产检修，7月11日起对“年产3.5万吨高纯锂盐”生产线局部低负荷运行，预计7月底前完成。公司表示，短期锂盐产量下降，但下游需求旺盛，全年产销量不会受重大不利影响，并将提升锂精矿发运效率及推进硫酸锂项目建设。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:01",
+    "headline": "中国中车：公司及下属企业于近期（主要为2026年4-6月）签订了若干项重大合同，合计金额约516.4亿元人民币。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:00",
+    "headline": "意大利6月CPI同比初值",
+    "content": "今值: 3% ， 预期: 3.2% ， 前值: 3.2%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:00",
+    "headline": "意大利6月CPI环比初值",
+    "content": "今值: 0% ， 预期: 0.2% ， 前值: 0.4%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 17:00",
+    "headline": "意大利6月调和CPI环比初值",
+    "content": "今值: 0.1% ， 预期: 0.2% ， 前值: 0.3%",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:55",
+    "headline": "【告别“里三层外三层” 快递强制性国标明起实施】",
+    "content": "7月1日起，我国首部针对快递过度包装的强制性国标——《限制快递过度包装要求》将正式实施。小件首饰、易碎水杯、生鲜土特产……这类特殊物品曾是快递过度包装的“重灾区”。以往，行业普遍采用“大箱套小件、多层气泡膜、胶带多圈缠绕”的打包方式。即将实施的新规明确：非易损易碎类物品快递包装层数不应超过2层，易损易碎类物品快递包装层数不应超过4层。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:54",
+    "headline": "【广东金融监管局：今年前5个月辖内金融纠纷调解组织成功调解协议金额近14亿元】",
+    "content": "从广东金融监管局获悉，广东金融监管局、人民银行广东省分行、广东证监局、广东省高级人民法院近期联合印发《关于推进广东金融纠纷调解工作高质量发展的实施意见》，提出加强调解组织规范建设、建立健全调解工作机制、拓展调解组织功能作用、提升调解数智化水平、加强调解工作支撑保障22条措施。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:52",
+    "headline": "【纳指ETF易方达提示二级市场溢价风险】",
+    "content": "易方达基金管理有限公司公告，公司旗下易方达纳斯达克100交易型开放式指数证券投资基金（QDII）（场内简称：纳指ETF易方达；基金代码：159696）二级市场交易价格明显高于基金份额参考净值（IOPV），出现较大幅度溢价。特此郑重提醒广大投资者，应密切关注二级市场交易价格溢价风险，审慎做出投资决策，如盲目投资，可能遭受重大损失。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:52",
+    "headline": "深圳发行15年期其他专项地方债，规模13.2323亿元，发行利率2.1600%，边际倍数1.62倍，倍数预期2.12；",
+    "content": "深圳发行30年期其他专项地方债，规模17.0650亿元，发行利率2.4100%，边际倍数2.10倍，倍数预期2.39。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:51",
+    "headline": "【交通运输部：全面评估内河客运航线和渡口的安全条件，不合格的全部关停】",
+    "content": "国新办举行新闻发布会，介绍推进水运高质量发展有关情况。交通运输部海事局局长徐伟在会上说，内河交通是综合交通运输体系的重要组成部分，2025年，我国内河港口货物吞吐量超过67亿吨，发送旅客达3.27亿人次。近年来，内河交通安全形势总体保持稳定。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:49",
+    "headline": "【徐大堡核电500千伏送出工程全线送电成功】",
+    "content": "今天上午，徐大堡核电500千伏送出工程全线送电成功，该工程是为徐大堡核电厂机组并网送电打造。工程全面投运后，每年可外送百亿千瓦时绿色电能，保障大量企业生产用电，同时大幅削减碳排放。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:48",
+    "headline": "【美国已通过援乌武器机制获得超60亿美元】",
+    "content": "当地时间6月29日，美国常驻北约代表惠特克在接受采访时表示，通过美国与北约提出的“乌克兰优先需求清单”机制，美国已收到超过60亿美元资金，美国计划继续推进该机制。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:48",
+    "headline": "深圳发行5年期其他专项地方债，规模51.5900亿元，发行利率1.4900%，边际倍数5.04倍，倍数预期1.46；",
+    "content": "深圳发行10年期其他专项地方债，规模40.9540亿元，发行利率1.7900%，边际倍数2.36倍，倍数预期1.76； 深圳发行15年期其他专项地方债，规模8.6400亿元，发行利率2.2000%，边际倍数2.28倍，倍数预期2.11； 深圳发行20年期其他专项地方债，规模30.9650亿元，发行利率2.3500%，边际倍数2.25倍，倍数预期2.29； 深圳发行20年期其他专项地方债，规模14.4750亿元，发行利率2.3500%，边际倍数2.40倍，倍数预期2.30； 深圳发行30年期其他专项地方债，规模3.0400亿元，发行利率2.4200%，边际倍数4.55倍，倍数预期2.38； 深圳发行10年期其他专项地方债，规模3.0000亿元，发行利率1.7900%，边际倍数2.12倍，倍数预期1.76。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:47",
+    "headline": "【我国首个550兆瓦F级燃机项目全容量投产发电】",
+    "content": "今天（30日），我国首个550兆瓦F级燃机项目——华电重庆潼南燃机项目实现全容量投产发电。项目总装机容量110万千瓦，装配的两台发电机组，是目前国内同类型设备中单机发电容量最大、联合循环发电效率最高的设备。机组采用燃气、蒸汽梯级发电模式，能减少热能损耗，最大化回收余热，实现“一份燃气、两次发电”。（央视）",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:42",
+    "headline": "【伊朗代理防长：将“毫不犹豫”回应违反停火协议行为】",
+    "content": "据伊朗塔斯尼姆通讯社6月30日报道，伊朗代理国防部长伊本·礼萨当天表示，伊朗将密切关注停火协议执行情况，若协议遭到违反，伊方将“毫不犹豫地”采取回应措施。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:41",
+    "headline": "北欧航空订购多达40架空客的宽体飞机，价值超过100亿美元。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:37",
+    "headline": "【香港交易所落实简化每手买卖单位框架】",
+    "content": "香港交易及结算所有限公司就优化香港证券市场每手买卖单位框架的咨询文件刊发咨询总结。本次咨询共收到85份来自新股市场及二级市场不同参与者的回应意见。回应人士踊跃支持建议的所有优化措施，并肯定改革方向有助提高营运效率及降低香港证券市场投资门槛。 在考虑市场意见后，香港交易所决定对适用证券（包括股票及房地产投资信托基金）推行以下每手买卖单位框架优化措施：将每手价值指引下限从2,000港元降至1,000港元；为每手股数大于100股的发行人，增设50,000港元的每手价值指引上限；及标准化每手股数为指定的八种：每手1股、50股、100股、500股、1,000股、2,000股、5,000股和10,000股。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:35",
+    "headline": "财政部：1-5月全国国有及国有控股企业营业总收入同比下降0.7%，利润总额同比增长3.5%。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:30",
+    "headline": "在岸人民币兑美元北京时间16:30官方收报6.7852，较上一交易日官方收盘价涨77点，较上日夜盘收盘涨108点。",
+    "content": "",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:28",
+    "headline": "【央视网评|寒武纪市值破万亿：里程碑前，更需一份清醒定力】",
+    "content": "央视网评发文称，6月30日，寒武纪市值突破万亿元，成为科创板具有里程碑意义的硬科技企业。在科创板即将迎来开市七周年之际，这不仅是资本市场的一个标志性事件，更是观察A股科创生态迭代与国产算力产业突围的关键节点。 但越是市场关注的焦点，越要褪去市值光环，清醒看待当前挑战。 其一，估值与业绩的匹配压力不容忽视。当前市场对AI赛道预期较高，估值中既包含企业自身的技术进步，也隐含了外部环境带来的国产替代红利。高估值是把双刃剑，既能为研发提供弹药，也意味着一旦后续产品落地或业绩释放不及预期，面临估值回调的压力。 相关文章： 央视评寒武纪市值破万亿：里程碑前，更需一份清醒定力",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 16:25",
+    "headline": "【中上协：5月全市场新增首发上市公司13家，首发募资总额111.1亿元】",
+    "content": "中上协发布5月统计月报。截至2026年5月31日，境内股票市场（以下简称“全市场”）共有上市公司5532家，沪、深、北证券交易所分别为2318家、2897家、317家。分股份类型看，仅发A股公司5265家，A+H、A+B等多股份类型公司260家，仅发B股公司7家。5月，全市场新增首发上市公司13家，首发募资总额111.1亿元，其中民营上市公司12家；无公司退市。全市场国有控股上市公司、民营上市公司数量占比保持稳定，分别为27%、63%。5月末收盘价计算，全市场境内股份总市值117.4万亿元，较年初增长8.5万亿元。其中，电子、半导体、通信设备及技术服务行业市值保持连续高增长，合计市值较年初增长8.8万亿元。",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
     "datetime": "2026-06-30 16:20",
     "headline": "【明确产品分类及命名规则 两项脑机接口医疗器械指导原则发布】",
     "content": "从国家药监局获悉，《脑机接口医疗器械产品分类界定指导原则》《脑机接口医疗器械通用名称命名指导原则》已发布，两项指导原则自发布之日起施行。 据了解，新发布的《脑机接口医疗器械产品分类界定指导原则》明确脑机接口医疗器械是指：通过侵入或非侵入的方式，测量中枢神经系统产生的神经信号并实时解码，实现患者与外部辅助或诊疗设备的实时双向交互或闭环反馈，达到改善、修复或替代中枢神经系统功能等临床效果的有源医疗器械。",
@@ -672,38 +960,6 @@
     "timezone": "Asia/Taipei"
   },
   {
-    "datetime": "2026-06-30 14:00",
-    "headline": "英国一季度商业投资总额同比终值",
-    "content": "今值: -1.31% ， 预期: -1.8% ， 前值: -1.8%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:00",
-    "headline": "英国一季度GDP同比终值",
-    "content": "今值: 0.9% ， 预期: 1.1% ， 前值: 1.1%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:00",
-    "headline": "英国一季度私人家庭消费支出季环比终值",
-    "content": "今值: 0.6% ， 预期: 0.6% ， 前值: 0.6%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 14:00",
-    "headline": "英国一季度经常帐(亿英镑)",
-    "content": "今值: -221 ， 预期: -213 ， 前值: -184",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
     "datetime": "2026-06-30 13:54",
     "headline": "【印度东部一炼化厂起火 多人受伤】",
     "content": "当地时间30日凌晨，印度东部西孟加拉邦霍尔迪亚区一家炼化厂发生火灾，造成至少十余人受伤。据当地警方通报，其中几名伤者情况危重，已被送往医院接受治疗。据悉，火灾发生在当地时间凌晨4时至5时之间，炼化厂一条输送石脑油的管道起火。炼化厂运营方霍尔迪亚石油化工有限公司表示，事故可能关联偷窃石脑油活动，具体原因仍在调查中。 (央视新闻)",
@@ -795,6 +1051,14 @@
     "datetime": "2026-06-30 13:00",
     "headline": "日本5月新屋开工同比",
     "content": "今值: 33.86% ， 预期: 31.9% ， 前值: 11.4% (修正: 11.36%)",
+    "source": "華爾街見聞",
+    "url": "https://wallstreetcn.com/live/global",
+    "timezone": "Asia/Taipei"
+  },
+  {
+    "datetime": "2026-06-30 13:00",
+    "headline": "日本5月新屋开工年化户数(万户)",
+    "content": "今值: 75.7 ， 预期: 73 ， 前值: 72.4",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
@@ -1011,270 +1275,6 @@
     "datetime": "2026-06-30 11:01",
     "headline": "隔夜SHIBOR报1.3600%，上涨0.40个基点。",
     "content": "7天SHIBOR报1.4580%，上涨0.80个基点。 3个月SHIBOR报1.4380%，上涨0.10个基点。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 11:00",
-    "headline": "寒武纪日内涨超7%再创历史新高，市值突破1万亿元。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:43",
-    "headline": "创业板指涨超2%，沪指跌0.24%，深成指涨1.68%，玻璃基板、CPO、消费电子、商业航天等方向领涨，沪深京三市上涨个股超2500只。",
-    "content": "相关文章： A股上半年收官！创业板涨超35%，科创50暴涨64%，算力硬件、芯片半导体全线飙涨",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:36",
-    "headline": "印尼基准股指日内跌幅扩大至3%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:36",
-    "headline": "PCB概念股震荡走强，方正科技封涨停，明阳电路、胜宏科技、大族激光、生益电子、沪电股份均涨超7%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:32",
-    "headline": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报155950元/吨，较上日16:30价格上涨6150元/吨。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:26",
-    "headline": "A股机器人概念股震荡走强，春光科技、锋龙股份拉升封板，弘亚数控、中坚科技此前涨停，乔锋智能、昊志机电涨超10%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:24",
-    "headline": "江西发布暴雨橙色预警和洪水蓝色预警。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:18",
-    "headline": "山西发行5年期一般债地方债，规模4.6000亿元，发行利率1.4900%，边际倍数4.13倍，倍数预期1.49；",
-    "content": "山西发行10年期棚改专项地方债，规模2.8000亿元，发行利率1.8200%，边际倍数1.50倍，倍数预期1.79； 山西发行10年期其他专项地方债，规模4.1000亿元，发行利率1.7900%，边际倍数1.22倍，倍数预期1.79； 山西发行15年期其他专项地方债，规模6.8000亿元，发行利率2.1800%，边际倍数1.07倍，倍数预期2.15； 山西发行20年期其他专项地方债，规模34.5000亿元，发行利率2.3400%，边际倍数1.25倍，倍数预期2.35； 山西发行30年期其他专项地方债，规模13.9000亿元，发行利率2.4000%，边际倍数2.51倍，倍数预期2.40； 山西发行15年期其他专项地方债，规模44.6000亿元，发行利率2.1700%，边际倍数2.60倍，倍数预期2.15； 山西发行15年期其他专项地方债，规模96.2500亿元，发行利率2.1600%，边际倍数3.76倍，倍数预期2.15； 山西发行15年期其他专项地方债，规模72.2500亿元，发行利率2.1600%，边际倍数2.54倍，倍数预期2.15； 山西发行10年期一般债地方债，规模110.4000亿元，发行利率1.7900%，边际倍数1.22倍，倍数预期1.79。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:18",
-    "headline": "印尼基准股指日内跌幅扩大至2%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:08",
-    "headline": "农发行发行7年期债券，规模30亿元，发行利率0.0000%，预期1.6300%，投标倍数1.00倍，边际倍数1.00倍。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:07",
-    "headline": "印尼基准股指日内跌1%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:06",
-    "headline": "恒指日内跌幅扩大至1%，农夫山泉跌近8%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 10:04",
-    "headline": "农发行发行2年期债券，规模40亿元，发行利率1.4105%，预期1.4300%，投标倍数1.00倍，边际倍数1.00倍。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:53",
-    "headline": "京东方A成交额超150亿元，日内涨超8%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:51",
-    "headline": "CPO概念股震荡拉升，锐捷网络触及20cm涨停，星网锐捷此前封板，智立方涨超10%，太辰光、铭普光磁、立讯精密涨幅居前。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:47",
-    "headline": "创业板指涨超1%，沪指跌0.28%，深成指涨0.94%，玻璃基板、消费电子、CPO、商业航天等方向领涨，沪深京三市上涨个股近3000只。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:42",
-    "headline": "A股商业航天概念异动拉升，中天火箭直线涨停，金风科技触及涨停，盛路通信、天银机电、航宇科技、广联航空跟涨。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:38",
-    "headline": "玻璃基板概念反复活跃，莱宝高科3天2板，雷曼光电涨超12%，长信科技、帝尔激光、京东方A、彩虹股份、华映科技等多股涨超6%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:35",
-    "headline": "【国家统计局：高技术制造业持续向好】",
-    "content": "6月高技术制造业PMI为53.5%，比上月上升0.6个百分点，明显高于制造业总体，高端制造发展持续向好，引领作用进一步增强；装备制造业和消费品行业PMI分别为52.5%和50.2%，比上月上升0.4个和0.5个百分点，行业景气度有所增强；高耗能行业PMI为47.1%，与上月持平。 相关文章： 中国6月制造业PMI升至50.3重返扩张区间，非制造业商务活动指数继续扩张",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:35",
-    "headline": "国家统计局：6月服务业商务活动指数为50.4%，比上月上升0.1个百分点，景气水平有所上升。",
-    "content": "建筑业商务活动指数为49.0%，比上月上升0.2个百分点，景气水平小幅回升。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:34",
-    "headline": "澳洲联储会议纪要：委员们注意到房地产市场可能出现实质性疲软的风险。",
-    "content": "房地产市场走软、预计住房信贷放缓是金融状况趋紧的迹象。 委员会注意到，受加息和税收政策变化影响，房地产市场比预期更为疲软。 生产率持续疲软可能会阻碍通胀回归目标的进程。 近期数据错综复杂，但表明经济正大致如预期般放缓。 讨论了数据中心活动的强劲增长是否会加剧经济中的产能压力。 居民家庭支出增长并未出现实质性走软。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:32",
-    "headline": "【国家统计局：6月大、中型企业制造业PMI均高于临界点】",
-    "content": "6月制造业大型企业PMI为50.7%，继续保持扩张；中型企业PMI为50.5%，比上月上升1.9个百分点，景气水平明显回升；小型企业PMI为48.2%，景气水平有所回落。 相关文章： 中国6月制造业PMI升至50.3重返扩张区间，非制造业商务活动指数继续扩张",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:31",
-    "headline": "澳洲联储会议纪要：政策需要保持限制性，以消除经济中的超额需求。",
-    "content": "委员会认为，利用此前加息所带来的空间来评估经济状况是有价值的。 维持利率不变将最平衡通胀与就业目标。 经济运行存在超额需求，通胀压力广泛存在。 将采取必要措施实现价格稳定，包括在必要时加息。 中东冲突仍对通胀构成实质性的上行风险，对增长构成下行风险。 委员会一致认为，目前的金融状况可能已经具有一定的限制性。 持续的高油价可能会传导至价格和薪资制定行为。",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:30",
-    "headline": "中国6月官方综合PMI",
-    "content": "今值: 50.6 ， 预期: - - ， 前值: 50.5",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:30",
-    "headline": "中国6月官方制造业PMI",
-    "content": "今值: 50.3 ， 预期: - - ， 前值: 50",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:30",
-    "headline": "中国6月官方非制造业PMI",
-    "content": "今值: 50.2 ， 预期: - - ， 前值: 50.1",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:30",
-    "headline": "澳大利亚5月私营企业贷款环比",
-    "content": "今值: 0.7% ， 预期: 0.6% ， 前值: 0.7%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:30",
-    "headline": "澳大利亚5月私营企业贷款同比",
-    "content": "今值: 8.2% ， 预期: - - ， 前值: 8%",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:29",
-    "headline": "中证转债指数开盘上涨0.04%。中汽转债、N迪威转、银微转债、斯达转债、正帆转债涨幅居前，分别涨30.00%、30.00%、12.28%、4.59%、3.37%。集智转债、鼎龙转债、皓元转债、文科转债、微芯转债跌幅居前，分别跌2.52%、2.38%、1.52%、1.47%、1.44%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:29",
-    "headline": "国债期货开盘，30年期主力合约涨0.02%，10年期主力合约涨0.03%，5年期主力合约涨0.01%，2年期主力合约涨0.01%。",
-    "content": "",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:25",
-    "headline": "上证指数开盘报4058.17点，跌0.39%。",
-    "content": "深证成指开盘报15811.67点，跌0.01%。 创业板指开盘报4217.63点，涨0.02%。 沪深300开盘报4914.49点，跌0.25%。 科创50开盘报2132.88点，涨0.32%。 中证500开盘报8815.11点，跌0.07%。 中证1000开盘报8574.25点，跌0.27%。 相关文章： A股上半年收官！创业板涨超35%，科创50暴涨64%，算力硬件、芯片半导体全线飙涨",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:22",
-    "headline": "【中国央行公开市场逆回购操作6695亿元 单日净回笼1550亿元】",
-    "content": "中国央行今日开展695亿元7天期逆回购操作，操作利率1.4%，与此前持平。今日有5245亿元7天期逆回购到期。同时，中国央行进行6000亿元隔夜逆回购操作，今日有3000亿元隔夜逆回购到期。 相关文章： 央行月末操作“一增一减”：隔夜逆回购翻倍至6000亿，精准熨平跨季资金面",
-    "source": "華爾街見聞",
-    "url": "https://wallstreetcn.com/live/global",
-    "timezone": "Asia/Taipei"
-  },
-  {
-    "datetime": "2026-06-30 09:21",
-    "headline": "恒指低开0.08%，报23007.87点；恒生科技指数涨0.54%。百度涨近6%，小鹏集团涨超4%。",
-    "content": "",
     "source": "華爾街見聞",
     "url": "https://wallstreetcn.com/live/global",
     "timezone": "Asia/Taipei"
