@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-30 08:04",
+  "generated_at": "2026-06-30 08:21",
   "timezone": "Asia/Taipei",
   "source": "https://wallstreetcn.com/live/global",
   "fetch_start_time": "2026-06-29 17:00",
-  "fetch_end_time": "2026-06-30 08:03",
+  "fetch_end_time": "2026-06-30 08:20",
   "raw_count": 100,
-  "count": 18,
+  "count": 21,
   "categories": {
     "bond": "債市",
     "equity": "股市",
@@ -15,28 +15,44 @@
     "commodity": "商品"
   },
   "brief_points": [
-    "美联储抗通胀决心恐遭低估，加上AI算力回报审视趋严，风险资产面临回调压力。",
-    "以色列扬言对伊朗采取独立军事行动，中东地缘风险升温，需留意能源供应与避险情绪。",
-    "伊朗要求重划霍尔木兹海峡航线并拒绝合作，加剧航运安全风险，可能抵销油价下行压力。",
-    "摩根士丹利下调油价预测，主因霍尔木兹海峡重开速度超预期，全球供需结构正进行调整。",
-    "美国最高法院扩大总统解职官员权力，引发市场对美联储货币政策独立性的担忧。",
-    "中国央行首度开展隔夜逆回购，显示对季末流动性的精细化管理，7天期利率仍为政策基准。",
-    "欧洲央行行长拉加德暗示经济韧性赋予升息空间，政策立场维持紧缩倾向。",
-    "AI算力需求推升数据中心高压架构，第三代半导体SiC与GaN供应链具长期成长潜力。",
-    "日本5月工业产出疲软，显示制造业动能不足，可能影响日本央行对经济前景的评估。"
+    "市場低估Fed抗通膨決心，加上AI算力回報疑慮，風險資產面臨回調壓力。",
+    "以色列揚言對伊朗採取軍事行動，中東地緣風險升溫，能源與避險資產波動加劇。",
+    "前日銀理事暗示加息時點可能早於12月，日圓匯率與日債殖利率面臨上行壓力。",
+    "美國擬調整PCE統計方法，市場擔憂數據失真，恐干擾Fed利率路徑判斷。",
+    "摩根士丹利下調油價預測，主因霍爾木茲海峽重開及供需結構轉向寬鬆。",
+    "中國央行首度開展隔夜逆回購，旨在精細化管理季末流動性，維持政策穩定。",
+    "美股科技與半導體領漲，市場廣度改善，但需留意熱門概念股的業績驗證壓力。",
+    "歐央行總裁拉加德暗示經濟具韌性，未來政策路徑可能更偏向鷹派。",
+    "美國最高法院擴大總統解職權力，引發市場對Fed政策獨立性的擔憂。",
+    "馬士基上調業績指引，反映全球集裝箱需求強勁，貿易活動呈現復甦跡象。"
   ],
   "items": [
+    {
+      "datetime": "2026-06-30 08:09",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "前日銀理事：下次加息可能早於12月",
+      "summary": "前日本央行理事Kenzo Yamamoto暗示，鑑於貨幣寬鬆程度，下次加息時點可能早於市場預期的12月。",
+      "content": "前日本央行理事Kenzo Yamamoto表示，日本央行需迅速行動以推動貨幣政策正常化，暗示下次加息時點可能早於市場普遍預期的12月，這將對日圓匯率及日債殖利率帶來上行壓力。",
+      "tags": [
+        "BOJ",
+        "JPY"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
     {
       "datetime": "2026-06-30 07:52",
       "category": "equity",
       "category_name": "股市",
-      "importance": 4,
-      "headline": "中金：第三代半導體受惠數據中心升級",
-      "summary": "AI算力需求推動高壓架構，SiC與GaN半導體將迎來大規模應用。",
-      "content": "中金指出，隨著AI算力走向高密度與高壓架構，SiC與GaN等第三代半導體器件將受惠於數據中心電源系統升級。預計2026年為高壓架構落地元年，相關供應鏈具備長期成長潛力。",
+      "importance": 3,
+      "headline": "中金：數據中心升級利好第三代半導體",
+      "summary": "AI算力需求推動高壓架構，SiC與GaN半導體將受惠於數據中心電源系統升級。",
+      "content": "中金指出，AI算力需求帶動數據中心轉向高壓架構，SiC與GaN等第三代半導體器件將在電源系統升級中扮演關鍵角色，預計2026年為落地元年，相關供應鏈長期成長空間大。",
       "tags": [
-        "AI",
         "Semiconductor",
+        "AI",
         "SiC",
         "GaN"
       ],
@@ -49,11 +65,27 @@
       "category_name": "經濟",
       "importance": 3,
       "headline": "日本5月工業產出數據疲軟",
-      "summary": "日本5月工業產出同比初值-1.7%，低於預期，顯示製造業動能仍顯疲態。",
-      "content": "日本5月工業產出同比初值為-1.7%，遠低於市場預期的1.3%，環比初值0.5%亦略低於預期。數據反映日本製造業生產活動復甦緩慢，可能影響BOJ對經濟前景的評估。",
+      "summary": "日本5月工業產出年減1.7%，不及預期，顯示製造業動能仍顯疲態。",
+      "content": "日本5月工業產出年減1.7%，低於市場預期的成長1.3%；環比成長0.5%，亦略低於預期。數據反映日本製造業復甦力道不足，可能影響BOJ對經濟前景的評估。",
       "tags": [
-        "BOJ",
-        "Japan"
+        "Japan",
+        "Economy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 07:15",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 4,
+      "headline": "美聯儲PCE統計方法擬調整",
+      "summary": "美國擬修改PCE價格指數統計方法，市場擔憂此舉旨在壓低核心通膨數據。",
+      "content": "報導指出美國將修改美聯儲青睞的通膨指標PCE統計方法，華爾街分析師擔憂此舉可能人為壓低核心通膨數據，進而影響市場對Fed利率路徑的判斷與定價。",
+      "tags": [
+        "Fed",
+        "PCE",
+        "Inflation"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -64,11 +96,11 @@
       "category_name": "商品",
       "importance": 4,
       "headline": "大摩下調油價預測",
-      "summary": "因霍爾木茲海峽重開速度快於預期，大摩下調未來油價預測。",
-      "content": "摩根士丹利將2026年第三季布蘭特原油價格預測下調15美元至75美元/桶，並調降後續季度預測。主因是霍爾木茲海峽重開速度超預期，加上全球供需結構調整，油價面臨下行壓力。",
+      "summary": "因霍爾木茲海峽重開速度快於預期，摩根士丹利下調未來油價預測。",
+      "content": "摩根士丹利將2026年第三季布蘭特原油價格預測下調15美元至75美元/桶，主因是霍爾木茲海峽重開速度超預期，加上美國出口強勁與中國進口疲軟，供需結構轉向寬鬆。",
       "tags": [
         "Oil",
-        "Energy"
+        "Commodity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -79,11 +111,41 @@
       "category_name": "央行",
       "importance": 4,
       "headline": "中國央行首度開展隔夜逆回購",
-      "summary": "人行操作3000億元隔夜逆回購，旨在精細化管理季末流動性。",
-      "content": "中國央行首次開展3000億元隔夜逆回購操作，顯示對短端流動性的精細化管理意圖。市場分析認為，此舉為7天期逆回購的補充，未來隔夜工具可能常態化，但7天期利率仍為主要政策基準。",
+      "summary": "中國央行開展3000億元隔夜逆回購，旨在精細化管理季末流動性。",
+      "content": "中國央行首次開展3000億元隔夜逆回購操作，市場解讀為對短端流動性的精細化管理，旨在緩解半年末跨季資金壓力，同時強調7天期逆回購利率仍為主要政策基準。",
       "tags": [
         "PBOC",
         "Liquidity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 06:21",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "A股密集提示热点概念风险",
+      "summary": "A股公司针对AI、人形机器人等热点概念密集发布风险提示，市场逻辑转向业绩验证。",
+      "content": "近期A股超50家公司针对AI服务器、光模块等热点概念发布异动公告。专家指出，市场估值逻辑正从“叙事驱动”转向“业绩验证”，缺乏核心技术与现金流支撑的炒作标的风险加大。",
+      "tags": [
+        "A-shares",
+        "AI"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 06:10",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "半导体ETF吸金，波动加剧",
+      "summary": "半导体主题ETF上周净流入超250亿元，机构提醒短期涨幅过大，后续波动将加大。",
+      "content": "上周半导体相关ETF合计净流入258.87亿元，百亿级规模ETF批量涌现。尽管景气度高，但部分基金经理认为短期涨幅过大，后续板块波动性将显著提升，需关注业绩兑现能力。",
+      "tags": [
+        "Semiconductor",
+        "ETF"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -93,9 +155,9 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "中欧启动贸易投资磋商机制",
-      "summary": "中欧正式成立贸易投资磋商机制，涵盖出口管制与知识产权等关键议题，旨在缓解双边经贸挑战。",
-      "content": "中欧贸易投资磋商机制首次会议召开，双方确认成立该机制，下设贸易投资平衡、出口管制、知识产权和世贸组织改革四大板块，并设立联合监测机制，旨在寻求切实可行的解决方案以处理双边经贸挑战。",
+      "headline": "中欧建立贸易投资磋商机制",
+      "summary": "中欧正式成立贸易投资磋商机制，涵盖出口管制与知识产权等四大板块，旨在缓解双边经贸挑战。",
+      "content": "中欧双方在欧盟总部召开首次会议，确认成立贸易投资磋商机制，下设贸易投资平衡、出口管制、知识产权和世贸组织改革四大板块，并设立联合监测机制，以寻求切实可行的解决方案处理经贸挑战。",
       "tags": [
         "EU",
         "China",
@@ -105,63 +167,32 @@
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 05:44",
+      "datetime": "2026-06-30 04:57",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "现货黄金跌破4020美元",
+      "summary": "受风险偏好回升影响，现货黄金周一跌约1.8%，一度逼近4000美元关口。",
+      "content": "随着美股走强，避险情绪降温，现货黄金全天震荡下行，跌幅达1.77%，报4016.36美元/盎司。COMEX黄金期货同步下跌，白银与铜价亦表现疲软。",
+      "tags": [
+        "Gold",
+        "Commodity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 04:25",
       "category": "equity",
       "category_name": "股市",
-      "importance": 3,
-      "headline": "Rocket Lab拟80亿美元收购铱星",
-      "summary": "Rocket Lab宣布收购铱星通讯，整合发射与卫星网络业务，意图挑战SpaceX与亚马逊。",
-      "content": "Rocket Lab同意以现金加股票方式收购铱星通讯（Iridium Communications），交易估值约80亿美元。此举旨在打造集卫星设计、制造、发射与运营于一体的综合通信平台，直接竞争SpaceX与亚马逊的低轨卫星网络业务。",
+      "importance": 4,
+      "headline": "美股科技股领涨，半导体强劲",
+      "summary": "美股周一收高，纳指100涨超2%，半导体板块领涨，市场风险偏好回升。",
+      "content": "美股周一表现强劲，标普500涨1.18%，纳指100涨2.26%。半导体ETF大涨3.33%，电信与可选消费板块表现优异。小盘股指与生物科技指数创历史新高，显示市场广度改善。",
       "tags": [
-        "Rocket Lab",
-        "Iridium",
-        "SpaceX"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 04:11",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 3,
-      "headline": "Digital Realty收购黑石数据中心股权",
-      "summary": "Digital Realty斥资35亿美元收购黑石旗下数据中心股权，显示AI基础设施需求持续强劲。",
-      "content": "数据中心运营商Digital Realty以35亿美元（含12亿现金及23亿股票）收购黑石集团在北弗吉尼亚州三座数据中心64%的股权，进一步扩张其AI与云端基础设施布局。",
-      "tags": [
-        "Digital Realty",
-        "Blackstone",
-        "DataCenter"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 03:53",
-      "category": "bond",
-      "category_name": "債市",
-      "importance": 3,
-      "headline": "美债收益率窄幅震盪",
-      "summary": "美债市场表现平稳，10年期美债收益率报4.3666%，市场关注后续通胀与政策预期。",
-      "content": "美债市场周一窄幅震盪，10年期美债收益率微跌0.2个基点至4.3666%，2/10年期利差收窄至26.8个基点。通胀保值债券（TIPS）收益率全线走低，反映市场对通胀预期的微调。",
-      "tags": [
-        "UST",
-        "YieldCurve"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 03:45",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 3,
-      "headline": "藤森庆子赢得秘鲁总统选举",
-      "summary": "右翼候选人藤森庆子胜选，秘鲁政局变动可能影响当地矿业政策与市场稳定性。",
-      "content": "秘鲁全国选举程序办公室确认右翼政党人民力量党候选人藤森庆子胜选。作为拉美重要矿产国，新政府的政策导向将直接影响当地矿业投资环境及金融市场稳定性。",
-      "tags": [
-        "Peru",
-        "Politics"
+        "Nasdaq",
+        "Semiconductor",
+        "US Equity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -171,12 +202,13 @@
       "category": "central_bank",
       "category_name": "央行",
       "importance": 4,
-      "headline": "拉加德：欧元区经济韧性提供升息空间",
-      "summary": "ECB行长拉加德暗示欧元区经济韧性增强，赋予ECB在应对通胀冲击时更灵活的升息空间。",
-      "content": "ECB行长拉加德表示，欧元区经济已建立抵御冲击的韧性，这使得ECB在面对未来通胀冲击时，能更从容地采取升息行动，而不必过度担忧引发金融压力。此表态暗示ECB政策立场可能维持紧缩倾向。",
+      "headline": "拉加德：歐元區經濟韌性提供升息空間",
+      "summary": "ECB總裁拉加德暗示經濟韌性增強，賦予央行在應對通膨衝擊時更靈活的升息空間。",
+      "content": "ECB總裁拉加德表示，歐元區經濟已建立抵禦衝擊的韌性，這使央行在必要時能更果斷地提高利率，而不必過度擔憂引發金融壓力，暗示未來政策路徑可能更偏向鷹派。",
       "tags": [
         "ECB",
-        "Inflation"
+        "Lagarde",
+        "InterestRate"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -186,12 +218,13 @@
       "category": "commodity",
       "category_name": "商品",
       "importance": 3,
-      "headline": "美国SPR库存降至1983年以来最低",
-      "summary": "美国战略石油储备（SPR）降至1983年以来新低，反映政府持续释放储备以平抑油价。",
-      "content": "美国能源部数据显示，SPR原油库存减少550万桶至3.257亿桶，创1983年5月以来最低水平。此举为美国释放1.72亿桶原油协议的一部分，显示政府对能源供应的干预力度。",
+      "headline": "美國戰略石油儲備降至1983年來最低",
+      "summary": "美國SPR庫存降至3.257億桶，創1983年以來新低，反映政府持續釋放儲備以平抑油價。",
+      "content": "根據美國能源部數據，戰略石油儲備（SPR）庫存減少550萬桶至3.257億桶，為1983年5月以來最低水平。此舉為政府釋放1.72億桶原油計劃的一部分，對能源供應與油價走勢具長期影響。",
       "tags": [
         "Oil",
-        "SPR"
+        "SPR",
+        "Energy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -201,10 +234,11 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "伊朗要求重划霍尔木兹海峡航线",
-      "summary": "伊朗要求重划霍尔木兹海峡航线并由其单独执行排雷，地缘政治紧张局势升温。",
-      "content": "伊朗副外长表示需重新划定霍尔木兹海峡通航航线，并强调排雷工作将由伊朗单独执行，拒绝与他国合作。此举与法国的联合排雷计划产生冲突，加剧了该地区航运安全的地缘政治风险。",
+      "headline": "伊朗擬重劃霍爾木茲海峽航線",
+      "summary": "伊朗要求重劃霍爾木茲海峽航線並將單獨執行排雷，地緣政治緊張局勢恐升溫。",
+      "content": "伊朗副外長表示將重劃霍爾木茲海峽通航航線，並強調排雷工作由伊方單獨執行，拒絕與他國合作。此舉與法國的聯合排雷計劃衝突，恐加劇波斯灣地區的地緣政治風險，影響能源運輸安全。",
       "tags": [
+        "Iran",
         "Geopolitics",
         "Oil"
       ],
@@ -212,16 +246,48 @@
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 01:23",
+      "datetime": "2026-06-30 02:22",
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "马士基上调全年业绩指引",
-      "summary": "航运巨头马士基因集装箱需求强劲，大幅上调全年EBITDA预期，带动航运股走高。",
-      "content": "马士基将全年基础EBITDA预期从45亿-70亿美元上调至80亿-100亿美元，远超市场预期。主要受惠于集装箱市场需求强劲及现货运价上涨，显示全球贸易物流需求仍具韧性。",
+      "headline": "蘋果供應鏈機密遭暗網曝光",
+      "summary": "蘋果印度供應商塔塔電子遭勒索軟體攻擊，iPhone 18 Pro機密文件外洩，恐影響生產體系。",
+      "content": "勒索軟體組織竊取蘋果供應商塔塔電子數據，並在暗網發布iPhone 18 Pro機型照片及敏感供應鏈名單。此事件威脅蘋果的生產管理體系，可能對相關供應鏈個股造成短期波動。",
+      "tags": [
+        "Apple",
+        "CyberSecurity",
+        "SupplyChain"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 01:23",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "馬士基上調全年業績指引",
+      "summary": "航運巨頭馬士基因集裝箱需求強勁，大幅上調全年EBITDA預期，顯示全球貿易需求回溫。",
+      "content": "航運巨頭馬士基將全年基礎EBITDA預期上調至80億-100億美元，遠高於先前預測。主因是集裝箱市場需求強勁及現貨運價持續上漲，反映全球供應鏈與貿易活動的復甦跡象。",
       "tags": [
         "Maersk",
-        "Shipping"
+        "Shipping",
+        "GlobalTrade"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 00:46",
+      "category": "bond",
+      "category_name": "債市",
+      "importance": 3,
+      "headline": "油價上漲推升德債殖利率",
+      "summary": "油價上漲引發通膨擔憂，導致德國兩年期國債殖利率走高，債市承壓。",
+      "content": "受油價上漲影響，市場對通膨預期升溫，德國兩年期國債殖利率漲超2個基點，結束此前五連漲走勢，顯示歐元區債市對能源價格波動高度敏感。",
+      "tags": [
+        "Bunds",
+        "Yield"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -231,25 +297,25 @@
       "category": "central_bank",
       "category_name": "央行",
       "importance": 5,
-      "headline": "城堡证券：美联储抗通胀决心被低估",
-      "summary": "城堡证券警告市场低估了美联储主席沃什的抗通胀决心，基本通胀压力仍高，风险资产恐承压。",
-      "content": "城堡证券指出，投资者低估了美联储主席凯文·沃什将通胀降至2%目标的决心。尽管近期油价下跌，但基本通胀压力依然高企，美联储加息理由并未削弱。此外，AI驱动的股市涨势正因算力价格下滑及回报审视加强而变得脆弱，风险资产面临回调压力。",
+      "headline": "城堡證券：市場低估Fed抗通膨決心",
+      "summary": "城堡證券警告，投資人低估Fed主席沃什的抗通膨決心，恐對風險資產造成壓力。",
+      "content": "城堡證券指出，儘管近期油價下跌，但基本通膨壓力仍高，Fed主席沃什將維持強硬立場。此外，AI驅動的股市漲勢因算力價格下滑及回報疑慮，正變得更加脆弱。",
       "tags": [
         "Fed",
         "Inflation",
-        "Equity"
+        "AI"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 00:21",
+      "datetime": "2026-06-30 00:17",
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "以色列防长：已做好对伊朗独立军事行动准备",
-      "summary": "以色列防长卡茨称以军已选定打击目标，若遭伊朗导弹袭击将实施震撼回击，地缘风险升温。",
-      "content": "以色列国防部长卡茨表示，以军已做好对伊朗采取独立军事行动的准备，并已选定打击目标。卡茨强调，若伊朗发射导弹，以方将实施震撼回击，甚至可能进入战争状态。市场需密切关注中东局势对能源供应及避险情绪的影响。",
+      "headline": "以防長：以軍已準備對伊採取軍事行動",
+      "summary": "以色列國防部長稱已選定伊朗境內打擊目標，地緣政治風險急劇升溫。",
+      "content": "以色列國防部長卡茨表示，以軍已做好對伊朗採取獨立軍事行動的準備，並重申在黎巴嫩的長期軍事存在。若伊朗發動攻擊，以方將實施震撼性回擊，市場需高度關注中東局勢對能源與避險資產的影響。",
       "tags": [
         "Israel",
         "Iran",
@@ -263,9 +329,9 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "美最高法院扩大总统解职联邦官员权力",
-      "summary": "最高法院裁定扩大总统解职高级官员权力，白宫对联邦机构掌控力增强，引发市场对政策独立性的担忧。",
-      "content": "美国最高法院以6比3投票推翻1935年判例，扩大总统解职联邦高级官员的权力。此举使白宫能更直接掌控独立联邦机构。美联储理事库克对此表示，美联储必须在不受政治干预下独立决策，市场担忧未来货币政策的独立性可能受到挑战。",
+      "headline": "美最高法院擴大總統解職官員權力",
+      "summary": "最高法院裁決擴大總統對聯邦機構的掌控權，可能影響Fed獨立性。",
+      "content": "美國最高法院推翻1935年判例，擴大總統解職聯邦高級官員的權力。此舉引發市場對行政權干預獨立機構（如Fed）的擔憂，Fed理事庫克已強調美聯儲需保持政策獨立性。",
       "tags": [
         "Fed",
         "US Politics",
@@ -279,28 +345,12 @@
       "category": "bond",
       "category_name": "債市",
       "importance": 3,
-      "headline": "德银：月底买盘料将使美债曲线趋平",
-      "summary": "德意志银行预计季末养老金买盘将支撑长端美债，导致收益率曲线趋于平缓。",
-      "content": "德意志银行策略师指出，受季末养老金及指数相关买盘推动，预计将有约444亿美元资金流入固定收益资产。这股买盘力量将对10年期至30年期美债形成支撑，导致美债收益率曲线呈现趋平倾向。",
+      "headline": "德銀：季末買盤將使美債曲線趨平",
+      "summary": "受養老金季末再平衡需求影響，預計美債殖利率曲線將趨於平緩。",
+      "content": "德意志銀行策略師預估，確定給付型養老金計劃將在6月底買入約444億美元固定收益資產，這將對10年期至30年期美債殖利率曲線產生走平壓力。",
       "tags": [
         "UST",
         "Yield Curve"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-29 23:09",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 3,
-      "headline": "美股上半年发行规模创2510亿美元新高",
-      "summary": "受AI基础设施融资需求驱动，美国上半年IPO及股票发行总额创历史新高，显示市场融资热度不减。",
-      "content": "彭博数据显示，截至6月26日，今年美国IPO及股票发行总额达2510亿美元，创下半年最高纪录。AI基础设施建设需求强劲，包括Anthropic等超大规模融资案持续推动市场活跃度，显示尽管宏观环境复杂，企业融资需求依然旺盛。",
-      "tags": [
-        "IPO",
-        "Equity",
-        "AI"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
