@@ -1,13 +1,165 @@
 {
-  "generated_at": "2026-06-30 12:00",
+  "generated_at": "2026-06-30 13:21",
   "fetch_start_time": "2026-06-29 17:00",
-  "fetch_end_time": "2026-06-30 12:00",
+  "fetch_end_time": "2026-06-30 13:21",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 320,
+  "count": 335,
   "items": [
+    {
+      "datetime": "2026-06-30 13:13",
+      "headline": "【上海市新增13款已完成登记的生成式人工智能服务】",
+      "content": "据“网信上海”微信公众号消息，截至6月30日，上海市新增13款已完成登记的生成式人工智能服务，累计已完成196款生成式人工智能服务登记。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 13:08",
+      "headline": "A股固态电池概念异动拉升，尚水智能20cm涨停，金银河、新宙邦涨超10%，北京利尔、德方纳米、当升科技、上海洗霸跟涨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 13:03",
+      "headline": "港股机器人概念午后走强，埃斯顿、优必选涨超10%，兆威机电涨超8%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 13:00",
+      "headline": "日本5月新屋开工同比",
+      "content": "今值: 33.86% ， 预期: 31.9% ， 前值: 11.4% (修正: 11.36%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 13:00",
+      "headline": "日本5月新屋开工年化户数(万户)",
+      "content": "今值: 75.7 ， 预期: 73 ， 前值: 72.4",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:56",
+      "headline": "【国家能源局：电网企业线上服务平台注册用户数达5.7亿户 用电业务线上办理率超97%】",
+      "content": "国家能源局今天发布《中国供电发展报告2026》，《报告》显示，我国已建成全球规模最大的电力供应体系，形成覆盖城乡、全域贯通的世界级巨型供电服务网络。《报告》显示，2025年，我国全社会用电量迈上新的里程碑，突破10万亿千瓦时大关，电力用户也接近8亿户，用户体量领跑全球，全国各地还设有供电服务网点9.9万个，从业者超56万人，推动我国供电能力和服务水平跻身国际第一方阵。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:52",
+      "headline": "【聚辰股份发布涨价函：Nor flash全系列涨价25%】",
+      "content": "聚辰股份发布涨价函：近期受全球半导体产业链波动影响，Nor Flash芯片核心原材料及晶圆、封测等生产环节成本持续攀升，导致公司整体生产成本上浮。为保障Nor Flash产品的稳定供应，公司决定对Nor flash全系列在现有价格基础上上调25%，自2026年7月6日起，所有新签订单及未交付订单的未执行部分均按新价格执行。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:49",
+      "headline": "【上海临港新片区芯港集成晶圆制造项目正式开工】",
+      "content": "据“上海临港”微信公众号，6月29日，临港新片区芯港集成项目开工仪式在万祥镇新路村项目现场正式举行。其中，一期项目计划于2026年第三季度启动建设，并于2027年底前交付使用。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:48",
+      "headline": "三星电子股价上涨6%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:45",
+      "headline": "【东芝推出采用最新一代工艺的80V N沟道功率MOSFET】",
+      "content": "东芝电子元件及存储装置株式会社宣布，推出采用东芝最新一代工艺U-MOS11-H制造的80V N沟道功率MOSFET——TPM1R408RH。该MOSFET面向AI数据中心和通信基站等工业设备的开关电源。新产品即日起开始出货。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:44",
+      "headline": "日本经济产业省将向新的AI企业提供3873亿日元支持。（日本共同社）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:35",
+      "headline": "【早间要闻汇总】",
+      "content": "创业板指半日涨超3%，寒武纪总市值突破万亿元。 恒指半日跌1.4%，恒生科技指数涨1.4%，中芯国际涨超7%。 日元兑美元跌破162.00关口，为四十年来首次。日本财务大臣称已准备好采取行动。 工信部人士：加大富锂锰基正极、硅基负极、固态电解质等材料攻关。 欧洲央行消息人士：油价快速回落缓解了欧洲央行7月加息的压力；目前看来9月加息的可能性更大。 中国央行月末操作“一增一减”：隔夜逆回购翻倍至6000亿，精准熨平跨季资金面。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:35",
+      "headline": "韩国首尔综指日内涨幅扩大至3%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:35",
+      "headline": "【提醒：日内请重点关注（以下均为北京时间）】",
+      "content": "① 14:00 英国一季度GDP终值； ② 15:40 欧洲央行副行长Vujcic主持一场会议（6月29日至7月1日，欧洲央行在葡萄牙Sintra举办中央银行论坛）； ③ 15:55 德国6月失业人数与失业率； ④ 16:40 欧洲央行执委Elderson主持一场会议； ⑤ 18:40 欧洲央行执委Schnabel主持一场会议，英国央行副行长Breeden将在该场合谈论人工智能（AI）； ⑥ 20:00 德国6月CPI初值，欧洲央行执委Cipollone讲话； ⑦ 20:30 加拿大4月GDP； ⑧ 21:00 美国4月FHFA房价指数，S&P/CS20座大城市房价指数； ⑨ 21:30 欧洲央行首席经济学家Philip Lane与OpenAI首席分析师Chatterji对话； ⑩ 22:00 美国5月JOLTS职位空缺，6月谘商会消费者信心指数； ⑪ 美股盘后 耐克发布业绩报告； 微信小程序搜索“见闻历”，了解更多。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:21",
+      "headline": "日本10年期国债收益率上行5个基点至2.68%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:16",
+      "headline": "四川发行7年期其他专项地方债，规模26.5716亿元，发行利率1.6200%，边际倍数5.87倍，倍数预期1.62；",
+      "content": "四川发行10年期其他专项地方债，规模5.9800亿元，发行利率1.7900%，边际倍数4.55倍，倍数预期1.79； 四川发行15年期其他专项地方债，规模2.2431亿元，发行利率2.0800%，边际倍数1.83倍，倍数预期2.14； 四川发行20年期其他专项地方债，规模4.6152亿元，发行利率2.3300%，边际倍数243.42倍，倍数预期2.33； 四川发行30年期其他专项地方债，规模25.4890亿元，发行利率2.4000%，边际倍数2.34倍，倍数预期2.40； 四川发行30年期其他专项地方债，规模1.0600亿元，发行利率2.4100%，边际倍数3.85倍，倍数预期2.39。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:10",
+      "headline": "【工信部人士：加大富锂锰基正极、硅基负极、固态电解质等材料攻关】",
+      "content": "6月30日，中国汽车动力电池产业创新联盟2026年度论坛召开，工信部装备工业一司汽车发展处处长马春生在论坛上表示：“当前全球新能源汽车产业已进入加速发展的新阶段，对动力电池安全、绿色、耐久等性能提出更高要求，需要进一步强化创新驱动。”“下一步我们将加强协同，完善支持政策，持续推动动力电池产业高质量发展。”马春生说。（中证金牛座）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:03",
+      "headline": "欧洲央行消息人士：油价快速回落缓解了欧洲央行在7月份加息的压力；目前看来9月份加息的可能性更大。",
+      "content": "6月份通胀数据若出现糟糕的意外爆表，可能会让7月加息重新成为焦点。 加息并未被排除在议程之外，即便行动可能会被推迟。 截至目前，通胀的第二轮效应微乎其微。（路透）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 12:01",
+      "headline": "【重复使用火箭“力箭二号”，主发动机完成长程试车】",
+      "content": "近日，由中科宇航研制的110吨级液氧煤油发动机力擎二号完成连续长程鉴定试车，全面考核了该发动机的工作可靠性，未来它将成为重复使用火箭“力箭二号”的主发动机。“长程”是指点火时长远超火箭实际飞行需求，用极限工况考核发动机的耐用性。此次试车将发动机工作时长延展至火箭实际飞行时长的3.5倍，完成了长达620秒的点火考核，其中单次点火时间400秒，刷新了该型发动机单次稳定工作时间的最高纪录。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-06-30 11:55",
       "headline": "【美媒称美国总统特使威特科夫正前往多哈】",
@@ -66,7 +218,7 @@
     },
     {
       "datetime": "2026-06-30 11:23",
-      "headline": "【美团开源万亿参数大模型LongCat-2.0】",
+      "headline": "【美团开源万亿参数大模型LongCat-2.0，训练全程由国产芯片完成】",
       "content": "美团正式发布新一代万亿参数大模型LongCat-2.0，并将对外开源。作为业界首个在五万卡国产算力集群上完成全流程训练与推理的万亿参数模型（总参数1.6T，平均激活约48B，动态范围33B~56B），LongCat-2.0从零开始预训练，原生支持1M超长上下文。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
@@ -172,14 +324,6 @@
       "datetime": "2026-06-30 10:18",
       "headline": "山西发行5年期一般债地方债，规模4.6000亿元，发行利率1.4900%，边际倍数4.13倍，倍数预期1.49；",
       "content": "山西发行10年期棚改专项地方债，规模2.8000亿元，发行利率1.8200%，边际倍数1.50倍，倍数预期1.79； 山西发行10年期其他专项地方债，规模4.1000亿元，发行利率1.7900%，边际倍数1.22倍，倍数预期1.79； 山西发行15年期其他专项地方债，规模6.8000亿元，发行利率2.1800%，边际倍数1.07倍，倍数预期2.15； 山西发行20年期其他专项地方债，规模34.5000亿元，发行利率2.3400%，边际倍数1.25倍，倍数预期2.35； 山西发行30年期其他专项地方债，规模13.9000亿元，发行利率2.4000%，边际倍数2.51倍，倍数预期2.40； 山西发行15年期其他专项地方债，规模44.6000亿元，发行利率2.1700%，边际倍数2.60倍，倍数预期2.15； 山西发行15年期其他专项地方债，规模96.2500亿元，发行利率2.1600%，边际倍数3.76倍，倍数预期2.15； 山西发行15年期其他专项地方债，规模72.2500亿元，发行利率2.1600%，边际倍数2.54倍，倍数预期2.15； 山西发行10年期一般债地方债，规模110.4000亿元，发行利率1.7900%，边际倍数1.22倍，倍数预期1.79。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 10:18",
-      "headline": "印尼基准股指日内跌幅扩大至2%。",
-      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -329,6 +473,14 @@
       "timezone": "Asia/Taipei"
     },
     {
+      "datetime": "2026-06-30 09:30",
+      "headline": "澳大利亚5月私营企业贷款同比",
+      "content": "今值: 8.2% ， 预期: - - ， 前值: 8%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
       "datetime": "2026-06-30 09:29",
       "headline": "中证转债指数开盘上涨0.04%。中汽转债、N迪威转、银微转债、斯达转债、正帆转债涨幅居前，分别涨30.00%、30.00%、12.28%、4.59%、3.37%。集智转债、鼎龙转债、皓元转债、文科转债、微芯转债跌幅居前，分别跌2.52%、2.38%、1.52%、1.47%、1.44%。",
       "content": "",
@@ -355,7 +507,7 @@
     {
       "datetime": "2026-06-30 09:22",
       "headline": "【中国央行公开市场逆回购操作6695亿元 单日净回笼1550亿元】",
-      "content": "中国央行今日开展695亿元7天期逆回购操作，操作利率1.4%，与此前持平。今日有5245亿元7天期逆回购到期。同时，中国央行进行6000亿元隔夜逆回购操作，今日有3000亿元隔夜逆回购到期。",
+      "content": "中国央行今日开展695亿元7天期逆回购操作，操作利率1.4%，与此前持平。今日有5245亿元7天期逆回购到期。同时，中国央行进行6000亿元隔夜逆回购操作，今日有3000亿元隔夜逆回购到期。 相关文章： 央行月末操作“一增一减”：隔夜逆回购翻倍至6000亿，精准熨平跨季资金面",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -586,22 +738,6 @@
     },
     {
       "datetime": "2026-06-30 07:50",
-      "headline": "日本5月工业产出同比初值 -1.7%，预期 1.3%，前值 2%。",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 07:50",
-      "headline": "日本5月工业产出环比初值 0.5%，预期 0.7%，前值 0.5%。",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 07:50",
       "headline": "日本5月工业产出同比初值",
       "content": "今值: -1.7% ， 预期: 1.3% ， 前值: 2%",
       "source": "華爾街見聞",
@@ -612,22 +748,6 @@
       "datetime": "2026-06-30 07:50",
       "headline": "日本5月工业产出环比初值",
       "content": "今值: 0.5% ， 预期: 0.7% ， 前值: 0.5%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 07:30",
-      "headline": "日本5月失业率 2.5%，预期 2.5%，前值 2.5%。",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 07:30",
-      "headline": "日本5月求才求职比 1.17，预期 1.18，前值 1.18。",
-      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -2538,24 +2658,24 @@
     },
     {
       "datetime": "2026-06-29 17:00",
-      "headline": "欧元区6月工业景气指数",
-      "content": "今值: -7.7 ， 预期: -7.2 ， 前值: -8",
+      "headline": "欧元区6月工业景气指数 -7.7，预期 -7.2，前值 -8。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
     },
     {
       "datetime": "2026-06-29 17:00",
-      "headline": "欧元区6月服务业景气指数",
-      "content": "今值: 3.2 ， 预期: 2.8 ， 前值: 2.2",
+      "headline": "欧元区6月服务业景气指数 3.2，预期 2.8，前值 2.2。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
     },
     {
       "datetime": "2026-06-29 17:00",
-      "headline": "欧元区6月经济景气指数",
-      "content": "今值: 95 ， 预期: 94.3 ， 前值: 93.5",
+      "headline": "欧元区6月经济景气指数 95，预期 94.3，前值 93.5。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
