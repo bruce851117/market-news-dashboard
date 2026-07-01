@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-01 11:46",
+  "generated_at": "2026-07-01 11:51",
   "fetch_start_time": "2026-06-30 17:00",
-  "fetch_end_time": "2026-07-01 11:46",
+  "fetch_end_time": "2026-07-01 11:51",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 359,
+  "count": 362,
   "items": [
+    {
+      "datetime": "2026-07-01 11:49",
+      "headline": "【Omdia：第一季度美国PC出货量同比下滑7% 创2023年以来最大跌幅】",
+      "content": "Omdia最新研究显示，2026年第一季度，美国PC（不含平板电脑）出货量同比下降7.0%，降至1580万台，为2023年第三季度以来最大的同比跌幅。此次市场下滑主要受到多重因素影响，包括PC内存和存储价格大幅上涨带来的供应受限及成本压力，以及Windows 11升级周期结束后需求提前释放，导致短期商用市场需求明显回落。此外，基数效应也进一步放大了同比降幅。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:48",
+      "headline": "【滨江集团：1—6月公司销售额431.5亿元】",
+      "content": "滨江集团午间公告，2026年1—6月，公司实现销售额431.5亿元。2026年1—6月，公司新增土地12宗，总土地款150.49亿元，权益土地款88.27亿元，新增货值281.26亿元。截至2026年6月末，公司权益有息负债规模236亿元，平均融资成本为2.8%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:47",
+      "headline": "【深圳6月一二手住宅成交8878套 创近六年同期新高】",
+      "content": "据深圳中原研究中心披露的数据，6月深圳一二手住宅成交8878套，环比下滑11.9%，同比上升14.2%；一二手住宅成交量为2021年以来同期新高。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-01 11:40",
       "headline": "【长三角铁路上半年发送旅客增超3%至逾4.7亿人次 创历史新高】",
@@ -484,6 +508,14 @@
       "datetime": "2026-07-01 08:00",
       "headline": "韩国6月出口同比",
       "content": "今值: 70.9% ， 预期: 60.7% ， 前值: 53.2%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:00",
+      "headline": "韩国6月进口同比",
+      "content": "今值: 30.1% ， 预期: 24.5% ， 前值: 20.8%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -2217,22 +2249,6 @@
       "timezone": "Asia/Taipei"
     },
     {
-      "datetime": "2026-06-30 20:00",
-      "headline": "德国6月CPI同比初值",
-      "content": "今值: 2.3% ， 预期: 2.6% ， 前值: 2.6%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 20:00",
-      "headline": "德国6月调和CPI同比初值",
-      "content": "今值: 2.4% ， 预期: 2.5% ， 前值: 2.7%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
       "datetime": "2026-06-30 19:59",
       "headline": "【鄱阳湖水系昌江发生2026年第1号洪水】",
       "content": "记者从水利部了解到，受降雨影响，江西鄱阳湖水系昌江渡峰坑水文站（江西景德镇）今天（30日）12时水位涨至28.51米，超过警戒水位。依据主要江河洪水编号规定，此次洪水编号为“昌江2026年第1号洪水”。（央视）",
@@ -2876,6 +2892,14 @@
       "datetime": "2026-06-30 17:00",
       "headline": "意大利6月CPI环比初值",
       "content": "今值: 0% ， 预期: 0.2% ， 前值: 0.4%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 17:00",
+      "headline": "意大利6月调和CPI环比初值",
+      "content": "今值: 0.1% ， 预期: 0.2% ， 前值: 0.3%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
