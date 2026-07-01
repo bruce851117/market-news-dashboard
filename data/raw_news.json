@@ -1,17 +1,601 @@
 {
-  "generated_at": "2026-07-01 07:27",
+  "generated_at": "2026-07-01 11:35",
   "fetch_start_time": "2026-06-30 17:00",
-  "fetch_end_time": "2026-07-01 07:27",
+  "fetch_end_time": "2026-07-01 11:35",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 286,
+  "count": 356,
   "items": [
+    {
+      "datetime": "2026-07-01 11:31",
+      "headline": "【6月北京二手房网签16618套 创五年来新高】",
+      "content": "根据北京市住建委数据统计，6月全市二手房网签16618套，创五年来新高，同比增长9.77%，单月网签规模已连续三个月领跑近五年同期水平。（北京商报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:31",
+      "headline": "上证指数早盘收报4138.65点，涨1.08%。",
+      "content": "深证成指早盘收报16271.32点，涨0.41%。 创业板指早盘收报4325.67点，跌0.39%。 沪深300早盘收报5001.54点，涨0.44%。 科创50早盘收报2201.01点，跌0.31%。 中证500早盘收报9121.63点，涨1.00%。 中证1000早盘收报8920.20点，涨1.25%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:30",
+      "headline": "【7月1日午间收评：沪指低开高走涨超1%，全市场上涨个股超4500只】",
+      "content": "1、市场早间震荡分化，三大指数涨跌互现。券商等金融股走强，天风证券、国盛证券、华安证券等涨停。猪肉、白酒、食品等消费股反弹，新希望、永辉超市、金种子酒等多股涨停。电子特气概念反复走强，蜀道装备、金宏气体涨停。机器人概念表现活跃，拓斯达、埃斯顿等涨停。个股涨多跌少，沪深京三市超4500股飘红，上午半天成交2.44万亿。午间收盘沪指涨1.08%，深成指涨0.41%，创业板跌0.39%。 2、板块概念方面，猪肉、保险、教育、券商等板块领涨；铜高速连接、MLCC、培育钻石、光纤等板块下挫； 3、两市共4263只个股上涨，196只个股涨停；900只个股下跌，6只个股跌停；35只股票炸板，炸板率19%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:30",
+      "headline": "国债期货早盘收盘，30年期主力合约跌0.28%，10年期主力合约跌0.15%，5年期主力合约跌0.09%，2年期主力合约跌0.03%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:27",
+      "headline": "【广东新型储能国家研究院等成立储云创投基金】",
+      "content": "企查查APP显示，近日，广州储云创业投资基金合伙企业（有限合伙）成立，出资额1.5亿元，经营范围包含财务咨询；企业管理咨询；私募股权投资基金管理、创业投资基金管理服务。企查查股权穿透显示，该合伙企业由广东新型储能国家研究院有限公司、广州白云金科控股集团有限公司、广州天使投资母基金创业投资合伙企业（有限合伙）等共同出资。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:26",
+      "headline": "零跑汽车公布6月交付数据：全球交付93376台，同比增长95%，上半年累计交付达356487台。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:18",
+      "headline": "【习近平：加快把人民军队建成世界一流军队】",
+      "content": "今天上午，庆祝中国共产党成立105周年大会在人民大会堂隆重举行。中共中央总书记、国家主席、中央军委主席习近平向“七一勋章”获得者颁授勋章并发表重要讲话。 习近平：强国必须强军，军强才能国安。新征程上，必须全面贯彻新时代党的强军思想，贯彻新时代军事战略方针，坚持党对人民军队的绝对领导，坚定不移走中国特色强军之路，全面推进政治建军、改革强军、科技强军、人才强军、依法治军，高质量推进国防和军队现代化，如期实现建军一百年奋斗目标，加快把人民军队建成世界一流军队，坚决捍卫国家主权、安全、发展利益，为维护世界和平与发展作出更大贡献。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:15",
+      "headline": "【习近平：实现祖国完全统一 是我们党矢志不渝的历史任务】",
+      "content": "今天上午，庆祝中国共产党成立105周年大会在人民大会堂隆重举行。中共中央总书记、国家主席、中央军委主席习近平向“七一勋章”获得者颁授勋章并发表重要讲话。 习近平：解决台湾问题、实现祖国完全统一，是我们党矢志不渝的历史任务，是全体中华儿女的共同愿望。我们要深入贯彻新时代党解决台湾问题的总体方略，坚持一个中国原则和“九二共识”，团结广大台湾同胞，深化两岸交流合作和融合发展，坚决打击“台独”分裂势力，反对外部势力干涉，坚定推进祖国统一大业。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:14",
+      "headline": "【习近平：支持港澳更好融入和服务国家发展大局】",
+      "content": "今天上午，庆祝中国共产党成立105周年大会在人民大会堂隆重举行。中共中央总书记、国家主席、中央军委主席习近平向“七一勋章”获得者颁授勋章并发表重要讲话。 习近平：促进香港、澳门长期繁荣稳定，是中华民族伟大复兴的内在要求。新征程上，我们要全面准确、坚定不移贯彻“一国两制”、“港人治港”、“澳人治澳”、高度自治的方针，落实“爱国者治港”、“爱国者治澳”原则，提升港澳依法治理效能，促进港澳经济社会发展，支持港澳更好融入和服务国家发展大局。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 11:01",
+      "headline": "隔夜SHIBOR报1.4030%，上涨4.30个基点。",
+      "content": "7天SHIBOR报1.4630%，上涨0.50个基点。 3个月SHIBOR报1.4380%，上涨0.00个基点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:52",
+      "headline": "沪指拉升涨超1%，微盘股指数涨超3%，深成指涨0.65%，创业板指涨0.17%，养殖、保险、证券、房地产等方向涨幅居前，沪深京三市上涨个股近4200只。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:50",
+      "headline": "【SK与KKR将在韩国启动10GW可再生能源平台】",
+      "content": "SK集团与私募股权公司KKR宣布签署最终协议，将启动一个估值2万亿韩元（约合13亿美元）的可再生能源平台。在初始阶段，KKR将拥有该平台的管理控制权。SK将作为股权投资者参与其中，并保留通过未来讨论获取控制权的灵活性。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:41",
+      "headline": "科创50指数翻绿，此前一度涨超2％。寒武纪、源杰科技跌超4％。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:38",
+      "headline": "A股大金融板块涨势扩大，招商证券逼近涨停，天风证券、国盛证券、华安证券此前封板，财富趋势涨超13%，长江证券、湘财股份、广发证券、新华保险涨超6%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:32",
+      "headline": "截至早盘收盘，日经225指数涨0.3%，东证指数涨0.1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:31",
+      "headline": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报159400元/吨，较上日16:30价格上涨3250元/吨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:24",
+      "headline": "【跟风欧盟，美国也要对中国逆变器下手】",
+      "content": "当地时间6月30日，路透社援引五名知情人士消息称，特朗普政府正在起草一项禁止进口外国产逆变器的禁令，无端担忧中国可能会利用这些逆变器扰乱电力供应。据介绍，逆变器是能源设施中的关键设备，将太阳能电池板或电池产生的电力转换为可用于家用电器的电力。它们允许远程访问，以进行更新和维护。据上述消息人士透露，美国联邦通信委员会（FCC）正在起草的限制措施将适用于新型外国逆变器型号，最早可能于今年发布。（观察者网）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:16",
+      "headline": "创业板指跌超1%，沪指涨0.46%，深成指涨0.06%，游戏、铜缆高速连接、培育钻石、光伏设备等方向跌幅居前，沪深京三市下跌个股超1600只。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:15",
+      "headline": "【以军在约旦河西岸发起大规模突袭行动】",
+      "content": "巴勒斯坦约旦河西岸消息人士说，以色列军队6月30日在这一地区多个城镇展开大规模突袭行动，搜查房屋并逮捕至少一名巴勒斯坦人。此前一天，以军在约旦河西岸中部比拉市打死一名15岁巴勒斯坦少年。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:13",
+      "headline": "据理想汽车微博消息，2026年6月，理想汽车交付新车30895辆。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:04",
+      "headline": "【广州：拟提升退税商店覆盖率 推动各类入境消费重点场所增设退税商店】",
+      "content": "《广州市落实加力优化离境退税政策的实施方案》公开征求意见。其中提到，提升退税商店覆盖率。鼓励更多具备条件的商店备案成为退税商店，持续优化空间布局，在11个区全覆盖基础上，继续推动各类入境消费重点场所增设退税商店，重点拓展一批境外旅客较多的重点商圈、景区、市场、口岸，以及具有鲜明本土特色的优质品牌、老字号企业、旅游景区商店、文博场所纪念品商店、主题乐园购物商店、国际赛事体育场馆周边商店等。对每半年度开具离境退税或“即买即退”申请单笔数达到50笔（含）以上的，分档给予一次性奖励。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:04",
+      "headline": "特斯拉官方微博消息，首台量产赛博无人驾驶电动车Cybercab已在美国得州奥斯汀开启工程测试。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:03",
+      "headline": "韩国首尔综指日内跌3%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 10:03",
+      "headline": "印尼基准股指日内涨幅扩大至1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:51",
+      "headline": "阳光电源盘中一度跌近20%，目前跌幅16.5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:50",
+      "headline": "A股存储芯片板块再度拉升，太极实业、时空科技双双涨停，股价均续创历史新高，亚威股份此前封板，普冉股份涨超10%，香农芯创、长电科技跟涨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:46",
+      "headline": "【阿维塔获L3自动驾驶测试牌照】",
+      "content": "阿维塔7月1日宣布，已取得L3自动驾驶测试牌照，旗下车辆相关道路实测工作已全面按规划稳步落地。该公司称，现阶段将依托重庆市已开放公共测试路段开展L3自动驾驶实地验证，同步推进实际道路准入可靠性测试，深度适配国内路况复杂、交通场景多元的出行环境。多项合规性测试工作同步启动。（一财）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:45",
+      "headline": "中国6月RatingDog制造业PMI",
+      "content": "今值: 51.7 ， 预期: - - ， 前值: 51.8",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:42",
+      "headline": "进出口行发行32天期债券，规模10亿元，发行利率0.0000%，预期1.2000%，投标倍数1.00倍，边际倍数1.00倍；",
+      "content": "进出口行发行3年期债券，规模30亿元，发行利率0.0000%，预期1.4200%，投标倍数1.00倍，边际倍数1.00倍。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:39",
+      "headline": "【四川长虹：旗下欧洲空调业务今年前5个月销售规模创新高】",
+      "content": "从四川长虹方面了解到，长虹空调2026年1—5月，在欧洲累计出货量与销售规模已创新高，增长势头强劲。长虹面向欧洲市场的核心空调产品已于6月上市。下一步，公司将结合欧洲差异化需求与安装场景持续丰富产品矩阵，快速、精准响应市场需求。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:39",
+      "headline": "【鸿蒙智行：6月交付50624台，环比增长9.7%】",
+      "content": "鸿蒙智行消息，6月交付50624台，环比增长9.7%；2026年上半年累计交付24万台，同比增长18.6%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:36",
+      "headline": "A股半导体芯片股继续走强，敏芯股份、格科微、中颖电子涨超10%，锴威特、富满微、东微半导等涨超6%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:35",
+      "headline": "提醒：北京时间09:45将公布中国6月RatingDog制造业PMI。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:30",
+      "headline": "澳大利亚5月季调后营建许可环比",
+      "content": "今值: -1.1% ， 预期: 0% ， 前值: -3.4%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:29",
+      "headline": "国债期货开盘，30年期主力合约跌0.17%，10年期主力合约跌0.02%，5年期主力合约跌0.01%，2年期主力合约跌0.01%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:25",
+      "headline": "上证指数开盘报4090.76点，跌0.09%。",
+      "content": "深证成指开盘报16226.97点，涨0.13%。 创业板指开盘报4336.16点，跌0.15%。 沪深300开盘报4972.69点，跌0.14%。 科创50开盘报2205.66点，跌0.10%。 中证500开盘报9052.04点，涨0.23%。 中证1000开盘报8827.47点，涨0.20%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:22",
+      "headline": "【中国央行公开市场今日净回笼11625亿元人民币】",
+      "content": "中国央行今日开展1000亿元7天期逆回购操作，操作利率1.4%，与此前持平。今日6625亿元7天期和6000亿元隔夜逆回购到期。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:20",
+      "headline": "提醒：香港股市今日因假期休市。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:16",
+      "headline": "【人民币兑美元中间价创2023年2月10日来新高】",
+      "content": "人民币兑美元中间价报6.8067，上调42点；上一交易日中间价6.8109，上一交易日官方收盘价6.7852，上日夜盘报收6.7880。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:12",
+      "headline": "韩国首尔综指日内跌超2%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:10",
+      "headline": "【蔚来：截至目前全国建成9056座充换电站】",
+      "content": "蔚来微博消息，截至2026年7月1日，蔚来全国建成9056座充换电站，其中换电站3958座，充电站5098座、充电桩29357根。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:05",
+      "headline": "日本东证指数日内涨幅扩大至1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:04",
+      "headline": "小米公司：6月小米汽车交付量持续超过30000台。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:01",
+      "headline": "台湾证交所加权股价指数盘初上涨2.2%至47,132.61点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:00",
+      "headline": "商品期货开盘，沪银、沪锡、沥青、液化气、沪锌主力合约涨超1%。菜籽油、菜籽粕跌超1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 09:00",
+      "headline": "富时中国A50指数期货盘初涨0.18%，上一个交易日夜盘收涨0.18%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:47",
+      "headline": "【两市融资余额增加161.16亿元】",
+      "content": "截至6月30日，上交所融资余额报15169.08亿元，较前一交易日增加116.87亿元；深交所融资余额报14708.79亿元，较前一交易日增加44.29亿元；两市合计29877.87亿元，较前一交易日增加161.16亿元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:43",
+      "headline": "【中金公司2026年下半年生物医药展望：创新药产业链发展明确 短期调整不改中长期崛起趋势】",
+      "content": "中金公司2026年下半年生物医药展望指出，虽然受宏观环境、大国关系扰动、流动性轮转等因素影响，创新药板块进入短期估值回调阶段。但从产业趋势来看，中国创新药BD与临床数据读出依旧保持良好的发展趋势，license out和new co等形式证明中国创新药正在不断国际化。国内外良好的医药产业投融资，为产业带来新一轮研发投入的同时，也为上游CXO等产业带来潜在订单，制药供应有着较强业绩增长确定性。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:42",
+      "headline": "日经225指数延续涨势，最新涨2.5%至71,843.03点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:35",
+      "headline": "【深铁集团正式“换帅”，黄力平出任董事长】",
+      "content": "6月30日，深铁集团发布公告称，根据有关文件，黄力平任深圳市地铁集团有限公司董事长，免去其深圳市地铁集团有限公司总经理职务。此前，深铁集团董事长一职自原董事长辛杰今年4月离任后一直空缺。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:30",
+      "headline": "越南6月制造业PMI",
+      "content": "今值: 51.8 ， 预期: - - ， 前值: 52.8",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:30",
+      "headline": "日本6月制造业PMI终值",
+      "content": "今值: 54.8 ， 预期: - - ， 前值: 54.9",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:30",
+      "headline": "韩国6月制造业PMI",
+      "content": "今值: 52.1 ， 预期: - - ， 前值: 54.8",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:28",
+      "headline": "【中信证券：隔夜逆回购工具落地 央行维护宽松态度明确】",
+      "content": "中信证券认为，央行首次开展隔夜逆回购操作，本次央行操作的态度高于实质，当前7天逆回购的政策利率地位并未改变，央行有意在半年末关键时点维护宽松的流动性环境和稳定预期。新工具旨在弥合7天政策利率与隔夜为主的市场交易之间的期限错配，并借助隔夜操作当日到期、不形成余额的灵活性，在季末更精准地实现流动性削峰填谷。其究竟是阶段性工具还是政策利率新锚，取决于后续的操作频率和利率披露方式，本次只公布数量、不公布利率，表明央行当前仍将其定位为短期流动性管理工具。整体看，本次操作宽货币信号清晰，但意义更多在于政策态度而非利率幅度。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:05",
+      "headline": "South32大涨10%，此前以56亿美元将铝资产出售给美铝（Alcoa）。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:01",
+      "headline": "日经225指数高开1.5%，韩国首尔综指高开1.4%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:00",
+      "headline": "中国即将发行或正在发行的国债和政策性金融债",
+      "content": "证券简称 发行规模(亿元) 期限(年) 招标日期 债券类别 发行起始日期 发行截止日期 上市日期 26进出清发017(增发1) 30.0000 3.0 2026-07-01 记账式 2026-07-01 -- 2026-07-03 25农发09(增发26) 20.0000 3.0 2026-07-01 记账式 2026-07-01 -- 2026-07-03 25农发25(增发29) 80.0000 5.0 2026-07-01 记账式 2026-07-01 -- 2026-07-03 25农发30(增发44) 120.0000 10.0 2026-07-01 记账式 2026-07-01 -- 2026-07-03 26农发03(增发17) 50.0000 3.0 2026-07-01 记账式 2026-07-01 -- 2026-07-03 数据来源：qeubee终端",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:00",
+      "headline": "韩国6月出口同比",
+      "content": "今值: 70.9% ， 预期: 60.7% ， 前值: 53.2%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 08:00",
+      "headline": "韩国6月进口同比",
+      "content": "今值: 30.1% ， 预期: 24.5% ， 前值: 20.8%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:58",
+      "headline": "Anthropic：美国取消对Claude Fable 5、Mythos 5的出口管制，明天开始恢复访问。",
+      "content": "相关文章： 美国对Anthropic Fable 5顶尖模型“解禁”，Anthropic：周三起恢复访问",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:50",
+      "headline": "日本二季度短观大型制造业景气判断指数",
+      "content": "今值: 22 ， 预期: 16 ， 前值: 17",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:50",
+      "headline": "日本二季度短观大型非制造业前景指数",
+      "content": "今值: 28 ， 预期: 29 ， 前值: 29",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:50",
+      "headline": "日本二季度短观大型制造业前景指数",
+      "content": "今值: 17 ， 预期: 13 ， 前值: 14",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:50",
+      "headline": "日本二季度短观大型非制造业景气判断指数",
+      "content": "今值: 37 ， 预期: 36 ， 前值: 36",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:44",
+      "headline": "日本气象厅称，宫崎县报告发生地震，地震未引发海啸威胁，震度为日本气象厅烈度阶级4级（最高7级）。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:42",
+      "headline": "据美国商务部长卢特尼克致Anthropic的信函，美国取消对Anthropic公司Fable 5的控制措施。（Wired）",
+      "content": "相关文章： 美国对Anthropic Fable 5顶尖模型“解禁”，Anthropic：周三起恢复访问",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:41",
+      "headline": "【卢特尼克：Anthropic的Fable 5已通过分析并获得批准】",
+      "content": "美国商务部长卢特尼克在社交平台X上发帖称，在过去的两个星期里，我们与Anthropic密切合作，对Fable 5进行了分析与批准，以确保美国政府内部达成一致。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:38",
+      "headline": "特朗普已听取关于对伊朗战争方案的简报，但选择继续进行谈判。",
+      "content": "特朗普目前将坚持对伊朗进行外交谈判。 特朗普告诉助手，如果谈判超过8月18日的截止日期，他也觉得可以接受。（华尔街日报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:37",
+      "headline": "【上半年百城新房销售面积同比下降约12%】",
+      "content": "中指研究院数据显示，2026年上半年，100城新建商品住宅销售面积同比下降约12%。二季度以来成交量整体趋于平稳，4月份100城新建商品住宅销售面积与去年同期基本持平，5月份、6月份同比分别小幅下降5%、4%。在二手房市场，中指研究院数据显示，上半年重点城市二手住宅成交约76万套，同比增长约6%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:34",
+      "headline": "美国商务部长卢特尼克：与Anthropic进行了紧密合作，以批准Fable 5。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:33",
+      "headline": "【上半年百强房企实现销售总额超1.5万亿元】",
+      "content": "重点房企销售表现出现积极变化。6月30日，中指研究院发布数据显示，今年上半年，百强房企（按全口径销售额排序）实现销售总额15863.6亿元，同比降幅较前5个月收窄1.3个百分点，已连续第四个月收窄。其中，6月份单月，百强房企全口径销售额环比增长11.8%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:30",
+      "headline": "【6月份券商金股3只个股涨幅翻倍，7月金股布局更趋多元】",
+      "content": "A股的6月行情，在科技股狂欢中收官。当月，券商金股中的雅克科技、国瓷材料、国际复材等3股涨幅翻倍。从近期券商陆续披露的7月金股名单来看，人工智能（AI）产业链仍为核心配置方向，但医药、券商板块的关注度也明显升温。科技独大的格局有所松动，机构布局更趋多元。展望7月，机构普遍认为科技板块的中长期价值不改，但短期再平衡的呼声渐起。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-01 07:27",
       "headline": "【美国最大电网PJM着手管理数据中心电力需求】",
       "content": "周二，PJM互联公司（PJM Interconnection）的成员投票通过了一项计划，旨在获取更多电力以满足日益增长的数据中心需求。这股需求浪潮正威胁到美国最大电网的电力供应。 PJM的投票成员对十多项关于如何通过所谓的“后备采购”（backstop procurement）流程为数据中心供电的提案进行了非约束性投票。其中一项由数据中心倡导者和主要受监管的公用事业公司提出的计划获得了推进。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 07:25",
+      "headline": "【华尔街见闻早餐 | 2026年7月1日】",
+      "content": "AI热情驱动美股收涨，道指续收新高，标普500、纳指创史上最佳季度之一；日元跌破162、创40年新低。 美国5月JOLTS职位空缺小幅回升至759万人，高于预期，劳动力需求保持稳定。 报道称特朗普特使将在多哈与伊朗间接会谈，卡塔尔淡化达成重大突破的可能性。 官方披露特朗普2025年加密货币业务斩获超10亿美元，重仓美股科技巨头。 美国最高法院驳回特朗普限制出生公民权的行政令。 中国央行月末操作“一增一减”：隔夜逆回购翻倍至6000亿，精准熨平跨季资金面。 中国6月制造业PMI升至50.3重返扩张区间，非制造业商务活动指数继续扩张。 市值破万亿后，寒武纪提示风险。央视评寒武纪市值破万亿：里程碑前，更需一份清醒定力。 机器人女友来了！优必选重磅首发，最高售价99万元。 Anthropic出性价比王牌Claude Sonnet 5，提升智能体能力，直指企业AI自动化市场。 曝英伟达4芯片Rubin Ultra“发布仅三个月后就遭取消”引热议，SemiAnalysis称“英伟达份额正被侵蚀”。 提醒：周三将公布中国6月RatingDog制造业PMI、美国6月ADP就业人数变动、美国6月ISM制造业指数。 相关文章： 华尔街见闻早餐FM-Radio | 2026年7月1日",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -1340,30 +1924,6 @@
       "datetime": "2026-06-30 21:00",
       "headline": "夜盘期货开盘，PVC、沪锡、纯苯、沪银涨逾1%，低硫燃油、不锈钢、20号胶涨近1%；菜粕跌逾1%，豆一、菜油等下跌。",
       "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 21:00",
-      "headline": "美国4月S&P/CS20座大城市季调后房价指数环比",
-      "content": "今值: -0.04% ， 预期: -0.14% ， 前值: -0.16% (修正: -0.15%)",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 21:00",
-      "headline": "美国4月S&P/CS20座大城市房价指数同比",
-      "content": "今值: 1.14% ， 预期: 0.92% ， 前值: 0.83% (修正: 0.88%)",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 21:00",
-      "headline": "美国4月FHFA房价指数环比",
-      "content": "今值: -0.1% ， 预期: 0.2% ， 前值: 0.1% (修正: 0.2%)",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
