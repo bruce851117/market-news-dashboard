@@ -1,13 +1,21 @@
 {
-  "generated_at": "2026-07-01 11:35",
+  "generated_at": "2026-07-01 11:39",
   "fetch_start_time": "2026-06-30 17:00",
-  "fetch_end_time": "2026-07-01 11:35",
+  "fetch_end_time": "2026-07-01 11:39",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 356,
+  "count": 357,
   "items": [
+    {
+      "datetime": "2026-07-01 11:40",
+      "headline": "中国财政部发行28天期债券，规模300亿元，发行利率0.7043%，边际利率0.7957%，预期0.8100%，投标倍数3.07倍，边际倍数2.62倍；",
+      "content": "中国财政部发行7年期债券，规模1090亿元，发行利率1.5619%，边际利率1.5772%，预期1.5600%，投标倍数3.34倍，边际倍数2.08倍。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-01 11:31",
       "headline": "【6月北京二手房网签16618套 创五年来新高】",
