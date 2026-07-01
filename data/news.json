@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-01 11:54",
+  "generated_at": "2026-07-01 13:48",
   "timezone": "Asia/Taipei",
   "source": "https://wallstreetcn.com/live/global",
   "fetch_start_time": "2026-06-30 17:00",
-  "fetch_end_time": "2026-07-01 11:51",
-  "raw_count": 362,
-  "count": 68,
+  "fetch_end_time": "2026-07-01 13:46",
+  "raw_count": 386,
+  "count": 75,
   "categories": {
     "bond": "債市",
     "equity": "股市",
@@ -16,391 +16,184 @@
     "commodity": "商品"
   },
   "brief_points": [
-    "市場押注Fed 7月重啟加息機率升至36%，美債殖利率全線走高，實際利率上行壓力壓制風險資產估值。",
-    "全球央行年會於葡萄牙召開，Fed、ECB與BOE官員談話將定調未來利率路徑，市場高度關注政策指引。",
-    "日圓匯率跌破162關口創四十年新低，日本財務大臣警告準備干預，市場需警惕套利交易平倉風險。",
-    "特朗普聽取對伊朗軍事方案簡報，但優先選擇外交談判，短期地緣衝突升級風險暫緩，油價風險溢價受控。",
-    "美國最大電網PJM進入電力緊急狀態，AI數據中心電力需求激增成為供應瓶頸，恐推升長期能源成本與通膨。",
-    "中國央行單日淨回籠11625億元流動性，並啟用隔夜逆回購工具，顯示季初流動性管理趨緊，市場關注資金利率波動。",
-    "韓國6月出口年增70.9%遠超預期，反映全球製造業需求回溫，對亞洲出口導向型經濟體具正面支撐。",
-    "大空頭Michael Burry披露做空Nvidia與Tesla，顯示市場對AI熱潮及科技股高估值的質疑情緒升溫。"
+    "Fed主席及多位央行首長將於歐洲央行論壇發表談話，市場高度關注貨幣政策指引。",
+    "市場押注Fed 7月加息機率升至36%，反映對通膨與政策緊縮的擔憂升溫。",
+    "美國5月JOLTS職位空缺高於預期，勞動力市場韌性壓抑降息預期，推升美債殖利率。",
+    "日圓貶破162創四十年新低，市場高度警惕日本央行干預匯市及政策轉向風險。",
+    "伊朗威脅關閉霍爾木茲海峽，地緣政治風險升溫，需持續關注對全球能源供應的衝擊。",
+    "中國央行透過逆回購淨回籠逾兆元資金，流動性管理趨於謹慎，影響短期資金利率。",
+    "美國擬禁進口中國製逆變器，加劇中美科技與能源供應鏈脫鉤風險。",
+    "韓國出口創近五十年最大漲幅，AI晶片需求強勁，顯示全球科技供應鏈復甦動能。"
   ],
   "items": [
     {
-      "datetime": "2026-07-01 11:40",
-      "category": "bond",
-      "category_name": "債市",
-      "importance": 3,
-      "headline": "中國財政部發行7年期國債",
-      "summary": "中國財政部發行1090億元7年期國債，發行利率1.5619%，市場需求穩定。",
-      "content": "中國財政部發行7年期國債，規模1090億元，發行利率1.5619%，投標倍數3.34倍。同時發行28天期短期債券，規模300億元，利率0.7043%。顯示市場對中長期利率債需求仍具韌性。",
+      "datetime": "2026-07-01 12:35",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 5,
+      "headline": "今晚全球央行行長齊聚論壇",
+      "summary": "拉加德、Fed主席沃什、貝利等央行首長將於歐洲央行論壇發表談話，市場高度關注貨幣政策指引。",
+      "content": "今日重點關注歐洲央行論壇，Fed主席沃什、ECB行長拉加德、英國央行行長貝利及加拿大央行行長Macklem將發表談話。市場將從中尋找全球主要央行對抗通膨與利率路徑的最新政策訊號。",
       "tags": [
-        "China",
-        "Bond"
+        "Fed",
+        "ECB",
+        "BoE"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 11:40",
-          "t5_target": "2026-07-01 11:45",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 11:40",
-          "t5_target": "2026-07-01 11:45",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 11:40",
-          "t5_target": "2026-07-01 11:45",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 12:35",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "中國央行公開市場淨回籠逾兆元",
+      "summary": "中國央行今日淨回籠11625億元人民幣，隔夜回購利率走高，流動性趨緊。",
+      "content": "中國央行公開市場操作今日淨回籠資金達11625億元人民幣，導致隔夜回購利率走高。此舉顯示央行在維持金融體系流動性平衡的同時，對短期資金面進行調節，市場需留意後續資金成本變化。",
+      "tags": [
+        "PBOC",
+        "Liquidity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 12:16",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "韓國出口創近五十年最大漲幅",
+      "summary": "AI晶片需求強勁推動韓國出口，單月規模首破千億美元，顯示全球科技供應鏈需求熱絡。",
+      "content": "韓國出口數據創下近五十年來最大漲幅，主要受惠於全球AI晶片需求激增。單月出口規模首度突破千億美元大關，反映半導體產業景氣復甦，對全球科技股及相關供應鏈具正面指引。",
+      "tags": [
+        "Korea",
+        "Semiconductor",
+        "AI"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 12:03",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "ECB管委：不應倉促加息，等待新預測",
+      "summary": "ECB管委Demarco表示不應急於收緊政策，需觀察後續經濟預測，暗示政策路徑保持謹慎。",
+      "content": "ECB管委Demarco指出，油價下跌後不應倉促推進加息。目前未見薪資壓力過高或通膨預期脫錨，ECB可等待下一輪經濟預測再決定是否進一步收緊政策，這對歐元區債市殖利率曲線有緩和作用。",
+      "tags": [
+        "ECB",
+        "Inflation"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 12:01",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "美媒：美軍將駐黎巴嫩監督停火",
+      "summary": "報導稱美國將在黎以邊境駐軍以監督停火協議，地緣政治風險需持續關注。",
+      "content": "據《華盛頓郵報》報導，美國計畫在黎巴嫩與以色列駐紮地面部隊，直接監督雙方軍事行動以確保停火協議履行。此舉顯示美國深度介入中東地緣局勢，對能源價格及避險資產走勢具潛在影響。",
+      "tags": [
+        "Geopolitics",
+        "MiddleEast"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 11:15",
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "習近平：解決台灣問題是歷史任務",
-      "summary": "習近平於七一講話重申解決台灣問題與推進祖國統一的堅定立場，地緣政治風險需持續關注。",
-      "content": "中共中央總書記習近平在慶祝建黨105周年大會上強調，解決台灣問題、實現祖國完全統一，是黨矢志不渝的歷史任務。重申堅持一個中國原則與「九二共識」，並將堅決打擊台獨分裂勢力與反對外部勢力干涉，地緣政治不確定性上升。",
+      "headline": "習近平：實現祖國完全統一為歷史任務",
+      "summary": "中國領導人重申解決台灣問題的歷史任務，強調堅決打擊台獨並反對外部勢力干涉。",
+      "content": "在慶祝中國共產黨成立105週年大會上，習近平重申解決台灣問題、實現祖國完全統一的立場，強調將深入貫徹新時代黨解決台灣問題的總體方略，堅決打擊台獨分裂勢力，並反對外部勢力干涉，此談話將持續影響區域地緣政治風險評估。",
       "tags": [
         "Geopolitics",
         "China",
         "Taiwan"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 11:15",
-          "t5_target": "2026-07-01 11:20",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 11:15",
-          "t5_target": "2026-07-01 11:20",
-          "t0_time": "2026-07-01 11:15",
-          "t5_time": "2026-07-01 11:20",
-          "t0": 7532.5,
-          "t5": 7530.5,
-          "change": -2.0,
-          "change_pct": -0.0266,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 11:15",
-          "t5_target": "2026-07-01 11:20",
-          "t0_time": "2026-07-01 11:15",
-          "t5_time": "2026-07-01 11:20",
-          "t0": 30461.5,
-          "t5": 30445.0,
-          "change": -16.5,
-          "change_pct": -0.0542,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 10:24",
-      "category": "economy",
-      "category_name": "經濟",
+      "category": "war",
+      "category_name": "戰爭",
       "importance": 4,
-      "headline": "美擬禁進口中國逆變器",
-      "summary": "美國政府擬以國安為由禁止進口中國製逆變器，恐加劇中美科技與能源供應鏈脫鉤風險。",
-      "content": "據路透社報導，特朗普政府正起草禁令，擬禁止進口外國產逆變器，擔憂中國可能利用該設備擾亂電力供應。此舉若落實，將影響太陽能與儲能產業供應鏈，並進一步加劇中美貿易與科技領域的緊張關係。",
+      "headline": "美擬禁進口中國逆變器，地緣政治風險升溫",
+      "summary": "美國政府擬以國安為由禁止進口中國製逆變器，加劇中美科技與能源供應鏈脫鉤風險。",
+      "content": "據報導，美國政府正起草禁令，限制進口中國製逆變器，擔憂其可能被用於擾亂電力供應。此舉若落實，將進一步衝擊光伏產業供應鏈，並加劇中美在地緣政治與科技領域的緊張關係，對相關企業營運構成重大不確定性。",
       "tags": [
-        "US",
-        "China",
-        "TradeWar",
+        "Geopolitics",
+        "SupplyChain",
         "Energy"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 10:24",
-          "t5_target": "2026-07-01 10:29",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 10:24",
-          "t5_target": "2026-07-01 10:29",
-          "t0_time": "2026-07-01 10:24",
-          "t5_time": "2026-07-01 10:29",
-          "t0": 7526.25,
-          "t5": 7528.0,
-          "change": 1.75,
-          "change_pct": 0.0233,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 10:24",
-          "t5_target": "2026-07-01 10:29",
-          "t0_time": "2026-07-01 10:24",
-          "t5_time": "2026-07-01 10:29",
-          "t0": 30409.75,
-          "t5": 30421.0,
-          "change": 11.25,
-          "change_pct": 0.037,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 10:15",
       "category": "war",
       "category_name": "戰爭",
       "importance": 3,
-      "headline": "以軍於約旦河西岸發動突襲",
-      "summary": "以色列軍隊在約旦河西岸展開大規模突襲行動，中東地緣局勢緊張，需留意能源市場波動。",
-      "content": "以色列軍隊於6月30日在約旦河西岸多個城鎮展開大規模突襲，搜查房屋並逮捕人員。中東地區衝突頻發，持續對區域穩定構成威脅，交易員應密切關注地緣政治對原油及避險資產的潛在影響。",
+      "headline": "以軍在約旦河西岸發起大規模突襲",
+      "summary": "以色列軍隊在約旦河西岸多地展開突襲行動，中東地緣政治緊張局勢持續。",
+      "content": "以色列軍隊於6月30日在約旦河西岸多個城鎮發起大規模突襲，進行搜查與逮捕行動。此類軍事行動加劇了該地區的緊張局勢，需密切關注對中東能源供應及市場避險情緒的潛在影響。",
       "tags": [
-        "MiddleEast",
         "Geopolitics",
-        "Energy"
+        "MiddleEast"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 10:15",
-          "t5_target": "2026-07-01 10:20",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 10:15",
-          "t5_target": "2026-07-01 10:20",
-          "t0_time": "2026-07-01 10:15",
-          "t5_time": "2026-07-01 10:20",
-          "t0": 7522.75,
-          "t5": 7526.0,
-          "change": 3.25,
-          "change_pct": 0.0432,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 10:15",
-          "t5_target": "2026-07-01 10:20",
-          "t0_time": "2026-07-01 10:15",
-          "t5_time": "2026-07-01 10:20",
-          "t0": 30392.5,
-          "t5": 30403.5,
-          "change": 11.0,
-          "change_pct": 0.0362,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 09:45",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 3,
+      "importance": 4,
       "headline": "中國6月RatingDog製造業PMI為51.7",
-      "summary": "中國6月製造業PMI報51.7，略低於前值51.8，顯示製造業擴張步伐維持穩定。",
-      "content": "中國6月RatingDog製造業PMI公布為51.7，前值為51.8。數據顯示中國製造業活動仍處於擴張區間，市場將持續關注後續工業生產與內需復甦力道，對相關原物料與工業類股具參考價值。",
+      "summary": "中國6月製造業PMI報51.7，略低於前值51.8，顯示製造業擴張力道維持平穩。",
+      "content": "中國6月RatingDog製造業PMI公布為51.7，前值為51.8。數據顯示中國製造業活動持續處於擴張區間，但動能略有放緩，市場將持續關注後續財政刺激政策對實體經濟的支撐力道。",
       "tags": [
         "PMI",
         "China"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 09:45",
-          "t5_target": "2026-07-01 09:50",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 09:45",
-          "t5_target": "2026-07-01 09:50",
-          "t0_time": "2026-07-01 09:45",
-          "t5_time": "2026-07-01 09:50",
-          "t0": 7535.5,
-          "t5": 7532.75,
-          "change": -2.75,
-          "change_pct": -0.0365,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 09:45",
-          "t5_target": "2026-07-01 09:50",
-          "t0_time": "2026-07-01 09:45",
-          "t5_time": "2026-07-01 09:50",
-          "t0": 30475.5,
-          "t5": 30457.75,
-          "change": -17.75,
-          "change_pct": -0.0582,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 09:30",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 2,
+      "headline": "澳洲5月營建許可月減1.1%",
+      "summary": "澳洲5月營建許可月減1.1%，表現遜於預期，顯示房地產建設活動持續疲軟。",
+      "content": "澳洲5月季調後營建許可月率為-1.1%，預期為0%，前值為-3.4%。數據顯示澳洲房地產市場在利率高檔環境下，建設需求持續受到壓抑，對經濟成長前景構成挑戰。",
+      "tags": [
+        "Australia",
+        "Economy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 09:22",
       "category": "central_bank",
       "category_name": "央行",
-      "importance": 4,
+      "importance": 5,
       "headline": "中國央行公開市場淨回籠11625億元",
-      "summary": "中國央行今日進行1000億元逆回購，因到期量大，單日實現淨回籠11625億元，流動性管理趨緊。",
-      "content": "中國央行今日開展1000億元7天期逆回購操作，利率維持1.4%。由於今日有6625億元7天期及6000億元隔夜逆回購到期，合計淨回籠11625億元。此舉顯示央行在季初進行流動性回收，市場需留意短期資金利率波動。",
+      "summary": "中國央行今日透過逆回購操作淨回籠資金11625億元，顯示流動性管理趨於謹慎。",
+      "content": "中國央行今日進行1000億元7天期逆回購操作，利率維持1.4%。因今日有12625億元逆回購到期，單日實現淨回籠11625億元。此舉可能影響短期市場資金利率與債市情緒。",
       "tags": [
         "PBOC",
         "Liquidity"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 09:22",
-          "t5_target": "2026-07-01 09:27",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 09:22",
-          "t5_target": "2026-07-01 09:27",
-          "t0_time": "2026-07-01 09:22",
-          "t5_time": "2026-07-01 09:27",
-          "t0": 7538.25,
-          "t5": 7536.25,
-          "change": -2.0,
-          "change_pct": -0.0265,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 09:22",
-          "t5_target": "2026-07-01 09:27",
-          "t0_time": "2026-07-01 09:22",
-          "t5_time": "2026-07-01 09:27",
-          "t0": 30493.25,
-          "t5": 30485.0,
-          "change": -8.25,
-          "change_pct": -0.0271,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 09:16",
@@ -409,185 +202,28 @@
       "importance": 3,
       "headline": "人民幣中間價創2023年2月以來新高",
       "summary": "人民幣兌美元中間價報6.8067，創下2023年2月以來新高，反映匯率政策導向。",
-      "content": "人民幣兌美元中間價今日報6.8067，較上一交易日上調42點，創下2023年2月10日以來新高。強勢中間價顯示官方對匯率穩定與資本流動的態度，對跨境資金流向及出口型企業獲利有潛在影響。",
+      "content": "人民幣兌美元中間價上調42點至6.8067，創2023年2月10日以來新高。此舉顯示中國央行對人民幣匯率的態度，可能影響跨境資金流動與出口企業獲利預期。",
       "tags": [
         "CNY",
         "USD"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 09:16",
-          "t5_target": "2026-07-01 09:21",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 09:16",
-          "t5_target": "2026-07-01 09:21",
-          "t0_time": "2026-07-01 09:16",
-          "t5_time": "2026-07-01 09:21",
-          "t0": 7535.75,
-          "t5": 7537.25,
-          "change": 1.5,
-          "change_pct": 0.0199,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 09:16",
-          "t5_target": "2026-07-01 09:21",
-          "t0_time": "2026-07-01 09:16",
-          "t5_time": "2026-07-01 09:21",
-          "t0": 30474.25,
-          "t5": 30486.5,
-          "change": 12.25,
-          "change_pct": 0.0402,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 08:30",
+      "datetime": "2026-07-01 08:28",
       "category": "central_bank",
       "category_name": "央行",
       "importance": 4,
       "headline": "中國央行啟用隔夜逆回購工具",
-      "summary": "央行首度操作隔夜逆回購，旨在季末精準調節流動性，釋放寬鬆政策訊號。",
-      "content": "中國央行首次開展隔夜逆回購操作，中信證券分析認為此舉意在維護半年末流動性穩定，並彌合期限錯配。該工具目前定位為短期流動性管理，雖不改變7天逆回購政策利率地位，但明確釋放了寬貨幣的政策態度。",
+      "summary": "央行首次開展隔夜逆回購，旨在維護半年末流動性穩定，釋放寬鬆貨幣政策訊號。",
+      "content": "中國央行首次開展隔夜逆回購操作，旨在彌合期限錯配並精準調節流動性。市場分析認為，此舉顯示央行維護寬鬆環境的態度明確，雖目前定位為短期流動性管理工具，但強化了政策寬鬆預期。",
       "tags": [
         "PBOC",
         "Liquidity"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 08:30",
-          "t5_target": "2026-07-01 08:35",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 08:30",
-          "t5_target": "2026-07-01 08:35",
-          "t0_time": "2026-07-01 08:30",
-          "t5_time": "2026-07-01 08:35",
-          "t0": 7546.25,
-          "t5": 7546.0,
-          "change": -0.25,
-          "change_pct": -0.0033,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 08:30",
-          "t5_target": "2026-07-01 08:35",
-          "t0_time": "2026-07-01 08:30",
-          "t5_time": "2026-07-01 08:35",
-          "t0": 30540.0,
-          "t5": 30530.0,
-          "change": -10.0,
-          "change_pct": -0.0327,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
-    },
-    {
-      "datetime": "2026-07-01 08:00",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "韓國6月出口強勁，年增70.9%",
-      "summary": "韓國6月出口數據遠超預期，顯示全球貿易需求回溫，有利於區域經濟展望。",
-      "content": "韓國6月出口同比增長70.9%，進口同比增長30.1%，數據均顯著高於市場預期。強勁的出口表現反映全球製造業需求回升，對亞洲出口導向型經濟體及相關供應鏈具正面支撐作用。",
-      "tags": [
-        "Korea",
-        "Export",
-        "Economy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 08:00",
-          "t5_target": "2026-07-01 08:05",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 08:00",
-          "t5_target": "2026-07-01 08:05",
-          "t0_time": "2026-07-01 08:00",
-          "t5_time": "2026-07-01 08:05",
-          "t0": 7547.0,
-          "t5": 7545.0,
-          "change": -2.0,
-          "change_pct": -0.0265,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 08:00",
-          "t5_target": "2026-07-01 08:05",
-          "t0_time": "2026-07-01 08:00",
-          "t5_time": "2026-07-01 08:05",
-          "t0": 30545.75,
-          "t5": 30525.25,
-          "change": -20.5,
-          "change_pct": -0.0671,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 07:50",
@@ -595,1070 +231,307 @@
       "category_name": "經濟",
       "importance": 4,
       "headline": "日本二季度短觀報告優於預期",
-      "summary": "日本大型製造業景氣指數升至22，優於預期，顯示企業信心增強。",
-      "content": "日本二季度短觀大型製造業景氣判斷指數報22，高於預期的16；非製造業景氣判斷指數報37，亦優於預期的36。數據顯示日本企業信心持續改善，可能影響BOJ對未來貨幣政策正常化的評估。",
+      "summary": "日本短觀大型製造業景氣指數達22，優於預期，顯示企業信心回升。",
+      "content": "日本二季度短觀大型製造業景氣判斷指數為22，高於預期的16；非製造業景氣指數為37，亦優於預期的36。數據顯示日本企業信心強勁，可能支撐BOJ後續貨幣政策正常化路徑。",
       "tags": [
         "BOJ",
         "Japan",
         "Economy"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 07:50",
-          "t5_target": "2026-07-01 07:55",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 07:50",
-          "t5_target": "2026-07-01 07:55",
-          "t0_time": "2026-07-01 07:50",
-          "t5_time": "2026-07-01 07:55",
-          "t0": 7545.5,
-          "t5": 7543.25,
-          "change": -2.25,
-          "change_pct": -0.0298,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 07:50",
-          "t5_target": "2026-07-01 07:55",
-          "t0_time": "2026-07-01 07:50",
-          "t5_time": "2026-07-01 07:55",
-          "t0": 30535.5,
-          "t5": 30521.0,
-          "change": -14.5,
-          "change_pct": -0.0475,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 07:42",
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "美國解除Anthropic出口管制",
-      "summary": "美國商務部批准Anthropic模型Fable 5出口，AI產業監管壓力緩解。",
-      "content": "美國商務部與Anthropic密切合作後，正式解除對Fable 5模型的出口管制。此舉顯示美國政府在AI技術監管與產業發展間尋求平衡，有利於相關AI科技企業的國際業務拓展。",
+      "headline": "美國取消Anthropic模型出口管制",
+      "summary": "美國商務部批准Anthropic的Fable 5模型，解除出口管制並恢復訪問。",
+      "content": "美國商務部與Anthropic密切合作後，正式批准並取消對Fable 5模型的出口管制。此舉顯示美國在AI技術監管與國家安全間的動態調整，對科技股與AI產業鏈具指標意義。",
       "tags": [
         "AI",
         "Anthropic",
         "Tech"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 07:42",
-          "t5_target": "2026-07-01 07:47",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 07:42",
-          "t5_target": "2026-07-01 07:47",
-          "t0_time": "2026-07-01 07:42",
-          "t5_time": "2026-07-01 07:47",
-          "t0": 7545.5,
-          "t5": 7545.5,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 07:42",
-          "t5_target": "2026-07-01 07:47",
-          "t0_time": "2026-07-01 07:42",
-          "t5_time": "2026-07-01 07:47",
-          "t0": 30531.0,
-          "t5": 30533.25,
-          "change": 2.25,
-          "change_pct": 0.0074,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 07:38",
+      "datetime": "2026-07-01 07:37",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 5,
+      "importance": 4,
       "headline": "特朗普聽取伊朗戰爭方案簡報",
-      "summary": "特朗普聽取對伊朗軍事方案，但目前選擇優先進行外交談判，地緣風險暫緩。",
-      "content": "特朗普已聽取關於對伊朗的軍事行動方案簡報，但目前傾向於繼續外交談判。特朗普對助手表示，若談判超過8月18日截止日期亦可接受，顯示短期內地緣衝突升級風險受控，市場關注後續談判進展。",
+      "summary": "特朗普聽取對伊朗軍事方案簡報，但目前選擇優先進行外交談判。",
+      "content": "特朗普已聽取關於對伊朗的戰爭方案簡報，但目前傾向於外交途徑解決。他設定了8月18日的談判截止日期，地緣政治風險仍需密切關注，可能影響能源市場與避險資產。",
       "tags": [
         "Geopolitics",
         "Iran",
         "Trump"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 07:38",
-          "t5_target": "2026-07-01 07:43",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 07:38",
-          "t5_target": "2026-07-01 07:43",
-          "t0_time": "2026-07-01 07:38",
-          "t5_time": "2026-07-01 07:43",
-          "t0": 7545.0,
-          "t5": 7546.0,
-          "change": 1.0,
-          "change_pct": 0.0133,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 07:38",
-          "t5_target": "2026-07-01 07:43",
-          "t0_time": "2026-07-01 07:38",
-          "t5_time": "2026-07-01 07:43",
-          "t0": 30528.5,
-          "t5": 30538.5,
-          "change": 10.0,
-          "change_pct": 0.0328,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 07:27",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 4,
-      "headline": "美國最大電網PJM啟動數據中心電力採購計畫",
-      "summary": "AI與數據中心電力需求激增，PJM電網通過新採購計畫，反映能源基礎設施壓力與通膨潛在風險。",
-      "content": "美國最大電網運營商PJM通過一項旨在滿足數據中心電力需求的「後備採購」計畫。隨著AI產業擴張，電力供應緊張已成為關鍵瓶頸，此舉不僅影響科技業成本結構，亦可能對長期能源價格與通膨預期產生連鎖反應。",
+      "importance": 3,
+      "headline": "美國PJM電網管理數據中心電力需求",
+      "summary": "美國最大電網PJM通過計畫，以應對AI數據中心激增的電力需求。",
+      "content": "美國PJM互聯公司通過一項「後備採購」計畫，旨在解決數據中心快速擴張帶來的電力供應壓力。此舉反映AI基礎設施建設對能源市場的結構性需求，長期將影響公用事業與能源板塊。",
       "tags": [
-        "AI",
         "Energy",
-        "Economy"
+        "AI",
+        "Infrastructure"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 07:27",
-          "t5_target": "2026-07-01 07:32",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 07:27",
-          "t5_target": "2026-07-01 07:32",
-          "t0_time": "2026-07-01 07:27",
-          "t5_time": "2026-07-01 07:32",
-          "t0": 7545.5,
-          "t5": 7545.0,
-          "change": -0.5,
-          "change_pct": -0.0066,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 07:27",
-          "t5_target": "2026-07-01 07:32",
-          "t0_time": "2026-07-01 07:27",
-          "t5_time": "2026-07-01 07:32",
-          "t0": 30535.25,
-          "t5": 30530.5,
-          "change": -4.75,
-          "change_pct": -0.0156,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 06:30",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 5,
-      "headline": "全球央行年會焦點：拉加德、沃什、貝利將發表談話",
-      "summary": "今日全球央行行長將齊聚葡萄牙Sintra，市場高度關注Fed、ECB與BOE對未來利率路徑的最新指引。",
-      "content": "今日重點關注Fed主席沃什、ECB行長拉加德、BOE行長貝利及加拿大央行行長Macklem的公開談話。在市場對通膨與經濟前景分歧加劇之際，央行官員對利率政策的態度將直接影響全球債市與匯市波動。",
-      "tags": [
-        "Fed",
-        "ECB",
-        "BOE",
-        "CentralBank"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 06:30",
-          "t5_target": "2026-07-01 06:35",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 06:30",
-          "t5_target": "2026-07-01 06:35",
-          "t0_time": "2026-07-01 06:30",
-          "t5_time": "2026-07-01 06:35",
-          "t0": 7549.5,
-          "t5": 7547.0,
-          "change": -2.5,
-          "change_pct": -0.0331,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 06:30",
-          "t5_target": "2026-07-01 06:35",
-          "t0_time": "2026-07-01 06:30",
-          "t5_time": "2026-07-01 06:35",
-          "t0": 30527.75,
-          "t5": 30510.75,
-          "change": -17.0,
-          "change_pct": -0.0557,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
-    },
-    {
-      "datetime": "2026-07-01 06:30",
-      "category": "war",
-      "category_name": "戰爭",
+      "datetime": "2026-07-01 07:25",
+      "category": "economy",
+      "category_name": "經濟",
       "importance": 4,
-      "headline": "美特使與中東領導人會談，討論黎巴嫩停火",
-      "summary": "美國特使與中東領導人就黎巴嫩停火進行積極會談，地緣政治風險緩解跡象有助於穩定能源市場。",
-      "content": "美國特使威特科夫與庫什納在多哈與地區領導人會談，討論黎巴嫩停火及地區局勢。儘管進展仍待觀察，但外交斡旋的持續進行有助於降低中東地緣政治對原油供應鏈的衝擊風險。",
+      "headline": "美國5月JOLTS職位空缺回升",
+      "summary": "美國5月JOLTS職位空缺數升至759萬人，顯示勞動力需求保持韌性，可能支撐Fed維持高利率。",
+      "content": "美國勞工部數據顯示，5月JOLTS職位空缺數小幅回升至759萬人，高於市場預期。強勁的勞動力需求顯示經濟活動仍具韌性，這將增加Fed在制定貨幣政策時的通膨壓力，並可能影響市場對未來降息路徑的定價。",
       "tags": [
-        "Geopolitics",
-        "MiddleEast",
-        "Commodity"
+        "JOLTS",
+        "LaborMarket",
+        "Fed"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 06:30",
-          "t5_target": "2026-07-01 06:35",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 06:30",
-          "t5_target": "2026-07-01 06:35",
-          "t0_time": "2026-07-01 06:30",
-          "t5_time": "2026-07-01 06:35",
-          "t0": 7549.5,
-          "t5": 7547.0,
-          "change": -2.5,
-          "change_pct": -0.0331,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 06:30",
-          "t5_target": "2026-07-01 06:35",
-          "t0_time": "2026-07-01 06:30",
-          "t5_time": "2026-07-01 06:35",
-          "t0": 30527.75,
-          "t5": 30510.75,
-          "change": -17.0,
-          "change_pct": -0.0557,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 06:30",
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "美國商務部擬解除Anthropic AI模型出口管制",
-      "summary": "美國擬解除對Anthropic AI模型出口限制，顯示科技競爭與監管政策的動態調整。",
-      "content": "據報導，美國商務部預計解除對Anthropic公司Fable AI模型的出口管制。此舉反映美國在AI技術領先地位與全球市場准入之間的政策權衡，對相關科技股與全球AI產業鏈具有指標意義。",
+      "headline": "美國將解除Anthropic AI模型出口管制",
+      "summary": "美國商務部預計解除對Anthropic Fable AI模型的出口限制，有利於AI技術的全球商業化進程。",
+      "content": "據白宮官員透露，美國商務部預計將於今晚解除對Anthropic公司Fable AI模型的出口管制。此舉標誌著美國在AI技術出口政策上的調整，可能對相關科技企業的全球業務擴張與AI自動化市場產生正面影響。",
       "tags": [
         "AI",
-        "Tech",
-        "Regulation"
+        "Anthropic",
+        "TradePolicy"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 06:30",
-          "t5_target": "2026-07-01 06:35",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 06:30",
-          "t5_target": "2026-07-01 06:35",
-          "t0_time": "2026-07-01 06:30",
-          "t5_time": "2026-07-01 06:35",
-          "t0": 7549.5,
-          "t5": 7547.0,
-          "change": -2.5,
-          "change_pct": -0.0331,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 06:30",
-          "t5_target": "2026-07-01 06:35",
-          "t0_time": "2026-07-01 06:30",
-          "t5_time": "2026-07-01 06:35",
-          "t0": 30527.75,
-          "t5": 30510.75,
-          "change": -17.0,
-          "change_pct": -0.0557,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 06:04",
       "category": "central_bank",
       "category_name": "央行",
       "importance": 5,
-      "headline": "交易員押注Fed 7月加息機率升至36%",
-      "summary": "市場對Fed 7月加息預期升溫，利率互換定價反映加息機率達36%，顯示市場對通膨與政策路徑重新定價。",
-      "content": "聯邦基金利率期貨交易員加大空頭頭寸，押注Fed可能最早於7月重啟加息。儘管機率仍低，但隨著新任主席沃什（Kevin Warsh）將重心轉向物價穩定，市場對政策緊縮的預期已顯著上升，這將對美債殖利率與股市估值構成壓力。",
+      "headline": "市場押注Fed 7月加息機率升至36%",
+      "summary": "交易員加碼Fed利率期貨空單，市場開始定價7月加息的可能性，反映對通膨與政策轉向的擔憂。",
+      "content": "聯邦基金利率期貨市場顯示，交易員正加大押注Fed可能於7月重啟加息。目前利率互換定價反映約9個基點的加息幅度，隱含加息25個基點的機率約為36%。在新任主席沃什（Kevin Warsh）轉向物價穩定優先的背景下，市場對政策緊縮的預期顯著升溫。",
       "tags": [
         "Fed",
-        "UST",
         "InterestRate"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 06:04",
-          "t5_target": "2026-07-01 06:09",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 06:04",
-          "t5_target": "2026-07-01 06:09",
-          "t0_time": "2026-07-01 06:04",
-          "t5_time": "2026-07-01 06:09",
-          "t0": 7545.0,
-          "t5": 7547.0,
-          "change": 2.0,
-          "change_pct": 0.0265,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 06:04",
-          "t5_target": "2026-07-01 06:09",
-          "t0_time": "2026-07-01 06:04",
-          "t5_time": "2026-07-01 06:09",
-          "t0": 30514.5,
-          "t5": 30519.25,
-          "change": 4.75,
-          "change_pct": 0.0156,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 04:42",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 4,
-      "headline": "特朗普财务披露：重仓科技巨头并持有加密货币",
-      "summary": "特朗普财务披露显示其持有大量Apple、Nvidia及Palantir股票，并拥有庞大加密货币收益，显示其个人资产与科技及加密市场高度相关。",
-      "content": "美国总统特朗普年度财务披露显示，其持有至少500万美元的Apple与Nvidia股票，以及100万美元的Palantir股票。此外，披露显示其加密货币相关收入超10亿美元，收益超12亿美元。2025年10月曾抛售至少2.5亿美元Nvidia股票，其个人持仓动向对市场情绪具有指标意义。",
+      "datetime": "2026-07-01 05:59",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 3,
+      "headline": "美特使與卡達討論黎巴嫩停火",
+      "summary": "美國特使與卡達官員就中東局勢及黎巴嫩停火進行會談，地緣政治風險仍是市場關注焦點。",
+      "content": "卡達外交部宣布，卡達首相與美國特使威特科夫及庫什納討論了地區局勢與黎巴嫩停火問題。儘管技術層面會談取得進展，但中東地緣政治的不確定性仍持續影響能源市場與避險情緒。",
       "tags": [
-        "Trump",
-        "Nvidia",
-        "Apple",
-        "Crypto"
+        "Geopolitics",
+        "MiddleEast"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 04:42",
-          "t5_target": "2026-07-01 04:47",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 04:42",
-          "t5_target": "2026-07-01 04:47",
-          "t0_time": "2026-07-01 04:42",
-          "t5_time": "2026-07-01 04:47",
-          "t0": 7540.75,
-          "t5": 7539.5,
-          "change": -1.25,
-          "change_pct": -0.0166,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 04:42",
-          "t5_target": "2026-07-01 04:47",
-          "t0_time": "2026-07-01 04:42",
-          "t5_time": "2026-07-01 04:47",
-          "t0": 30493.25,
-          "t5": 30491.75,
-          "change": -1.5,
-          "change_pct": -0.0049,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 05:36",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "South32出售鋁資產予美國鋁業",
+      "summary": "South32以56億美元出售鋁資產給美國鋁業，顯示金屬產業進入整合期。",
+      "content": "South32 Ltd.宣布將其鋁資產出售給美國鋁業（Alcoa），交易價值高達56億美元。此大型併購案反映了全球金屬與礦業公司在產業週期中的資產重組趨勢，可能影響相關原物料市場的供給格局。",
+      "tags": [
+        "Commodity",
+        "Alcoa",
+        "M&A"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 04:31",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "新興市場股市創17年最佳季度",
+      "summary": "受AI熱潮帶動，MSCI新興市場指數二季度大漲23%，創2009年以來最佳表現。",
+      "content": "儘管面臨地緣政治與油價波動，新興市場股市在亞洲科技股領漲下表現強勁。二季度漲幅達23%，顯示全球資金在AI產業鏈擴張背景下，對新興市場配置意願提升。",
+      "tags": [
+        "MSCI",
+        "Emerging Markets",
+        "AI"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 04:13",
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "大空头Burry最新持仓：做空Nvidia与Tesla",
-      "summary": "知名投资者Michael Burry宣布做空Nvidia、Tesla及应用材料，显示其对AI热潮及科技股估值持高度怀疑态度。",
-      "content": "“大空头”Michael Burry最新披露其持仓动向，首次做空卡特彼勒，并同时做空Nvidia、Tesla及应用材料。此举反映了市场部分专业投资者对当前AI驱动的科技股高估值及宏观经济前景的担忧，可能引发市场对相关热门股的避险情绪。",
+      "headline": "大空頭Burry做空科技巨頭",
+      "summary": "知名投資人Michael Burry披露做空Nvidia、Tesla及應用材料，引發市場關注。",
+      "content": "Michael Burry最新持倉顯示其首次做空Caterpillar，並持續做空Nvidia、Tesla及應用材料。此舉凸顯市場對AI熱潮估值過高的擔憂，可能加劇科技股波動。",
       "tags": [
         "Nvidia",
         "Tesla",
-        "Burry"
+        "Equity"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 04:13",
-          "t5_target": "2026-07-01 04:18",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 04:13",
-          "t5_target": "2026-07-01 04:18",
-          "t0_time": "2026-07-01 04:13",
-          "t5_time": "2026-07-01 04:18",
-          "t0": 7544.75,
-          "t5": 7545.75,
-          "change": 1.0,
-          "change_pct": 0.0133,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 04:13",
-          "t5_target": "2026-07-01 04:18",
-          "t0_time": "2026-07-01 04:13",
-          "t5_time": "2026-07-01 04:18",
-          "t0": 30508.0,
-          "t5": 30508.25,
-          "change": 0.25,
-          "change_pct": 0.0008,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 03:53",
       "category": "bond",
       "category_name": "債市",
-      "importance": 5,
-      "headline": "美债收益率走高，短端TIPS收益率显著攀升",
-      "summary": "美债收益率全线走高，两年期TIPS收益率6月大涨超77个基点，反映市场对实际利率上升及通胀预期的重新定价。",
-      "content": "纽约尾盘，美国10年期国债收益率升至4.43%，两年期收益率升至4.14%。值得关注的是，两年期TIPS收益率6月累计上涨77.59个基点，二季度涨幅达160个基点，显示市场对实际利率上行压力的高度敏感，这对风险资产估值构成潜在压制。",
+      "importance": 4,
+      "headline": "美債殖利率攀升，短端利率壓力大",
+      "summary": "6月份兩年期美債實際收益率大幅上漲，反映市場對利率維持高檔的預期。",
+      "content": "美國兩年期TIPS收益率在6月累漲超77個基點，顯示市場對短端實際利率重新定價。10年期美債殖利率刷新日高至4.43%，反映通膨預期與財政赤字壓力，對股市估值構成持續性逆風。",
       "tags": [
         "UST",
-        "TIPS",
-        "Yield"
+        "Yield",
+        "Fed"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 03:53",
-          "t5_target": "2026-07-01 03:58",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 03:53",
-          "t5_target": "2026-07-01 03:58",
-          "t0_time": "2026-07-01 03:53",
-          "t5_time": "2026-07-01 03:58",
-          "t0": 7559.5,
-          "t5": 7556.5,
-          "change": -3.0,
-          "change_pct": -0.0397,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 03:53",
-          "t5_target": "2026-07-01 03:58",
-          "t0_time": "2026-07-01 03:53",
-          "t5_time": "2026-07-01 03:58",
-          "t0": 30582.25,
-          "t5": 30558.25,
-          "change": -24.0,
-          "change_pct": -0.0785,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 03:47",
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "美国最大电网进入紧急状态，应对极端高温",
-      "summary": "特朗普政府宣布PJM电网进入电力紧急状态，授权发电厂超负荷运行，可能影响能源供应成本及相关工业生产。",
-      "content": "为应对极端热浪，美国能源部授权覆盖13个州的PJM电网地区发电厂以最大负荷运行，并放宽部分环保要求。此举旨在保障电力供应，但可能推升短期能源价格波动，并对相关区域的工业生产成本产生连锁反应。",
+      "headline": "美最大電網進入緊急狀態",
+      "summary": "全美最大電網PJM因極端高溫進入電力緊急狀態，授權電廠超負荷運作以維持供電。",
+      "content": "美國能源部針對PJM電網發布緊急命令，授權其覆蓋的13州電廠以最大負載運行，並放寬部分環保要求，以應對破紀錄高溫帶來的電力基礎設施壓力。此舉反映能源供應緊張，可能影響相關能源與公用事業板塊。",
       "tags": [
         "Energy",
         "PJM",
-        "US"
+        "DOE"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 03:47",
-          "t5_target": "2026-07-01 03:52",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 03:47",
-          "t5_target": "2026-07-01 03:52",
-          "t0_time": "2026-07-01 03:47",
-          "t5_time": "2026-07-01 03:52",
-          "t0": 7555.5,
-          "t5": 7555.25,
-          "change": -0.25,
-          "change_pct": -0.0033,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 03:47",
-          "t5_target": "2026-07-01 03:52",
-          "t0_time": "2026-07-01 03:47",
-          "t5_time": "2026-07-01 03:52",
-          "t0": 30566.0,
-          "t5": 30555.5,
-          "change": -10.5,
-          "change_pct": -0.0344,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 03:41",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "日元跌破162關口，創1986年以來新低",
-      "summary": "日元匯率持續疲軟，二季度累跌約2.4%，市場關注BOJ是否會採取干預措施。",
-      "content": "美元兌日元匯率突破162關口，創下1986年以來新低。日元持續走弱引發市場對日本央行（BOJ）可能進行外匯干預的猜測，這對亞太貨幣市場及套利交易策略構成壓力。",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 5,
+      "headline": "日圓貶破162，創1986年新低",
+      "summary": "美元兌日圓突破162關口，創下1986年以來新低，市場關注BOJ干預風險。",
+      "content": "美元兌日圓匯率持續走高，突破162關口，反映美日利差擴大壓力。日圓在第二季度累跌約2.4%，市場高度關注BOJ是否會採取干預措施以遏制匯率過度波動，這對全球套利交易（Carry Trade）資金流向至關重要。",
       "tags": [
-        "JPY",
         "BOJ",
+        "JPY",
         "FX"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 03:41",
-          "t5_target": "2026-07-01 03:46",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 03:41",
-          "t5_target": "2026-07-01 03:46",
-          "t0_time": "2026-07-01 03:41",
-          "t5_time": "2026-07-01 03:46",
-          "t0": 7556.0,
-          "t5": 7556.5,
-          "change": 0.5,
-          "change_pct": 0.0066,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 03:41",
-          "t5_target": "2026-07-01 03:46",
-          "t0_time": "2026-07-01 03:41",
-          "t5_time": "2026-07-01 03:46",
-          "t0": 30566.25,
-          "t5": 30573.0,
-          "change": 6.75,
-          "change_pct": 0.0221,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 03:13",
       "category": "central_bank",
       "category_name": "央行",
       "importance": 4,
-      "headline": "ECB官員：繼續加息緊迫性顯著下降",
-      "summary": "ECB官員暗示政策轉向，7月與9月行動路徑不明，市場預期升息週期接近尾聲。",
-      "content": "歐洲央行（ECB）管委Kazaks表示，當前無需採取強硬通膨應對手段，繼續加息的緊迫性已顯著下降。此言論暗示ECB政策立場轉向鴿派，市場正重新評估歐元區利率路徑。",
+      "headline": "ECB管委Kazaks：加息緊迫性顯著下降",
+      "summary": "ECB官員暗示無需強硬應對通膨，7月與9月政策路徑不明，市場對升息預期降溫。",
+      "content": "ECB管委Kazaks表示，當前無需採取強有力的通膨應對手段，繼續加息的緊迫性已顯著下降。此番言論顯示ECB政策立場轉趨謹慎，市場將密切關注後續會議對利率路徑的指引。",
       "tags": [
-        "ECB",
-        "InterestRate"
+        "ECB"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 03:13",
-          "t5_target": "2026-07-01 03:18",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 03:13",
-          "t5_target": "2026-07-01 03:18",
-          "t0_time": "2026-07-01 03:13",
-          "t5_time": "2026-07-01 03:18",
-          "t0": 7564.75,
-          "t5": 7565.25,
-          "change": 0.5,
-          "change_pct": 0.0066,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 03:13",
-          "t5_target": "2026-07-01 03:18",
-          "t0_time": "2026-07-01 03:13",
-          "t5_time": "2026-07-01 03:18",
-          "t0": 30590.25,
-          "t5": 30588.0,
-          "change": -2.25,
-          "change_pct": -0.0074,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 03:12",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "伊朗稱石油制裁已解除，出口量激增",
+      "summary": "伊朗宣稱石油制裁解除且出口量突破4000萬桶，可能增加全球原油供給壓力。",
+      "content": "伊朗議長表示，美國解除封鎖後伊朗石油出口已超4000萬桶，並以20%溢價銷售。此外，伊朗警告霍爾木茲海峽免費通行限期為60天，地緣政治風險仍需留意。",
+      "tags": [
+        "Oil",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 02:54",
       "category": "war",
       "category_name": "戰爭",
       "importance": 3,
-      "headline": "伊朗稱石油制裁已解除，出口量激增",
-      "summary": "伊朗宣稱石油出口恢復，且霍爾木茲海峽通行限期60天，地緣政治風險仍存。",
-      "content": "伊朗議長表示，美國解除封鎖後伊朗石油出口已超4000萬桶，並以20%溢價銷售。伊朗同時設定霍爾木茲海峽免費通行限期為60天，需密切關注中東能源供應鏈與地緣政治緊張局勢。",
+      "headline": "埃及土耳其與哈馬斯會談，加沙停火現進展",
+      "summary": "三方就加沙停火計畫進行會談並取得積極進展，地緣政治緊張局勢有望緩解。",
+      "content": "埃及與土耳其情報官員與哈馬斯代表團在開羅會晤，討論加沙停火第二階段事宜。各方對美國提出的結束衝突計畫持樂觀態度，市場關注中東局勢對能源價格的潛在影響。",
       "tags": [
-        "Oil",
-        "Geopolitics",
-        "Iran"
+        "Geopolitics"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 03:12",
-          "t5_target": "2026-07-01 03:17",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 03:12",
-          "t5_target": "2026-07-01 03:17",
-          "t0_time": "2026-07-01 03:12",
-          "t5_time": "2026-07-01 03:17",
-          "t0": 7563.5,
-          "t5": 7566.25,
-          "change": 2.75,
-          "change_pct": 0.0364,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 03:12",
-          "t5_target": "2026-07-01 03:17",
-          "t0_time": "2026-07-01 03:12",
-          "t5_time": "2026-07-01 03:17",
-          "t0": 30588.5,
-          "t5": 30591.25,
-          "change": 2.75,
-          "change_pct": 0.009,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 02:31",
       "category": "commodity",
       "category_name": "商品",
       "importance": 4,
-      "headline": "油價單月重挫近20%，需求前景受壓",
-      "summary": "WTI與布蘭特原油6月跌幅顯著，反映市場對全球能源需求疲軟的擔憂。",
-      "content": "WTI與布蘭特原油期貨6月分別累跌逾18%與19%。油價持續走低反映市場對全球經濟放緩及能源需求前景的擔憂，這將影響通膨預期及能源相關類股表現。",
+      "headline": "油價單月重挫，WTI與布蘭特原油跌幅顯著",
+      "summary": "原油市場需求擔憂與供給預期變化，導致6月油價大幅回落，影響能源類股與通膨預期。",
+      "content": "WTI原油6月累計下跌超18%，布蘭特原油跌近20%。油價疲軟反映市場對全球經濟放緩的擔憂，同時也減輕了央行對能源驅動型通膨的壓力。",
       "tags": [
         "Oil",
-        "Energy",
-        "Commodity"
+        "Energy"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 02:31",
-          "t5_target": "2026-07-01 02:36",
-          "t0_time": "2026-07-01 02:31",
-          "t5_time": "2026-07-01 02:36",
-          "t0": 4.416,
-          "t5": 4.416,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "change_bp_est": 0.0,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 02:31",
-          "t5_target": "2026-07-01 02:36",
-          "t0_time": "2026-07-01 02:31",
-          "t5_time": "2026-07-01 02:36",
-          "t0": 7554.0,
-          "t5": 7555.0,
-          "change": 1.0,
-          "change_pct": 0.0132,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 02:31",
-          "t5_target": "2026-07-01 02:36",
-          "t0_time": "2026-07-01 02:31",
-          "t5_time": "2026-07-01 02:36",
-          "t0": 30525.5,
-          "t5": 30530.75,
-          "change": 5.25,
-          "change_pct": 0.0172,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 02:29",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
+      "importance": 3,
+      "headline": "紐約市達成1260億美元預算協議",
+      "summary": "紐約市府達成大規模預算協議，涵蓋租金援助與教育儲蓄，顯示地方財政支出維持擴張。",
+      "content": "紐約市市長與議會就1258億美元預算達成協議，包含租金援助、公立幼兒園儲蓄及公共交通補貼。此舉反映美國地方政府在財政支出上仍具韌性。",
+      "tags": [
+        "Fiscal Policy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 02:18",
       "category": "central_bank",
       "category_name": "央行",
-      "importance": 3,
+      "importance": 4,
       "headline": "哥倫比亞央行升息至12%",
-      "summary": "新興市場央行持續採取緊縮政策以應對通膨壓力。",
-      "content": "哥倫比亞央行宣佈將利率從11.25%上調至12%。此舉顯示新興市場國家在面對全球通膨與貨幣貶值壓力下，仍被迫維持高利率政策以穩定金融環境。",
+      "summary": "新興市場央行持續採取緊縮政策以對抗通膨，利率環境維持高檔。",
+      "content": "哥倫比亞央行將貸款利率由11.25%上調至12%，顯示新興市場在面對全球通膨壓力時，仍需維持高利率以穩定匯率與物價。",
       "tags": [
-        "CentralBank",
-        "EmergingMarkets"
+        "Central Bank"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 02:18",
-          "t5_target": "2026-07-01 02:23",
-          "t0_time": "2026-07-01 02:18",
-          "t5_time": "2026-07-01 02:23",
-          "t0": 4.412,
-          "t5": 4.412,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "change_bp_est": 0.0,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 02:18",
-          "t5_target": "2026-07-01 02:23",
-          "t0_time": "2026-07-01 02:18",
-          "t5_time": "2026-07-01 02:23",
-          "t0": 7555.75,
-          "t5": 7557.25,
-          "change": 1.5,
-          "change_pct": 0.0199,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 02:18",
-          "t5_target": "2026-07-01 02:23",
-          "t0_time": "2026-07-01 02:18",
-          "t5_time": "2026-07-01 02:23",
-          "t0": 30536.0,
-          "t5": 30538.0,
-          "change": 2.0,
-          "change_pct": 0.0065,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 02:03",
@@ -1666,378 +539,108 @@
       "category_name": "股市",
       "importance": 4,
       "headline": "機構看好Nvidia數據中心收入超預期",
-      "summary": "SemiAnalysis預測Nvidia 2027財年收入將優於預期，供應鏈瓶頸緩解是關鍵。",
-      "content": "研究機構SemiAnalysis預計，受惠於供應瓶頸緩解及Vera Rubin平台放量，Nvidia在2027財年下半年的數據中心計算收入將較市場預期高出約20%，有利於支撐AI板塊估值。",
+      "summary": "供應瓶頸緩解與新平台放量，機構上調Nvidia未來營收預期，支撐AI板塊信心。",
+      "content": "研究機構SemiAnalysis預計，Nvidia在2027財年下半年的數據中心計算收入將高於市場預期20%，主要受惠於供應鏈改善及Vera Rubin平台加速量產。",
       "tags": [
         "Nvidia",
-        "AI",
-        "Equity"
+        "AI"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 02:03",
-          "t5_target": "2026-07-01 02:08",
-          "t0_time": "2026-07-01 02:03",
-          "t5_time": "2026-07-01 02:08",
-          "t0": 4.41,
-          "t5": 4.412,
-          "change": 0.002,
-          "change_pct": 0.0453,
-          "change_bp_est": 0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 02:03",
-          "t5_target": "2026-07-01 02:08",
-          "t0_time": "2026-07-01 02:03",
-          "t5_time": "2026-07-01 02:08",
-          "t0": 7554.5,
-          "t5": 7555.0,
-          "change": 0.5,
-          "change_pct": 0.0066,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 02:03",
-          "t5_target": "2026-07-01 02:08",
-          "t0_time": "2026-07-01 02:03",
-          "t5_time": "2026-07-01 02:08",
-          "t0": 30533.75,
-          "t5": 30533.25,
-          "change": -0.5,
-          "change_pct": -0.0016,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 00:29",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "以色列逮捕一名涉嫌為伊朗從事間諜活動的美國公民",
-      "summary": "地緣政治風險升溫，以色列逮捕涉嫌為伊朗蒐集敏感情報的美國公民，恐加劇區域緊張局勢。",
-      "content": "以色列安全機構逮捕一名涉嫌為伊朗情報機構執行任務的美國公民，指控其記錄敏感地點。此事件可能進一步惡化以色列與伊朗的緊張關係，需密切關注對中東地緣政治及能源市場的潛在影響。",
-      "tags": [
-        "Israel",
-        "Iran",
-        "Geopolitics"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 00:29",
-          "t5_target": "2026-07-01 00:34",
-          "t0_time": "2026-07-01 00:29",
-          "t5_time": "2026-07-01 00:34",
-          "t0": 4.404,
-          "t5": 4.402,
-          "change": -0.002,
-          "change_pct": -0.0454,
-          "change_bp_est": -0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 00:29",
-          "t5_target": "2026-07-01 00:34",
-          "t0_time": "2026-07-01 00:29",
-          "t5_time": "2026-07-01 00:34",
-          "t0": 7550.5,
-          "t5": 7549.75,
-          "change": -0.75,
-          "change_pct": -0.0099,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 00:29",
-          "t5_target": "2026-07-01 00:34",
-          "t0_time": "2026-07-01 00:29",
-          "t5_time": "2026-07-01 00:34",
-          "t0": 30494.25,
-          "t5": 30485.75,
-          "change": -8.5,
-          "change_pct": -0.0279,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
-    },
-    {
-      "datetime": "2026-07-01 00:28",
-      "category": "bond",
-      "category_name": "債市",
+      "datetime": "2026-07-01 02:00",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
       "importance": 3,
-      "headline": "英國國債收益率二季度走勢分化",
-      "summary": "英國國債收益率二季度整體回落，市場對央行政策預期隨通膨與經濟數據波動。",
-      "content": "英國10年期國債收益率二季度累計下跌15.9個基點，兩年期收益率累跌超25個基點。儘管近期收益率有所反彈，但整體趨勢反映市場對英國央行未來政策路徑的重新評估，需持續關注通膨數據對利率預期的影響。",
+      "headline": "英國政府擬介入派拉蒙收購華納案",
+      "summary": "英國政府基於媒體多元化考量擬介入企業併購，增加跨國併購案的監管不確定性。",
+      "content": "英國文化大臣表示傾向介入派拉蒙對華納兄弟的收購案，理由是確保新聞媒體觀點多元。此舉可能引發市場對反壟斷監管趨嚴的擔憂。",
       "tags": [
-        "UK",
-        "Gilts",
-        "Yield Curve"
+        "M&A",
+        "Regulation"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 00:28",
-          "t5_target": "2026-07-01 00:33",
-          "t0_time": "2026-07-01 00:28",
-          "t5_time": "2026-07-01 00:33",
-          "t0": 4.406,
-          "t5": 4.404,
-          "change": -0.002,
-          "change_pct": -0.0454,
-          "change_bp_est": -0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 00:28",
-          "t5_target": "2026-07-01 00:33",
-          "t0_time": "2026-07-01 00:28",
-          "t5_time": "2026-07-01 00:33",
-          "t0": 7550.5,
-          "t5": 7550.0,
-          "change": -0.5,
-          "change_pct": -0.0066,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 00:28",
-          "t5_target": "2026-07-01 00:33",
-          "t0_time": "2026-07-01 00:28",
-          "t5_time": "2026-07-01 00:33",
-          "t0": 30496.5,
-          "t5": 30485.25,
-          "change": -11.25,
-          "change_pct": -0.0369,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 00:21",
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "新興市場股市創2009年以來最佳季度表現",
-      "summary": "受AI股與亞洲市場提振，新興市場股市Q2表現亮眼，但美元走強與升息預期仍構成潛在逆風。",
-      "content": "MSCI新興市場指數Q2攀升逾23%，創2009年以來最大季度漲幅。儘管AI相關科技股表現強勁，但美元走強及Fed升息預期升溫，可能對新興市場貨幣與資金流動造成後續壓力，交易員需留意匯率風險。",
+      "headline": "新兴市场股市创2009年来最佳季度表现",
+      "summary": "AI股强劲表现抵消地缘政治冲击，MSCI新兴市场指数二季度攀升超23%。",
+      "content": "受韩国与台湾AI相关股票提振，MSCI新兴市场股票指数二季度上涨超23%，创2009年以来最佳季度表现。尽管美元走强及美联储加息预期带来逆风，但科技繁荣仍支撑市场。",
       "tags": [
-        "Emerging Markets",
         "MSCI",
-        "AI"
+        "AI",
+        "Emerging Markets"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 00:21",
-          "t5_target": "2026-07-01 00:26",
-          "t0_time": "2026-07-01 00:21",
-          "t5_time": "2026-07-01 00:26",
-          "t0": 4.404,
-          "t5": 4.406,
-          "change": 0.002,
-          "change_pct": 0.0454,
-          "change_bp_est": 0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 00:21",
-          "t5_target": "2026-07-01 00:26",
-          "t0_time": "2026-07-01 00:21",
-          "t5_time": "2026-07-01 00:26",
-          "t0": 7550.75,
-          "t5": 7551.75,
-          "change": 1.0,
-          "change_pct": 0.0132,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 00:21",
-          "t5_target": "2026-07-01 00:26",
-          "t0_time": "2026-07-01 00:21",
-          "t5_time": "2026-07-01 00:26",
-          "t0": 30495.25,
-          "t5": 30500.75,
-          "change": 5.5,
-          "change_pct": 0.018,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-01 00:15",
       "category": "equity",
       "category_name": "股市",
       "importance": 4,
-      "headline": "三星與SK海力士擴產，晶片設備股強勢領漲",
-      "summary": "三星與SK海力士宣布在韓投資建廠，帶動半導體設備股連續兩日大漲，市場看好資本支出回升。",
-      "content": "三星與SK海力士計劃在韓國投資800萬億韓元建設四座晶片廠，激勵ASML、應用材料（Applied Materials）、泛林集團（Lam Research）等設備股大漲。費城半導體指數成份股表現強勁，顯示AI與晶片製造需求帶動的資本支出週期持續。",
+      "headline": "韩企巨额投资带动芯片设备股走强",
+      "summary": "三星与SK海力士宣布800万亿韩元投资计划，带动全球芯片设备股大涨。",
+      "content": "三星电子与SK海力士计划在韩国建设四座芯片制造厂，总投资额达800万亿韩元。此消息带动阿斯麦（ASML）、应用材料、泛林集团等设备股连续两日显著上涨，费城半导体指数表现强劲。",
       "tags": [
         "Semiconductor",
-        "ASML",
         "Samsung",
         "SK Hynix"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-07-01 00:15",
-          "t5_target": "2026-07-01 00:20",
-          "t0_time": "2026-07-01 00:15",
-          "t5_time": "2026-07-01 00:20",
-          "t0": 4.404,
-          "t5": 4.404,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "change_bp_est": 0.0,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 00:15",
-          "t5_target": "2026-07-01 00:20",
-          "t0_time": "2026-07-01 00:15",
-          "t5_time": "2026-07-01 00:20",
-          "t0": 7551.0,
-          "t5": 7551.25,
-          "change": 0.25,
-          "change_pct": 0.0033,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-07-01 00:15",
-          "t5_target": "2026-07-01 00:20",
-          "t0_time": "2026-07-01 00:15",
-          "t5_time": "2026-07-01 00:20",
-          "t0": 30493.5,
-          "t5": 30501.0,
-          "change": 7.5,
-          "change_pct": 0.0246,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 23:59",
       "category": "commodity",
       "category_name": "商品",
       "importance": 4,
-      "headline": "美國4月原油產量達1393萬桶/日，創歷史新高",
-      "summary": "受伊朗戰爭推升油價影響，美國產油商加大開採力度，產量創歷史新高，有助於緩解供應擔憂。",
-      "content": "美國能源信息署（EIA）數據顯示，4月原油產量攀升至1393萬桶/日，創歷史紀錄。其中二疊紀盆地（得州與新墨西哥州）產量強勁，顯示高油價環境下美國頁岩油產能持續擴張，對全球能源供應穩定具重要意義。",
+      "headline": "美国4月原油产量创历史新高",
+      "summary": "受油价上涨刺激，美国4月原油产量升至每日1393万桶，创历史纪录。",
+      "content": "美国能源信息署（EIA）数据显示，受伊朗战争推高油价影响，生产商加大开采力度，4月美国原油产量攀升至1393万桶/日。其中二叠纪盆地贡献显著，显示美国能源供应韧性。",
       "tags": [
         "EIA",
         "Oil",
         "Energy"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 23:59",
-          "t5_target": "2026-07-01 00:04",
-          "t0_time": "2026-06-30 23:59",
-          "t5_time": "2026-07-01 00:04",
-          "t0": 4.4,
-          "t5": 4.404,
-          "change": 0.004,
-          "change_pct": 0.0909,
-          "change_bp_est": 0.04,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 23:59",
-          "t5_target": "2026-07-01 00:04",
-          "t0_time": "2026-06-30 23:59",
-          "t5_time": "2026-07-01 00:04",
-          "t0": 7545.75,
-          "t5": 7548.0,
-          "change": 2.25,
-          "change_pct": 0.0298,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 23:59",
-          "t5_target": "2026-07-01 00:04",
-          "t0_time": "2026-06-30 23:59",
-          "t5_time": "2026-07-01 00:04",
-          "t0": 30459.75,
-          "t5": 30483.5,
-          "change": 23.75,
-          "change_pct": 0.078,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 23:38",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "散户逢低买入美股成结构性特征",
+      "summary": "散户以创纪录速度抄底美股，已演变为现代市场的结构性需求来源。",
+      "content": "城堡证券数据显示，2026年上半年散户在标普500指数下跌时的买入量为历史平均的3.5倍，逢低买入已从周期性现象转变为市场结构性特征，为美股提供持续支撑。",
+      "tags": [
+        "Retail Investors",
+        "S&P 500"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 23:31",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗威胁关闭霍尔木兹海峡",
+      "summary": "伊朗革命卫队威胁若多哈会谈未获控制权保证，将再次关闭霍尔木兹海峡，地缘政治风险升温。",
+      "content": "伊朗革命卫队向调解方施压，要求获得霍尔木兹海峡的唯一控制权，否则将再次关闭该航道。此举加剧了波斯湾地缘紧张局势，可能对全球能源供应与油价造成重大冲击。",
+      "tags": [
+        "Iran",
+        "Geopolitics",
+        "Oil"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 23:23",
@@ -2045,187 +648,44 @@
       "category_name": "央行",
       "importance": 4,
       "headline": "英國央行警告AI智能體恐引發市場崩盤",
-      "summary": "英國央行副行長警告自主AI智能體可能放大金融市場波動，未來或面臨更嚴格監管。",
-      "content": "英國央行副行長Sarah Breeden指出，自主型AI智能體在市場承壓時可能因反應趨同而放大波動，甚至引發市場崩盤，暗示未來金融監管框架可能需納入對AI演算法的風險控管。",
+      "summary": "英國央行副行長警告自主型AI智能體可能放大金融市場波動，需加強監管。",
+      "content": "英國央行副行長Sarah Breeden指出，自主型AI智能體在市場承壓時可能因反應一致而放大波動，甚至引發市場崩盤，暗示未來金融監管框架可能納入AI風險控管。",
       "tags": [
         "BOE",
-        "AI",
-        "Regulation"
+        "AI"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 23:23",
-          "t5_target": "2026-06-30 23:28",
-          "t0_time": "2026-06-30 23:23",
-          "t5_time": "2026-06-30 23:28",
-          "t0": 4.408,
-          "t5": 4.406,
-          "change": -0.002,
-          "change_pct": -0.0454,
-          "change_bp_est": -0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 23:23",
-          "t5_target": "2026-06-30 23:28",
-          "t0_time": "2026-06-30 23:23",
-          "t5_time": "2026-06-30 23:28",
-          "t0": 7538.75,
-          "t5": 7540.25,
-          "change": 1.5,
-          "change_pct": 0.0199,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 23:23",
-          "t5_target": "2026-06-30 23:28",
-          "t0_time": "2026-06-30 23:23",
-          "t5_time": "2026-06-30 23:28",
-          "t0": 30393.5,
-          "t5": 30411.5,
-          "change": 18.0,
-          "change_pct": 0.0592,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 23:17",
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "ECB官員：中東衝突引發能源滯脹風險",
-      "summary": "ECB管委Rehn警告中東衝突導致能源價格上漲，正產生類似滯脹的經濟效應。",
-      "content": "歐洲央行管委Olli Rehn表示，中東地緣政治衝突推升能源成本，對經濟增長構成拖累，具備滯脹特徵。儘管目前尚未見到嚴重的第二輪通膨效應，但市場需密切關注後續數據對利率決策的影響。",
+      "headline": "ECB管委Rehn：能源衝擊正產生滯脹效應",
+      "summary": "ECB官員Rehn警告中東衝突引發的能源衝擊具滯脹性質，但目前尚未見到顯著的第二輪效應。",
+      "content": "ECB管委Rehn表示，中東衝突推升通膨並拖累經濟，具備滯脹特徵。儘管性質類似70年代，但目前通膨預期仍錨定，尚未出現顯著的第二輪效應，政策調整仍需觀察後續數據。",
       "tags": [
         "ECB",
-        "Inflation",
-        "Stagflation"
+        "Inflation"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 23:17",
-          "t5_target": "2026-06-30 23:22",
-          "t0_time": "2026-06-30 23:17",
-          "t5_time": "2026-06-30 23:22",
-          "t0": 4.41,
-          "t5": 4.406,
-          "change": -0.004,
-          "change_pct": -0.0907,
-          "change_bp_est": -0.04,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 23:17",
-          "t5_target": "2026-06-30 23:22",
-          "t0_time": "2026-06-30 23:17",
-          "t5_time": "2026-06-30 23:22",
-          "t0": 7532.0,
-          "t5": 7538.0,
-          "change": 6.0,
-          "change_pct": 0.0797,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 23:17",
-          "t5_target": "2026-06-30 23:22",
-          "t0_time": "2026-06-30 23:17",
-          "t5_time": "2026-06-30 23:22",
-          "t0": 30386.5,
-          "t5": 30388.5,
-          "change": 2.0,
-          "change_pct": 0.0066,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 23:15",
       "category": "central_bank",
       "category_name": "央行",
       "importance": 3,
-      "headline": "英國央行行長：不急於對油價上漲採取行動",
-      "summary": "貝利表示儘管油價推升通膨預期，但央行目前不急於調整利率政策。",
-      "content": "英國央行行長貝利指出，油價上漲可能使通膨率在今年稍晚升至3.2%，但目前走勢仍在預期範圍內，央行將保持耐心，不急於採取激進的利率行動。",
+      "headline": "英國央行行長貝利：不急於對利率採取行動",
+      "summary": "貝利表示儘管通膨回落速度慢於預期，但目前走勢符合預期，央行不急於調整利率。",
+      "content": "英國央行行長貝利指出，油價上漲可能使通膨在今年稍晚升至3.2%，但目前油價水準尚在可控範圍，央行將保持耐心，不急於採取利率行動。",
       "tags": [
         "BOE",
-        "Interest Rate"
+        "InterestRate"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 23:15",
-          "t5_target": "2026-06-30 23:20",
-          "t0_time": "2026-06-30 23:15",
-          "t5_time": "2026-06-30 23:20",
-          "t0": 4.408,
-          "t5": 4.406,
-          "change": -0.002,
-          "change_pct": -0.0454,
-          "change_bp_est": -0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 23:15",
-          "t5_target": "2026-06-30 23:20",
-          "t0_time": "2026-06-30 23:15",
-          "t5_time": "2026-06-30 23:20",
-          "t0": 7533.0,
-          "t5": 7537.5,
-          "change": 4.5,
-          "change_pct": 0.0597,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 23:15",
-          "t5_target": "2026-06-30 23:20",
-          "t0_time": "2026-06-30 23:15",
-          "t5_time": "2026-06-30 23:20",
-          "t0": 30387.25,
-          "t5": 30395.25,
-          "change": 8.0,
-          "change_pct": 0.0263,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 22:54",
@@ -2233,2095 +693,503 @@
       "category_name": "央行",
       "importance": 5,
       "headline": "克利夫蘭聯儲主席：通膨過高，需考慮加息",
-      "summary": "Hammack表示美國通膨依然頑強，聯儲應以開放態度考慮進一步加息。",
-      "content": "克利夫蘭聯儲主席Hammack指出，美國核心通膨廣泛蔓延且處於高位，就業市場強勁，聯儲不應排除加息選項。此鷹派言論可能對美債殖利率與股市風險偏好造成壓力。",
+      "summary": "Hammack表示通膨依然過高且廣泛蔓延，Fed可能需要考慮進一步加息。",
+      "content": "克利夫蘭聯儲主席Hammack指出，核心通膨持續高企且不僅限於能源，服務業通膨亦具黏性。鑑於經濟韌性，Fed需以開放態度評估加息必要性，此鷹派言論可能衝擊市場降息預期。",
       "tags": [
         "Fed",
-        "Inflation",
-        "Interest Rate"
+        "InterestRate"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 22:54",
-          "t5_target": "2026-06-30 22:59",
-          "t0_time": "2026-06-30 22:54",
-          "t5_time": "2026-06-30 22:59",
-          "t0": 4.398,
-          "t5": 4.4,
-          "change": 0.002,
-          "change_pct": 0.0455,
-          "change_bp_est": 0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:54",
-          "t5_target": "2026-06-30 22:59",
-          "t0_time": "2026-06-30 22:54",
-          "t5_time": "2026-06-30 22:59",
-          "t0": 7521.0,
-          "t5": 7520.5,
-          "change": -0.5,
-          "change_pct": -0.0066,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:54",
-          "t5_target": "2026-06-30 22:59",
-          "t0_time": "2026-06-30 22:54",
-          "t5_time": "2026-06-30 22:59",
-          "t0": 30317.0,
-          "t5": 30305.25,
-          "change": -11.75,
-          "change_pct": -0.0388,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
-    },
-    {
-      "datetime": "2026-06-30 22:38",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 3,
-      "headline": "IMF警告AI相關債務槓桿風險",
-      "summary": "IMF官員指出AI領域的債務發行規模與槓桿風險，較股票估值更令人擔憂。",
-      "content": "IMF貨幣與資本市場部主任Tobias Adrian警告，AI產業的企業借貸行為與債務槓桿可能威脅金融穩定，呼籲市場關注AI熱潮背後的信貸風險，而非僅聚焦於股價估值。",
-      "tags": [
-        "IMF",
-        "AI",
-        "Credit Risk"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 22:38",
-          "t5_target": "2026-06-30 22:43",
-          "t0_time": "2026-06-30 22:38",
-          "t5_time": "2026-06-30 22:43",
-          "t0": 4.402,
-          "t5": 4.398,
-          "change": -0.004,
-          "change_pct": -0.0909,
-          "change_bp_est": -0.04,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:38",
-          "t5_target": "2026-06-30 22:43",
-          "t0_time": "2026-06-30 22:38",
-          "t5_time": "2026-06-30 22:43",
-          "t0": 7532.75,
-          "t5": 7532.25,
-          "change": -0.5,
-          "change_pct": -0.0066,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:38",
-          "t5_target": "2026-06-30 22:43",
-          "t0_time": "2026-06-30 22:38",
-          "t5_time": "2026-06-30 22:43",
-          "t0": 30394.75,
-          "t5": 30386.0,
-          "change": -8.75,
-          "change_pct": -0.0288,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 22:33",
-      "category": "central_bank",
-      "category_name": "央行",
+      "category": "economy",
+      "category_name": "經濟",
       "importance": 4,
-      "headline": "全球央行計畫減持美元儲備",
-      "summary": "OMFIF報告指出，各國央行三年來首次計畫減少美元敞口，轉向歐元與人民幣，去美元化趨勢浮現。",
-      "content": "官方貨幣與金融機構論壇（OMFIF）報告顯示，全球央行、主權基金及養老金正尋求儲備多元化，減少對美元的依賴。發達經濟體傾向增持歐元，新興市場則偏好人民幣，此趨勢可能對美元長期匯率與美債需求產生結構性影響。",
+      "headline": "調查：全球央行計劃減持美元儲備",
+      "summary": "OMFIF報告顯示，全球央行與主權基金正尋求多元化，計劃減少美元敞口。",
+      "content": "官方貨幣與金融機構論壇（OMFIF）報告指出，受去美元化趨勢影響，全球央行三年來首次計劃長期減少美元儲備，轉向配置歐元與人民幣，此舉可能對美元長期需求構成壓力。",
       "tags": [
-        "Central Bank",
         "USD",
-        "EUR",
-        "CNY"
+        "CentralBank"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 22:33",
-          "t5_target": "2026-06-30 22:38",
-          "t0_time": "2026-06-30 22:33",
-          "t5_time": "2026-06-30 22:38",
-          "t0": 4.4,
-          "t5": 4.402,
-          "change": 0.002,
-          "change_pct": 0.0455,
-          "change_bp_est": 0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:33",
-          "t5_target": "2026-06-30 22:38",
-          "t0_time": "2026-06-30 22:33",
-          "t5_time": "2026-06-30 22:38",
-          "t0": 7538.25,
-          "t5": 7532.75,
-          "change": -5.5,
-          "change_pct": -0.073,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:33",
-          "t5_target": "2026-06-30 22:38",
-          "t0_time": "2026-06-30 22:33",
-          "t5_time": "2026-06-30 22:38",
-          "t0": 30424.5,
-          "t5": 30394.75,
-          "change": -29.75,
-          "change_pct": -0.0978,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 22:30",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 3,
-      "headline": "霍爾木茲海峽航運秩序複雜化",
-      "summary": "海峽內出現三條不同管理方的航線，地緣政治風險與航運不確定性上升。",
-      "content": "霍爾木茲海峽目前出現由伊朗、國際海事組織及美阿協調的三條不同航線，管理權限分散導致航運秩序複雜化。此地緣政治局勢可能影響全球能源運輸安全與油價波動。",
+      "importance": 4,
+      "headline": "霍爾木茲海峽航線複雜化",
+      "summary": "霍爾木茲海峽出現三條不同管理航線，地緣政治風險與航運秩序不確定性上升。",
+      "content": "霍爾木茲海峽目前出現三條航線，分別由伊朗、國際海事組織及美阿協調管理。多頭管理導致航運秩序複雜化，可能增加中東能源運輸的地緣政治風險與溢價。",
       "tags": [
         "Geopolitics",
         "Energy",
-        "Oil"
+        "MiddleEast"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 22:30",
-          "t5_target": "2026-06-30 22:35",
-          "t0_time": "2026-06-30 22:30",
-          "t5_time": "2026-06-30 22:35",
-          "t0": 4.4,
-          "t5": 4.402,
-          "change": 0.002,
-          "change_pct": 0.0455,
-          "change_bp_est": 0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:30",
-          "t5_target": "2026-06-30 22:35",
-          "t0_time": "2026-06-30 22:30",
-          "t5_time": "2026-06-30 22:35",
-          "t0": 7536.5,
-          "t5": 7538.5,
-          "change": 2.0,
-          "change_pct": 0.0265,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:30",
-          "t5_target": "2026-06-30 22:35",
-          "t0_time": "2026-06-30 22:30",
-          "t5_time": "2026-06-30 22:35",
-          "t0": 30428.5,
-          "t5": 30414.5,
-          "change": -14.0,
-          "change_pct": -0.046,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 22:24",
       "category": "central_bank",
       "category_name": "央行",
-      "importance": 3,
+      "importance": 4,
       "headline": "英國央行擬監管AI金融風險",
-      "summary": "英國央行考慮引入AI「緊急終止開關」，以防範智能體化AI引發市場崩盤。",
-      "content": "英國央行副行長暗示將制定AI監管法規，針對金融體系中的智能體系統進行控管。此舉標誌著央行對AI技術風險的態度轉向，未來可能影響金融科技與相關金融機構的營運成本與合規要求。",
+      "summary": "英國央行考慮引入AI緊急終止開關，顯示對AI系統性風險的監管態度轉趨嚴格。",
+      "content": "英國央行副行長暗示將制定AI監管新規，針對智能體化AI可能引發的市場崩盤，考慮引入全市場範圍的「緊急終止開關」，標誌著央行對金融科技監管思維的重大轉變。",
       "tags": [
         "BOE",
         "AI",
         "Regulation"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 22:24",
-          "t5_target": "2026-06-30 22:29",
-          "t0_time": "2026-06-30 22:24",
-          "t5_time": "2026-06-30 22:29",
-          "t0": 4.4,
-          "t5": 4.4,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "change_bp_est": 0.0,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:24",
-          "t5_target": "2026-06-30 22:29",
-          "t0_time": "2026-06-30 22:24",
-          "t5_time": "2026-06-30 22:29",
-          "t0": 7530.5,
-          "t5": 7532.5,
-          "change": 2.0,
-          "change_pct": 0.0266,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:24",
-          "t5_target": "2026-06-30 22:29",
-          "t0_time": "2026-06-30 22:24",
-          "t5_time": "2026-06-30 22:29",
-          "t0": 30411.0,
-          "t5": 30410.25,
-          "change": -0.75,
-          "change_pct": -0.0025,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 22:14",
       "category": "bond",
       "category_name": "債市",
-      "importance": 4,
+      "importance": 5,
       "headline": "美國JOLTS數據高於預期，美債殖利率走高",
-      "summary": "美國5月職位空缺數高於預期，顯示勞動力市場仍具韌性，推升美債殖利率。",
-      "content": "美國5月JOLTS職位空缺數報759.4萬，高於預期的728.8萬。數據公布後，10年期UST殖利率升至4.4059%，2年期殖利率升至4.1373%，市場對Fed降息路徑的預期可能進一步修正。",
+      "summary": "美國5月JOLTS職位空缺數據高於預期，推升美債殖利率，市場對勞動力市場韌性重新定價。",
+      "content": "美國5月JOLTS職位空缺報759.4萬，高於預期的728.8萬。數據發布後，10年期UST殖利率升至4.4059%，2年期殖利率升至4.1373%，顯示勞動力市場需求仍強，壓抑降息預期。",
       "tags": [
         "UST",
-        "Fed",
-        "JOLTS"
+        "JOLTS",
+        "Fed"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 22:14",
-          "t5_target": "2026-06-30 22:19",
-          "t0_time": "2026-06-30 22:14",
-          "t5_time": "2026-06-30 22:19",
-          "t0": 4.4,
-          "t5": 4.398,
-          "change": -0.002,
-          "change_pct": -0.0455,
-          "change_bp_est": -0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:14",
-          "t5_target": "2026-06-30 22:19",
-          "t0_time": "2026-06-30 22:14",
-          "t5_time": "2026-06-30 22:19",
-          "t0": 7523.75,
-          "t5": 7523.25,
-          "change": -0.5,
-          "change_pct": -0.0066,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:14",
-          "t5_target": "2026-06-30 22:19",
-          "t0_time": "2026-06-30 22:14",
-          "t5_time": "2026-06-30 22:19",
-          "t0": 30354.5,
-          "t5": 30365.0,
-          "change": 10.5,
-          "change_pct": 0.0346,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 22:00",
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "美國6月消費者信心指數下滑",
-      "summary": "美國6月消費者信心指數報91.2，低於預期，顯示經濟前景信心轉弱。",
-      "content": "美國6月諮商會消費者信心指數為91.2，低於預期的94.6。現況指數與預期指數均顯示消費者對經濟環境的擔憂，可能影響後續消費支出與整體經濟成長動能。",
+      "headline": "美國消費者信心指數下滑",
+      "summary": "美國6月消費者信心指數報91.2，低於預期，反映經濟前景信心轉弱。",
+      "content": "美國6月諮商會消費者信心指數為91.2，低於預期的94.6。現況指數與預期指數均顯示消費者對經濟環境的擔憂，可能影響後續消費支出動能。",
       "tags": [
         "Economy",
-        "Consumer Confidence"
+        "ConsumerConfidence",
+        "USA"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 22:00",
-          "t5_target": "2026-06-30 22:05",
-          "t0_time": "2026-06-30 22:00",
-          "t5_time": "2026-06-30 22:05",
-          "t0": 4.402,
-          "t5": 4.406,
-          "change": 0.004,
-          "change_pct": 0.0909,
-          "change_bp_est": 0.04,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:00",
-          "t5_target": "2026-06-30 22:05",
-          "t0_time": "2026-06-30 22:00",
-          "t5_time": "2026-06-30 22:05",
-          "t0": 7519.0,
-          "t5": 7528.25,
-          "change": 9.25,
-          "change_pct": 0.123,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 22:00",
-          "t5_target": "2026-06-30 22:05",
-          "t0_time": "2026-06-30 22:00",
-          "t5_time": "2026-06-30 22:05",
-          "t0": 30315.75,
-          "t5": 30366.5,
-          "change": 50.75,
-          "change_pct": 0.1674,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 21:56",
       "category": "central_bank",
       "category_name": "央行",
-      "importance": 3,
-      "headline": "匯豐下調日元預測，干預門檻提高",
-      "summary": "匯豐認為日本當局對日元貶值的容忍度提高，干預門檻上升，下調日元匯率預測。",
-      "content": "匯豐銀行策略師指出，由於美元基本面強勢，日本財務省對日元貶值的干預門檻已提高。儘管仍擔憂「三重拋售」風險，但當局容忍度增加，這可能導致日元進一步承壓。",
+      "importance": 4,
+      "headline": "匯豐：日元干預門檻提高",
+      "summary": "匯豐銀行認為日本當局對日元貶值的容忍度提高，下調日元匯率預測。",
+      "content": "匯豐銀行指出，由於美元基本面強勢，日本財務省對日元干預的門檻已提高。儘管仍會抵制無序貶值，但對日元疲軟的容忍度上升，建議關注日元、股市與債市的三重拋售風險。",
       "tags": [
         "BOJ",
         "JPY",
         "FX"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 21:56",
-          "t5_target": "2026-06-30 22:01",
-          "t0_time": "2026-06-30 21:56",
-          "t5_time": "2026-06-30 22:01",
-          "t0": 4.398,
-          "t5": 4.406,
-          "change": 0.008,
-          "change_pct": 0.1819,
-          "change_bp_est": 0.08,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:56",
-          "t5_target": "2026-06-30 22:01",
-          "t0_time": "2026-06-30 21:56",
-          "t5_time": "2026-06-30 22:01",
-          "t0": 7522.75,
-          "t5": 7523.25,
-          "change": 0.5,
-          "change_pct": 0.0066,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:56",
-          "t5_target": "2026-06-30 22:01",
-          "t0_time": "2026-06-30 21:56",
-          "t5_time": "2026-06-30 22:01",
-          "t0": 30321.5,
-          "t5": 30318.75,
-          "change": -2.75,
-          "change_pct": -0.0091,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
-    },
-    {
-      "datetime": "2026-06-30 21:45",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 3,
-      "headline": "美國6月芝加哥PMI優於預期",
-      "summary": "美國6月芝加哥PMI報56.7，高於預期的55.4，顯示製造業活動擴張優於市場預期。",
-      "content": "美國6月芝加哥PMI數據公布，今值為56.7，顯著高於市場預期的55.4，前值為62.7。此數據反映美國製造業活動仍具韌性，可能影響市場對經濟衰退風險的評估。",
-      "tags": [
-        "PMI",
-        "Economy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 21:45",
-          "t5_target": "2026-06-30 21:50",
-          "t0_time": "2026-06-30 21:45",
-          "t5_time": "2026-06-30 21:50",
-          "t0": 4.396,
-          "t5": 4.398,
-          "change": 0.002,
-          "change_pct": 0.0455,
-          "change_bp_est": 0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:45",
-          "t5_target": "2026-06-30 21:50",
-          "t0_time": "2026-06-30 21:45",
-          "t5_time": "2026-06-30 21:50",
-          "t0": 7508.75,
-          "t5": 7508.25,
-          "change": -0.5,
-          "change_pct": -0.0067,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:45",
-          "t5_target": "2026-06-30 21:50",
-          "t0_time": "2026-06-30 21:45",
-          "t5_time": "2026-06-30 21:50",
-          "t0": 30248.75,
-          "t5": 30233.0,
-          "change": -15.75,
-          "change_pct": -0.0521,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 21:12",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 4,
-      "headline": "伊朗：美伊協議談判取決於備忘錄落實",
-      "summary": "伊朗外交部表示，與美國的最終協議談判取決於諒解備忘錄的落實情況，未來數日將確定談判細節。",
-      "content": "伊朗外交部發言人巴加埃表示，伊朗與美國就最終協議展開談判的時間和方式將於未來數日確定，相關談判啟動取決於伊美諒解備忘錄有關條款的落實情況。此地緣政治動態可能影響中東局勢及能源市場。",
+      "importance": 3,
+      "headline": "伊朗：與美談判取決於諒解備忘錄落實",
+      "summary": "伊美談判進程仍具不確定性，地緣政治風險持續影響能源市場情緒。",
+      "content": "伊朗外交部表示，與美國的最終協議談判時間取決於諒解備忘錄的落實情況。地緣政治緊張局勢未解，持續對能源供應鏈與市場避險情緒構成潛在擾動。",
       "tags": [
         "Iran",
         "USA",
         "Geopolitics"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 21:12",
-          "t5_target": "2026-06-30 21:17",
-          "t0_time": "2026-06-30 21:12",
-          "t5_time": "2026-06-30 21:17",
-          "t0": 4.396,
-          "t5": 4.392,
-          "change": -0.004,
-          "change_pct": -0.091,
-          "change_bp_est": -0.04,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:12",
-          "t5_target": "2026-06-30 21:17",
-          "t0_time": "2026-06-30 21:12",
-          "t5_time": "2026-06-30 21:17",
-          "t0": 7498.0,
-          "t5": 7496.25,
-          "change": -1.75,
-          "change_pct": -0.0233,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:12",
-          "t5_target": "2026-06-30 21:17",
-          "t0_time": "2026-06-30 21:12",
-          "t5_time": "2026-06-30 21:17",
-          "t0": 30035.0,
-          "t5": 30023.5,
-          "change": -11.5,
-          "change_pct": -0.0383,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 21:04",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "寒武紀提示供應鏈與原材料風險",
+      "summary": "寒武紀警告原材料價格上漲與供應鏈限制，可能衝擊未來經營業績。",
+      "content": "寒武紀發布風險提示，指出受限於「實體清單」及上游原材料價格持續走高，公司供應鏈穩定性面臨挑戰，可能對未來獲利能力產生不利影響。",
+      "tags": [
+        "Cambricon",
+        "Semiconductor"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 21:03",
       "category": "central_bank",
       "category_name": "央行",
       "importance": 5,
-      "headline": "日圓跌破162關口，日本財務大臣準備干預",
-      "summary": "日圓兌美元跌破162關口，創四十年新低，日本財務大臣表示已準備好採取行動，市場高度關注干預風險。",
-      "content": "日圓兌美元匯率跌破162關口，為四十年來首次。日本財務大臣對此表示已準備好採取行動，市場交易員需警惕日本央行（BOJ）或財務省可能進行的匯率干預，這將對全球套利交易產生重大影響。",
+      "headline": "日圓兌美元跌破162，日本財務大臣稱準備行動",
+      "summary": "日圓匯率創四十年新低，日本財務大臣暗示干預，市場需警惕BOJ政策轉向風險。",
+      "content": "日圓兌美元匯率跌破162關口，為四十年來首次。日本財務大臣表示已準備好採取行動，市場對BOJ干預匯市及貨幣政策正常化的預期升溫，可能引發全球套利交易平倉壓力。",
       "tags": [
-        "JPY",
         "BOJ",
+        "JPY",
         "FX"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 21:03",
-          "t5_target": "2026-06-30 21:08",
-          "t0_time": "2026-06-30 21:03",
-          "t5_time": "2026-06-30 21:08",
-          "t0": 4.39,
-          "t5": 4.392,
-          "change": 0.001999,
-          "change_pct": 0.0455,
-          "change_bp_est": 0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:03",
-          "t5_target": "2026-06-30 21:08",
-          "t0_time": "2026-06-30 21:03",
-          "t5_time": "2026-06-30 21:08",
-          "t0": 7496.0,
-          "t5": 7494.75,
-          "change": -1.25,
-          "change_pct": -0.0167,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:03",
-          "t5_target": "2026-06-30 21:08",
-          "t0_time": "2026-06-30 21:03",
-          "t5_time": "2026-06-30 21:08",
-          "t0": 30017.25,
-          "t5": 30010.75,
-          "change": -6.5,
-          "change_pct": -0.0217,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 21:03",
       "category": "central_bank",
       "category_name": "央行",
-      "importance": 3,
-      "headline": "ECB官員：再次加息理由不如以往充分",
-      "summary": "歐洲央行管委Wunsch表示，目前再次加息的理由已不如之前充分，暗示貨幣政策立場可能轉向。",
-      "content": "歐洲央行（ECB）管委Wunsch指出，鑑於當前經濟環境，再次加息的理由已不如之前充分。此言論反映ECB內部對於進一步緊縮政策的態度轉趨謹慎，對歐元區債市與匯市具有指導意義。",
+      "importance": 4,
+      "headline": "ECB管委Wunsch：再次加息理由已減弱",
+      "summary": "ECB官員釋出鴿派訊號，暗示通膨壓力緩解，進一步升息必要性降低。",
+      "content": "歐洲央行管委Wunsch表示，再次加息的理由已不如之前充分。此言論顯示ECB對抗通膨的立場可能轉向，對歐元區債市與利率預期產生影響。",
       "tags": [
         "ECB",
-        "InterestRate"
+        "Eurozone"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 21:03",
-          "t5_target": "2026-06-30 21:08",
-          "t0_time": "2026-06-30 21:03",
-          "t5_time": "2026-06-30 21:08",
-          "t0": 4.39,
-          "t5": 4.392,
-          "change": 0.001999,
-          "change_pct": 0.0455,
-          "change_bp_est": 0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:03",
-          "t5_target": "2026-06-30 21:08",
-          "t0_time": "2026-06-30 21:03",
-          "t5_time": "2026-06-30 21:08",
-          "t0": 7496.0,
-          "t5": 7494.75,
-          "change": -1.25,
-          "change_pct": -0.0167,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:03",
-          "t5_target": "2026-06-30 21:08",
-          "t0_time": "2026-06-30 21:03",
-          "t5_time": "2026-06-30 21:08",
-          "t0": 30017.25,
-          "t5": 30010.75,
-          "change": -6.5,
-          "change_pct": -0.0217,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 21:00",
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "美國4月房價指數同比增長1.14%",
-      "summary": "美國4月S&P/CS 20座大城市房價指數同比增長1.14%，顯示房地產市場價格維持溫和上漲。",
-      "content": "美國4月S&P/CS 20座大城市季調後房價指數環比下降0.04%，同比增長1.14%。FHFA房價指數環比下降0.1%。數據顯示美國房地產市場在利率高企環境下表現平穩，對通膨預期有一定參考價值。",
+      "headline": "美國4月房價指數表現分歧",
+      "summary": "美國房價數據顯示市場韌性，但環比微跌，反映高利率環境下的房市壓力。",
+      "content": "美國4月S&P/CS 20座大城市房價指數同比上漲1.14%，高於預期；但FHFA房價指數環比下跌0.1%。數據顯示房市在利率高位下仍具韌性，但成長動能受限。",
       "tags": [
-        "Housing",
-        "Economy"
+        "USA",
+        "Economy",
+        "Housing"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 21:00",
-          "t5_target": "2026-06-30 21:05",
-          "t0_time": "2026-06-30 21:00",
-          "t5_time": "2026-06-30 21:05",
-          "t0": 4.388,
-          "t5": 4.39,
-          "change": 0.002,
-          "change_pct": 0.0456,
-          "change_bp_est": 0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:00",
-          "t5_target": "2026-06-30 21:05",
-          "t0_time": "2026-06-30 21:00",
-          "t5_time": "2026-06-30 21:05",
-          "t0": 7496.75,
-          "t5": 7495.75,
-          "change": -1.0,
-          "change_pct": -0.0133,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 21:00",
-          "t5_target": "2026-06-30 21:05",
-          "t0_time": "2026-06-30 21:00",
-          "t5_time": "2026-06-30 21:05",
-          "t0": 30009.5,
-          "t5": 30012.25,
-          "change": 2.75,
-          "change_pct": 0.0092,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
-    },
-    {
-      "datetime": "2026-06-30 20:36",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 3,
-      "headline": "霍爾木茲海峽航運持續恢復",
-      "summary": "霍爾木茲海峽航運活動持續恢復，有助於緩解能源供應鏈擔憂。",
-      "content": "數據顯示，6月29日有24艘油輪與貨船通過霍爾木茲海峽，顯示該關鍵能源運輸通道的航運活動持續恢復。此趨勢有助於降低地緣政治對全球能源供應鏈的衝擊，對油價波動具有平抑作用。",
-      "tags": [
-        "Oil",
-        "Geopolitics"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 20:36",
-          "t5_target": "2026-06-30 20:41",
-          "t0_time": "2026-06-30 20:36",
-          "t5_time": "2026-06-30 20:41",
-          "t0": 4.39,
-          "t5": 4.39,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "change_bp_est": 0.0,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:36",
-          "t5_target": "2026-06-30 20:41",
-          "t0_time": "2026-06-30 20:36",
-          "t5_time": "2026-06-30 20:41",
-          "t0": 7494.75,
-          "t5": 7498.0,
-          "change": 3.25,
-          "change_pct": 0.0434,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:36",
-          "t5_target": "2026-06-30 20:41",
-          "t0_time": "2026-06-30 20:36",
-          "t5_time": "2026-06-30 20:41",
-          "t0": 30029.75,
-          "t5": 30044.75,
-          "change": 15.0,
-          "change_pct": 0.05,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 20:32",
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "芝商所將推出個股期貨",
-      "summary": "芝商所將於7月27日推出包含Nvidia、Alphabet等熱門美股的個股期貨。",
-      "content": "芝商所宣布將於7月27日推出單只股票期貨，首批涵蓋50餘檔熱門美股，包括Nvidia、Alphabet、Meta等。此舉旨在提供機構與零售投資者更靈活的風險管理工具，便於在指數對沖與個股敞口間進行切換。",
+      "headline": "芝商所將推出個股期貨，涵蓋Nvidia等熱門美股",
+      "summary": "芝商所擬於7月27日推出個股期貨，涵蓋Nvidia、Apple等50餘檔美股，提供機構與零售投資人更精準的風險管理工具。",
+      "content": "芝商所宣布將於7月27日推出單只股票期貨，待監管核准後上市。首批產品包含55檔標準合約與22檔微型合約，標的涵蓋Alphabet、Amazon、Apple、Meta、Nvidia及SpaceX等熱門美股。此舉旨在協助市場參與者在寬基指數對沖與個股風險敞口之間進行更靈活的配置與管理。",
       "tags": [
         "CME",
         "Nvidia",
         "Equity"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 20:32",
-          "t5_target": "2026-06-30 20:37",
-          "t0_time": "2026-06-30 20:32",
-          "t5_time": "2026-06-30 20:37",
-          "t0": 4.39,
-          "t5": 4.39,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "change_bp_est": 0.0,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:32",
-          "t5_target": "2026-06-30 20:37",
-          "t0_time": "2026-06-30 20:32",
-          "t5_time": "2026-06-30 20:37",
-          "t0": 7492.75,
-          "t5": 7496.0,
-          "change": 3.25,
-          "change_pct": 0.0434,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:32",
-          "t5_target": "2026-06-30 20:37",
-          "t0_time": "2026-06-30 20:32",
-          "t5_time": "2026-06-30 20:37",
-          "t0": 30006.5,
-          "t5": 30035.5,
-          "change": 29.0,
-          "change_pct": 0.0966,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 20:30",
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "加拿大4月GDP優於預期",
-      "summary": "加拿大4月GDP月增0.5%，年增1.1%，雙雙高於市場預期，顯示經濟韌性。",
-      "content": "加拿大4月GDP數據顯示，月增率達0.5%（預期0.4%），年增率達1.1%（預期0.9%），前值經修正後顯示經濟動能回升，此數據可能影響市場對加拿大央行後續貨幣政策的定價。",
+      "headline": "加拿大4月GDP數據優於預期",
+      "summary": "加拿大4月GDP月增0.5%，年增1.1%，雙雙優於市場預期，顯示經濟動能強於先前評估。",
+      "content": "加拿大統計局公布4月GDP數據，月增率為0.5%（預期0.4%，前值-0.1%），年增率為1.1%（預期0.9%，前值0.4%）。數據顯示加拿大經濟在第二季初表現優於預期，可能影響市場對加拿大央行後續貨幣政策的定價。",
       "tags": [
-        "Canada",
-        "GDP"
+        "GDP",
+        "Canada"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 20:30",
-          "t5_target": "2026-06-30 20:35",
-          "t0_time": "2026-06-30 20:30",
-          "t5_time": "2026-06-30 20:35",
-          "t0": 4.39,
-          "t5": 4.39,
-          "change": 0.0,
-          "change_pct": 0.0,
-          "change_bp_est": 0.0,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:30",
-          "t5_target": "2026-06-30 20:35",
-          "t0_time": "2026-06-30 20:30",
-          "t5_time": "2026-06-30 20:35",
-          "t0": 7496.0,
-          "t5": 7494.75,
-          "change": -1.25,
-          "change_pct": -0.0167,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:30",
-          "t5_target": "2026-06-30 20:35",
-          "t0_time": "2026-06-30 20:30",
-          "t5_time": "2026-06-30 20:35",
-          "t0": 30036.25,
-          "t5": 30024.5,
-          "change": -11.75,
-          "change_pct": -0.0391,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 20:22",
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "美國財長貝森特看好就業數據",
-      "summary": "美國財長貝森特表示，若6月就業數據表現強勁，他不會感到意外。",
-      "content": "美國財長貝森特針對即將公布的就業數據發表看法，暗示對勞動力市場韌性持樂觀態度。若數據強勁，可能進一步影響市場對Fed降息路徑的預期，並對美債殖利率構成上行壓力。",
+      "headline": "美國財長貝森特：預期6月就業數據強勁",
+      "summary": "美國財長貝森特表示，若6月就業數據表現強勁並不令人意外，市場需持續關注勞動力市場韌性對利率政策的影響。",
+      "content": "美國財長貝森特針對即將公布的就業數據發表看法，指出若6月份數據表現強勁，他不會感到驚訝。此番言論暗示美國經濟可能持續展現韌性，這將成為Fed在制定利率政策時的重要參考指標，並可能影響市場對降息路徑的預期。",
       "tags": [
-        "Fed",
+        "US Treasury",
         "Labor Market",
-        "UST"
+        "Fed"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 20:22",
-          "t5_target": "2026-06-30 20:27",
-          "t0_time": "2026-06-30 20:22",
-          "t5_time": "2026-06-30 20:27",
-          "t0": 4.392,
-          "t5": 4.39,
-          "change": -0.001999,
-          "change_pct": -0.0455,
-          "change_bp_est": -0.02,
-          "available": true
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:22",
-          "t5_target": "2026-06-30 20:27",
-          "t0_time": "2026-06-30 20:22",
-          "t5_time": "2026-06-30 20:27",
-          "t0": 7500.25,
-          "t5": 7498.75,
-          "change": -1.5,
-          "change_pct": -0.02,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:22",
-          "t5_target": "2026-06-30 20:27",
-          "t0_time": "2026-06-30 20:22",
-          "t5_time": "2026-06-30 20:27",
-          "t0": 30071.75,
-          "t5": 30055.25,
-          "change": -16.5,
-          "change_pct": -0.0549,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 20:01",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 3,
-      "headline": "伊朗核設施監管挑戰持續",
-      "summary": "伊朗核設施監管問題未解，地緣政治風險持續，可能對能源市場產生間接影響。",
-      "content": "伊朗表示國際原子能機構仍未獲准進入受損核設施，且在執行諒解備忘錄過程中存在重大挑戰。地緣政治緊張局勢持續，需留意對原油供應鏈及避險情緒的影響。",
+      "importance": 4,
+      "headline": "伊朗核設施爭議持續，地緣政治風險未解",
+      "summary": "伊朗表示國際原子能機構仍未獲准進入受損核設施，並指控美國在執行諒解備忘錄上存在重大挑戰，地緣緊張局勢持續。",
+      "content": "伊朗官方表示，國際原子能機構（IAEA）目前仍未獲准進入受損的核設施，且指責美國在執行相關諒解備忘錄的過程中存在重大挑戰。此僵局加劇了中東地區的地緣政治不確定性，對能源市場與避險情緒構成潛在影響。",
       "tags": [
         "Iran",
-        "Geopolitics"
+        "Geopolitics",
+        "Energy"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 20:01",
-          "t5_target": "2026-06-30 20:06",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:01",
-          "t5_target": "2026-06-30 20:06",
-          "t0_time": "2026-06-30 20:01",
-          "t5_time": "2026-06-30 20:06",
-          "t0": 7507.25,
-          "t5": 7504.25,
-          "change": -3.0,
-          "change_pct": -0.04,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:01",
-          "t5_target": "2026-06-30 20:06",
-          "t0_time": "2026-06-30 20:01",
-          "t5_time": "2026-06-30 20:06",
-          "t0": 30120.25,
-          "t5": 30099.0,
-          "change": -21.25,
-          "change_pct": -0.0706,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 20:00",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 3,
+      "importance": 4,
       "headline": "德國6月CPI初值低於預期",
-      "summary": "德國6月CPI初值環比下降，顯示通膨壓力減弱，可能影響ECB對利率政策的評估。",
-      "content": "德國6月調和CPI環比初值為-0.2%，CPI環比初值為-0.3%，均低於市場預期。通膨數據疲軟可能促使市場重新評估ECB的降息路徑與貨幣政策立場。",
+      "summary": "德國6月CPI同比初值2.3%，低於預期的2.6%，顯示通膨壓力緩解，有利ECB降息空間。",
+      "content": "德國6月CPI同比初值錄得2.3%，低於市場預期的2.6%及前值2.6%；調和CPI同比初值亦降至2.4%。數據顯示歐元區最大經濟體通膨放緩趨勢明確，可能促使ECB在後續政策會議中採取更為鴿派的立場，對歐元區債市構成支撐。",
       "tags": [
         "ECB",
-        "Germany",
-        "CPI"
+        "CPI",
+        "Germany"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 20:00",
-          "t5_target": "2026-06-30 20:05",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:00",
-          "t5_target": "2026-06-30 20:05",
-          "t0_time": "2026-06-30 20:00",
-          "t5_time": "2026-06-30 20:05",
-          "t0": 7508.25,
-          "t5": 7504.75,
-          "change": -3.5,
-          "change_pct": -0.0466,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 20:00",
-          "t5_target": "2026-06-30 20:05",
-          "t0_time": "2026-06-30 20:00",
-          "t5_time": "2026-06-30 20:05",
-          "t0": 30127.0,
-          "t5": 30102.0,
-          "change": -25.0,
-          "change_pct": -0.083,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 19:58",
       "category": "fiscal_policy",
       "category_name": "財政政策",
       "importance": 4,
-      "headline": "英國首相宣布新增150億英鎊國防開支",
-      "summary": "英國政府宣布擴大國防預算，財政支出壓力上升，可能影響英國公債市場情緒。",
-      "content": "英國首相斯塔默宣布將在現有基礎上增加150億英鎊國防支出。此舉顯示英國財政支出傾向擴張，市場需關注其對英國財政赤字及公債發行規模的潛在影響。",
+      "headline": "英國首相宣布增加150億英鎊國防支出",
+      "summary": "英國政府宣布擴大國防預算，財政支出增加可能影響英國債市供給與財政赤字預期。",
+      "content": "英國首相斯塔默宣布一項新的國防投資計劃，將在現有基礎上增加150億英鎊的國防支出。此舉顯示英國財政政策轉向擴張，市場需關注後續對英國國債（Gilts）發行規模及財政赤字目標的影響，可能對英鎊及利率走勢產生波動。",
       "tags": [
         "UK",
         "Fiscal Policy"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 19:58",
-          "t5_target": "2026-06-30 20:03",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 19:58",
-          "t5_target": "2026-06-30 20:03",
-          "t0_time": "2026-06-30 19:58",
-          "t5_time": "2026-06-30 20:03",
-          "t0": 7511.25,
-          "t5": 7504.5,
-          "change": -6.75,
-          "change_pct": -0.0899,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 19:58",
-          "t5_target": "2026-06-30 20:03",
-          "t0_time": "2026-06-30 19:58",
-          "t5_time": "2026-06-30 20:03",
-          "t0": 30143.0,
-          "t5": 30100.75,
-          "change": -42.25,
-          "change_pct": -0.1402,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 19:42",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "三星延後1.4nm量產至2029年",
+      "summary": "三星調整先進製程進度，台積電在先进制程的市場主導地位預期將持續穩固。",
+      "content": "三星將1.4nm製程量產目標由2027年延後至2029年。此舉反映先進製程開發難度，市場預期蘋果等大客戶將更依賴台積電的產能，對台積電長期競爭優勢與資本支出策略具有正面意義。",
+      "tags": [
+        "TSMC",
+        "Samsung",
+        "Semiconductor"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 19:05",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "俄外交部：北约正协助乌克兰获取远程打击武器",
+      "summary": "俄方指控北约协助乌克兰获取远程打击武器，加剧直接对抗风险，地缘政治紧张局势升温。",
+      "content": "俄罗斯外交部发言人扎哈罗娃表示，北约正协助乌克兰获取能摧毁俄境内纵深目标的武器，并试图将乌克兰变为军事技术试验场。此举被俄方视为提高与北约直接对抗风险的危险信号，需密切关注后续地缘政治对能源及避险资产的影响。",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "NATO"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 19:03",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 4,
-      "headline": "日本物價持續上漲，全年漲價商品恐超2萬種",
-      "summary": "日本食品漲價潮持續，受原材料與中東局勢影響，通膨壓力短期難緩解。",
-      "content": "日本民間調查顯示，受原材料成本攀升及中東局勢動盪影響，日本食品漲價趨勢延續，預計全年漲價商品將超過2萬種。企業持續將成本轉嫁至終端，日本通膨壓力短期內難以消退，將持續影響BOJ貨幣政策路徑。",
+      "importance": 3,
+      "headline": "日本物价持续上涨，全年涨价商品预计超2万种",
+      "summary": "受原材料成本与中东局势影响，日本食品涨价潮持续，通膨压力短期难消。",
+      "content": "日本民间调查显示，受原材料价格上涨及中东局势动荡影响，日本食品涨价趋势延续，预计全年涨价商品将超过2万种。此现象反映日本输入性通膨压力依然存在，可能持续影响BOJ的货币政策决策路径。",
       "tags": [
-        "BOJ",
+        "Japan",
         "Inflation",
-        "Japan"
+        "BOJ"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 19:03",
-          "t5_target": "2026-06-30 19:08",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 19:03",
-          "t5_target": "2026-06-30 19:08",
-          "t0_time": "2026-06-30 19:03",
-          "t5_time": "2026-06-30 19:08",
-          "t0": 7512.25,
-          "t5": 7515.25,
-          "change": 3.0,
-          "change_pct": 0.0399,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 19:03",
-          "t5_target": "2026-06-30 19:08",
-          "t0_time": "2026-06-30 19:03",
-          "t5_time": "2026-06-30 19:08",
-          "t0": 30136.25,
-          "t5": 30152.5,
-          "change": 16.25,
-          "change_pct": 0.0539,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 19:01",
       "category": "commodity",
       "category_name": "商品",
       "importance": 3,
-      "headline": "上期所調整黃金期貨保證金與漲跌幅限制",
-      "summary": "上期所調升黃金期貨保證金與漲跌幅，旨在應對市場波動風險。",
-      "content": "上海期貨交易所公告，自7月2日起，調整黃金期貨多個合約的漲跌停板幅度至14%，一般持倉交易保證金比例調整至16%。此舉反映交易所對近期貴金屬市場波動的風險控管，交易員需注意資金成本與槓桿調整。",
+      "headline": "上期所调整黄金期货保证金比例",
+      "summary": "上期所调高黄金期货保证金与涨跌幅限制，旨在防范市场波动风险。",
+      "content": "上海期货交易所宣布自7月2日起，调整黄金期货相关合约的涨跌停板幅度至14%，一般持仓交易保证金比例调整至16%。此举通常为应对市场波动加剧，交易员需注意资金占用成本上升及流动性变化。",
       "tags": [
         "Gold",
-        "Commodity"
+        "Futures"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 19:01",
-          "t5_target": "2026-06-30 19:06",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 19:01",
-          "t5_target": "2026-06-30 19:06",
-          "t0_time": "2026-06-30 19:01",
-          "t5_time": "2026-06-30 19:06",
-          "t0": 7512.75,
-          "t5": 7516.25,
-          "change": 3.5,
-          "change_pct": 0.0466,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 19:01",
-          "t5_target": "2026-06-30 19:06",
-          "t0_time": "2026-06-30 19:01",
-          "t5_time": "2026-06-30 19:06",
-          "t0": 30138.5,
-          "t5": 30165.25,
-          "change": 26.75,
-          "change_pct": 0.0888,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 18:53",
       "category": "equity",
       "category_name": "股市",
       "importance": 4,
-      "headline": "SK海力士啟動美國IPO，擬登陸納斯達克",
-      "summary": "SK海力士正式啟動美國IPO程序，將在納斯達克上市，代號SKHY。",
-      "content": "SK海力士向SEC提交F-1招股書，正式啟動美國IPO程序，擬發行ADS並於納斯達克上市。此舉顯示半導體巨頭積極擴大國際融資管道，以支撐其在HBM及先進製程的龐大資本支出需求。",
+      "headline": "SK海力士启动美国IPO，拟登陆纳斯达克",
+      "summary": "SK海力士正式启动美国IPO程序，拟在纳斯达克上市，将增加半导体板块资金关注度。",
+      "content": "SK海力士向SEC提交招股书，正式启动美国IPO，拟发行ADS并在纳斯达克上市，代码为“SKHY”。此举显示半导体巨头积极寻求国际资本市场融资，对全球半导体板块及相关供应链估值具有重要参考意义。",
       "tags": [
         "SK Hynix",
         "IPO",
         "Semiconductor"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 18:53",
-          "t5_target": "2026-06-30 18:58",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:53",
-          "t5_target": "2026-06-30 18:58",
-          "t0_time": "2026-06-30 18:53",
-          "t5_time": "2026-06-30 18:58",
-          "t0": 7511.0,
-          "t5": 7513.5,
-          "change": 2.5,
-          "change_pct": 0.0333,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:53",
-          "t5_target": "2026-06-30 18:58",
-          "t0_time": "2026-06-30 18:53",
-          "t5_time": "2026-06-30 18:58",
-          "t0": 30126.0,
-          "t5": 30139.75,
-          "change": 13.75,
-          "change_pct": 0.0456,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 18:49",
       "category": "fiscal_policy",
       "category_name": "財政政策",
       "importance": 3,
-      "headline": "發改委：民間投資正處於結構優化關鍵期",
-      "summary": "中國民間投資正加速向高技術產業與新型基礎設施轉移。",
-      "content": "國家發改委指出，中國民間投資正處於動能轉換關鍵期，資金正從房地產與傳統製造業，加速流向高技術產業與新型基礎設施。政策面將持續優化投融資機制，以提振民間投資活力，推動經濟結構轉型。",
+      "headline": "发改委：民间投资正处于结构优化关键期",
+      "summary": "中国民间投资正加速向高技术产业与新型基础设施转移，政策引导方向明确。",
+      "content": "国家发改委指出，中国民间投资正处于动能转换关键期，正从房地产与传统制造业向高技术产业、新型基础设施转移。政府强调将进一步优化市场环境与投融资机制，以释放民间投资活力，对相关产业板块构成政策利多。",
       "tags": [
         "China",
         "Fiscal Policy",
         "Investment"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 18:49",
-          "t5_target": "2026-06-30 18:54",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:49",
-          "t5_target": "2026-06-30 18:54",
-          "t0_time": "2026-06-30 18:49",
-          "t5_time": "2026-06-30 18:54",
-          "t0": 7509.75,
-          "t5": 7510.75,
-          "change": 1.0,
-          "change_pct": 0.0133,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:49",
-          "t5_target": "2026-06-30 18:54",
-          "t0_time": "2026-06-30 18:49",
-          "t5_time": "2026-06-30 18:54",
-          "t0": 30116.5,
-          "t5": 30126.25,
-          "change": 9.75,
-          "change_pct": 0.0324,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 18:31",
       "category": "commodity",
       "category_name": "商品",
       "importance": 3,
-      "headline": "俄羅斯考慮進口石油製品以穩定國內市場",
-      "summary": "俄羅斯擬進口石油製品以穩定國內能源價格，反映供應鏈壓力。",
-      "content": "俄羅斯總統新聞秘書佩斯科夫表示，俄方正與部分國家溝通進口石油製品的可能性，旨在穩定國內能源市場價格。此舉顯示俄羅斯在應對國內燃油供應與價格穩定方面面臨挑戰，可能影響區域能源供需平衡。",
+      "headline": "俄罗斯考虑进口石油制品以稳定国内市场",
+      "summary": "俄罗斯寻求进口石油制品以稳定国内燃油价格，反映能源供应压力。",
+      "content": "俄罗斯总统新闻秘书佩斯科夫表示，俄方正沟通进口石油制品的可能性，旨在稳定国内能源市场价格。此举显示俄罗斯在应对国内燃油供应保障方面存在压力，需关注其对国际能源价格的潜在外溢效应。",
       "tags": [
-        "Energy",
+        "Russia",
         "Oil",
-        "Russia"
+        "Energy"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 18:31",
-          "t5_target": "2026-06-30 18:36",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:31",
-          "t5_target": "2026-06-30 18:36",
-          "t0_time": "2026-06-30 18:31",
-          "t5_time": "2026-06-30 18:36",
-          "t0": 7507.75,
-          "t5": 7505.5,
-          "change": -2.25,
-          "change_pct": -0.03,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:31",
-          "t5_target": "2026-06-30 18:36",
-          "t0_time": "2026-06-30 18:31",
-          "t5_time": "2026-06-30 18:36",
-          "t0": 30108.5,
-          "t5": 30094.5,
-          "change": -14.0,
-          "change_pct": -0.0465,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 18:22",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 3,
-      "headline": "中國央行行長潘功勝會見德意志銀行CEO",
-      "summary": "雙方就全球經濟金融形勢及德銀在華業務進行交流，關注中歐金融合作動向。",
-      "content": "中國人民銀行行長潘功勝會見德意志銀行集團CEO克里斯蒂安·澤溫。雙方就當前中國及全球經濟金融形勢、德意志銀行集團在華業務開展情況等議題進行了交流，顯示中歐金融監管與市場互動持續。",
-      "tags": [
-        "PBOC",
-        "Deutsche Bank"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 18:22",
-          "t5_target": "2026-06-30 18:27",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:22",
-          "t5_target": "2026-06-30 18:27",
-          "t0_time": "2026-06-30 18:22",
-          "t5_time": "2026-06-30 18:27",
-          "t0": 7507.25,
-          "t5": 7508.25,
-          "change": 1.0,
-          "change_pct": 0.0133,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:22",
-          "t5_target": "2026-06-30 18:27",
-          "t0_time": "2026-06-30 18:22",
-          "t5_time": "2026-06-30 18:27",
-          "t0": 30108.0,
-          "t5": 30117.25,
-          "change": 9.25,
-          "change_pct": 0.0307,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
-    },
-    {
-      "datetime": "2026-06-30 18:16",
+      "datetime": "2026-06-30 18:12",
       "category": "war",
       "category_name": "戰爭",
       "importance": 3,
-      "headline": "美伊無高級別會晤計劃，局勢維持僵持",
-      "summary": "美伊雙方短期內無高級別會晤，地緣政治風險溢價維持，需持續關注中東航運安全。",
-      "content": "據外媒報導，美國和伊朗當天沒有高級別會晤的計劃。伊朗總統佩澤希齊揚重申，任何協議需建立在相互遵守基礎上。地緣政治緊張局勢持續，市場需密切關注霍爾木茲海峽航運安全及能源供應風險。",
+      "headline": "伊朗总统：若美方遵守协议，伊方将履行承诺",
+      "summary": "伊朗总统佩泽希齐扬表示，若美方遵守谅解文件，伊朗将履行承诺，地缘政治紧张局势或有缓和空间。",
+      "content": "伊朗总统佩泽希齐扬表示，任何协议应建立在相互遵守的基础上。若美方遵守双方达成的谅解文件，伊朗将履行自身承诺。此表态为美伊关系及中东地缘局势提供潜在缓和信号，需持续关注后续外交进展。",
       "tags": [
-        "Geopolitics",
         "Iran",
-        "USA"
+        "USA",
+        "Geopolitics"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 18:16",
-          "t5_target": "2026-06-30 18:21",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:16",
-          "t5_target": "2026-06-30 18:21",
-          "t0_time": "2026-06-30 18:16",
-          "t5_time": "2026-06-30 18:21",
-          "t0": 7508.25,
-          "t5": 7507.5,
-          "change": -0.75,
-          "change_pct": -0.01,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:16",
-          "t5_target": "2026-06-30 18:21",
-          "t0_time": "2026-06-30 18:16",
-          "t5_time": "2026-06-30 18:21",
-          "t0": 30110.25,
-          "t5": 30106.5,
-          "change": -3.75,
-          "change_pct": -0.0125,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 18:11",
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "烏克蘭遠程打擊俄羅斯航天通信中心",
-      "summary": "烏軍再次打擊俄方關鍵軍事設施，地緣衝突升級風險猶存，影響市場避險情緒。",
-      "content": "烏克蘭總統澤連斯基證實，烏方遠程打擊了俄羅斯莫斯科州杜布納航天通信中心。該設施為俄軍戰場偵察與協調的重要配套，此次打擊距離國境超500公里，顯示烏方遠程打擊能力提升，地緣衝突風險持續。",
+      "headline": "乌克兰远程打击俄航天通信中心",
+      "summary": "乌克兰远程打击俄方卫星通信设施，地缘冲突升级，可能影响能源及相关供应链稳定性。",
+      "content": "乌克兰总统泽连斯基证实，乌方远程打击了俄罗斯莫斯科州杜布纳航天通信中心。该设施用于卫星通信及战场协调，打击距离超500公里。此举显示乌方远程打击能力提升，地缘冲突风险持续，需关注对能源市场及区域安全的影响。",
       "tags": [
         "Ukraine",
         "Russia",
         "Geopolitics"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 18:11",
-          "t5_target": "2026-06-30 18:16",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:11",
-          "t5_target": "2026-06-30 18:16",
-          "t0_time": "2026-06-30 18:11",
-          "t5_time": "2026-06-30 18:16",
-          "t0": 7505.5,
-          "t5": 7508.25,
-          "change": 2.75,
-          "change_pct": 0.0366,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:11",
-          "t5_target": "2026-06-30 18:16",
-          "t0_time": "2026-06-30 18:11",
-          "t5_time": "2026-06-30 18:16",
-          "t0": 30072.75,
-          "t5": 30110.25,
-          "change": 37.5,
-          "change_pct": 0.1247,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
-    },
-    {
-      "datetime": "2026-06-30 18:02",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 3,
-      "headline": "日本財務省：近期未進行日元匯率干預",
-      "summary": "官方確認近期未干預匯市，日元走勢回歸市場供需，減輕市場對政策突襲的擔憂。",
-      "content": "日本財務省公佈數據顯示，5月28日至6月26日期間未進行日元匯率干預。此舉表明日本當局目前對日元匯率波動的容忍度，市場將持續關注BOJ貨幣政策正常化進程與利差變化。",
-      "tags": [
-        "BOJ",
-        "JPY",
-        "FX"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 18:02",
-          "t5_target": "2026-06-30 18:07",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:02",
-          "t5_target": "2026-06-30 18:07",
-          "t0_time": "2026-06-30 18:02",
-          "t5_time": "2026-06-30 18:07",
-          "t0": 7505.75,
-          "t5": 7508.5,
-          "change": 2.75,
-          "change_pct": 0.0366,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 18:02",
-          "t5_target": "2026-06-30 18:07",
-          "t0_time": "2026-06-30 18:02",
-          "t5_time": "2026-06-30 18:07",
-          "t0": 30084.25,
-          "t5": 30094.25,
-          "change": 10.0,
-          "change_pct": 0.0332,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 17:47",
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "八部門推動工業互聯網與算力設施建設",
-      "summary": "政策支持算力基礎設施一體化，有利於AI產業鏈與工業數位化轉型，長期利好科技板塊。",
-      "content": "工信部等八部門印發意見，推動工業互聯網與智算、超算設施一體規劃。目標到2030年建設5萬張工業5G專網，強化算力互聯互通，深度賦能大模型訓練與工業元宇宙，推動實體經濟與數位經濟融合。",
+      "headline": "八部门：推动工业互联网与算力设施一体建设",
+      "summary": "中国推动工业互联网与算力基础设施同步建设，旨在赋能大模型训练与工业元宇宙，利好科技基建板块。",
+      "content": "工信部等八部门印发意见，推动工业互联网与智算、超算等算力基础设施一体规划建设。目标到2030年建设5万张工业5G专网，强化算力互联互通，深度赋能工业大模型训练及工业元宇宙场景，长期利好算力与工业数字化产业链。",
       "tags": [
+        "China",
         "AI",
-        "Infrastructure",
-        "China"
+        "Infrastructure"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 17:47",
-          "t5_target": "2026-06-30 17:52",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 17:47",
-          "t5_target": "2026-06-30 17:52",
-          "t0_time": "2026-06-30 17:47",
-          "t5_time": "2026-06-30 17:52",
-          "t0": 7506.0,
-          "t5": 7507.5,
-          "change": 1.5,
-          "change_pct": 0.02,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 17:47",
-          "t5_target": "2026-06-30 17:52",
-          "t0_time": "2026-06-30 17:47",
-          "t5_time": "2026-06-30 17:52",
-          "t0": 30079.5,
-          "t5": 30089.25,
-          "change": 9.75,
-          "change_pct": 0.0324,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 17:37",
       "category": "fiscal_policy",
       "category_name": "財政政策",
       "importance": 3,
-      "headline": "英國國防大臣：將投入史上最大規模無人機投資",
-      "summary": "英國加大國防支出，顯示地緣政治壓力下財政支出傾向於軍事現代化，影響國防產業。",
-      "content": "英國國防大臣宣佈，英國將投入史上最大規模的無人機相關投資。此舉反映英國在當前地緣政治環境下，財政支出優先級向國防科技傾斜，將對相關國防工業供應鏈產生長期需求支撐。",
+      "headline": "英国国防大臣：将投入史上最大规模无人机投资",
+      "summary": "英国政府计划加大无人机领域财政投入，反映国防支出增长趋势，对相关军工产业链形成支撑。",
+      "content": "英国国防大臣宣布，英国将投入史上最大规模的无人机相关投资。此举显示英国在国防预算上的持续扩张倾向，旨在提升军事现代化水平，对英国军工及科技制造板块具有长期政策利好。",
       "tags": [
         "UK",
         "Defense",
-        "Fiscal"
+        "FiscalPolicy"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 17:37",
-          "t5_target": "2026-06-30 17:42",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 17:37",
-          "t5_target": "2026-06-30 17:42",
-          "t0_time": "2026-06-30 17:37",
-          "t5_time": "2026-06-30 17:42",
-          "t0": 7502.25,
-          "t5": 7505.5,
-          "change": 3.25,
-          "change_pct": 0.0433,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 17:37",
-          "t5_target": "2026-06-30 17:42",
-          "t0_time": "2026-06-30 17:37",
-          "t5_time": "2026-06-30 17:42",
-          "t0": 30060.25,
-          "t5": 30078.25,
-          "change": 18.0,
-          "change_pct": 0.0599,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-06-30 17:32",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "29日共有24艘油轮及商船通过霍尔木兹海峡",
+      "summary": "霍尔木兹海峡航运保持正常，关注地缘冲突对全球能源运输通道的潜在干扰风险。",
+      "content": "航运分析机构数据显示，29日共有24艘油轮及商船通过霍尔木兹海峡。作为全球能源运输的关键咽喉，该海峡的通行状况直接影响原油供应稳定性，需密切监控地缘局势对该航道的潜在威胁。",
+      "tags": [
+        "Oil",
+        "Hormuz",
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 17:01",
       "category": "commodity",
       "category_name": "商品",
       "importance": 3,
-      "headline": "中礦資源鋰鹽產線停產檢修，短期供給受限",
-      "summary": "中礦資源因物流調度問題進行鋰鹽產線檢修，短期產量下降，但公司預期全年產銷不受重大影響。",
-      "content": "中礦資源公告，因自產鋰精礦運輸與生產調度錯配，旗下合計年產6.5萬噸鋰鹽生產線將進行臨時停產檢修與低負荷運行，預計7月底前完成。儘管短期供給受限，但公司強調下游需求旺盛，全年產銷目標維持不變，並將加速推進硫酸鋰項目建設。",
+      "headline": "中礦資源鋰鹽產線停產檢修",
+      "summary": "中礦資源因物流調度問題，臨時停產檢修年產6.5萬噸鋰鹽產線，預計7月底恢復。",
+      "content": "中礦資源公告，因自產鋰精礦運輸與生產調度錯配，旗下江西中礦鋰業自6月30日起對年產3萬噸鋰鹽產線停產檢修，並對3.5萬噸產線進行低負荷運行。公司稱全年產銷不受重大影響，但短期供給波動可能影響鋰鹽市場情緒。",
       "tags": [
         "Lithium",
         "Commodity"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 17:01",
-          "t5_target": "2026-06-30 17:06",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 17:01",
-          "t5_target": "2026-06-30 17:06",
-          "t0_time": "2026-06-30 17:01",
-          "t5_time": "2026-06-30 17:06",
-          "t0": 7502.5,
-          "t5": 7502.25,
-          "change": -0.25,
-          "change_pct": -0.0033,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 17:01",
-          "t5_target": "2026-06-30 17:06",
-          "t0_time": "2026-06-30 17:01",
-          "t5_time": "2026-06-30 17:06",
-          "t0": 30070.5,
-          "t5": 30071.25,
-          "change": 0.75,
-          "change_pct": 0.0025,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-06-30 17:00",
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "義大利6月CPI低於預期，通膨壓力緩解",
-      "summary": "義大利6月CPI年增率3%，低於預期與前值，顯示歐元區通膨壓力進一步降溫，有利於ECB政策轉向。",
-      "content": "義大利6月CPI初值年增3%，低於市場預期的3.2%及前值3.2%；月增率為0%，亦低於預期。數據顯示義大利通膨壓力持續緩解，這為ECB在未來貨幣政策決策中提供更多靈活性，市場將持續關注此趨勢對歐元區整體通膨路徑的影響。",
+      "headline": "義大利6月CPI低於預期",
+      "summary": "義大利6月CPI年增率初值3%，低於預期的3.2%，顯示通膨壓力有所緩解。",
+      "content": "義大利6月CPI年增率初值為3%，低於市場預期的3.2%及前值的3.2%；月增率為0%，亦低於預期。數據顯示歐元區第三大經濟體的通膨壓力出現降溫跡象，可能影響ECB對未來利率路徑的評估。",
       "tags": [
         "ECB",
         "CPI",
         "Italy"
       ],
       "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "market_reaction": {
-        "UST10Y": {
-          "ticker": "^TNX",
-          "label": "10Y美債殖利率",
-          "type": "yield",
-          "t0_target": "2026-06-30 17:00",
-          "t5_target": "2026-06-30 17:05",
-          "t0_time": null,
-          "t5_time": null,
-          "t0": null,
-          "t5": null,
-          "change": null,
-          "change_pct": null,
-          "change_bp_est": null,
-          "available": false
-        },
-        "ES": {
-          "ticker": "ES=F",
-          "label": "S&P500期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 17:00",
-          "t5_target": "2026-06-30 17:05",
-          "t0_time": "2026-06-30 17:00",
-          "t5_time": "2026-06-30 17:05",
-          "t0": 7503.5,
-          "t5": 7503.0,
-          "change": -0.5,
-          "change_pct": -0.0067,
-          "change_bp_est": null,
-          "available": true
-        },
-        "NQ": {
-          "ticker": "NQ=F",
-          "label": "Nasdaq期貨",
-          "type": "future",
-          "t0_target": "2026-06-30 17:00",
-          "t5_target": "2026-06-30 17:05",
-          "t0_time": "2026-06-30 17:00",
-          "t5_time": "2026-06-30 17:05",
-          "t0": 30081.25,
-          "t5": 30072.75,
-          "change": -8.5,
-          "change_pct": -0.0283,
-          "change_bp_est": null,
-          "available": true
-        }
-      }
+      "url": "https://wallstreetcn.com/live/global"
     }
-  ],
-  "market_reaction_meta": {
-    "enabled": true,
-    "source": "yfinance",
-    "period": "5d",
-    "interval": "1m",
-    "timezone": "Asia/Taipei",
-    "tickers": {
-      "UST10Y": {
-        "ticker": "^TNX",
-        "label": "10Y美債殖利率",
-        "type": "yield"
-      },
-      "ES": {
-        "ticker": "ES=F",
-        "label": "S&P500期貨",
-        "type": "future"
-      },
-      "NQ": {
-        "ticker": "NQ=F",
-        "label": "Nasdaq期貨",
-        "type": "future"
-      }
-    },
-    "method": "For each news timestamp, use the first 1-minute price at or after T0 and T+5 minutes.",
-    "max_gap_minutes": 15,
-    "updated_at": "2026-07-01 11:54"
-  }
+  ]
 }
