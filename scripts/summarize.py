@@ -94,7 +94,6 @@ def load_user_important_notes():
 def build_user_important_notes_section(user_important_notes):
     if not user_important_notes:
         return "目前沒有使用者手動標記的重要新聞。"
-
     return user_important_notes
 
 
@@ -114,7 +113,7 @@ def build_news_prompt(batch, user_important_notes=""):
     prompt += important_notes_text
     prompt += "\n\n"
 
-    prompt += "請保留會影響利率、債市、股市、央行、總經、財政政策、財政支出傾向或談話，尤其是美國、英國、日本、歐洲相關內容，例如英國首相熱門人選表示將以公平、可持續方式削減福利支出。\n"
+    prompt += "請保留會影響利率、債市、股市、央行、總經、財政政策、財政支出傾向或談話，尤其是美國、英國、日本、歐洲相關內容。\n"
     prompt += "請保留會影響地緣政治、戰爭風險、商品能源、半導體、AI供應鏈、主要科技股、台股與全球風險偏好的新聞。\n"
     prompt += "請刪除不重要新聞、純價格走勢新聞、例行債券發行新聞、體育娛樂地方社會新聞。\n"
     prompt += "純價格走勢例子：中國國債期貨早盤全線收漲、日本10年期國債收益率上升5個基點、美股期貨小幅走高。\n"
@@ -124,8 +123,8 @@ def build_news_prompt(batch, user_important_notes=""):
     prompt += "importance 為1到5，5代表最重要。\n"
     prompt += "如果新聞與使用者重要新聞高度相關，importance 可以提高，但仍需根據市場影響力判斷。\n"
     prompt += "headline：30個中文字以內，繁體中文。\n"
-    prompt += "summary：必填，90個中文字以內，繁體中文，說明市場或交易意義。如果原文有明確主詞，請保留主詞。例如 A表示：\n"
-    prompt += "content：必填，180個中文字以內，繁體中文，比summary更完整。\n"
+    prompt += "summary：必填，90個中文字以內，繁體中文，說明市場或交易意義。如果原文有明確主詞，請保留主詞。\n"
+    prompt += "content：必填，180個中文字以內，繁體中文，比 summary 更完整。\n"
     prompt += "tags：英文或市場代號。\n"
     prompt += "只輸出 JSON array，不要 markdown，不要解釋。\n\n"
 
@@ -152,20 +151,3 @@ def build_brief_prompt(items, user_important_notes=""):
     prompt += "\n\n"
 
     prompt += "請輸出5到10點，每點不超過55個中文字，聚焦市場意義，不要只是複製標題。\n"
-    prompt += "只輸出 JSON array of strings，不要 markdown，不要解釋。\n"
-    prompt += "格式例子：[\"Fed官員偏鷹，短端利率降息定價可能受壓。\",\"中東風險升溫，油價風險溢價仍需關注。\"]\n\n"
-    prompt += "重要新聞：\n"
-    prompt += items_json
-    return prompt
-
-
-def fallback_filter(items):
-    output = []
-    for item in items:
-        text = item.get("headline", "") + " " + item.get("content", "")
-        category = "economy"
-        if any(k in text for k in ["美債", "國債", "收益率", "殖利率", "Treasury", "利率"]):
-            category = "bond"
-        elif any(k in text for k in ["Fed", "FOMC", "聯準會", "美聯儲", "ECB", "BOJ", "BOE", "PBOC", "央行"]):
-            category = "central_bank"
-        elif any(k in text for k in [
