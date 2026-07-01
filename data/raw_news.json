@@ -1,13 +1,21 @@
 {
-  "generated_at": "2026-07-01 11:39",
+  "generated_at": "2026-07-01 11:46",
   "fetch_start_time": "2026-06-30 17:00",
-  "fetch_end_time": "2026-07-01 11:39",
+  "fetch_end_time": "2026-07-01 11:46",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 357,
+  "count": 359,
   "items": [
+    {
+      "datetime": "2026-07-01 11:40",
+      "headline": "【长三角铁路上半年发送旅客增超3%至逾4.7亿人次 创历史新高】",
+      "content": "2026年上半年，长三角铁路发送旅客逾4.7亿人次，同比增幅超3%，创上半年客发量历史新高。从客流走势看，二季度旅客发送量较一季度有明显增长，3个月累计发送旅客超2.51亿人次，其中5月1日国际劳动节当天发送旅客473.8万人次，创上铁集团单日客发量新高。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-01 11:40",
       "headline": "中国财政部发行28天期债券，规模300亿元，发行利率0.7043%，边际利率0.7957%，预期0.8100%，投标倍数3.07倍，边际倍数2.62倍；",
@@ -476,14 +484,6 @@
       "datetime": "2026-07-01 08:00",
       "headline": "韩国6月出口同比",
       "content": "今值: 70.9% ， 预期: 60.7% ， 前值: 53.2%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-01 08:00",
-      "headline": "韩国6月进口同比",
-      "content": "今值: 30.1% ， 预期: 24.5% ， 前值: 20.8%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -1937,6 +1937,30 @@
       "timezone": "Asia/Taipei"
     },
     {
+      "datetime": "2026-06-30 21:00",
+      "headline": "美国4月S&P/CS20座大城市季调后房价指数环比",
+      "content": "今值: -0.04% ， 预期: -0.14% ， 前值: -0.16% (修正: -0.15%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 21:00",
+      "headline": "美国4月S&P/CS20座大城市房价指数同比",
+      "content": "今值: 1.14% ， 预期: 0.92% ， 前值: 0.83% (修正: 0.88%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 21:00",
+      "headline": "美国4月FHFA房价指数环比",
+      "content": "今值: -0.1% ， 预期: 0.2% ， 前值: 0.1% (修正: 0.2%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
       "datetime": "2026-06-30 20:58",
       "headline": "【贸促会：中国企业期待对话协商解决中欧经贸合作问题】",
       "content": "中国贸促会在6月30日举行的例行新闻发布会上发布《欧盟营商环境报告2025》。中国贸促会新闻发言人王一斐表示，广大中国企业期待中欧双方通过对话协商推动解决中欧经贸合作中存在的问题，也希望欧方能为中国赴欧企业提供公平、公正、非歧视的营商环境。报告显示，2025年，中欧工商界积极互动交流，合作成果丰硕、意愿增强，53%的受访在欧中资企业对欧盟营商环境评价积极，48.8%的企业拟增加与欧盟企业间供应链合作。（新华社）",
@@ -2852,14 +2876,6 @@
       "datetime": "2026-06-30 17:00",
       "headline": "意大利6月CPI环比初值",
       "content": "今值: 0% ， 预期: 0.2% ， 前值: 0.4%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-06-30 17:00",
-      "headline": "意大利6月调和CPI环比初值",
-      "content": "今值: 0.1% ， 预期: 0.2% ， 前值: 0.3%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
