@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright beautifulsoup4 google-genai
+          pip install playwright beautifulsoup4 google-genai yfinance pandas
           playwright install --with-deps chromium
 
       - name: Crawl WallstreetCN
@@ -63,7 +63,7 @@ jobs:
           git config user.email "github-actions@github.com"
 
           git status
-          git add data/raw_news.json data/debug || true
+          git add data/raw_news.json
 
           if git diff --cached --quiet; then
             echo "No raw_news.json changes to commit"
@@ -107,6 +107,35 @@ jobs:
               if items:
                   print("latest summarized item:")
                   print(json.dumps(items[0], ensure_ascii=False, indent=2))
+              else:
+                  print("items is empty")
+          PY
+
+      - name: Add market reactions with yfinance
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python -u scripts/market_prices.py
+          echo "===== market reaction preview ====="
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path("data/news.json")
+          print("news exists:", p.exists())
+
+          if p.exists():
+              data = json.loads(p.read_text(encoding="utf-8"))
+
+              print("market_reaction_meta:")
+              print(json.dumps(data.get("market_reaction_meta", {}), ensure_ascii=False, indent=2))
+
+              items = data.get("items", [])
+              if items:
+                  print("latest item datetime:", items[0].get("datetime"))
+                  print("latest item headline:", items[0].get("headline"))
+                  print("latest item market_reaction:")
+                  print(json.dumps(items[0].get("market_reaction", {}), ensure_ascii=False, indent=2))
               else:
                   print("items is empty")
           PY
