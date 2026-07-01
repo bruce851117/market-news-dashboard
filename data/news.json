@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-01 17:45",
+  "generated_at": "2026-07-02 07:07",
   "timezone": "Asia/Taipei",
   "source": "https://wallstreetcn.com/live/global",
-  "fetch_start_time": "2026-06-30 17:00",
-  "fetch_end_time": "2026-07-01 17:42",
-  "raw_count": 491,
-  "count": 98,
+  "fetch_start_time": "2026-07-01 17:00",
+  "fetch_end_time": "2026-07-02 07:05",
+  "raw_count": 275,
+  "count": 53,
   "categories": {
     "bond": "債市",
     "equity": "股市",
@@ -16,1551 +16,841 @@
     "commodity": "商品"
   },
   "brief_points": [
-    "全球央行年會登場，Fed、ECB與BOE總裁談話將定調未來利率路徑，市場高度關注。",
-    "市場對Fed 7月加息預期升溫，利率期貨顯示加息機率已達36%，短端利率壓力顯著。",
-    "美元兌日圓貶破162創1986年以來新低，市場緊盯日本央行是否干預匯市或調整政策。",
-    "歐元區6月CPI低於預期，市場下調ECB加息押注，顯示通膨壓力有緩解跡象。",
-    "美軍擬駐黎巴嫩監督停火，中東地緣政治風險升溫，需持續關注能源供應與避險情緒。",
-    "SK海力士長約不設價格上限，反映AI晶片供需極度緊張，有利半導體產業獲利預期。",
-    "中國央行單日淨回籠逾1.1兆元人民幣，資金面收緊訊號明顯，關注對債市與股市影響。",
-    "美國4月原油產量創歷史新高，但伊朗威脅關閉霍爾木茲海峽，能源市場波動風險猶存。"
+    "美股半導體板塊重挫，AI硬體供應鏈因估值與資本支出疑慮出現劇烈輪動。",
+    "市場低估Fed 7月升息風險，需警惕就業數據引發鷹派重新定價。",
+    "美國政府拒絕現行USMCA續簽，改採年度審查，北美供應鏈不確定性升溫。",
+    "美國6月ADP就業人數僅增9.8萬，勞動力市場降溫跡象顯著。",
+    "中東地緣風險持續，伊朗與美以緊張局勢加劇，能源市場波動風險仍高。",
+    "歐元區6月CPI低於預期，市場下調ECB升息押注，有利歐元區債市。",
+    "美國垃圾債違約率升至2.67%，高利率環境下企業信用風險壓力浮現。",
+    "機構投資者連續四周拋售科技股，板塊資金流入降至歷史低點，情緒轉弱。"
   ],
   "items": [
     {
-      "datetime": "2026-07-01 17:00",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "歐元區6月CPI低於預期，ECB加息押注降溫",
-      "summary": "歐元區6月調和CPI年率降至2.8%，低於預期，市場隨即下調ECB年底前加息預期。",
-      "content": "歐元區6月調和CPI初值年率為2.8%，核心CPI為2.4%，均低於市場預期。數據公布後，市場對ECB年底前的加息押注有所減弱，目前預計年底前將加息約23個基點，顯示通膨壓力緩解跡象。",
+      "datetime": "2026-07-02 06:57",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "美國最快下週宣布自願性AI監管制度",
+      "summary": "美國擬推動自願性AI標準，可能影響科技巨頭開發節奏與合規成本。",
+      "content": "據知情人士透露，美國政府最快將於下週宣布自願性AI制度。此舉旨在建立AI發展標準，市場需關注後續對AI產業鏈（如Nvidia、OpenAI等）的監管壓力及合規成本變化。",
       "tags": [
-        "ECB",
-        "CPI",
-        "Eurozone"
+        "AI",
+        "Regulation"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 16:59",
+      "datetime": "2026-07-02 06:30",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "半導體產業開啟年內第二輪漲價",
+      "summary": "成本上升與AI需求強勁，推動半導體產業啟動新一輪漲價，幅度達15%-25%。",
+      "content": "受成本上漲及AI需求爆發驅動，芯聯集成、斯達半導等多家半導體公司發布漲價函，漲幅約15%至25%。此趨勢反映AI硬體供應鏈持續吃緊，可能進一步推升相關科技產品成本。",
+      "tags": [
+        "Semiconductor",
+        "AI"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-02 05:52",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 3,
-      "headline": "美伊於多哈進行間接技術性會談",
-      "summary": "美國與伊朗在卡達多哈進行間接技術性會談，由卡達與巴基斯坦擔任調解方。",
-      "content": "消息人士透露，美伊雙方正於多哈進行間接技術性會談，旨在處理相關技術性議題。此舉涉及地緣政治敏感度，市場需關注後續對中東局勢及能源供應的潛在影響。",
+      "importance": 4,
+      "headline": "伊朗拒絕核查人員進入受損核設施",
+      "summary": "伊朗強硬表態限制核查，地緣政治緊張局勢恐升溫。",
+      "content": "伊朗議會議長卡利巴夫表示，伊朗法律禁止國際原子能機構（IAEA）核查人員進入受損核設施，僅允許進入特定核電站。此舉加劇伊朗與國際社會的緊張關係，需留意對能源市場的潛在衝擊。",
       "tags": [
-        "Geopolitics",
         "Iran",
+        "Geopolitics",
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-02 05:38",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "Valar與Nvidia合作開發核能數據中心",
+      "summary": "AI算力需求推動能源創新，核能微型反應堆結合液冷技術成新趨勢。",
+      "content": "核能初創公司Valar Atomics與Nvidia合作，成功演示由微型核反應堆供電的AI數據中心。該技術旨在解決AI算力激增帶來的能源與用水挑戰，顯示AI產業對能源基礎設施的依賴加深。",
+      "tags": [
+        "Nvidia",
+        "Energy",
+        "AI"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-02 05:26",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "極端高溫衝擊美國電網，電價飆升",
+      "summary": "極端氣候導致電力需求激增，紐約電價創下今年以來新高。",
+      "content": "受極端高溫影響，美國東海岸電網壓力劇增，紐約市電價飆升至每兆瓦時1100美元以上。能源價格波動可能對通膨預期及相關公用事業股產生短期影響。",
+      "tags": [
+        "Energy",
+        "Inflation",
         "USA"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 16:54",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 3,
-      "headline": "以色列總理：將盡力與黎巴嫩達成和平協議",
-      "summary": "以色列總理表示將盡一切努力與黎巴嫩達成和平協議，地緣緊張局勢出現緩和訊號。",
-      "content": "以色列總理公開表態，將致力於與黎巴嫩達成和平協議。此談話為中東地緣政治帶來潛在緩和訊號，交易員應持續監控該區域衝突對能源價格與避險情緒的影響。",
-      "tags": [
-        "Geopolitics",
-        "Israel",
-        "Lebanon"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 16:48",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 3,
-      "headline": "ECB官員：通膨威脅未除，政策維持緊縮",
-      "summary": "ECB官員Kocher與Wunsch表示通膨尚未完全受控，未來政策路徑仍視工資協議與第二輪效應而定。",
-      "content": "ECB管委Kocher指出，接下來的決策將在加息與維持現狀間權衡，工資協議可能導致通膨持續。管委Wunsch則強調，需觀察更強的第二輪效應，若無顯著效應，未來可能僅需一次加息。",
-      "tags": [
-        "ECB"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 16:28",
-      "category": "economy",
-      "category_name": "經濟",
+      "datetime": "2026-07-02 05:10",
+      "category": "bond",
+      "category_name": "債市",
       "importance": 4,
-      "headline": "歐美貿易協議正式實施，歐盟備妥應對關稅",
-      "summary": "歐美貿易協議生效，歐盟官員警告美方若以關稅施壓，歐盟已具備相關政策工具應對。",
-      "content": "歐盟議會國際貿易委員會主席表示，歐美貿易協議正式實施，相關安全網機制同步生效。針對美國總統特朗普的關稅威脅，歐盟強調已準備好政策工具，將密切關注協議執行情況並採取必要行動。",
+      "headline": "美国垃圾债违约率升至2.67%",
+      "summary": "美国垃圾债违约率环比上扬64个基点，逼近2024年初水平，信用风险压力显现。",
+      "content": "摩根大通数据显示，美国垃圾债违约率升至2.67%，接近2024年1月的2.80%高位。违约率的持续上行反映了高利率环境下企业融资成本压力及信用质量的恶化，需密切关注高收益债市场的信用利差变化。",
       "tags": [
-        "Trade",
-        "EU",
-        "US"
+        "Credit",
+        "Bond"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 16:22",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 3,
-      "headline": "德商銀：日本干預日圓匯率空間有限",
-      "summary": "分析指出受限於IMF規則，日本政府在11月前僅剩兩次干預日圓匯率的窗口。",
-      "content": "德國商業銀行策略師指出，根據IMF規則，日本若要維持自由交易貨幣地位，從現在到11月僅能再進行兩次干預，且每次不得超過三個連續交易日，市場已意識到日本可用的政策資源有限。",
-      "tags": [
-        "BOJ",
-        "JPY",
-        "FX"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 16:09",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 3,
-      "headline": "伊朗稱外國船隻於霍爾木茲海峽擱淺",
-      "summary": "一艘使用未經批准航線的集裝箱船在霍爾木茲海峽擱淺，地緣政治風險需持續關注。",
-      "content": "伊朗官方電視台報導，一艘外國集裝箱船在霍爾木茲海峽航行時擱淺，該船隻使用了未經批准的航線。此區域為全球能源運輸要道，相關事件可能引發航運與地緣政治關注。",
-      "tags": [
-        "Geopolitics",
-        "Energy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 16:08",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "ECB Nagel：通膨風險猶存，政策保持彈性",
-      "summary": "ECB官員Nagel暗示通膨仍高，對7月與9月利率決策保持開放，強調第二輪效應風險。",
-      "content": "ECB管委Nagel表示，現在判斷通膨第二輪效應結束為時過早，預計2027年通膨仍高於目標。對於7月與9月利率決策保持開放選項，並指出AI初期可能推升通膨，但長期有助於生產力提升。",
-      "tags": [
-        "ECB",
-        "Inflation"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 16:00",
+      "datetime": "2026-07-02 04:53",
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "歐元區製造業PMI終值略優於預期",
-      "summary": "歐元區6月製造業PMI終值為51.4，顯示製造業活動維持擴張，但復甦力道仍溫和。",
-      "content": "歐元區6月製造業PMI終值報51.4，高於預期與前值的51.3。德國6月製造業PMI終值亦達50.3，顯示歐洲製造業在經歷長期低迷後，正處於緩慢的企穩修復階段。",
+      "headline": "美国6月轻型车销售超预期",
+      "summary": "美国6月轻型车销售达1652万辆，优于预期，显示消费韧性。",
+      "content": "美国6月总体轻型车销售达到1652万辆，高于预期的1610万辆及前值1608万辆。汽车销售作为耐用品消费的重要指标，数据超预期显示在当前利率环境下，美国消费需求仍具韧性，对经济软着陆预期提供支撑。",
       "tags": [
-        "PMI",
-        "Eurozone",
-        "Economy"
+        "Economy",
+        "Consumption"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 15:43",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 3,
-      "headline": "美伊官員將在多哈舉行間接會談",
-      "summary": "美伊雙方於多哈進行間接會談，關注地緣政治緊張局勢是否緩解。",
-      "content": "美國與伊朗官員於卡達多哈舉行間接會談。外交部隨後表示，中方主張應早日解除對伊單邊制裁，並呼籲雙方落實諒解備忘錄，推動伊朗問題政治解決，此舉對中東地緣局勢及能源市場具潛在影響。",
-      "tags": [
-        "Iran",
-        "USA",
-        "Geopolitics"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 15:42",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "日圓交易員押注匯率貶向163-165",
-      "summary": "日圓貶值壓力加劇，市場測試官方干預底線，關注BOJ政策動向。",
-      "content": "日圓兌美元匯率逼近163，期權市場顯示交易員正為匯率進一步貶值至165甚至170做準備。市場高度關注日本當局是否會採取干預措施，以及BOJ在匯率壓力下是否會調整貨幣政策立場。",
-      "tags": [
-        "JPY",
-        "BOJ",
-        "FX"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 15:28",
+      "datetime": "2026-07-02 04:50",
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "比亞迪：歐盟法規增加購買決策難度",
-      "summary": "歐盟監管環境對車企造成壓力，比亞迪正尋求西歐生產基地。",
-      "content": "比亞迪歐洲市場特別顧問指出，歐盟法規使消費者購買決策日益困難，並提到大眾汽車裁員對行業具警示作用。比亞迪正積極尋求在西歐建立生產基地，以應對貿易壁壘與監管挑戰。",
+      "headline": "美元走强与地缘风险压制拉美市场",
+      "summary": "强势美元及美伊谈判进展不确定性，导致拉美股市与货币普遍走低。",
+      "content": "受强势美元压力及北美贸易协定不确定性影响，拉美股市与货币新季度开局疲软。投资者正密切评估美伊谈判进展，地缘政治风险与美元流动性收紧共同构成了新兴市场资产的下行压力。",
       "tags": [
-        "BYD",
-        "EU",
-        "Auto"
+        "USD",
+        "Emerging Markets"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 15:28",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 3,
-      "headline": "阿富汗與巴基斯坦邊境衝突升級",
-      "summary": "阿富汗與巴基斯坦發生空襲與無人機攔截事件，區域地緣風險上升。",
-      "content": "阿富汗國防部稱對巴基斯坦境內目標發動空襲，巴基斯坦則表示擊落4架無人機。此邊境衝突加劇了南亞地區的地緣政治不確定性，需密切關注後續對區域穩定性的影響。",
+      "datetime": "2026-07-02 04:16",
+      "category": "bond",
+      "category_name": "債市",
+      "importance": 4,
+      "headline": "美债供应预期分歧，SOFR利率期货交易激增",
+      "summary": "华尔街对美债供应增加的影响看法分歧，导致SOFR与联邦基金利率期货交易量与未平仓量大幅飙升。",
+      "content": "华尔街顶级银行对本月美债供应增加的影响存在截然不同观点，引发短期利率市场交易狂潮。与SOFR及联邦基金有效利率挂钩的7月期货合约基差交易量创下历史新高，显示市场对流动性与利率定价的博弈加剧。",
       "tags": [
-        "Afghanistan",
-        "Pakistan",
-        "Geopolitics"
+        "UST",
+        "SOFR",
+        "Fed"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 14:59",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 3,
-      "headline": "人行副行長朱鶴新會見德意志銀行CEO",
-      "summary": "中國人行與德意志銀行就國際經濟金融形勢及全球市場投資機遇進行交流。",
-      "content": "中國人民銀行副行長、國家外匯管理局局長朱鶴新會見德意志銀行集團CEO克里斯蒂安·澤温。雙方探討全球市場投資機遇，顯示在當前複雜的國際金融環境下，中國監管機構與國際大型金融機構保持密切溝通，關注資本流動與市場穩定。",
-      "tags": [
-        "PBOC",
-        "Deutsche Bank",
-        "Economy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 14:58",
+      "datetime": "2026-07-02 04:01",
       "category": "equity",
       "category_name": "股市",
-      "importance": 3,
-      "headline": "波克夏增持丸紅與三井物產股份",
-      "summary": "波克夏海瑟威持續加碼日本五大商社，顯示對日本企業治理改善與價值投資的信心。",
-      "content": "波克夏海瑟威將丸紅株式會社持股比例增至10.32%，三井物產持股增至10.83%。此舉進一步強化了市場對日本股市長期吸引力的關注，特別是在企業治理改革與股東回報提升的背景下，對日股投資情緒具正面支撐。",
+      "importance": 5,
+      "headline": "半导体板块重挫，AI供应链分化加剧",
+      "summary": "美股半导体指数大跌约6.3%，存储芯片与硬件供应链表现疲软，但AI软件股相对抗跌。",
+      "content": "美股存储芯片与硬件供应链指数跌超9%，泰瑞达、美光科技等跌幅显著。尽管AI软件先驱指数上涨，但硬件端因估值与供应担忧出现剧烈回调。市场对AI基础设施的资本支出持续性产生分歧，导致科技板块内部出现明显轮动。",
       "tags": [
-        "Berkshire Hathaway",
-        "Japan",
+        "Semiconductor",
+        "AI",
         "Equity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 14:53",
+      "datetime": "2026-07-02 03:46",
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "烏克蘭致信歐盟要求66億歐元軍援",
-      "summary": "烏克蘭國防部呼籲歐盟將「歐洲和平基金」全額用於軍援，以把握未來6至9個月的戰場窗口期。",
-      "content": "烏克蘭國防部長致信歐盟，要求將66億歐元資金定向用於軍事援助。烏方指出今年國防需求約1360億歐元，存在巨大缺口，需外部支持以在戰場上取得優勢，此舉顯示地緣政治風險持續升溫，可能影響歐洲財政支出與國防產業鏈。",
+      "headline": "海灣國家傳欲與伊朗達成安全協議",
+      "summary": "沙特、阿曼等海灣國家正與伊朗直接談判，顯示美國地區影響力下降。",
+      "content": "據《每日電訊報》報導，隨著美國信譽下降，沙特阿拉伯、阿曼及卡塔爾等海灣國家正主動與伊朗開展外交接觸，試圖繞過美伊談判框架，自行達成地區安全協議，地緣政治格局面臨重組風險。",
       "tags": [
-        "Ukraine",
-        "EU",
-        "Geopolitics"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 14:36",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 3,
-      "headline": "美國鋁業斥56億美元收購South32資產",
-      "summary": "美國鋁業透過收購South32資產，鞏固全球鋁生產龍頭地位，押注鋁產業長期成長。",
-      "content": "美國鋁業公司（Alcoa）同意以56億美元收購South32的鋁土礦、氧化鋁及鋁資產。此交易透過現金與股票支付，並承擔債務。此舉顯示產業巨頭對鋁金屬長期需求持樂觀態度，並透過垂直整合強化供應鏈控制力。",
-      "tags": [
-        "Alcoa",
-        "South32",
-        "Commodity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 13:54",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 3,
-      "headline": "國巨調漲全系列電容產品價格",
-      "summary": "被動元件大廠國巨調漲全系列產品價格，並首次納入直接客戶，反映產業定價權回升。",
-      "content": "被動元件龍頭國巨通知客戶調漲全系列電容產品價格，涵蓋MLCC、鉭電等，且漲價對象擴大至EMS/OEM直接客戶，顯示被動元件產業供需改善，具備漲價轉嫁能力。",
-      "tags": [
-        "Yageo",
-        "MLCC"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 13:17",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 4,
-      "headline": "SK海力士長約價格不設上限",
-      "summary": "SK海力士採取不設價格上限的長約架構，顯示AI晶片供需持續緊張。",
-      "content": "SK海力士與客戶簽署的長期供應合約（LTA）打破行業慣例，不設價格上限，反映AI晶片市場需求極度強勁，有利於半導體產業鏈獲利預期，但亦加劇通膨成本壓力。",
-      "tags": [
-        "SKHynix",
-        "Semiconductor",
-        "AI"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 12:35",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "中國央行單日淨回籠逾1.1萬億元",
-      "summary": "中國央行公開市場操作大幅淨回籠，導致隔夜回購利率走高，市場流動性趨緊。",
-      "content": "中國央行今日公開市場操作淨回籠11625億元人民幣，資金面收緊訊號明顯，隔夜回購利率隨之走高，需關注後續對債市與股市資金面的邊際影響。",
-      "tags": [
-        "PBOC",
-        "Liquidity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 12:30",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 5,
-      "headline": "關注歐美央行行長Sintra論壇談話",
-      "summary": "Fed主席、ECB行長與BOE行長將於Sintra論壇發表談話，市場聚焦貨幣政策路徑。",
-      "content": "今日晚間Fed主席、ECB行長拉加德、BOE行長貝利將出席歐洲央行論壇，其對通膨與利率路徑的最新表態，將直接影響全球債市與匯市波動，建議密切關注。",
-      "tags": [
-        "Fed",
-        "ECB",
-        "BOE",
-        "InterestRate"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 12:03",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "ECB管委：不應倉促加息",
-      "summary": "ECB管委Demarco表示，油價下跌後不應急於加息，需觀察薪資壓力與通膨預期。",
-      "content": "ECB管委Demarco指出，目前尚未觀察到薪資壓力過大或通膨預期脫錨，建議等待下一輪經濟預測再決定是否進一步收緊政策，暗示貨幣政策將保持謹慎。",
-      "tags": [
-        "ECB"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 12:01",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 5,
-      "headline": "美軍擬駐黎巴嫩監督停火",
-      "summary": "美媒報導美國計劃在黎以駐軍以監督停火協議，地緣政治風險升溫。",
-      "content": "據《華盛頓郵報》報導，美國計劃在黎巴嫩與以色列駐紮地面部隊，旨在監督三方框架協議的執行，此舉顯示美國正加大對中東局勢的直接介入程度。",
-      "tags": [
-        "Geopolitics"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 11:49",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 3,
-      "headline": "美國Q1 PC出貨量下滑7%",
-      "summary": "受成本壓力與需求回落影響，美國Q1 PC出貨量創2023年以來最大跌幅。",
-      "content": "Omdia數據顯示，美國PC市場受記憶體價格上漲及Windows 11升級週期結束影響，需求明顯回落，反映出科技硬體消費端的疲軟趨勢。",
-      "tags": [
-        "PC",
-        "Economy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 11:18",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "習近平：加快建設世界一流軍隊",
-      "summary": "中國強調強軍目標，並重申統一台灣與港澳發展方針。",
-      "content": "在慶祝建黨105週年大會上，習近平強調強國必須強軍，並重申解決台灣問題是歷史任務，同時支持港澳融入國家發展大局，政策導向持續聚焦國防與區域整合。",
-      "tags": [
-        "China",
-        "Geopolitics"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 10:24",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "美擬禁進口中國逆變器",
-      "summary": "美國政府擬以國安為由，禁止進口中國製逆變器，貿易摩擦風險上升。",
-      "content": "路透社報導，特朗普政府正起草禁令，限制進口外國產逆變器，擔憂中國可能藉此干擾電力供應，此舉將對太陽能供應鏈及相關企業造成衝擊。",
-      "tags": [
-        "Trade",
-        "US",
-        "China"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 10:15",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 3,
-      "headline": "以軍在約旦河西岸發起大規模突襲",
-      "summary": "以色列軍隊在約旦河西岸展開大規模行動，地緣政治緊張局勢持續升溫。",
-      "content": "以色列軍隊於6月30日在約旦河西岸多個城鎮進行大規模突襲，搜查房屋並逮捕人員。此類軍事行動加劇了區域地緣政治風險，可能對能源價格及市場避險情緒產生潛在影響。",
-      "tags": [
-        "Israel",
-        "Geopolitics"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 09:45",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 3,
-      "headline": "中國6月RatingDog製造業PMI為51.7",
-      "summary": "中國6月製造業PMI微降至51.7，顯示製造業擴張趨勢維持，但動能略有放緩。",
-      "content": "中國6月RatingDog製造業PMI錄得51.7，略低於前值的51.8。數據顯示中國製造業仍處於擴張區間，但成長動能出現輕微放緩跡象，市場將持續關注後續內需與出口表現。",
-      "tags": [
-        "China",
-        "PMI"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 09:22",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "中國央行公開市場淨回籠11625億元",
-      "summary": "中國央行今日透過逆回購操作淨回籠資金逾1.1兆元，顯示流動性管理趨向謹慎。",
-      "content": "中國央行今日進行1000億元7天期逆回購操作，利率維持1.4%。由於今日有6625億元7天期及6000億元隔夜逆回購到期，合計淨回籠資金11625億元，市場流動性調節力度加大。",
-      "tags": [
-        "PBOC",
-        "Liquidity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 09:16",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 3,
-      "headline": "人民幣中間價創2023年2月以來新高",
-      "summary": "人民幣兌美元中間價上調至6.8067，創下2023年2月以來新高，反映匯率政策導向。",
-      "content": "人民幣兌美元中間價報6.8067，較上一交易日上調42點，創下2023年2月10日以來新高。此舉顯示官方對人民幣匯率的態度，市場將觀察後續對出口競爭力與資本流動的影響。",
-      "tags": [
-        "CNY",
-        "USD",
-        "FX"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 08:30",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "中信證券：央行隔夜逆回購釋放寬鬆訊號",
-      "summary": "央行啟用隔夜逆回購工具，旨在精準調節流動性，維持市場寬鬆預期。",
-      "content": "中信證券指出，央行首次開展隔夜逆回購操作，意在半年末關鍵時點維護流動性穩定。此舉旨在彌合期限錯配，雖定位為短期管理工具，但明確釋放了寬鬆貨幣政策訊號，有助於穩定市場對資金面的預期。",
-      "tags": [
-        "PBOC",
-        "Liquidity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 08:00",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "韓國6月出口數據強勁，年增70.9%",
-      "summary": "韓國6月出口與進口數據均大幅優於預期，顯示全球貿易需求回溫。",
-      "content": "韓國6月出口同比增長70.9%，遠超預期的60.7%；進口同比增長30.1%，亦高於預期的24.5%。強勁的貿易數據反映全球製造業需求復甦，對區域經濟前景具正面指引意義。",
-      "tags": [
-        "Korea",
-        "Export"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 07:50",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "日本二季度短觀報告優於預期",
-      "summary": "日本大型製造業景氣判斷指數升至22，優於預期，顯示企業信心回升。",
-      "content": "日本二季度短觀大型製造業景氣判斷指數為22，高於預期的16；非製造業景氣判斷指數為37，亦優於預期的36。數據顯示日本企業對經濟前景信心增強，可能影響BOJ後續貨幣政策評估。",
-      "tags": [
-        "BOJ",
-        "Japan",
-        "Tankan"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 07:42",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 3,
-      "headline": "美國解除Anthropic AI模型出口管制",
-      "summary": "美國商務部批准Anthropic的Fable 5模型，緩解科技出口管制壓力。",
-      "content": "美國商務部長盧特尼克證實，經過兩週分析，美國政府已批准Anthropic的Fable 5模型並解除相關出口管制。此舉對AI產業鏈及相關科技股的監管環境具有指標性意義。",
-      "tags": [
-        "Anthropic",
-        "AI",
-        "Tech"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 07:38",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 5,
-      "headline": "特朗普聽取伊朗戰爭方案，傾向外交談判",
-      "summary": "特朗普聽取對伊朗軍事方案簡報，但目前選擇優先進行外交談判。",
-      "content": "據華爾街日報報導，特朗普已聽取對伊朗的戰爭方案簡報，但目前決定堅持外交途徑。特朗普對助手表示，若談判期限延至8月18日後亦可接受，地緣政治風險暫時維持在可控範圍內。",
-      "tags": [
+        "Geopolitics",
         "Iran",
-        "Geopolitics",
-        "Trump"
+        "SaudiArabia"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 07:27",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 3,
-      "headline": "美國PJM電網通過數據中心供電計畫",
-      "summary": "美國最大電網PJM通過新計畫以滿足數據中心激增的電力需求，緩解AI基礎設施瓶頸。",
-      "content": "PJM互聯公司成員投票通過一項旨在獲取更多電力的計畫，以應對數據中心電力需求激增。此舉反映AI算力擴張帶來的能源基礎設施壓力，對公用事業及數據中心相關產業鏈具長期影響。",
-      "tags": [
-        "Energy",
-        "DataCenter"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 06:30",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 5,
-      "headline": "全球央行年會登場，關注Fed與ECB談話",
-      "summary": "今日多位央行總裁將於歐洲央行論壇發表談話，市場聚焦貨幣政策指引。",
-      "content": "今日重點關注歐洲央行論壇，Fed主席沃什、ECB總裁拉加德、BOE總裁貝利及加拿大央行總裁Macklem將發表談話。市場將從中尋找全球主要央行對抗通膨與未來利率路徑的最新政策訊號。",
-      "tags": [
-        "Fed",
-        "ECB",
-        "BOE"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 06:30",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "美商務部擬解除Anthropic出口限制",
-      "summary": "美國擬解除對Anthropic AI模型Fable的出口管制，有利於AI技術的全球商業化進程。",
-      "content": "據白宮官員透露，美國商務部預計將解除對Anthropic公司Fable AI模型的出口管制。此舉標誌著美國在AI技術監管與全球競爭力之間尋求平衡，對相關科技股及AI供應鏈具有正面意義。",
-      "tags": [
-        "AI",
-        "Anthropic"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 06:04",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 5,
-      "headline": "交易員押注Fed 7月加息，機率升至36%",
-      "summary": "利率期貨市場顯示交易員開始押注Fed 7月加息，反映市場對通膨與政策路徑的擔憂升溫。",
-      "content": "聯邦基金利率期貨市場交易員加大空頭頭寸，押注Fed最早可能於7月重啟加息。目前利率互換定價反映約9個基點的加息幅度，即加息25個基點的機率約為36%，顯示市場對新任主席沃什的政策立場轉向鷹派感到不安。",
-      "tags": [
-        "Fed",
-        "InterestRate"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 05:59",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 3,
-      "headline": "美特使與卡達討論黎巴嫩停火",
-      "summary": "美國特使與卡達官員就黎巴嫩停火及地區局勢進行會談，地緣政治風險仍受關注。",
-      "content": "美國特使威特科夫與庫什納在多哈與卡達首相會談，討論地區局勢與黎巴嫩停火問題。儘管霍爾木茲海峽通行規模有所改善，但中東地緣政治不確定性仍是影響能源價格與市場情緒的關鍵因素。",
-      "tags": [
-        "Geopolitics",
-        "MiddleEast"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 04:50",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 4,
-      "headline": "AI晶片熱潮推動美光、Intel、AMD市值飆升",
-      "summary": "AI投資熱潮擴散至Nvidia以外的晶片股，美光、Intel與AMD第二季市值合計大增2兆美元。",
-      "content": "投資者將AI投資組合擴展至Nvidia以外的企業，帶動晶片股第二季創下歷史性漲幅。美光、Intel與AMD市值分別增加9200億、4800億與6150億美元，躋身美國市值前12大科技巨頭。",
-      "tags": [
-        "AI",
-        "Semiconductor",
-        "MU",
-        "INTC",
-        "AMD"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 04:42",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 3,
-      "headline": "川普財務披露：重倉Nvidia與Apple",
-      "summary": "美國總統川普年度財務披露顯示，其持有大量Nvidia與Apple股票，並在2025年曾大幅減持Nvidia。",
-      "content": "川普年度財務報告顯示，其持有至少500萬美元的Apple與Nvidia股票，並持有Palantir股份。此外，報告披露其加密貨幣相關收益超過12億美元，且於2025年10月拋售至少2.5億美元的Nvidia持股。",
-      "tags": [
-        "Trump",
-        "Nvidia",
-        "Apple"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 04:35",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 3,
-      "headline": "美國API原油庫存銳減逾600萬桶",
-      "summary": "美國石油協會（API）數據顯示上週原油庫存大幅下降，顯示需求強勁或供應收緊。",
-      "content": "API數據顯示，美國上週原油庫存減少607.2萬桶，汽油庫存減少210.6萬桶，而餾分油庫存增加292.2萬桶。庫存銳減可能對油價提供支撐。",
-      "tags": [
-        "Oil",
-        "API",
-        "Energy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 04:31",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 4,
-      "headline": "新興市場股市創17年來最佳單季表現",
-      "summary": "受亞洲AI科技股帶動，MSCI新興市場指數第二季大漲23%，創2009年以來最佳單季漲幅。",
-      "content": "儘管面臨地緣政治與油價波動，新興市場股市在AI熱潮支撐下表現強勁，第二季累計上漲23%，為2009年第二季以來最大單季漲幅，顯示資金對新興市場科技板塊的青睞。",
-      "tags": [
-        "EmergingMarkets",
-        "MSCI",
-        "AI"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 04:13",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 3,
-      "headline": "大空頭Burry最新持倉：做空Nvidia與Tesla",
-      "summary": "知名投資者Michael Burry披露最新持倉，新增做空Nvidia、Tesla與應用材料，並首次做空卡特彼勒。",
-      "content": "Michael Burry在最新持倉中採取看空立場，針對Nvidia、Tesla、應用材料及卡特彼勒進行做空操作，顯示其對科技股估值及工業週期前景持謹慎態度。",
-      "tags": [
-        "Burry",
-        "Nvidia",
-        "TSLA"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 03:53",
+      "datetime": "2026-07-02 03:42",
       "category": "bond",
       "category_name": "債市",
-      "importance": 4,
-      "headline": "美債殖利率曲線趨平，短端利率壓力顯著",
-      "summary": "6月美債短端殖利率顯著上行，反映市場對利率維持高檔的預期，殖利率曲線趨平。",
-      "content": "6月份兩年期美債實際收益率漲超77個基點，顯示市場對Fed維持高利率的定價壓力。10年期TIPS收益率亦顯著走高，反映通膨預期與實質利率的雙重調整，債市波動加劇。",
+      "importance": 3,
+      "headline": "美債殖利率走高，2/10年期利差擴大",
+      "summary": "美債殖利率曲線走陡，市場對通膨與利率路徑保持高度敏感。",
+      "content": "美國10年期國債殖利率漲至4.475%，30年期殖利率同步上行，2/10年期利差擴大至約30.5個基點。市場在通膨預期與Fed政策不確定性下，長債拋壓顯現，殖利率曲線呈現走陡趨勢。",
       "tags": [
         "UST",
-        "Fed",
         "YieldCurve"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 03:47",
-      "category": "economy",
-      "category_name": "經濟",
+      "datetime": "2026-07-02 02:31",
+      "category": "commodity",
+      "category_name": "商品",
       "importance": 3,
-      "headline": "美最大電網進入緊急狀態，能源供應受壓",
-      "summary": "全美最大電網PJM因極端高溫進入緊急狀態，能源部授權啟用備用發電，恐影響短期能源成本。",
-      "content": "特朗普政府宣布PJM電網進入電力緊急狀態，授權電廠以最大負荷運行並放寬環保要求。此舉旨在應對極端熱浪，可能對短期能源價格及相關公用事業成本造成波動。",
+      "headline": "布蘭特原油期貨收跌1.89%",
+      "summary": "油價受地緣政治與市場需求預期影響走弱，布蘭特跌破72美元。",
+      "content": "儘管中東局勢持續緊張，但布蘭特原油期貨仍收跌1.89%至71.57美元/桶，WTI原油收報68.58美元/桶。市場對全球能源需求前景的擔憂抵銷了地緣政治帶來的風險溢價。",
       "tags": [
-        "Energy",
-        "USA"
+        "Oil",
+        "Energy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 03:41",
+      "datetime": "2026-07-02 01:55",
       "category": "central_bank",
       "category_name": "央行",
       "importance": 5,
-      "headline": "日圓匯率跌破162，創1986年以來新低",
-      "summary": "美元兌日圓突破162關口，市場高度關注BOJ是否會採取干預措施或調整貨幣政策。",
-      "content": "美元兌日圓持續走強，突破162關口，創下1986年以來新低。日圓疲軟反映美日利差持續擴大，市場正密切關注BOJ是否會進行匯率干預或釋出鷹派訊號以支撐匯價。",
+      "headline": "堡證券：市場低估Fed 7月升息風險",
+      "summary": "堡證券指出市場低估Fed 7月升息機率，並警告就業報告可能帶來超預期通膨壓力。",
+      "content": "堡證券宏觀策略主管表示，投資者低估了Fed最早於本月升息的可能性。主席凱文·沃什傾向採取更具先發制人的抗通膨策略，市場目前對7月升息約30%的定價過低，需警惕後續就業數據引發的鷹派重新定價。",
       "tags": [
-        "BOJ",
-        "JPY",
-        "FX"
+        "Fed",
+        "InterestRate"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 03:13",
+      "datetime": "2026-07-02 01:43",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "伊朗指控美國違反諒解備忘錄",
+      "summary": "伊朗稱美國違反黎巴嫩戰事承諾，將建立機制審查美方違規行為。",
+      "content": "伊朗外交部副部長表示，美方在黎巴嫩戰事承諾及地區軍事部署上存在違規行為，伊朗將建立監督機制進行審查。此舉加劇了中東地區緊張局勢，並對美伊脆弱的諒解備忘錄構成挑戰。",
+      "tags": [
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-02 01:38",
       "category": "central_bank",
       "category_name": "央行",
       "importance": 4,
-      "headline": "ECB官員：加息緊迫性顯著下降",
-      "summary": "ECB官員暗示7月可能按兵不動，貨幣政策轉向觀望，市場需重新評估歐元區利率路徑。",
-      "content": "歐洲央行管委Kazaks表示，繼續加息的緊迫性已顯著下降，無需採取強硬手段。市場解讀此為ECB政策轉向鴿派的訊號，對7月及9月會議的加息預期有所降溫。",
+      "headline": "ECB管委：7月不預期有政策調整",
+      "summary": "ECB管委Stournaras暗示7月按兵不動，並強調需關注地緣政治對通膨的間接影響。",
+      "content": "ECB管委Stournaras表示，不認為7月會發生貨幣政策調整，維持現狀較為適宜。同時強調，必須密切監控美國與以色列對伊朗戰爭所帶來的價格間接影響，顯示地緣政治風險仍是央行決策關鍵。",
       "tags": [
         "ECB",
+        "Inflation"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-02 01:13",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "Fed主席沃什：將推動即時經濟數據決策",
+      "summary": "Fed主席沃什計畫在一年內導入即時數據系統，以取代傳統政府報告，提升決策精準度。",
+      "content": "Fed主席沃什表示，現行政府經濟數據存在統計偏差且滯後，計畫在9至12個月內導入即時數據技術，以更精確掌握實體經濟動態，作為未來貨幣政策決策的依據，這可能改變市場對Fed政策反應函數的預期。",
+      "tags": [
+        "Fed",
+        "Economy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-02 00:53",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
+      "importance": 5,
+      "headline": "美國政府：不同意現行USMCA續簽",
+      "summary": "美方表態不接受現行USMCA，傾向推動個別貿易協議，增加北美貿易政策不確定性。",
+      "content": "美國高級官員表示，現行USMCA未能達成減少貿易逆差與市場准入目標，美方不同意按現狀續簽。政府正考慮與加拿大、墨西哥分別達成個別貿易協議，並將持續調整關稅政策，此舉將對北美供應鏈與相關企業帶來顯著不確定性。",
+      "tags": [
+        "USMCA",
+        "Trade",
+        "Fiscal Policy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-02 00:43",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 3,
+      "headline": "沃什暗示Fed縮表進程將極為緩慢",
+      "summary": "Fed主席沃什重申縮表偏好，但強調需經廣泛準備，市場對其實質縮表能力持懷疑態度。",
+      "content": "Fed主席沃什重申縮減資產負債表的意願，但強調這將是漫長且需經過公開準備的過程。華爾街策略師普遍懷疑Fed能否實質縮表，認為金融體系結構已高度依賴大規模準備金，縮表路徑恐受限。",
+      "tags": [
+        "Fed",
+        "Balance Sheet"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-02 00:38",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "美銀：機構客戶連續四周拋售科技股",
+      "summary": "機構投資者持續減持科技股，科技板塊資金流入降至歷史低點，顯示市場風險偏好轉弱。",
+      "content": "美銀數據顯示，機構客戶已連續四周成為美股主要淨賣方，科技與金融板塊首當其衝。科技板塊的四周平均淨資金流入已降至歷史最低，顯示大型機構對科技股的配置意願顯著下降，市場情緒趨於謹慎。",
+      "tags": [
+        "Equity",
+        "Tech",
+        "BofA"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-02 00:27",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "霍尔木兹海峡航运恢复，伊朗石油筹码削弱",
+      "summary": "美军支持下霍尔木兹海峡日输油量重返千万桶，伊朗地缘政治筹码受限，关注后续油价波动。",
+      "content": "过去几周经霍尔木兹海峡的商业航运激增，在美国军方支持下，石油日流量已突破1000万桶。美国正施压伊朗遵守海事条款，伊朗石油出口筹码被削弱。尽管伊朗寻求扩大出口，但地缘政治紧张局势仍是能源市场的关键变量。",
+      "tags": [
+        "Oil",
+        "Geopolitics",
+        "Iran"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-02 00:22",
+      "category": "bond",
+      "category_name": "債市",
+      "importance": 3,
+      "headline": "PIMCO：私募信贷市场存在信任差距",
+      "summary": "PIMCO指出私募信贷估值差异引发信任危机，市场正重新评估贷款质量与管理机构风险。",
+      "content": "PIMCO策略师指出，私募信贷投资者对估值差异日益敏感，导致资产管理机构间出现“信任差距”。市场不再一概给予折价，而是更关注管理机构的贷款质量与估值透明度，这对信贷市场的流动性与风险定价具有重要参考意义。",
+      "tags": [
+        "PIMCO",
+        "Credit"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 23:31",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
+      "importance": 4,
+      "headline": "美国决定不续签USMCA，改为年度审查",
+      "summary": "美国贸易代表宣布不续签USMCA，转为年度审查机制，恐增加北美供应链与企业营运的不确定性。",
+      "content": "美国贸易代表杰米森·格里尔表示，美国决定不续签与加拿大和墨西哥的贸易协定（USMCA），而是选择进行年度审查。此举打破了长期贸易框架的稳定性，可能给在北美生产的跨国企业带来政策不确定性，影响市场风险偏好。",
+      "tags": [
+        "USMCA",
+        "Trade"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 23:15",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "Fed主席Warsh任命前BOE行长金领导沟通改革",
+      "summary": "Fed主席Warsh启动沟通机制改革，任命前BOE行长Mervyn King领导工作组，旨在重塑货币政策信号传递。",
+      "content": "Fed主席Warsh正对美联储沟通方式进行彻底改革，任命英国央行前行长Mervyn King共同领导新成立的沟通工作组。该工作组将涵盖沟通、资产负债表及通胀框架，旨在重新思考Fed官员如何向市场传递货币政策前景，对未来利率预期管理具有深远影响。",
+      "tags": [
+        "Fed",
+        "BOE"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 23:04",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 3,
+      "headline": "俄外交部：日本部署美导弹破坏亚太稳定",
+      "summary": "俄罗斯警告日本部署美国中短程导弹将破坏亚太地区安全，地缘政治风险升温。",
+      "content": "俄罗斯外交部发言人扎哈罗娃表示，日本部署美国中程和短程导弹系统，严重破坏亚太地区稳定与安全。此举可能加剧区域地缘政治紧张，对相关区域的国防支出与地缘风险溢价产生潜在影响。",
+      "tags": [
+        "Japan",
+        "Russia",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 22:40",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "ECB管委Kaasik：再加息一次合理",
+      "summary": "ECB管委Kaasik暗示通膨風險仍存，認為再加息一次是合理預期，關注秋季薪資數據。",
+      "content": "ECB管委Kaasik表示，考慮到地緣政治衝突（美以對伊朗）可能帶來的長期影響，再加息一次是合理的政策路徑。市場將密切關注秋季薪資談判結果，以評估通膨壓力是否持續。",
+      "tags": [
+        "ECB",
+        "Inflation"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 22:30",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 4,
+      "headline": "EIA原油庫存降幅不及預期",
+      "summary": "美國EIA原油庫存下降377.5萬桶，低於市場預期，西海岸庫存創歷史新低。",
+      "content": "美國能源信息署（EIA）數據顯示，上周原油庫存下降377.5萬桶，不及市場預期的510萬桶。值得注意的是，西海岸石油庫存創歷史新低，戰略石油儲備（SPR）亦降至1983年以來最低水平，顯示供應端持續緊繃。",
+      "tags": [
+        "EIA",
+        "Oil",
+        "Commodity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 22:19",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 5,
+      "headline": "全球央行行長論壇要點總結",
+      "summary": "Fed主席Warsh稱通膨風險緩解，英央行貝利排除近期降息可能，全球央行政策分歧顯現。",
+      "content": "Fed主席Warsh指出通膨風險下降，勞動力市場平穩；ECB行長拉加德認為通膨與增長風險趨於平衡；英央行貝利強調經濟疲軟但排除近期降息；加拿大央行行長Macklem則認為當前利率水平舒適。各國央行對未來路徑表態謹慎。",
+      "tags": [
+        "Fed",
+        "ECB",
+        "BOE",
+        "BOC"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 22:17",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 3,
+      "headline": "王毅與美國務卿魯比奧通話",
+      "summary": "中美高層通話，重申落實兩國元首關於構建建設性戰略穩定關係的共識。",
+      "content": "中共中央政治局委員、外交部長王毅與美國務卿魯比奧通話，強調雙方應排除干擾，落實習近平與特朗普達成的建設性戰略穩定關係共識，為中美關係發展指明方向。",
+      "tags": [
+        "Geopolitics",
+        "US-China"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 22:08",
+      "category": "bond",
+      "category_name": "債市",
+      "importance": 4,
+      "headline": "市場下調英央行加息押注",
+      "summary": "受Fed官員談話及美國ISM數據影響，市場對英央行加息預期降至3月中旬以來最低。",
+      "content": "受Fed主席Warsh關於通膨風險緩解的評論，以及美國ISM服務業指數低於預期影響，貨幣市場對英央行今年累計加息預期降至20個基點以下，反映市場對全球緊縮政策預期的重新評估。",
+      "tags": [
+        "BOE",
+        "InterestRate"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 22:01",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 4,
+      "headline": "美國6月ISM製造業指數擴張，成本壓力緩解",
+      "summary": "美國6月ISM製造業指數為53.3，原材料支付價格指數大幅下滑，顯示通膨壓力有所緩解。",
+      "content": "美國6月ISM製造業指數報53.3，雖維持擴張但低於預期。關鍵在於原材料支付價格指數大幅下降9.1點至73，創2022年7月以來最大單月降幅，主要受美伊達成臨時協議導致油價下跌影響，有利於緩解製造業成本壓力。",
+      "tags": [
+        "ISM",
+        "Manufacturing",
+        "Inflation"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 21:57",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 3,
+      "headline": "英國央行行長貝利：擬剝離資產負債表利率風險",
+      "summary": "英國央行行長貝利表示，希望將利率風險從資產負債表中剝離，資產負債表應反映準備金需求。",
+      "content": "英國央行行長貝利強調，資產負債表應回歸反映銀行體系對準備金的實際需求，並計畫將利率風險從資產負債表中剝離，此舉可能影響未來英國央行的量化緊縮（QT）節奏與市場流動性管理。",
+      "tags": [
+        "BOE",
+        "Bailey",
+        "BalanceSheet"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 21:45",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 5,
+      "headline": "Fed主席沃什：通膨風險下降，生產力前景樂觀",
+      "summary": "Fed主席沃什表示過去四周通膨風險下降，對生產力感到樂觀，並重申縮減資產負債表的意願。",
+      "content": "Fed主席沃什指出，美國經濟供給側強勁，潛在成長率呈上升趨勢，過去四周通膨風險有所下降。他重申縮減資產負債表規模的意願，並強調政策制定將經過充分審議，不排除捨棄過時模型以制定正確政策。",
+      "tags": [
+        "Fed",
+        "Warsh",
+        "Inflation"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 21:44",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "美伊達成臨時協議，油價下跌壓力增加",
+      "summary": "白宮證實美伊達成臨時協議，市場預期伊朗原油供給增加，導致油價下跌並緩解美國製造業成本。",
+      "content": "美國白宮發言人表示已為伊朗無核化鋪平道路，雙方極有可能達成協議。此地緣政治進展導致油價顯著下跌，進而降低美國製造業的原材料支付成本，對通膨預期產生正面影響。",
+      "tags": [
+        "Iran",
+        "Oil",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 21:43",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "貴金屬價格飆升，黃金突破4080美元",
+      "summary": "受地緣政治與宏觀環境影響，現貨黃金突破4080美元，白銀漲幅超2%，避險情緒升溫。",
+      "content": "現貨黃金價格突破4080美元/盎司，日內漲幅達1.88%；現貨白銀漲幅超過2%，報60.04美元/盎司。貴金屬強勢上漲反映市場對地緣政治風險的擔憂以及對未來貨幣政策轉向的預期。",
+      "tags": [
+        "Gold",
+        "Silver",
+        "Commodity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 21:29",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 4,
+      "headline": "Fed主席沃什：不惧生产力驱动的经济增长",
+      "summary": "Fed主席沃什强调AI带来的生产力提升，并重申需兼顾就业与物价稳定，未提供利率指引。",
+      "content": "Fed主席沃什指出AI模型改进呈指数级，对就业影响仍有不确定性。他强调央行必须在就业与物价稳定间取得平衡，并表示AI是否具通胀效应应由央行决定，供给扩张将对政策产生重大影响。",
+      "tags": [
+        "Fed",
+        "AI",
+        "Inflation"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 21:13",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "英国央行行长贝利：降息不在考虑范围内",
+      "summary": "贝利表示尽管通胀威胁减轻，但经济疲软下仍不考虑降息，能源价格传导存在滞后。",
+      "content": "英国央行行长贝利明确表示，尽管能源价格回落，但降息目前不在考虑范围内。他指出英国经济正在放缓，劳动力市场疲软，且居民能源价格上限机制导致能源价格传导存在滞后，央行需保持谨慎。",
+      "tags": [
+        "BOE",
+        "Inflation",
+        "UK"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 21:00",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 5,
+      "headline": "美国6月ADP就业人数仅增9.8万，远低预期",
+      "summary": "美国6月ADP新增就业人数降至9.8万，显示劳动力市场降温，市场关注后续非农数据。",
+      "content": "美国6月ADP新增就业人数仅9.8万，远低于市场预期，显示美国劳动力市场出现明显降温迹象。此数据可能影响Fed对经济韧性的评估，并引发市场对经济放缓的担忧。",
+      "tags": [
+        "ADP",
+        "Labor Market",
+        "US"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 21:00",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 4,
+      "headline": "欧元区6月CPI降至2.8%，欧央行加息压力减",
+      "summary": "欧元区6月CPI降至2.8%，加息迫切性骤减，欧央行步入看数据中立期。",
+      "content": "欧元区6月CPI数据降至2.8%，通胀压力缓解使得欧央行进一步加息的迫切性大幅下降。市场预期欧央行将进入依赖数据决策的中立期，货币政策转向空间扩大。",
+      "tags": [
+        "ECB",
+        "CPI",
         "Eurozone"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-01 03:12",
+      "datetime": "2026-07-01 20:37",
       "category": "war",
       "category_name": "戰爭",
       "importance": 3,
-      "headline": "伊朗稱石油制裁已解除，出口量回升",
-      "summary": "伊朗宣稱石油出口恢復，且資金解凍進展順利，地緣政治風險與能源供給格局出現變化。",
-      "content": "伊朗議長表示美國解除制裁後，石油出口已超4000萬桶，並以溢價銷售。此舉可能增加全球原油供給，對能源市場價格產生潛在壓抑作用，需關注後續地緣政治影響。",
+      "headline": "阿曼拟对霍尔木兹海峡航运收取服务费",
+      "summary": "阿曼向西方盟友提案，拟对使用霍尔木兹海峡的航运公司收取自愿性服务费。",
+      "content": "据外交官透露，阿曼向美国及西方盟友提交提案，拟对通过霍尔木兹海峡的航运公司收取“自愿性”服务费。此举引发地缘政治关注，可能对全球能源运输成本与航运安全产生潜在影响。",
       "tags": [
-        "Iran",
-        "Oil",
-        "Geopolitics"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 02:31",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 4,
-      "headline": "油價單月跌幅顯著，能源市場承壓",
-      "summary": "WTI與布蘭特原油6月跌幅均超過18%，反映市場對需求疲軟與供給增加的擔憂。",
-      "content": "原油期貨價格持續走低，6月份累計跌幅顯著。市場擔憂全球經濟放緩導致需求疲軟，加上伊朗出口恢復的預期，導致能源價格面臨沉重拋壓，對通膨預期有降溫作用。",
-      "tags": [
-        "Oil",
-        "Commodity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 02:03",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 4,
-      "headline": "機構看好Nvidia數據中心業務前景",
-      "summary": "研究機構預測Nvidia數據中心收入將超預期，主要受惠於供應鏈改善與新平台放量。",
-      "content": "SemiAnalysis預計Nvidia在2027財年下半年的數據中心計算收入將高於市場預期約20%。隨著供應瓶頸緩解及Vera Rubin平台加速量產，Nvidia在AI硬體領域的領先地位持續鞏固。",
-      "tags": [
-        "Nvidia",
-        "AI",
-        "Equity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 01:16",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 3,
-      "headline": "Fed隔夜逆回購使用規模顯著回升",
-      "summary": "Fed RRP使用規模由35億美元大幅回升至269億美元，顯示市場流動性配置變化。",
-      "content": "美聯儲隔夜逆回購協議（RRP）使用規模從前一日的35.46億美元跳升至269億美元，反映金融體系內現金流動性與貨幣市場工具的供需調整。",
-      "tags": [
-        "Fed",
-        "RRP",
-        "Liquidity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 00:24",
-      "category": "bond",
-      "category_name": "債市",
-      "importance": 3,
-      "headline": "歐債二季度收益率走勢分化",
-      "summary": "英德債券收益率Q2呈現震盪，市場持續消化央行政策路徑與地緣政治風險。",
-      "content": "英國10年期國債收益率Q2累跌15.9個基點，德國10年期國債收益率累跌12.6個基點。儘管近期收益率小幅反彈，但整體反映市場對歐洲央行與英國央行政策利率的重新定價。",
-      "tags": [
-        "ECB",
-        "BoE",
-        "Yield Curve"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 00:21",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 4,
-      "headline": "新興市場股市創2009年以來最佳季度表現",
-      "summary": "受AI股強勁帶動，新興市場股市Q2表現亮眼，但美元走強與Fed升息預期仍構成潛在逆風。",
-      "content": "MSCI新興市場指數Q2攀升逾23%，創2009年以來最大季度漲幅。儘管AI相關科技股表現強勁，但美元走強及Fed升息預期升溫，可能對發展中國家貨幣與市場流動性造成後續壓力。",
-      "tags": [
-        "MSCI",
-        "AI",
-        "Fed"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-01 00:15",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 4,
-      "headline": "三星與SK海力士擴產，晶片設備股走強",
-      "summary": "韓廠宣布800兆韓元投資計畫，帶動全球半導體設備股強勢反彈。",
-      "content": "三星與SK海力士宣布在韓建設四座晶片廠，總投資達800兆韓元。此舉激勵ASML、Applied Materials、Lam Research及KLA等設備大廠股價連續兩日顯著上漲，領漲費城半導體指數。",
-      "tags": [
-        "Samsung",
-        "SK Hynix",
-        "ASML",
-        "Semiconductor"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 23:59",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 4,
-      "headline": "美國4月原油產量創歷史新高",
-      "summary": "受伊朗戰爭推升油價影響，美國產油商加大開採力度，產量達每日1393萬桶。",
-      "content": "EIA數據顯示，美國4月原油產量攀升至1393萬桶/日，創歷史新高。主要產區如二疊紀盆地（Permian Basin）產量持續擴張，反映能源供應商對高油價環境的供給反應。",
-      "tags": [
-        "EIA",
-        "Crude Oil",
-        "Energy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 23:38",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 3,
-      "headline": "散戶抄底美股創紀錄，提供市場結構性支撐",
-      "summary": "散戶逢低買入美股力道強勁，已演變為市場結構性特徵，為美股提供持續需求。",
-      "content": "城堡證券數據顯示，2026年上半年散戶逢低買入美股力道創下2020年以來新高，超越2021年迷因股熱潮。散戶參與已從週期性現象轉變為現代市場的結構性特徵，成為美股持續的需求來源。",
-      "tags": [
-        "Equity",
-        "RetailInvestor"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 23:31",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "伊朗威脅關閉霍爾木茲海峽",
-      "summary": "伊朗革命衛隊威脅若無法獲得控制權保證，將再次關閉霍爾木茲海峽，地緣政治風險升溫。",
-      "content": "伊朗革命衛隊告知調解方，若在多哈會談中無法獲得對霍爾木茲海峽的唯一控制權保證，將再次關閉該航道，並要求各國放棄經由海峽南部水域航行的計畫，恐衝擊能源供應與航運安全。",
-      "tags": [
-        "Iran",
         "Geopolitics",
-        "Energy"
+        "Energy",
+        "Oman"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 23:23",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 3,
-      "headline": "英國央行警告AI智能體恐引發市場崩盤",
-      "summary": "英國央行副行長警告自主型AI智能體可能放大市場波動，需加強監管。",
-      "content": "英國央行副行長Sarah Breeden警告，自主型AI智能體在金融市場承壓時可能因反應一致而放大波動，甚至引發市場崩盤，呼籲需對此類技術進行更嚴格的監管。",
-      "tags": [
-        "BOE",
-        "AI",
-        "Regulation"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 23:17",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "ECB官員：能源衝擊正產生滯脹效應",
-      "summary": "ECB管委Rehn指出中東衝突引發能源衝擊，正對經濟產生類似滯脹的影響。",
-      "content": "歐洲央行管委Olli Rehn表示，中東衝突推高通膨並拖累經濟成長，產生類似滯脹的效應。儘管目前尚未看到嚴重的第二輪效應且通膨預期仍錨定，但市場需密切關注後續數據。",
-      "tags": [
-        "ECB",
-        "Stagflation",
-        "Energy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 23:15",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 3,
-      "headline": "英國央行行長貝利：不急於對利率採取行動",
-      "summary": "貝利表示儘管通膨回落速度慢於預期，但目前走勢符合預期，不急於調整利率。",
-      "content": "英國央行行長貝利指出，油價上漲可能使通膨在今年稍晚升至3.2%，但目前油價水準尚在可控範圍，央行並不急於對利率採取行動。",
-      "tags": [
-        "BOE",
-        "InterestRate"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 22:54",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 5,
-      "headline": "克利夫蘭聯儲主席：通膨過高，需考慮加息",
-      "summary": "Hammack表示通膨依然過高且廣泛蔓延，Fed可能需要考慮加息。",
-      "content": "克利夫蘭聯儲主席Hammack指出，美國通膨依然過高且呈現廣泛蔓延態勢，核心服務通膨居高不下。儘管消費具韌性，但Fed可能需要考慮加息以應對通膨壓力。",
-      "tags": [
-        "Fed",
-        "InterestRate",
-        "Inflation"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 22:45",
-      "category": "fiscal_policy",
-      "category_name": "財政政策",
-      "importance": 3,
-      "headline": "烏克蘭獲歐盟39億歐元國防貸款",
-      "summary": "歐盟撥付39億歐元貸款予烏克蘭，將用於國防需求與無人機生產。",
-      "content": "烏克蘭財政部宣布收到歐盟39億歐元貸款，資金將專用於國防優先需求，包括加強無人機生產及確保前線物資供應，顯示歐洲對烏財政支持持續。",
-      "tags": [
-        "FiscalPolicy",
-        "Ukraine",
-        "EU"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 22:38",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "IMF警告AI領域債務風險",
-      "summary": "IMF官員指出AI產業債務發行可能威脅金融穩定，較股票估值更令人擔憂。",
-      "content": "IMF貨幣與資本市場部主任Tobias Adrian表示，相較於AI股票估值，企業在AI領域的借貸方式與債務槓桿對金融穩定構成更大風險，需密切關注企業融資行為。",
-      "tags": [
-        "IMF",
-        "AI"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 22:33",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "全球央行計畫減持美元儲備",
-      "summary": "調查顯示各國央行三年來首次計畫減少美元敞口，轉向歐元與人民幣多元化配置。",
-      "content": "根據OMFIF報告，全球央行、公共養老金及主權基金正尋求儲備多元化，減少對美元的依賴。發達經濟體偏好歐元，新興市場則傾向人民幣，此趨勢將影響全球外匯市場結構。",
-      "tags": [
-        "Central Bank",
-        "USD",
-        "EUR",
-        "CNY"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 22:29",
+      "datetime": "2026-07-01 20:28",
       "category": "commodity",
       "category_name": "商品",
       "importance": 3,
-      "headline": "美國酷暑恐創用電需求紀錄",
-      "summary": "美國東岸與中西部酷熱天氣，加上數據中心與電動車需求，電網負荷瀕臨極限。",
-      "content": "美國最大電網PJM預計用電需求將達166.3GW，恐打破2006年紀錄。能源消耗激增對電網穩定性構成挑戰，可能進一步推升能源價格波動。",
+      "headline": "MLCC大廠醞釀漲價，AI需求強勁",
+      "summary": "國巨及多家海外MLCC大廠醞釀漲價，AI伺服器用高容MLCC漲幅顯著，反映供應鏈吃緊。",
+      "content": "被動元件大廠國巨通知客戶調漲全系列電容報價，村田、三星電機等大廠亦跟進。受AI伺服器需求帶動，高容MLCC漲幅達15%至35%，部分稀缺型號現貨價翻倍，漲價趨勢預計延續至2027年底。",
       "tags": [
-        "Energy",
-        "US Power Grid"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 22:24",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "英國央行擬監管AI金融風險",
-      "summary": "英國央行考慮引入AI「緊急終止開關」，以防範智能體系統引發市場崩盤。",
-      "content": "英國央行正轉向制定專門的AI監管法規，針對AI模型可能引發的金融體系風險進行控管，標誌著監管態度從被動轉為主動，未來可能影響金融科技發展。",
-      "tags": [
-        "BOE",
+        "MLCC",
         "AI",
-        "Regulation"
+        "SupplyChain"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 22:14",
-      "category": "bond",
-      "category_name": "債市",
+      "datetime": "2026-07-01 20:15",
+      "category": "economy",
+      "category_name": "經濟",
       "importance": 4,
-      "headline": "美國JOLTS數據後美債殖利率走高",
-      "summary": "美國5月JOLTS職位空缺數據高於預期，推升美債殖利率。",
-      "content": "美國5月JOLTS職位空缺數達759.4萬，高於預期的728.8萬。數據顯示勞動力市場仍具韌性，導致市場對Fed降息預期降溫，10年期與2年期美債殖利率同步走高。",
+      "headline": "美國6月ADP就業人數低於預期",
+      "summary": "美國6月ADP就業人數僅增9.8萬人，低於預期的11.9萬人，顯示勞動力市場降溫。",
+      "content": "美國6月ADP就業數據公布為9.8萬人，顯著低於市場預期的11.9萬人，且低於前值的12.2萬人。數據疲軟可能緩解通膨壓力，並影響市場對Fed後續利率政策的定價。",
       "tags": [
-        "UST",
-        "JOLTS",
+        "ADP",
+        "LaborMarket",
         "Fed"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 21:56",
-      "category": "central_bank",
-      "category_name": "央行",
+      "datetime": "2026-07-01 19:49",
+      "category": "equity",
+      "category_name": "股市",
       "importance": 3,
-      "headline": "匯豐：日元干預門檻提高",
-      "summary": "匯豐銀行認為日本當局對日元貶值的容忍度提高，下調日元匯率預測。",
-      "content": "匯豐策略師指出，由於美元基本面強勁，日本財務省干預日元的門檻已提高。儘管仍會防範無序貶值，但對日元疲軟的容忍度上升，建議調整日元匯率預期。",
+      "headline": "花旗：外資流出韓國股市趨勢恐持續",
+      "summary": "花旗指出韓國股市外資流出加速，儘管經常帳改善，但獲利了結壓力仍存。",
+      "content": "花旗集團報告顯示，6月外資從韓國股市撤出305億美元，高於5月的279億美元。儘管韓國經常帳順差前景好轉，但投資組合再平衡與獲利了結需求，使外資流出壓力持續。",
       "tags": [
-        "BOJ",
-        "JPY",
-        "FX"
+        "Korea",
+        "Equity",
+        "CapitalFlow"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 21:45",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "美國6月芝加哥PMI優於預期",
-      "summary": "美國6月芝加哥PMI報56.7，高於預期55.4，顯示製造業活動擴張力道強於市場預估。",
-      "content": "美國6月芝加哥PMI數據公布，實際值為56.7，顯著優於市場預期的55.4，前值為62.7。此數據反映美國製造業景氣度維持韌性，可能影響市場對經濟軟著陸的判斷與Fed利率路徑的預期。",
-      "tags": [
-        "PMI",
-        "Economy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 21:03",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 5,
-      "headline": "ECB官員：再次加息理由減弱",
-      "summary": "ECB管委Wunsch表示，進一步加息的必要性已不如先前充分，暗示貨幣政策可能進入觀望期。",
-      "content": "歐洲央行（ECB）管委Wunsch指出，目前再次加息的理由已不如之前充分。此言論顯示ECB對通膨與經濟前景的評估轉趨謹慎，市場將密切關注後續政策指引，以評估歐元區利率見頂的可能性。",
-      "tags": [
-        "ECB",
-        "InterestRate"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 21:03",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "日圓跌破162關口，日本財務省警戒",
-      "summary": "日圓兌美元跌破162關口，創40年新低，日本財務大臣表示已準備好採取行動干預。",
-      "content": "日圓兌美元匯率跌破162關口，為40年來首見。日本財務大臣對此表示高度警戒，並稱已準備好採取必要行動。市場高度關注日本當局是否會進行外匯干預，這將影響全球資金流動與日債殖利率走勢。",
-      "tags": [
-        "BOJ",
-        "JPY",
-        "FX"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 21:00",
-      "category": "economy",
-      "category_name": "經濟",
+      "datetime": "2026-07-01 19:42",
+      "category": "war",
+      "category_name": "戰爭",
       "importance": 3,
-      "headline": "美國4月房價指數數據發布",
-      "summary": "美國4月S&P/CS 20大城市房價指數同比增長1.14%，FHFA房價指數環比下降0.1%。",
-      "content": "美國4月S&P/CS 20大城市房價指數同比增長1.14%，高於預期的0.92%；FHFA房價指數環比下降0.1%，低於預期的0.2%。房市數據顯示價格壓力仍存，但成長動能受高利率環境抑制。",
+      "headline": "伊朗尋求與美重啟最終協議談判",
+      "summary": "伊朗代表團赴卡達討論美伊諒解備忘錄，旨在消除黎巴嫩停火等議題障礙。",
+      "content": "伊朗副外長率團訪問卡達，與卡達首相會晤，討論落實美伊諒解備忘錄及黎巴嫩停火等議題。此舉顯示地緣政治緊張局勢下，雙方正嘗試透過外交途徑緩解衝突。",
       "tags": [
-        "Housing",
-        "Economy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 20:36",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 3,
-      "headline": "霍爾木茲海峽航運活動持續恢復",
-      "summary": "霍爾木茲海峽航運活動持續恢復，29日有24艘油輪與貨船通過，有助於緩解能源供應鏈擔憂。",
-      "content": "根據克普勒公司數據，全球重要能源運輸通道霍爾木茲海峽的航運活動持續恢復，6月29日共有24艘油輪與貨船通過。此趨勢有助於降低地緣政治對能源供應鏈的衝擊，對全球能源價格穩定具有正面意義。",
-      "tags": [
-        "Energy",
-        "Commodity",
+        "Iran",
+        "USA",
         "Geopolitics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 20:32",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 3,
-      "headline": "芝商所7月推出Nvidia等美股個股期貨",
-      "summary": "芝商所將於7月27日推出涵蓋Nvidia、Alphabet等50餘檔美股的個股期貨，提供機構與零售投資者更靈活的風險管理工具。",
-      "content": "芝商所宣布將於7月27日推出單只股票期貨，首批產品涵蓋Alphabet、Amazon、Apple、Meta、Nvidia及SpaceX等熱門標的。此舉旨在協助市場參與者在寬基指數對沖與個股風險敞口之間進行更精準的切換與管理。",
-      "tags": [
-        "Nvidia",
-        "CME",
-        "Equity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 20:30",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 3,
-      "headline": "加拿大4月GDP優於預期",
-      "summary": "加拿大4月GDP月增0.5%，年增1.1%，雙雙優於市場預期，顯示經濟韌性。",
-      "content": "加拿大4月GDP數據顯示，月增率為0.5%（預期0.4%），年增率為1.1%（預期0.9%）。數據表現優於預期，反映出加拿大經濟在當前利率環境下仍具備一定韌性，可能影響市場對加拿大央行後續貨幣政策的定價。",
-      "tags": [
-        "Canada",
-        "GDP",
-        "Economy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 20:22",
-      "category": "economy",
-      "category_name": "經濟",
+      "datetime": "2026-07-01 19:19",
+      "category": "central_bank",
+      "category_name": "央行",
       "importance": 4,
-      "headline": "美國財長貝森特：預期6月就業數據強勁",
-      "summary": "美國財長貝森特表示，若6月就業數據表現強勁並不令人意外，市場需持續關注勞動力市場動能。",
-      "content": "美國財長貝森特針對即將公布的就業數據發表看法，指出若6月份數據表現強勁將不令人意外。此談話暗示美國勞動力市場可能持續緊俏，這將是Fed在制定利率政策時的重要參考指標，對債市殖利率與降息預期具有關鍵影響。",
+      "headline": "白宮顧問：Fed此時加息是宏觀錯誤",
+      "summary": "白宮經濟顧問哈塞特警告，Fed若在此時收緊政策將犯下宏觀經濟錯誤。",
+      "content": "白宮經濟顧問凱文·哈塞特公開表示，Fed若在當前環境下加息將是宏觀經濟層面的錯誤。他暗示Fed內部存在政策分歧，並質疑部分官員收緊政策的動機與政治立場有關。",
       "tags": [
         "Fed",
-        "Labor Market",
-        "Economy"
+        "MonetaryPolicy",
+        "WhiteHouse"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 20:00",
+      "datetime": "2026-07-01 19:18",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "乌军持续打击俄境内炼油厂与军工设施",
+      "summary": "乌克兰总统泽连斯基确认乌军再次打击俄罗斯境内炼油厂，俄乌冲突持续影响能源供应预期。",
+      "content": "乌克兰总统泽连斯基确认乌军打击了位于乌法市的炼油厂。此类针对俄罗斯能源基础设施的持续攻击，可能引发市场对全球能源供应稳定性的担忧，进而影响原油价格走势。",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 19:09",
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "德國6月CPI初值低於預期",
-      "summary": "德國6月CPI同比初值2.3%，低於預期的2.6%，顯示通膨壓力緩解，有利ECB降息空間。",
-      "content": "德國6月CPI同比初值為2.3%，低於市場預期的2.6%，環比下降0.3%。數據顯示歐元區最大經濟體通膨壓力顯著降溫，這將增加ECB在未來會議中採取更寬鬆貨幣政策的壓力與空間，對歐元區債市構成支撐。",
-      "tags": [
-        "ECB",
-        "CPI",
-        "Germany"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 19:58",
-      "category": "fiscal_policy",
-      "category_name": "財政政策",
-      "importance": 3,
-      "headline": "英國首相宣布新增150億英鎊國防開支",
-      "summary": "英國政府擴大國防預算，財政支出壓力增加，可能影響英國債市供給與財政赤字預期。",
-      "content": "英國首相斯塔默宣布將在現有基礎上增加150億英鎊國防支出。此舉顯示英國政府在應對地緣政治風險的同時，財政支出傾向擴張，市場需關注後續對英國國債（Gilts）發行規模及財政赤字目標的影響。",
-      "tags": [
-        "UK",
-        "Fiscal Policy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 19:42",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 3,
-      "headline": "三星延後1.4nm量產至2029年",
-      "summary": "三星調整先進製程進度，台積電在先进制程的市場主導地位預期將持續穩固。",
-      "content": "三星將1.4nm製程量產目標由2027年延後至2029年。此舉反映先進製程開發難度極高，市場預期蘋果等大客戶將更依賴台積電（TSMC）的產能，對台積電長期競爭優勢與資本支出策略具有正面意義。",
-      "tags": [
-        "TSMC",
-        "Samsung",
-        "Semiconductor"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 19:25",
-      "category": "fiscal_policy",
-      "category_name": "財政政策",
-      "importance": 3,
-      "headline": "美25州起訴特朗普政府醫療補助新規",
-      "summary": "美國醫療政策引發法律訴訟，反映政策不確定性，可能影響相關醫療產業與財政支出預期。",
-      "content": "美國25個州及哥倫比亞特區聯合起訴特朗普政府，要求停止實施醫療補助新規。此法律爭議凸顯美國國內政策分歧，若新規受阻，可能影響聯邦政府的財政支出規劃及醫療保健產業的營運成本與獲利預期。",
+      "headline": "白宫经济顾问：预计美国下半年增长4%",
+      "summary": "白宫国家经济委员会主任哈塞特预期美国下半年经济增长达4%，显示官方对经济前景持乐观态度。",
+      "content": "美国白宫国家经济委员会主任哈塞特表示，预计美国下半年经济增长约为4%。若该预期实现，可能支撑美联储维持高利率政策的立场，并对UST殖利率曲线产生上行压力。",
       "tags": [
         "USA",
-        "Fiscal Policy"
+        "GDP",
+        "Fed"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 19:05",
+      "datetime": "2026-07-01 18:56",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 4,
-      "headline": "俄外交部：北約正助烏獲取遠程打擊武器",
-      "summary": "俄方指控北約協助烏克蘭提升遠程打擊能力，地緣政治風險升溫，恐衝擊能源與避險資產。",
-      "content": "俄羅斯外交部指控北約正協助烏克蘭獲取能摧毀俄境內縱深目標的武器，並透過招標合同加速將烏納入其軍工體系。此舉被俄方視為直接對抗風險上升，地緣緊張局勢加劇，可能對全球能源價格及避險資產（如黃金、UST）產生波動影響。",
+      "importance": 5,
+      "headline": "伊朗警告美以：若遭威胁将立即强力回应",
+      "summary": "伊朗外长警告美国需约束以色列，否则伊朗将采取行动，地缘政治紧张局势升温。",
+      "content": "伊朗外长阿拉格齐表示，美国总统特朗普曾承诺约束以色列，若以色列无视警告，伊朗将采取教训行动。此言论加剧了中东地缘政治风险，可能对能源价格及避险资产产生波动影响。",
       "tags": [
-        "War",
-        "Geopolitics",
-        "Energy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 19:03",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "日本食品通膨持續，全年漲價商品恐破2萬種",
-      "summary": "受原材料與地緣政治影響，日本食品漲價潮延續，恐加劇BOJ貨幣政策正常化壓力。",
-      "content": "日本民間調查顯示，受原材料成本攀升及中東局勢動盪影響，日本食品漲價趨勢持續，預計全年漲價商品將超過2萬種。企業正加速轉嫁成本，此通膨壓力將持續考驗BOJ對物價目標的判斷，影響日圓匯率與債市殖利率走勢。",
-      "tags": [
-        "BOJ",
-        "Japan",
-        "Inflation"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 19:01",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 3,
-      "headline": "上期所調整黃金等期貨保證金與漲跌幅",
-      "summary": "交易所調升黃金期貨保證金與漲跌幅限制，旨在應對市場波動風險。",
-      "content": "上海期貨交易所公告，自7月2日起調整黃金期貨多個合約的漲跌停板幅度至14%，並調升一般持倉交易保證金比例至16%。此舉顯示交易所對近期貴金屬市場波動的風險控管，交易員需注意資金成本與槓桿調整。",
-      "tags": [
-        "Gold",
-        "Commodity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 18:53",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 4,
-      "headline": "SK海力士啟動美國IPO，擬登陸納斯達克",
-      "summary": "SK海力士正式提交美國IPO申請，將增加半導體板塊流動性與市場關注度。",
-      "content": "SK海力士向SEC提交F-1招股書，正式啟動美國IPO程序，擬發行ADS並於納斯達克上市（代碼：SKHY）。作為全球記憶體大廠，此舉將吸引更多國際資金關注半導體產業，並可能對相關供應鏈與競爭對手股價產生連動效應。",
-      "tags": [
-        "SK Hynix",
-        "IPO",
-        "Semiconductor"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 18:49",
-      "category": "fiscal_policy",
-      "category_name": "財政政策",
-      "importance": 3,
-      "headline": "發改委：民間投資正處於結構優化關鍵期",
-      "summary": "中國民間投資正加速向高技術與新基建轉移，政策引導方向明確。",
-      "content": "國家發改委指出，中國民間投資正從房地產與傳統製造業，加速向高技術產業及新型基礎設施轉移。會議強調將進一步優化市場環境與投融資機制，此政策導向將影響相關產業的資本支出與長期成長預期。",
-      "tags": [
-        "China",
-        "Fiscal Policy",
-        "Investment"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 18:43",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 3,
-      "headline": "月之暗面估值升至315億美元",
-      "summary": "AI獨角獸月之暗面完成新一輪融資，估值達315億美元，ARR突破3億美元，顯示AI商業化進程加速。",
-      "content": "月之暗面（Moonshot AI）完成新一輪融資，投前估值漲至315億美元。截至6月中旬，其ARR（年度經常性收入）已突破3億美元，反映出AI應用層商業化落地速度優於預期，對AI板塊情緒有正面支撐。",
-      "tags": [
-        "AI",
-        "MoonshotAI"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 18:31",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 3,
-      "headline": "俄羅斯擬進口石油製品以穩價",
-      "summary": "俄羅斯考慮進口石油製品以穩定國內能源市場，顯示其國內供應壓力，可能影響區域能源價格。",
-      "content": "俄羅斯總統新聞秘書佩斯科夫表示，俄方正溝通進口石油製品的可能性，旨在穩定國內燃油市場。此舉反映俄羅斯在制裁背景下，國內能源供應鏈面臨挑戰，需關注對國際油價及成品油市場的潛在溢出效應。",
-      "tags": [
-        "Russia",
-        "Oil",
-        "Energy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 18:25",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "證監會推進財務造假懲防體系",
-      "summary": "中國證監會加大財務造假查處力度，已移送逾1500條線索，強化資本市場監管與投資者保護。",
-      "content": "證監會通報財務造假綜合懲防體系進展，累計查辦247起案件，罰沒逾90億元，並推動行刑銜接與民事賠償。此舉旨在提升資本市場透明度，長期有利於市場信心修復，但短期內可能對部分高風險個股造成壓力。",
-      "tags": [
-        "CSRC",
-        "China",
-        "Regulation"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 18:22",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 3,
-      "headline": "潘功勝會見德意志銀行CEO",
-      "summary": "中國央行行長潘功勝與德意志銀行CEO會晤，討論全球經濟金融形勢，關注中歐金融合作。",
-      "content": "中國人民銀行行長潘功勝會見德意志銀行集團首席執行官克里斯蒂安·澤温，雙方就當前中國及全球經濟金融形勢進行交流。此類高層會晤通常涉及跨境資本流動與金融市場開放議題，對外資金融機構在華業務具指標意義。",
-      "tags": [
-        "PBOC",
-        "DeutscheBank"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 18:13",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 3,
-      "headline": "中證協修訂券商五篇大文章評價",
-      "summary": "中證協正式實施券商「五篇大文章」評價辦法，引導資金流向科技創新與居民財富管理。",
-      "content": "中國證券業協會修訂並正式實施評價辦法，增設服務居民財富管理指標，並擴大債券與股權融資統計口徑，鼓勵券商支持科技型企業融資，顯示政策持續引導金融資源向實體經濟與科技創新領域傾斜。",
-      "tags": [
-        "China",
-        "Brokerage",
-        "Policy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 18:11",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "烏克蘭遠程打擊俄航天通信中心",
-      "summary": "烏克蘭證實打擊俄羅斯境內航天通信設施，地緣政治風險持續升溫，關注能源與供應鏈影響。",
-      "content": "烏克蘭總統澤連斯基證實對俄羅斯莫斯科州杜布納航天通信中心實施遠程打擊。此舉顯示烏軍打擊縱深能力提升，地緣政治緊張局勢加劇，可能對市場避險情緒及能源供應預期產生擾動。",
-      "tags": [
-        "Ukraine",
-        "Russia",
+        "Iran",
+        "Israel",
         "Geopolitics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 18:02",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "日本財務省：近期未干預匯市",
-      "summary": "日本財務省確認5月底至6月底未進行日元匯率干預，市場關注BOJ後續政策動向。",
-      "content": "日本財務省數據顯示，5月28日至6月26日期間未進行日元匯率干預。在日元持續疲軟背景下，此消息可能引發市場對BOJ何時採取行動或調整貨幣政策的猜測，需密切關注日元匯率波動對債市的影響。",
-      "tags": [
-        "BOJ",
-        "JPY",
-        "FX"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 17:47",
+      "datetime": "2026-07-01 18:28",
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "八部門推動工業互聯網與算力建設",
-      "summary": "中國八部門發文推動工業互聯網與智算、超算基礎設施一體化建設，加速工業數位化轉型。",
-      "content": "工信部等八部門印發意見，推動工業互聯網與算力基礎設施同步建設，目標到2030年建設5萬張工業5G專網。此政策將帶動相關硬體、軟體及雲端服務需求，對工業自動化與AI算力板塊構成長期利多。",
+      "headline": "惠誉：印尼外汇储备下降，主权评级面临压力",
+      "summary": "惠誉警告印尼外汇储备持续下降，若资本外流加剧，主权评级可能面临下调风险。",
+      "content": "惠誉评级指出，印尼外汇储备覆盖率已降至4.9个月，低于BBB评级国家中值。能源价格上涨侵蚀贸易顺差，若资本外流持续，印尼盾及主权债将面临更大的市场压力。",
       "tags": [
-        "China",
-        "Infrastructure",
-        "AI",
-        "5G"
+        "Indonesia",
+        "Fitch",
+        "CreditRating"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 17:37",
+      "datetime": "2026-07-01 18:16",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 3,
+      "headline": "美伊在多哈举行间接会谈，聚焦谅解备忘录",
+      "summary": "美伊在卡塔尔进行间接会谈，讨论解冻资产及霍尔木兹海峡安全，地缘局势出现缓和迹象。",
+      "content": "美伊双方在多哈通过斡旋方进行间接会谈，重点在于落实谅解备忘录，包括解冻伊朗资产及确保霍尔木兹海峡航运安全。此举被视为缓解中东紧张局势的尝试，对能源市场具有重要意义。",
+      "tags": [
+        "USA",
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 18:05",
       "category": "fiscal_policy",
       "category_name": "財政政策",
       "importance": 3,
-      "headline": "英國國防大臣：將投入史上最大規模無人機投資",
-      "summary": "英國政府宣布大規模無人機投資計畫，顯示財政支出傾向於國防軍事領域，可能影響相關產業預算分配。",
-      "content": "英國國防大臣宣布將投入史上最大規模的無人機相關投資。此舉反映英國在當前地緣政治環境下，財政支出持續向國防與軍事科技傾斜，對國防工業供應鏈及相關財政預算具有指標意義。",
+      "headline": "中國財政部：世銀對華貸款下降屬自然結果",
+      "summary": "財政部回應世銀貸款規模調整，強調這是雙方合作轉型的自然結果，符合國際實踐。",
+      "content": "針對外媒報導世界銀行擬大幅下調對華主權貸款規模，中國財政部回應稱，隨著中國綜合國力提升，貸款規模逐步下降是國內需求變化與合作轉型的自然結果，符合國際實踐，不影響整體財政政策方向。",
       "tags": [
-        "UK",
-        "Defense",
-        "FiscalPolicy"
+        "Fiscal Policy",
+        "China"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-06-30 17:32",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "霍爾木茲海峽航運數據監測",
-      "summary": "霍爾木茲海峽作為全球能源運輸要道，其航運流量變化是評估地緣政治風險與能源供應穩定性的關鍵指標。",
-      "content": "航運分析機構克普勒數據顯示，29日共有24艘油輪及商船通過霍爾木茲海峽。該海峽為全球石油運輸咽喉，持續監測其通行狀況對於評估中東地緣政治風險及國際能源價格波動至關重要。",
-      "tags": [
-        "Geopolitics",
-        "Energy",
-        "Oil"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-06-30 17:00",
+      "datetime": "2026-07-01 17:30",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 4,
-      "headline": "義大利6月CPI低於預期",
-      "summary": "義大利6月CPI年增率降至3%，低於預期，顯示歐元區通膨壓力可能進一步緩解，有利於ECB政策調整。",
-      "content": "義大利6月CPI同比初值為3%，低於預期的3.2%及前值3.2%；環比初值為0%，亦低於預期。通膨數據降溫有助於減輕歐元區整體的物價壓力，為ECB未來的貨幣政策路徑提供更多彈性空間。",
+      "importance": 3,
+      "headline": "美國6月挑戰者企業裁員人數年減4.5%",
+      "summary": "美國6月企業裁員人數年減4.5%，顯示勞動力市場韌性，關注後續就業數據對Fed政策影響。",
+      "content": "美國6月挑戰者企業裁員人數同比下降4.5%，相較於前值3.4%的增長，顯示企業裁員壓力有所緩解。此數據反映美國勞動力市場仍具韌性，交易員需持續觀察此趨勢對Fed利率路徑的潛在影響。",
       "tags": [
-        "Italy",
-        "CPI",
+        "Fed",
+        "Labor Market"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-01 17:00",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 5,
+      "headline": "歐元區6月CPI低於預期，ECB升息預期降溫",
+      "summary": "歐元區6月調和CPI初值降至2.8%，低於預期，市場下調ECB年底前升息押注至23個基點。",
+      "content": "歐元區6月調和CPI同比初值為2.8%，核心CPI為2.4%，均低於市場預期。數據顯示通膨壓力緩解，市場隨即削減對ECB進一步升息的押注，目前預計年底前升息幅度約23個基點，有利於歐元區債市表現。",
+      "tags": [
         "ECB",
-        "Inflation"
+        "CPI",
+        "Eurozone"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
