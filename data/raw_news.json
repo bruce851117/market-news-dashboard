@@ -1,13 +1,21 @@
 {
-  "generated_at": "2026-07-01 17:35",
+  "generated_at": "2026-07-01 17:42",
   "fetch_start_time": "2026-06-30 17:00",
-  "fetch_end_time": "2026-07-01 17:35",
+  "fetch_end_time": "2026-07-01 17:42",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 490,
+  "count": 491,
   "items": [
+    {
+      "datetime": "2026-07-01 17:40",
+      "headline": "【重庆：推进住房“以旧换新” 优化“卖小买大”“带押过户”等支持政策】",
+      "content": "重庆市住建委公开征求《重庆市城镇住房高质量发展“十五五”规划（征求意见稿）》意见。其中提出，促进一二手住房市场良性循环，推进住房“以旧换新”，优化“卖小买大”“带押过户”等支持政策，降低交易成本，促进一二手住房市场联动。依托“渝悦安居”系统，全面推行存量房合同网签服务，建立健全存量房交易资金监管、房源挂牌发布和价格监测机制；简化交易流程，加强不动产登记信息共享、自动核验房源信息，推进交易服务事项“一站受理”和全程网办。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-01 17:35",
       "headline": "【重庆：支持有条件的房地产开发企业开辟建筑机器人、智慧家居等新赛道】",
@@ -801,6 +809,14 @@
       "timezone": "Asia/Taipei"
     },
     {
+      "datetime": "2026-07-01 14:00",
+      "headline": "英国6月Nationwide房价指数同比",
+      "content": "今值: 2.2% ， 预期: 2.4% ， 前值: 1.7%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
       "datetime": "2026-07-01 13:55",
       "headline": "沪深两市成交额突破3万亿，较上日此时放量近3600亿。",
       "content": "",
@@ -1548,14 +1564,6 @@
       "datetime": "2026-07-01 07:50",
       "headline": "日本二季度短观大型制造业前景指数",
       "content": "今值: 17 ， 预期: 13 ， 前值: 14",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-01 07:50",
-      "headline": "日本二季度短观大型非制造业景气判断指数 37，预期 36，前值 36。",
-      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
