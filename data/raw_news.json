@@ -1,13 +1,197 @@
 {
-  "generated_at": "2026-07-01 11:51",
+  "generated_at": "2026-07-01 13:46",
   "fetch_start_time": "2026-06-30 17:00",
-  "fetch_end_time": "2026-07-01 11:51",
+  "fetch_end_time": "2026-07-01 13:46",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 362,
+  "count": 386,
   "items": [
+    {
+      "datetime": "2026-07-01 13:44",
+      "headline": "【上海：到2028年全市消费品工业规模超过7500亿元 时尚消费品产业规模突破5000亿元】",
+      "content": "上海市经济信息化委、市委宣传部、市商务委 市文化旅游局、市市场监管局印发《上海市促进时尚消费品产业高质量发展行动方案（2026-2028年）》。到2028年，全市消费品工业规模超过7500亿元，时尚消费品产业规模突破5000亿元，打造“上海时尚出品”100强品牌企业，成为具有全球影响力的时尚产业集聚地、时尚创新策源地和时尚消费目的地。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:42",
+      "headline": "【韩国投资者上半年持续加仓A股】",
+      "content": "2026年上半年，韩国投资者持续加码配置中国市场。韩国证券存托结算院（KSD）数据显示，在韩国投资者净买入金额居前的中国市场标的中，多只ETF强势挤进榜单前列，科技、人工智能、半导体、新能源等主题产品尤为受到追捧。（中证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:39",
+      "headline": "兆易创新成交额达300亿元，现跌4.79%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:35",
+      "headline": "中国台湾证交所加权股价指数收高1.9%报47,018.99点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:32",
+      "headline": "集运欧线期货主力合约日内跌幅扩大至10%，报2553点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:28",
+      "headline": "A股保险板块午后强势拉升，新华保险涨停，中国人寿、中国人保、中国太保、中国平安跟涨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:17",
+      "headline": "SK海力士近期与客户签下的长期供应合约（LTA）与竞争对手不同，采用的是不设价格上限的独特合约架构。（台湾电子时报）",
+      "content": "相关文章： 报道：SK海力士与客户签订无价格上限的长期供应合约",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:14",
+      "headline": "科创50指数午后持续下挫，跌幅扩大至2%。寒武纪、源杰科技跌超6%，芯原股份、生益电子跌超5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:12",
+      "headline": "A股创新药概念持续拉升，昂利康涨停，前沿生物、三生国健、益方生物均涨超10%，此前美诺华涨停，泽璟制药、神州细胞、艾迪药业、普蕊斯跟涨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:07",
+      "headline": "沪深两市成交额突破2.5万亿，较上一日此时放量近3000亿。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:03",
+      "headline": "科创50指数午后跌幅扩大至1%，早盘一度涨逾2%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:00",
+      "headline": "日本6月家庭消费者信心指数",
+      "content": "今值: 33.8 ， 预期: 34.1 ， 前值: 33.6",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 13:00",
+      "headline": "印度6月制造业PMI终值",
+      "content": "今值: 54.2 ， 预期: - - ， 前值: 54.5",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 12:51",
+      "headline": "【白宫称特朗普加密币获利无利益冲突】",
+      "content": "据美国媒体当地时间6月30日报告，美国总统特朗普提交给美国政府道德办公室的2025年度财务报告显示，去年特朗普家族的加密货币业务为其带来了超过10亿美元的收入。据披露的财务文件显示，特朗普家族的加密企业“世界自由金融公司”通过销售新型加密产品获得了逾5亿美元收入；另有约6.35亿美元来自其个人迷因币（Meme币）$TRUMP的销售。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 12:35",
+      "headline": "【早间要闻汇总】",
+      "content": "沪指低开高走涨超1%，全市场上涨个股超4500只。 中国6月RatingDog制造业PMI连续七个月扩张，二季度创2020年来最强季度表现。 6月北京二手房网签16618套，创五年来新高；深圳6月一二手住宅成交8878套，创近六年同期新高。 中国央行公开市场今日净回笼11625亿元人民币，隔夜回购利率走高。 报道：特朗普目前将坚持对伊朗进行外交谈判，如果谈判超过8月18日的截止日期，他也觉得可以接受。 美国对Anthropic Fable 5顶尖模型“解禁”，Anthropic：周三起恢复访问。 韩国出口创近五十年最大涨幅，AI芯片需求推动单月规模首破千亿美元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 12:35",
+      "headline": "6月极氪交付新车35169辆，同比增长111%；1—6月共交付178370辆，同比增长97%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 12:30",
+      "headline": "【提醒：日内请重点关注（以下均为北京时间）】",
+      "content": "① 13:00 印度6月制造业PMI终值； ② 15:45 意大利6月制造业PMI，欧洲央行副行长Vujcic在葡萄牙Sintra主持一场会议； ③ 15:50 法国6月制造业PMI终值； ④ 15:55 德国6月制造业PMI终值； ⑤ 16:00 欧元区6月制造业PMI终值； ⑥ 16:30 英国6月制造业PMI终值； ⑦ 16:45 欧洲央行执委Cipollone在葡萄牙Sintra主持一场会议； ⑧ 17:00 欧元区6月调和CPI初值； ⑨ 18:15 欧洲央行首席经济学家Lane在葡萄牙Sintra主持一场会议； ⑩ 20:15 美国6月ADP就业人数（小非农就业报告）； ⑪ 21:00 欧洲央行行长拉加德、美联储主席沃什、英国央行行长贝利、加拿大央行行长Macklem讲话，沃什出席欧洲央行论坛的一个会议； ⑫ 22:00 美国6月ISM制造业就业指数，欧洲央行行长拉加德在葡萄牙Sintra致闭幕词； ⑬ 22:30 美国能源信息署（EIA）发布政府版原油库存周报； 微信小程序搜索“见闻历”，了解更多。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 12:18",
+      "headline": "问界汽车：6月交付新车30199台，上半年累计交付同比增长10.2％。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 12:18",
+      "headline": "岚图汽车消息，2026年6月交付14223辆，同比增长41%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 12:16",
+      "headline": "【蔚来公司6月交付40,597台，创今年以来新高，同比增长62.9%】",
+      "content": "2026年6月，蔚来公司交付新车40,597台，创今年以来新高，同比增长62.9%。其中，蔚来品牌交付新车21,908台，同比增长50.1%；乐道品牌交付新车11,743台，同比增长83.5%；firefly萤火虫品牌交付新车6,946台，同比增长76.7%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 12:16",
+      "headline": "小鹏集团6月交付量40126辆，同比+16%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 12:03",
+      "headline": "欧洲央行管委Demarco：欧洲央行可以等到下一轮经济预测再决定是否需要进一步收紧政策。",
+      "content": "在油价下跌后，欧洲央行不应仓促推进下一次加息。 未看到第二轮效应、薪资压力过高或通胀预期脱锚。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 12:01",
+      "headline": "【美媒称美将在黎以驻军监督停火】",
+      "content": "美国《华盛顿邮报》6月29日援引消息人士的话报道称，美国将在黎巴嫩和以色列两国驻扎地面部队，直接监督黎巴嫩武装部队和以色列国防军的行动。该名不愿透露姓名的美国官员说，美国可以借此对黎以双方施加必要的压力，确保他们履行美黎以三方框架协议有关承诺。他还透露，美军中央司令部司令布拉德·库珀不会直接监督双方，但中央司令部官员将负责报告任何违反协议的行为，并交由白宫处理。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-01 11:49",
       "headline": "【Omdia：第一季度美国PC出货量同比下滑7% 创2023年以来最大跌幅】",
@@ -59,7 +243,7 @@
     {
       "datetime": "2026-07-01 11:31",
       "headline": "上证指数早盘收报4138.65点，涨1.08%。",
-      "content": "深证成指早盘收报16271.32点，涨0.41%。 创业板指早盘收报4325.67点，跌0.39%。 沪深300早盘收报5001.54点，涨0.44%。 科创50早盘收报2201.01点，跌0.31%。 中证500早盘收报9121.63点，涨1.00%。 中证1000早盘收报8920.20点，涨1.25%。",
+      "content": "深证成指早盘收报16271.32点，涨0.41%。 创业板指早盘收报4325.67点，跌0.39%。 沪深300早盘收报5001.54点，涨0.44%。 科创50早盘收报2201.01点，跌0.31%。 中证500早盘收报9121.63点，涨1.00%。 中证1000早盘收报8920.20点，涨1.25%。 相关文章： 沪指涨超1%，券商爆发，算力硬件陷入调整，光伏逆变器大跌，阳光电源一度跌停",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -147,7 +331,7 @@
     {
       "datetime": "2026-07-01 10:41",
       "headline": "科创50指数翻绿，此前一度涨超2％。寒武纪、源杰科技跌超4％。",
-      "content": "",
+      "content": "相关文章： 沪指涨超1%，券商爆发，算力硬件陷入调整，光伏逆变器大跌，阳光电源一度跌停",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -465,14 +649,6 @@
       "timezone": "Asia/Taipei"
     },
     {
-      "datetime": "2026-07-01 08:30",
-      "headline": "韩国6月制造业PMI",
-      "content": "今值: 52.1 ， 预期: - - ， 前值: 54.8",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
       "datetime": "2026-07-01 08:28",
       "headline": "【中信证券：隔夜逆回购工具落地 央行维护宽松态度明确】",
       "content": "中信证券认为，央行首次开展隔夜逆回购操作，本次央行操作的态度高于实质，当前7天逆回购的政策利率地位并未改变，央行有意在半年末关键时点维护宽松的流动性环境和稳定预期。新工具旨在弥合7天政策利率与隔夜为主的市场交易之间的期限错配，并借助隔夜操作当日到期、不形成余额的灵活性，在季末更精准地实现流动性削峰填谷。其究竟是阶段性工具还是政策利率新锚，取决于后续的操作频率和利率披露方式，本次只公布数量、不公布利率，表明央行当前仍将其定位为短期流动性管理工具。整体看，本次操作宽货币信号清晰，但意义更多在于政策态度而非利率幅度。",
@@ -627,7 +803,7 @@
     {
       "datetime": "2026-07-01 07:27",
       "headline": "【美国最大电网PJM着手管理数据中心电力需求】",
-      "content": "周二，PJM互联公司（PJM Interconnection）的成员投票通过了一项计划，旨在获取更多电力以满足日益增长的数据中心需求。这股需求浪潮正威胁到美国最大电网的电力供应。 PJM的投票成员对十多项关于如何通过所谓的“后备采购”（backstop procurement）流程为数据中心供电的提案进行了非约束性投票。其中一项由数据中心倡导者和主要受监管的公用事业公司提出的计划获得了推进。",
+      "content": "周二，PJM互联公司（PJM Interconnection）的成员投票通过了一项计划，旨在获取更多电力以满足日益增长的数据中心需求。PJM的投票成员对十多项关于如何通过所谓的“后备采购”（backstop procurement）流程为数据中心供电的提案进行了非约束性投票。其中一项由数据中心倡导者和主要受监管的公用事业公司提出的计划获得了推进。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -731,7 +907,7 @@
     {
       "datetime": "2026-07-01 06:30",
       "headline": "【提醒：日内请重点关注（以下均为北京时间）】",
-      "content": "① 07:50 日本二季度短观大型制造业前景指数； ② 08:00 韩国6月出口； ③ 08:30 越南6月制造业PMI； ④ 08:30 韩国6月制造业PMI，日本6月制造业PMI终值； ⑤ 时间待定 达沃斯科技峰会（Davos Tech Summit 2026）在辽宁开幕； ⑥ 09:45 中国6月RatingDog制造业PMI； ⑦ 13:00 印度6月制造业PMI终值； ⑧ 15:45 意大利6月制造业PMI，15:45 欧洲央行副行长Vujcic在葡萄牙Sintra主持一场会议； ⑨ 15:50 法国6月制造业PMI终值； ⑩ 15:55 德国6月制造业PMI终值； ⑪ 16:00 欧元区6月制造业PMI终值； ⑫ 16:30 英国6月制造业PMI终值； ⑬ 16:45 欧洲央行执委Cipollone在葡萄牙Sintra主持一场会议； ⑭ 17:00 欧元区6月调和CPI初值； ⑮ 18:15 欧洲央行首席经济学家Lane在葡萄牙Sintra主持一场会议； ⑯ 20:15 美国6月ADP就业人数（小非农就业报告）； ⑰ 21:00 欧洲央行行长拉加德、美联储主席沃什、英国央行行长贝利、加拿大央行行长Macklem讲话，沃什出席欧洲央行论坛的一个会议； ⑱ 22:00 美国6月ISM制造业就业指数，欧洲央行行长拉加德在葡萄牙Sintra致闭幕词； ⑲ 22:30 美国能源信息署（EIA）发布政府版原油库存周报； 微信小程序搜索“见闻历”，了解更多。",
+      "content": "① 07:50 日本二季度短观大型制造业前景指数； ② 08:00 韩国6月出口； ③ 08:30 越南6月制造业PMI； ④ 08:30 韩国6月制造业PMI，日本6月制造业PMI终值； ⑤ 时间待定 达沃斯科技峰会（Davos Tech Summit 2026）在辽宁开幕； ⑥ 09:45 中国6月RatingDog制造业PMI； ⑦ 13:00 印度6月制造业PMI终值； ⑧ 15:45 意大利6月制造业PMI，欧洲央行副行长Vujcic在葡萄牙Sintra主持一场会议； ⑨ 15:50 法国6月制造业PMI终值； ⑩ 15:55 德国6月制造业PMI终值； ⑪ 16:00 欧元区6月制造业PMI终值； ⑫ 16:30 英国6月制造业PMI终值； ⑬ 16:45 欧洲央行执委Cipollone在葡萄牙Sintra主持一场会议； ⑭ 17:00 欧元区6月调和CPI初值； ⑮ 18:15 欧洲央行首席经济学家Lane在葡萄牙Sintra主持一场会议； ⑯ 20:15 美国6月ADP就业人数（小非农就业报告）； ⑰ 21:00 欧洲央行行长拉加德、美联储主席沃什、英国央行行长贝利、加拿大央行行长Macklem讲话，沃什出席欧洲央行论坛的一个会议； ⑱ 22:00 美国6月ISM制造业就业指数，欧洲央行行长拉加德在葡萄牙Sintra致闭幕词； ⑲ 22:30 美国能源信息署（EIA）发布政府版原油库存周报； 微信小程序搜索“见闻历”，了解更多。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -1298,8 +1474,8 @@
     },
     {
       "datetime": "2026-07-01 00:25",
-      "headline": "美国总统特朗普回应“最高法院推翻特朗普限制‘出生公民权’行政令”，称：最高法院的裁决对美国来说太糟糕了。",
-      "content": "国会山应该着手废除出生公民权。",
+      "headline": "美国总统特朗普回应“最高法院推翻特朗普限制‘出生公民权’行政令”，称：最高法院的裁决对美国来说太糟糕了。国会山应该着手废除出生公民权。",
+      "content": "相关文章： 对特朗普反移民的重大打击！美国高院驳回“终止出生公民权”",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -1539,7 +1715,7 @@
     {
       "datetime": "2026-06-30 23:02",
       "headline": "【美最高法院驳回特朗普的限制“出生公民权”行政令】",
-      "content": "美国最高法院6月30日在一项关键裁决中，驳回特朗普政府限制“出生公民权”的行政令。特朗普去年1月重返白宫首日签署行政令，规定父母非美国公民或合法永久居民的新生儿不能自动获得美国公民身份。（新华社）",
+      "content": "美国最高法院6月30日在一项关键裁决中，驳回特朗普政府限制“出生公民权”的行政令。特朗普去年1月重返白宫首日签署行政令，规定父母非美国公民或合法永久居民的新生儿不能自动获得美国公民身份。（新华社） 相关文章： 对特朗普反移民的重大打击！美国高院驳回“终止出生公民权”",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -2244,6 +2420,22 @@
       "datetime": "2026-06-30 20:00",
       "headline": "德国6月CPI环比初值",
       "content": "今值: -0.3% ， 预期: 0% ， 前值: -0.2%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 20:00",
+      "headline": "德国6月CPI同比初值",
+      "content": "今值: 2.3% ， 预期: 2.6% ， 前值: 2.6%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-06-30 20:00",
+      "headline": "德国6月调和CPI同比初值",
+      "content": "今值: 2.4% ， 预期: 2.5% ， 前值: 2.7%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
