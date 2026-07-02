@@ -2,3 +2,21 @@
 供應瓶頸緩解與新平台放量，機構上調Nvidia未來營收預期，支撐AI板塊信心。
 Hammack表示通膨依然過高且廣泛蔓延，Fed可能需要考慮進一步加息。
 貝利表示儘管通膨回落速度慢於預期，但目前走勢符合預期，央行不急於調整利率。
+
+
+    prompt += "請保留會影響利率、債市、股市(尤其是像某股票漲/跌多少，因為....原因的新聞)、央行、總經、財政政策、財政支出傾向或談話(尤其美國 英國 日本 歐洲，像是英国首相热门人选伯纳姆：将以公平、可持续的方式削减福利支出)、地緣政治、商品能源的新聞。\n"
+    prompt += "請刪除不重要新聞、純價格走勢新聞、例行債券發行新聞、體育娛樂地方社會新聞。\n"
+    prompt += "純價格走勢例子：中國國債期貨早盤全線收漲、日本10年期國債收益率上升5個基點、美股期貨小幅走高。\n"
+    prompt += "例行發債例子：農發行發行1、2年期債券，規模共110億元。\n\n"
+    prompt += "category 只能是 bond、equity、central_bank、fiscal_policy、economy、war、commodity。\n"
+    prompt += "importance 為1到5，5代表最重要。\n"
+    prompt += "headline：30個中文字以內，繁體中文。\n"
+    prompt += "summary：必填，90個中文字以內，繁體中文，若原文過長再幫忙濃縮即可，不要加入你的判斷，如果有主詞也不要省略\n"
+    prompt += "content：必填，180個中文字以內，繁體中文，比summary更完整。\n"
+    prompt += "tags：英文或市場代號。\n"
+    prompt += "只輸出 JSON array，不要 markdown，不要解釋。\n\n"
+    prompt += "JSON格式："
+    prompt += '[{"datetime":"2026-06-29 07:30","category":"bond","importance":5,"headline":"Fed釋出偏鷹訊號","summary":"Fed官員談話偏鷹，市場可能下修降息預期。","content":"Fed官員釋出偏鷹訊號，使短端利率與美債殖利率面臨重新定價壓力，股市風險偏好可能受抑。","tags":["Fed","UST"],"source":"華爾街見聞","url":"https://wallstreetcn.com/live/global"}]\n\n'
+    prompt += "快訊資料：\n"
+    prompt += batch_json
+    return prompt
