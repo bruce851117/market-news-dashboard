@@ -1,13 +1,101 @@
 {
-  "generated_at": "2026-07-02 08:42",
+  "generated_at": "2026-07-02 09:18",
   "fetch_start_time": "2026-07-01 17:00",
-  "fetch_end_time": "2026-07-02 08:42",
+  "fetch_end_time": "2026-07-02 09:18",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 305,
+  "count": 321,
   "items": [
+    {
+      "datetime": "2026-07-02 09:16",
+      "headline": "人民币兑美元中间价报6.8088，下调21点；上一交易日中间价6.8067，上一交易日官方收盘价6.7935，上日夜盘报收6.7880。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:15",
+      "headline": "【乌克兰基辅市遭空袭传出持续爆炸声】",
+      "content": "乌克兰基辅市市长克利奇科7月2日凌晨在社交媒体发文称，俄军对基辅市发动导弹和无人机袭击，初步信息显示，空袭已造成至少5人受伤。截至凌晨2时35分，记者在基辅市仍能听到爆炸声和防空系统开火声。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:14",
+      "headline": "【《智能网联汽车 组合驾驶辅助系统安全要求》强制性国家标准正式发布】",
+      "content": "6月27日，工业和信息化部组织制定并归口的《智能网联汽车 组合驾驶辅助系统安全要求》（GB 47955—2026）强制性国家标准由国家市场监督管理总局、国家标准化管理委员会批准发布，拟于2027年1月1日起正式实施。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:09",
+      "headline": "【亚洲股市遭遇十六年来最大半年外资流出】",
+      "content": "在人工智能（AI）推动股市强劲上涨后，外国投资者在2026年上半年以至少16年来最快速度抛售亚洲股票。伦敦证券交易所集团（LSEG）的数据显示，今年前六个月，海外投资者从韩国、中国台湾、印度、印尼、泰国、越南和菲律宾股市累计净流出1373.6亿美元，为2010年有记录以来最大规模的半年度资金流出。其中韩国和中国台湾首当其冲，分别遭遇708亿美元和296亿美元外资净流出。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:06",
+      "headline": "现货黄金上涨近1%，至每盎司4,068.43美元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:00",
+      "headline": "台湾证交所加权股价指数盘初下跌1.9%至46,140.10点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:00",
+      "headline": "商品期货开盘，原油主力合约跌4%，集运欧线、液化气跌超3%，甲醇跌近3%，燃料油、LU燃油跌超2%。铂涨超2%，钯、铁矿石、沪银、沪金涨超1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:00",
+      "headline": "富时中国A50指数期货盘初涨0.16%，上一个交易日夜盘收涨0.35%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:55",
+      "headline": "铠侠股价日内跌幅扩大至13.7%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:46",
+      "headline": "【两市融资余额增加97.94亿元】",
+      "content": "截至7月1日，上交所融资余额报15196.88亿元，较前一交易日增加27.79亿元；深交所融资余额报14778.94亿元，较前一交易日增加70.15亿元；两市合计29975.82亿元，较前一交易日增加97.94亿元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:45",
+      "headline": "【殷勇会见全球移动通信系统协会首席执行官】",
+      "content": "据北京发布，日前，北京市市长殷勇会见全球移动通信系统协会首席执行官洪曜庄。殷勇说，希望双方加强沟通联系，依托双方资源优势，拓展在数字技术创新、成果转化等方面合作，推动全球6G与人工智能协同创新、开放发展，实现双向赋能、互利共赢。洪曜庄表示，将发挥全球资源优势，积极打造包容多元产业生态，深化产业资源互通和经验共享，助力通信技术创新赋能全球发展、增进各国人民福祉。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-02 08:42",
       "headline": "【胜宏科技：高端产品的供给仍将处于相对紧张的状态】",
@@ -266,8 +354,8 @@
     },
     {
       "datetime": "2026-07-02 06:57",
-      "headline": "据了解讨论人工智能（AI）标准的知情人士透露，美国最快将于下周宣布所谓的自愿AI制度。（英国金融时报）",
-      "content": "",
+      "headline": "【报道：美国正与AI企业商讨新模型发布的自愿性标准】",
+      "content": "英国《金融时报》援引消息人士的话报道，美国政府正与多家人工智能(AI)公司进行深入磋商，以制定新模型发布的自愿性标准，最快可能在下周宣布相关消息。这些标准将为先进模型设定评估基准和时间安排，同时明确在美国和海外哪些主体可以获得这些模型的访问权限。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -1468,6 +1556,46 @@
       "datetime": "2026-07-01 22:01",
       "headline": "【美国ISM制造业连续六个月扩张，成本指标下滑】",
       "content": "6月份，受战争引发的投入成本激增势头缓解的提振，美国制造业活动连续第六个月实现扩张。 数据显示，美国供应管理协会（ISM）制造业指数下降0.7点至53.3，保持在接近四年高位附近。 与此同时，6月份原材料支付价格的上涨速度大幅放缓。该协会的价格指标大幅下降9.1点至73，创2022年7月以来的最大单月降幅，这主要得益于美国与伊朗达成临时协议，导致油价大幅下跌。 新订单的增长有所放缓，但仍保持稳健，而ISM的生产指数则降至六个月低点。 相关文章： 美国6月ISM制造业连续第六个月扩张，成本指标创近四年最大降幅",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 22:00",
+      "headline": "美国5月营建支出环比 0.1%，预期 0.2%，前值 0.4%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 22:00",
+      "headline": "美国6月ISM制造业指数 53.3，预期 53.9，前值 54。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 22:00",
+      "headline": "美国6月ISM制造业物价支付指数 73，预期 77.5，前值 82.1。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 22:00",
+      "headline": "美国6月ISM制造业新订单指数 56，前值 56.8。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-01 22:00",
+      "headline": "美国6月ISM制造业就业指数 49.7，前值 48.6。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
