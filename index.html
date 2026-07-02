@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Market News Dashboard</title>
+
   <style>
     * { box-sizing: border-box; }
 
@@ -19,6 +20,7 @@
       --green: #059669;
       --amber: #d97706;
       --gold: #ca8a04;
+      --important-blue: #0047ab;
       --shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
     }
 
@@ -278,6 +280,7 @@
     .category-bond .category-header h2 { color: var(--blue); }
     .category-equity .category-header h2 { color: var(--red); }
     .category-central_bank .category-header h2 { color: var(--purple); }
+    .category-fiscal_policy .category-header h2 { color: var(--important-blue); }
     .category-economy .category-header h2 { color: var(--green); }
     .category-war .category-header h2 { color: var(--amber); }
     .category-commodity .category-header h2 { color: var(--gold); }
@@ -332,6 +335,14 @@
       font-size: 13px;
       line-height: 1.45;
       font-weight: 600;
+    }
+
+    .importance-5 .timeline-time,
+    .importance-4 .timeline-time,
+    .importance-5 .timeline-summary,
+    .importance-4 .timeline-summary {
+      color: #0047ab;
+      font-weight: 800;
     }
 
     .empty {
@@ -402,6 +413,7 @@
       <h1>Market News Dashboard</h1>
       <p>華爾街見聞快訊｜Gemini 整理｜交易員版分類晨報</p>
     </div>
+
     <div class="update-card">
       <div class="update-label">更新時間</div>
       <div class="update-value" id="generatedAt">--</div>
@@ -423,14 +435,17 @@
           <label for="startTime">開始時間</label>
           <input type="datetime-local" id="startTime" />
         </div>
+
         <div class="filter-group">
           <label for="endTime">結束時間</label>
           <input type="datetime-local" id="endTime" />
         </div>
+
         <div class="filter-group">
           <label for="keyword">搜尋關鍵字</label>
           <input type="text" id="keyword" placeholder="Fed / CPI / UST / Oil / China" />
         </div>
+
         <button id="resetBtn" class="reset-button">重設時間與搜尋</button>
       </div>
     </section>
@@ -459,7 +474,16 @@
     let allNews = [];
     let briefPoints = [];
 
-    const categoryOrder = ["bond", "equity", "central_bank","fiscal_policy", "economy", "war", "commodity", "other"];
+    const categoryOrder = [
+      "bond",
+      "equity",
+      "central_bank",
+      "fiscal_policy",
+      "economy",
+      "war",
+      "commodity",
+      "other",
+    ];
 
     const categoryNames = {
       bond: "債市",
@@ -477,7 +501,7 @@
       equity: "股市、科技龍頭、AI 供應鏈與主要股指",
       central_bank: "Fed、ECB、BOJ、BOE、PBOC 與央行政策",
       fiscal_policy: "財政赤字、預算、稅改、關稅、補貼、政府支出與公債供給",
-      economy: "CPI、PPI、PMI、GDP、就業、關稅與財政政策",
+      economy: "CPI、PPI、PMI、GDP、就業與總體經濟",
       war: "戰爭、地緣政治、制裁與軍事衝突",
       commodity: "原油、天然氣、黃金、銅與能源供應",
       other: "其他重要市場訊息",
@@ -485,29 +509,52 @@
 
     function normalizeCategory(value) {
       const c = String(value || "").trim();
+
       if (c === "bond" || c === "債市" || c === "债市") return "bond";
       if (c === "equity" || c === "股市") return "equity";
       if (c === "central_bank" || c === "央行") return "central_bank";
-      
+
       if (
         c === "fiscal_policy" ||
         c === "財政政策" ||
         c === "财政政策" ||
         c === "財政" ||
         c === "财政"
-      ) return "fiscal_policy";
-      
+      ) {
+        return "fiscal_policy";
+      }
 
       if (c === "economy" || c === "經濟" || c === "经济") return "economy";
-      if (c === "war" || c === "戰爭" || c === "战争" || c === "地緣政治" || c === "地缘政治") return "war";
-      if (c === "commodity" || c === "商品" || c === "能源" || c === "大宗商品") return "commodity";
+
+      if (
+        c === "war" ||
+        c === "戰爭" ||
+        c === "战争" ||
+        c === "地緣政治" ||
+        c === "地缘政治"
+      ) {
+        return "war";
+      }
+
+      if (
+        c === "commodity" ||
+        c === "商品" ||
+        c === "能源" ||
+        c === "大宗商品"
+      ) {
+        return "commodity";
+      }
+
       return "other";
     }
 
     function parseDateTime(value) {
       if (!value) return null;
+
       const date = new Date(String(value).trim().replace(" ", "T"));
+
       if (isNaN(date.getTime())) return null;
+
       return date;
     }
 
@@ -517,22 +564,32 @@
 
     function formatDisplayTime(date) {
       if (!date || isNaN(date.getTime())) return "--";
+
       return (
-        date.getFullYear() + "-" +
-        pad(date.getMonth() + 1) + "-" +
-        pad(date.getDate()) + " " +
-        pad(date.getHours()) + ":" +
+        date.getFullYear() +
+        "-" +
+        pad(date.getMonth() + 1) +
+        "-" +
+        pad(date.getDate()) +
+        " " +
+        pad(date.getHours()) +
+        ":" +
         pad(date.getMinutes())
       );
     }
 
     function toDateTimeLocalValue(date) {
       if (!date || isNaN(date.getTime())) return "";
+
       return (
-        date.getFullYear() + "-" +
-        pad(date.getMonth() + 1) + "-" +
-        pad(date.getDate()) + "T" +
-        pad(date.getHours()) + ":" +
+        date.getFullYear() +
+        "-" +
+        pad(date.getMonth() + 1) +
+        "-" +
+        pad(date.getDate()) +
+        "T" +
+        pad(date.getHours()) +
+        ":" +
         pad(date.getMinutes())
       );
     }
@@ -550,17 +607,35 @@
       const dates = items
         .map((item) => parseDateTime(item.datetime))
         .filter((date) => date && !isNaN(date.getTime()));
-      if (dates.length === 0) return { min: null, max: null };
+
+      if (dates.length === 0) {
+        return {
+          min: null,
+          max: null,
+        };
+      }
+
       dates.sort((a, b) => a - b);
-      return { min: dates[0], max: dates[dates.length - 1] };
+
+      return {
+        min: dates[0],
+        max: dates[dates.length - 1],
+      };
     }
 
     function updateDataRangeText() {
       const rangeEl = document.getElementById("dataRange");
       const minMax = getMinMaxNewsTime(allNews);
+
       if (!rangeEl) return;
-      if (!minMax.min || !minMax.max) { rangeEl.textContent = "--"; return; }
-      rangeEl.textContent = formatDisplayTime(minMax.min) + " ～ " + formatDisplayTime(minMax.max);
+
+      if (!minMax.min || !minMax.max) {
+        rangeEl.textContent = "--";
+        return;
+      }
+
+      rangeEl.textContent =
+        formatDisplayTime(minMax.min) + " ～ " + formatDisplayTime(minMax.max);
     }
 
     function resetFiltersToDataRange() {
@@ -568,17 +643,32 @@
       const startEl = document.getElementById("startTime");
       const endEl = document.getElementById("endTime");
       const minMax = getMinMaxNewsTime(allNews);
+
       if (keywordEl) keywordEl.value = "";
-      if (startEl && minMax.min) startEl.value = toDateTimeLocalValue(minMax.min);
-      if (endEl && minMax.max) endEl.value = toDateTimeLocalValue(minMax.max);
+
+      if (startEl && minMax.min) {
+        startEl.value = toDateTimeLocalValue(minMax.min);
+      }
+
+      if (endEl && minMax.max) {
+        endEl.value = toDateTimeLocalValue(minMax.max);
+      }
+
       renderNews();
     }
 
     function renderBrief() {
       const briefList = document.getElementById("briefList");
+
       if (!briefList) return;
+
       const points = briefPoints.filter(Boolean).slice(0, 10);
-      if (points.length === 0) { briefList.innerHTML = ""; return; }
+
+      if (points.length === 0) {
+        briefList.innerHTML = "";
+        return;
+      }
+
       briefList.innerHTML = points
         .map((p) => `<li>${escapeHtml(p)}</li>`)
         .join("");
@@ -640,35 +730,53 @@
     function renderNews() {
       const container = document.getElementById("newsContainer");
       const visibleCountEl = document.getElementById("visibleCount");
+
       if (!container || !visibleCountEl) return;
 
       const filtered = getFilteredNews();
+
       filtered.sort((a, b) => {
         const da = parseDateTime(a.datetime);
         const db = parseDateTime(b.datetime);
+
         if (!da || !db) return 0;
+
         return da - db;
       });
 
       visibleCountEl.textContent = filtered.length;
 
       if (filtered.length === 0) {
-        container.innerHTML = `<div class="empty">沒有符合條件的新聞。<br/>請清空搜尋關鍵字，或按「重設時間與搜尋」。</div>`;
+        container.innerHTML = `
+          <div class="empty">
+            沒有符合條件的新聞。<br/>
+            請清空搜尋關鍵字，或按「重設時間與搜尋」。
+          </div>
+        `;
         return;
       }
 
       const grouped = {};
-      categoryOrder.forEach((c) => { grouped[c] = []; });
+
+      categoryOrder.forEach((c) => {
+        grouped[c] = [];
+      });
+
       filtered.forEach((item) => {
         const c = normalizeCategory(item.category);
+
         if (!grouped[c]) grouped[c] = [];
+
         grouped[c].push(item);
       });
 
       let html = "";
+
       categoryOrder.forEach((category) => {
         const items = grouped[category] || [];
+
         if (items.length === 0) return;
+
         html += `
           <section class="category-block category-${category}">
             <div class="category-header">
@@ -678,6 +786,7 @@
               </div>
               <span>${items.length} 則</span>
             </div>
+
             <div class="timeline-list">
               ${items.map(renderTimelineItem).join("")}
             </div>
@@ -694,7 +803,11 @@
           <div class="timeline-dot"></div>
           <time class="timeline-time">${escapeHtml(item.datetime)}</time>
           <div class="timeline-body">
-            ${item.summary ? `<div class="timeline-summary">${escapeHtml(item.summary)}</div>` : ""}
+            ${
+              item.summary
+                ? `<div class="timeline-summary">${escapeHtml(item.summary)}</div>`
+                : ""
+            }
           </div>
         </article>
       `;
@@ -704,20 +817,29 @@
       document.getElementById("generatedAt").textContent = "--";
       document.getElementById("dataRange").textContent = "--";
       document.getElementById("visibleCount").textContent = "0";
+
       const container = document.getElementById("newsContainer");
-      if (container) container.innerHTML = `<div class="empty">${escapeHtml(message)}</div>`;
+
+      if (container) {
+        container.innerHTML = `<div class="empty">${escapeHtml(message)}</div>`;
+      }
     }
 
     async function loadNews() {
       try {
         const response = await fetch("data/news.json?ts=" + Date.now());
-        if (!response.ok) throw new Error("Cannot load data/news.json, status=" + response.status);
+
+        if (!response.ok) {
+          throw new Error("Cannot load data/news.json, status=" + response.status);
+        }
+
         const data = await response.json();
 
         allNews = Array.isArray(data.items) ? data.items : [];
         briefPoints = Array.isArray(data.brief_points) ? data.brief_points : [];
 
-        document.getElementById("generatedAt").textContent = data.generated_at || "--";
+        document.getElementById("generatedAt").textContent =
+          data.generated_at || "--";
 
         updateDataRangeText();
         renderBrief();
