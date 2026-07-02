@@ -1,13 +1,253 @@
 {
-  "generated_at": "2026-07-02 07:05",
+  "generated_at": "2026-07-02 08:42",
   "fetch_start_time": "2026-07-01 17:00",
-  "fetch_end_time": "2026-07-02 07:05",
+  "fetch_end_time": "2026-07-02 08:42",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 275,
+  "count": 305,
   "items": [
+    {
+      "datetime": "2026-07-02 08:42",
+      "headline": "【胜宏科技：高端产品的供给仍将处于相对紧张的状态】",
+      "content": "胜宏科技7月1日在投资者关系活动记录表中指出，从中期来看，高端产品的供给仍将处于相对紧张的状态。高端PCB产能扩张周期长、设备与工艺壁垒高，新增扩产项目短期难以形成有效产能供给。现阶段下游头部客户以确保供应链稳定、保障产品品质与交付为核心诉求。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:38",
+      "headline": "【中国银河证券：年内猪价或有所反弹表现】",
+      "content": "中国银河证券研报称，关于2026年猪价走势，中国银河证券认为年度均价或呈现同比下行走势，受冬季疫病影响程度的变化，年内猪价或有所反弹表现。中国银河证券建议积极关注成本管控领先、资金面相对健康、估值合理的优秀猪企。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:36",
+      "headline": "【英矽智能与武田制药达成一项价值最高可达6亿美元的AI赋能药物发现战略合作】",
+      "content": "英矽智能在港交所公告，公司已与武田制药达成一项战略合作协议，依托英矽智能自主研发的端到端Pharma.AI平台，在武田制药选定的疾病治疗领域共同推进候选药物研发，旨在针对具备高潜力的治疗靶点，发现具有临床差异化优势的候选药物。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:32",
+      "headline": "【中信证券：功率器件二轮涨价趋势确立 AI电源打开长期增量空间】",
+      "content": "中信证券指出，功率器件板块正迎来二轮涨价周期确认与AI电源需求爆发的双重催化。中短期，根据各公司公告，国内外功率器件厂商将陆续启动第二轮涨价，本轮上行周期进一步明确；中长期来看，预计AI电源对功率器件拉动会持续强化，HVDC/SST趋势下长期增量空间将逐步打开。预计本轮涨价趋势有望延续至2027年，相关厂商有望开启新一轮收入快速成长同时盈利能力显著修复，看好功率器件板块整体上行机遇。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:21",
+      "headline": "韩国央行：7月份CPI通胀率将较6月份有所缓解。",
+      "content": "预计通胀仍将在一段时间内保持高位。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:15",
+      "headline": "【我国成功发射海洋二号E卫星】",
+      "content": "7月2日7时46分，我国在酒泉卫星发射中心使用长征四号乙运载火箭，成功将海洋二号E卫星发射升空，卫星顺利进入预定轨道，发射任务取得圆满成功。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:14",
+      "headline": "韩国首尔综指日内跌超6%，跌至7800点下方。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:14",
+      "headline": "美国证券交易委员会（SEC）正在调查对Susquehanna造成打击的内幕期权交易。（彭博）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:10",
+      "headline": "武田制药与英矽智能达成AI药物研发合作，协议价值最高可达6亿美元。（华尔街日报）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:08",
+      "headline": "韩国交易所因KOSPI 200期货下跌5%启动KOSPI的熔断机制，程序化交易暂停5分钟。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:07",
+      "headline": "日经225指数日内跌幅扩大至2%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:04",
+      "headline": "MSCI亚太指数下跌1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:02",
+      "headline": "韩国首尔综指跌超5%，芯片股跟随美股科技股隔夜跌势。SK海力士盘初跌7.6%，三星电子跌6.5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:01",
+      "headline": "特朗普：油价正在快速下跌。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:01",
+      "headline": "日经225指数低开0.6%，韩国首尔综指低开4.5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:00",
+      "headline": "中国即将发行或正在发行的地方政府债",
+      "content": "证券简称 发债主体 发行规模(亿元) 期限(年) 招标日期 债券类别 发行起始日期 发行截止日期 26西藏债13N 地方政府 1.3000 30.0 2026-07-02 记账式 2026-07-02 -- 26西藏债12N 地方政府 12.0119 20.0 2026-07-02 记账式 2026-07-02 -- 26西藏债11N 地方政府 1.0400 15.0 2026-07-02 记账式 2026-07-02 -- 26西藏债10N 地方政府 0.6481 10.0 2026-07-02 记账式 2026-07-02 -- 26西藏债09N 地方政府 9.9000 5.0 2026-07-02 记账式 2026-07-02 -- 数据来源：qeubee终端",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 08:00",
+      "headline": "中国即将发行或正在发行的国债和政策性金融债",
+      "content": "证券简称 发行规模(亿元) 期限(年) 招标日期 债券类别 发行起始日期 发行截止日期 上市日期 26进出03(增发6) 40.0000 3.0 2026-07-02 记账式 2026-07-02 -- 2026-07-06 26进出04(增发4) 100.0000 1.0 2026-07-02 记账式 2026-07-02 -- 2026-07-06 数据来源：qeubee终端",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:59",
+      "headline": "【中金：中报业绩将逐步成为投资主线】",
+      "content": "中金指出，5月中旬市场开始震荡调整，6月初后显现修复，但据前期高点仍有距离。行业方面，在热点主题累计涨幅与拥挤度都偏高的状态下，近期风格再平衡关注度有所抬升。从海外环境看，霍尔木兹海峡通航后，原油供应扰动缓解，WTI原油降至约70美元/桶，对全球通胀的推升压力已经明显减弱，但美联储主席沃什的货币政策立场仍阶段性影响投资者对美国货币政策的预期。从内部环境看，A股市场即将进入中报期，7—8月较好的中报业绩预计能对指数带来一定支撑，前期震荡整理、风格快速轮动现象可能已经处于尾声阶段，中金认为中报业绩将逐步成为投资主线。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:53",
+      "headline": "【华泰证券：高股息板块底仓配置价值仍具吸引力】",
+      "content": "华泰证券研报称，6月以来市场风险偏好整体维持积极，资金延续向成长方向聚集，半导体、光模块、AI算力链等仍是市场核心主线，高股息板块整体相对跑输。但月内成长内部波动明显加大，红利底仓的避险价值阶段性回归。展望7月，在成长拥挤度高企、估值处于年内相对高位、海外通胀超预期与美联储加息预期升温的背景下，高股息板块底仓配置价值仍具吸引力，建议重点关注具备防御属性的稳定型红利（银行、电力、公用事业、交运等）。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:52",
+      "headline": "【道明证券：日本支撑日元的手段已所剩无几】",
+      "content": "道明证券称，日元走软继续反映利差巨大这一因素，当局目前可能已用尽支撑日元的工具。“日本已无计可施，其短期政策工具已基本用尽，” 其在研报中写道，“软性检查、实际干预，甚至加息都未能对日元产生持续影响。”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:51",
+      "headline": "日本6月26日当周外资净买进日本股票(亿日元)",
+      "content": "今值: -18165 ， 预期: - - ， 前值: 4794",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:51",
+      "headline": "日本6月26日当周净买进国外债券(亿日元)",
+      "content": "今值: -2801 ， 预期: - - ， 前值: 1997",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:51",
+      "headline": "日本6月26日当周净买进国外股票(亿日元)",
+      "content": "今值: 1477 ， 预期: - - ， 前值: 4268 (修正: 4267)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:51",
+      "headline": "日本6月26日当周外资净买进日本债券(亿日元)",
+      "content": "今值: -4937 ， 预期: - - ， 前值: -10573",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:50",
+      "headline": "日本6月基础货币同比",
+      "content": "今值: -13.7% ， 预期: - - ， 前值: -12.2%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:45",
+      "headline": "【加拿大多地遭遇极端高温和洪涝灾害】",
+      "content": "极具破坏性的“热穹顶”现象目前正席卷加拿大大部分地区，引发持续极端高温天气，导致数百万民众处于高温预警之下。与此同时，加部分地区遭遇暴雨和严重洪涝灾害。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:30",
+      "headline": "【华尔街见闻早餐 | 2026年7月2日】",
+      "content": "Meta云转向，美光重挫超10%，软件股逆势走强，纳指100跌1.5%；金龙中国指数四连涨；黄金反弹；国际油价跌超1%。 美联储主席沃什：通胀近四周降温，AI正重塑经济，前瞻指引失去必要性。 美伊在多哈举行间接会谈，特朗普：两国“处得很好”。 “小非农”降温！美国6月ADP新增就业人数降至9.8万，远低于预期。 美国6月ISM制造业连续第六个月扩张，成本指标创近四年最大降幅。 欧元区6月CPI降至2.8%：加息迫切性骤减，欧央行步入“看数据”中立期。 王毅同美国国务卿鲁比奥通电话。 中国6月RatingDog制造业PMI连续七个月扩张，二季度创2020年来最强季度表现。 美墨加协定生变：美国放弃续签转向逐年审查，北美供应链不确定性升温。 报道称Meta筹划进军云计算市场，以出售富余的AI算力资源，Meta股价大涨8.8%。AI基础设施股重挫，市场开始担心算力过剩。 跨越安全红线后重启：Anthropic Fable 5全面接入GitHub Copilot，押注长周期自主编程。 马斯克要造手机？报道：SpaceX展示类似手机的AI设备原型，比iPhone还要薄。 提醒：周四将公布美国6月非农就业报告，周五美股因假期休市。 相关文章： 华尔街见闻早餐FM-Radio | 2026年7月2日",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:24",
+      "headline": "【1.3万亿元超长期特别国债发行即将过半】",
+      "content": "财政部日前发布通知称，7月3日，财政部将招标发行800亿元超长期特别国债，期限为30年。这将是三季度发行的首只超长期特别国债。从上半年超长期特别国债发行情况看，自4月份首发以来，上半年共发行9期，发行规模达到5720亿元，发行进度（今年拟发行规模为1.3万亿元）达到44%。在7月3日计划发行的超长期特别国债发行完成后，今年以来发行规模将达到6520亿元，发行进度将超过50%。（证券日报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:10",
+      "headline": "【高盛预估：世界杯或将为美国6月就业报告新增4万个岗位】",
+      "content": "高盛表示，受世界杯拉动，周四即将公布的6月非农就业数据或将好于市场预期。 根据道琼斯对受访经济学家的调查共识，非农就业人数预计将增加11.5万人，较5月份17.2万人的强劲增速有所放缓。 但高盛表示，来自小企业薪资服务公司Homebase的私人数据显示，“美丽足球”至少对招聘产生了一定的温和影响，上个月贡献了约4万个就业岗位。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:07",
+      "headline": "【预测市场：Kalshi交易员认为，随着6月能源价格下跌，美国通胀已在5月触顶】",
+      "content": "随着美国与伊朗关系缓和导致石油和天然气价格下跌，预测市场的交易员们现在认为通胀已经见顶。预测市场平台Kalshi上的投机者认为，今年美国总体通胀率将超过4.2%（即5月份CPI同比涨幅）的可能性仅为28%。下一份衡量6月份通胀水平的CPI报告，将由美国劳工统计局（BLS）于7月14日发布。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-02 07:02",
       "headline": "韩国6月CPI环比上升0.1%，符合预期。",
