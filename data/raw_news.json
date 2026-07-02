@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-07-02 09:43",
+  "generated_at": "2026-07-02 10:05",
   "fetch_start_time": "2026-07-01 17:00",
-  "fetch_end_time": "2026-07-02 09:43",
+  "fetch_end_time": "2026-07-02 10:05",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 329,
+  "count": 336,
   "items": [
+    {
+      "datetime": "2026-07-02 09:59",
+      "headline": "【阳光电源：预计欧洲市场增速比原预期高出10%左右】",
+      "content": "阳光电源7月1日在电话交流上表示，从欧洲展会反馈看，光储融合趋势明显，光储直流侧项目占比虽不足10%但正在增加，公司也推出矩阵式逆变器，获得了好评。由于霍尔木兹海峡的事件，家庭储能、工商业储能的需求增速明显，公司订单比较饱满。随着碳酸锂价格回落，长时储能需求也在增加，预计欧洲市场增速比原预期高出10%左右。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:56",
+      "headline": "恒生科技指数日内涨幅扩大至2.1%，地平线机器人、比亚迪股份涨超7%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:50",
+      "headline": "日本东证指数日内涨幅扩大至1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:47",
+      "headline": "智谱盘中跌超13%，MINIMAX跌超7%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:47",
+      "headline": "海南自贸区板块集体走强，海南瑞泽、欣龙控股、海马汽车、海南海药涨停，神农种业、海南发展涨超5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 09:45",
+      "headline": "【矿企龙头或加速布局电池产业，据悉已与头部车企展开接触】",
+      "content": "近日，长安汽车官方报道，青山实业董事长项光达率旗下永青科技、青山钢铁、青拓集团、瑞浦兰钧等子企业负责人到访中国长安汽车，与中国长安汽车董事长朱华荣进行交流。据了解，双方将深化合作，发挥双方各自优势，探索新能源汽车市场机遇。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-02 09:43",
       "headline": "地产股震荡拉升，金科股份、津投城开涨停，华丽家族、荣丰控股、电子城、滨江集团、绿地控股涨幅居前。",
@@ -362,8 +410,8 @@
     },
     {
       "datetime": "2026-07-02 07:51",
-      "headline": "日本6月26日当周外资净买进日本股票(亿日元)",
-      "content": "今值: -18165 ， 预期: - - ， 前值: 4794",
+      "headline": "日本6月26日当周外资净买进日本股票 -18165亿日元，前值 4794亿日元。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -388,6 +436,14 @@
       "datetime": "2026-07-02 07:51",
       "headline": "日本6月26日当周外资净买进日本债券(亿日元)",
       "content": "今值: -4937 ， 预期: - - ， 前值: -10573",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 07:51",
+      "headline": "日本6月26日当周外资净买进日本股票(亿日元)",
+      "content": "今值: -18165 ， 预期: - - ， 前值: 4794",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
