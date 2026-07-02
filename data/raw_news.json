@@ -1,13 +1,149 @@
 {
-  "generated_at": "2026-07-02 10:05",
+  "generated_at": "2026-07-02 11:07",
   "fetch_start_time": "2026-07-01 17:00",
-  "fetch_end_time": "2026-07-02 10:05",
+  "fetch_end_time": "2026-07-02 11:07",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 336,
+  "count": 352,
   "items": [
+    {
+      "datetime": "2026-07-02 11:03",
+      "headline": "【赖清德称“中国将农产品武器化” 国台办回应】",
+      "content": "7月2日，国务院台办举行例行新闻发布会。有记者问，赖清德近日称，“中国将农产品武器化，企图以农逼政，包括借题禁止输入、提高关税，台湾农产品外销中国占比已从2015年的20.5%降到2025年的11.5%；美国和日本已成为台湾农产品的前两大出口市场”。请问对此有何评论？",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 11:01",
+      "headline": "【中国气象局：6月我国气温偏高 降水总体偏少】",
+      "content": "中国气象局今天举行新闻发布会，对我国天气形势进行分析总结。在刚刚过去的6月，我国气温偏高，降水总体偏少，但南方强降水过程频繁、落区重叠，强对流天气南北并发，局地极端性强。全国平均气温较常年同期偏高。数据显示，全国平均气温6月份为20.7℃，较常年同期偏高0.3℃。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 11:01",
+      "headline": "隔夜SHIBOR报1.4060%，上涨0.30个基点。",
+      "content": "7天SHIBOR报1.4370%，下降2.60个基点。 3个月SHIBOR报1.4370%，下降0.10个基点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:59",
+      "headline": "【法国南部突发野火，过火面积约800公顷】",
+      "content": "法国南部埃罗省和奥德省7月1日突发野火。截至当晚，过火面积已达800公顷，已有数百名消防员、6架消防飞机和1架直升机投入灭火。奥德省方面说：“野火始于埃罗省博福尔地区，过火面积约400公顷，然后蔓延至奥德省。”这场野火发生前，法国持续数日热浪，强风和干旱导致野火在低矮且极其干燥的植被中迅速蔓延。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:50",
+      "headline": "【中央气象台：今年第9号台风“巴威”生成 未来6天对我国海域无影响】",
+      "content": "据中央气象台微博，今年第9号台风“巴威”已于今天（2日）上午在西北太平洋洋面上生成，上午8点钟其中心位于美国关岛东偏南方向约1620公里的洋面上，就是北纬11.0度、东经160.1度，中心附近最大风力有8级（18米/秒），中心最低气压为998百帕，七级风圈半径为180-280公里。预计，“巴威”将以每小时20公里左右的速度向西偏北方向移动，强度逐渐增强，最强可达超强台风（58-65米/秒，17级或以上）。未来6天“巴威”对我国海域无影响，9日后逐渐趋向我国东南沿海。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:41",
+      "headline": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报162350元/吨，较上日16:30价格上涨1000元/吨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:41",
+      "headline": "国台办：民进党当局应尽早解除对大陆居民赴台游限制。（新华社）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:36",
+      "headline": "【国台办：支持并期盼两岸影视活动越办越多 越办越好】",
+      "content": "7月2日，国务院台办举行例行新闻发布会，发言人朱凤莲表示，第十七届两岸电影展之大陆电影展于6月22日至27日在台北举办。《东极岛》《长安的荔枝》等8部风格多样的大陆影片集中展映，为岛内观众带来一场光影盛宴。影展期间，多位大陆电影人赴台参加了多场交流活动，与台湾观众热情互动，分享创作心得。我们支持并期盼两岸影视活动越办越多，越办越好，促进两岸民众的相互了解，增进情谊。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:32",
+      "headline": "截至早盘收盘，日经225指数跌1.3%，东证指数涨0.8%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:31",
+      "headline": "【南海部分水域有火箭残骸掉落 禁止驶入】",
+      "content": "据中国海事局网站消息，清澜海事局发布航行警告，7月4日16时30分至18时30分，南海部分水域有火箭残骸掉落，禁止驶入。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:26",
+      "headline": "【违规收集个人信息、过度索取权限，32款APP及SDK被通报】",
+      "content": "工业和信息化部信息通信管理局发布关于侵害用户权益行为的APP（SDK）通报称，近期，经组织第三方检测机构进行抽查，共发现32款APP及SDK存在侵害用户权益行为，现予以通报。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:23",
+      "headline": "【韩国起草392万亿韩元投资计划：三星、SK海力士等巨头重仓中部地区】",
+      "content": "韩国产业通商资源部7月2日宣布，将向忠清中部地区注入392万亿韩元的产业投资。在总投资中，三星旗下各子公司将注入约140万亿韩元，用于HBM晶圆厂、先进封装、OLED生产及电池线的建设；SK海力士计划投资约100万亿韩元建设NAND和先进封装厂；生物制药公司Celltrion拟投入约2万亿韩元用于生物制药设施。此外，还有约150万亿韩元将流向AI数据中心。韩国政府承诺将提供融资、税收优惠和监管支持以确保项目落地。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:20",
+      "headline": "西藏发行20年期一般债地方债，规模1.3800亿元，发行利率2.4100%，边际倍数1.02倍，倍数预期2.34；",
+      "content": "西藏发行5年期其他专项地方债，规模9.9000亿元，发行利率1.4900%，边际倍数3.28倍，倍数预期1.50； 西藏发行10年期其他专项地方债，规模0.6481亿元，发行利率1.8800%，边际倍数1.21倍，倍数预期1.80； 西藏发行15年期其他专项地方债，规模1.0400亿元，发行利率2.2300%，边际倍数1.36倍，倍数预期2.16； 西藏发行20年期其他专项地方债，规模12.0119亿元，发行利率2.4000%，边际倍数10.25倍，倍数预期2.35； 西藏发行30年期其他专项地方债，规模1.3000亿元，发行利率2.4500%，边际倍数1.00倍，倍数预期2.42。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:16",
+      "headline": "西藏发行5年期一般债地方债，规模2.9180亿元，发行利率1.4900%，边际倍数2.08倍，倍数预期1.50；",
+      "content": "西藏发行7年期一般债地方债，规模13.1800亿元，发行利率1.6200%，边际倍数1.84倍，倍数预期1.63； 西藏发行10年期一般债地方债，规模62.7243亿元，发行利率1.8400%，边际倍数4.95倍，倍数预期1.80； 西藏发行15年期一般债地方债，规模3.2277亿元，发行利率2.2300%，边际倍数1.22倍，倍数预期2.16。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:14",
+      "headline": "【瑞银：美元兑日元升至163至165区间或将触发日元多头止损盘】",
+      "content": "随着日元汇率跌至1986年以来最低水平，瑞银表示市场关注焦点已转向美元兑日元163至165区间，“大量止损盘和敲出期权头寸仍集中于这一水平，而许多策略师认为该区间对应的官方干预风险也将显著上升。”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:11",
+      "headline": "机器人概念股低开高走，宏昌科技、模塑科技拉升封板，日盈电子、锋龙股份此前涨停，三瑞智能、科德数控、智信精密、宏德股份等涨超10%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 10:06",
+      "headline": "韩国副财长：韩国将在必要时立即采取措施稳定韩元汇率。",
+      "content": "韩元国际化是韩国经济的重要任务。 外国投资者抛售股票加剧了韩元波动。 韩国当局有足够的能力针对韩元采取措施。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-02 09:59",
       "headline": "【阳光电源：预计欧洲市场增速比原预期高出10%左右】",
@@ -410,8 +546,8 @@
     },
     {
       "datetime": "2026-07-02 07:51",
-      "headline": "日本6月26日当周外资净买进日本股票 -18165亿日元，前值 4794亿日元。",
-      "content": "",
+      "headline": "日本6月26日当周外资净买进日本股票(亿日元)",
+      "content": "今值: -18165 ， 预期: - - ， 前值: 4794",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -436,14 +572,6 @@
       "datetime": "2026-07-02 07:51",
       "headline": "日本6月26日当周外资净买进日本债券(亿日元)",
       "content": "今值: -4937 ， 预期: - - ， 前值: -10573",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-02 07:51",
-      "headline": "日本6月26日当周外资净买进日本股票(亿日元)",
-      "content": "今值: -18165 ， 预期: - - ， 前值: 4794",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
