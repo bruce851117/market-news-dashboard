@@ -1,13 +1,69 @@
 {
-  "generated_at": "2026-07-02 11:07",
+  "generated_at": "2026-07-02 11:30",
   "fetch_start_time": "2026-07-01 17:00",
-  "fetch_end_time": "2026-07-02 11:07",
+  "fetch_end_time": "2026-07-02 11:30",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 352,
+  "count": 358,
   "items": [
+    {
+      "datetime": "2026-07-02 11:31",
+      "headline": "【《中国气候变化蓝皮书（2026）》发布】",
+      "content": "中国气象局今天发布《中国气候变化蓝皮书（2026）》，内容显示：全球气候变暖趋势持续演进，海洋变暖显著加速，2025年全球平均海平面创新高、冰川强烈消融、北极海冰年度最大范围创历史新低；中国增暖速率高于同期全球平均水平，极端高温、强降水等极端天气气候事件多发强发。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 11:30",
+      "headline": "【7月2日午间收评：创业板指半日跌3.47%，黄金、机器人概念逆势走强】",
+      "content": "市场早间低开震荡，创业板指跌超3%，科创50指数跌超4%。黄金股逆势走强，招金黄金、赤峰黄金、山金国际涨停。机器人概念反复活跃，锋龙股份、方正电机、雷赛智能等涨停。医药股继续反弹，海南海药、京新药业、石药景峰等涨停。下跌方面，半导体芯片股调整，北方华创触及跌停；CPO等算力硬件股下挫，剑桥科技盘中跌停。个股涨多跌少，沪深京三市超3100股飘红，上午半天成交2.26万亿。午间收盘沪指跌0.9%，深成指跌2.09%，创业板跌3.47%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 11:29",
+      "headline": "【外资6月抛售日本债券规模为2023年以来之最】",
+      "content": "日本财务省公布的初步投资组合资金流向数据显示，海外投资者上月抛售日本债券的规模估计为2023年以来之最。6月外资抛售日本债券的总额达到3.12万亿日元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 11:29",
+      "headline": "隔夜港元银行同业拆息创下1月以来最大跌幅。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 11:16",
+      "headline": "【5月末国开行农业基础设施贷款发放同比增长57%】",
+      "content": "从国家开发银行了解到，今年以来，国开行积极探索推广金融支农创新模式，截至5月末，全行农业基础设施贷款发放同比增长57%，助力农业生产良好开局。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 11:14",
+      "headline": "进出口行发行1年期债券，规模100亿元，发行利率1.3046%，预期1.3100%，投标倍数4.61倍，边际倍数4.03倍；",
+      "content": "进出口行发行3年期债券，规模40亿元，发行利率1.4032%，预期1.4000%，投标倍数4.16倍，边际倍数4.17倍。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 11:12",
+      "headline": "苹果将推出5款新iPhone机型。（日经新闻）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-02 11:03",
       "headline": "【赖清德称“中国将农产品武器化” 国台办回应】",
@@ -674,8 +730,8 @@
     },
     {
       "datetime": "2026-07-02 06:45",
-      "headline": "新西兰5月营建许可环比",
-      "content": "今值: -4% ， 预期: - - ， 前值: 10.9%",
+      "headline": "新西兰5月营建许可环比 -4%，前值 10.9%。",
+      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -684,6 +740,14 @@
       "datetime": "2026-07-02 06:45",
       "headline": "【西班牙6月高温 相关死亡人数达十余年来最高】",
       "content": "按照西班牙有关机构7月1日发布的估算，6月西班牙与高温 相关的死亡人数超千人，是2015年有可比记录以来当月的最高值。西班牙国家气象局在社交媒体上发文说，2026年6月成为1961年有相关气象记录以来第二热的6月，仅次于2025年6月。据西班牙国家气象局发布的初步数据，西班牙本土6月的平均气温较常年同期偏高约3.2摄氏度。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-02 06:45",
+      "headline": "新西兰5月营建许可环比",
+      "content": "今值: -4% ， 预期: - - ， 前值: 10.9%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -1716,22 +1780,6 @@
       "datetime": "2026-07-01 22:30",
       "headline": "美国6月26日当周EIA汽油库存变动(万桶)",
       "content": "今值: -233.3 ， 预期: - - ， 前值: 206.4",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-01 22:30",
-      "headline": "美国6月26日当周EIA精炼厂设备利用率变化",
-      "content": "今值: 0.5% ， 预期: - - ， 前值: -0.6%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-01 22:30",
-      "headline": "美国6月26日当周EIA原油库存变动(万桶)",
-      "content": "今值: -377.5 ， 预期: - - ， 前值: -608.8",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
