@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-05 07:08",
+  "generated_at": "2026-07-05 19:35",
   "timezone": "Asia/Taipei",
   "source": "https://wallstreetcn.com/live/global",
   "fetch_start_time": "2026-07-04 17:00",
-  "fetch_end_time": "2026-07-05 07:06",
-  "raw_count": 19,
-  "count": 5,
+  "fetch_end_time": "2026-07-05 19:32",
+  "raw_count": 53,
+  "count": 12,
   "categories": {
     "bond": "債市",
     "equity": "股市",
@@ -16,67 +16,185 @@
     "commodity": "商品"
   },
   "brief_points": [
-    "伊朗警告霍爾木茲海峽軍事風險，地緣緊張加劇，能源供給溢價風險重燃。",
-    "俄烏衝突升級，莫斯科遭大規模無人機襲擊，避險情緒恐推升市場波動。",
-    "烏軍精準打擊俄國石油設施，能源供應鏈受擾，油價波動風險顯著增加。",
-    "特斯拉限制AI工具支出，顯示科技業對AI資本投入轉趨謹慎，壓抑市場樂觀情緒。",
-    "Trendforce預測Q3傳統DRAM價格漲幅達13%至18%，半導體成本壓力上升，恐影響科技股獲利。"
+    "美俄領導人就烏克蘭問題通話，地緣政治緊張局勢出現潛在緩和契機，需密切關注後續停火談判進展。",
+    "OPEC+同意8月小幅增產，顯示產油國在應對全球能源需求與維持油價穩定間尋求平衡，油市供給壓力有限。",
+    "美光斥資93億美元擴建日本廣島廠布局HBM，凸顯AI硬體需求強勁，半導體設備與材料供應鏈長期受惠。",
+    "美國國防部首度將碳酸鋰納入戰略儲備，顯示關鍵礦產供應鏈安全已成國防戰略核心，鋰價下檔支撐增強。",
+    "鴻海受惠AI算力需求，第三季AI機架出貨看增，顯示AI基礎設施建設動能仍強，有利相關硬體代工廠獲利。",
+    "特斯拉限制員工AI工具開銷，反映科技巨頭開始審視AI投資回報率，市場對AI資本支出過熱的擔憂升溫。",
+    "TrendForce預測第三季傳統DRAM價格漲幅達13%至18%，半導體產業獲利結構有望進一步改善。",
+    "PC零部件與整機價格處於高位且漲勢恐持續一年，供應鏈成本壓力將持續影響終端消費電子獲利表現。"
   ],
   "items": [
+    {
+      "datetime": "2026-07-05 19:32",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "俄羅斯對和平談判持開放態度，期待美國調解",
+      "summary": "俄羅斯總統新聞秘書佩斯科夫表示，俄方對和平談判持開放態度，並期待美國發揮調解作用。",
+      "content": "俄羅斯總統新聞秘書佩斯科夫表示，俄軍在特別軍事行動區域穩步推進，並在邊境建立安全緩衝地帶。俄方對和平談判仍持開放態度，並期待美國發揮調解作用，同時批評歐盟轉變為軍事政治集團使局勢惡化。",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "USA"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-05 18:19",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 4,
+      "headline": "OPEC+同意8月上調石油產量配額",
+      "summary": "OPEC+原則上同意從8月開始將石油產量目標提高18.8萬桶/日。",
+      "content": "OPEC+消息人士指出，成員國已原則上同意從8月開始將石油產量目標提高18.8萬桶/日，並定於2026年8月2日舉行下次會議，以應對全球能源供需變化。",
+      "tags": [
+        "OPEC+",
+        "Oil"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-05 15:43",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "鴻海展望Q3：AI機架出貨量將持續增長",
+      "summary": "鴻海預計第三季度AI機架出貨量將保持增長，整體營運前景樂觀。",
+      "content": "鴻海公佈6月銷售額達8218億元台幣，年增52.1%。公司展望第三季度，受惠於AI算力需求強勁，AI機架出貨量預計將保持增長，整體營運前景在季度與同比表現上均有望持續成長。",
+      "tags": [
+        "Foxconn",
+        "AI",
+        "Equity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-05 09:13",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 4,
+      "headline": "美光日本廣島廠擴建，投資93億美元布局HBM",
+      "summary": "美光科技在日本廣島啟動晶圓廠擴建，投資93億美元布局HBM產能以滿足AI需求。",
+      "content": "美光科技在日本廣島正式啟動晶圓廠擴建工程，總投資約93億美元，用於生產高頻寬記憶體（HBM）等先進晶片。日本經濟產業省將提供最高約5000億日元補貼，預計產品於2028年夏季出貨，以應對全球AI處理器需求。",
+      "tags": [
+        "Micron",
+        "HBM",
+        "AI",
+        "Japan"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-05 08:39",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 4,
+      "headline": "美國國防部啟動碳酸鋰戰略收儲",
+      "summary": "美國國防部後勤局發布公告，計劃五年內採購1.62萬噸電池級碳酸鋰，為美國首次大規模納入國防儲備。",
+      "content": "美國國防部後勤局（DLA）發布招標公告，計劃透過五年期固定價格合約採購電池級碳酸鋰，以補充國家國防儲備。這是美國首次將鋰納入國家國防儲備的大規模採購行動，顯示關鍵礦產供應鏈安全已成為美國國防戰略重點。",
+      "tags": [
+        "Lithium",
+        "Commodity",
+        "US"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-05 08:37",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "PC及硬碟價格持續高位，經銷商示警",
+      "summary": "受蘋果漲價影響，PC零部件與整機價格處於極端高位，經銷商預計漲價趨勢至少持續一年。",
+      "content": "上海多位PC經銷商表示，目前個人電腦零部件與整機價格已處於極端高位，且未來仍有上漲空間，預計漲價趨勢至少持續一年。此輪價格上漲的導火索為蘋果公司近期高調宣布漲價，市場供應鏈成本壓力顯著。",
+      "tags": [
+        "PC",
+        "Apple",
+        "Equity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-05 08:35",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "內塔尼亞胡近期將訪美與特朗普會晤",
+      "summary": "以色列總理內塔尼亞胡與美國總統特朗普進行通話，雙方同意近期在白宮舉行會晤，討論地緣政治議題。",
+      "content": "以色列總理內塔尼亞胡與美國總統特朗普進行通話，雙方同意在不久的將來於美國會面。據悉，會晤最早可能在下週特朗普結束北約峰會行程後舉行，此舉涉及中東局勢與美以關係的進一步協調。",
+      "tags": [
+        "Israel",
+        "US",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-05 08:28",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "普京與特朗普討論烏克蘭問題",
+      "summary": "普京與特朗普進行85分鐘通話，討論俄烏衝突，普京重申傾向政治解決但需考慮俄方立場。",
+      "content": "俄羅斯總統普京與美國總統特朗普進行電話交談，雙方討論烏克蘭問題。特朗普確認推動停火意願，並將派遣特使進行調解。普京強調俄方傾向政治外交途徑，但必須考慮俄方原則性立場，並通報俄軍目前正在全線發起進攻。",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "US",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
     {
       "datetime": "2026-07-04 20:40",
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "特斯拉限制AI工具支出，科技業AI投資趨謹慎",
+      "headline": "特斯拉限制員工AI使用開銷",
       "summary": "特斯拉宣布限制員工AI工具使用開銷，每週上限200美元，反映美國科技企業開始收緊AI相關支出。",
-      "content": "特斯拉發布內部備忘錄，自7月6日起限制員工AI工具使用開銷，每週上限為200美元，超額需主管批准。此舉顯示美國多家科技企業正重新評估並收緊AI領域的資本支出與營運成本，市場關注此趨勢對AI產業鏈獲利能力的影響。",
+      "content": "特斯拉發布內部備忘錄，自7月6日起限制員工在AI工具上的開銷，每週上限為200美元，超出部分需主管批准。此舉顯示美國多家科技企業正開始收緊AI相關的資本支出與營運成本，以優化財務效率。",
       "tags": [
         "Tesla",
-        "AI"
+        "AI",
+        "Equity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-04 20:12",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "伊朗警告霍爾木茲海峽軍事行動風險",
-      "summary": "伊朗副外長警告域外國家勿在霍爾木茲海峽製造危機，強調伊方將對相關軍事動向保持高度警惕。",
-      "content": "針對英法兩國保障航運安全的聯合聲明，伊朗副外長加里巴巴迪回應稱，霍爾木茲海峽非域外國家展示軍事之處，伊朗反對任何影響水道安全的行動，並警告任何製造危機的行為將由相關方承擔後果，地緣政治緊張局勢升溫。",
+      "datetime": "2026-07-04 19:27",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "中國成功發射千帆極軌13組衛星",
+      "summary": "中國於太原衛星發射中心成功發射千帆極軌13組衛星，衛星順利進入預定軌道。",
+      "content": "中國於太原衛星發射中心使用長征六號改運載火箭，成功將千帆極軌13組衛星發射升空。此次任務為長征系列運載火箭第655次飛行，顯示中國在衛星通訊與太空基礎設施建設方面的持續投入。",
       "tags": [
-        "Geopolitics",
-        "Energy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-04 18:08",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "俄羅斯莫斯科遭大規模無人機襲擊",
-      "summary": "俄羅斯莫斯科市長通報，過去24小時內有超過200架烏軍無人機襲擊莫斯科地區，多數被攔截。",
-      "content": "俄羅斯莫斯科市長索比亞寧表示，過去24小時內莫斯科遭遇大規模無人機襲擊，超過200架無人機來襲，其中62架在接近市區時被摧毀。此事件加劇俄烏衝突風險，可能對能源供應與地緣政治穩定造成潛在影響。",
-      "tags": [
-        "Russia",
-        "Ukraine",
-        "War"
+        "China",
+        "Satellite",
+        "Economy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-04 17:23",
-      "category": "commodity",
-      "category_name": "商品",
+      "category": "equity",
+      "category_name": "股市",
       "importance": 3,
-      "headline": "Trendforce：Q3傳統DRAM價格預計上漲",
-      "summary": "Trendforce預測，2026年第三季度傳統DRAM產品合約價格將環比上漲13%至18%。",
-      "content": "根據Trendforce最新報告，受市場供需結構影響，預計2026年第三季度傳統DRAM產品合約價格將出現13%至18%的環比漲幅，此價格變動將影響半導體產業鏈成本結構與相關科技公司獲利。",
+      "headline": "TrendForce預測Q3傳統DRAM價格上漲",
+      "summary": "TrendForce預計2026年第三季度傳統DRAM合約價格將環比上漲13%至18%。",
+      "content": "市場研究機構TrendForce發布報告指出，受供需結構影響，預計2026年第三季度傳統DRAM產品的合約價格將較上一季度上漲13%至18%，此趨勢將影響相關半導體供應鏈獲利表現。",
       "tags": [
         "DRAM",
         "Semiconductor"
@@ -89,13 +207,13 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "烏克蘭打擊俄羅斯石油基礎設施",
-      "summary": "烏克蘭總統澤連斯基證實，烏軍於凌晨發動遠程打擊，擊中俄羅斯聖彼得堡附近石油基礎設施。",
-      "content": "烏克蘭總統澤連斯基證實，烏軍於4日凌晨發動遠程打擊，成功擊中俄羅斯聖彼得堡港口的石油基礎設施及喀琅施塔得軍事目標。此舉進一步擴大俄烏衝突範圍，可能對區域能源供應與油價產生波動影響。",
+      "headline": "烏克蘭證實打擊俄羅斯石油設施",
+      "summary": "烏克蘭總統澤連斯基證實，烏軍於4日凌晨打擊俄羅斯聖彼得堡附近的石油基礎設施。",
+      "content": "烏克蘭總統澤連斯基於社交媒體證實，烏方於4日凌晨發起遠程打擊行動，成功擊中俄羅斯聖彼得堡附近的石油基礎設施，並同時打擊了喀琅施塔得的重要軍事目標，地緣政治風險再度升溫。",
       "tags": [
         "Russia",
         "Ukraine",
-        "Oil"
+        "Energy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
