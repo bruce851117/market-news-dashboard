@@ -1,13 +1,245 @@
 {
-  "generated_at": "2026-07-06 11:44",
+  "generated_at": "2026-07-06 13:39",
   "fetch_start_time": "2026-07-03 17:00",
-  "fetch_end_time": "2026-07-06 11:44",
+  "fetch_end_time": "2026-07-06 13:39",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 408,
+  "count": 435,
   "items": [
+    {
+      "datetime": "2026-07-06 13:38",
+      "headline": "【北汽集团在江西成立汽车公司，注册资本1亿元】",
+      "content": "企查查APP显示，近日，江西北汽昌河汽车有限公司成立，法定代表人为朱油福，注册资本为1亿元，经营范围包含：汽车销售，新能源汽车整车销售，市场营销策划，汽车零部件研发，汽车零部件及配件制造等。企查查股权穿透显示，该公司由北京汽车集团有限公司全资持股。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:35",
+      "headline": "中国台湾证交所加权股价指数收低0.5%报46,556.39点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:34",
+      "headline": "【模拟芯片大厂亚德诺发通知信：部分产品交期拉长 提醒客户提前半年下单】",
+      "content": "模拟芯片大厂亚德诺半导体（ADI）日前再度向客户发出通知书，表示需求回升带动供应吃紧，部分产品交期最长达六个月，若客户未能提前六个月下单，未来可能面临更长交付时间。 (台湾工商时报)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:17",
+      "headline": "【中公教育：公司近期生产经营情况正常，内外部经营环境未发生且未预计将要发生重大变化】",
+      "content": "中公教育发布关于股票交易风险提示公告。公司近期生产经营情况正常，内外部经营环境未发生且未预计将要发生重大变化。公司目前没有任何根据深交所《股票上市规则》规定应予以披露而未披露的事项或与该事项有关的筹划、商谈、意向、协议等；董事会确认公司不存在有根据深交所的规定应予以披露而未披露的、对公司股票交易价格产生较大影响的信息；公司前期披露的信息不存在需要更正、补充之处。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:14",
+      "headline": "日本10年期国债收益率上行至2.815%，为1996年以来的最高水平。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:10",
+      "headline": "A股EDA概念探底拉升，华大九天逼近20cm涨停，概伦电子此前涨停，广立微、安路科技跟涨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:05",
+      "headline": "韩国：西南部计划新建芯片集群的选址已确定。",
+      "content": "将加快龙仁市芯片工厂项目的推进。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:02",
+      "headline": "【中国海军成功组织潜射战略导弹试射】",
+      "content": "7月6日12时01分，中国人民解放军海军1艘战略核潜艇向太平洋相关公海海域，成功发射1发携载训练模拟弹头的潜射战略导弹，准确落入预定海域。此次导弹试射是中方年度军事训练的例行性安排，已事先向有关国家作了通报，符合国际法和国际惯例，不针对任何特定国家和目标。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:57",
+      "headline": "【净利预增近10倍后跌停，光纤牛股杭电股份回应：股价波动系市场行为，公司生产经营正常】",
+      "content": "上周发布业绩利好的杭电股份快速跌停，截至午间收盘仍封死跌停板，报44.1元/股，总市值为305亿元。针对二级市场的表现，杭电股份公司接线工作人员表示：“目前公司生产经营正常，客户合作稳定，（股价波动）这是市场行为，可能一些投资者觉得公司要做得更好或者其他原因。”（21财经）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:46",
+      "headline": "【周小全任上海市国资委党委书记、主任】",
+      "content": "据“上海国资”微信公众号消息，2026年7月6日，市国资委召开系统干部大会。会议宣布了市委关于市国资委主要领导调整的决定：周小全同志任中共上海市国有资产监督管理委员会书记，批准其任上海市国有资产监督管理委员会主任。（澎湃）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:45",
+      "headline": "【研究人员借助AI技术发现两种新型超导体】",
+      "content": "芬兰阿尔托大学参与的一个国际研究团队利用人工智能（AI）发现两种新型超导体，为更高效筛选和研发超导材料提供了新的技术路径。这一成果有助于加快新型超导体研发进程，为寻找可在室温下工作的超导材料带来新的希望。相关研究论文近日发表在美国学术期刊《物理评论·研究》上。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:42",
+      "headline": "日本30年期国债收益率上行3个基点至4.055%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:36",
+      "headline": "【花旗：印尼盾压力或在第三季度暂时缓解】",
+      "content": "花旗预计，随着印尼经常账户的改善，印尼盾面临的压力将在第三季度有所缓解，但警告称，持续存在的结构性缺陷可能会限制这种缓解。花旗预计，受油价下跌、矿业产量增加和进口疲软的影响，第三季度经常账户赤字将收窄至GDP的1%左右，第四季度将低于1%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:31",
+      "headline": "【广西横州多个水库出现险情 升级为防汛一级应急响应】",
+      "content": "受今年第10号台风“美莎克”影响，广西南宁横州市遭遇连续强降雨袭击，六蓝水库、云表水库、三岔水库、茶园水库发生险情，危及下游众多群众。经横州市应急管理委员会办公室会同应急、水利、水文、自然等部门会商研判，并报请市应急管理委员会领导批准，决定自7月6日9:30起，将防汛（台风、暴雨、山洪、地质灾害）二级应急响应调整为一级应急响应。据气象部门预计未来一到两天，当地还将有强降雨过程。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:30",
+      "headline": "【早间要闻汇总】",
+      "content": "科创50探底回升涨近2%，医药医疗股集体走强。 恒指半日涨0.8%，恒生科技指数涨1.2%，恒生生物科技指数涨2.3%，南向资金净买入超100亿港元。 日韩股市高开低走，韩国股市盘中一度跌超3%，日本股市跌超1%，日本20年期国债收益率升至1996年以来最高水平。 高盛下调日元兑美元汇率预期至165，看好作为套利交易的融资货币。 广西发布洪水橙色预警，65条河流82个站超警。水利部对广西的洪水防御Ⅲ级应急响应提升至Ⅱ级。 上周五沪深两市融资余额减少196.66亿元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:30",
+      "headline": "【提醒：日内请重点关注（以下均为北京时间）】",
+      "content": "① 15:00 瑞士6月失业率； ② 16:30 欧元区7月Sentix投资者信心指数； ③ 17:00 欧元区5月PPI，欧元区5月零售销售； ④ 21:45 美国6月标普全球服务业PMI终值； ⑤ 22:00 美国6月ISM非制造业指数； ⑥ 23:00 美联储理事沃勒等发表讲话； 微信小程序搜索“见闻历”，了解更多。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:29",
+      "headline": "【水利部：对广西的洪水防御Ⅲ级应急响应提升至Ⅱ级】",
+      "content": "从水利部获悉，根据《水利部水旱灾害防御应急响应工作规程》和汛情形势，水利部于今天11时将针对广西壮族自治区的洪水防御Ⅲ级应急响应提升至Ⅱ级，强化落实与响应等级匹配的各项防御措施。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:28",
+      "headline": "【日本开始新一轮核污染水排海】",
+      "content": "日本东京电力公司6日启动福岛第一核电站新一轮核污染水排海，这是该公司总计第21次核污染水排海。据福岛当地媒体报道，当地时间6日11时41分（北京时间10时41分），东京电力公司开始本轮核污染水排放。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:26",
+      "headline": "【广西发布洪水橙色预警，65条河流82个站超警】",
+      "content": "从广西壮族自治区水文中心了解到，受今年第10号台风“美莎克”影响，7月5日8时至6日8时，广西共有郁江、防城河、大风江、明江等65条河流82个站超警0.01米至5.80米。自治区水文中心于7月6日8时升级发布洪水橙色预警，同时将广西水文测报三级应急响应提升为二级。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:25",
+      "headline": "广西钦州：持续强降雨，市民非必要不外出，严禁涉水通行。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:24",
+      "headline": "金山办公回应“WPS滥收费、背刺用户” ：言论不实。免费基础功能绝不收费，少数AI办公智能体等高成本服务，会独立计费，用户按需购买。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:23",
+      "headline": "【南宁市将防汛三级应急响应提升为一级】",
+      "content": "受今年10号台风“美莎克”影响，自7月4日以来，南宁市大部出现暴雨到大暴雨、局地特大暴雨，部分江河水位迅速上涨，个别水库出现严重险情，防汛形势严峻。按照《南宁市防汛抗旱应急预案》规定，经市应急管理委员会领导批准，决定于7月6日11时30分将南宁市防汛三级应急响应提升为一级。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:22",
+      "headline": "【京东出手香港房产：7.5亿港元收购油麻地学生宿舍物业】",
+      "content": "远东发展公告称，京东集团旗下公司JD Fabulous Development XI Limited拟以初步购买价7.5亿港元，收购Charter Joy Limited全部已发行股份。目标公司主要持有一项位于香港油麻地的物业，该物业正由酒店客房改装为学生住宿单位，预计于2026年下半年完成全部改装。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:20",
+      "headline": "【河南出台金融支持制造强省“24条”】",
+      "content": "近日，国家金融监督管理总局河南监管局围绕河南省委、省政府加快建设先进制造业强省决策部署，联合中共河南省委金融委员会办公室、河南省工业和信息化厅印发《关于金融支持河南制造强省建设的指导意见》，制定7类24项支持举措，引导金融资源向制造业高端化、智能化、绿色化转型集聚，推动河南制造业实现质的有效提升和量的合理增长。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:18",
+      "headline": "日本首相高市早苗：将在经济和可持续性之间取得平衡。",
+      "content": "国内投资不足以促进经济增长。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:05",
+      "headline": "【国家防总对广西启动防汛三级应急响应】",
+      "content": "7月3日以来，受台风“美莎克”影响，广西出现持续性强降雨，部分地区发生严重洪涝灾害。预计6日至8日，广西强降雨仍将持续，防汛抗洪形势严峻复杂。根据《国家防汛抗旱应急预案》及有关规定，国家防总决定于7月6日10时30分将针对广西的防汛防台风四级应急响应调整为防汛三级应急响应。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 12:02",
+      "headline": "日本20年期国债收益率上行3.5个基点至3.785%，创1996年以来最高水平。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 11:58",
+      "headline": "截至目前，南向资金净买入超100亿港元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 11:57",
+      "headline": "【伊朗已故最高领袖送葬仪式在德黑兰举行】",
+      "content": "据伊朗塔斯尼姆通讯社6日报道，伊朗已故最高领袖阿里·哈梅内伊的送葬仪式当天在伊朗首都德黑兰举行，数百万哀悼者出席了葬礼。据报道，送葬仪式于当日6时开始，大批民众数小时前就已聚集哀悼。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-06 11:44",
       "headline": "【河南：支持民营企业承担省重点研发项目 在数据安全、数据融合应用等领域开展关键核心技术攻关】",
@@ -51,7 +283,7 @@
     {
       "datetime": "2026-07-06 11:31",
       "headline": "上证指数早盘收报4046.70点，涨0.08%。",
-      "content": "深证成指早盘收报15541.62点，跌0.36%。 创业板指早盘收报3999.28点，跌0.51%。 沪深300早盘收报4856.07点，涨0.29%。 科创50早盘收报2014.38点，涨1.96%。 中证500早盘收报8722.84点，跌0.26%。 中证1000早盘收报8554.65点，跌0.77%。",
+      "content": "深证成指早盘收报15541.62点，跌0.36%。 创业板指早盘收报3999.28点，跌0.51%。 沪深300早盘收报4856.07点，涨0.29%。 科创50早盘收报2014.38点，涨1.96%。 中证500早盘收报8722.84点，跌0.26%。 中证1000早盘收报8554.65点，跌0.77%。 相关文章： 科创50深V反转涨超2%，芯片半导体齐跌，创新药再爆发，恒科指涨超1%，科网股多反弹",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -115,7 +347,7 @@
     {
       "datetime": "2026-07-06 10:50",
       "headline": "科创50指数跌超3%，此前一度涨超2%。",
-      "content": "",
+      "content": "相关文章： 科创50深V反转涨超2%，芯片半导体齐跌，创新药再爆发，恒科指涨超1%，科网股多反弹",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -155,7 +387,7 @@
     {
       "datetime": "2026-07-06 10:31",
       "headline": "创业板指、科创50双双跌超2%，沪指跌0.56%，深成指跌1.24%，算力硬件、半导体芯片、消费电子等方向跌幅居前，沪深京三市下跌个股超3300只。",
-      "content": "",
+      "content": "相关文章： 科创50深V反转涨超2%，芯片半导体齐跌，创新药再爆发，恒科指涨超1%，科网股多反弹",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -282,14 +514,6 @@
     },
     {
       "datetime": "2026-07-06 09:30",
-      "headline": "澳大利亚6月ANZ招聘广告环比 -0.2%，前值 1.8%。",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-06 09:30",
       "headline": "澳大利亚6月ANZ招聘广告环比",
       "content": "今值: -0.2% ， 预期: - - ， 前值: 1.8% (修正: 2%)",
       "source": "華爾街見聞",
@@ -370,8 +594,8 @@
     },
     {
       "datetime": "2026-07-06 09:00",
-      "headline": "澳大利亚6月道明证券通胀指数同比 3.9%，前值 4.4%。",
-      "content": "",
+      "headline": "澳大利亚6月道明证券通胀指数同比",
+      "content": "今值: 3.9% ， 预期: - - ， 前值: 4.4%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -396,14 +620,6 @@
       "datetime": "2026-07-06 09:00",
       "headline": "富时中国A50指数期货盘初涨0.21%，上一个交易日夜盘收跌0.03%。",
       "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-06 09:00",
-      "headline": "澳大利亚6月道明证券通胀指数同比",
-      "content": "今值: 3.9% ， 预期: - - ， 前值: 4.4%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
