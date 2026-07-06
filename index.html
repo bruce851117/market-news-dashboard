@@ -560,21 +560,24 @@
       return String(n).padStart(2, "0");
     }
 
+
     function formatDisplayTime(date) {
       if (!date || isNaN(date.getTime())) return "--";
 
+      const weekdays = ["日", "一", "二", "三", "四", "五", "六"];
+      const weekday = weekdays[date.getDay()];
+
       return (
-        date.getFullYear() +
-        "-" +
-        pad(date.getMonth() + 1) +
-        "-" +
+        date.getFullYear() + "-" +
+        pad(date.getMonth() + 1) + "-" +
         pad(date.getDate()) +
+        "（" + weekday + "）" +
         " " +
-        pad(date.getHours()) +
-        ":" +
+        pad(date.getHours()) + ":" +
         pad(date.getMinutes())
       );
     }
+
 
     function toDateTimeLocalValue(date) {
       if (!date || isNaN(date.getTime())) return "";
@@ -836,8 +839,12 @@
         allNews = Array.isArray(data.items) ? data.items : [];
         briefPoints = Array.isArray(data.brief_points) ? data.brief_points : [];
 
+
+        const generatedAtDate = parseDateTime(data.generated_at);
+
         document.getElementById("generatedAt").textContent =
-          data.generated_at || "--";
+          generatedAtDate ? formatDisplayTime(generatedAtDate) : (data.generated_at || "--");
+
 
         updateDataRangeText();
         renderBrief();
