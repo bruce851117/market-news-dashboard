@@ -1,13 +1,1133 @@
 {
-  "generated_at": "2026-07-06 13:39",
+  "generated_at": "2026-07-06 20:28",
   "fetch_start_time": "2026-07-03 17:00",
-  "fetch_end_time": "2026-07-06 13:39",
+  "fetch_end_time": "2026-07-06 20:28",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 435,
+  "count": 575,
   "items": [
+    {
+      "datetime": "2026-07-06 20:28",
+      "headline": "大商所就焦炭期货期权合约公开征求意见。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 20:20",
+      "headline": "【藏格矿业：预计上半年净利润同比增长97.20%～108.31%】",
+      "content": "藏格矿业公告，预计2026年上半年净利润为35.5亿元～37.5亿元，同比增长97.20%～108.31%。公司业绩大幅增长主要由于主营业务盈利水平显著提升、参股公司投资收益同比大幅增加。氯化钾业务盈利持续向好，碳酸锂业务业绩大幅提升，参股公司巨龙铜业投资收益大幅增加。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 20:17",
+      "headline": "沙特阿美将8月阿拉伯轻质原油对亚洲的官方售价下调11美元/桶，为至少2000年以来的最大降幅。",
+      "content": "相关文章： 沙特阿美下调主要原油价格，幅度为至少2000年以来最大",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 20:14",
+      "headline": "新产业：收到实际控制人翁先定先生家属的通知，根据相关监察委员会的《留置通知书》，翁先定先生被实施留置。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 20:14",
+      "headline": "【深交所发布关于中公教育股票交易情况的通报：依规对相关投资者采取了暂停交易等监管措施】",
+      "content": "2026年7月6日，中公教育(002607)股票价格出现异常波动，上市公司已发布交易风险提示公告。深交所密切监控该股交易情况，对影响股票正常交易秩序的异常交易行为，依规对相关投资者采取了暂停交易等监管措施。深交所提醒广大投资者关注投资风险，合规审慎交易。（深交所微信公号）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 20:10",
+      "headline": "【安徽中安财险获发金融许可证】",
+      "content": "国家金融监督管理总局网站更新显示，安徽中安财产保险股份有限公司已于7月3日获发保险机构金融许可证，机构编码为000271，批准时间为6月30日，发证机关为安徽金融监管局。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 20:08",
+      "headline": "【Visa数据显示：一季度上海入境游客消费金额同比增长超50%，外卡受理能力持续增强】",
+      "content": "据Visa2026年第一季度上海入境线下消费统计数据显示，2026年第一季度，上海入境游客消费金额同比增长超过50%，交易笔数同比增长超过60%，来自近200个国家和地区的国际游客在沪消费活跃度显著提升。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 20:05",
+      "headline": "Strategy7月1日至7月5日期间出售了1.352亿美元的比特币。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 20:05",
+      "headline": "博通美股盘前一度涨超5%，报道称博通与苹果同意将技术合作扩展至2031年，博通将为苹果开发定制ASIC芯片产品。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 20:04",
+      "headline": "【国家发改委：今年“两重”建设项目清单全部下达完毕】",
+      "content": "2026年第三批“两重”建设项目近日已下达，共安排超长期特别国债资金1935亿元。至此，今年“两重”建设项目清单已全部下达完毕。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:55",
+      "headline": "高盛：将闪迪目标价从1200美元上调至2200美元。",
+      "content": "将西部数据目标价从400美元上调至650美元。 将应用材料目标价从520美元上调至645美元。 将高通目标价从145美元上调至180美元。 将AMD目标价从450美元上调至640美元。 将希捷科技目标价从700美元上调至960美元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:55",
+      "headline": "【中指研究院：上半年房地产代建入局企业增加，竞争激烈】",
+      "content": "中指研究院最新发布《2026上半年中国房地产代建企业排行榜》，2026上半年，随着房地产代建入局企业增加，竞争激烈。新签约规模前五企业新签约规划建筑面积同比下降21.5%，降幅最大。前十企业新签约规划建筑面积同比下降12.6%，前二十企业新签约规划建筑面积同比下降3.8%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:54",
+      "headline": "【美团无人机专利获授权】",
+      "content": "天眼查知识产权信息显示，近日，北京三快在线科技有限公司申请的 “无人机” 专利获授权。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:51",
+      "headline": "Reddit利用AI打击网站上的AI营销垃圾信息。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:51",
+      "headline": "航锦科技：预计上半年净利润4000万元-5600万元，同比增长191.45%-308.03%。本报告期，公司智算算力板块发展持续向好，已成为公司主要创利来源，预计盈利1.37亿元-1.53亿元；化工板块受销售价格下降影响，预计亏损8500万元-1亿元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:45",
+      "headline": "【香港交易所美元黄金期货成交创新高】",
+      "content": "香港交易所宣布，美元黄金期货日间交易时段共录得6,676张合约成交，创下历史新高，并超过此前于2022年11月7日录得的3,039张合约成交纪录。活跃月份合约买卖价差收窄至一至两个跳动点，其中8月合约低至0.01美元（一个跳动点），12月合约低至两个跳动点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:41",
+      "headline": "【香港交易所美元黄金期货成交创新高】",
+      "content": "据香港交易所消息，7月6日，香港交易所美元黄金期货日间交易时段共录得6676张合约成交，创下历史新高，并超过此前于2022年11月7日录得的3039张合约成交纪录。活跃月份合约买卖价差收窄至一至两个跳动点，其中8月合约低至0.01美元(一个跳动点)，12月合约低至两个跳动点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:39",
+      "headline": "SK海力士美国ADR发行获较大幅度的超额认购，美国上市交易将于纽约时间7月8日下午4点停止接受订单。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:32",
+      "headline": "【抖音电商运动消费趋势报告：观赛季足球相关商品成交额同比增长113%】",
+      "content": "抖音电商发布《2026抖音电商运动消费趋势报告》，报告显示，2026年世界杯观赛季以来，平台足球相关商品成交额同比增长113%。同期，2000余个运动品牌集中上新，新品数同比增长63%；直播间买家人数同比增长68%，商品卡、短视频成交额分别同比增长62%、81%。过去一年，平台运动消费成交额同比增长38%，40岁以下消费者占比83%，县域成交额同比增长40%。（澎湃）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:26",
+      "headline": "【刘国中在山东调研时强调 推动生物医药和农机装备创新发展 加快推进现代化水网建设】",
+      "content": "中共中央政治局委员、国务院副总理刘国中7月4日至6日到山东调研。他强调，要围绕构建现代化产业体系和基础设施体系，大力推动生物医药和农机装备创新发展，因地制宜发展新质生产力，加快推进现代化水网建设，充分挖掘释放有效投资潜力，巩固拓展经济稳中向好势头，实现“十五五”良好开局。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:26",
+      "headline": "以色列总理内塔尼亚胡：特朗普和我在很多事情上看法一致。",
+      "content": "我与特朗普的关系“没问题”。 尚未确定访美日期。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:16",
+      "headline": "光迅科技：拟启动H股上市筹备工作。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:16",
+      "headline": "艾艾精工：控股股东及实际控制人涂木林、蔡瑞美正在筹划可能导致公司控制权发生变更的重大事项，股票停牌。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:15",
+      "headline": "星帅尔：公司关注到近期市场对欧洲高温带动清凉家电出口题材关注度较高，公司应用于空调的热保护器、温控器产品业务占比较小，对公司业绩贡献有限。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:15",
+      "headline": "【耐克被711起诉“撞色”后，涉事鞋款在部分区域下架】",
+      "content": "7月2日，据媒体报道，全球连锁零售巨头7-Eleven正式向美国得克萨斯州北区联邦地区法院提交诉状，将运动品牌龙头耐克推上被告席。7-Eleven指控耐克即将于7月11日发售的新款Air Max 95Big Bubble QS 2（货号IR1944-102），在鞋身侧条纹采用与自家标志性橙、绿、红三色横向条纹高度近似的配色组合，且刻意将发售日选定在7-Eleven年度品牌促销日“7-ElevenDay”，涉嫌违反美国《兰哈姆法》，构成商标侵权、不正当竞争及商业搭便车行为。截至7月6日，耐克方面尚未发布官方回应，涉事鞋款已从SNKRS APP部分区域下架，二级市场溢价传闻四起。（21财经）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:12",
+      "headline": "德福科技：拟定增募资不超过28亿元，用于5万吨人工智能高端电子电路AI铜箔项目、补充流动资金。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:10",
+      "headline": "【1TB固态硬盘从500元涨至1000元】",
+      "content": "记者实探杭州百脑汇电脑城。存储芯片涨价已从上游全面传导至消费终端，普通消费者正面临内存、存储硬盘涨价凶猛。有经销商称，内存和固态硬盘涨得凶，现在有点慌，不会囤太多。据报道，部分固态硬盘与内存条价格翻倍，1TB固态硬盘价格从500元涨至1000元左右，PS5专用8TB固态硬盘售价接近2万元人民币，可买三台PS5 Pro主机。这场由AI算力需求结构性挤占产能引发的涨价潮预计将持续至2027年。（每日经济新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:06",
+      "headline": "【两部门紧急预拨1.6亿元中央自然灾害救灾资金】",
+      "content": "财政部、应急管理部紧急预拨1.6亿元中央自然灾害救灾资金，支持广西、湖南、辽宁、吉林、安徽、山东6省（区）开展洪涝、地质灾害抢险救灾工作。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 19:06",
+      "headline": "香港天文台发布黄色暴雨警告。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:58",
+      "headline": "【欧足联称国际足联“特赦”巴洛贡的决定越过了红线】",
+      "content": "欧足联7月6日发表声明称，国际足联决定暂缓执行对美国队球员巴洛贡吃到红牌后自动停赛一场的处罚，这一决定越过了红线。 欧足联表示，足球和其他任何体育运动一样，都依赖于规则，而规则是公平、公正和透明比赛的基础。红牌罚下后至少自动停赛一场并非可自由裁量，也无需主管机构的批准。这是规则中明确规定的原则，不能有任何例外，更何况是在比赛进行中，其他多名球员都曾遭遇过类似情况并按时服完停赛期的情况下。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:58",
+      "headline": "【中国信通院联合共建的“抗量子计算密码北京市重点实验室”正式启动】",
+      "content": "近日，“抗量子计算密码北京市重点实验室”正式启动。该实验室是由北京市科委、中关村管委会获批建设，依托单位是兴唐通信科技有限公司，由中国信通院与南开大学、中汽研软件测评（天津）有限公司联合共建。中国信通院将依托实验室这一创新载体，进一步发挥在密码领域的标准研制、测试验证与产业生态优势，推动抗量子计算密码核心技术攻关、行业标准体系构建与重点场景落地，持续赋能网络强国与数字中国建设。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:53",
+      "headline": "招商证券：获准公开发行不超700亿元公司债券。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:52",
+      "headline": "数据中心提供商Csquare寻求通过IPO融资至多13.5亿美元。（彭博）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:51",
+      "headline": "南极电商：拟以1亿元-2亿元回购股份，回购价格不超过人民币4.29元/股。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:47",
+      "headline": "【英伟达核心能源生态伙伴称：“800V正常推进中”】",
+      "content": "AI服务器越来越能“吃电”，数据中心的供电方式也被“逼”到了换代关口。 800V高压直流原本被英伟达视为下一代AI机房的关键拼图，却在近期陷入“量产延期”的争议：云厂商到底是不愿买单，还是外界误判了节奏？ 从台达、ABB等英伟达核心能源生态伙伴处获悉，800V方案仍在正常推进中，不过，真正决定这场供电革命走多快的，可能不是英伟达一家公司，而是一整条尚未成熟的能源基础设施产业链。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:45",
+      "headline": "牧原股份：6月份，公司销售商品猪622.7万头，同比变动-11.28%；商品猪销售均价9.69元/公斤，同比变动-31.18%；商品猪销售收入75亿元，同比变动-41.40%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:41",
+      "headline": "中远海控：拟回购5000万股-1亿股，回购价格上限人民币15.40 元/股。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:38",
+      "headline": "SK海力士：投资者表示有意购买高达70亿美元的美国存托股份（ADS）。",
+      "content": "相关文章： SK海力士ADR发行规模缩减至280亿美元，获大幅超额认购",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:37",
+      "headline": "【欧洲稳定机制警告称双重冲击可能将欧元区推入衰退】",
+      "content": "欧元区救助基金呼吁各国政府重建财政缓冲能力，以帮助经济抵御未来可能出现的冲击，包括地缘政治局势进一步恶化以及全球股市大幅下跌等风险。欧洲稳定机制(European Stability Mechanism，简称ESM)在周一发布的最新年度风险评估报告中，敦促各成员国增强财政韧性。报告设想的一种不利情景是：中东局势再度紧张，同时全球资产价格出现大幅回调。ESM首席经济学家Rolf Strauch在一篇博客文章中表示，“任何一种冲击单独出现都将极具挑战性，但如果两者同时发生，欧元区可能陷入衰退，年度通胀率可能接近5%，并在假设货币和财政政策均不作调整的情况下，使大多数成员国的公共债务重新进入上升轨道。”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:36",
+      "headline": "雅化集团：预计2026年上半年净利润为11亿元~13亿元，同比增长710.17%~857.48%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:34",
+      "headline": "SK海力士：拟将净收益用于资本支出及EUV光刻机采购。",
+      "content": "将使用净收益支付45.5万亿韩元的建设资本支出。 预计EUV光刻机采购成本约11.9万亿韩元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:33",
+      "headline": "【交易条款：腾讯全资子公司Tencent Mobility寻求出售快手股份 最高套现约16亿美元】",
+      "content": "交易条款显示，腾讯全资子公司Tencent Mobility拟通过大宗交易出售约2.73亿股快手股份。价格区间为每股43.15港元至44.53港元，较周一46港元的收盘价折让3.2%至6.2%。 卖方设有90天锁定期。高盛和摩根士丹利负责安排此次交易。（彭博）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:25",
+      "headline": "【章源钨业下调2026年7月上半月长单采购报价】",
+      "content": "章源钨业公布2026年7月上半月长单采购报价：55%黑钨精矿：44.80万元/标吨；55%白钨精矿：44.70万元/标吨；仲钨酸铵(国标零级)：66.00万元/吨。注：以上单价含13%增值税。章源钨业2026年6月下半月长单采购报价为：55%黑钨精矿：52.00万元/标吨；55%白钨精矿：51.90万元/标吨；仲钨酸铵(国标零级)：78.00万元/吨。注：以上单价含13%增值税。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:24",
+      "headline": "神州高铁：国投高新正在筹划涉及公司控制权变更的重大事项，交易对手方为某国有综合交通集团，该事项可能导致公司控制权发生变更，股票停牌。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:22",
+      "headline": "【SK海力士计划在美国IPO中发行1779万股普通股】",
+      "content": "SK海力士计划通过美国首次公开募股发行1,779万股普通股。公司预计，通过本次发行并出售由ADS代表的1,779万股普通股，募集资金净额约为280亿美元。该公司表示：”我们拟发行1.779亿份美国存托股份。每一份ADS代表十分之一股普通股，每股普通股面值为5,000韩元”。这些普通股将以美国存托股份的形式发行。（彭博）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:21",
+      "headline": "ST龙元：接相关方通知，正在筹划涉及公司的重大事项，股票停牌。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:19",
+      "headline": "【哈马斯宣布解散加沙战时紧急管理机构】",
+      "content": "当地时间6日，加沙地带政府媒体办公室在代尔拜拉赫举行新闻发布会并在随后发布紧急声明，宣布负责加沙地带的战时紧急管理机构负责人穆罕默德·法拉已正式提交辞呈，并已正式解散加沙战时紧急管理机构，同时宣布将加沙地带的行政与民事管理权全面移交给巴勒斯坦技术官僚委员会的相关准备工作已全部完成。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:19",
+      "headline": "国家防总针对广西启动防汛二级应急响应。（新华社）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:15",
+      "headline": "金城医药：预计上半年净利润1.1亿元-1.4亿元，同比增长153.55%-222.71%；全资子公司北京金城泰尔制药有限公司完成“普罗雌烯阴道用软胶囊生产技术及上市许可持有人权益”转让，增加了非经常性损益。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:14",
+      "headline": "【SpaceX总裁Shotwell将向特朗普账户捐赠SpaceX股票】",
+      "content": "据X平台上的一篇帖文，SpaceX公司总裁兼首席运营官Gwynne Shotwell将向特朗普账户捐出部分SpaceX股份，作为“投资美国”计划的一部分。Shotwell表示，她与丈夫的捐赠“将专门用于生活在平均家庭收入较低地区、年龄在11岁至17岁之间儿童的账户，并会对居住在德克萨斯州中部住所附近地区的孩子给予略微倾斜”。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:10",
+      "headline": "【中国海军成功组织潜射战略导弹试射】",
+      "content": "7月6日12时01分，中国海军1艘战略核潜艇成功发射1发携载训练模拟弹头的潜射战略导弹，准确落入预定海域。图为导弹出水瞬间。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:07",
+      "headline": "【容百科技：预计上半年净利润为1亿元到1.2亿元，同比实现扭亏为盈】",
+      "content": "2026年上半年，受益于新能源行业景气度持续提升，公司经营业绩实现显著修复，并已连续三个季度实现盈利。报告期内，公司持续推进平台化战略，持续优化产品结构和商业模式，三元正极业务盈利能力稳步提升，海外客户出货量实现较大幅增长。同时，磷酸铁锂正极项目按计划推进建设，磷酸锰铁锂业务实现满产满销，钠电正极进入规模化出货阶段，平台化战略成效逐步显现。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:06",
+      "headline": "美元兑日元扩大涨幅，上涨0.7%至日内高点162.40。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:04",
+      "headline": "【摩根士丹利：预计资金将从芯片股向超大规模云服务商轮动】",
+      "content": "摩根士丹利策略师表示，美股可能难再创下新高，投资者将资金从今年以来部分表现最佳的科技股中撤出。由策略师Michael Wilson领导的团队称，半导体股票的动能正在减弱，投资者转向AI超大规模云服务商等表现落后的股票。他指出，这一类股票包括微软、亚马逊和Meta，由于强大的核心业务，这些公司在AI生态系统中具有吸引力。不过，他表示，鉴于指数中一些大型公司正在经历上涨势头逆转，美国主要股指短期内仍将面临压力。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 18:01",
+      "headline": "【主动投案 民航局原党组成员、纪检组组长梁潮平接受审查调查】",
+      "content": "中国民用航空局原党组成员、纪检组组长梁潮平涉嫌严重违纪违法，主动投案，目前正接受中央纪委国家监委纪律审查和监察调查。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:59",
+      "headline": "腾讯控股：7月6日回购46.5万股股份，耗资约2亿港元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:58",
+      "headline": "上交所：宇树科技股份有限公司注册生效。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:57",
+      "headline": "【沪电股份：43亿元人工智能芯片配套高端印制电路板扩产项目预期下半年试产并逐步提升产能】",
+      "content": "沪电股份发布投资者关系活动记录表公告，公司在2024年Q4规划投资约43亿元新建人工智能芯片配套高端印制电路板扩产项目于2025年6月下旬开工建设，目前也正有序推进，预期将在2026年下半年开始试产并逐步提升产能。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:50",
+      "headline": "【兴福电子：国家集成电路基金二期于6月17日至7月6日通过集中竞价方式减持公司股份360万股】",
+      "content": "兴福电子公告，持股5%以上股东国家集成电路产业投资基金二期股份有限公司于2026年6月17日至7月6日通过集中竞价方式减持公司股份360万股，持股数量由2500万股减少至2140万股，占公司总股本比例由6.94%减少至5.94%，触及1%的整数倍。本次权益变动属于履行此前已披露的减持股份计划，不触及强制要约收购义务，不会导致公司控股股东、实际控制人发生变化。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:41",
+      "headline": "超颖电子：拟发行H股股票并在香港联合交易所有限公司上市。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:41",
+      "headline": "【国力电子：公司目前已为相关客户供应MPCVD设备的零部件，占总营收的比例约为5%】",
+      "content": "国力电子股票交易异常波动的公告，关注到公司被列入培育钻石概念，经公司自查，公司目前已为相关客户供应MPCVD设备的零部件，经初步核算，其2026年全年业务收入占总营收的比例约为5%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:37",
+      "headline": "【立昂微：公司目前生产经营正常，内部生产经营秩序正常】",
+      "content": "立昂微股票交易异常波动公告，经公司自查，公司目前生产经营正常，内部生产经营秩序正常。近期公司经营情况及内外部经营环境未发生重大变化，公司主营业务未发生变化。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:35",
+      "headline": "【浙江东方：预计上半年净利润同比增加114.25%】",
+      "content": "浙江东方公告，预计2026年半年度实现归属于母公司所有者的净利润8.72亿元，与上年同期相比，增加约4.65亿元，同比增加约114.25%。预计2026年半年度实现归属于母公司所有者的扣除非经常性损益的净利润8.4亿元，与上年同期相比，增加约4.48亿元，同比增加约114.29%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:33",
+      "headline": "【崔东树：2026年5月份有22款车型降价，6月份有7款车型降价，较去年3-6月大规模降价】",
+      "content": "乘联分会秘书长崔东树发文表示，2025年以来全国乘用车行业促销与降级均回归理性，市场秩序明显改善。由于新能源车购税恢复征收，指导价对消费者购车交税影响体现。面对价格体系的重塑，2026年5月份有22款车型降价，6月份有7款车型降价，较去年3-6月大规模降价，今年3-6月市场保持相对克制，降价品牌表现很强。2026年6月降价规模7款，较同期少7款。其中纯燃油车型4款，较同期少2款；插混车型1款，较同期少1款。燃油车和狭义插混的压力太大，价格调整可以理解。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:30",
+      "headline": "【聚焦人工智能等领域 今年技工院校计划招生125万人】",
+      "content": "日前，人力资源社会保障部发布通知，明确2026年技工院校学制招生目标为125万人。各地技工院校将面向有就业和培训意愿的农村转移就业劳动者、离校未就业高校毕业生、登记失业人员、就业困难人员等重点群体，围绕人工智能、先进制造、低空经济、新能源汽车、康养服务等重点领域市场需求和职业技能要求开展培训。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:26",
+      "headline": "【视源股份：预计2026年上半年净利润同比增长264.62%-314.91%】",
+      "content": "视源股份公告，预计2026年上半年归属于上市公司股东的净利润为14.5亿元-16.5亿元，比上年同期增长264.62%-314.91%。在智能控制部件领域，公司加快拓展高价值增量业务。家用电器控制器业务海内外订单持续增长；汽车电子、电力电子业务伴随重点客户项目导入、产品定点及量产推进实现增长；液晶显示主控板卡业务依托研发、供应链及服务优势实现增长，持续巩固行业领先地位。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:22",
+      "headline": "【猪价再回10元时代】",
+      "content": "猪价正迎来一轮短期强势反弹。根据中国养猪网数据，全国外三元生猪均价从6月26日的9.47元/公斤，一路攀升至7月6日的11.06元/公斤，近10天连续走高，累计上涨1.59元/公斤，涨幅约16.8%。这意味着，此前长期在10元/公斤下方低位徘徊的猪价，时隔四个月重新站上10元关口。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:16",
+      "headline": "【TCL科技：玻璃基封装技术尚处前期调研阶段，商业化存不确定性】",
+      "content": "TCL科技在互动平台表示，公司目前对玻璃基封装领域尚处于前期调研与技术预研阶段。公司于该领域能否技术落地与实现商业化量产仍存在重大不确定性，对公司现有经营业绩无明显影响，敬请投资者关注相关技术风险，理性看待行业题材热度。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:15",
+      "headline": "【联泓新科：预计上半年净利润同比增长148.96%-167.63%】",
+      "content": "联泓新科公告，预计2026年上半年净利润为4亿元-4.3亿元，同比增长148.96%-167.63%。业绩增长的主要原因是：1、联泓格润新能源材料和生物可降解材料一体化项目于2025年四季度顺利投产，EVA二期、PO、PPG等新装置产能陆续释放，新产品产销量增加，销售收入和相应利润同比增加。2、公司运营效能进一步提升，报告期内锂电碳酸酯溶剂、生物可降解材料聚乳酸、超高分子量聚乙烯等装置产能利用率进一步提高，产品产销量同比实现较大幅度增长，贡献业绩增量。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:05",
+      "headline": "【中央网信办深入开展“清朗·整治AI应用乱象”专项行动第一阶段工作】",
+      "content": "“清朗·整治AI应用乱象”专项行动自2026年4月启动以来，中央网信办聚焦未按规定履行大模型备案登记义务、AI平台安全和审核过滤能力不足、AI数据投毒、生成合成内容标识落实不到位等AI应用乱象，部署各地网信部门深入推进第一阶段重点整治任务，并开设“涉AI应用乱象举报专区”，专项受理公众举报。在各方共同努力下，第一阶段累计处置违规网站、应用程序、智能体等AI产品1.4万余款，清理违法违规信息600余万条，处置账号2.6万余个，下架违规AI商品1300余个、违规开源数据集9个，各项工作取得积极进展。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:04",
+      "headline": "【万华化学：预计2026年上半年净利润为98亿元到104亿元，同比增长60.05%到69.85%】万华化学公告，预计2026年上半年净利润为98亿元到104亿元，同比增长60.05%到69.85%。2026年上半年受国际政治因素与地缘冲突影响，全球化工原料价格大幅度上涨，叠加部分地区供需格局改变，推动化工产品市场价格上涨，公司化工产品盈利能力增强。另外，公司一月份完成乙烯一期装置原料多元化改造，石化板块成本竞争优势提升。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:01",
+      "headline": "【非法收受财物超22亿元 南京经开区管委会原常务副主任杨有林一审被判死刑】",
+      "content": "2026年7月6日，江苏省常州市中级人民法院一审公开宣判南京经济技术开发区管委会原常务副主任杨有林受贿、贪污、行贿、挪用公款、滥用职权、洗钱案。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:00",
+      "headline": "欧元区5月零售销售环比",
+      "content": "今值: 0.2% ， 预期: 0.3% ， 前值: -0.4%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:00",
+      "headline": "欧元区5月PPI同比",
+      "content": "今值: 5.9% ， 预期: - - ， 前值: 4.9%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:00",
+      "headline": "欧元区5月PPI环比",
+      "content": "今值: 0.2% ， 预期: - - ， 前值: 0.6%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 17:00",
+      "headline": "欧元区5月零售销售同比",
+      "content": "今值: 1.6% ， 预期: 1.6% ， 前值: 1%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:56",
+      "headline": "【德邦科技：公司适配玻璃基板封装的相关产品尚处于与客户设计磨合和送样验证阶段】",
+      "content": "德邦科技在互动平台表示，目前，公司适配玻璃基板封装的相关产品尚处于与客户设计磨合和送样验证阶段。该类产品后续研发测试结果存在不确定性，客户验证进度、批量产业化落地时间均存在不可预测性，敬请注意投资风险。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:55",
+      "headline": "【长江电力：26年上半年公司境内总发电量约1327.44亿千瓦时，较上年同期增加4.81%】",
+      "content": "长江电力公告，根据公司初步统计，2026年上半年，乌东德水库来水总量约331.96亿立方米，较上年同期偏枯16.94%；三峡水库来水总量约1744.90亿立方米，较上年同期偏丰28.74%。2026年上半年，公司境内所属六座梯级电站总发电量约1327.44亿千瓦时，较上年同期增加4.81%。其中，第二季度公司境内所属六座梯级电站总发电量约709.19亿千瓦时，较上年同期增加2.82%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:43",
+      "headline": "【中国能建在天津成立新合伙企业，出资额40亿】",
+      "content": "天眼查App显示，近日，能合聚源（天津）企业管理中心（有限合伙）成立，执行事务合伙人为中能建基金管理有限公司，出资额40亿人民币，经营范围为企业管理、企业管理咨询。合伙人信息显示，该合伙企业由中国能建（601868）、中国能源建设集团广东省电力设计研究院有限公司、中能建基金管理有限公司等共同出资。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:40",
+      "headline": "【新凤鸣：预计2026年上半年净利润同比增长94.59%到111.51%】新凤鸣公告，预计2026年半年度归属于母公司所有者的净利润为13.8亿元到15亿元，与2025年半年度（法定披露数据）相比同比增长94.59%到111.51%；预计扣除非经常性损益后的净利润为14.5亿元到15.8亿元，同比增长119.61%到139.30%。业绩预增主要因行业新增供给有序放缓、供需关系优化，产品价差扩大，毛利率同比提升。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:38",
+      "headline": "【下半年基金发行热度有望延续 权益类产品或仍为主流】",
+      "content": "2026年上半年，公募基金发行结构迎来明显洗牌，行业正从“重规模”向“重回报”的务实方向转型。展望下半年，完善标准化产品体系渐成行业核心方向。受访基金公司普遍表示，权益类产品仍有望成为发行主流，科技主题、量化产品及“固收+”等多元化布局将是发力重点。 (中国基金报)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:30",
+      "headline": "【菲律宾南部海域发生5.8级地震】",
+      "content": "据菲律宾火山地震研究所消息，6日16时11分左右，菲律宾南部海域发生5.8级地震，震源深度9公里，附近多地有震感。(央视新闻)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:30",
+      "headline": "英国6月建筑业PMI",
+      "content": "今值: 38.4 ， 预期: - - ， 前值: 38.2",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:30",
+      "headline": "欧元区7月Sentix投资者信心指数",
+      "content": "今值: -3.1 ， 预期: - - ， 前值: -13.4",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:23",
+      "headline": "苹果供应商立讯精密据悉香港的上市价格定在区间顶端。（21财经）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:22",
+      "headline": "同仁堂医养暗盘跌超10%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:09",
+      "headline": "港股收盘：恒生指数收涨1.14%，恒生科技指数收涨0.94%。科网股走高，快手涨近8%，腾讯控股涨超4%，美团涨超4%；大模型概念股智谱跌超14%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:09",
+      "headline": "【科威尔：对部分电源产品价格进行5%-10%不等上调】",
+      "content": "7月6日，科威尔公告，受外部环境影响，测试电源主要原材料价格持续上涨。现决定对部分电源产品价格进行5%-10%不等上调。自2026年7月15日前已签订合同并确认的订单，仍按原合同价格执行；自调价生效之日起，所有新下单、补单、未结算订单均统一按照最新价格体系执行。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:08",
+      "headline": "【追问太阳系早期奥秘 天问二号开启科学探测】",
+      "content": "国家航天局7月6日宣布，天问二号探测器历经约400天、约10亿千米航程，终于与它的目标——小行星2016HO3成功“握手”，抵达了距离这颗小行星20千米的预定位置。天问二号主要任务目标是对小行星2016HO3进行探测、取样并返回地球，此后再对主带彗星311P开展科学探测，其间共包含13个飞行阶段。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:06",
+      "headline": "伦敦金属交易所（LME）：铜库存314950吨，减少3950吨。铝库存295550吨，减少3225吨。锌库存118425吨，减少250吨。镍库存274620吨，持平。铅库存292275吨，减少875吨。锡库存8325吨，减少130吨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:03",
+      "headline": "花旗成为第五家在伦敦场外黄金市场（全球最大的黄金交易中心）进行交易清算的银行。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:02",
+      "headline": "美股盘前，大型科技股普涨，美光科技涨超3%，闪迪涨超5%，英特尔涨超2%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 16:00",
+      "headline": "【恒力石化：预计2026年上半年净利润同比增长136.06%左右】",
+      "content": "恒力石化公告，预计2026年半年度实现归属于上市公司股东的净利润为72亿元左右，与上年同期相比，将增加41.5亿元左右，同比增加136.06%左右。扣除非经常性损益事项后，预计实现归属于上市公司股东的净利润为53.3亿元左右，与上年同期相比，将增加30.34亿元左右，同比增加132.10%左右。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:59",
+      "headline": "【99万机器人“伴侣”续航撑不过一晚？优必选：属行业普遍情况】",
+      "content": "优必选最新发布的全尺寸超仿生机器人U1备受外界关注，其中U1 Ultra男版价格高达99万元，但续航却仅能维持2到4小时，“撑不过一晚”，因此遭到外界质疑。优必选方面回应称，目前全尺寸人形机器人续航基本上都在2-4小时，这是行业普遍情况。优必选方面还强调，仿生机器人定位是情感陪伴，这是国家提倡和认可的方向，不是男友、女友或者伴侣。 (界面新闻)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:55",
+      "headline": "截至目前，南向资金净买入额达200亿港元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:51",
+      "headline": "WTI原油跌破68美元/桶，报67.93美元/桶，日内跌超1.0%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:46",
+      "headline": "SK海力士：将通过ADR上市筹集43万亿韩元。",
+      "content": "在纳斯达克上市前修订美国存托凭证参考值，参考周五的收盘价进行ADR上市。 将于7月6日启动ADR簿记建档程序。 Baillie Gifford Overseas Limited、由Coatue Management管理的基金、Situational Awareness Partners LP表示有意合计购买最多70亿美元的ADRs。 法律和会计顾问费为137亿韩元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:41",
+      "headline": "【宝地矿业：预计2026年上半年净利润同比增长189.00%到210.11%】",
+      "content": "宝地矿业公告，预计2026年半年度实现归属于母公司所有者的净利润为1.78亿元到1.91亿元，与上年同期相比，将增加1.16亿元到1.29亿元，同比增加189.00%到210.11%；预计2026年半年度实现归属于母公司所有者的扣除非经常性损益后的净利润为1.73亿元到1.86亿元，与上年同期相比，将增加1.19亿元到1.32亿元，同比增加220.05%到244.10%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:29",
+      "headline": "【首届全球人工智能治理对话在日内瓦举行，将聚焦四大优先事项】",
+      "content": "当地时间7月6日，首届全球人工智能治理对话在瑞士日内瓦举行，约1500名来自世界各地的代表将在为期两天的会议期间就人工智能治理进行交流。据介绍，首届全球人工智能治理对话将聚焦四大优先事项：人工智能的机遇与影响；能力建设与人工智能领域的鸿沟；安全可信的人工智能；人权与人类监督。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:27",
+      "headline": "【腾讯混元Hy3正式发布】",
+      "content": "Hy3基于preview版本进一步提升了后训练数据的质量和多样性，扩大了RL算力规模，在推理、智能体、长上下文等任务上显著进步，取得了比肩国内外更大尺寸旗舰模型（参数规模往往是Hy3的2~5倍）的效果。Hy3已以Apache2.0协议在GitHub、HuggingFace、ModelScope、GitCode开源。得益于一系列软硬协同的优化，腾讯混元也进一步降低了Hy3在腾讯云的API价格及在WorkBuddy等产品上的使用成本。Hy3API价格（每百万Tokens）：输入1元，输出4元，输入（命中缓存）0.25元。（腾讯混元）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:26",
+      "headline": "【外交部发言人就美国独立250周年答记者问】",
+      "content": "外交部发言人毛宁7月6日在例行记者会上答记者问时表示，今年是美国独立250周年，习近平主席已经代表中国政府和中国人民向美国总统特朗普致电表达祝贺。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:24",
+      "headline": "【外交部：欢迎中荷两国商务部门在相互尊重的基础上加强对话交流】",
+      "content": "外交部发言人毛宁主持例行记者会。有荷兰媒体记者提问，荷兰外贸与发展合作大臣舍尔茨玛明天将抵达中国，与中国商务部部长王文涛先生进行会晤。请问中国对此次访问有什么期待？“访问的具体情况建议你向主管部门了解。”毛宁表示，我可以告诉你的是，中国和荷兰互为重要的合作伙伴，秉持开放务实的精神推进对话合作，符合两国的共同利益。我们欢迎两国商务部门在相互尊重的基础上加强对话交流、深化合作。 (北京日报)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:23",
+      "headline": "日本前外汇事务主管称日元被低估高达20%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:21",
+      "headline": "【外交部回应中国防暑降温产品受到欧洲民众追捧】",
+      "content": "就有报道说中国生产的空调、风扇、多功能防晒伞等防暑降温产品受到欧洲民众追捧，外交部发言人毛宁6日在例行记者会上答问时表示，契合需求、物美价优的商品自然会受到欢迎。中欧贸易结构是市场需求驱动、基于优势互补的自然结果。事实证明，在中欧贸易中，消费者得到了实惠、供应商获取了利润，不可能强买强卖，而是双向选择、共同受益。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:19",
+      "headline": "高盛：将2026年第四季度LME铝价预测下调至2,950美元/吨，并将2027年平均价格预测下调至2,700美元/吨。",
+      "content": "将2026年铝供需缺口预测下调至10万吨，并将2027年铝过剩量预测上调至约150万吨。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:18",
+      "headline": "【外交部：中国海军组织潜射战略导弹试射 不针对任何特定国家和目标】",
+      "content": "7月6日，外交部发言人毛宁主持例行记者会。在回答有关中国海军成功组织潜射战略导弹试射的问题时，毛宁表示，关于你提到的这个问题，中方已经发布了消息，具体情况建议你向主管部门了解。我可以告诉你的是，这是中方年度军事训练的例行性安排，符合国际法和国际惯例，不针对任何特定国家和目标。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:17",
+      "headline": "【报道：亚马逊AWS上调第三季度ASIC服务器出货量预测】",
+      "content": "据台湾电子时报，消息人士称，亚马逊AWS已将其第三季度的ASIC服务器出货量预测较原计划上调了20%至30%，这表明其对Trainium3芯片持乐观态度。业界正在关注AWS是否会因强劲势头而加快Trainium4的推出。基于Trainium3的服务器主板及其他部件已于5月开始出货。 相关文章： 加速押注自研AI芯片！AWS三季度ASIC服务器出货目标上调至多30%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:10",
+      "headline": "截至目前，南向资金净买入超150亿港元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:08",
+      "headline": "【中央网信办、中央社会工作部决定集中开展为期2个月的网络平台涉志愿服务违规信息专项整治】",
+      "content": "为进一步加强志愿服务监督管理，深入排查清理网上涉志愿服务违规信息，中央网信办、中央社会工作部决定自2026年6月下旬至8月下旬，集中开展为期2个月的网络平台涉志愿服务违规信息专项整治。通过专项整治，督促电商平台、社交平台等各类网络平台落实主体责任，集中清理涉志愿服务违规信息和账号，进一步加强志愿服务信息平台监管，维护志愿服务的公益性和社会公信力，为志愿服务事业持续健康发展营造良好网络环境。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:04",
+      "headline": "农发行发行3年期债券，规模60亿元，发行利率1.4349%，预期1.4100%，投标倍数6.88倍，边际倍数6.03倍；",
+      "content": "农发行发行3年期债券，规模20亿元，发行利率1.3913%，预期1.3900%，投标倍数5.38倍，边际倍数3.45倍； 农发行发行10年期债券，规模50亿元，发行利率1.8100%，预期1.7800%，投标倍数10.84倍，边际倍数8.19倍。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:03",
+      "headline": "欧股开盘涨跌不一，欧洲斯托克50指数跌0.09%，英国富时100指数跌0.04%，法国CAC40指数涨0.11%，德国DAX指数跌0.01%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:01",
+      "headline": "【A股收盘：创业板指缩量跌1.77%，机器人概念股集体调整】",
+      "content": "1、沪指全天探底回升，创业板指走势较弱。猪肉股持续反弹，巨星农牧涨停。煤炭板块拉升，昊华能源尾盘涨停。创新药概念反复活跃，甘李药业、罗欣药业等涨停。下跌方面，玻璃基板概念下挫，彩虹股份、红星发展等跌停；机器人概念股调整，五洲新春、大业股份等跌停。个股跌多涨少，沪深京三市超3500股飘绿，今日成交3.11万亿。截止收盘沪指跌0.06%，深成指跌1.16%，创业板指跌1.77%。 2、板块概念方面，猪肉、煤炭、银行、创新药等板块涨幅居前，玻璃基板、机器人、PCB、光纤等板块跌幅居前。 3、两市共1817只个股上涨，71只个股涨停，3278只个股下跌，51只个股跌停，40只股票炸板，炸板率38%。 相关文章： 创业板跌近2%，科创50巨震后收涨1%，PCB、CPO齐跌，创新药逆势再爆发，恒指涨超1%三连涨",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:01",
+      "headline": "上证指数收报4041.24点，跌0.06%。",
+      "content": "深证成指收报15416.80点，跌1.16%。 创业板指收报3948.86点，跌1.77%。 沪深300收报4842.00点，跌0.00%。 科创50收报1996.10点，涨1.04%。 中证500收报8651.13点，跌1.08%。 中证1000收报8472.60点，跌1.72%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:00",
+      "headline": "【机构：AI高端MLCC激励日韩大厂订单出货比创新高，下半年缺货风险提升】",
+      "content": "据集邦咨询最新MLCC产业研究，在AI Server加速换代、云端服务供应商（CSP）自研ASIC芯片持续放量的双重驱动下，Murata（村田）、Samsung Electro-Mechanics（三星电机）、Taiyo Yuden（太阳诱电）等三大龙头厂商2026年六月下旬BB Ratio（订单出货比）分别达1.30、1.31、1.25创新高，整体MLCC市场BB Ratio也同步升至1.04。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:00",
+      "headline": "商品期货收盘，鸡蛋主力合约涨超4%，沪锡涨超3%，BR橡胶涨超2%，豆粕、20号胶、纯苯、豆二、燃料油等涨超1%。集运欧线跌超4%，红枣、碳酸锂跌超2%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:00",
+      "headline": "瑞士6月未季调失业率",
+      "content": "今值: 2.9% ， 预期: - - ， 前值: 3%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 15:00",
+      "headline": "瑞士6月季调后失业率",
+      "content": "今值: 3.1% ， 预期: - - ， 前值: 3.1%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:58",
+      "headline": "【保时捷停止接收纯电Macan、Taycan新车个性化定制订单】",
+      "content": "从接近保时捷的知情人士处获悉，基于对国内市场动态的持续审视，保时捷将纯电产品重心聚焦于全新纯电动Cayenne，即日起，停止接收纯电动Macan与Taycan的新车个性化定制订单，已排产订单不受影响。前述知情人士称，消费者仍可在保时捷授权经销商处，选购精心配置的现车。本次调整不涉及现有车主，车主的售后服务及相关权益均不受影响。 (蓝鲸财经)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:55",
+      "headline": "【机构：全面上修第一季DRAM、NAND Flash各产品价格季成长幅度】",
+      "content": "根据集邦咨询最新存储器产业调查，2026年第一季AI与数据中心需求持续加剧全球存储器供需失衡，原厂议价能力有增无减，集邦咨询据此全面上修第一季DRAM、NAND Flash各产品价格季成长幅度，预估整体Conventional DRAM合约价将从一月初公布的季增55-60%，改为上涨90-95%，NAND Flash合约价则从季增33-38%上调至55-60%，并且不排除仍有进一步上修空间。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:53",
+      "headline": "沪深两市成交额突破3万亿，较上日此时缩量超600亿。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:50",
+      "headline": "A股煤炭板块震荡拉升，昊华能源、新集能源逼近涨停，陕西煤业涨超7%，中煤能源、兖矿能源、平煤股份涨幅居前。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:48",
+      "headline": "【广西郁江发生2026年第1号洪水】",
+      "content": "从水利部了解到，受强降雨影响，广西郁江贵港水文站今天（6日）12时30分水位涨至43.00米，超过警戒水位1.80米，根据主要江河洪水编号规定，此次洪水编号为“郁江2026年第1号洪水”。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:46",
+      "headline": "快手港股涨超8%，成交额近30亿港元，此前可灵AI完成约30亿美元融资。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:44",
+      "headline": "北证50指数跌幅扩大至3%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:43",
+      "headline": "【千问大模型升级实时语音识别大模型Fun-ASR-Realtime】",
+      "content": "今天，千问大模型正式升级实时语音识别大模型Fun-ASR-Realtime——一款首字延迟控制在百毫秒级别、识别准确率接近离线模型的流式语音识别模型，支持16种方言和30种语言。（千问大模型）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:40",
+      "headline": "【中欧班列大规模出货空调运往欧洲】",
+      "content": "“我们为法国市场紧急在做3万台移动空调，一周内会逐步交给市场，通过中欧班列的铁路及卡车运输，向德国、英国、西班牙等其他欧洲国家市场也按计划每个星期都有几十货柜陆续出货。”7月3日晚，美的空调海外业务负责人告诉记者，欧洲今夏高温天气下移动空调供不应求的状况已有所缓解。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:39",
+      "headline": "【中国航天科技集团商业火箭公司增资至41.7亿】",
+      "content": "天眼查App显示，近日，中国航天科技集团商业火箭有限公司发生工商变更，注册资本由13.96亿人民币增至约41.7亿人民币。该公司成立于2024年9月，法定代表人为候正全，经营范围包括民用航天发射技术服务，火箭控制系统研发，火箭发动机研发与制造，火箭发射设备研发和制造，特种设备设计，技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广等，由中国航天科技集团有限公司、中国长城工业集团有限公司、上海航天设备制造总厂有限公司等共同持股。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:33",
+      "headline": "日经225指数基本收平，报69737.69点。",
+      "content": "日本东证指数收涨0.9%，报4,101.96点。 韩国首尔综指收跌0.5%，报8051.33点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:30",
+      "headline": "A股机器人概念股持续回落，五洲新春午后跌停，拓斯达、丰光精密、凌云光跌超10%，巨轮智能、安培龙、江苏雷利、柯力传感等跟跌。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:26",
+      "headline": "【沙利文全栈AI云服务报告：阿里云占比40.1%】",
+      "content": "7月6日沙利文发布《开箱即用的AI云服务——2025中国全栈AI云服务市场报告》。报告显示，2025年中国IaaS、PaaS、MaaS总市场规模达595.9亿元，其中阿里云总收入达239亿元，以40.1%的市场份额位列第一，超第二至第四名的总和。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:22",
+      "headline": "【报道：保时捷考虑在德国再裁员4,000人】",
+      "content": "据德国商报，保时捷公司正考虑在其位于Zuffenhausen的工厂再裁减多达4,000个工作岗位，此前该公司已决定裁减3,900个职位。行政和管理部门将受到特别大的影响。报道称，保时捷还可能在Weissach开发基地减少约30%的产能。下一轮裁员的规模预计将在7月底前确定。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:13",
+      "headline": "A股小金属板块震荡走弱，东方钽业、翔鹭钨业、长裕集团触及跌停，西部材料、中钨高新、盛和资源、章源钨业、贵研铂业跟跌。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:02",
+      "headline": "【上半年上海脑机接口融资事件数量占全国近60%】",
+      "content": "在6日举行的“活力中国调研行”上海站主题采访活动情况介绍会上，上海市科委主任骆大进表示，上海强化战略敏捷，超前布局前沿科技与未来产业。目前，重点跟踪的战略前沿领域已增至20个。全市集聚脑机接口企业数量占全国1/3，上半年融资事件数量和披露金额分别占全国近60%和40%；集聚了全国半数的中性原子量子计算整机企业、硅光和第四代半导体企业。打造了4个市级未来产业集聚区、2个未来产业培育区。（一财）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:00",
+      "headline": "德国5月季调后工厂订单同比",
+      "content": "今值: 6.2% ， 预期: - - ， 前值: 1.6%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 14:00",
+      "headline": "德国5月季调后工厂订单环比",
+      "content": "今值: 1.9% ， 预期: - - ， 前值: -3.8%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:58",
+      "headline": "据香港固定收益及货币论坛网页公告，中国央行行长潘功胜将周二早上8:55出席论坛并发表讲话。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:57",
+      "headline": "美元兑日元向上触及162，日内涨0.40%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:50",
+      "headline": "A股通信设备板块拉升，菲菱科思20cm涨停，锐捷网络涨超10%，星网锐捷、共进股份此前涨停，意华股份、美利信跟涨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:45",
+      "headline": "【圣泉集团将于7月13日起上调PPO等低聚物产品价格，涨幅15%~20%】",
+      "content": "从知情人处获悉，圣泉集团将于2026年7月13日起，对PPO、PPE、OPE及MPPO低聚物系列产品实施价格调整，整体上调幅度为15%~20%。据知情人士透露，本轮调价主要受国际地缘政治冲突持续冲击，全球原材料市场波动加剧，核心原料采购成本大幅上涨。此前，公司通过提前战略备货及自行消化成本压力，长期维持售价稳定；但随着备货库存逐步见底，成本居高不下，适度提价已成为保障稳定供应的必要举措。（蓝鲸新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-06 13:43",
+      "headline": "沪深两市成交额突破2.5万亿，较上一日此时放量超300亿。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-06 13:38",
       "headline": "【北汽集团在江西成立汽车公司，注册资本1亿元】",
@@ -283,7 +1403,7 @@
     {
       "datetime": "2026-07-06 11:31",
       "headline": "上证指数早盘收报4046.70点，涨0.08%。",
-      "content": "深证成指早盘收报15541.62点，跌0.36%。 创业板指早盘收报3999.28点，跌0.51%。 沪深300早盘收报4856.07点，涨0.29%。 科创50早盘收报2014.38点，涨1.96%。 中证500早盘收报8722.84点，跌0.26%。 中证1000早盘收报8554.65点，跌0.77%。 相关文章： 科创50深V反转涨超2%，芯片半导体齐跌，创新药再爆发，恒科指涨超1%，科网股多反弹",
+      "content": "深证成指早盘收报15541.62点，跌0.36%。 创业板指早盘收报3999.28点，跌0.51%。 沪深300早盘收报4856.07点，涨0.29%。 科创50早盘收报2014.38点，涨1.96%。 中证500早盘收报8722.84点，跌0.26%。 中证1000早盘收报8554.65点，跌0.77%。 相关文章： 创业板跌近2%，科创50巨震后收涨1%，PCB、CPO齐跌，创新药逆势再爆发，恒指涨超1%三连涨",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -347,7 +1467,7 @@
     {
       "datetime": "2026-07-06 10:50",
       "headline": "科创50指数跌超3%，此前一度涨超2%。",
-      "content": "相关文章： 科创50深V反转涨超2%，芯片半导体齐跌，创新药再爆发，恒科指涨超1%，科网股多反弹",
+      "content": "相关文章： 创业板跌近2%，科创50巨震后收涨1%，PCB、CPO齐跌，创新药逆势再爆发，恒指涨超1%三连涨",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -387,7 +1507,7 @@
     {
       "datetime": "2026-07-06 10:31",
       "headline": "创业板指、科创50双双跌超2%，沪指跌0.56%，深成指跌1.24%，算力硬件、半导体芯片、消费电子等方向跌幅居前，沪深京三市下跌个股超3300只。",
-      "content": "相关文章： 科创50深V反转涨超2%，芯片半导体齐跌，创新药再爆发，恒科指涨超1%，科网股多反弹",
+      "content": "相关文章： 创业板跌近2%，科创50巨震后收涨1%，PCB、CPO齐跌，创新药逆势再爆发，恒指涨超1%三连涨",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
