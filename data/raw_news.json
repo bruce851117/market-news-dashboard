@@ -1,13 +1,157 @@
 {
-  "generated_at": "2026-07-09 07:06",
+  "generated_at": "2026-07-09 08:05",
   "fetch_start_time": "2026-07-08 17:00",
-  "fetch_end_time": "2026-07-09 07:06",
+  "fetch_end_time": "2026-07-09 08:05",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 297,
+  "count": 310,
   "items": [
+    {
+      "datetime": "2026-07-09 08:04",
+      "headline": "【9部门支持加快零售业创新发展】商务部等9部门近日印发的关于加快零售业创新发展的意见，7月9日对外发布。",
+      "content": "意见提出工作新目标，力争到2030年，基本形成布局合理、供给优质、业态多元、智慧便捷、竞争有序的现代零售体系，打造一批带动性强的零售场景，推出一批融合创新的业态模式，培育一批具有国际竞争力的零售企业。 意见明确重点新任务，涵盖系统规划新布局、引领零售新供给、创造消费新需求、激发零售新动能等方面，支持做强做优做大零售企业，为零售业创新转型和高质量发展提供方向指导。 意见优化竞争新环境，针对线上线下零售市场竞争存在的问题，从促进公平竞争、加强价格治理、推进监管统一等方面提出具体要求，包括强化反垄断审查、规范价格行为、线上线下一体化监管、整治虚假宣传和转嫁促销成本等刚性约束。 意见强化保障新政策，从用地保障、融资支持、减税降负、优化审批、法治市场等方面，强化政策集成，解决影响零售业发展的急难愁盼问题，推动资源要素向实体零售集聚、政策措施向实体零售倾斜、工作力量向实体零售加强，打通政策落地“最后一公里”。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 08:04",
+      "headline": "【9部门支持加快零售业创新发展】",
+      "content": "商务部等9部门近日印发的关于加快零售业创新发展的意见，7月9日对外发布。意见提出工作新目标，力争到2030年，基本形成布局合理、供给优质、业态多元、智慧便捷、竞争有序的现代零售体系，打造一批带动性强的零售场景，推出一批融合创新的业态模式，培育一批具有国际竞争力的零售企业。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 08:00",
+      "headline": "【韩国股市高开逾3%】",
+      "content": "日经225指数高开0.3%，韩国首尔综指高开3.3%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 08:00",
+      "headline": "中国即将发行或正在发行的国债和政策性金融债",
+      "content": "证券简称 发行规模(亿元) 期限(年) 招标日期 债券类别 发行起始日期 发行截止日期 上市日期 26国开清发02(增发7) 50.0000 3.0 2026-07-09 记账式 2026-07-09 -- 2026-07-13 26国开清发04(增发21) 20.0000 7.0 2026-07-09 记账式 2026-07-09 -- 2026-07-13 26国开清发05(增发4) 20.0000 10.0 2026-07-09 记账式 2026-07-09 -- 2026-07-13 26进出03(增发7) 40.0000 3.0 2026-07-09 记账式 2026-07-09 -- 2026-07-13 26进出04(增发5) 100.0000 1.0 2026-07-09 记账式 2026-07-09 -- 2026-07-13 数据来源：qeubee终端",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 08:00",
+      "headline": "中国即将发行或正在发行的地方政府债",
+      "content": "证券简称 发债主体 发行规模(亿元) 期限(年) 招标日期 债券类别 发行起始日期 发行截止日期 26贵州债15N 地方政府 150.0000 30.0 2026-07-09 记账式 2026-07-09 -- 26贵州债14N 地方政府 155.3771 20.0 2026-07-09 记账式 2026-07-09 -- 26贵州债13N 地方政府 163.0000 30.0 2026-07-09 记账式 2026-07-09 -- 26贵州债12N 地方政府 39.7699 10.0 2026-07-09 记账式 2026-07-09 -- 26新疆债40 地方政府 2.9000 20.0 2026-07-09 记账式 2026-07-09 -- 数据来源：qeubee终端",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:51",
+      "headline": "【特朗普称伊朗致电迫切想达成协议】",
+      "content": "美国总统特朗普今天（7月9日）在搭乘“空军一号”专机返回美国途中对随行媒体称，“伊朗刚刚打电话来，他们非常迫切地想要达成一项协议。只不过我不知道他们是否还配得上达成协议。”特朗普称，“美国在军事上已经赢了，伊朗什么都不剩了。”在被问到“如果伊朗迫切想达成协议，为什么还要攻击商船”时，特朗普称，“因为他们有点疯狂，失控了——但他们非常迫切地想要达成协议。”（CCTV国际时讯）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:51",
+      "headline": "中国地震台网自动测定：07月09日07时44分在四川宜宾市高县附近发生5.1级左右地震。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:50",
+      "headline": "日本7月3日当周净买进国外股票(亿日元)",
+      "content": "今值: 8245 ， 预期: - - ， 前值: 1477",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:50",
+      "headline": "日本7月3日当周外资净买进日本股票(亿日元)",
+      "content": "今值: -222 ， 预期: - - ， 前值: -18165",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:50",
+      "headline": "日本7月3日当周外资净买进日本债券(亿日元)",
+      "content": "今值: -59 ， 预期: - - ， 前值: -4937",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:50",
+      "headline": "日本7月3日当周净买进国外债券(亿日元)",
+      "content": "今值: -2181 ， 预期: - - ， 前值: -2801",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:50",
+      "headline": "日本6月货币存量M2同比",
+      "content": "今值: 2.2% ， 预期: - - ， 前值: 2.5%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:50",
+      "headline": "日本6月货币存量M3同比",
+      "content": "今值: 1.5% ， 预期: - - ， 前值: 1.7%",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:38",
+      "headline": "【委内瑞拉强震遇难人数升至3811人】",
+      "content": "当地时间8日，委内瑞拉全国代表大会主席豪尔赫·罗德里格斯通过社交媒体通报，该国近日发生的强震造成的死亡人数上升至3811人，受伤人数上升至16740人。此外，强震后发生了1102次余震。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:37",
+      "headline": "麦格理给予中国巨石跑赢大盘的初始评级，目标价83元人民币。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:30",
+      "headline": "【华尔街见闻早餐 | 2026年7月9日】",
+      "content": "特朗普伊朗局势表态降温后美股跌幅收窄，芯片股力撑纳指收涨，中概股大涨，油价大涨，金银跌。 美联储会议纪要：通胀担忧加剧，少数官员支持6月加息，AI跻身三大通胀风险。美联储主席沃什定于7月14-15日出席国会货币政策听证会。 特朗普威胁再打伊朗、恢复海上封锁，后一度“降温”称美伊局势升级会很快平息。 特朗普：格陵兰岛应该由美国控制，丹麦没有花钱帮助它！丹麦首相回应：我们准备捍卫自己的领土。 中国央行Q2货币政策例会称，继续实施适度宽松货币政策，加强对扩内需、科创、中小微企业等领域的金融支持，在经济挑战方面新增了“结构分化”的表述。 中国工信部：Claude Code存在安全后门隐患，危害严重。 韩国股市跌入技术性熊市，监管紧急开会：半导体板块过度集中加剧市场波动。 SK海力士美国IPO获七倍超额认购。 押注语音即AI入口！OpenAI发布新模型GPT-Live，ChatGPT迈入实时对话时代。 苹果豪掷300亿美元，携手博通打造超150亿颗”美国芯”。 蓝色起源首次启动外部融资，冲刺1300亿美元估值。 京东方上半年净利润同比最高预增近七成，LCD景气修复与AMOLED放量共振向上。 提醒：周四将公布中国6月CPI和PPI。 相关文章： 华尔街见闻早餐FM-Radio | 2026年7月9日",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:18",
+      "headline": "【Kalshi交易员预测：受最新挫折影响，霍尔木兹海峡航运要到2027年才能恢复正常】",
+      "content": "据预测市场平台Kalshi上的交易员表示，霍尔木兹海峡的航运流量在2026年之前不太可能恢复正常。 在美国总统特朗普宣布与伊朗的停火协议“结束”后，恢复正常航运的概率大幅下降。 另一预测平台Polymarket上的交易员态度相对乐观，投机者预估这条关键海上航道在12月31日前恢复正常航运的概率为59%。Polymarket采用与Kalshi完全一致的通航判定标准与数据源来结算相关合约。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-09 07:16",
+      "headline": "【智谱：按配售价每股配售股份1,588港元配售新H股】",
+      "content": "智谱公告称，根据一般授权配售新H股，配售价每股配售股份1,588.00港元，配售事项所得款项总额预期合共约为31,410.64百万港元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-09 07:05",
       "headline": "高管表示，贝恩资本已退出闪存制造商铠侠。",
@@ -548,14 +692,6 @@
       "datetime": "2026-07-09 03:00",
       "headline": "恒生指数主连夜盘收跌0.22%，报23983点。",
       "content": "恒生科技指数主连夜盘收跌0.36%，报4681点。",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-09 03:00",
-      "headline": "美国5月消费信贷变动 -1.82亿美元，预期 172亿美元，前值 207.33亿美元。",
-      "content": "",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -1161,38 +1297,6 @@
       "timezone": "Asia/Taipei"
     },
     {
-      "datetime": "2026-07-08 22:30",
-      "headline": "美国7月3日当周EIA汽油库存变动(万桶)",
-      "content": "今值: -190.4 ， 预期: - - ， 前值: -233.3",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-08 22:30",
-      "headline": "美国7月3日当周EIA库欣地区原油库存变动(万桶)",
-      "content": "今值: -5.2 ， 预期: - - ， 前值: 70.9",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-08 22:30",
-      "headline": "美国7月3日当周EIA精炼厂设备利用率变化",
-      "content": "今值: -0.8% ， 预期: - - ， 前值: 0.5%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-08 22:30",
-      "headline": "美国7月3日当周EIA原油库存变动(万桶)",
-      "content": "今值: 299.8 ， 预期: - - ， 前值: -377.5",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
       "datetime": "2026-07-08 22:28",
       "headline": "【国际油价涨幅扩大至7%，标普跌0.7%】",
       "content": "布伦特原油日内涨幅达7.0%，报79.41美元/桶；WTI原油日内涨幅达7.0%，报75.38美元/桶。 标普500指数跌幅扩大至0.7%，道指重挫将近700点、跌幅1.3%，纳指跌超0.4%，纳斯达克100指数跌约1%。 国内SC原油期货主力合约涨6.12%，报483元/桶。",
@@ -1459,7 +1563,7 @@
     {
       "datetime": "2026-07-08 21:31",
       "headline": "美股三大指数开盘下跌，道指开跌0.31%，标普500指数跌0.51%，纳指跌0.44%。存储概念股延续跌势，闪迪跌超1%，美光科技跌超3%。",
-      "content": "相关文章： 美伊停火破裂刺激油价，欧股重挫，美科技股护盘，纳指逆市收涨，中概股大涨",
+      "content": "相关文章： 特朗普\"开火威胁\"搅动全球市场，降温表态后美股跌幅收窄，芯片股力撑纳指收涨，中概股大涨",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
