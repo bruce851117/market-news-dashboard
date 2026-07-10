@@ -1,17 +1,313 @@
 {
-  "generated_at": "2026-07-11 02:39",
+  "generated_at": "2026-07-11 07:06",
   "fetch_start_time": "2026-07-10 17:00",
-  "fetch_end_time": "2026-07-11 02:39",
+  "fetch_end_time": "2026-07-11 07:06",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 213,
+  "count": 249,
   "items": [
     {
+      "datetime": "2026-07-11 06:44",
+      "headline": "美国总统特朗普与沙特王储讨论伊朗问题。（Axios）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 06:27",
+      "headline": "OpenAI回应苹果公司的诉讼：我们对其他公司的商业秘密没兴趣。",
+      "content": "我们仍然侧重于打造创新科技。 相关文章： 硅谷巨头反目！苹果起诉OpenAI窃取商业机密，要求销毁涉密资料并重设计AI硬件",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 06:11",
+      "headline": "【委内瑞拉强震遇难人数升至4118人】",
+      "content": "当地时间10日，委内瑞拉全国代表大会主席豪尔赫·罗德里格斯通过社交媒体通报，该国日前发生的强震造成的死亡人数上升至4118人。此外，受伤人数为16740人，86794个家庭被救助，发生余震1171次。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 06:07",
+      "headline": "【伊朗媒体称，伊朗西部小型炼油厂火灾已得到控制】",
+      "content": "据伊朗半官方的YJC通讯社援引一位当地官员的消息称，周五发生在伊朗西部洛雷斯坦省Oxin Palayesh小型炼油厂的火灾目前已被控制。 洛雷斯坦工业园区公司的安全经理向YJC通讯社表示，火灾被限制在堆放废弃油桶的区域内，并未蔓延至炼油厂的设施或储油罐。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 05:29",
+      "headline": "【以媒：以色列应美国要求限制在黎巴嫩军事行动】",
+      "content": "据以色列公共广播公司10日报道，应美国要求，以色列政府已下令军方暂缓在黎巴嫩南部开展“被视为敏感”的军事行动。报道说，这一指令将持续有效，直至另行通知，并视美国与伊朗局势发展以及以色列与黎巴嫩谈判进展而定。美国近期忙于与伊朗军事对抗，担心以色列行动导致局势进一步升级。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 05:28",
+      "headline": "【美国两年期国债收益率本周涨超7个基点】",
+      "content": "周五（7月10日）纽约尾盘，美国10年期国债收益率涨1.01个基点，报4.5612%，本周累涨7.81个基点，7月6-8日持续走高。 两年期美债收益率涨3.14个基点，报4.2079%，本周累涨7.09个基点；30年期美债收益率跌0.60个基点，报5.0587%。 2/10年期美债收益率利差跌2.125个基点，报+34.920个基点。 10年期通胀保值国债（TIPS）收益率持平，至2.2952%；两年期TIPS收益率涨5.92个基点，至2.1791%；30年期TIPS收益率跌1.29个基点，至2.8617%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 05:15",
+      "headline": "富时A50期指连续夜盘收涨0.31%，报15008点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 05:12",
+      "headline": "周五（7月10日）纽约尾盘，标普500股指期货最终涨0.47%，道指期货涨0.38%，纳斯达克100股指期货涨0.42%。",
+      "content": "罗素2000股指期货跌0.36%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 05:09",
+      "headline": "美国官员：预计伊朗将宣布不会向船只开火，并宣布霍尔木兹海峡不收取通行费。",
+      "content": "如果伊朗不交出“核尘埃”，（美国与伊朗之间）就不会达成协议。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 05:08",
+      "headline": "周五（7月10日）纽约尾盘（周六北京时间04:59），离岸人民币（CNH）兑美元报6.7820元，较周四纽约尾盘涨140点，连续第二个交易日反弹，日内整体交投于6.7961-6.7764元区间，08:39-10:51持续走高。",
+      "content": "本周，离岸人民币整体呈现出V形反转，涨幅大约0.05%，周五反弹明显。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 05:04",
+      "headline": "惠誉：确认荷兰AAA评级，前景展望稳定。",
+      "content": "确认沙特A+评级，前景展望稳定。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:55",
+      "headline": "【现货黄金本周跌1.5%，纽约铜涨1.9%】",
+      "content": "周五（7月10日）纽约尾盘，现货黄金跌0.23%，报4114.36美元/盎司，本周累跌1.51%，在持续震荡下行中、7月8日美股早盘曾跌至4021.92美元。 COMEX黄金期货本周累跌0.12%，报4120.70美元/盎司。 现货白银跌0.21%，报59.8310美元/盎司，本周累跌4.13%，7月8日美股早盘曾跌至57.2260美元。 COMEX白银期货本周累跌1.41%，报60.200美元/盎司。 COMEX铜期货累涨1.90%，报6.2865美元/磅。 现货铂金累跌0.53%，报1634.25美元/盎司；现货钯金累涨0.48%，报1279.88美元/盎司。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:53",
+      "headline": "古巴本周遭遇第二轮全国性停电。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:30",
+      "headline": "【苹果起诉OpenAI窃取其顶级商业机密，引发重磅诉讼】",
+      "content": "苹果公司起诉OpenAI窃取商业机密，指控这家AI初创公司及其硬件主管参与了一场有组织的行动，窃取有关苹果即将发布产品的信息。这家iPhone制造商在周五提交的诉讼中表示，OpenAI鼓励苹果员工分享与未来产品相关的信息、组件、图纸及其他材料——这是该AI公司为开发自己的一整套设备而做出的努力。 在这份提交给加州北区法院的诉讼中，苹果还点名了OpenAI的首席硬件官唐·谭（Tang Tan）。他此前曾担任苹果的产品设计副总裁，领导了iPhone、智能手表、AirPods以及公司硬件工程部门其他几款产品的开发。 相关文章： 硅谷巨头反目！苹果起诉OpenAI窃取商业机密，要求销毁涉密资料并重设计AI硬件",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:29",
+      "headline": "【美股大类资产类ETF涨跌各异，日元做多收涨超0.4%】",
+      "content": "周五（7月10日），日元做多收涨0.46%，标普500 ETF涨0.43%，纳指100 ETF、道指ETF至少涨0.30%，大豆基金涨0.28%，农产品基金、新兴市场ETF、做多美元指数至多涨0.22%。 美国国债20+年ETF跌0.02%，美国布伦特油价基金跌0.05%，欧元做多跌0.11%，黄金ETF跌0.31%，罗素2000指数ETF跌0.42%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:18",
+      "headline": "【伊朗外交部：从未提出与美谈判诉求，同意调解方访伊】",
+      "content": "伊朗外交部发言人巴加埃10日表示，伊朗从未提出过与美国谈判的诉求，但同意调解方访问伊朗。当天早些时候，美国总统特朗普在其社交媒体“真实社交”发文称，伊朗希望与美方继续“谈判”，美国已同意继续谈判。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:16",
+      "headline": "周五（7月10日），美股行业ETF普遍上涨，日常消费品ETF收涨超1.1%，银行业ETF、半导体ETF至少涨0.54%，科技行业ETF、全球科技股指数ETF、网络股指数ETF涨约0.2%，全球航空业ETF跌0.99%，生物科技指数ETF跌2.68%。",
+      "content": "2026年迄今，半导体ETF累涨69.67%，全球科技股指数ETF累涨34.19%，科技行业ETF、能源业ETF至少涨24.89%，可选消费ETF则跌1.42%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:16",
+      "headline": "美联储：美国上周银行存款19.435万亿美元，之前一周19.382万亿美元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:06",
+      "headline": "周五（7月10日），彭博电动汽车价格回报指数涨0.33%，报3438.04点，本周累计下跌4.06%，7月7-8日持续下挫。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:02",
+      "headline": "Meta两个交易日累计上涨11%，创202年4月份以来最佳同期表现。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:01",
+      "headline": "莫德纳收跌11%，创2025年5月以来最大单日跌幅。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:00",
+      "headline": "SK海力士美国上市首日收涨12.76%，报168.01美元，收盘市值1.22万亿美元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:00",
+      "headline": "【本周中概指数涨超3.5%，KWEB累涨超5.5%，网易收跌约4.4%，金山云涨超4.3%】",
+      "content": "纳斯达克金龙中国指数收跌0.23%，报6120.74点，本周累计上涨3.53%。 ETF中，中国科技指数ETF（CQQQ）收跌2.68%，本周反弹3.06%； 德银嘉实沪深300指数ETF（ASHR）收跌1.39%，本周反弹0.63%； XtrackersHarvest中证50（ASHS）收跌1.33%，本周跌0.89%； 中概互联网指数ETF（KWEB）收跌0.38%，本周累涨5.56%、延续上周反弹4.39%的表现； MSCI新兴市场ex中国ETF（EMXC）收涨0.33%，本周反弹1.37%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 04:00",
+      "headline": "【纳指科技股指数收涨将近0.7%，本周半导体指数涨2.7%】",
+      "content": "标普500指数收涨31.75点，涨幅0.42%，报7575.39点，本周累计上涨1.23%，整体形成长尾V形反转行情。 道琼斯工业平均指数收涨149.60点，涨幅0.29%，报52637.01点，本周累跌0.50%。 纳斯达克综合指数（纳指）收涨74.717点，涨幅0.29%，报26281.607点，本周累涨1.74%。 纳斯达克100指数收涨98.013点，涨幅0.33%，报29825.11点，本周累涨1.69%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 03:48",
+      "headline": "【Wedbush：Vera CPU有望拓宽英伟达市场版图】",
+      "content": "Wedbush Securities发布最新研报称，英伟达即将推出的Vera中央处理器有望凭借高核心数优势，在服务器处理器市场巩固其竞争地位。分析师Matt Bryson指出，Vera预计将超越基于x86架构的处理器，性能上的提升有助于英伟达更直接地与现有CPU供应商展开竞争，同时拓展长期市场机遇。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 03:46",
+      "headline": "【SK海力士CEO称2027年将迎史上最严重内存短缺】",
+      "content": "SK海力士首席执行官郭鲁正（Kwak Noh-jung）表示，全球内存行业正走向2027年史上最严重的供应短缺。他预测，尽管公司正在积极扩充产能，但内存需求仍将在未来十年内持续超出公司的生产能力。“我们预测，从供应角度来看，明年将是该行业历史上最糟糕的一年。”（路透）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 03:45",
+      "headline": "【卫星图像曝光：伊朗或在重建多处核设施】",
+      "content": "美媒从文拓卫星公司获取的独家卫星图像显示，有迹象表明伊朗正着手重建境内核设施。该媒体影像核查团队发现，6月末至7月初，伊朗全国多处核设施与导弹基地出现新施工活动。核设施的相关动向尤为引人质疑：德黑兰方面是否违背了6月17日与美国签署的谅解备忘录。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 03:32",
+      "headline": "美国商品期货交易委员会（CFTC）：7月7日当周，投机者所持WTI原油净多头头寸减少19,507手合约，至65,681手合约。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 03:31",
+      "headline": "美国商品期货交易委员会（CFTC）：7月7日当周，投机者所持COMEX黄金净多头头寸减少1,964手合约，至114,854手合约。",
+      "content": "所持COMEX白银净多头头寸减少616手合约，至12,131手合约。 所持COMEX铜净多头头寸减少970手合约，至60,397手合约，创11周新低。 所持NYMEX铂金净多头头寸降低至7,476手合约，创17周新低。 所持NYMEX钯净空头头寸增至6,382手合约，创10个月新高。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 03:30",
+      "headline": "【尽管中东局势紧张，拉美资产仍迎来三周多以来的最佳单日表现】",
+      "content": "周五拉美股市走高，有望创下三周多以来的最大单日涨幅。尽管中东再度爆发的紧张局势令全球风险偏好受到抑制，但油价走高为该地区提供了支撑。 MSCI拉美股票指数上涨2.1%，有望录得自6月17日以来的最大单日涨幅；同时，货币指数上涨0.4%。这两项指数均有望实现周度上涨。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 03:20",
+      "headline": "【美元兑日元涨0.4%】",
+      "content": "周五（7月10日）纽约尾盘，ICE美元指数涨0.06%，报100.968点，整体呈现出W形反转，本周累涨0.10%，交投区间为100.598-101.275点。 彭博美元指数跌0.10%，报1218.91点，本周累跌0.01%，交投区间为1223.61-1216.23点。 美元兑日元跌0.41%，报161.72日元，北京时间09:00前后显著下挫，本周累涨0.23%，交投区间为161.20-162.71日元，整体呈现出M形走势，7月6日显著走高，7月10日显著回落。 本周，欧元兑日元累涨0.04%，英镑兑日元累涨0.62%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 03:02",
+      "headline": "【本周芝加哥小麦期货涨约6.6%，玉米期货涨超4.2%】",
+      "content": "周五（7月10日）纽约尾盘，彭博谷物分类指数涨1.96%，报30.8965点，本周累计上涨4.66%。 本周，CBOT玉米期货累涨4.25%，报4.6025美元/蒲式耳。 CBOT小麦期货累涨6.59%，报6.3925美元/蒲式耳。 CBOT大豆期货累涨3.64%，报11.8950美元/蒲式耳，豆粕期货累涨4.43%，豆油期货累涨5.38%。 CBOT瘦肉猪期货累涨3.63%，活牛期货累跌1.70%，饲牛期货累跌1.73%。 ICE原糖期货累涨0.07%，ICE白糖期货累跌2.35%。 ICE阿拉比卡咖啡期货累涨1.06%，咖啡“C”期货累涨12.13%。罗布斯塔咖啡期货累涨3.61%。 纽约可可期货累涨18.61%，报5973美元/吨。伦敦可可期货累涨17.14%。 芝加哥WCE双低油菜籽期货累涨5.12%。 ICE棉花期货累涨5.74%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 03:01",
+      "headline": "恒生指数主连夜盘收涨0.33%，报24238点。",
+      "content": "恒生科技指数主连夜盘收涨0.40%，报4742点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 03:01",
+      "headline": "在岸人民币兑美元（CNY）北京时间03:00收报6.7770元，较周四夜盘收盘涨140点。成交量483.25亿美元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 02:52",
+      "headline": "【伊朗外长将访阿曼，继续沟通霍尔木兹海峡状况】",
+      "content": "总台记者从伊朗方面获悉，伊朗外交部长阿拉格齐将于11日率领外交代表团访问阿曼。访问期间，双方计划就双边关系和地区局势，特别是霍尔木兹海峡当前状况展开对话并交换意见。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 02:51",
+      "headline": "智利铜业委员会（Cochilco）：5月份智利国家铜业公司（Codelco）铜产量同比下降18.3%，至10.63万吨。",
+      "content": "5月份智利埃斯康迪达（Escondida）铜矿铜产量同比下降17.6%，至10.88万吨。 5月份智利科亚瓦西（Collahuasi）铜矿铜产量同比下降19.3%，至3.1万吨。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-11 02:49",
+      "headline": "【消息人士：美国、伊朗、巴基斯坦与卡塔尔将举行四方通话】",
+      "content": "总台记者获悉，沙特方面10日晚有信息显示，消息人士称，美国、伊朗、巴基斯坦和卡塔尔将举行四方通话。截至目前，相关内容暂未有任何相关方证实。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
       "datetime": "2026-07-11 02:31",
-      "headline": "WTI 8月原油期货收跌0.67美元，跌幅0.93%，报71.41美元/桶。",
-      "content": "中东Abu Dhabi Murban原油期货跌0.99%，报70.66美元/桶，本周累涨6.29%。 NYMEX 8月天然气期货收报2.94美元/百万英热单位。 NYMEX 8月汽油期货收报2.9846美元/加仑，NYMEX 8月取暖油期货收报3.5533美元/加仑。",
+      "headline": "WTI 8月原油期货收跌0.67美元，跌幅0.93%，报71.41美元/桶，本周累计上涨将近3.96%。",
+      "content": "布伦特9月原油期货收跌0.29美元，跌幅0.38%，报76.01美元/桶，本周累涨超5.39%。 中东Abu Dhabi Murban原油期货跌0.99%，报70.66美元/桶，本周累涨6.29%。 NYMEX 8月天然气期货收报2.94美元/百万英热单位。 NYMEX 8月汽油期货收报2.9846美元/加仑，NYMEX 8月取暖油期货收报3.5533美元/加仑。",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -219,7 +515,7 @@
     {
       "datetime": "2026-07-11 00:35",
       "headline": "【SK海力士考虑“内存即服务”模式，或允许客户租赁而非购买芯片】",
-      "content": "SK海力士正在考虑以新的方式销售其内存芯片的使用权，包括所谓的“内存即服务”，这意味着客户可以向这家韩国公司租用存储资源，而无需购买芯片。 “我们实际上可以提供其他商业模式，”SK集团会长崔泰源表示。“我们可以成为存储服务提供商，提供‘内存即服务’。未来，这实际上是我们可以关注的另一个领域。”（彭博电视） 相关文章： SK集团董事长：若股价稳定，考虑增发美国股票、扩大在美投资、推出\"内存即服务\"新模式",
+      "content": "SK海力士正在考虑以新的方式销售其内存芯片的使用权，包括所谓的“内存即服务”，这意味着客户可以向这家韩国公司租用存储资源，而无需购买芯片。 “我们实际上可以提供其他商业模式，”SK集团会长崔泰源表示。“我们可以成为存储服务提供商，提供‘内存即服务’。未来，这实际上是我们可以关注的另一个领域。”（彭博电视）",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -371,7 +667,7 @@
     {
       "datetime": "2026-07-10 23:35",
       "headline": "SK海力士美国IPO首日开盘上涨超过14.09%，报170美元，盘中市值大约1.25万亿美元。",
-      "content": "此前给出的IPO发行价为每份ADS 149美元，通过发行1.779亿份ADS融资大约265亿美元。 相关文章： 海外赴美最大IPO！SK海力士首秀亮眼，一度涨近20%",
+      "content": "此前给出的IPO发行价为每份ADS 149美元，通过发行1.779亿份ADS融资大约265亿美元。 相关文章： AI狂欢持续！SK海力士创海外赴美最大IPO，美股首秀收涨13%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -795,7 +1091,7 @@
     {
       "datetime": "2026-07-10 21:30",
       "headline": "美股三大股指开盘涨跌不一，道指开涨0.26%，标普500指数开涨0.08%，纳指跌0.15%。闪迪跌超4%，美光科技跌超3%；Meta涨4.9%；加密货币概念股Circle涨超11%，公司已获美国货币监理署（OCC）批准，可设立国家信托银行。沃达丰大涨12%，尼尔溢价收购阿联酋电信股权。",
-      "content": "相关文章： SK海力士首日开盘价170美元，美股指盘中涨跌互现，英伟达涨超3%，布油跌超1%",
+      "content": "相关文章： AI叙事助美股三连阳，SK海力士ADR首日大涨13%，布油冲高转跌，黄金走V仍收跌",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -970,6 +1266,14 @@
     },
     {
       "datetime": "2026-07-10 20:30",
+      "headline": "加拿大5月营建许可(金额)环比",
+      "content": "今值: -1.7% ， 预期: 1% ， 前值: -7.6% (修正: -6.6%)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-10 20:30",
       "headline": "加拿大6月兼职就业人数变动(万人)",
       "content": "今值: 1.75 ， 预期: - - ， 前值: -6.62",
       "source": "華爾街見聞",
@@ -980,22 +1284,6 @@
       "datetime": "2026-07-10 20:30",
       "headline": "加拿大6月就业人数变动(万人)",
       "content": "今值: 1.82 ， 预期: 1 ， 前值: 8.78",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-10 20:30",
-      "headline": "加拿大6月就业参与率",
-      "content": "今值: 65% ， 预期: 65% ， 前值: 65%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-10 20:30",
-      "headline": "加拿大6月全职就业人数变动(万人)",
-      "content": "今值: 0.06 ， 预期: - - ， 前值: 15.4",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
