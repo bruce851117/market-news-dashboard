@@ -1,13 +1,1053 @@
 {
-  "generated_at": "2026-07-13 07:05",
+  "generated_at": "2026-07-13 14:04",
   "fetch_start_time": "2026-07-10 17:00",
-  "fetch_end_time": "2026-07-13 07:05",
+  "fetch_end_time": "2026-07-13 14:04",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 425,
+  "count": 551,
   "items": [
+    {
+      "datetime": "2026-07-13 14:06",
+      "headline": "【韩国LS电气与英飞凌将合作开发直流电力解决方案】",
+      "content": "韩国LS电气与英飞凌达成合作协议，将共同开发适用于AI数据中心和未来电网的直流电力解决方案，合作范围包括用于能源储存装置的电力转换装置、半导体变压器和半导体断路器等。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 14:05",
+      "headline": "现货黄金跌破4050美元/盎司关口，报4049.95美元/盎司，日内跌幅达1.7%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 14:01",
+      "headline": "日本没有计划对政府养老投资基金的资产配置进行全面改革。（路透）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:48",
+      "headline": "【巴林第三次拉响防空警报】",
+      "content": "巴林内政部13日在社交媒体上说，巴林再次拉响防空警报。这是该国当天第三次拉响防空警报。当天早些时候，伊朗对位于巴林的美军设施实施了报复性打击。(新华社)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:46",
+      "headline": "WTI原油日内涨幅达5.0%，报75美元/桶，据伊朗媒体IRNA，伊朗伊斯兰革命卫队袭击美国在阿曼和巴林的军事资产。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:43",
+      "headline": "A股AI应用概念局部异动，中国软件直线涨停，浪潮软件触及涨停，国子软件、绿盟科技、诚迈科技、久其软件等快速冲高。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:38",
+      "headline": "科威特将8月对亚洲出口的超轻原油官方售价（OSP）定为较阿曼/迪拜均价贴水5美元/桶。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:35",
+      "headline": "中国台湾证交所加权股价指数收盘变动不大，报45,380.52点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:32",
+      "headline": "台积电：6月营收4,426.8亿元台币，同比增长67.9％。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:31",
+      "headline": "韩国KOSPI指数日内跌超9%，SK海力士跌14.5%，三星电子跌11%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:30",
+      "headline": "A股油气概念午后震荡拉升，山东墨龙逼近涨停，科力股份、通源石油、中国海油、蓝焰控股跟涨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:29",
+      "headline": "【伊朗已对美军发动五阶段打击】",
+      "content": "当地时间今天（7月13日）上午，伊朗伊斯兰革命卫队发表声明称，在对地区美军目标的第五阶段报复性打击行动中，革命卫队不仅“精准打击了位于巴林朱法尔的美军设施，使其遭受重创“，还“成功摧毁了位于阿曼的FPS雷达和舰船探测雷达”。(CCTV国际时讯)",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:26",
+      "headline": "A股存储芯片概念股午后持续走弱，兆易创新触及跌停，成交额超300亿元。此前香农芯创、德明利、诚邦股份跌停，普冉股份、雅创电子、北京君正、佰维存储等多股跌超10%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:22",
+      "headline": "富时中国A50指数期货跌幅扩大至1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:19",
+      "headline": "沪深京三市成交额超2万亿元，较上日此时缩量3819亿元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:19",
+      "headline": "沪指午后跌幅扩大至2%。A股PCB、CPO等算力硬件股持续下挫，宝鼎科技、宏昌电子、博敏电子、泰晶科技、中天科技等多股午后跌停。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:16",
+      "headline": "韩国：预计2027年国家税收收入将超过500万亿韩元。",
+      "content": "预计2027年预算将超过800万亿韩元。 将通过2027年削减成本，节省约50万亿韩元预算。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:16",
+      "headline": "韩国总统李在明：将设立“未来应对基金”，将超额税收收入引导至有成效的未来投资项目。将政府支持引导至芯片、AI数据中心和物理AI三大巨型项目。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:07",
+      "headline": "韩国总统李在明：将设立“未来应对基金”，将超额税收收入引导至生产性未来投资。",
+      "content": "将高于趋势水平的税收收入投资于青年、增长引擎、地区和人才。 将政府支持引导至芯片、AI数据中心和物理AI三大巨型项目。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:02",
+      "headline": "恒生科技指数跌幅扩大至1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 13:01",
+      "headline": "科创50指数跌幅扩大至2%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:56",
+      "headline": "特斯拉次时代AI芯片AI5，已完成设计定案，即将进入大规模量产准备阶段。该芯片由三星电子德州泰勒厂采用2纳米制程制造。 (台湾电子时报)",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:50",
+      "headline": "韩国股市恢复交易，此前跌超8%，触发熔断机制，暂停交易20分钟。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:41",
+      "headline": "【国轩高科：G垣固液混合电池已完成多项测试与验证 具备量产能力】",
+      "content": "国轩高科在互动平台表示，公司海外布局战略明确，基地建设有序推进。近年来，德国、越南、印尼、泰国等海外基地陆续投产以匹配日益增长的海内外车企客户需求，完善客户结构；公司的G垣固液混合电池已完成多项测试与验证，顺利通过夏冬极限工况测试，具备量产能力；公司的动力和储能业务在手订单充足。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:40",
+      "headline": "约旦称击落伊朗发射的四枚导弹。（美联社）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:33",
+      "headline": "印度央行在外汇市场抛售美元以支撑卢比汇率。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:31",
+      "headline": "【早间要闻汇总】",
+      "content": "深成指、创业板指均跌超2%，A股全市场下跌个股超4500只。 港股早盘冲高回落，恒生指数半日跌0.2%，恒生科技指数跌0.9%，MINIMAX大跌逾14%。 韩国股市盘中大跌8%触发熔断，日经225指数跌超2%，MSCI亚太指数跌超1%触及一个月低点，亚洲芯片股大跌。 伊朗对美国位于海湾地区的军事目标发动大规模袭击；美军称打击数十个伊朗目标，首次使用海上无人艇。 韩国央行看好AI驱动的芯片超级周期，驳斥“见顶”担忧。 中国央行公开市场今日净投放2170亿元人民币。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:31",
+      "headline": "【提醒：日内请重点关注（以下均为北京时间）】",
+      "content": "① 待定 OPEC公布月度原油报告； ② 次日00:30 美联储理事沃勒发表讲话； 微信小程序搜索“见闻历”，了解更多。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:31",
+      "headline": "【香港交易所新增18只每周及月度股票期权类别】",
+      "content": "香港交易所宣布，将于2026年8月10日、8月17日及8月31日分批推出18只股票期权类别。本次推出的新股票期权将于首个交易日起同时提供每周及月度到期合约，进一步扩大投资者选择，让市场参与者可按其交易及风险管理需要选择最合适的到期合约。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:31",
+      "headline": "巴基斯坦KSE-100指数日内跌1.2%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:30",
+      "headline": "韩国首尔综合指数下跌8%触发熔断机制，交易暂停20分钟。",
+      "content": "相关文章： 中东战事搅动市场，韩股大跌9%触发熔断，SK海力士重挫14%，原油上涨，黄金下跌",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:25",
+      "headline": "韩国首尔综指日内跌幅扩大至8%。",
+      "content": "相关文章： 韩国券商一句业绩“不及预期”，SK海力士大跌12%，存储板块全线承压！",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:24",
+      "headline": "【行云科技：公司披露的所有重大订单均真实有效】",
+      "content": "行云科技在互动平台表示，公司披露的所有重大订单均真实有效。因行业通用商业保密因素，AI算力赛道头部云厂商、大模型人工智能企业普遍采用匿名签约机制，符合上市公司信息披露与商业保密平衡相关监管规则，且聘请第三方律所进行了核查并出具了法律意见书，订单真实有效，公司将持续履约交付。请投资者理性投资，注意风险。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:14",
+      "headline": "日本东证指数日内跌幅扩大至1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:14",
+      "headline": "印度卢比兑美元下跌0.5%，至95.7838。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:13",
+      "headline": "【伊朗对位于科威特美军设施发动新一轮打击】",
+      "content": "据伊朗媒体13日报道，伊朗已对美军位于科威特的军事基地发动新一轮无人机袭击。与此同时，科威特军方在社交媒体上发文称，目前正在应对敌方空中目标。伊朗媒体援引伊朗伊斯兰革命卫队的声明说，伊朗再次发起无人机袭击，目标是驻科威特美军的防御和导弹系统、掩体以及美军的支援设施。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 12:11",
+      "headline": "路劲：重组支持协议的加入率已逾60%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:58",
+      "headline": "吉林省水利厅和吉林省气象局7月13日11时联合发布山洪灾害气象风险红色预警。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:56",
+      "headline": "MSCI亚太指数一度跌1.6%，触及一个月低点。SK海力士跌13%，三星电子跌8%，日本铠侠跌超11%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:49",
+      "headline": "【今年第11号台风“海神”生成】",
+      "content": "据中央气象台消息，今年第11号台风“海神”（热带风暴级）已于今天（13日）上午在西北太平洋洋面上生成，上午8时其中心位于美国关岛西偏南方向约930公里的洋面上，即北纬10.6度、东经136.7度，中心附近最大风力有8级（18米/秒），中心最低气压为998百帕，七级风圈半径为150—180公里。预计，“海神”将以每小时5—10公里的速度向西北转偏北方向移动，强度变化不大。未来“海神”对我国海域无影响。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:48",
+      "headline": "【伊朗军方谴责美国屡次“非法袭击”】",
+      "content": "当地时间7月13日，伊朗陆军公共关系部发表声明，表示针对美国屡次非法袭击伊朗的行为，数小时前，伊朗陆军再次发动无人机袭击，目标是驻科威特的美军基地、防御和导弹系统、掩体以及美国军队的支援设施。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:47",
+      "headline": "据伊朗媒体7月13日报道，巴林一处美商业机构遭袭起火。（CCTV国际时讯）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:31",
+      "headline": "上证指数早盘收报3934.74点，跌1.54%。",
+      "content": "深证成指早盘收报14654.49点，跌2.61%。 创业板指早盘收报3751.33点，跌2.38%。 沪深300早盘收报4716.67点，跌1.34%。 科创50早盘收报2026.96点，跌1.84%。 中证500早盘收报8233.65点，跌3.18%。 中证1000早盘收报7914.59点，跌3.46%。 相关文章： A股三大股指齐跌超1%，商业航天、算力硬件领跌，恒科指冲高回落跌近1%，芯片股大跌",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:30",
+      "headline": "【7月13日午间收评：深成指、创业板指均跌超2%，全市场下跌个股超4500只】",
+      "content": "1、市场早间低开低走，三大指数集体下挫。氦气概念逆势拉升，九丰能源、水发燃气涨停。医药股表现活跃，，立方制药、哈药股份等涨停。下跌方面，商业航天概念调整，西部材料、上海港湾等跌停；算力硬件股走低，杭电股份、金安国纪等跌停。个股呈现普跌态势，沪深京三市下跌个股超4500只，上午半天成交1.86万亿。午间收盘沪指跌1.54%，深成指跌2.61%，创业板跌2.38%。 2、板块概念方面，医药、银行、氦气等板块领涨；商业航天、算力硬件、半导体芯片等板块领跌； 3、两市共869只个股上涨，24只个股涨停；4270只个股下跌，45只个股跌停；12只股票炸板，炸板率33%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:30",
+      "headline": "国债期货早盘收盘，30年期主力合约跌0.02%，10年期主力合约涨0.01%，5年期主力合约涨0.01%，2年期主力合约涨0.00%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:27",
+      "headline": "韩国首尔综指日内跌幅扩大至7%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:22",
+      "headline": "【5000元以下笔记本越来越少了，经销商：至少一年看不到涨价尽头】",
+      "content": "近期，“5000元以下笔记本基本绝迹”的话题引发广泛讨论。曾经三四千元随便挑的平价机型，如今在主流渠道已难觅踪影，热门游戏本半年涨幅甚至超过5000元，普通消费者换新电脑的门槛大幅抬高。即便叠加补贴优惠，高配笔记本价格也普遍突破万元。多名经销商直言，涨价至少持续一年，建议非刚需用户暂缓购买。从终端市场的实际情况来看，这轮涨价的力度和广度都远超以往。根据经销商的反馈，本轮整机起步涨幅即达800至1000元，去年仅是微调，今年则全面飙升。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:20",
+      "headline": "甘肃发行10年期一般债地方债，规模74.8426亿元，发行利率1.7900%，边际倍数1.14倍，倍数预期1.79；",
+      "content": "甘肃发行7年期棚改专项地方债，规模0.3000亿元，发行利率1.6200%，边际倍数1.00倍，倍数预期1.62； 甘肃发行20年期其他专项地方债，规模10.8427亿元，发行利率2.3900%，边际倍数14.83倍，倍数预期2.37； 甘肃发行20年期其他专项地方债，规模4.3491亿元，发行利率2.3900%，边际倍数1.03倍，倍数预期2.37； 甘肃发行30年期其他专项地方债，规模1.5000亿元，发行利率2.4100%，边际倍数1.50倍，倍数预期2.41； 甘肃发行20年期收费公路专项地方债，规模4.0000亿元，发行利率2.3800%，边际倍数1.00倍，倍数预期2.37； 甘肃发行7年期其他专项地方债，规模0.5000亿元，发行利率1.6200%，边际倍数1.00倍，倍数预期1.62； 甘肃发行10年期其他专项地方债，规模0.2000亿元，发行利率1.8900%，边际倍数1.05倍，倍数预期1.79； 甘肃发行20年期其他专项地方债，规模48.0440亿元，发行利率2.3800%，边际倍数3.90倍，倍数预期2.37； 甘肃发行20年期其他专项地方债，规模12.7073亿元，发行利率2.3800%，边际倍数1.60倍，倍数预期2.37； 甘肃发行20年期其他专项地方债，规模89.3630亿元，发行利率2.3800%，边际倍数67.70倍，倍数预期2.37； 甘肃发行20年期普通专项地方债，规模32.6931亿元，发行利率2.3800%，边际倍数2.67倍，倍数预期2.37； 甘肃发行10年期普通专项地方债，规模65.0000亿元，发行利率1.7900%，边际倍数1.20倍，倍数预期1.80。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:16",
+      "headline": "【美国前参议院共和党领袖麦康奈尔因摔倒入院】",
+      "content": "当地时间7月12日，美国共和党参议员、前参议院共和党领袖米奇·麦康奈尔就其健康状况发表首份声明。声明表示，麦康奈尔上个月不慎跌倒并因此入院治疗。医生已确认，他没有骨折，也没有脑震荡，未突发心脏病或中风，体内也无肿瘤或出血症状。不过，他确实曾“短暂失去意识”并被送往医院。过去几周在接受护理的同时，他也在接受关于轻度肺炎的治疗。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:15",
+      "headline": "越南股指VN指数日内跌幅扩大至1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:13",
+      "headline": "现货白银日内跌幅扩大至3%，报58.03美元/盎司。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:13",
+      "headline": "高盛谈原油：预计到2027年底有效管道运力将再增加380万桶/日，到2028年底累计增加730万桶/日。",
+      "content": "近期遭受的袭击凸显了海湾地区出口依然充满不确定性，若局势严重再度升级，可能会重新加剧原油价格的短期上行风险。 绕过霍尔木兹海峡的管道运力最终扩张，对76美元/桶的长期价格假设构成了下行风险。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:12",
+      "headline": "SK海力士股价跌超12%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 11:01",
+      "headline": "隔夜SHIBOR报1.3720%，上涨1.19个基点。",
+      "content": "7天SHIBOR报1.4000%，上涨1.70个基点。 3个月SHIBOR报1.4290%，上涨0.11个基点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:54",
+      "headline": "【美军称打击数十个伊朗目标 首次使用海上无人艇】",
+      "content": "美军中央司令部12日说，美军已完成对伊朗的新一轮打击。美军使用精确制导弹药打击了伊朗多个地点的数十个目标。美军中央司令部发表声明说，美军使用战斗机、海军舰艇、单向攻击无人机和单向攻击海上无人艇，打击了伊朗军事防空系统、海岸雷达站、导弹和无人机设施以及小型船只。其中，单向攻击海上无人艇是首次投入使用。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:53",
+      "headline": "赛力斯A股盘中触及跌停，港股跌超10%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:53",
+      "headline": "WTI原油期货日内涨幅扩大至4%，布油期货涨近4%，此前美伊冲突升级。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:45",
+      "headline": "【伊朗称摧毁位于巴林的美军无人机指挥控制中心】",
+      "content": "当地时间7月13日凌晨，伊朗伊斯兰革命卫队发布公告，称在第二阶段的反击中摧毁了美军在巴林的谢赫伊萨空军基地重要直升机维修保养中心、P-8电子战飞机机库以及美军无人机指挥控制中心。伊朗伊斯兰革命卫队称反击仍在继续。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:45",
+      "headline": "【伊朗南部阿巴斯港传出巨响】",
+      "content": "当地时间7月13日，据伊朗方面消息，伊朗南部阿巴斯港传出至少两声巨响。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:36",
+      "headline": "美军完成对伊朗的新一轮打击。",
+      "content": "美国重申伊朗不控制霍尔木兹海峡。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:33",
+      "headline": "截至早盘收盘，日经225指数跌1.1%，韩国首尔综指跌0.2%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:33",
+      "headline": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报153950元/吨，较上日16:30价格下跌500元/吨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:32",
+      "headline": "【蚂蚁灵波：不必太纠结是世界模型还是VLA，具身大脑要解决的问题还很多】",
+      "content": "“不用太纠结技术路线，现在整个具身大脑非常不成熟，要解决的问题还有很多。”7月10日，在蚂蚁灵波大脑全栈2.0模型沟通会上，蚂蚁灵波首席科学家沈宇军在接受媒体采访时明确表示。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:31",
+      "headline": "【伊朗称打击约旦美军基地导弹库和燃料库】",
+      "content": "当地时间7月13日凌晨，伊朗伊斯兰革命卫队发布声明称，12日晚，在伊朗伊斯兰革命卫队海军部队阻止两艘违规船只的行动中，这些船只通过关闭设备并以非法路线航行，危及了霍尔木兹海峡的航运。美国再次通过袭击伊朗武装部队的沿海基地，暴露了其“野蛮本性”。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:30",
+      "headline": "【韩国央行看好AI驱动的芯片超级周期，驳斥“见顶”担忧】",
+      "content": "韩国央行在一份报告中表示，全球半导体市场仍处于供不应求的状态，目前由人工智能（AI）驱动的超级周期预计将持续一段时间。该报告驳斥了投资者对芯片周期已经见顶的担忧。报告指出：“尽管由于对AI基础设施的投资，半导体需求大幅飙升，但供应扩张的速度一直较慢。”报告补充称，半导体周期尚未出现放缓迹象。当前的芯片周期与以往不同，因为它是受到企业竞争性投资的推动，这些投资是为了应对AI普及带来的产业生态系统根本性变革。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:25",
+      "headline": "【美众议院本周将表决永久实行夏令时法案】",
+      "content": "根据美国方面消息，美国国会众议院将在本周就一项永久实行夏令时的法案进行表决。不过关于这一议题，美国国内仍然存在较大争议。今年5月，美国国会众议院能源和商业委员会以48比1的结果通过了《阳光保护法案》，该法案旨在永久取消美国每年两次调整时间的做法，让夏令时全年永久化。而美国国会参议院一些议员则威胁说，即使法案在众议院投票中通过，他们也将在参议院否决这一法案。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:23",
+      "headline": "【沈阳发布全市防汛红色预警 防汛应急响应级别提升至一级】",
+      "content": "13日从沈阳市防汛抗旱指挥部获悉，根据沈阳市气象部门降雨预报，结合雨情、水情、工情实际，经会商研判，按照《沈阳市防汛抗旱应急预案》有关规定，沈阳市防汛抗旱指挥部决定于7月13日9时10分发布全市防汛红色预警，提升全市防汛应急响应级别至一级。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:22",
+      "headline": "【中东多地美军基地遭袭】",
+      "content": "当地时间7月13日，巴林境内美军基地附近发生了爆炸，巴林内政部表示防空系统已启动。13日凌晨，约旦美军基地发生爆炸，首都安曼的机场航班已暂停。此外，科威特境内的美军基地当天凌晨也遭到袭击。当地时间13日凌晨，来自伊朗境内不同地区发射的无人机和导弹对美国在海湾地区内的军事目标发动大规模袭击，针对的是在过去48小时内，美方最近的军事调动后被识别出的目标。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:20",
+      "headline": "上海发行3年期普通专项地方债，规模5.2000亿元，发行利率1.2900%，边际倍数1.65倍，倍数预期1.30；",
+      "content": "上海发行10年期普通专项地方债，规模131.0000亿元，发行利率1.7900%，边际倍数6.41倍，倍数预期1.78。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:16",
+      "headline": "上海发行5年期一般债地方债，规模40.2000亿元，发行利率1.4400%，边际倍数1.35倍，倍数预期1.45；",
+      "content": "上海发行10年期一般债地方债，规模34.1151亿元，发行利率1.7900%，边际倍数7.75倍，倍数预期1.75。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:12",
+      "headline": "券商股异动拉升，中泰证券触及涨停，天风证券、华鑫股份、长江证券、方正证券、财达证券跟涨。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:12",
+      "headline": "南向资金净买额达50亿港元。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:09",
+      "headline": "韩国首尔综指跌超6%。",
+      "content": "相关文章： 中东战事搅动市场，韩股大跌9%触发熔断，SK海力士重挫14%，原油上涨，黄金下跌",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:01",
+      "headline": "【日本约四分之一城乡5年间人口减少逾10%】",
+      "content": "据日本媒体12日报道，日本约四分之一市区町村（相当于“市镇乡村”）2025年人口较2020年减少逾10%，最大降幅达34%。日本共同社将2025年日本人口普查结果同2020年数据进行对比，分析1892个市区町村的人口变化情况。结果显示，其中477个市区町村人口减少超10%，较2015年至2020年间的247个增加近一倍。在日本东北部岩手县、秋田县以及西部的高知县，超过半数市区町村出现人口大幅萎缩。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 10:00",
+      "headline": "深成指、创业板指均跌超2%，沪指跌1.18%，军工、培育钻石、影视游戏、光纤等方向跌幅居前，沪深京三市下跌个股近4400只，其中近120股跌超9%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:58",
+      "headline": "【联合国秘书长敦促美伊恢复谈判】",
+      "content": "联合国秘书长发言人12日发表声明说，秘书长古特雷斯对海湾地区局势严重升级以及军事对抗重新爆发深表关切，敦促伊朗和美国紧急恢复谈判，通过外交途径解决悬而未决的问题。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:57",
+      "headline": "A股三大指数均跌超1%，军工、培育钻石、影视游戏、光纤等方向跌幅居前，沪深京三市下跌个股近4300只。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:57",
+      "headline": "【伊朗对美国位于海湾地区的军事目标发动大规模袭击】",
+      "content": "当地时间7月13日凌晨，来自伊朗境内不同地区发射的无人机和导弹对美国在海湾地区内的军事目标发动大规模袭击，针对的是在过去48小时内，美方最近的军事调动后被识别出的目标。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:56",
+      "headline": "SK海力士在韩国交易所跌幅扩大至10%。",
+      "content": "相关文章： 韩国券商一句业绩“不及预期”，SK海力士大跌12%，存储板块全线承压！",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:53",
+      "headline": "A股机器人概念股震荡下挫，领益智造触及跌停，联合精密、大族激光、日发精机、横河精密、德恩精工跌超6%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:51",
+      "headline": "韩国首尔综指下跌5%，跌至7100点下方。SK海力士跌近10%，三星电子跌逾6%。",
+      "content": "MSCI亚太指数下跌1%至268.66点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:40",
+      "headline": "深成指跌超1%，沪指跌0.72%，创业板指跌0.74%，军工、影视、贵金属、游戏等方向跌幅居前，沪深京三市下跌个股超4500只。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:39",
+      "headline": "A股芯片股快速反弹，上海合晶涨超10%，盛科通信、帝奥微、瑞芯微、东微半导、恒玄科技、华天科技、寒武纪涨超5%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:35",
+      "headline": "韩国交易所启动SIDECAR机制，暂停KOSPI程序化抛盘。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:33",
+      "headline": "A股中药股开盘拉升，陇神戎发涨超10%，九芝堂、生物谷、广誉远、以岭药业、大唐药业跟涨，消息上，国务院原则同意《中医药振兴发展“十五五”规划》，加快推进中医药现代化，推动中医药走向世界。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:32",
+      "headline": "恒生科技指数日内涨幅扩大至1.3%，恒指涨幅扩大至0.9%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:30",
+      "headline": "中证转债指数开盘下跌0.11%。精装转债、蓝晓转02、宏微转债、联瑞转债、盛德转债跌幅居前，分别跌3.72%、3.47%、3.30%、3.22%、2.22%。维科转债、爱科转债、南芯转债、杭氧转债、金帝转债涨幅居前，分别涨20.00%、8.61%、8.07%、4.79%、4.26%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:29",
+      "headline": "国债期货开盘，30年期主力合约跌0.04%，10年期主力合约跌0.00%，5年期主力合约跌0.00%，2年期主力合约跌0.01%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:27",
+      "headline": "电子特气概念开盘活跃，九丰能源、陕鼓动力触及涨停，华特气体涨超10%，蜀道装备、金宏气体、杭氧股份纷纷高开，消息上，商务部、海关总署10日公告，对氦气实施临时禁止出口管理，公告自公布之日起执行，后续相关调整将另行公告。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:27",
+      "headline": "韩国首尔综指日内跌幅扩大至4%。",
+      "content": "相关文章： 中东战事搅动市场，韩股大跌9%触发熔断，SK海力士重挫14%，原油上涨，黄金下跌",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:25",
+      "headline": "上证指数开盘报3966.02点，跌0.75%。",
+      "content": "深证成指开盘报14908.98点，跌0.92%。 创业板指开盘报3809.86点，跌0.86%。 沪深300开盘报4745.44点，跌0.74%。 科创50开盘报2038.36点，跌1.29%。 中证500开盘报8409.14点，跌1.12%。 中证1000开盘报8124.36点，跌0.90%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:23",
+      "headline": "【美军袭击伊朗一水泵站 致1死4伤】",
+      "content": "据伊朗方面7月13日消息，美军袭击伊朗西南部马赫沙赫尔的一处水泵站，造成1人死亡、4人受伤。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:21",
+      "headline": "恒指低开0.07%，报24157.65点；恒生科技指数跌0.04%。智谱涨4.9%，网易跌近2%，MINIMAX跌1.8%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:21",
+      "headline": "【中国央行公开市场今日净投放2170亿元人民币】",
+      "content": "中国央行今日开展2240亿元7天期逆回购操作，操作利率1.4%，与此前持平。今日70亿元逆回购到期。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:19",
+      "headline": "【摩根大通再度上调智谱目标价 最新融资有望推动收入转化】",
+      "content": "继上周上调目标价后，摩根大通本周再次将智谱目标价上调20%。因需求已逼近其服务能力上限，因此新增推理资源有望在12个月内转化为年度经常性收入，而最新的融资为这一已可见的转化提供了资金支持。智谱融资加速了清晰的“需求到营收”转化路径，故将其目标价从2,000港元上调至2,400港元，并维持“增持”评级。同时，将MiniMax的目标价从300港元下调至240港元，并维持“中性”评级，因商业转化路径尚未证实，而股权已被稀释。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:15",
+      "headline": "人民币兑美元中间价报6.7972，上调17点；上一交易日中间价6.7989，上一交易日官方收盘价6.7784，上日夜盘报收6.7770。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:11",
+      "headline": "【SK海力士盘中一度跌超8%，机构预测SK海力士第二季度营业利润可能低于市场预期】",
+      "content": "SK海力士在韩国交易所一度下跌8.2%，该公司的美国存托凭证(ADR)在周五上市首日收盘上涨13%。Korea Investment & Securities预测，SK海力士第二季度营业利润可能比市场预期低8%，原因是该公司来自HBM的收入占比高于同行，限制了平均售价的上涨空间。其表示，由于纽约市场的动能已然被市场消化，该股可能面临日内大量获利回吐和套利平仓，以长上影线形态收盘。 相关文章： 韩国券商一句业绩“不及预期”，SK海力士大跌12%，存储板块全线承压！",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:09",
+      "headline": "日经225指数日内跌幅扩大至1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:02",
+      "headline": "【辽宁沈阳启动防汛二级应急响应 今日全市停课停工】",
+      "content": "沈阳市气象台7月13日4时14分发布暴雨红色预警信号：过去1小时，沈阳市和平区、沈河区、皇姑区、大东区、于洪区、沈抚示范区部分乡镇或街道降水量已达到10到40毫米；预计未来2到3小时，上述地区还将出现60到80毫米的降水。请注意交通安全，防范洪涝风险及其次生灾害。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:00",
+      "headline": "台湾证交所加权股价指数盘初上涨1.2%至45,902.76点。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:00",
+      "headline": "【高盛：香港软件科技股表现可能将趋于改善 下半年仍维持超配A股】",
+      "content": "高盛称，该行模型显示H股软件股的表现可能在未来几个月趋于改善，并有望在基本面、估值及流动性等多个维度上缩小与A股硬科技板块之间的差距。总体而言不认同中国AI股票整体存在泡沫的观点，但也观察到AI投资领域内部出现局部过热迹象，主要集中在半导体板块，以及部分A股“硬科技”代表性标的。对于下半年，维持超配A股，主要因其在周期维度上更具优势的盈利动能，以及对国际投资者而言尚未被充分重视的分散化配置价值；也建议开始逐步增持部分港股大型互联网公司股票。 相关文章： 高盛：中国股票出现“轮动信号”，A股硬科技仍占优，H股互联网等盈利修复",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:00",
+      "headline": "商品期货开盘，燃料油主力合约涨近4%，液化气、BR橡胶、纯苯、沥青、LU燃油、原油涨超2%。沪银、沪金、焦炭跌超1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 09:00",
+      "headline": "富时中国A50指数期货盘初跌0.01%，上一个交易日夜盘收涨0.31%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:59",
+      "headline": "韩国首尔综指日内跌幅扩大至3.1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:57",
+      "headline": "匈牙利规模最大的商业银行OTP银行公开股份有限公司据悉考虑发行3年期点心债，规模约为10亿至15亿元人民币。（彭博）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:47",
+      "headline": "【两市融资余额减少113.39亿元】",
+      "content": "截至7月10日，上交所融资余额报14712.72亿元，较前一交易日减少79.75亿元；深交所融资余额报14424.97亿元，较前一交易日减少33.64亿元；两市合计29137.69亿元，较前一交易日减少113.39亿元。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:43",
+      "headline": "中国外汇交易中心（CFETS）：7月10日人民币汇率指数按周跌0.3至102.35。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:42",
+      "headline": "韩国首尔综指日内跌幅扩大至2.1%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:42",
+      "headline": "2年期美国国债收益率升至2025年2月以来的最高水平。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:37",
+      "headline": "【中际旭创：二季度公司毛利率预期仍保持稳定】",
+      "content": "中际旭创7月12日称，二季度公司毛利率预期仍保持稳定，不会由于物料紧张、物料涨价等因素出现明显下滑。今年下半年，物料预计将出现不同程度的缓解，公司备料非常充分，下半年会有边际改善。公司有信心保持未来毛利率的稳定。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:37",
+      "headline": "【泰国曼谷市长：酒吧火灾已致27人遇难63人受伤】",
+      "content": "当地时间13日，泰国曼谷市市长差察·西迪汶通报称，该市12日深夜发生的酒吧火灾已确认造成27人遇难、63人受伤，其中22人伤势危重。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:35",
+      "headline": "【今年上半年全国铁路发送旅客23.48亿人次，创历史同期新高】",
+      "content": "从国铁集团获悉，今年上半年，全国铁路累计发送旅客23.48亿人次、同比增长5.0%，创历史同期新高。上半年，国铁集团充分运用铁路12306售票和候补购票大数据，动态分析出行需求，及时在热门方向和区段增加运力，全国铁路日均安排开行旅客列车11468列，同比增加630列、增长5.8%。积极适应国家过境免签政策带来的客流增长，为外籍旅客出行提供便利，全国铁路发送外籍旅客1231.4万人次、同比增长33.6%。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:09",
+      "headline": "【华泰证券：中国航天迈入“重复使用火箭”大门 关注航天板块投资机会】",
+      "content": "华泰证券研报称，据中国航天科技集团官方消息，7月10日12时15分，长征十号乙运载火箭在海南商业航天发射场发射升空，火箭一二级分离约6分钟后，一子级转入返回程序，先后完成滑行调姿、动力减速、气动减速和着陆捕获，最终精准落入海上平台的网索之间。此次火箭一级成功回收意味着中国航天从“一次性火箭”迈入“重复使用火箭”大门，为中国商业航天走向具备低成本、高频次的天地往返能力奠定了基础。华泰证券认为，国内可回收火箭技术已实现从0到1的历史性突破，随着后续可回收技术的持续进步，多型可回收火箭有望进入常态化、航班化的发射阶段，而可回收火箭带来的降本效应和发射频次提升将惠及整个航天产业，带动我国航天产业快速发展。建议关注航天板块投资机会。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:09",
+      "headline": "【美媒称约20艘商船通过霍尔木兹海峡】",
+      "content": "美国媒体12日援引一名美国官员的话报道说，在过去24小时，约20艘商船在美军协调下通过了霍尔木兹海峡，另有数艘商船未经美军协调通过该海峡。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:01",
+      "headline": "韩国7月1-10日出口同比增长53.9%，进口增长17.4%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:00",
+      "headline": "日经225指数低开0.1%，韩国首尔综指低开0.9%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:00",
+      "headline": "中国即将发行或正在发行的国债和政策性金融债",
+      "content": "证券简称 发行规模(亿元) 期限(年) 招标日期 债券类别 发行起始日期 发行截止日期 上市日期 26农发绿债01(增发3) 40.0000 3.0 2026-07-13 记账式 2026-07-13 -- 2026-07-15 25农发09(增发28) 20.0000 3.0 2026-07-13 记账式 2026-07-13 -- 2026-07-15 26农发05(增发) 40.0000 5.0 2026-07-13 记账式 2026-07-13 -- 2026-07-15 数据来源：qeubee终端",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 08:00",
+      "headline": "中国即将发行或正在发行的地方政府债",
+      "content": "证券简称 发债主体 发行规模(亿元) 期限(年) 招标日期 债券类别 发行起始日期 发行截止日期 26上海21N 地方政府 131.0000 10.0 2026-07-13 记账式 2026-07-13 -- 26上海20N 地方政府 5.2000 3.0 2026-07-13 记账式 2026-07-13 -- 26上海19N 地方政府 34.1151 10.0 2026-07-13 记账式 2026-07-13 -- 26上海18N 地方政府 40.2000 5.0 2026-07-13 记账式 2026-07-13 -- 26甘肃债46N 地方政府 65.0000 10.0 2026-07-13 记账式 2026-07-13 -- 数据来源：qeubee终端",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:59",
+      "headline": "【中际旭创澄清二季度业绩严重不及预期和故意压制股价传言】",
+      "content": "中际旭创7月12日称，近期市场针对公司及行业的小作文较多，主要澄清如下：1、关于二季度业绩严重不及预期的传言：该传言没有任何依据，给投资者带来恐慌。公司目前还没有发布业绩预告和半年报，但公司对2026年半年度经营情况和行业需求都非常有信心。2、关于公司故意压制股价的传言：公司不存在故意压制股价、收入延迟等情况，也不会刻意调整业绩。公司一贯注重资本市场形象和保护投资者利益，此类传言是对公司极大误解。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:52",
+      "headline": "【伊朗称胡齐斯坦省遭美方袭击】",
+      "content": "据伊朗方面13日消息称，伊朗西南部的胡齐斯坦省副省长表示，当天凌晨1时35分，胡齐斯坦省首府阿瓦士周边两个地点遭到美国发射的炮弹袭击。此外，该省多个市县也成为美军袭击目标。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:51",
+      "headline": "【本周中国央行公开市场共620亿元7天期逆回购到期】",
+      "content": "其中，周一至周五逆回购分别到期70亿元、100亿元、150亿元、100亿元、200亿元。此外，周三将有9000亿元181天期买断式逆回购到期，周五将有1200亿元国库现金定存到期。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:46",
+      "headline": "【中证报：三天两立案 资本市场信息传播秩序迎强监管】",
+      "content": "7月10日，乔某因涉嫌编造传播涉共进股份虚假误导性信息，被证监会立案调查。7月7日，安某（网名“南京路宝宝总”）因同样事由涉中公教育被立案。三天两立案，监管利剑直指市场“搅局者”。有关部门释放的信号明确：网络非法外之地，虚假误导信息这条红线，触碰必究。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:44",
+      "headline": "【公募基金二季报披露大幕拉开 多名基金经理提示科技板块高估值风险】",
+      "content": "近日，包括金信基金、红土创新基金、同泰基金等多家公募陆续披露二季报。值得关注的是，为响应信披新规，部分成立期限较长的公募产品在此次季报中首次披露了7年、10年的长期业绩数据。分析人士指出，这一行业核心变革旨在扭转行业过度聚焦短期业绩怪象，引导市场回归长期投资、价值投资的理念。从目前披露的基金二季报来看，绩优产品多借力于算力板块的布局，实现了净值的大幅增长。但多名基金经理也在行情展望中强调了科技板块的估值风险，并指出在高预期的情况下，未来往往面临低于预期的风险，二级市场行情容易出现大幅波动。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:44",
+      "headline": "【AI算力需求爆发 光纤量价齐升 多家企业启动扩产计划】",
+      "content": "AI算力需求的爆发式增长，将光纤行业推入了价格上行通道。近日，杭电股份、永鼎股份等上市公司上半年业绩预告纷纷录得大幅增长，行业高景气度持续得到验证。光纤价格的大幅上涨以及行业供需缺口的存在，正推动多家企业启动光棒及光纤扩产计划。7月10日晚，烽火通信和领益智造均发布公告。前者拟定增募资不超过29.13亿元用于光纤智能制造等项目，后者拟参与重整富通嘉善，切入光纤通信赛道。不过，光纤行业扩产潮也引发市场对“周期魔咒”重演的忧虑。多位业内人士表示，新增产能落地仍需翻越多重门槛。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:43",
+      "headline": "【年内激增超过2000亿元，A股科技类ETF规模突破5400亿元】",
+      "content": "今年以来，A股行业与主题类ETF持续扩容，科技赛道成为资金布局的核心主线。据统计：截至6月末，聚焦科技的行业和主题ETF规模超过5400亿元，较2025年末大幅提升2087亿元；此外，聚焦科技赛道的主动权益类基金规模占比也显著攀升。尽管半导体等前期热门科技板块近期出现显著波动，但多家公募机构研判，短期情绪扰动不改产业中长期上行趋势，AI商业化落地、半导体自主创新等核心逻辑持续夯实，科技赛道后续仍具备充足的投资空间。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:43",
+      "headline": "【产能满产+订单充足 多家铝企上半年业绩倍增】",
+      "content": "今年上半年，在电解铝价格高位运行、成本端氧化铝价格走低的背景下，铝产业链景气度持续攀升。多家上市铝企披露的半年度业绩预告显示，行业盈利普遍大幅提升，其中天山铝业、神火股份、中孚实业、焦作万方等公司上半年业绩同比实现倍增。与此同时，上市铝企正积极向高附加值的铝箔赛道延伸，相关新能源铝箔产能布局提速推进，产业链呈现“上游高景气，中游忙扩产”的态势。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:42",
+      "headline": "【稀土龙头下调三季度报价 终结七个季度连涨行情】",
+      "content": "近日，包钢股份、北方稀土双双下调三季度报价，三季度稀土精矿交易价格调整为3.86万元/吨，环比下降0.62%。在此之前，北方稀土、包钢股份稀土精矿交易价格已经连续七个季度调升。业内人士表示，此次微降可在一定程度上缓解中游磁材厂商的原材料成本压力。虽然终结了七连涨，但核心供需格局未变，稀土价格大概率将在高位维持震荡。（中证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:25",
+      "headline": "【华尔街见闻早餐 | 2026年7月13日】",
+      "content": "上周五美股收涨，SK海力士美股首秀收涨13%，英伟达收涨4%，Meta收涨6%、全周涨近15%；周一亚市早盘，布油期货高开3%，美股期货小幅走低。 伊朗关闭霍尔木兹海峡、打击美在中东目标，美军对伊发动新一轮袭击、多地传出爆炸声。 美国知名强硬派议员Lindsey Graham猝死，此前支持对伊战争和对俄制裁。 英伟达路演：季度收入近千亿美元、增速还在加快，Rubin Ultra没有延期。 苹果起诉OpenAI引骂战，马斯克炮轰Altman欺诈，Altman反讽其吹嘘“太空数据中心”。 三星电子将龙仁首座芯片厂投产提前至2029年，比原计划早1-2年。 长江存储IPO新进展：证监会披露第一期上市辅导情况，辅导团队公布。 智谱创始人唐杰发布内部信：将开启Touch High（摸高）计划，“不登顶，就是失败”。 相关文章： 华尔街见闻早餐FM-Radio | 2026年7月13日",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:12",
+      "headline": "【美国否认伊朗袭击致3名美军士兵死亡】",
+      "content": "当地时间7月12日，美军中央司令部发布声明称，伊朗方面此前称3名美国军人在伊朗对科威特的袭击中被打死，此说法不实。声明表示，该地区没有美国士兵死亡或受伤的报告。所有人员均已清点完毕。当天稍早时，伊朗方面有消息称，伊朗当天使用无人机对美军位于科威特的目标发动袭击，造成3名美国士兵死亡。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-13 07:11",
+      "headline": "【15个交易日逾千亿元，A股半导体主题ETF“吸金”】",
+      "content": "半导体板块近期成为资金进击的重点。从半导体主题ETF最新情况看，过去15个交易日合计净流入资金超过千亿元，成交额和基金份额均创历史新高。从半导体相关个股的走势看，在前期大涨之后，近期震荡明显加剧，后续行情能否持续走强，备受市场关注。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-13 07:04",
       "headline": "立邦涂料据悉将出价86亿美元收购阿克苏诺贝尔的涂料部门。（彭博）",
@@ -2634,8 +3674,8 @@
     },
     {
       "datetime": "2026-07-10 20:30",
-      "headline": "加拿大6月失业率 6.5%，预期 6.6%，前值 6.6%。",
-      "content": "",
+      "headline": "加拿大6月失业率",
+      "content": "今值: 6.5% ， 预期: 6.6% ， 前值: 6.6%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
@@ -2652,38 +3692,6 @@
       "datetime": "2026-07-10 20:30",
       "headline": "加拿大6月兼职就业人数变动(万人)",
       "content": "今值: 1.75 ， 预期: - - ， 前值: -6.62",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-10 20:30",
-      "headline": "加拿大6月就业人数变动 1.82万人，预期 1万人，前值 8.78万人。",
-      "content": "",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-10 20:30",
-      "headline": "加拿大6月就业参与率",
-      "content": "今值: 65% ， 预期: 65% ， 前值: 65%",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-10 20:30",
-      "headline": "加拿大6月全职就业人数变动(万人)",
-      "content": "今值: 0.06 ， 预期: - - ， 前值: 15.4",
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global",
-      "timezone": "Asia/Taipei"
-    },
-    {
-      "datetime": "2026-07-10 20:30",
-      "headline": "加拿大6月失业率",
-      "content": "今值: 6.5% ， 预期: 6.6% ， 前值: 6.6%",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
