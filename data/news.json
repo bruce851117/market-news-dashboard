@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-17 07:08",
+  "generated_at": "2026-07-17 19:56",
   "timezone": "Asia/Taipei",
   "source": "https://wallstreetcn.com/live/global",
   "fetch_start_time": "2026-07-16 17:00",
-  "fetch_end_time": "2026-07-17 07:06",
-  "raw_count": 275,
-  "count": 56,
+  "fetch_end_time": "2026-07-17 19:54",
+  "raw_count": 543,
+  "count": 104,
   "categories": {
     "bond": "債市",
     "equity": "股市",
@@ -16,44 +16,743 @@
     "commodity": "商品"
   },
   "brief_points": [
-    "美軍連續五晚空襲伊朗，地緣政治緊張加劇，能源供應風險溢價顯著上升。",
-    "伊朗威脅若遭攻擊將封鎖曼德海峽，全球能源運輸咽喉面臨中斷風險。",
-    "Fed官員釋放鷹派訊號，強調通膨若未降溫將考慮升息，壓抑市場降息預期。",
-    "美股科技板塊遭拋售，存儲芯片指數重挫，谷歌因AI模型發布延期股價大跌。",
-    "台積電財報亮眼並上調營收指引，顯示AI硬體需求強勁，與科技股整體疲軟形成對比。",
-    "美國製造業數據強勁且勞動力市場穩定，經濟韌性可能支撐高利率維持更久。",
-    "現貨黃金跌破關鍵支撐，市場避險情緒在強勢美元與高利率預期下出現分歧。",
-    "英國國債殖利率逼近5%關卡，市場對財政政策可信度與融資成本感到擔憂。"
+    "美伊軍事衝突急劇升溫，伊朗威脅封鎖霍爾木茲海峽，全球能源供應風險溢價顯著攀升。",
+    "伊朗革命衛隊襲擊多地美軍基地，地緣政治緊張局勢惡化，避險情緒主導市場資金流向。",
+    "台積電財報亮眼並上調營收預期，但受地緣風險與外資創紀錄拋售影響，台股面臨沉重賣壓。",
+    "美國聯準會官員釋出鷹派訊號，強調通膨壓力持續，市場對降息預期進行重新定價。",
+    "A股市場放量重挫，半導體與算力板塊領跌，市場情緒低迷，資金避險需求強烈。",
+    "美企內部人士拋售股票規模創歷史次高，顯示高管對當前市場估值持謹慎態度。",
+    "日本央行傳將上調經濟預期並維持利率不變，反映對AI驅動經濟韌性的信心。",
+    "英國政局變動引發市場對財政政策擔憂，英債殖利率攀升，IMF警告需避免財政冒進。"
   ],
   "items": [
     {
-      "datetime": "2026-07-17 07:04",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 4,
-      "headline": "IEA警告：霍爾木茲海峽局勢威脅能源安全",
-      "summary": "IEA署長比羅爾警告，若霍爾木茲海峽石油運輸狀況未改善，全球能源安全將面臨嚴重風險。",
-      "content": "國際能源署(IEA)署長比羅爾表示，石油安全仍是關鍵問題。若未來幾週美國與伊朗在霍爾木茲海峽的緊張局勢未獲改善，全球能源供應鏈恐受衝擊，市場應對此保持高度警惕。",
+      "datetime": "2026-07-17 19:51",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美軍空襲伊朗發電站與機場",
+      "summary": "美軍空襲伊朗錫斯坦－俾路支斯坦省的發電站與機場，導致設施受損，地緣政治風險升溫。",
+      "content": "據伊朗塔斯尼姆通訊社報導，美軍隔夜空襲造成伊朗伊蘭沙赫爾市的一座發電站和機場受損。此舉加劇了中東地區的地緣政治緊張局勢，並引發市場對能源供應安全的擔憂。",
       "tags": [
-        "IEA",
-        "Oil",
+        "Iran",
+        "US",
         "Geopolitics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-17 07:00",
+      "datetime": "2026-07-17 19:14",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
+      "importance": 4,
+      "headline": "伯納姆當選英國工黨黨首",
+      "summary": "安迪·伯納姆當選英國工黨黨首，將接替斯塔默出任英國首相，市場關注其後續財政政策方向。",
+      "content": "安迪·伯納姆當選英國工黨黨首，將接替斯塔默出任英國首相。伯納姆表示將尋求與其他政黨共識，並強調自己將成為一位「親商」的工黨領袖，市場正密切關注其未來在福利支出與財政政策上的具體規劃。",
+      "tags": [
+        "UK",
+        "Politics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 18:29",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗革命衛隊襲擊卡達美軍基地",
+      "summary": "伊朗革命衛隊襲擊卡達烏代德美軍基地，稱摧毀美軍雷達與軍機，中東局勢嚴重惡化。",
+      "content": "伊朗伊斯蘭革命衛隊聲明稱，對位於卡達的美軍烏代德空軍基地發動突襲，摧毀美軍遠程雷達系統及多架空中加油機。伊朗警告若美國繼續突破紅線，將採取更具毀滅性的回應，地緣衝突風險急劇升高。",
+      "tags": [
+        "Iran",
+        "US",
+        "Qatar",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 18:27",
+      "category": "bond",
+      "category_name": "債市",
+      "importance": 4,
+      "headline": "瑞銀資管看空美債，青睞德債",
+      "summary": "瑞銀資管主管Kevin Zhao建議做空美債，認為美國經濟強勁將削弱避險吸引力，並看好德債防禦價值。",
+      "content": "瑞銀資管全球主權及貨幣基金主管Kevin Zhao表示，美國經濟未受能源衝擊且受益於AI熱潮，表現強勁，建議逢高賣出美債。同時，他認為歐洲受能源衝擊影響較大，德債具備極佳的防禦性配置價值。",
+      "tags": [
+        "UST",
+        "Bund",
+        "UBS"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 18:19",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 5,
+      "headline": "IEA警告：霍爾木茲海峽若受阻，能源安全亮紅燈",
+      "summary": "IEA署長比羅爾警告，若霍爾木茲海峽石油運輸無法恢復，全球能源安全將面臨嚴重威脅。",
+      "content": "國際能源署（IEA）署長比羅爾警告，若經由霍爾木茲海峽的石油運輸幾週內無法恢復，全球能源安全將亮起紅燈。他指出，目前石油供應安全是關鍵問題，即便美國大幅增產，也難以彌補該海峽受阻造成的供應缺口。",
+      "tags": [
+        "IEA",
+        "Oil",
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 18:03",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "巴克萊：預期英國央行今年按兵不動，ECB將持續加息",
+      "summary": "巴克萊策略師建議布局英歐央行利差收窄，預計英國央行加息幅度將小於ECB。",
+      "content": "巴克萊策略師建議布局英國央行政策利率與ECB存款利率的12月利差收窄。策略師認為，若美伊恢復談判且能源價格回落，市場將更快下調對英國央行的加息預期，因英國央行在經濟增長與勞動力市場風險的措辭更為謹慎。",
+      "tags": [
+        "BOE",
+        "ECB",
+        "Interest Rate"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 18:02",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "美企高管大舉減持股票，規模接近歷史峰值",
+      "summary": "2026年上半年美企內部人士拋售股票達776億美元，顯示高管對當前估值持謹慎態度。",
+      "content": "根據EPFR數據，2026年上半年美國企業內部人士累計拋售價值776億美元的股票，較上年同期增長20%，規模創20多年來次高。分析師指出，此交易活動顯示高管並不急於在當前估值水平下增加敞口，被視為市場警示訊號。",
+      "tags": [
+        "Equity",
+        "US Market"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 17:53",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗革命衛隊稱摧毀多架美軍軍機，地緣局勢升溫",
+      "summary": "伊朗革命衛隊聲稱摧毀美軍加油機與戰鬥機，以回應美軍對伊朗南部非軍事目標的襲擊。",
+      "content": "伊朗伊斯蘭革命衛隊發表聲明，稱針對美軍襲擊伊朗南部非軍事目標，已分兩階段發射彈道導彈與無人機，摧毀多架美軍加油機與戰鬥機。此前伊朗媒體報導美軍襲擊了伊朗南部的機場、橋樑與基礎設施，造成人員傷亡。",
+      "tags": [
+        "Geopolitics",
+        "Iran",
+        "US"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 17:00",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 4,
+      "headline": "歐元區6月CPI終值符合預期",
+      "summary": "歐元區6月調和CPI同比終值為2.8%，核心CPI同比終值為2.4%，均符合市場預期。",
+      "content": "歐元區6月調和CPI同比終值錄得2.8%，核心調和CPI同比終值錄得2.4%，環比終值為-0.1%，數據表現均與市場預期及前值一致，顯示通膨壓力維持穩定。",
+      "tags": [
+        "ECB",
+        "CPI",
+        "Eurozone"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 16:58",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "科威特水電設施遭伊朗襲擊受損",
+      "summary": "科威特官員證實，多台發電機組及水廠在伊朗襲擊中受損並引發火災，目前正搶修中。",
+      "content": "科威特政府表示，受伊朗襲擊影響，境內多台發電機組及水廠設施受損並發生火災。目前火勢已獲控制，相關部門正全力搶修以恢復供電與供水運作，地緣政治風險升溫。",
+      "tags": [
+        "Geopolitics",
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 16:43",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
+      "importance": 3,
+      "headline": "以色列議會解散，轉為看守政府",
+      "summary": "以色列議會正式解散，新一屆選舉定於10月27日舉行，內塔尼亞胡政府轉為看守內閣。",
+      "content": "以色列議會於17日凌晨解散，新一屆議會選舉將於10月27日舉行。在選舉前，內塔尼亞胡領導的政府將作為看守政府繼續履職，此為以色列38年來首次按法定任期舉行的選舉。",
+      "tags": [
+        "Israel",
+        "Fiscal_Policy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 16:31",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
+      "importance": 4,
+      "headline": "中國調整部分電池消費稅政策",
+      "summary": "中國財政部宣布自9月1日起，對多類電池產品徵收2%消費稅，並於明年調升至4%。",
+      "content": "中國財政部等三部門發布公告，自2026年9月1日起，對無汞原電池、鋰離子蓄電池、全钒液流電池等產品按2%稅率徵收消費稅；自2027年9月1日起，稅率將進一步調升至4%。",
+      "tags": [
+        "Fiscal_Policy",
+        "China"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 16:27",
       "category": "central_bank",
       "category_name": "央行",
       "importance": 5,
-      "headline": "Fed副主席：若通膨未降溫，FOMC或需加息",
-      "summary": "Fed副主席Jefferson表示，若通膨未能如預期回落，FOMC可能需重新審視政策立場並考慮加息。",
-      "content": "Fed副主席Jefferson指出，若通膨未能降溫，為確保物價穩定，重新審視政策立場可能是適當的。他強調能源與貿易衝擊可能導致通膨根深蒂固，且AI帶來的供需影響亦需密切關注，政策將基於最新數據與風險平衡制定。",
+      "headline": "傳BOJ將上調經濟預期並維持利率",
+      "summary": "消息稱BOJ本月會議可能上調經濟增長預期，並維持政策利率不變，反映對經濟韌性信心。",
+      "content": "據知情人士透露，BOJ在本月政策會議上，可能將本財年經濟增長預期從0.5%上調，並維持政策利率不變。官員認為AI相關需求支撐日本經濟，並考慮調整對經濟風險「偏向下行」的評估。",
+      "tags": [
+        "BOJ",
+        "Japan",
+        "Economy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 16:20",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗称摧毁部署在约旦的美军机",
+      "summary": "伊朗革命卫队声明称，为回应美军攻击，已摧毁部署在约旦的美军战斗机与加油机。",
+      "content": "伊朗伊斯兰革命卫队声明，美军16日晚利用约旦基地攻击伊朗境内目标，伊朗随后以弹道导弹与无人机反击，摧毁多架部署在约旦的美军战斗机与加油机，造成严重受损。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Jordan"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 15:41",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "外资单日净卖出58亿美元台股",
+      "summary": "外资单日净卖出58亿美元台湾股票，创下历史纪录。",
+      "content": "外资在台湾股市出现大规模抛售，单日净卖出金额达到58亿美元，创下历史新高，显示外资对台股市场情绪转趋保守。",
+      "tags": [
+        "TSMC",
+        "Taiwan"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 15:28",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 3,
+      "headline": "阿曼附近海域一油轮遭弹体袭击",
+      "summary": "一艘油轮在阿曼海域遭不明弹体袭击，船体受损但船员安全。",
+      "content": "英国海上贸易行动办公室表示，一艘油轮在阿曼海塞卜以东海域航行时遭不明弹体袭击，左舷受损，所幸船员安全，航行未受阻，此事件加剧区域航运风险。",
+      "tags": [
+        "Energy",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 15:08",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "南非基金减持AI芯片股，转投印度市场",
+      "summary": "南非资产管理公司Coronation削减芯片股持仓，因AI概念股预期过高，转而加码印度股市。",
+      "content": "管理规模470亿美元的南非资产管理公司Coronation Asset Management削减了对芯片制造商的投资，并将印度市场配置比例提高。该公司认为市场对AI概念股的预期已升至难以逾越的水平，其全球新兴市场基金在第二季度将SK海力士和TSMC的合计持仓比重从去年12月的约8%降至约5%。",
+      "tags": [
+        "TSMC",
+        "AI",
+        "Equity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 15:04",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗称美军袭击其基础设施致8死20伤",
+      "summary": "伊朗方面消息称，美军于16日晚至17日凌晨袭击伊朗部分省份基础设施，造成人员伤亡。",
+      "content": "伊朗方面当地时间17日消息，美军于16日晚至17日凌晨袭击了伊朗部分省份的基础设施，已造成8人死亡、20人受伤。此事件加剧了波斯湾地区的地缘政治紧张局势。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 15:02",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "A股放量下挫，创业板指跌超7%",
+      "summary": "A股全天低开低走，半导体与算力硬件股领跌，沪深两市成交额达2.67万亿。",
+      "content": "A股市场全天低开低走，三大指数放量下挫。半导体芯片股大幅下挫，兆易创新、德明利等多股跌停；算力硬件股如天孚通信、中际旭创、新易盛均跌超10%。沪深京三市近5000股飘绿，沪指跌3.05%，深成指跌5.4%，创业板指跌7.15%。",
+      "tags": [
+        "A-share",
+        "Equity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 14:57",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
+      "importance": 3,
+      "headline": "日本首相高市早苗：鼓励GPIF投资国内资产",
+      "summary": "日本首相高市早苗表示，鼓励家庭及GPIF增加对日本金融资产投资，以共享经济增长成果。",
+      "content": "日本首相高市早苗在国会表示，鼓励家庭以及政府养老投资基金(GPIF)增加对日本金融资产的投资至关重要。政府希望通过推动经济增长与家庭资产积累之间的良性循环，让民众共享日本经济增长的成果。",
+      "tags": [
+        "Japan",
+        "GPIF",
+        "Fiscal Policy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 14:38",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "阿曼附近油轮遭不明抛射物击中",
+      "summary": "英国海上贸易运营中心报告，一艘油轮在阿曼附近遭不明抛射物击中，造成轻微结构损伤。",
+      "content": "英国海上贸易运营中心（UKMTO）通报，一艘油轮在阿曼附近海域遭不明抛射物击中，报告显示船体有轻微结构损伤。此事件发生在地缘政治紧张时期，引发市场对能源运输安全的担忧。",
+      "tags": [
+        "Energy",
+        "Geopolitics",
+        "Oil"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 14:18",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗称袭击美军雷达系统作为报复",
+      "summary": "伊朗伊斯兰革命卫队称摧毁了位于阿曼的雷达系统，以报复美军近期对伊朗的空袭。",
+      "content": "据伊朗学生通讯社报道，伊朗伊斯兰革命卫队声明称，已摧毁位于阿曼萨拉马岛的海上雷达系统及霍尔木兹海峡内的一座美国雷达站。卫队表示，此举是对美国近期对伊朗波斯湾沿岸南部省份发动空袭的报复行动。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 13:37",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "中巴呼吁美伊双方尽快停火复谈",
+      "summary": "中国与巴基斯坦外交部长就伊朗局势交换意见，呼吁当事方立即停止敌对行动并重启对话。",
+      "content": "中国外交部长王毅在上海会见巴基斯坦副总理兼外长达尔，双方对当前伊朗局势恶化表示担忧，呼吁美伊双方立即停止敌对行动，克服困难重启接触，通过谈判达成全面和平协议，国际社会应提供助力。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 13:23",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗革命卫队称打击美军驻科威特基地",
+      "summary": "伊朗革命卫队称打击美军驻科威特基地，以回应美军此前对伊朗民用设施的袭击。",
+      "content": "伊朗伊斯兰革命卫队声明称，为回应美军袭击伊朗民用设施及平民伤亡，已打击美军在科威特的防空雷达、武器库及海马斯火箭炮系统，并导致该基地起火。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 12:46",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗称打击叙利亚美军指挥中心",
+      "summary": "伊朗革命卫队称打击叙利亚美军指挥中心，造成大量美军人员伤亡。",
+      "content": "伊朗伊斯兰革命卫队声明称，已对美军位于叙利亚坦夫地区的指挥中心发动打击，摧毁雷达系统与直升机，并造成大量美军人员死亡，此举为报复此前伊朗士兵遭袭事件。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Syria"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 12:30",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗革命衛隊稱打擊敘利亞美軍指揮中心",
+      "summary": "伊朗伊斯蘭革命衛隊聲明，已對美軍位於敘利亞坦夫地區的指揮中心發動打擊。",
+      "content": "伊朗伊斯蘭革命衛隊發表聲明，證實對美軍位於敘利亞坦夫地區的指揮中心發動了軍事打擊，地緣政治緊張局勢恐進一步升溫。",
+      "tags": [
+        "Iran",
+        "US",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 12:30",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "中國央行單日淨投放4305億元",
+      "summary": "中國央行公開市場今日淨投放4305億元人民幣，本週淨投放規模創三年半來最大。",
+      "content": "中國央行公開市場今日進行大規模操作，實現淨投放4305億元人民幣，本週累計淨投放規模創下三年半以來新高，顯示政策面維持流動性寬鬆意圖。",
+      "tags": [
+        "PBOC",
+        "Liquidity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 12:12",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 5,
+      "headline": "伊朗威脅封鎖霍爾木茲海峽",
+      "summary": "伊朗革命衛隊表示，若美軍襲擊持續，將禁止石油與天然氣通過霍爾木茲海峽出口。",
+      "content": "伊朗革命衛隊發出警告，稱只要美軍的軍事行動持續，伊朗將不會允許任何石油或天然氣通過霍爾木茲海峽進行出口，此舉恐嚴重衝擊全球能源供應鏈。",
+      "tags": [
+        "Oil",
+        "Gas",
+        "Hormuz"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 12:00",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "馬來西亞Q2 GDP成長5.8%",
+      "summary": "馬來西亞第二季度GDP同比增長5.8%，優於市場預期的5.2%。",
+      "content": "馬來西亞公佈第二季度GDP數據，同比增長5.8%，表現優於市場預期的5.2%，顯示該國經濟成長動能強勁。",
+      "tags": [
+        "GDP",
+        "Malaysia"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 11:56",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "印度SBI基金IPO獲310億美元投標",
+      "summary": "印度SBI基金管理公司IPO獲41.6倍超額認購，吸引310億美元資金，凸顯市場流動性充沛。",
+      "content": "印度今年最大規模IPO——SBI基金管理公司獲得41.6倍超額認購，吸引310億美元投標，主要由機構投資者推動，反映市場對印度股市後續IPO儲備的流動性信心。",
+      "tags": [
+        "IPO",
+        "India"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 10:55",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 4,
+      "headline": "外匯局：必要時強化逆週期調節",
+      "summary": "國家外匯管理局表示，將在必要時強化逆週期調節和預期引導，以維護外匯市場平穩運行並防範系統性風險。",
+      "content": "國家外匯管理局副局長李斌表示，外匯局將持續完善「宏觀審慎+微觀監管」管理框架，在必要時強化逆週期調節和預期引導，維護外匯市場平穩運行，堅決守好開放條件下的安全底線，防範系統性風險。",
+      "tags": [
+        "SAFE",
+        "FX"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 10:47",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "外匯局擬儘快發放新一輪QDII額度",
+      "summary": "國家外匯管理局正推進準備工作，爭取儘快發放新一輪合格境內機構投資者（QDII）額度，以支持境外投資需求。",
+      "content": "國家外匯管理局資本項目管理司司長肖勝表示，外匯局正抓緊推進相關準備工作，爭取儘快發放新一輪合格境內機構投資者（QDII）額度，更好支持和服務境內居民真實合規的境外證券投資需求。",
+      "tags": [
+        "QDII",
+        "SAFE"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 10:45",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美軍襲擊伊朗5座橋樑",
+      "summary": "據伊朗媒體報導，美軍於16日晚至17日凌晨發動新一輪襲擊，造成伊朗境內5座橋樑受損及多人死傷。",
+      "content": "據伊朗國家媒體消息，當地時間7月16日晚至17日凌晨，美軍對伊朗發動新一輪軍事襲擊，導致伊朗境內5座橋樑遭襲，並造成多人死傷，地緣政治緊張局勢進一步升溫。",
+      "tags": [
+        "Iran",
+        "US",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 10:44",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "A股重挫，創業板指跌超5%",
+      "summary": "A股市場大幅回調，創業板指跌幅超過5%，滬深京三市下跌個股近4500只，半導體與算力板塊領跌。",
+      "content": "A股市場出現顯著拋售，創業板指跌破3500點，日內跌幅超過5%。滬指跌1.52%，深成指跌3.7%。醫藥醫療、算力硬件、半導體芯片等板塊跌幅居前，市場情緒低迷，近4500只個股下跌。",
+      "tags": [
+        "A-shares",
+        "Equity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 10:37",
+      "category": "bond",
+      "category_name": "債市",
+      "importance": 3,
+      "headline": "外資對印度政府債券興趣增加",
+      "summary": "隨著印度取消海外債券投資稅收，外資對印度債券的青睞度提升，市場預期印度債券將被納入彭博全球綜合債券指數。",
+      "content": "儘管外資對印度股票興趣減弱，但對印度政府債券的態度轉趨積極。印度上個月取消了對海外債券投資者的徵稅，為納入彭博全球綜合債券指數掃清障礙，預計實際納入時間將在2027年初。",
+      "tags": [
+        "India",
+        "Bonds"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 10:25",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "外匯局：前5個月外資來華投資淨增1600億美元",
+      "summary": "國家外匯管理局表示，今年前5個月外資來華各類投資淨增加約1600億美元，表現優於去年同期。",
+      "content": "國家外匯管理局國際收支司負責人趙玉超指出，今年前5個月外資來華各類投資淨增加約1600億美元，明顯好於去年同期。數據涵蓋直接投資、證券投資及境外存貸款，其中直接投資項下的股權投資淨增加逾500億美元，顯示外資對中國市場仍具韌性。",
+      "tags": [
+        "China",
+        "FDI"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 09:47",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美軍完成對伊朗最新一輪軍事打擊",
+      "summary": "美軍稱已打擊數十個伊朗軍事目標，包括沿海監測與防空陣地，旨在削弱伊朗軍事能力。",
+      "content": "美國軍方宣布完成對伊朗的最新一輪打擊，目標涵蓋數十個伊朗軍事設施，包括沿海監測站與防空陣地。美軍中央司令部表示，此舉旨在進一步削弱伊朗的軍事能力，地緣政治風險顯著升溫。",
+      "tags": [
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 09:32",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 2,
+      "headline": "UBP下調年底黃金目標價至4800美元",
+      "summary": "UBP將年底黃金目標價下調至每盎司4800美元，建議暫不增持倉位。",
+      "content": "儘管長期看好黃金走勢，UBP仍將年底黃金目標價下調至每盎司4800美元，並表示目前暫不建議投資人增持黃金倉位，反映市場對貴金屬短期波動的謹慎態度。",
+      "tags": [
+        "Gold",
+        "UBP"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 09:24",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "中国坚决反对英国将英国钢铁国有化",
+      "summary": "中国商务部表示，对英国政府将中国敬业集团旗下的英国钢铁公司国有化决定，表示坚决反对和强烈不满。",
+      "content": "针对英国政府宣布通过立法将中国敬业集团旗下的英国钢铁公司国有化，中国商务部发言人回应称，中方对此决定表示坚决反对和强烈不满，此举涉及中资企业海外资产安全。",
+      "tags": [
+        "China",
+        "UK",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 09:21",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "中国央行本周净投放创三年半新高",
+      "summary": "中国央行今日开展4505亿元逆回购，本周净投放规模达19015亿元，创2023年1月以来最大。",
+      "content": "中国央行今日开展4505亿元7天期逆回购操作，利率维持1.4%。本周公开市场累计净投放19015亿元，创下2023年1月以来最大规模，显示央行维持流动性充裕的政策意图。",
+      "tags": [
+        "PBOC",
+        "Liquidity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 09:19",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "京东宣布每年投入百亿保障骑手福利",
+      "summary": "京东宣布每年投入超百亿元，为全职骑手及快递小哥缴纳五险一金，涉及企业经营成本变动。",
+      "content": "京东集团宣布，将每年投入超过百亿元人民币，为全职骑手、快递小哥等一线员工缴纳五险一金，此举将对公司人力成本结构产生长期影响。",
+      "tags": [
+        "JD",
+        "LaborCost"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 09:09",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美军袭击伊朗港口城市致7死9伤",
+      "summary": "据伊朗媒体报道，美国对伊朗南部霍尔木兹甘省一港口城市发动袭击，造成7人死亡、9人受伤。",
+      "content": "伊朗媒体报道称，美国对伊朗南部霍尔木兹甘省的道路和桥梁发动军事袭击，已造成7人死亡、9人受伤。地缘政治紧张局势进一步升级，引发市场对中东局势的担忧。",
+      "tags": [
+        "US",
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 09:00",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "台股盘初重挫3%，TSMC跌逾3%",
+      "summary": "受地缘政治与全球科技股抛售影响，台湾加权股价指数盘初下跌3%，TSMC股价跌逾3%。",
+      "content": "受国际地缘政治紧张及全球半导体板块回调影响，台湾证交所加权股价指数盘初大幅下跌3%至44,241.92点，权重股TSMC跌幅超过3%，市场避险情绪升温。",
+      "tags": [
+        "TSMC",
+        "Taiwan",
+        "Equity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 08:37",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "日本财务大臣：准备好对外汇波动采取行动",
+      "summary": "日本财务大臣片山皋月表示，准备好在需要时随时对汇率波动做出适当回应，并采取果断行动。",
+      "content": "日本财务大臣片山皋月针对日元汇率波动表示，不会评论具体汇率水平，但强调已准备好在必要时对外汇市场采取果断行动，以应对过度波动。",
+      "tags": [
+        "BOJ",
+        "JPY",
+        "FX"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 07:39",
+      "category": "central_bank",
+      "category_name": "央行",
+      "importance": 4,
+      "headline": "Fed副主席Jefferson：通膨未降溫恐需加息",
+      "summary": "Fed副主席Jefferson表示，若通膨未能如預期回落，FOMC可能需要重新審視政策並考慮加息。",
+      "content": "Fed副主席Jefferson指出，雖然長期通膨預期仍錨定，但若通膨未能開始降溫，為確保物價穩定，FOMC重新審視政策立場並加息可能是適當的。他強調能源衝擊與貿易政策疊加，帶來通膨根深蒂固的風險。",
       "tags": [
         "Fed",
-        "FOMC",
         "Inflation"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 07:24",
+      "category": "bond",
+      "category_name": "債市",
+      "importance": 4,
+      "headline": "美債多頭Hoisington轉向看空",
+      "summary": "知名美債多頭Hoisington轉向看空，預期財政赤字與債務膨脹將推升通膨與長期美債殖利率。",
+      "content": "長期看好美債的Hoisington Investment Management發布報告指出，財政赤字與資本需求增加構成結構性背景，預示通膨與長期美債殖利率將趨於上升，投資人對美債的風險溢價要求正不斷提高。",
+      "tags": [
+        "UST",
+        "Yield"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 07:04",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 5,
+      "headline": "IEA警告霍爾木茲海峽能源安全",
+      "summary": "IEA署長比羅爾警告，若霍爾木茲海峽石油運輸局勢未改善，全球能源安全將面臨嚴重威脅。",
+      "content": "國際能源署(IEA)署長比羅爾表示，若美國與伊朗無法改善霍爾木茲海峽的石油運輸狀況，全球能源安全堪憂。伊朗官員亦警告，針對伊朗基礎設施的攻擊將危及地區能源供應鏈。",
+      "tags": [
+        "Oil",
+        "Energy",
+        "Geopolitics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -63,12 +762,41 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "SpaceX取消星艦試飛，股價盤後跌逾4%",
-      "summary": "SpaceX因不明技術問題取消星艦試飛任務，導致股價盤後下跌超過4%。",
-      "content": "SpaceX原定執行其IPO以來首次重大試飛任務，但因出現未說明之技術問題而被迫取消。此消息引發市場對公司營運穩定性的擔憂，導致SpaceX股價在盤後交易中下跌超過4%。",
+      "headline": "SpaceX取消星艦試飛，股價盤後跳水",
+      "summary": "SpaceX因發動機問題取消星艦試飛任務，盤後股價下跌超過4%。",
+      "content": "馬斯克旗下SpaceX因出現未說明之問題，取消了原定執行的第13次星艦試飛任務。受此消息影響，SpaceX盤後股價跳水超過4%，公司計畫更換發動機後於下週初重新嘗試。",
       "tags": [
         "SpaceX",
-        "Equity"
+        "Elon Musk"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 06:29",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "美军拦截多艘试图突破对伊封锁商船",
+      "summary": "美军中央司令部称已迫使多艘商船改变航向，并恢复针对进出伊朗港口船只的海上封锁。",
+      "content": "美军中央司令部表示，已迫使3艘试图突破封锁的商船改变航向，并使1艘不配合的船只失去行动能力。美方强调，霍尔木兹海峡及周边水域仍保持自由开放，但试图违反美国对伊朗封锁的船只除外。此前美军已于7月14日恢复针对进出伊朗港口及沿海地区船只的海上封锁。",
+      "tags": [
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 06:26",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "A股半年报预告显示AI与创新药高增长",
+      "summary": "近1700家A股公司披露半年报预告，AI算力、机器人及创新药赛道业绩增速显著。",
+      "content": "截至7月16日，已有1697家A股上市公司披露上半年业绩预告。数据显示，人工智能（AI）算力、机器人及创新药产业迎来业绩兑现期，保持较高增速。这不仅是市场需求驱动的产业周期上行信号，也被视为中国经济新旧动能转换的风向标。",
+      "tags": [
+        "A-share"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -78,13 +806,11 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "FDA警告Taco Bell生菜問題，百勝餐飲跌4%",
-      "summary": "因Taco Bell生菜引發寄生蟲疫情，FDA將發布警告，百勝餐飲股價盤後下跌4%。",
-      "content": "美國FDA即將證實Taco Bell的生菜與密歇根州及周邊地區的寄生蟲疫情有關，並建議消費者避免食用。受此負面消息影響，百勝餐飲集團股價在盤後交易中下跌4%。",
+      "headline": "百胜餐饮因生菜寄生虫疫情盘后跌4%",
+      "summary": "美国FDA将发布警告，指出塔可钟（Taco Bell）的生菜与多州寄生虫疫情有关，百胜餐饮股价盘后下跌4%。",
+      "content": "美国食品药品监督管理局（FDA）即将证实，塔可钟（Taco Bell）的生菜与密歇根州及周边各州导致数千人感染的寄生虫疫情有关。FDA准备发布公开声明，建议消费者避免在相关州份的塔可钟门店食用切碎的生菜，受此消息影响，百胜餐饮集团美股盘后下跌4%。",
       "tags": [
-        "Yum Brands",
-        "FDA",
-        "Equity"
+        "YUM"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -93,103 +819,24 @@
       "datetime": "2026-07-17 05:48",
       "category": "fiscal_policy",
       "category_name": "財政政策",
-      "importance": 3,
-      "headline": "英國政府將英國鋼鐵公司收歸國有",
-      "summary": "英國政府宣布將英國鋼鐵公司收歸國有，以保護本土鋼鐵製造業及就業。",
-      "content": "英國政府宣布全面接管此前由中資控股、處於虧損狀態的英國鋼鐵公司。首相斯塔默表示，此舉旨在保障國家鋼鐵製造能力，保護技術工人就業，並捍衛關鍵國家戰略能力。",
-      "tags": [
-        "UK",
-        "Fiscal Policy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-17 05:24",
-      "category": "war",
-      "category_name": "戰爭",
       "importance": 4,
-      "headline": "霍爾木茲海峽轉運持續，地緣風險升溫",
-      "summary": "衛星影像顯示霍爾木茲海峽周邊轉運活動持續，地緣政治動盪導致船舶保險成本增加。",
-      "content": "歐盟衛星影像顯示，多艘油輪在阿聯酋與阿曼港口附近進行貨物轉運。儘管地緣政治局勢動盪且保險費用高昂，該區域作為進出霍爾木茲海峽的關鍵轉運點，通行活動依然持續。",
+      "headline": "英国政府将英国钢铁公司收归国有",
+      "summary": "英国政府宣布将英国钢铁公司收归国有，旨在保护本土钢铁制造业及技术工人就业。",
+      "content": "英国政府周四宣布，已将此前由中资控股的亏损企业英国钢铁公司（British Steel）收归国有。即将卸任的首相基尔·斯塔默表示，此举出于国家利益考量，旨在保留英国本土钢铁制造能力，并保护技术工人的就业，捍卫关键的国家能力。",
       "tags": [
-        "Geopolitics",
-        "Energy"
+        "UK"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-17 05:00",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 4,
-      "headline": "現貨黃金跌超2%，逼近關鍵支撐位",
-      "summary": "現貨黃金受市場情緒影響跌逾2%，一度逼近3940美元關口，白銀與鉑金同步走弱。",
-      "content": "周四紐約尾盤，現貨黃金跌2.08%至3975.93美元/盎司，盤中一度觸及3969.37美元，逼近6月底的底部支撐。白銀、鉑金及鈀金同步下挫，金礦開採商指數亦顯著收跌。",
-      "tags": [
-        "Gold",
-        "Commodity"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-17 04:46",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 5,
-      "headline": "美股存儲芯片指數重挫，科技股集體走弱",
-      "summary": "美股存儲芯片與硬件供應鏈指數收跌逾8%，科技七巨頭及雲服務商股價同步承壓。",
-      "content": "美股存儲芯片與硬件供應鏈指數收跌8.08%，科技行業指數跌5.16%。超大規模雲服務商指數跌2.73%，其中甲骨文跌6.25%、谷歌A跌4.44%。市場對科技板塊的拋售壓力顯著擴大。",
-      "tags": [
-        "Equity",
-        "Tech",
-        "Semiconductor"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-17 04:38",
+      "datetime": "2026-07-17 04:57",
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "美軍襲擊伊朗阿巴斯港，造成人員傷亡",
-      "summary": "美軍對伊朗阿巴斯港居民區及鐵路樞紐發動襲擊，造成多名人員傷亡，地緣緊張局勢加劇。",
-      "content": "據伊朗媒體報導，美軍襲擊了伊朗阿巴斯港的居民區及鐵路樞紐站，造成至少7人受傷及部分基礎設施受損。此軍事行動進一步加劇了中東地區的地緣政治緊張局勢。",
-      "tags": [
-        "Geopolitics",
-        "Iran",
-        "USA"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-17 04:35",
-      "category": "fiscal_policy",
-      "category_name": "財政政策",
-      "importance": 4,
-      "headline": "巴西外長抨擊美國加徵關稅具政治動機",
-      "summary": "巴西外長維埃拉批評美國對巴西產品加徵25%關稅缺乏正當理由，並指責其具政治動機。",
-      "content": "巴西外長維埃拉表示，美國依據《1974年貿易法》第301條款對巴西產品加徵25%關稅，缺乏現實依據且不可接受，認為美方此舉完全是出於政治動機的單方面程序。",
-      "tags": [
-        "Trade",
-        "Brazil",
-        "USA"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-17 03:53",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "伊朗布什尔市傳出爆炸聲",
-      "summary": "伊朗西南部布什爾市傳出兩聲爆炸，當地政府認為係美軍行動所致。",
-      "content": "據伊朗邁赫爾通訊社報導，伊朗西南部布什爾市傳出兩聲爆炸聲，當地政府認為爆炸聲系美軍行動所致，地緣政治緊張局勢升溫。",
+      "headline": "美軍襲擊伊朗阿巴斯港，致多人死傷",
+      "summary": "美軍對伊朗阿巴斯港居民區及哈米爾港大橋發動襲擊，造成人員傷亡，地緣政治風險急劇升溫。",
+      "content": "美軍對伊朗阿巴斯港居民區發動襲擊，造成1人死亡、8人受傷。此外，伊朗南部哈米爾港大橋亦遭襲擊，有私家車司機遇難。伊朗媒體隨後報導布什爾市傳出爆炸聲，科威特亦稱攔截了32架進入領空的無人機，中東局勢顯著惡化。",
       "tags": [
         "Iran",
         "US",
@@ -199,16 +846,63 @@
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-17 03:50",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "科威特攔截32架敵方無人機",
-      "summary": "科威特軍方攔截32架進入領空的無人機，碎片造成居民區設施受損。",
-      "content": "科威特國防部發布通告稱，軍方檢測到32架「敵方」無人機進入領空並全數攔截，但碎片落入居民區造成設施受損，區域安全風險增加。",
+      "datetime": "2026-07-17 04:35",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "巴西外長抨擊美國加徵關稅具政治動機",
+      "summary": "巴西外長維埃拉批評美國對巴西商品加徵25%關稅缺乏現實依據，屬政治操作。",
+      "content": "巴西外長維埃拉表示，美國依據《1974年貿易法》第301條款對巴西進口商品加徵25%關稅，並無任何經濟或現實依據，純屬出於政治動機的單方面程序，巴西政府對此表示不可接受，貿易緊張局勢恐進一步升級。",
       "tags": [
-        "Kuwait",
-        "Geopolitics"
+        "Brazil",
+        "US",
+        "Trade"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 04:20",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "美國監管收緊，微型IPO數量大幅下滑",
+      "summary": "美國監管機構打擊「拉高出貨」騙局，導致今年微型外國公司IPO數量顯著減少。",
+      "content": "由於美國監管機構與交易所收緊小型公司上市規則，並加強對股價劇烈波動公司的審查，今年僅有13家微型公司在納斯達克和紐約證交所上市，遠低於2025年同期的約80家，顯示市場對小型股的投機性監管力度大幅提升。",
+      "tags": [
+        "IPO",
+        "Regulation"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 04:01",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "奈飛Q2財報指引疲軟，盤後股價大跌",
+      "summary": "奈飛第二季營收略低於預期，且第三季財測指引不及市場預期，盤後股價下跌3%。",
+      "content": "奈飛公布第二季營收為125.6億美元，略低於分析師預期的125.8億美元；每股收益為0.80美元，優於預期的0.79美元。公司預計第三季營收為128.6億美元，低於市場預期的130億美元，引發市場對其成長動能的擔憂，盤後股價下跌3%。",
+      "tags": [
+        "Netflix",
+        "Earnings"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 04:00",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "科技股重挫，谷歌市值蒸發2000億美元",
+      "summary": "美股科技股領跌，谷歌A股大跌4.4%，拖累納指收跌1.47%。",
+      "content": "受科技股拋售潮影響，美股存儲芯片與硬件供應鏈指數收跌8.08%，納斯達克綜合指數收跌1.47%。其中，谷歌A股因市場擔憂AI相關支出與競爭壓力，股價大跌4.4%，單日市值蒸發約2000億美元，科技板塊整體承壓。",
+      "tags": [
+        "Google",
+        "Nasdaq",
+        "Tech"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -217,12 +911,12 @@
       "datetime": "2026-07-17 03:45",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 3,
-      "headline": "萬斯：以色列試圖影響美國輿論",
-      "summary": "美國副總統萬斯指控以色列政府成員試圖影響美國公眾，以反對美伊協議。",
-      "content": "美國副總統萬斯在播客節目中表示，以色列政府內部成員曾試圖影響美國公眾輿論，以反對美國為結束與伊朗戰爭而達成的協議，凸顯美以兩國關係裂痕。",
+      "importance": 4,
+      "headline": "美副總統萬斯：以色列試圖影響美國伊朗政策",
+      "summary": "美國副總統萬斯表示，以色列政府內部成員曾試圖影響美國輿論，以反對美伊戰爭協議。",
+      "content": "美國副總統J.D.萬斯在播客節目中指出，以色列政府內部成員曾試圖干預美國公眾輿論，反對美國為結束與伊朗戰爭所達成的協議。此番言論凸顯美以兩國間日益擴大的公開裂痕，並引發市場對地緣政治風險的關注。",
       "tags": [
-        "US",
+        "USA",
         "Israel",
         "Iran"
       ],
@@ -234,9 +928,9 @@
       "category": "bond",
       "category_name": "債市",
       "importance": 4,
-      "headline": "美債殖利率普遍走高",
-      "summary": "美債殖利率普遍上漲，10年期美債殖利率報4.5654%。",
-      "content": "美國10年期國債殖利率漲1.81個基點至4.5654%，兩年期美債殖利率漲1.89個基點至4.1535%，市場逆轉了此前CPI與PPI數據帶來的降息預期樂觀情緒。",
+      "headline": "美債殖利率普遍走升，市場重新定價",
+      "summary": "美債殖利率普遍漲超1個基點，市場逆轉此前通膨數據帶來的跌勢。",
+      "content": "美國10年期國債殖利率漲1.81個基點至4.5654%，兩年期美債殖利率漲1.89個基點至4.1535%。市場情緒逆轉了此前CPI與PPI通膨數據發布後的兩連跌表現，顯示市場對利率路徑進行重新定價。",
       "tags": [
         "UST",
         "Yield"
@@ -249,9 +943,9 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 4,
-      "headline": "谷歌Gemini模型發布延期",
-      "summary": "報導稱谷歌Gemini旗艦模型發布延期，導致Alphabet股價重挫5%。",
-      "content": "因報導指出谷歌Gemini旗艦模型發布延期，且編程能力不及預期，落後於OpenAI，Alphabet（谷歌A）股價重挫5%並刷新日低，拖累科技板塊表現。",
+      "headline": "谷歌Gemini模型發布延期，股價重挫",
+      "summary": "因Gemini模型發布延期且編程能力不及預期，谷歌股價重挫逾5%。",
+      "content": "谷歌母公司Alphabet股價重挫逾5%，市場報導指出其旗艦AI模型Gemini發布延期，且編程能力落後於OpenAI，引發投資人對其AI競爭力的擔憂，進而拖累科技股表現。",
       "tags": [
         "Alphabet",
         "AI",
@@ -264,10 +958,10 @@
       "datetime": "2026-07-17 03:18",
       "category": "fiscal_policy",
       "category_name": "財政政策",
-      "importance": 4,
-      "headline": "候任英相將支持北海石油開採",
-      "summary": "候任英國首相伯納姆計劃重啟北海油氣鑽探，並將泰晤士水務收歸公有。",
-      "content": "即將上任的英國首相安迪·伯納姆準備宣布在北海進行新的石油和天然氣鑽探，並將泰晤士水務收歸公有，此舉標誌著英國能源與公用事業政策的重大轉向。",
+      "importance": 3,
+      "headline": "候任英國首相伯納姆將推動北海油氣開採",
+      "summary": "候任英國首相伯納姆計畫宣布北海油氣鑽探計畫，並將泰晤士水務收歸公有。",
+      "content": "即將上任的英國首相安迪·伯納姆計畫在上任初期宣布新的能源政策，包括在北海進行新的石油和天然氣鑽探，並將泰晤士水務收歸公有，此舉標誌著與前任政府政策的顯著轉向。",
       "tags": [
         "UK",
         "Energy",
@@ -281,12 +975,29 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "美軍連續五晚空襲伊朗",
-      "summary": "美軍中央司令部宣布，美軍連續第五晚對伊朗實施空襲，地緣政治緊張局勢升溫。",
-      "content": "美軍中央司令部宣布，美軍於美東時間下午2時開始對伊朗發動新一輪空襲，這是美軍連續第五個夜晚對伊朗實施打擊，市場需密切關注中東局勢對能源供應與避險情緒的影響。",
+      "headline": "美軍連續第五晚空襲伊朗",
+      "summary": "美軍中央司令部宣布對伊朗發動新一輪空襲，為連續第五晚採取軍事行動。",
+      "content": "美軍中央司令部宣布，美軍於美東時間下午2時開始對伊朗發動新一輪空襲，這是美軍連續第五個夜晚對伊朗實施打擊，中東地緣政治緊張局勢持續升溫。",
       "tags": [
+        "USA",
         "Iran",
         "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-17 02:29",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "雪佛龍擬簽署伊拉克石油協議",
+      "summary": "雪佛龍計畫與伊拉克簽署協議，投資油田並建設繞過霍爾木茲海峽的輸油管道。",
+      "content": "雪佛龍預計將與伊拉克簽署協議，推進投資大型油田及建設一條繞過霍爾木茲海峽的輸油管道，旨在降低地緣政治風險對石油出口的影響，並重啟基爾庫克-巴尼亚斯管道。",
+      "tags": [
+        "Chevron",
+        "Oil",
+        "Iraq"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -297,27 +1008,12 @@
       "category_name": "股市",
       "importance": 4,
       "headline": "谷歌Gemini旗艦模型發布推遲",
-      "summary": "谷歌Gemini 3.5 Pro發布推遲，技術能力未達預期，引發市場對其AI競爭力的擔憂。",
-      "content": "知情人士透露，谷歌在交付旗艦AI模型Gemini 3.5 Pro方面已落後數月，技術能力未達預期，導致谷歌內部挫敗感增加，並引發市場擔憂其在AI領域的市場份額將被Anthropic與OpenAI奪走。",
+      "summary": "谷歌Gemini 3.5 Pro發布進度落後，技術能力未達預期，引發內部挫敗感與市場競爭擔憂。",
+      "content": "谷歌在交付最強AI模型Gemini 3.5 Pro方面已落後數月，公司正致力於提升代碼編寫等能力。此次延遲引發內部工程師與管理層對競爭對手Anthropic及OpenAI奪走市場優勢的擔憂，谷歌已就AI安全標準與美國政府溝通。",
       "tags": [
         "Google",
-        "AI"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-17 02:01",
-      "category": "central_bank",
-      "category_name": "央行",
-      "importance": 4,
-      "headline": "達拉斯聯儲主席：AI投資短期具通膨效應",
-      "summary": "達拉斯聯儲主席Logan表示，AI投資需求巨大且真實，短期內已產生通膨效應。",
-      "content": "達拉斯聯儲主席Lorie Logan指出，AI帶來的長期生產力提升值得樂觀，但短期內巨大的投資需求已產生通膨效應。此外，數據中心需求導致的電價上漲，可能成為溫和通膨的來源。",
-      "tags": [
-        "Fed",
-        "Inflation",
-        "AI"
+        "AI",
+        "Gemini"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -328,8 +1024,8 @@
       "category_name": "經濟",
       "importance": 3,
       "headline": "歐盟要求谷歌開放安卓AI功能",
-      "summary": "歐盟依據《數位市場法案》要求谷歌開放安卓AI功能並共享搜索數據，以強化市場競爭。",
-      "content": "歐盟委員會宣布，依據《數位市場法案》對谷歌採取法律約束措施，要求其向競爭對手開放安卓系統的AI功能，並向第三方搜索引擎共享搜索數據，此舉將影響谷歌在歐洲的數位市場運作。",
+      "summary": "歐盟依據《數位市場法案》要求谷歌開放安卓AI功能並共享搜索數據，以增強市場競爭。",
+      "content": "歐盟委員會宣布對谷歌採取法律約束措施，要求其向競爭對手開放安卓系統的AI相關功能，並向第三方搜索引擎共享搜索數據，旨在打破壟斷並促進數位市場的公平競爭。",
       "tags": [
         "Google",
         "EU",
@@ -343,9 +1039,9 @@
       "category": "central_bank",
       "category_name": "央行",
       "importance": 5,
-      "headline": "堪薩斯聯儲主席：通膨過熱且高於目標",
-      "summary": "堪薩斯聯儲主席Schmid表示通膨壓力廣泛，對6月數據改善持保留態度。",
-      "content": "堪薩斯聯儲主席Schmid指出，通膨壓力不僅限於能源，還涵蓋食品等廣泛商品，且通膨高於目標水平的時間過長。他認為將6月通膨數據視為趨勢改善為時尚早，通膨仍是其最大擔憂。",
+      "headline": "堪薩斯城聯儲主席：通膨過熱且持續",
+      "summary": "堪薩斯城聯儲主席Schmid表示通膨壓力廣泛，且仍未達到目標，對通膨加速風險感到擔憂。",
+      "content": "美國堪薩斯城聯儲主席Schmid指出，通膨壓力不僅限於能源，還涵蓋食品等廣泛商品與服務。他認為將6月通膨數據視為趨勢轉折點為時尚早，強調通膨仍高於目標，且未來幾個月存在加速風險。",
       "tags": [
         "Fed",
         "Inflation"
@@ -358,42 +1054,27 @@
       "category": "central_bank",
       "category_name": "央行",
       "importance": 5,
-      "headline": "美聯儲Logan支持適度升息以抑制通膨",
-      "summary": "達拉斯聯儲主席Logan呼籲提高利率，認為通膨未回歸目標，且AI帶來的需求效應推高物價。",
-      "content": "美國達拉斯聯儲主席Lorie Logan（2026年FOMC票委）呼籲提高利率，並表示通膨似乎沒有可持續地回到央行2%的目標。適度提高利率將能更好地平衡美聯儲在物價穩定和充分就業雙重使命下的前景與風險。人工智能（AI）最終可能會帶來生產力的激增，但目前需求效應正在推高物價。",
+      "headline": "達拉斯聯儲主席Logan支持升息",
+      "summary": "達拉斯聯儲主席Logan呼籲適度升息，認為AI投資需求短期內推高了物價。",
+      "content": "達拉斯聯儲主席Lorie Logan表示，通膨未可持續回到2%目標，支持適度提高利率以平衡物價穩定與充分就業。她指出，儘管AI長期能提升生產力，但目前AI投資需求超過供給，已產生通膨效應。",
       "tags": [
         "Fed",
-        "Logan"
+        "Interest Rate"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-17 00:26",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "伊朗媒體稱Bandar Abbas區域遭襲擊",
-      "summary": "伊朗媒體IRNA報導稱，伊朗Bandar Abbas周邊區域遭到敵人襲擊。",
-      "content": "伊朗媒體IRNA報導，伊朗Bandar Abbas周邊區域遭到敵人襲擊。地緣政治緊張局勢升溫，市場需關注對能源供應鏈的潛在影響。",
+      "datetime": "2026-07-17 00:57",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
+      "importance": 3,
+      "headline": "日本高市早苗內閣支持率跌破50%",
+      "summary": "日本首相高市早苗內閣支持率持續下滑，最新民調顯示已跌至49%。",
+      "content": "根據日本時事通訊社民調，高市早苗內閣支持率較上月下跌5.3個百分點至49%，不支持率則上升至25.2%。支持率持續下滑反映出民眾對現行政策的擔憂。",
       "tags": [
-        "Iran",
-        "Geopolitics"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-17 00:22",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 4,
-      "headline": "英偉達投資企業Fireworks估值達1750億美元",
-      "summary": "英偉達投資的AI企業Fireworks完成15億美元融資，估值達1750億美元，年化營收激增。",
-      "content": "英偉達投資企業Fireworks公布年化營收突破10億美元，為去年同期的5倍。公司剛完成15億美元融資，投後估值達1750億美元。隨著企業轉向開源模型，Fireworks客戶結構已實現多元化。",
-      "tags": [
-        "Nvidia",
-        "AI"
+        "Japan",
+        "Politics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -404,11 +1085,12 @@
       "category_name": "債市",
       "importance": 4,
       "headline": "英國國債殖利率攀升，市場關注財政前景",
-      "summary": "英國10年期國債殖利率逼近5%關卡，投資者對英國財政大臣人選及政府融資成本感到擔憂。",
-      "content": "英國10年期國債殖利率漲至4.966%，盤中一度觸及5.002%，逼近2008年高點。市場對英國政府融資成本上升表示擔憂，投資者正密切關注新任財政大臣的人選及其財政政策走向。",
+      "summary": "英國10年期國債殖利率漲至4.966%，逼近歷史高點，投資者對新任財政大臣的政策方向感到擔憂。",
+      "content": "英國10年期國債殖利率上漲2.8個基點至4.966%，盤中一度觸及5.002%，接近2008年高點。市場對新任財政大臣人選及其財政政策缺乏明確預期，導致英債遭到拋售，殖利率曲線持續承壓。",
       "tags": [
         "UK",
-        "Bond"
+        "Gilt",
+        "Fiscal Policy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -417,13 +1099,14 @@
       "datetime": "2026-07-17 00:00",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 3,
+      "importance": 4,
       "headline": "美國30年期房貸利率升至6.55%，創一年新高",
-      "summary": "房地美數據顯示，美國30年期按揭貸款利率升至6.55%，創下2025年8月以來新高。",
-      "content": "根據房地美（Freddie Mac）數據，美國上週30年期按揭貸款利率升至6.55%，高於前值的6.49%，創下2025年8月份以來的新高，顯示高利率環境對房市的持續壓力。",
+      "summary": "房地美數據顯示，美國30年期抵押貸款利率升至6.55%，創下2025年8月以來最高水平。",
+      "content": "美國房地美（Freddie Mac）數據顯示，上周30年期按揭貸款利率升至6.55%，高於前值的6.49%。利率持續攀升反映了市場對長期通膨與Fed利率路徑的重新定價，恐進一步抑制房地產市場需求。",
       "tags": [
-        "Economy",
-        "Mortgage"
+        "US",
+        "Mortgage",
+        "Economy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -433,28 +1116,31 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 4,
-      "headline": "美银CEO警示AI模型风险",
-      "summary": "美国银行CEO Moynihan指出Anthropic的Mythos等AI模型存在系统性风险，摩根大通CEO戴蒙亦警告其潜在危险。",
-      "content": "美国银行首席执行官Brian Moynihan加入华尔街高管行列，指出Anthropic PBC的Mythos等人工智能模型正引发严重关切，强调应对工具影响系统薄弱环节的速度需极快。摩根大通首席执行官杰米·戴蒙此前亦警告，让个人使用Mythos相当于把弹道导弹交到他们手中。",
+      "headline": "美銀CEO警告AI模型風險，華爾街高管表態",
+      "summary": "美國銀行CEO Brian Moynihan與摩根大通CEO Jamie Dimon均對AI模型（如Mythos）帶來的系統性風險表示擔憂。",
+      "content": "美國銀行CEO Brian Moynihan指出，Anthropic的Mythos等AI模型正引發嚴重關切，強調第三方風險管理的重要性。此前摩根大通CEO Jamie Dimon亦警告，AI工具若遭濫用可能對金融系統構成重大威脅。",
       "tags": [
         "AI",
         "BAC",
-        "JPM"
+        "JPM",
+        "Equity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-16 23:41",
+      "datetime": "2026-07-16 23:51",
       "category": "equity",
       "category_name": "股市",
-      "importance": 3,
-      "headline": "苹果拟升级iPad mini",
-      "summary": "苹果计划对iPad mini进行五年来最大规模升级，预计今年秋季发布，将首次采用OLED显示屏。",
-      "content": "苹果公司准备对iPad mini进行五年来最大规模升级，代号为J510的新款iPad mini将首次采用OLED显示屏，以提供更高质量的显示效果。苹果最快将于今年秋季发布新款iPad mini，并计划在10月前上市，同时正为明年更新入门级iPad和iPad Air做准备。",
+      "importance": 4,
+      "headline": "存儲芯片股重挫，費城半導體指數跌3.5%",
+      "summary": "受存儲芯片板塊拖累，閃迪、西部數據及SK海力士ADR跌幅顯著，費城半導體指數下跌3.5%。",
+      "content": "美股存儲芯片指數跌幅擴大至7%，其中閃迪跌10%，西部數據跌近9%，SK海力士ADR跌8.6%。半導體板塊集體走弱，拖累費城半導體指數下跌3.5%，市場對芯片需求前景轉趨謹慎。",
       "tags": [
-        "Apple",
-        "AAPL"
+        "Semiconductor",
+        "WDC",
+        "SK Hynix",
+        "Equity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -464,28 +1150,13 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "伊朗重申与邻国无敌对关系",
-      "summary": "伊朗外交部呼吁邻国防止领土被用于针对伊朗的军事行动，强调不希望地区冲突升级。",
-      "content": "伊朗外交部发表声明，呼吁波斯湾南岸邻国防止其陆地、海域和领空被用于针对伊朗的军事行动，以避免地区冲突进一步升级。伊方强调与周边国家不存在敌对关系，认为实现地区持久安全的唯一途径是加强对话与合作，并排除域外军事存在和外部干涉。",
+      "headline": "伊朗呼籲鄰國防範軍事行動，避免衝突升級",
+      "summary": "伊朗外交部呼籲波斯灣鄰國防止領土被用於針對伊朗的軍事行動，以避免地區衝突進一步擴大。",
+      "content": "伊朗外交部發表聲明，要求波斯灣南岸鄰國採取措施，防止其陸海空域被用於針對伊朗的軍事行動。伊朗強調不希望美國與以色列加劇地區對立，並重申與周邊國家不存在敵對關係，呼籲加強對話以維護穩定。",
       "tags": [
         "Iran",
-        "Geopolitics"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-16 23:09",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 4,
-      "headline": "以军称控制加沙超60%区域",
-      "summary": "以色列中央司令部司令表示，以军目前在加沙地带的控制区域已超过60%。",
-      "content": "《以色列时报》援引以色列中央司令部司令阿维·布卢特的话称，以军目前在加沙地带的控制区域已超过60%。",
-      "tags": [
-        "Israel",
-        "Gaza",
-        "War"
+        "Geopolitics",
+        "Middle East"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -495,13 +1166,28 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "伊朗格什姆岛附近遭袭",
-      "summary": "伊朗格什姆岛附近区域遭到美方发射物袭击。",
-      "content": "据伊朗方面消息，当地时间16日18时10分左右，伊朗格什姆岛附近区域遭到美方发射物袭击。",
+      "headline": "伊朗格什姆岛附近区域遭袭",
+      "summary": "伊朗格什姆岛附近区域遭到美方发射物袭击，地缘政治风险升温。",
+      "content": "据伊朗方面消息，当地时间16日18时10分左右，伊朗格什姆岛附近区域遭到美方发射物袭击，地缘政治紧张局势进一步加剧。",
       "tags": [
         "Iran",
-        "USA",
-        "War"
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-16 22:56",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "Nvidia跌超3%，半导体指数重挫",
+      "summary": "Nvidia股价下跌超过3%，拖累纳斯达克100指数与半导体板块表现。",
+      "content": "受市场情绪影响，Nvidia股价跌幅超过3%，导致纳斯达克100指数下跌逾1.1%，半导体指数跌幅更超过3.5%，显示科技股面临显著卖压。",
+      "tags": [
+        "Nvidia",
+        "Nasdaq",
+        "Semiconductor"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -511,12 +1197,12 @@
       "category": "fiscal_policy",
       "category_name": "財政政策",
       "importance": 4,
-      "headline": "美众院拟投票临时支出法案",
-      "summary": "美国众议院议长约翰逊计划下周就临时支出法案进行投票，以避免政府在9月底停摆。",
-      "content": "美国众议院议长迈克·约翰逊表示，计划下周将一项为政府提供资金的持续决议案（CR）提交众议院投票，以在9月30日最后期限前避免政府停摆。国会需在财年结束前完成拨款，否则政府将面临停摆风险。",
+      "headline": "美众院议长拟下周表决临时支出法案",
+      "summary": "美国众议院议长约翰逊计划下周就临时支出法案进行投票，以避免政府停摆。",
+      "content": "美国众议院议长迈克·约翰逊表示，计划下周将一项为政府提供资金的持续决议案（CR）提交投票，旨在9月30日财年截止日前避免政府停摆，市场关注后续资金争夺战。",
       "tags": [
-        "USA",
-        "FiscalPolicy"
+        "US Government",
+        "Fiscal Policy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -525,13 +1211,45 @@
       "datetime": "2026-07-16 22:39",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 4,
-      "headline": "胡塞武裝威脅攻擊沙特石油設施",
-      "summary": "胡塞武裝領導人警告，若沙特對也門發動侵略，將攻擊沙特石油與重要設施。",
-      "content": "也門胡塞武裝領導人公開威脅，若沙特阿拉伯再次對也門進行「全面侵略」並導致局勢升級，所有沙特的石油設施及重要基礎設施將成為其導彈攻擊目標，地緣政治風險升溫。",
+      "importance": 3,
+      "headline": "胡塞武装威胁沙特石油设施",
+      "summary": "也门胡塞武装警告，若沙特升级冲突，将攻击其石油及重要设施。",
+      "content": "也门胡塞武装领导人表示，若沙特再次进行全面侵略并造成局势升级，所有沙特的石油和重要设施将成为其导弹攻击的目标，能源供应安全风险受关注。",
       "tags": [
-        "Geopolitics",
-        "Oil"
+        "Saudi Arabia",
+        "Energy",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-16 22:30",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "美国EIA天然气库存增加410亿立方英尺",
+      "summary": "美国上周EIA天然气库存增加410亿立方英尺，略高于市场预期。",
+      "content": "美国能源信息署（EIA）公布数据显示，上周天然气库存增加410亿立方英尺，高于彭博用户预期的370亿立方英尺及分析师预期的407.8亿立方英尺。",
+      "tags": [
+        "EIA",
+        "Natural Gas"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-16 22:14",
+      "category": "bond",
+      "category_name": "債市",
+      "importance": 4,
+      "headline": "IMF：英国国债市场脆弱性出现结构性转变",
+      "summary": "IMF报告指出，2022年英国国债市场动荡标志着市场脆弱性出现结构性转变，全球因素对英债收益率影响显著。",
+      "content": "国际货币基金组织(IMF)称，2020-26年期间，全球因素解释了英国国债收益率波动的60%-90%。2022年9月的市场动荡标志着英国国债市场脆弱性出现结构性转变，政策可信度和可预测性是增强市场信心的关键。",
+      "tags": [
+        "UK",
+        "Bond",
+        "IMF"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -541,13 +1259,44 @@
       "category": "fiscal_policy",
       "category_name": "財政政策",
       "importance": 4,
-      "headline": "IMF警告英國財政政策風險",
-      "summary": "IMF敦促英國候任首相伯納姆避免財政冒進，強調英債市場對財政政策極度敏感。",
-      "content": "國際貨幣基金組織(IMF)警告英國候任首相安迪·伯納姆，2022年特拉斯預算危機造成永久性傷痕，使英國國債市場對財政政策更加敏感。IMF指出，政策可信度是扭轉市場脆弱性的關鍵。",
+      "headline": "IMF敦促英国候任首相伯纳姆避免财政冒进",
+      "summary": "IMF警告英国候任首相伯纳姆，特拉斯危机后的英债市场对财政政策高度敏感，需避免财政冒进。",
+      "content": "国际货币基金组织(IMF)警告英国候任首相安迪·伯纳姆，2022年特拉斯预算危机造成了永久性伤痕，使英国国债市场对财政政策更加敏感。债券市场已出现机制性转变，需谨慎处理财政支出与减税计划。",
       "tags": [
         "UK",
-        "Fiscal Policy",
-        "IMF"
+        "Fiscal Policy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-16 22:07",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "NAR：高抵押贷款利率与高房价压抑房市",
+      "summary": "NAR首席经济学家表示，高抵押贷款利率与历史高位的房价导致美国房地产市场表现疲软。",
+      "content": "美国全国房地产经纪人协会（NAR）首席经济学家劳伦斯·云表示，近一年来的最高抵押贷款利率，加上创下历史新高的全国房屋中位价，共同导致房地产市场表现疲软，这对首次购房者来说尤其困难。",
+      "tags": [
+        "US",
+        "Housing",
+        "Economy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-16 22:03",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "刚果埃博拉疫情干扰美国支持的矿产协议",
+      "summary": "刚果（金）埃博拉疫情导致后勤挑战，干扰了与美国支持的重大矿产合作相关的企业运营与谈判。",
+      "content": "刚果民主共和国爆发的埃博拉疫情已造成近800人死亡，严重干扰了与该国一项由美国支持的重大矿产合作相关的企业运营。疫情带来的隔离与限制措施阻碍了供应商与投资者的访问，影响了美刚战略伙伴关系协议的推进。",
+      "tags": [
+        "Commodity",
+        "Mining",
+        "Geopolitics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -557,108 +1306,92 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 3,
-      "headline": "美國6月成屋簽約銷售大跌",
-      "summary": "美國6月成屋簽約銷售指數環比下降5.4%，表現遠遜於市場預期。",
-      "content": "美國6月成屋簽約銷售指數環比下降5.4%，預期為下降0.5%。NAR首席經濟學家指出，高抵押貸款利率與創紀錄的房屋中位價，導致房地產市場表現疲軟，對首次購房者造成壓力。",
+      "headline": "美国6月成屋签约销售环比下降5.4%",
+      "summary": "美国6月成屋签约销售指数环比下降5.4%，表现不及预期。",
+      "content": "美国6月成屋签约销售指数环比下降5.4%，预期为下降0.5%，前值修正后为增长3.5%。该数据反映出在高利率环境下，美国房地产市场需求持续承压。",
       "tags": [
         "US",
-        "Housing Market"
+        "Economy",
+        "Housing"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-16 21:59",
-      "category": "central_bank",
-      "category_name": "央行",
+      "category": "commodity",
+      "category_name": "商品",
       "importance": 3,
-      "headline": "歐盟擬放寬銀行監管以提升競爭力",
-      "summary": "歐盟計劃放棄部分槓桿率資本金要求，以應對華爾街利潤激增帶來的競爭壓力。",
-      "content": "歐盟委員會將於週五發布報告，擬放寬關於槓桿率的「第二支柱」資本金要求規則，旨在提升歐洲銀行業的全球競爭力，並應對華爾街利潤激增帶來的監管挑戰。",
+      "headline": "伊拉克7月上半月原油装载量翻倍",
+      "summary": "随着出口加速，伊拉克7月上半月原油日均装载量达到约120万桶，较6月翻倍。",
+      "content": "根据Kpler数据，伊拉克7月上半月原油装载量翻了一倍多，日均达到约120万桶。尽管出口有所增加，但从南部巴士拉港出口的伊拉克原油仍远低于美伊战争爆发前的水平。",
       "tags": [
-        "ECB",
+        "Oil",
+        "Commodity",
+        "Iraq"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-16 21:59",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "欧盟拟重写银行业监管规则以提升竞争力",
+      "summary": "欧盟拟放弃部分关于杠杆率的“第二支柱”资本金要求规则，旨在提升银行业竞争力。",
+      "content": "欧盟委员会计划在周五发布的报告中提出立法变革，拟放弃部分关于杠杆率的“第二支柱”（Pillar 2）资本金要求规则。这些规则此前允许各国监管机构在欧盟3%基本杠杆率规则之上，额外施加自由裁量的附加要求。",
+      "tags": [
         "EU",
-        "Banking"
+        "Banking",
+        "Regulation"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-16 21:31",
+      "datetime": "2026-07-16 21:53",
       "category": "equity",
       "category_name": "股市",
       "importance": 4,
-      "headline": "半導體板塊拋售潮，SK海力士與TSMC股價受壓",
-      "summary": "半導體板塊出現拋售潮，SK海力士跌約7%，TSMC跌約3%，拖累全球科技股表現。",
-      "content": "受半導體板塊拋售潮影響，存儲芯片股普跌，SK海力士跌約7%，閃迪跌約5%，西部數據跌約3%。台積電（TSMC）儘管財報亮眼，股價仍受大盤拖累下跌約3%，納斯達克指數承壓。",
+      "headline": "雅培股价飙升，创2002年以来最大单日涨幅",
+      "summary": "雅培股价盘中涨幅扩大至14%，创下2002年以来最大单日涨幅。",
+      "content": "雅培（Abbott）股价盘中飙升，涨幅扩大至14%，创下2002年以来最大单日涨幅，带动医疗保健板块表现。",
       "tags": [
-        "Semiconductor",
-        "TSMC",
-        "SKHynix"
+        "Abbott",
+        "Equity"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-16 20:53",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 5,
-      "headline": "美國6月零售銷售增長0.2%，勞動力市場穩定",
-      "summary": "美國6月零售銷售環比增長0.2%，上周首次申請失業救濟人數為20.8萬人，顯示勞動力市場保持穩定。",
-      "content": "美國商務部數據顯示，6月零售銷售環比增長0.2%，受汽油支出減少影響。同時，上周首次申請失業救濟人數為20.8萬人，表明美國勞動力市場依然穩定，經濟數據表現符合市場對韌性的預期。",
-      "tags": [
-        "US",
-        "Economy",
-        "RetailSales"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-16 20:53",
-      "category": "economy",
-      "category_name": "經濟",
-      "importance": 4,
-      "headline": "美國7月費城聯儲製造業指數升至41.4",
-      "summary": "美國7月費城聯儲製造業指數升至41.4，創2021年以來新高，顯示製造業活動強勁擴張。",
-      "content": "美國7月費城聯儲製造業指數升至41.4，創下2021年以來的新高，反映出美國製造業活動在夏季呈現強勁擴張態勢，優於市場預期。",
-      "tags": [
-        "US",
-        "Manufacturing",
-        "Economy"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-16 20:53",
-      "category": "equity",
-      "category_name": "股市",
-      "importance": 5,
-      "headline": "TSMC第二季財報亮眼，上調全年營收增速",
-      "summary": "TSMC第二季淨利潤同比增長77.4%，全年營收增速上調至40%，資本支出加碼至640億美元。",
-      "content": "TSMC公布第二季財報，淨利潤同比增長77.4%，毛利率達67.7%，AI芯片需求強勁。公司將全年營收增速預期上調至40%，並將資本支出加碼至640億美元，顯示對AI產業鏈前景極度樂觀。",
-      "tags": [
-        "TSMC",
-        "AI",
-        "Semiconductor"
-      ],
-      "source": "華爾街見聞",
-      "url": "https://wallstreetcn.com/live/global"
-    },
-    {
-      "datetime": "2026-07-16 20:53",
+      "datetime": "2026-07-16 21:11",
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "伊朗被曝或要求胡塞武裝封鎖曼德海峽",
-      "summary": "據報導，伊朗可能要求也門胡塞武裝封鎖曼德海峽，地緣政治風險升溫。",
-      "content": "據新華社報導，有消息稱伊朗可能要求也門胡塞武裝封鎖曼德海峽。此舉若落實，將對全球航運與能源供應鏈造成重大衝擊，地緣政治緊張局勢進一步升溫。",
+      "headline": "霍爾木茲海峽航運活動持續低迷",
+      "summary": "霍爾木茲海峽商船通行量降至戰前水平的十分之一，地緣政治風險持續影響能源運輸。",
+      "content": "國際市場服務機構克普勒數據顯示，16日僅有13艘商船通過霍爾木茲海峽，僅為戰前平均水平的十分之一。儘管部分船隻可能關閉應答器，但整體航運活動仍處於低位，地緣緊張局勢對能源供應鏈構成壓力。",
       "tags": [
         "Geopolitics",
         "Energy",
-        "Iran"
+        "Shipping"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-16 20:53",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 5,
+      "headline": "TSMC第二季財報亮眼，上調全年營收預期",
+      "summary": "TSMC第二季淨利同比增長77.4%，全年營收增速上調至40%，資本支出加碼至640億美元。",
+      "content": "TSMC公布第二季財報，淨利同比大增77.4%，毛利率達67.7%。公司法說會表示AI晶片需求強勁，將全年營收增速預期上調至40%，並將資本支出加碼至640億美元，顯示AI基礎設施投資持續擴張。",
+      "tags": [
+        "TSMC",
+        "Semiconductor",
+        "AI"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -668,12 +1401,12 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "美國上周初領失業救濟金人數降至20.8萬人",
-      "summary": "美國勞工部數據顯示，截至7月11日當周，首次申領失業救濟人數降至20.8萬人，低於預期的21.7萬人，顯示勞動力市場保持穩定。",
-      "content": "美國勞工部公布數據，截至7月11日當周，首次申領失業救濟人數減少8000人至20.8萬人，優於市場預期的21.7萬人。持續申領人數亦降至181萬人，顯示在經歷5、6月的波動後，勞動力市場需求依然強勁，雇主留才意願高。",
+      "headline": "美國上周初領失業救濟人數低於預期",
+      "summary": "美國截至7月11日當周初領失業救濟人數降至20.8萬人，顯示勞動力市場保持穩定。",
+      "content": "美國勞工部數據顯示，截至7月11日當周，首次申領失業救濟人數減少8,000人至20.8萬人，低於預期的21.7萬人。持續申領人數亦降至181萬人，反映雇主留才意願強勁，勞動力市場韌性十足。",
       "tags": [
-        "Economy",
-        "Labor Market"
+        "Labor Market",
+        "Economy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -682,25 +1415,25 @@
       "datetime": "2026-07-16 20:36",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 4,
-      "headline": "美國6月零售銷售月增0.2% 符合預期",
-      "summary": "美國6月零售銷售月增0.2%，符合預期。加油站收入下降拖累整體數據，但核心消費表現穩健，顯示夏季消費韌性。",
-      "content": "美國6月零售銷售環比增長0.2%，符合市場預期。數據顯示加油站收入因油價下跌而下滑5.3%，掩蓋了其他類別的強勁表現。非實體店零售商銷售額跳漲1.9%，可能受惠於電商促銷活動，整體消費動能維持韌性。",
+      "importance": 3,
+      "headline": "美國6月零售銷售溫和增長0.2%",
+      "summary": "美國6月零售銷售環比增長0.2%，符合預期，消費支出保持韌性。",
+      "content": "美國6月零售銷售環比增長0.2%，符合市場預期。儘管加油站收入因油價下跌而下滑5.3%，但非實體店零售銷售跳漲1.9%，顯示扣除能源因素後，消費者支出依然穩健。",
       "tags": [
-        "Economy",
-        "Retail Sales"
+        "Retail Sales",
+        "Consumer Spending"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-16 20:31",
+      "datetime": "2026-07-16 20:30",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 4,
-      "headline": "美國7月費城聯儲製造業指數升至41.4",
-      "summary": "美國7月費城聯儲製造業指數意外飆升至41.4，創2021年以來新高，新訂單與出貨指數同步走強。",
-      "content": "美國7月費城聯儲製造業指數報41.4，遠高於預期的12.5及前值的10.3。細項中，新訂單指數增至37，出貨指數增至33.7，支付價格指數亦微升至53.9，顯示製造業活動出現顯著擴張。",
+      "importance": 5,
+      "headline": "美國7月費城聯儲製造業指數飆升",
+      "summary": "美國7月費城聯儲製造業指數升至41.4，創2021年以來新高，遠超預期。",
+      "content": "美國7月費城聯儲製造業指數錄得41.4，大幅高於預期的12.5及前值的10.3。其中新訂單指數增至37，出貨指數增至33.7，顯示製造業活動顯著擴張。",
       "tags": [
         "Economy",
         "Manufacturing"
@@ -713,13 +1446,13 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "伊朗威脅若遭襲擊將封鎖曼德海峽",
-      "summary": "據報導，伊朗警告若美國攻擊其電力網絡，將指示胡塞武裝封鎖曼德海峽，地緣政治風險升溫。",
-      "content": "路透社引述消息指出，伊朗向也門胡塞武裝傳達訊息，若美國對伊朗電力基礎設施發動攻擊，胡塞武裝應封鎖曼德海峽。曼德海峽為全球能源與貿易關鍵咽喉，此威脅加劇了紅海地區的地緣政治緊張局勢。",
+      "headline": "伊朗威脅若電網遭襲將封鎖曼德海峽",
+      "summary": "消息指出，若美國攻擊伊朗電力網絡，伊朗將要求胡塞武裝封鎖曼德海峽，恐衝擊全球航運。",
+      "content": "據路透社報導，伊朗已告知也門胡塞武裝，若美國襲擊伊朗電力網絡，胡塞武裝應封鎖曼德海峽。曼德海峽為連接紅海與亞丁灣的關鍵咽喉，若遭封鎖將嚴重影響全球能源與貿易航運。",
       "tags": [
-        "Geopolitics",
-        "Energy",
-        "Middle East"
+        "Iran",
+        "Houthi",
+        "Red Sea"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -728,31 +1461,42 @@
       "datetime": "2026-07-16 20:08",
       "category": "equity",
       "category_name": "股市",
-      "importance": 3,
-      "headline": "AI收入達臨界點 支撐數據中心投資",
-      "summary": "研究報告指出，全球AI銷售收入已達臨界點，足以覆蓋資本開支成本，證明數據中心投資的經濟合理性。",
-      "content": "Exponential View報告顯示，不含中國的全球AI銷售收入達250億美元，連續兩季超過數據中心與芯片投資的折舊成本210億美元。儘管利潤空間仍薄，但此里程碑顯示AI商業模式已開始具備經濟可持續性。",
+      "importance": 4,
+      "headline": "AI收入達臨界點，數據中心投資具合理性",
+      "summary": "研究報告顯示，全球AI銷售收入已達臨界點，足以覆蓋數據中心與芯片投資的折舊成本。",
+      "content": "Exponential View報告指出，不含中國的全球AI銷售收入達250億美元，連續兩季超過相關數據中心與芯片投資的折舊成本210億美元。這顯示AI資本支出開始具備經濟合理性，但利潤空間仍薄，容錯率極低。",
       "tags": [
         "AI",
-        "Tech",
-        "Equity"
+        "Data Center"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-16 19:53",
-      "category": "war",
-      "category_name": "戰爭",
-      "importance": 5,
-      "headline": "伊朗威脅若電網遭襲將封鎖紅海",
-      "summary": "伊朗已要求胡塞武裝，若美國攻擊伊朗電力網絡，即封鎖紅海石油航線。",
-      "content": "路透社報導，伊朗已要求胡塞武裝，若美國攻擊伊朗電力網絡，應封鎖紅海石油航線。胡塞武裝已在曼德海峽部署導彈與無人機，並由伊朗伊斯蘭革命衛隊代表控制行動時機，地緣政治風險升溫。",
+      "datetime": "2026-07-16 19:56",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "摩爾線程上半年營收預計暴增逾135%",
+      "summary": "受惠於AI產業需求強勁，摩爾線程預計上半年營收同比增長135%至149%，顯示國產GPU需求旺盛。",
+      "content": "摩爾線程公告，預計2026年上半年營收達16.5億至17.5億元，同比增長135.12%至149.37%。業績增長主要得益於人工智能產業發展及市場對全功能GPU的強勁需求，其智算集群商業化進程加速。",
       "tags": [
-        "Iran",
-        "Houthi",
-        "Red Sea",
-        "Oil"
+        "GPU",
+        "AI"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-16 19:42",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "雅培Q2財報優於預期，盤前股價漲4%",
+      "summary": "雅培第二季度淨銷售額與每股收益均優於市場預期，並上調全年財測，激勵盤前股價上漲。",
+      "content": "雅培第二季度淨銷售額為125.9億美元，調整後每股收益為1.31美元，雙雙優於市場預期。公司同時上調2026年全年調整後每股收益預期至5.45至5.60美元，帶動美股盤前股價上漲4%。",
+      "tags": [
+        "Abbott"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -762,9 +1506,9 @@
       "category": "economy",
       "category_name": "經濟",
       "importance": 4,
-      "headline": "川普將發表全國演說，聚焦選舉安全",
-      "summary": "美國總統川普將於黃金時段發表全國演說，預計將聚焦選舉安全並質疑中期選舉結果。",
-      "content": "美國總統川普將於黃金時段發表全國電視演說，內容涵蓋伊朗衝突、華盛頓改革及中期選舉。市場關注其對選舉安全與公平性的言論，可能為質疑11月中期選舉結果鋪路，引發政治不確定性。",
+      "headline": "特朗普將發表全國講話，聚焦選舉安全",
+      "summary": "美國總統特朗普將於黃金時段發表全國講話，預計重點討論中期選舉安全及相關議題。",
+      "content": "美國總統特朗普將於黃金時段發表全國電視講話，內容預計涵蓋伊朗衝突、華盛頓改革及中期選舉安全。特朗普強調公平選舉對國家重要性，市場關注其對選舉結果的態度及潛在政策走向。",
       "tags": [
         "Trump",
         "US Election"
@@ -776,13 +1520,13 @@
       "datetime": "2026-07-16 18:46",
       "category": "equity",
       "category_name": "股市",
-      "importance": 3,
+      "importance": 4,
       "headline": "禮來以最高38億美元收購AtaiBeckley",
-      "summary": "禮來宣布以現金加或有價值權收購AtaiBeckley，押注神經科學療法，激勵股價表現。",
-      "content": "禮來宣布達成最終協議，將以每股6.75美元現金收購臨床階段生物製藥公司AtaiBeckley，交易價值約28億美元。若特定研發里程碑達成，股東可獲額外價值，總潛在價值達38億美元，AtaiBeckley盤前漲超31%。",
+      "summary": "禮來宣佈以約28億美元現金收購AtaiBeckley，若達成里程碑條款，總價值上看38億美元。",
+      "content": "禮來（Eli Lilly）宣佈達成最終協議，將以每股6.75美元現金收購生物製藥公司AtaiBeckley，交易股權價值約28億美元。若相關精神疾病療法達到研發及監管里程碑，股東可獲得額外價值，總交易價值最高可達38億美元。",
       "tags": [
-        "LLY",
-        "AtaiBeckley"
+        "Eli Lilly",
+        "M&A"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -791,12 +1535,13 @@
       "datetime": "2026-07-16 18:35",
       "category": "equity",
       "category_name": "股市",
-      "importance": 3,
-      "headline": "聯合健康二季度業績超預期並上調指引",
-      "summary": "聯合健康第二季度業績優於市場預期，並上調全年業績指引，盤前股價大漲。",
-      "content": "聯合健康公布第二季度財報，業績表現優於市場預期，並宣布上調全年業績指引，顯示醫療保險與服務需求強勁，激勵公司美股盤前股價上漲超過8%。",
+      "importance": 4,
+      "headline": "聯合健康Q2業績超預期，上調全年指引",
+      "summary": "聯合健康第二季度業績優於預期，並上調全年業績指引，盤前股價漲超8%。",
+      "content": "聯合健康（UnitedHealth）公佈第二季度財報，業績表現超出市場預期，公司同時宣佈上調全年業績指引。受此利多消息激勵，聯合健康盤前股價漲幅超過8%。",
       "tags": [
-        "UNH"
+        "UnitedHealth",
+        "Earnings"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -805,12 +1550,13 @@
       "datetime": "2026-07-16 18:22",
       "category": "equity",
       "category_name": "股市",
-      "importance": 3,
-      "headline": "通用电气Q2营收与获利优于预期",
-      "summary": "通用电气第二季度营收与每股收益均优于市场预估，并上调全年财测。",
-      "content": "通用电气第二季度经调整营收达126.3亿美元，优于预期的118.6亿美元；调整后每股收益为2.02美元，高于预期的1.86美元。公司同时上调全年调整后每股收益指引至7.65至7.85美元。",
+      "importance": 4,
+      "headline": "通用電氣Q2營收獲利雙雙優於預期",
+      "summary": "通用電氣第二季度營收與每股收益均超預期，並上調全年獲利與現金流預測。",
+      "content": "通用電氣（GE）第二季度經調整營收達126.3億美元，高於預期的118.6億美元；調整後每股收益為2.02美元，優於預期的1.86美元。公司同時上調全年調整後每股收益指引至7.65至7.85美元。",
       "tags": [
-        "GE"
+        "GE",
+        "Earnings"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -819,13 +1565,14 @@
       "datetime": "2026-07-16 18:11",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 4,
-      "headline": "伊拉克南部海域油轮遭无人机袭击",
-      "summary": "伊拉克巴士拉港附近海域一艘油轮遭无人机袭击，石油装载作业一度暂停。",
-      "content": "伊拉克安全部门消息指出，一架无人机击中巴士拉省港口附近海域的油轮。尽管伊拉克石油部随后表示出口作业正常，但该事件引发市场对中东能源供应安全的担忧。",
+      "importance": 5,
+      "headline": "伊拉克南部海域油輪遭無人機襲擊",
+      "summary": "伊拉克巴士拉港附近海域一艘油輪遭無人機襲擊，港口石油裝載工作已暫停。",
+      "content": "伊拉克安全部門消息指出，一架無人機於16日擊中巴士拉省港口附近海域的一艘油輪。受此地緣政治事件影響，巴士拉港的石油裝載作業已全面暫停，市場關注對能源供應鏈的潛在衝擊。",
       "tags": [
         "Oil",
-        "Geopolitics"
+        "Geopolitics",
+        "Iraq"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -834,14 +1581,14 @@
       "datetime": "2026-07-16 18:10",
       "category": "war",
       "category_name": "戰爭",
-      "importance": 4,
-      "headline": "伊朗：霍尔木兹海峡通航须依伊朗条件",
-      "summary": "伊朗驻黎巴嫩使馆声明，霍尔木兹海峡不会因美国施压而开放，须按伊朗条件恢复。",
-      "content": "伊朗声明指出，解决霍尔木兹海峡通航问题仅能通过对话或接受伊朗军事力量设定的条件，此举加剧了波斯湾地区的地缘政治紧张局势，对能源运输构成潜在威胁。",
+      "importance": 5,
+      "headline": "伊朗：霍爾木茲海峽將按伊朗條件開放",
+      "summary": "伊朗駐黎巴嫩使館聲明，霍爾木茲海峽不會因美國施壓而開放，將按伊朗條件恢復通航。",
+      "content": "伊朗駐黎巴嫩使館發表聲明稱，霍爾木茲海峽的通航恢復將完全取決於「伊朗設定的條件」，並拒絕接受美國的施壓。伊朗強調解決問題僅能透過對話或迫使對方接受其軍事力量的現實。",
       "tags": [
         "Iran",
-        "Oil",
-        "Geopolitics"
+        "Geopolitics",
+        "Oil"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -850,12 +1597,12 @@
       "datetime": "2026-07-16 17:56",
       "category": "equity",
       "category_name": "股市",
-      "importance": 3,
-      "headline": "联合健康上调全年获利预期",
-      "summary": "联合健康第二季度营收与获利表现亮眼，并上调全年每股收益指引。",
-      "content": "联合健康第二季度调整后每股收益为6.38美元，远高于预期的4.89美元。公司将全年调整后每股收益预期上调至19.50至20.00美元，显示其业务表现强劲。",
+      "importance": 4,
+      "headline": "聯合健康上調全年獲利預期",
+      "summary": "聯合健康上調全年調整後每股收益預期至19.50-20.00美元，第二季財報優於預期。",
+      "content": "聯合健康（UnitedHealth）上調全年調整後每股收益預期至19.50至20.00美元，高於此前預期的18.25美元以上。第二季度調整後每股收益為6.38美元，優於市場預期的4.89美元；營收達1,120.3億美元，亦高於市場預期的1,106.7億美元。",
       "tags": [
-        "UNH"
+        "UnitedHealth"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -864,10 +1611,10 @@
       "datetime": "2026-07-16 17:20",
       "category": "commodity",
       "category_name": "商品",
-      "importance": 3,
-      "headline": "伊拉克叙利亚拟重修油管避开霍尔木兹海峡",
-      "summary": "伊拉克与叙利亚计划重修石油管道，旨在绕过霍尔木兹海峡运输石油。",
-      "content": "美国官员透露，伊拉克与叙利亚正讨论恢复一条荒废的石油管道，将伊拉克北部原油输送至地中海港口，此举意在降低对霍尔木兹海峡的依赖，具有重要的能源战略意义。",
+      "importance": 4,
+      "headline": "伊拉克與敘利亞擬重修石油管道",
+      "summary": "伊拉克與敘利亞計劃重修石油管道，旨在避開霍爾木茲海峽運輸石油。",
+      "content": "美國官員透露，伊拉克與敘利亞將重修一條荒廢多年的石油管道，將伊拉克北部油田生產的石油運輸至敘利亞地中海港口，此舉旨在避開霍爾木茲海峽，以降低地緣政治風險對能源運輸的影響。",
       "tags": [
         "Oil",
         "Geopolitics"
@@ -879,13 +1626,13 @@
       "datetime": "2026-07-16 17:00",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 2,
-      "headline": "欧元区5月贸易帐由盈转亏",
-      "summary": "欧元区5月季调后贸易帐录得逆差49.7亿欧元，表现逊于预期。",
-      "content": "欧元区5月季调后贸易帐为逆差49.7亿欧元，预期为顺差28亿欧元，前值为顺差13亿欧元，显示欧元区贸易平衡状况在5月份出现显著恶化。",
+      "importance": 3,
+      "headline": "歐元區5月貿易帳轉為逆差",
+      "summary": "歐元區5月季調後貿易帳錄得逆差49.7億歐元，表現遜於預期。",
+      "content": "歐元區5月未季調貿易帳為逆差78億歐元，季調後貿易帳錄得逆差49.7億歐元，遠低於市場預期的順差28億歐元，顯示歐元區對外貿易壓力增加。",
       "tags": [
-        "ECB",
-        "Eurozone"
+        "Eurozone",
+        "TradeBalance"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
