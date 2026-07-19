@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-19 07:06",
+  "generated_at": "2026-07-19 22:03",
   "timezone": "Asia/Taipei",
   "source": "https://wallstreetcn.com/live/global",
   "fetch_start_time": "2026-07-18 17:00",
-  "fetch_end_time": "2026-07-19 07:05",
-  "raw_count": 80,
-  "count": 13,
+  "fetch_end_time": "2026-07-19 22:01",
+  "raw_count": 264,
+  "count": 59,
   "categories": {
     "bond": "債市",
     "equity": "股市",
@@ -16,23 +16,355 @@
     "commodity": "商品"
   },
   "brief_points": [
-    "中東地緣衝突急劇升級，伊朗襲擊科威特與美軍目標，市場避險情緒恐將大幅推升油價與黃金。",
-    "霍爾木茲海峽航運風險激增，能源供應鏈面臨中斷威脅，全球能源市場波動性將顯著加劇。",
-    "台積電第二季財報亮眼，HPC營收佔比達66%，顯示AI硬體需求依然強勁，可作為科技股支撐。",
-    "美國政府加強對前沿AI模型的監管與訪問控制，科技巨頭的技術壟斷優勢可能面臨政策逆風。",
-    "伊拉克尋求繞過霍爾木茲海峽的出口路徑，反映產油國對區域衝突導致能源出口中斷的極度擔憂。",
-    "土耳其與阿聯酋洽談轉移S-400系統，地緣政治博弈複雜化，軍工產業鏈與區域防禦格局面臨重組。",
-    "英國將鋼鐵公司國有化，顯示地緣政治與產業安全考量正凌駕於自由市場機制，需留意相關政策風險。"
+    "中東地緣衝突急劇升溫，伊朗與美軍在多國領土交火，霍爾木茲海峽航運風險大增，避險情緒將主導市場。",
+    "伊朗威脅若遭攻擊將封鎖霍爾木茲海峽，能源供應鏈面臨中斷威脅，油價恐面臨顯著上行壓力。",
+    "美伊軍事衝突範圍擴大至科威特、巴林與約旦，區域能源基礎設施頻遭襲擊，市場需密切關注能源價格波動。",
+    "台積電第二季財報亮眼，HPC業務佔比達66%且毛利率提升，顯示AI硬體需求強勁，可作為科技股配置參考。",
+    "中信證券指出指數行情處於醞釀期，北美AI供應鏈短期可視為科技避風港，後續漲勢取決於商業變現能力。",
+    "美國能源部承諾採取行動降低能源價格，顯示官方對地緣政治引發的通膨風險高度警戒，需留意政策干預力度。"
   ],
   "items": [
     {
-      "datetime": "2026-07-19 01:16",
+      "datetime": "2026-07-19 21:59",
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "美軍士兵在約旦遭伊朗襲擊身亡",
-      "summary": "美國中央司令部證實，2名美軍士兵在約旦應對伊朗導彈與無人機襲擊時死亡，另有1人失蹤。",
-      "content": "美國中央司令部（CENTCOM）發表聲明，7月17日美軍在約旦應對伊朗彈道導彈和無人機襲擊期間，造成2名美軍士兵死亡，另有1名士兵失蹤。此事件加劇中東地緣政治緊張局勢。",
+      "headline": "伊朗向約旦發射導彈，恐波及以色列",
+      "summary": "以軍監測到伊朗向約旦亞喀巴發射導彈，因地理位置毗鄰，恐波及以色列南部。",
+      "content": "以色列國防軍聲明，監測到伊朗向約旦亞喀巴發射導彈。由於該地毗鄰以色列南部，此輪襲擊可能波及以色列，以軍警告南部地區可能拉響警報。",
+      "tags": [
+        "Iran",
+        "Israel",
+        "Jordan"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 21:30",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "俄軍襲擊烏克蘭天然氣加工廠",
+      "summary": "俄羅斯無人機襲擊烏克蘭哈爾科夫地區的天然氣加工廠，並打擊軍事物流中心。",
+      "content": "俄羅斯國防部證實，俄軍無人機襲擊了烏克蘭哈爾科夫地區的一座天然氣加工廠，並同時打擊了切爾尼戈夫地區的一個軍事物流中心，加劇能源基礎設施風險。",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 21:08",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 4,
+      "headline": "美能源部：將採取行動降低能源價格",
+      "summary": "美國能源部長Wright表示，將確保霍爾木茲海峽石油運輸，並在未來數月採取行動降低能源價格。",
+      "content": "美國能源部長Wright聲稱，無論伊朗是否提供幫助，美方將確保霍爾木茲海峽石油輸送。鑑於中期選舉臨近及夏季駕車旺季，美方將在未來數週與數月採取一切行動降低能源價格。",
+      "tags": [
+        "Energy",
+        "Oil",
+        "USA"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 20:36",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗外長：核爭端恐無法解決",
+      "summary": "伊朗外長表示核領域存在無法解決的問題，並威脅若領袖遭襲將封鎖霍爾木茲海峽。",
+      "content": "伊朗外長阿拉格齊表示，核領域存在無法解決的問題，且伊朗未擱置濃縮鈾問題。他強調，若最高領袖成為打擊目標，伊朗將封鎖霍爾木茲海峽，地緣政治風險急劇升溫。",
+      "tags": [
+        "Iran",
+        "Nuclear",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 20:31",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "中東股市普遍收跌，卡塔爾跌穿萬點",
+      "summary": "受地緣政治影響，卡塔爾股市跌穿1萬點整數關口，為去年4月以來首次。",
+      "content": "中東股市表現疲軟，卡塔爾證交所指數收跌1.47%，跌穿1萬點心理關口。阿曼、科威特及埃及股市同步收跌，顯示區域地緣緊張局勢對資本市場造成壓力。",
+      "tags": [
+        "MiddleEast",
+        "StockMarket"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 20:23",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "以軍監測伊朗導彈射向約旦亞喀巴",
+      "summary": "以軍監測到伊朗向約旦亞喀巴發射導彈，可能波及以色列南部，目前安全指引暫未調整。",
+      "content": "以色列國防軍監測到伊朗向約旦南部城市亞喀巴方向發射導彈。由於該地毗鄰邊境，以軍稱可能波及以色列南部，但目前本土守備司令部的安全指引暫未作出調整。",
+      "tags": [
+        "Israel",
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 20:11",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗威脅若美方惡意行徑持續，將維持關閉霍爾木茲海峽",
+      "summary": "伊朗革命衛隊表示，只要美國的惡意行徑持續，霍爾木茲海峽將維持關閉狀態。",
+      "content": "伊朗革命衛隊針對霍爾木茲海峽關閉問題通報稱，只要美國的惡意行徑（malice）持續，該海峽將維持關閉狀態。此地緣政治緊張局勢可能對全球能源供應與油價造成顯著影響。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Oil"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 19:22",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "科威特發電站與海水淡化廠遭伊朗攻擊",
+      "summary": "科威特發電站與海水淡化廠再次遭到伊朗攻擊，導致設施起火並影響電力供應。",
+      "content": "科威特官方表示，其發電站和海水淡化廠再次遭到伊朗打擊，造成設施起火，大量發電部門受到影響，目前正設法恢復受損部門的運營。此事件加劇了波斯灣地區的地緣政治風險。",
+      "tags": [
+        "Kuwait",
+        "Iran",
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 19:03",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "美伊停火期間，伊朗石油出口額達60億美元",
+      "summary": "數據顯示，在與美國的短暫停火期間，伊朗出口約7000萬桶石油，價值約50億至60億美元。",
+      "content": "根據華爾街日報與相關組織數據，在與美國的短暫停火期間，伊朗成功出口約7000萬桶石油，價值約50億至60億美元。美國財政部此前曾簽發通用許可證，允許伊朗石油產品的生產與銷售。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Oil"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 19:01",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
+      "importance": 3,
+      "headline": "香港將出台政策支持中小企業採用AI",
+      "summary": "香港財政司司長陳茂波表示，政府年內將推出優化版「數碼轉型支援先導計劃」，支持中小企業採用AI方案。",
+      "content": "香港特區政府財政司司長陳茂波表示，政府將於年內推出優化版「數碼轉型支援先導計劃」，支持中小企業採用現成的人工智能方案。香港的AI布局已進入系統布局階段，旨在賦能各行各業。",
+      "tags": [
+        "Hong Kong",
+        "AI",
+        "Fiscal Policy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 18:39",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗谴责美国对在建核电站发动恐怖袭击",
+      "summary": "伊朗原子能组织谴责美国对一处在建核电站工地发动恐怖袭击，地缘政治紧张局势升级。",
+      "content": "伊朗原子能组织19日发表声明，正式谴责美国对伊朗境内一处在建核电站工地发动所谓“恐怖袭击”。此举加剧了美伊两国间的地缘政治紧张局势，市场需密切关注中东地区能源供应及航运安全风险。",
+      "tags": [
+        "Iran",
+        "US",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 18:26",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "巴林称拦截伊朗导弹和无人机",
+      "summary": "巴林国防军表示其防空系统拦截并摧毁了来自伊朗的导弹和无人机，地区冲突风险加剧。",
+      "content": "巴林国防军总司令部19日发表声明称，伊朗持续对巴林发动袭击，巴林防空系统于当天上午多次拦截并摧毁了来自伊朗的导弹和无人机。该事件显示中东地区军事冲突有扩散迹象，可能对区域能源市场及避险情绪产生影响。",
+      "tags": [
+        "Bahrain",
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 18:11",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "美驻约旦使馆发布安全警示",
+      "summary": "美国驻约旦使馆因具体且可信的威胁，建议公民避开亚喀巴机场与港口区域。",
+      "content": "美国驻约旦大使馆19日发布安全警示，称约旦官方基于“具体且可信的威胁”，已对南部城市亚喀巴的国际机场和港口区域进行疏散。建议所有美国公民避免前往上述区域。此举引发市场对中东物流与能源运输中断的担忧。",
+      "tags": [
+        "Jordan",
+        "US",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 18:10",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 3,
+      "headline": "中信证券：银行板块兼具绝对和相对收益",
+      "summary": "中信证券预计二季度银行息差表现良好，盈利增速上行，建议关注银行板块配置价值。",
+      "content": "中信证券研报指出，预计二季度银行息差表现良好，中收业务助力营收稳定，盈利增速延续小幅上行。在市场风格剧烈波动背景下，银行板块作为稳健资产，兼具绝对收益与相对收益空间，适配低波稳健型资金配置。",
+      "tags": [
+        "Banking",
+        "China",
+        "Equity"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 18:07",
+      "category": "equity",
+      "category_name": "股市",
+      "importance": 4,
+      "headline": "中信证券：指数行情处于休整到酝酿阶段",
+      "summary": "中信证券认为指数短期出清接近尾声，北美AI链短期或成科技避风港。",
+      "content": "中信证券研报指出，当前指数行情处于中期休整到新一轮行情的酝酿阶段，短期出清已接近尾声。北美AI链短期可能是科技内部的避风港，7月底北美CSP指引前后或迎来修复，但后续上涨需依赖AI模型能力跃升与商业变现拓展。",
+      "tags": [
+        "AI",
+        "Equity",
+        "Strategy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 17:27",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "美伊高风险赌博压缩局势降温空间",
+      "summary": "美军持续打击伊朗关键基础设施，双方冲突升级，局势降温空间被压缩。",
+      "content": "近一周美军连续打击伊朗港口、能源设施等关键民用基础设施，伊朗警告将对地区内基础设施进行强力报复。分析认为，美伊双方正在跨越红线，通过有限加码迫使对方让步，这种“高风险赌博”正严重压缩局势降温的空间，加剧地缘政治不确定性。",
+      "tags": [
+        "US",
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 17:10",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "美沙核协议草案遭质疑",
+      "summary": "美媒披露美沙核协议草案，允许美方转移核技术，引发美国“双标”质疑。",
+      "content": "美媒披露一份美国与沙特阿拉伯的核协议草案，在未落实核不扩散制度前提下，允许美方向沙特民用核项目转移核材料和技术。此举引发舆论对美国在核问题上“双标”的强烈质疑。",
+      "tags": [
+        "Geopolitics",
+        "USA",
+        "Saudi Arabia"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 16:29",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 3,
+      "headline": "巴林境内拉响防空警报",
+      "summary": "当地时间19日，巴林境内拉响防空警报，地缘政治风险引发关注。",
+      "content": "当地时间19日11时20分左右，巴林境内拉响防空警报。该地区地缘政治局势紧张，相关动向需持续关注。",
+      "tags": [
+        "Bahrain",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 15:48",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 3,
+      "headline": "纽约市长称内塔尼亚胡可能被捕",
+      "summary": "纽约市长表示正讨论若内塔尼亚胡参加联大，是否执行国际刑事法院逮捕令。",
+      "content": "美国纽约市长马姆达尼在采访中被问及若以色列总理内塔尼亚胡前往纽约参加联合国大会，是否会执行国际刑事法院的逮捕令，市长回应称正讨论逮捕以总理的可能性。",
+      "tags": [
+        "Israel",
+        "USA",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 15:25",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "科威特防空系統攔截導彈與無人機襲擊",
+      "summary": "科威特武裝部隊表示，防空系統正在攔截敵方導彈與無人機襲擊，居民聽見爆炸聲。",
+      "content": "科威特武裝部隊19日發表聲明，其防空系統正在攔截敵方的導彈和無人機襲擊。居民聽到的爆炸聲為防空系統攔截結果，軍方要求民眾遵守政府安全指示。",
+      "tags": [
+        "Kuwait",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 15:22",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "俄軍對烏克蘭發動大規模無人機與導彈襲擊",
+      "summary": "烏克蘭空軍通報，俄軍自18日晚間起對基輔等地發動大規模聯合打擊，記錄到166個空中目標。",
+      "content": "烏克蘭空軍通報，自18日18時起，俄軍使用無人機與多種導彈對烏克蘭進行大規模聯合打擊，主要攻擊方向為首都基輔。雷達部隊共記錄到166個空中攻擊目標，包括41枚導彈與125架各類無人機。",
+      "tags": [
+        "Ukraine",
+        "Russia",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 15:00",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗媒體稱擊落美軍MQ-9無人機",
+      "summary": "伊朗媒體報導，伊朗伊斯蘭革命衛隊在阿瓦士擊落一架美軍MQ-9死神無人機。",
+      "content": "據伊朗媒體19日報導，伊朗伊斯蘭革命衛隊在伊朗阿瓦士地區擊落一架美軍MQ-9型「死神」無人機。此事件加劇了中東地區的地緣政治緊張局勢。",
       "tags": [
         "Iran",
         "USA",
@@ -42,49 +374,347 @@
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-19 00:50",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 4,
-      "headline": "霍爾木茲海峽發生商船攔截事件",
-      "summary": "英國海上貿易行動辦公室收到報告，一艘商船在阿曼杜庫姆附近與軍事力量發生攔截事件。",
-      "content": "英國海上貿易行動辦公室（UKMTO）指出，一艘商船在阿曼杜庫姆（Duqm）以東約100海里處遭到攔截。該地區持續的軍事活動引發市場對能源運輸安全的擔憂。",
+      "datetime": "2026-07-19 15:00",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "加拿大面臨史上最嚴峻野火季",
+      "summary": "加拿大總理卡尼表示，受極端熱浪與乾旱影響，政府正全員動員應對史上最嚴峻野火災情。",
+      "content": "加拿大總理卡尼表示，在極端熱浪與破紀錄乾旱影響下，加拿大正經歷史上最嚴峻野火季之一。政府已採取全員動員方式，部署超過5300名消防人員與近300架飛機，並利用無人機與熱成像技術監測火勢。",
       "tags": [
-        "Oil",
-        "Shipping",
-        "Hormuz"
+        "Canada",
+        "Climate"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-18 23:57",
+      "datetime": "2026-07-19 14:47",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "意大利中小企業聯合會：高溫加重經濟負擔",
+      "summary": "意大利中小企業聯合會數據顯示，極端高溫每年恐造成60億至120億歐元經濟損失。",
+      "content": "意大利中小企業聯合會數據顯示，若意大利每年遭遇30至60天極端高溫天氣，將造成60億至120億歐元的經濟負擔與損失，約佔國內生產總值（GDP）的0.2%至0.4%。",
+      "tags": [
+        "Italy",
+        "Economy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 14:31",
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "伊朗海水淡化廠遭襲，萬人斷水",
-      "summary": "伊朗霍爾木茲甘省本吉海水淡化廠遭美軍襲擊，導致約1萬居民飲用水供應中斷。",
-      "content": "伊朗政府網站報導，美軍對霍爾木茲甘省基礎設施發動襲擊，導致本吉海水淡化廠電力變壓器與泵站被毀，周邊20個村莊約1萬居民面臨缺水危機，區域衝突持續升級。",
+      "headline": "伊朗稱對美軍駐科威特基地發動打擊",
+      "summary": "伊朗軍方稱展開「閃電」行動第17階段，以無人機密集轟炸美軍駐科威特基地。",
+      "content": "伊朗方面19日消息稱，伊朗軍隊自凌晨起展開「閃電」行動第17階段，以無人機打擊美軍駐科威特基地。其中美軍阿達伊里營地彈藥庫，以及阿里·薩利姆基地的設備與人員庫房均遭密集轟炸。",
       "tags": [
         "Iran",
         "USA",
-        "Infrastructure"
+        "Kuwait",
+        "Geopolitics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
-      "datetime": "2026-07-18 22:56",
+      "datetime": "2026-07-19 12:51",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "俄副外长：日乌无人机合作属敌对行为",
+      "summary": "俄罗斯副外长鲁坚科表示，俄方将日本与乌克兰在无人机领域的合作视为公开敌对行为。",
+      "content": "俄罗斯副外长鲁坚科18日公开表示，俄方将日本与乌克兰在无人机领域的合作视为公开敌对行为，此举可能进一步加剧俄日外交紧张关系。",
+      "tags": [
+        "Russia",
+        "Japan",
+        "Ukraine"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 12:04",
+      "category": "fiscal_policy",
+      "category_name": "財政政策",
+      "importance": 3,
+      "headline": "新加坡考虑下调对冲基金税率",
+      "summary": "据英国金融时报报道，新加坡政府正在考虑下调对冲基金的税率，以增强金融中心竞争力。",
+      "content": "新加坡政府正研拟下调对冲基金税率，此举旨在吸引更多全球资本与资产管理机构进驻，进一步巩固其作为亚洲主要金融中心的地位。",
+      "tags": [
+        "Singapore",
+        "HedgeFund"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 12:03",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美军再次袭击伊朗格什姆岛",
+      "summary": "伊朗媒体报道称，美军战机再次袭击伊朗南部格什姆岛，当地传出多次爆炸声。",
+      "content": "伊朗塔斯尼姆通讯社报道，美军战机于当地时间19日早晨再次袭击伊朗格什姆岛，造成至少两次爆炸。伊朗相关部门已抵达现场评估损失，中东地缘政治风险显著升温。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 11:45",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "美国务院发布全球安全提醒",
+      "summary": "美国国务院建议全球范围内的美国公民提高警惕，因中东局势加剧存在升级风险。",
+      "content": "鉴于中东地区紧张局势加剧，安全环境复杂，美国国务院发布全球安全提醒，建议全球范围内的美国公民提高警惕，密切关注新闻动态以应对潜在的意外升级。",
+      "tags": [
+        "USA",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 11:23",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗称打击科威特境内美军基地",
+      "summary": "伊朗军队宣称使用无人机打击了美军在科威特的空军基地及弹药库。",
+      "content": "伊朗军队发表声明称，已使用大量无人机打击了美军在科威特的阿里·萨利姆空军基地及比林军营，重点摧毁了弹药库与防空雷达系统，中东冲突范围有扩大迹象。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Kuwait"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 11:02",
       "category": "economy",
       "category_name": "經濟",
-      "importance": 4,
-      "headline": "白宮加強對前沿AI模型發布控制",
-      "summary": "美國政府採取新舉措，決定哪些實體有權訪問最新AI模型，加強對AI技術的監管。",
-      "content": "據知情人士透露，美國政府正主導前沿AI模型的訪問權限，透過審核機制加強對未來AI模型發布的控制，顯示權力正從科技巨頭手中轉移至政府監管層面。",
+      "importance": 3,
+      "headline": "韩国放宽外国投资者交易韩元限制",
+      "summary": "韩国政府宣布放宽外国投资者交易韩元的申报要求，并设立24小时结算网络。",
+      "content": "韩国政府与央行宣布，外国投资者在进行大多数资本交易时无需事先申报，自9月起简化银行核实流程。此外，韩国央行将启动24小时结算网络试点，旨在提升韩元国际化程度。",
       "tags": [
-        "AI",
+        "Korea",
+        "KRW"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 10:43",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "钼价格大涨，创近三年新高",
+      "summary": "受钢铁及新能源需求驱动，钼精矿与钼铁价格上半年涨幅近30%，创近三年新高。",
+      "content": "作为工业关键原料，钼市场上半年全线走强。钼铁价格近期出现单日大幅上涨，反映出高端装备与新能源产业对特种钢材需求的持续增长，钼铁价格已处于上行周期。",
+      "tags": [
+        "Commodity",
+        "Molybdenum"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 10:32",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美军对伊朗发动新一轮空袭",
+      "summary": "美军中央司令部确认对伊朗发动新一轮空袭，旨在削弱其威胁航运能力并进行报复。",
+      "content": "美军于19日开始对伊朗进行新一轮空袭，行动目标为削弱伊朗威胁霍尔木兹海峡航运的能力，并针对此前约旦美军基地遇袭事件进行惩罚，地缘政治风险处于极高水平。",
+      "tags": [
         "USA",
-        "Regulation"
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 10:03",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美伊衝突升溫，美軍增派戰機",
+      "summary": "美伊衝突加劇，五角大廈加緊向中東地區增派F-16與F-35戰機。",
+      "content": "隨著美國與伊朗衝突加劇，五角大廈正加緊向中東地區增派戰機，包括美國空軍的F-16與F-35隱形戰機，以應對日益緊張的區域局勢。",
+      "tags": [
+        "Iran",
+        "USA",
+        "MiddleEast"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 09:01",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗格什姆島遭導彈襲擊",
+      "summary": "伊朗媒體報導，伊朗南部格什姆島多處地點遭導彈襲擊，傳出爆炸聲。",
+      "content": "伊朗媒體報導，伊朗南部格什姆島多處地點於當地時間凌晨遭導彈襲擊，當地居民表示聽到多次爆炸聲，目前尚未接獲平民傷亡或基礎設施受損報告。",
+      "tags": [
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 08:59",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "美軍基地遭襲，伊朗導彈庫存充足",
+      "summary": "美官員稱約旦美軍基地5天內遭4次襲擊，顯示伊朗導彈庫存充足且規避能力提升。",
+      "content": "美國官員表示，伊朗在過去5天內對約旦美軍基地發動4次襲擊，造成美軍人員傷亡與設備損毀。美方認為此舉顯示伊朗軍隊擁有充足導彈庫存，且規避防空系統能力有所提升。",
+      "tags": [
+        "USA",
+        "Iran",
+        "Military"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 08:46",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美軍對伊朗發動新一輪空襲",
+      "summary": "美國中央司令部證實，美軍奉命對伊朗發動新一輪空襲，旨在削弱其威脅航運能力。",
+      "content": "美國中央司令部表示，美軍奉命對伊朗發動新一輪空襲，旨在削弱伊朗威脅霍爾木茲海峽商業航運的能力，並懲戒伊斯蘭革命衛隊對駐約旦美軍的襲擊。",
+      "tags": [
+        "USA",
+        "Iran",
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 08:45",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "伊拉克宣布重修跨國輸油管道",
+      "summary": "伊拉克與敘利亞簽署備忘錄，將重修通往地中海的原油出口管道。",
+      "content": "伊拉克石油部宣布與敘利亞簽署諒解備忘錄，將重修一條從伊拉克基爾庫克通往敘利亞巴尼亚斯的原油出口管道，旨在實現出口路線多樣化並加強地區能源安全。",
+      "tags": [
+        "Iraq",
+        "Oil",
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 08:42",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗稱哈吉阿巴德遭美軍襲擊",
+      "summary": "伊朗官方消息指出，霍爾木茲甘省的哈吉阿巴德遭到美軍襲擊，地緣政治風險升溫。",
+      "content": "據伊朗方面消息，伊朗霍爾木茲甘省的哈吉阿巴德遭到美軍襲擊。此事件發生在美伊緊張局勢加劇之際，市場需密切關注波斯灣地區的軍事衝突對能源供應及地緣政治風險的影響。",
+      "tags": [
+        "Iran",
+        "US",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 01:16",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美軍士兵在約旦遭伊朗襲擊身亡",
+      "summary": "美國中央司令部證實，2名美軍士兵在約旦因伊朗襲擊而死亡，另有1人失蹤。",
+      "content": "美國中央司令部（CENTCOM）發表聲明稱，7月17日，在約旦應對伊朗彈道飛彈和無人機襲擊期間，造成2名美軍士兵死亡，另有1名士兵失蹤。此事件顯著加劇了美伊之間的軍事對抗風險。",
+      "tags": [
+        "US",
+        "Iran",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 01:01",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 2,
+      "headline": "研究：義大利極端高溫每年損失百億歐元",
+      "summary": "研究顯示極端高溫每年可能給義大利造成60億至120億歐元的經濟損失。",
+      "content": "義大利企業聯合會研究指出，極端高溫已成為影響經濟的結構性因素，每年造成60億至120億歐元損失。企業面臨能源成本上升、勞動生產率下降及旅遊業衝擊，需採取結構性干預措施以應對氣候變遷帶來的經濟風險。",
+      "tags": [
+        "Italy",
+        "Economy",
+        "Climate"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 00:56",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 3,
+      "headline": "智利風暴減弱，Codelco恢復銅礦開採",
+      "summary": "智利國有銅業公司Codelco表示，因風暴減弱，將恢復安第納銅礦的營運。",
+      "content": "智利國有銅業公司（Codelco）宣布，在因強冬季風暴採取預防性停工後，將恢復安第納（Andina）銅礦的營運。此前特尼恩特（El Teniente）露天礦的礦石發運也已恢復，供應中斷風險緩解。",
+      "tags": [
+        "Copper",
+        "Codelco",
+        "Chile"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-19 00:36",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "伊朗最高領袖：美國行為將付出代價",
+      "summary": "伊朗最高領袖哈梅內伊批評美國破壞諒解備忘錄，並警告將給予美國刻骨銘心的教訓。",
+      "content": "伊朗最高領袖穆杰塔巴·哈梅內伊發表聲明，指責美方屢次違背諒解備忘錄，稱美國總統的簽字毫無價值。他強調，美國挑起戰爭必將付出沉重代價，伊朗將給予美國刻骨銘心的教訓，地緣緊張局勢持續升級。",
+      "tags": [
+        "Iran",
+        "US",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-18 23:13",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美軍空襲伊朗霍爾木茲甘省",
+      "summary": "美軍對伊朗霍爾木茲甘省發動三輪空襲，導致當地116座通信塔中斷。",
+      "content": "據伊朗方面消息，美軍於18日對伊朗南部霍爾木茲甘省發動三輪空襲，造成當地116座通信塔中斷。此舉加劇了波斯灣地區的地緣政治緊張局勢。",
+      "tags": [
+        "Iran",
+        "US",
+        "Geopolitics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -94,9 +724,9 @@
       "category": "commodity",
       "category_name": "商品",
       "importance": 4,
-      "headline": "霍爾木茲海峽油輪面臨極端風險",
-      "summary": "海事風險機構指出，因伊朗加大襲擊力度，航運公司在霍爾木茲海峽面臨最壞情況。",
-      "content": "海事風險服務公司Marisks表示，目前霍爾木茲海峽的通行量減少，船員對安全感到極度恐懼，航運決策已由安全考量主導，而非經濟利益，恐影響全球能源供應鏈。",
+      "headline": "霍爾木茲海峽油輪面臨最壞情況",
+      "summary": "伊朗加大襲擊力度，航運公司擔憂霍爾木茲海峽通行安全，恐影響能源運輸。",
+      "content": "海事風險服務公司Marisks表示，由於伊朗加大對船舶的襲擊力度，航運公司在霍爾木茲海峽面臨最壞情況。船員對通行該海峽感到極度恐懼，導致通行量減少，能源供應鏈穩定性面臨挑戰。",
       "tags": [
         "Oil",
         "Shipping",
@@ -110,14 +740,14 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 4,
-      "headline": "土耳其洽談向阿聯酋轉移俄製S-400系統",
-      "summary": "土耳其擬向阿聯酋轉移俄製S-400防空系統，以換取購買美製F-35戰鬥機的機會。",
-      "content": "據報導，土耳其正與阿聯酋洽談轉移俄羅斯S-400反導系統事宜。土方此舉意在改善與美國關係，並尋求重啟購買美製F-35戰鬥機的談判，此舉涉及複雜的地緣政治與軍事採購博弈。",
+      "headline": "土耳其洽談向阿聯酋轉讓俄製S-400",
+      "summary": "土耳其擬向阿聯酋轉讓俄製S-400防空系統，以換取購買美製F-35戰鬥機的機會。",
+      "content": "據華爾街日報報導，土耳其正與阿聯酋洽談轉讓俄羅斯S-400反導系統事宜。土方希望透過此舉換取美國同意其購買F-35戰鬥機，此舉涉及複雜的地緣政治與軍事技術轉移。",
       "tags": [
         "Turkey",
         "UAE",
         "Russia",
-        "USA",
+        "US",
         "F-35"
       ],
       "source": "華爾街見聞",
@@ -128,12 +758,60 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 3,
-      "headline": "天孚通信預計上半年淨利增長25%-45%",
-      "summary": "天孚通信預計上半年淨利最高達13.04億元，受惠於全球AI與數據中心建設需求。",
-      "content": "天孚通信公告，預計2026年上半年淨利為11.24億至13.04億元，同比增長25%至45%。公司表示，全球AI行業加速發展及數據中心建設，帶動高速光器件產品需求持續穩定增長。",
+      "headline": "天孚通信上半年淨利預增25%-45%",
+      "summary": "受全球AI與數據中心建設需求帶動，天孚通信預計上半年淨利顯著增長。",
+      "content": "天孚通信公告，預計2026年上半年淨利為11.24億至13.04億元，同比增長25%至45%。增長主因是全球AI行業加速發展及數據中心建設，帶動高速光器件產品需求持續穩定增長。",
       "tags": [
         "AI",
-        "DataCenter"
+        "DataCenter",
+        "Optical"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-18 20:59",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "美伊衝突升級，已致50人死亡",
+      "summary": "伊朗衛生部稱自6月27日以來，美軍對伊襲擊已造成至少50人死亡、近500人受傷。",
+      "content": "伊朗衛生部聲明指出，自6月27日美軍對伊朗境內目標實施打擊以來，已造成至少50人死亡、近500人受傷。美伊軍事衝突在雙方簽署諒解備忘錄後迅速惡化，地緣風險急劇升高。",
+      "tags": [
+        "Iran",
+        "US",
+        "Geopolitics"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-18 20:43",
+      "category": "economy",
+      "category_name": "經濟",
+      "importance": 3,
+      "headline": "2025诺奖得主：中国AI技术领先",
+      "summary": "2025年诺贝尔化学奖得主奥马尔·亚吉表示，中国AI技术研发能力处于世界前列，基础科学投入是主因。",
+      "content": "2026世界人工智能大会期间，2025年诺贝尔化学奖得主奥马尔·亚吉（Omar M.Yaghi）指出，中国在AI技术与研发能力上已居世界前列，持续加大基础科学投入是推动该领域发展的核心驱动力。",
+      "tags": [
+        "AI",
+        "China"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-18 20:42",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 5,
+      "headline": "伊朗谴责美方曲解谅解备忘录",
+      "summary": "伊朗驻巴基斯坦大使谴责美国曲解伊美谅解备忘录并控制霍尔木兹海峡，伊朗拒绝接受美方解读。",
+      "content": "伊朗驻巴基斯坦大使穆加达姆表示，美国曲解伊美谅解备忘录内容并控制霍尔木兹海峡部分区域，意图获取战场外利益。伊朗方面强调，美方无视备忘录内容与国际原则发动战争，破坏了伊朗基础设施，伊朗对此表示强烈谴责。",
+      "tags": [
+        "Iran",
+        "USA",
+        "Geopolitics"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -143,9 +821,9 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "伊朗宣布停止履行伊美諒解備忘錄",
-      "summary": "伊朗副外長表示，因美國違反承諾，伊朗已停止履行雙方簽署的諒解備忘錄。",
-      "content": "伊朗副外長加里巴巴迪宣布，鑑於美國違反承諾，伊朗正式停止履行伊美諒解備忘錄。此前伊朗衛生部稱美軍近期襲擊已造成至少50人死亡，中東地緣政治緊張局勢顯著升級。",
+      "headline": "伊朗停止履行伊美谅解备忘录",
+      "summary": "伊朗副外长加里巴巴迪表示，因美国违反承诺，伊朗已正式停止履行伊美谅解备忘录。",
+      "content": "伊朗副外长加里巴巴迪宣布，鉴于美国违反此前达成的承诺，伊朗已决定停止履行伊美谅解备忘录。此举标志着双方紧张局势进一步升级，可能对区域地缘政治及能源供应产生持续影响。",
       "tags": [
         "Iran",
         "USA",
@@ -159,13 +837,45 @@
       "category": "equity",
       "category_name": "股市",
       "importance": 5,
-      "headline": "TSMC第二季財報亮眼，HPC營收佔比達66%",
-      "summary": "TSMC第二季營收達402億美元，毛利率升至67.7%，HPC業務成為核心增長引擎。",
-      "content": "TSMC第二季營收達402億美元，處於財測上限。3奈米與5奈米等先進製程貢獻營收77%，高效能運算（HPC）營收環比增長20%，佔比達66%，顯示AI需求強勁推動獲利能力提升。",
+      "headline": "TSMC二季度营收达402亿美元",
+      "summary": "TSMC二季度营收达402亿美元，HPC业务占比升至66%，毛利率环比增长至67.7%。",
+      "content": "TSMC公布2026年第二季度财报，营收达402亿美元，处于预期上限。7纳米及以下先进工艺占晶圆营收77%，其中3纳米占比30%。高效能运算（HPC）营收环比增长20%，占比达66%，成为核心增长引擎。得益于成本改善，毛利率环比提升150个基点至67.7%。",
       "tags": [
         "TSMC",
         "HPC",
-        "AI"
+        "Semiconductor"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-18 20:28",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 4,
+      "headline": "里海管道联盟石油码头运行正常",
+      "summary": "哈萨克斯坦能源部确认，尽管此前发生无人机袭击，里海管道联盟（CPC）石油码头基础设施运行正常。",
+      "content": "针对此前一艘油轮在俄罗斯黑海沿岸遭无人机袭击事件，哈萨克斯坦能源部表示，里海管道联盟（CPC）码头技术基础设施运行正常，货物装载作业按计划进行，哈萨克斯坦的石油供应未受威胁。",
+      "tags": [
+        "Oil",
+        "CPC",
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-18 20:28",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "俄莫斯科州遭无人机袭击",
+      "summary": "乌克兰无人机袭击莫斯科州物流中心，造成逾30人死伤，引发火灾。",
+      "content": "俄罗斯莫斯科州遭乌克兰无人机袭击，一处大型物流中心受损并引发火灾，造成至少1人死亡、30人受伤。袭击事件导致当地基础设施受损，地缘冲突风险持续升温。",
+      "tags": [
+        "Russia",
+        "Ukraine",
+        "War"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -175,29 +885,45 @@
       "category": "commodity",
       "category_name": "商品",
       "importance": 4,
-      "headline": "伊拉克透過敘利亞運輸燃料，繞過霍爾木茲海峽",
-      "summary": "伊拉克利用卡車車隊經敘利亞出口燃料，以規避霍爾木茲海峽關閉帶來的財政衝擊。",
-      "content": "為應對霍爾木茲海峽關閉導致的出口受阻，伊拉克正透過大規模卡車車隊經由敘利亞出口燃料油，使敘利亞成為中東重要出口樞紐。此舉顯示伊拉克正積極尋求多元化出口路徑以維持石油收入。",
+      "headline": "伊拉克通过叙利亚运输燃料",
+      "summary": "伊拉克利用卡车车队经叙利亚运输燃料，以绕过霍尔木兹海峡，叙利亚成为中东重要出口枢纽。",
+      "content": "为应对霍尔木兹海峡关闭带来的财政冲击，伊拉克正通过大规模卡车车队经叙利亚运输燃料油，将出口流向转移至地中海港口。叙利亚燃料出口量已飙升至中东总量的四分之一，伊拉克正寻求通过此路径巩固石油收入。",
       "tags": [
         "Iraq",
         "Oil",
-        "Hormuz"
+        "Energy"
+      ],
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global"
+    },
+    {
+      "datetime": "2026-07-18 19:34",
+      "category": "commodity",
+      "category_name": "商品",
+      "importance": 4,
+      "headline": "伊拉克寻求提升石油产量",
+      "summary": "伊拉克石油部长表示，在美伊局势升级前日均出口150万桶，目前正寻求将产量目标提升至700万桶。",
+      "content": "伊拉克石油部长Basim Mohammed Khudair表示，在美伊敌对行动升级前，伊拉克日均石油出口量为150万桶。为弥补霍尔木兹海峡关闭造成的损失，伊拉克正制定战略以扩大炼油能力，并将石油产量目标定为每日700万桶。",
+      "tags": [
+        "Iraq",
+        "Oil",
+        "Energy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
     },
     {
       "datetime": "2026-07-18 18:08",
-      "category": "commodity",
-      "category_name": "商品",
-      "importance": 5,
-      "headline": "科威特石油設施遭伊朗襲擊，造成傷亡",
-      "summary": "科威特石油公司證實一處重要設施遭伊朗襲擊，造成人員傷亡與重大損失，目前已疏散人員。",
-      "content": "科威特石油公司發布通告，稱一處重要設施遭到伊朗方面猛烈襲擊，導致多人傷亡及設施重大損失。該事件加劇了波斯灣地區的能源供應擔憂，市場需密切關注對原油運輸及相關基礎設施的後續影響。",
+      "category": "war",
+      "category_name": "戰爭",
+      "importance": 4,
+      "headline": "科威特石油公司設施遭伊朗襲擊，造成傷亡",
+      "summary": "科威特石油公司證實一處重要設施遭伊朗多次猛烈襲擊，造成人員傷亡與重大損失。",
+      "content": "科威特石油公司通告指出，一處重要設施遭伊朗多次猛烈襲擊，導致多人傷亡及重大財產損失。目前該設施已進行人員疏散，公司正與相關部門協調應對，此事件可能對區域能源市場造成衝擊。",
       "tags": [
         "Oil",
-        "Kuwait",
-        "Iran"
+        "Iran",
+        "Kuwait"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -207,13 +933,12 @@
       "category": "fiscal_policy",
       "category_name": "財政政策",
       "importance": 3,
-      "headline": "英國政府宣布將英國鋼鐵公司國有化",
-      "summary": "英國政府依據法案將中國敬業集團控股的英國鋼鐵公司國有化，並將建立賠償機制。",
-      "content": "英國政府宣布接管此前由中國敬業集團控股的英國鋼鐵公司，首相斯塔默表示此舉旨在保障英國鋼鐵業未來及保護就業。此政策涉及跨國企業資產處置，可能影響中英經貿關係及相關產業政策走向。",
+      "headline": "英國政府依《鋼鐵產業法案》將英國鋼鐵公司國有化",
+      "summary": "英國政府接管中國敬業集團控股的英國鋼鐵公司，並將建立賠償機制，以保障產業未來與就業。",
+      "content": "英國政府宣布依據《鋼鐵產業（國有化）法案》接管英國鋼鐵公司，該公司此前由中國敬業集團控股。英相斯塔默表示此舉旨在保障英國鋼鐵業未來並保護技術型就業崗位，後續將透過次級立法建立賠償機制。",
       "tags": [
         "UK",
-        "Steel",
-        "Policy"
+        "FiscalPolicy"
       ],
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global"
@@ -223,9 +948,9 @@
       "category": "war",
       "category_name": "戰爭",
       "importance": 5,
-      "headline": "伊朗宣稱打擊科威特、巴林及約旦美軍目標",
-      "summary": "伊朗伊斯蘭革命衛隊發布聲明，宣布已對位於科威特、巴林和約旦的多個美軍目標發動打擊。",
-      "content": "伊朗伊斯蘭革命衛隊於18日發布聲明，宣布針對位於科威特、巴林和約旦的美軍目標進行了軍事打擊。此舉標誌著中東地緣政治緊張局勢顯著升級，可能對區域能源供應與全球市場風險情緒造成重大衝擊。",
+      "headline": "伊朗宣稱攻擊科威特、巴林、約旦境內美軍目標",
+      "summary": "伊朗伊斯蘭革命衛隊聲明已打擊位於科威特、巴林與約旦的美軍目標，地緣政治風險急劇升溫。",
+      "content": "伊朗伊斯蘭革命衛隊發布聲明，宣布對位於科威特、巴林及約旦的多個美軍目標發動攻擊。此舉加劇中東地區地緣政治緊張局勢，市場需密切關注能源供應鏈與避險資產波動。",
       "tags": [
         "Iran",
         "US",
