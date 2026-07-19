@@ -1,13 +1,1485 @@
 {
-  "generated_at": "2026-07-19 07:05",
+  "generated_at": "2026-07-19 22:01",
   "fetch_start_time": "2026-07-18 17:00",
-  "fetch_end_time": "2026-07-19 07:05",
+  "fetch_end_time": "2026-07-19 22:01",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 80,
+  "count": 264,
   "items": [
+    {
+      "datetime": "2026-07-19 21:59",
+      "headline": "【以军：伊朗向约旦发射导弹或波及以色列】",
+      "content": "以色列国防军19日发表声明称，以军监测到伊朗向约旦亚喀巴发射导弹，由于该地毗邻以色列南部，此轮袭击可能波及以色列。 以军还称，以色列南部地区“可能会拉响警报”。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 21:53",
+      "headline": "【为了帮助乌克兰熬过寒冬，泽连斯基委任政坛新手】",
+      "content": "乌克兰总统弗拉基米尔·泽连斯基任命谢尔盖·科雷茨基（Sergii Koretskyi）为总理，以筹备乌克兰挺过又一个战争寒冬。48岁的科雷茨基既没有内阁经验，也没有政治背景；在近30年的能源界技术官僚职业生涯中，大部分时间都在私营部门工作，主要服务于能源公司。科雷茨基面临的首要挑战，是加固乌克兰的电力和供暖网络，以抵御俄罗斯导弹和无人机的袭击。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 21:44",
+      "headline": "【伊朗阿巴丹传出爆炸声】",
+      "content": "据伊朗媒体IRIB 19日报道，伊朗阿巴丹（Abadan）传出爆炸声。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 21:38",
+      "headline": "【国际原子能机构称正调查伊朗在建核电站遭袭相关事宜】",
+      "content": "国际原子能机构19日表示，正在调查有关伊朗达尔霍温在建核电站建设工地夜间遭袭相关事宜。国际原子能机构表示，该核电站目前仍处于建设初期，机构上次到访时现场没有任何核材料。因此，目前认为此次袭击不会造成放射性风险。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 21:34",
+      "headline": "【预测市场在世界杯期间激增至占体育投注的27%】",
+      "content": "在一届充满大比分胜负的世界杯期间，预测市场交易激增，其增速远超传统体育博彩公司，凸显了Kalshi等公司对体育博彩行业构成的竞争威胁。作为最大的参与者，Kalshi在世界杯期间屡次打破其自身的交易纪录，其交易量不仅翻倍超越了就在锦标赛开始前一周（纽约尼克斯队戏剧性季后赛征程期间）创下的峰值，而且几乎是今年早些时候许多时间点的10倍。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 21:30",
+      "headline": "【俄罗斯：打击了哈尔科夫地区的天然气加工厂】",
+      "content": "据国际文传电讯社（Interfax）援引俄罗斯国防部的消息报道，俄罗斯无人机袭击了乌克兰最北部哈尔科夫（Kharkiv）地区的一座天然气加工厂。此外，俄罗斯军队还袭击了切尔尼戈夫地区的一个军事物流中心。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 21:22",
+      "headline": "【科威特称其发电及海水淡化厂三日内连续遭袭】",
+      "content": "科威特电力、水利和可再生能源部19日发表声明说，该国17日遭袭的发电及海水淡化厂当天再次遭到袭击。这是该国三天内第三次有发电及海水淡化厂遭袭。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 21:22",
+      "headline": "【约旦称击落3枚伊朗导弹，将保持最高级别戒备】",
+      "content": "约旦武装部队19日发表声明说，约旦防空系统拦截并击落3枚来自伊朗的导弹，另有1枚导弹落入约旦南部偏远地区。声明说，事件未造成人员伤亡和财产损失。军方已对导弹坠落地点进行安全防护。约旦武装部队将继续保持最高级别的戒备状态，密切监控约旦领空，并将坚决应对任何威胁约旦及其公民安全的行动。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 21:21",
+      "headline": "【秘鲁地震已致5人死亡，200人受灾】",
+      "content": "当地时间18日晚，秘鲁胡宁大区丘帕卡市以南发生5.1级地震。秘鲁国家应急指挥中心通报称，地震已致5人死亡，200人受灾。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 21:19",
+      "headline": "伊朗：美国近期发动的袭击已造成伊朗超过50人罹难，517人受伤。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 21:08",
+      "headline": "【特朗普政府：将在未来数周、数月设法降低能源价格】",
+      "content": "美国能源部长Wright声称：无论伊朗是否提供帮助，（美方）都将确保霍尔木兹海峡的石油输送。 海峡石油流动的“七天截尾均值”低于700万桶/日，“阿拉伯湾地区”（即波斯湾地区）的石油供应量略微低于1400万桶/日。 船只继续按照两条线路通过海峡。 我们正追踪海峡的大型油轮通过情况。 （鉴于美国中期选举临近/美国夏季驾车出游旺季）将在未来数周、数月采取一切行动来降低能源价格。（ABC）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:55",
+      "headline": "Kalshi在世界杯期间新增300万用户。（CNBC）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:52",
+      "headline": "约旦军方：拦截了三枚来袭的导弹。",
+      "content": "第四枚导弹命中南部一个空旷区域。（Almamlaka TV）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:42",
+      "headline": "【特斯拉在德国工厂提升产量，来应对需求增长】",
+      "content": "随着特斯拉确认了今年德国市场需求将更为强劲的预期，公司正计划扩大新市场，并同步提升其位于德国格伦海德（Gruenheide）工厂的产量。 “对于2026财年，公司预测其产量将较上一年度实现大幅增长，并预计产能利用率也会相应提高，”特斯拉勃兰登堡制造公司在其2025年年度报告中表示。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:37",
+      "headline": "波音公司：预计737-7飞机将在“近期”获得认证。",
+      "content": "公司接近完成737-10飞机的测试工作。 将在2027年向客户们交付777X飞机。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:36",
+      "headline": "【伊朗外长：部分核争端可能“无法解决”】",
+      "content": "伊朗外交部长阿巴斯·阿拉格齐（Abbas Araghchi）在周日发布于其官方Telegram频道的一段采访中表示：“在核领域存在一些无法解决的问题，也许即使在当前局势下，这些问题依然无法解决。” 在被问及伊朗在与美国谈判中的红线（包括暂停核浓缩活动的提议）时，阿拉格齐发表了上述言论。 他表示，在最近一轮谈判中，伊朗“并未搁置浓缩铀问题”。 他补充说，伊朗此前已“提前制定好计划”，如果最高领袖成为打击目标，伊朗将封锁霍尔木兹海峡。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:31",
+      "headline": "【中东股市收盘播报｜卡塔尔股市收盘跌穿1万点整数位心理关口，为去年4月份以来首次】",
+      "content": "周日（7月18日），卡塔尔证交所指数收跌1.47%，报9954.84点，跌穿3月29日收盘位10060.68点、逼近2025年4月9日收盘位9904.25点、当年4月7日收盘位9766.05点（美国总统特朗普第二任期内宣布全球关税政策以来的最低收盘位）。 阿曼MSM 30指数收跌1.30%，连续第五个交易日下跌（期间累计下跌3.51%），报7383.29点。 科威特证交所超级市场价格回报指数收跌0.42%，报9035.64点。 沙特证交所全股指数收跌0.03%，报10716.82点，低开之后逐步收复失地并一度转涨，4月15日涨至11592.30点以来持续回撤，最近数日持稳于3月4日收盘位10692.69点附近。 沙特阿美收涨0.60%，报26.84沙特里亚尔。 在沙特上市的Albilad南方东英MSCI香港中国股票ETF收跌2.74%，报10.66沙特里亚尔，脱离5月20以来最高收盘位10.96里亚尔。 埃及证交所EGX 30指数收跌0.70%，报52560.10点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:28",
+      "headline": "【业内：首批主动ETF有望在10个交易日内迎来快速落地、有序推进】",
+      "content": "据第一财经报道，业内消息反馈，首批主动ETF有望在10个交易日内迎来快速落地、有序推进。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:25",
+      "headline": "约旦多地响起防空警报声。（Almamlaka TV）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:23",
+      "headline": "【以军称监测到伊朗向约旦亚喀巴方向发射导弹】",
+      "content": "当地时间19日下午，以色列国防军发表声明称，以军监测到伊朗向约旦南部城市亚喀巴方向发射导弹。由于亚喀巴毗邻以色列边境，以军称，此次导弹发射可能波及以色列南部地区。以军表示，以色列南部部分地区可能会拉响防空警报。以军同时表示，目前以色列本土守备司令部发布的面向大众的安全指引暂未作出调整。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:22",
+      "headline": "【国家管网集团天津LNG接收站迎来投产第500船】",
+      "content": "19日，装载6.56万吨液化天然气的“米斯特拉斯”号LNG船舶，在海事船只护航下平稳靠泊国家管网集团天津LNG接收站，标志着该接收站投产以来累计接卸LNG船舶达到500艘。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:20",
+      "headline": "【毕马威中国主席：AI正加速转变为经济增长的核心引擎】",
+      "content": "7月19日，毕马威中国主席邹俊在2026世界人工智能大会上表示，当前，人工智能已渗透到实体经济各领域，正在从提升效率的工具加速转变为经济增长的核心引擎。我国人工智能产业布局活跃、赛道多元，具备供应链优势，相关的产业规模正快速增长。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:19",
+      "headline": "【创通联达具身智能产品TurboX IRB10全球首发落地】",
+      "content": "据中科创达消息，作为高通机器人生态的重要合作伙伴，创通联达基于高通跃龙IQ10系列打造机器人计算平台TurboX IRB10，并携手绳驱AI机器人星尘智能完成首个机器人产品级场景生态落地，在2026世界人工智能大会（WAIC）现场正式亮相。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:17",
+      "headline": "当地时间19日，约旦和以色列边境响起警报。（央视）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:15",
+      "headline": "【以色列媒体：伊朗最高领袖穆杰塔巴·哈梅内伊不在国内】",
+      "content": "沙特媒体al-Hadath援引一名以色列安全消息源报道称，伊朗最高领袖穆杰塔巴·哈梅内伊目前不在伊朗国内，且那些据称由他发表的声明，实际上是由伊斯兰革命卫队（IRGC）总司令艾哈迈德·瓦希迪（Ahmad Vahidi）及卫队其他成员起草的。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:13",
+      "headline": "【杠杆资金大手笔买入CRO龙头】",
+      "content": "近一周（7月10日至16日），A股融资余额持续下降，但仍保持在2.8万亿元上方，最新为28377.01亿元（截至7月16日）。A股融资资金呈现净偿还态势，金额合计净流出987.04亿元。 个股方面，近一周，共51股融资净买入额在1亿元以上，药明康德、中兴通讯、中国船舶、紫光股份排名前四，净买入额依次为8.35亿元、7.51亿元、5.42亿元、4.61亿元。药明康德、康龙化成、凯莱英等CRO龙头股均获得融资资金大手笔加持。30股融资净偿还额超过5亿元。佰维存储、中际旭创净偿还额超过20亿元，分别为21.42亿元、20.39亿元；德明利、江波龙、胜宏科技、寒武纪多股随后，净偿还额均在15亿元以上。（证券时报·e公司）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 20:11",
+      "headline": "伊朗革命卫队针对霍尔木兹海峡关闭问题通报称：只要美国的恶意行径（malice）持续，海峡将维持关闭状态。（伊朗媒体FARS）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:53",
+      "headline": "世界黄金协会CEO泰达维高度评价中国市场涌现的创新和活力。",
+      "content": "“中国是全球黄金市场当中至关重要且充满活力的一部分，在市场发展、消费者培育、产品创新等方面的实践为全球黄金产业的发展提供了宝贵经验。”（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:51",
+      "headline": "【魔法原子与市北高新签署战略合作协议】",
+      "content": "2026世界人工智能大会期间，魔法原子机器人科技（无锡）有限公司与上海市北高新（集团）有限公司在会场正式签署战略协议。双方将围绕具身智能产业发展建立全面战略合作关系，共同推进“上海具身模数共振联合创新中心”，打造具有全国示范效应的具身智能产业创新合作项目。（e公司）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:50",
+      "headline": "【美国FDA：泰勒农场供应的冰山生菜样本检测出引发全美寄生虫疫情的病原体】",
+      "content": "美国食品药品监督管理局（FDA）周六表示，由泰勒农场（Taylor Farms）供应的切丝冰山生菜样本，检测出了一种寄生虫疾病呈阳性，该疾病已导致美国数千人患病。 FDA在声明中表示，泰勒农场已确认，该涉事产品并不包含在目前的召回名单中。目前，FDA正致力于遏制美国近年来规模最大的食源性疾病疫情。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:35",
+      "headline": "德国总理默茨：（盟友）斯潘的辞职可能是重新思考政府组成人员的一个契机。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:31",
+      "headline": "【量化产品净值大幅回撤，“压力测试”下月内5私募自购合计超2亿元】",
+      "content": "在市场波动放大、科技板块显著回调之际，多家私募接连出手自购。7月19日，知名百亿量化私募平方和投资宣布，将于下周内使用自有资金1亿元，申购旗下私募证券基金产品。据不完全梳理统计，7月内已有5家私募宣布自购旗下产品，合计自购金额超2亿元。（一财）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:22",
+      "headline": "科威特：发电站和海水淡化工厂再次遭到伊朗打击。",
+      "content": "伊朗的打击造成发电站和水厂起火。 大量发电部门受到影响。 正设法让受到破坏的部门恢复运营。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:20",
+      "headline": "【诊疗方案与病历书写两大赛道，全国上百支队伍在沪比拼AI临床应用】",
+      "content": "2026世界人工智能大会（WAIC）期间，首届全国数智健康大赛上海赛区复赛于7月19日在徐汇滨江开赛。来自全国20多个省市104支参赛队伍齐聚上海，全方位展示人工智能在多种场景的应用。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:17",
+      "headline": "【AI加速进入民生场景 北电数智聚焦医疗、教育、工业实践】",
+      "content": "AI应用正在从通用能力展示转向具体民生场景落地。2026世界人工智能大会期间，由北电数智主办的“AI赋能民生福祉”专题论坛举行，政企、学界及多地城市产业代表共200余人参会，围绕AI技术在医疗、教育、工业等场景中的应用路径展开讨论。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:14",
+      "headline": "【有道AI耳机在WAIC首秀：让会议记录变成“可追问的Agent”】",
+      "content": "2026世界人工智能大会（WAIC）举办期间，网易有道首次公开展示多款新品。其中，国内⾸款MFi认证开放式AI⽿机OpenPods已正式量产，预计8月份正式亮相发布。其核⼼能⼒覆盖“录⾳—转写—总结—翻译”全链路，并⾸次将⽿机盒设计为可独⽴运⾏的录⾳与翻译终端。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:07",
+      "headline": "【约旦否认疏散亚喀巴国际机场和港口】",
+      "content": "当地时间19日，约旦政府发言人穆马尼表示，亚喀巴国际机场和海港目前均正常运营，相关设施运行未受影响。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:05",
+      "headline": "【圣多美和普林西比举行总统选举】",
+      "content": "当地时间7月19日，圣多美和普林西比（圣普）举行总统选举。据悉，此次圣普总统选举约有14万名登记选民，他们将前往圣普国内外的投票站投票选出新一任总统。现任总统卡洛斯·诺瓦和民主独立行动党候选人尼托·达布雷乌将角逐该国下一届总统。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:04",
+      "headline": "【TCL华星星智X-Intelligence大模型在显示领域超越Gemini 3.1 Pro与GPT-5.5 high】",
+      "content": "记者获悉，近日，在面向半导体显示领域的自动化评测和行业专家评测中，由TCL华星自主研发的星智X-Intelligence大模型综合表现均超过Gemini 3.1 Pro、GPT-5.5 high等国际主流通用大模型。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:03",
+      "headline": "【报道：停火期间伊朗石油出口额达60亿美元】",
+      "content": "据华尔街日报和非政府组织“联合反对伊朗核武器”（United Against Nuclear Iran）的数据，在与美国的短暂停火期间，伊朗成功出口了约7000万桶石油，价值约50亿-60亿美元。华尔街日报报道称，在6月中旬至7月中旬期间，约有20艘伊朗油轮驶往亚洲。6月22日，美国财政部海外资产控制办公室（OFAC）发布了一份文件，确认美国已签发一项通用许可证，允许伊朗石油和石油产品的生产、供应和销售。（塔斯社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 19:01",
+      "headline": "【陈茂波：香港将出台政策支持中小企业采用AI】",
+      "content": "香港特区政府财政司司长陈茂波19日发表网志表示，特区政府今年内将推出优化版“数码转型支援先导计划”，支持中小企业采用现成的人工智能方案。香港的AI布局已由逐项推进，进入系统布局阶段，力求让AI赋能千行百业。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:58",
+      "headline": "【万拿机器人发布两款灵巧手产品】",
+      "content": "万拿机器人在2026世界人工智能大会期间发布两款灵巧手产品，分别为工业实战型灵巧手万拿Std16A和轻量拟人型灵巧手万拿Eco12。其中，万拿Std16A重点面向工业分拣、仓储作业、精密操作及需要与机械臂、视觉和控制系统深度集成的真实作业任务；万拿Eco12接近真人手的尺寸，可服务于遥操作、人机交互、科研教育、机器人展示及轻量化应用验证。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:52",
+      "headline": "【监管部门急开闭门会，探讨情感机器人万亿市场与合规困局】",
+      "content": "根据业内可靠消息，上周监管部门专门召开闭门研讨会，集结头部企业，讨论情感机器人行业三大问题：数据安全、网络安全、情感交互的标准制定。（21财经）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:51",
+      "headline": "【中控技术全栈自主可控方案护航塔里木二期乙烯项目一次试车成功】",
+      "content": "7月16日，中国石油独山子石化塔里木120万吨/年二期乙烯及配套绿色低碳示范工程项目（简称“塔里木二期乙烯项目”或“项目”）一次投料试车成功，标志着我国中西部地区规模最大的乙烯产业基地建成，我国石化工业在绿色低碳转型与核心装备自主可控领域，取得实质性进展。中控技术作为该项目核心供应商，提供了覆盖生产控制、安全保障、设备管理与智能优化的全栈自主可控方案。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:50",
+      "headline": "【优必选携手韩国伙伴，推动人形机器人落地汽车零部件制造场景】",
+      "content": "近日，优必选韩国合作伙伴德山JMR（Duksan JM Robotics，DSJMR）与韩国领先汽车零部件企业AJIN Industrial正式签署合作谅解备忘录。未来，优必选、德山JMR、AJIN Industrial将三方合作，共同推动Cruzr Y1、Walker S2等工业人形机器人在韩国首个汽车零部件生产产线的验证项目，将围绕人形机器人在汽车零部件制造领域的创新应用展开合作，共同推动人形机器人从展示验证走向真实产业场景。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:49",
+      "headline": "【伊朗革命卫队称两艘船只在霍尔木兹海峡发生事故】",
+      "content": "伊朗伊斯兰革命卫队海军19日发表声明称，数小时前，4艘船只关闭导航系统、无视伊方管控基地警告，试图经过“不安全航道”驶离霍尔木兹海峡。其中两艘发生事故并停在原地，另外两艘放弃继续航行。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:49",
+      "headline": "【年内大卖逾1200亿元，FOF规模创新高】",
+      "content": "无论看发行总额，还是看单只基金募集规模，基金中基金（FOF）都是今年发行市场上的“黑马”。截至7月19日，全市场FOF总规模突破3800亿元，达到3803.7亿元，较2025年底的2441.89亿元，今年以来的增幅达55.77%；年内FOF发行总募集规模达到1241.82亿元，较去年同期的330.4亿元，增幅高达275.85%。（中国基金报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:47",
+      "headline": "【约旦官方称美驻约旦使馆发布假消息】",
+      "content": "据路透社报道，约旦政府发言人今天（7月19日）表示，美国驻约旦大使馆稍早前发布的关于“约旦基于‘具体且可信的安全威胁’疏散约旦南部城市亚喀巴的国际机场和港口区域”的说法并不属实。约旦在过去数小时内没有检测到任何安全威胁。（CCTV国际时讯）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:45",
+      "headline": "【同花顺：预计上半年净利润同比增长75%-95%】",
+      "content": "同花顺公告，预计2026年上半年净利润为8.78亿元–9.79亿元，同比增长75%-95%。2026年上半年，受资本市场交投活跃等因素影响，金融信息服务需求快速增长。报告期内，公司持续推进人工智能技术与金融信息服务业务深度融合，加快大模型及AI技术在金融智能体、数据终端、用户服务等场景的应用落地，持续提升产品智能化水平和服务能力，进一步优化用户体验，增强公司核心竞争力。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:44",
+      "headline": "【阿里Token Plan个人版发布，Qwen3.8-Max预览版同步上线】",
+      "content": "刚刚，阿里Token Plan个人版正式发布，用户可在其中抢先体验Qwen3.8-Max-Preview。Qwen3.8-Max参数量达2.4T，在代码工程和专业办公等场景中表现出色，可能是除了Fable 5外最强大的模型，正式版将于近期发布并开源。 Token Plan限时优惠： 个人版：Lite 39元/月（6.5折），Standard 139元/月（7.7折），Pro 499元/月（8.3折）。 团队版：标准席位 150元/席位/月（7.6折），高级席位 550元/席位/月（7.9折），尊享席位 1398元/席位/月。 相关文章： 阿里Token Plan个人版发布，Qwen3.8-Max预览版同步上线",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:41",
+      "headline": "【美国多州已报告上千例环孢子虫病】",
+      "content": "美国多州近日报告上千例环孢子虫病感染病例，感染源疑似为美国一家快餐连锁店从墨西哥进口的生菜。墨西哥政府日前宣布，相关部门已成立专门工作组展开调查，并采取措施避免此类事情发生。不过，墨西哥方面同时表示，调查还未结束，暂不能下定论污染源就是墨西哥产品。环孢子虫病是由多种微小的环孢子虫寄生虫引起的肠道感染疾病，可能通过受污染的食物或水感染，感染者可能出现腹泻、胃痛、恶心等症状。但该病一般不危及生命。（CCTV国际时讯）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:40",
+      "headline": "【大晓机器人WAIC发布开悟世界模型3.1，具身物理智能统一评测基准平台同步亮相】",
+      "content": "大晓机器人在WAIC 2026上正式发布开悟世界模型3.1（Kairos 3.1），以及以人为中心的环境式数采方案2.0。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:39",
+      "headline": "【伊朗谴责美国对在建核电站发动“恐怖袭击”】",
+      "content": "伊朗原子能组织19日发表声明，谴责美国对一处在建核电站的工地发动“恐怖袭击”。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:39",
+      "headline": "【天数智芯WAIC发布新一代通用GPU旗舰产品天垓300】",
+      "content": "天数智芯在WAIC 2026上正式发布新一代通用GPU旗舰产品天垓300。界面新闻了解到，天垓300基于SIMT通用计算架构，该芯片面向“信息、行动、探索”三类智能趋势，围绕芯片架构、关键算子、系统扩展和软件生态进行了全面升级。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:34",
+      "headline": "【讯飞AI大学堂WAIC2026推出AI Learning与AI Vault】",
+      "content": "在今年世界人工智能大会（WAIC）上，作为国内首个AI在线学习平台，承建在国家级人工智能开放创新平台，科大讯飞AI大学堂正式升级发布。其中，AI Learning通过大模型能力，为个人学习者提供个性化学习路径规划，并面向企业推出覆盖AI通识、智能体开发、大模型应用等方向的人才培养方案；AI Vault则支持多类型资料导入、智能解析、知识问答及多模态内容生成，帮助用户将学习成果沉淀为可持续复用的知识资产。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:32",
+      "headline": "【九章云极在WAIC发布“AI工厂”及九章智算云3.0】",
+      "content": "AI基础设施及智算云服务商九章云极在WAIC 2026上展示“AI规模化生产体系”，包括由“训练工厂”和“Token工厂”组成的“AI工厂”，以及九章智算云3.0。“AI工厂”通过DCU（1 DCU代表312 TFLOPS×1小时有效计算）统一算力计量体系，将不同类型芯片的有效算力折算为统一单位，并以Token衡量模型服务产出。目前，该公司已接入十余个智算中心，业务覆盖大模型训推、具身智能和自动驾驶等领域。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:29",
+      "headline": "约旦亚喀巴海港运转正常，并未进行疏散。（路透）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:26",
+      "headline": "【巴林称拦截伊朗导弹和无人机】",
+      "content": "巴林国防军总司令部19日发表声明说，伊朗继续对巴林发动袭击，巴林防空系统当天上午多次拦截并摧毁来自伊朗的导弹和无人机。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:23",
+      "headline": "【阡视科技发布超节点系统wylon】",
+      "content": "在正在进行的2026世界人工智能大会上，新一代AI基础设施服务商阡视科技发布了专为Token工厂而生的超节点系统wylon。据悉，基于wylon超节点架构的wylon新云Token工厂，现已在华东集群节点上线并邀请测试中。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:22",
+      "headline": "【深市非银金融板块半年报扎堆预喜】",
+      "content": "2026年上半年，我国资本市场高质量发展态势持续巩固，非银金融行业业绩喜人。截至7月18日，披露业绩预告的深市非银金融行业上市公司中，超八成业绩增速超过50%。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:15",
+      "headline": "【阿维塔07L开启预售，预售价24.99万元起】",
+      "content": "阿维塔科技宣布中大型纯电SUV“阿维塔07L”正式开启预售，推出两款车型，预售价为24.99万至27.99万元，预计于8月8日正式上市。该车继续采用长安、华为、宁德时代三方技术赋能，全系标配华为乾崑896线激光雷达、ADS 5.0智驾、新一代鸿蒙座舱及宁德时代5C神行超充电池。此外，新车搭载太行智控2.0分布式电驱技术，意在通过高阶智能与三电配置的标配化，抢占高端纯电大五座SUV市场份额。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:11",
+      "headline": "【美驻约旦使馆发布安全警示】",
+      "content": "美国驻约旦大使馆今天（7月19日）表示，约旦官方基于“具体且可信的威胁”对位于约旦南部城市亚喀巴的国际机场和港口区域进行了疏散。美国驻约旦大使馆建议所有美国公民避免前往上述区域，并遵守约旦政府发布的安全指示。不过，据路透社报道，约旦政府方面目前尚未就此发布官方声明。（CCTV国际时讯）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:10",
+      "headline": "【中信证券：近期市场风格剧烈波动，银行板块兼具绝对和相对收益】",
+      "content": "中信证券指出，6月直融比例延续高位，信贷延续对公发力，内需仍有提振空间。社会融资成本低位运行，但负债成本延续节约，预计二季度银行息差表现良好，且资本市场和财富管理业务助力中收，预计银行中报营收增速保持稳定良好态势，盈利增速延续小幅上行趋势。近期市场风格剧烈波动，银行板块兼具绝对和相对收益。中信证券认为，绝对收益来自银行股作为稳健、具备较高确定性回报的权益资产，适配低波稳健型资金配置；相对收益短期来自市场风格影响，长期则归因于行业比较视角下的估值和权益回报相对空间。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:10",
+      "headline": "【启明创投：头部机器人公司的有效数据将在2027年达到“百万小时级”】",
+      "content": "启明创投主管合伙人周志峰7月19日在世界人工智能大会上围绕基础模型、具身智能、AI基础设施、AI应用等领域，发布了2026启明创投AI十大展望。在具身智能上，启明创投预计头部机器人公司的有效数据，将从2025年的“万小时级”，跃升到2027年的“百万小时级”，其中人类第一视角数据会占绝对主导。同时，灵巧手将迎来加速发展，带有触觉感知的灵巧手会逐渐成熟并持续降本，与双指夹爪方案形成高低搭配，在复杂操作场景逐渐规模化渗透。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 18:07",
+      "headline": "【中信证券：指数行情处于一轮中期行情的休整到新一轮行情的酝酿阶段】",
+      "content": "中信证券研报指出，当前有如下四个判断：第一，指数行情处于一轮中期行情的休整（以科技板块补跌为特征）到新一轮行情的酝酿阶段（需要新的有估值提升空间的板块启动），短期出清已接近尾声。第二，北美AI链短期可能是科技内部的避风港，7月底北美CSP的指引前后可能迎来一波修复，但重新上一个台阶需要新一次的AI模型/产品能力跃升和商业变现空间拓展，关键是打破硬件公司周期股估值框架，实现硬件和应用的新一轮系统级抬升。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:50",
+      "headline": "美国驻约旦大使馆表示，约旦当局因具体且可信的威胁，已疏散亚喀巴国际机场和海港的人员。我们强烈建议所有美国公民避免前往机场或海港。（路透）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:43",
+      "headline": "【香港特区立法会全体议员赴京开展国家事务研修考察】",
+      "content": "香港特区立法会全体议员19日启程前往北京，展开为期一周的国家事务研修考察。这是香港回归祖国以来，特区立法会全体议员首次赴京参加此类研修考察活动。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:42",
+      "headline": "伊朗革命卫队表示，两艘在霍尔木兹海峡南线航行的船只发生事故，另外两艘放弃通行 。（塔斯尼姆通讯社）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:38",
+      "headline": "帝尔激光：公司董事会秘书拟不低于50万元增持公司股份。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:38",
+      "headline": "【国家防总针对广西启动防汛四级应急响应】",
+      "content": "据气象部门预报，7月19日至21日，广西北部东部有持续性强降雨，其中广西东部局地累计雨量可达300至450毫米。根据《国家防汛抗旱应急预案》及有关规定，国家防总决定于7月19日17时针对广西启动防汛四级应急响应。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:35",
+      "headline": "【乌克兰首都遭空袭1死15伤】",
+      "content": "乌克兰空军19日说，当地时间18日晚至19日凌晨，俄军对乌克兰发动大规模导弹和无人机袭击，袭击的主要目标是乌首都基辅。基辅市市长克利奇科说，俄军新一轮空袭已造成基辅市1人死亡、15人受伤。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:33",
+      "headline": "【陕西首条专业化星载激光通信终端智能产线在西安投产】",
+      "content": "据陕西发布，近日，陕西首条专业化星载激光通信终端智能产线在西安投产，标志着星载激光通信终端正式从实验室走向生产线，将全面提升我国卫星自主运行、高效组网与大规模星座管理能力。陕西首条专业化星载激光通信终端智能产线一期可年产600套激光通信终端，预计2027年可实现年产千套以上能力。量产终端通信速率覆盖5Gbps至100Gbps，体积小、功耗低、抗干扰能力强，核心光学部件均为西安光机所自主研发，可充分适配各类低轨巨型星座批量配套需求。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:33",
+      "headline": "【严监管态势不减，今年以来近40家拟IPO企业主动撤单】",
+      "content": "Wind数据显示，截至7月19日发稿，今年以来A股市场已有39家拟IPO企业终止（撤回）上市进程。从板块分布看，北交所23家撤回IPO申请，是终止上市高发区。从行业分布看，撤单企业集中于计算机、通信和其他电子设备制造业，化学原料和化学制品制造业等热门赛道。（中证金牛座）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:32",
+      "headline": "【产业资本密集出手！7月以来深市新增回购增持54单，上限超76亿元】",
+      "content": "近期，面对二级市场持续调整，产业资本密集出手。以深市为例，7月以来，深市合计披露回购增持计划54单。其中，回购计划披露33单，回购金额上限为60.38亿元；增持计划披露21单，增持金额上限为16.09亿元。（中证金牛座）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:27",
+      "headline": "【美伊“高风险赌博”压缩降温空间】",
+      "content": "近一周时间以来，美军连续打击伊朗的港口、桥梁、电力系统、能源设施、海水淡化设施等关键民用基础设施，据在伊朗德黑兰的总台记者观察，美军袭击越来越影响到伊朗普通民众的基本生活。伊朗方面则多次发出警告称，若美军继续袭击伊朗的基础设施，伊朗将对地区内的基础设施进行强力打击。有分析认为，虽然冲突的规模仍未恢复到战争初期的水平，但美伊双方正在迅速跨越此前设定的红线，双方试图通过有限加码迫使对方先让步，但每一次“高风险赌博”都在压缩局势降温的空间。（CCTV国际时讯）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:25",
+      "headline": "【我国千亿元潮玩赛道要来了】",
+      "content": "据不完全统计，目前，我国潮玩相关企业超过了3.6万家。“潮玩设计师”这一新兴职业也受到越来越多年轻人的青睐。为了培养行业的后备力量，有潮玩企业与艺术院校开设了“校企合作公开课”。除了同学们本身所学专业的技术背景和能力要求之外，还有关于AI技术方面的一些应用能力。数据显示，预计2027年我国IP潮玩消费市场规模将突破1000亿元，2029年达到近1300亿元。未来，潮玩行业还将释放大量岗位需求。（央视财经）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:25",
+      "headline": "【原油LOF易方达发布溢价风险提示】",
+      "content": "原油LOF易方达发布溢价风险提示公告，该基金为QDII型开放式基金，主要投资境外原油ETF；截至2026年7月15日，基金份额净值为1.5908元，2026年7月17日二级市场收盘价为1.814元，溢价率达13.97%；基金管理人提示投资者密切关注二级市场交易价格溢价风险，审慎决策，避免因盲目投资导致重大损失，并可能采取盘中临时停牌、延长或连续停牌等措施警示风险。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:23",
+      "headline": "【纳指科技ETF景顺：将于7月20日开市起至当日10:30停牌】",
+      "content": "景顺长城基金管理有限公司公告，景顺长城纳斯达克科技市值加权交易型开放式指数证券投资基金（QDII）（场内简称：纳指科技ETF景顺，交易代码：159509）将于2026年7月20日开市起停牌，自当日10:30起复牌；停牌期间本基金赎回业务照常办理。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:13",
+      "headline": "【国投白银LOF提示二级市场溢价风险】",
+      "content": "国投瑞银基金管理有限公司公告，公司旗下国投瑞银白银期货证券投资基金（LOF）A类基金份额（场内简称：国投白银LOF；基金代码：161226）二级市场交易价格明显高于基金份额净值，出现较大幅度溢价。2026年7月17日，本基金二级市场的收盘价为1.789元，截至2026年7月16日，本基金基金份额净值为1.5885元。特此郑重提醒广大投资者，应密切关注二级市场交易价格溢价风险，审慎做出投资决策，如盲目投资，后续可能遭受重大损失。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:10",
+      "headline": "【呼和浩特多领域项目集中签约】",
+      "content": "据呼和浩特发布，7月17日，“数融民生治理·智绘政务新篇”全区第二批“人工智能+”场景发布会在呼和浩特市举行。此次发布会紧扣民生保障、社会治理、政务服务三大领域，集中发布了内蒙古自治区第二批200个人工智能场景需求和场景能力清单，覆盖医疗健康、医保服务、养老服务、生态治理、交通物流、质量监管、灾害应急、政务服务等多个关键领域。现场共达成10个“人工智能+”合作项目签约，涵盖蒙医药大模型辅助诊疗、眼科多模态大模型、煤化工管道巡检机器人、城市消防智慧监管平台、智能找矿决策系统等。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:10",
+      "headline": "【美沙核协议草案浮出水面 搞“双标”遭质疑】",
+      "content": "美国以摧毁伊朗核计划等为目标对伊发动军事行动已有数月之际，美媒18日披露的一份美国与沙特阿拉伯的核协议草案却在未切实落实核不扩散制度前提下，允许美方向沙特民用核项目转移核材料和技术。在核问题上对伊朗百般阻挠，却给沙特开绿灯，美国“双标”引发舆论强烈质疑。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:08",
+      "headline": "【国际复材：预计上半年净利润同比增长151%-194%】",
+      "content": "国际复材公告，预计2026年上半年净利润为5.8亿元–6.8亿元，同比增长151%-194%。报告期内，公司持续推进产品结构优化，产品量价实现双增长。其中，电子领域受下游产业需求增长的影响，电子级玻璃纤维及制品价格上涨，净利润同比大幅增加。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:08",
+      "headline": "【力源信息：预计2026年上半年净利润同比增长206.87%—217.28%】",
+      "content": "力源信息公告，预计2026年上半年净利润为2.95亿元—3.05亿元，同比增长206.87%—217.28%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 17:07",
+      "headline": "【铜冠铜箔：预计上半年净利润同比增长486.49%-543.70%】",
+      "content": "铜冠铜箔公告，预计2026年上半年净利润为2.05亿元-2.25亿元，同比增长486.49%-543.70%。报告期内，公司聚焦头部客户需求，高频高速铜箔呈现供不应求的情况，销量实现同比增长；同时，公司持续优化产品结构，高频高速铜箔等高附加值产品占比提升，带动加工费收入增长；公司持续深化降本增效，不断提升运营效率与管理水平，相关成本有效压降，产品毛利率实现提升。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:51",
+      "headline": "善水科技：预计2026年半年度归母净利7700万元—9500万元，同比增长61.17%—98.84%。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:48",
+      "headline": "【圭亚那一艘载有116人的渡轮倾覆】",
+      "content": "据外媒报道，当地时间7月18日晚，圭亚那一艘载有116人的渡轮倾覆，目前有8人获救。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:47",
+      "headline": "【南京临空产业发展大会举行 两大百亿级项目落地】",
+      "content": "南京临空产业发展大会在空港综合文化中心举行。会上，19个产业合作项目签约，总金额达316亿元，涵盖航空服务、航空制造、高端装备、电子信息等领域。中国电信吉山智云生态基地与中国移动云智算中心两大百亿级项目落地，为临空产业发展提供坚实的数字基础设施底座。《南京临空产业布局规划》《南京临空产业高质量发展行动计划》在会上发布，首次全景呈现临空产业发展蓝图。南京将以临空经济示范区为主阵地，构建“一核、一廊、五片”空间结构，锚定建成全国领先的现代化临空产业体系目标，力争到2030年示范区规上工业产值达1100亿元。（新华日报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:43",
+      "headline": "荣昌生物：拟以2500万元-5000万元回购公司股份，回购价格不超过149元/股。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:42",
+      "headline": "【中国代表队4名选手获第58届国际化学奥赛金牌】",
+      "content": "第58届国际化学奥林匹克竞赛19日在乌兹别克斯坦首都塔什干闭幕，中国代表队4名参赛高中生选手全部获得金牌。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:37",
+      "headline": "【世界人工智能合作组织未来将重点开展三方面工作】",
+      "content": "《关于成立世界人工智能合作组织的协定》签署仪式16日在上海举行，来自亚洲、非洲、拉美和欧洲的29个国家现场签署协定，成为创始成员国。记者从有关方面获悉，这标志着中方倡导推动成立世界人工智能合作组织取得重要阶段性进展。下阶段，中方将会同合作组织创始成员国推动组织尽早启动运转。未来合作组织将重点开展三方面工作。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:35",
+      "headline": "【东田微：预计上半年净利润同比增长67.71%～87.44%】",
+      "content": "东田微公告，预计2026年上半年净利润为8500万元～9500万元，同比增长67.71%～87.44%。报告期内，业务结构持续优化，高景气通信业务拉动整体增长：上半年AI算力需求驱动数据中心光模块产业链景气上行，光隔离器、WDM组件、Z-Block等通信产品收入占比持续提升，公司整体经营稳定性增强。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:32",
+      "headline": "【协创数据：预计上半年净利润同比增长247.18%-339.76%】",
+      "content": "协创数据公告，预计2026年上半年净利润为15亿元-19亿元，同比增长247.18%-339.76%。报告期内，公司积极把握人工智能产业快速发展的市场机遇，持续推进由物联网智能终端及应用向AI算力基础设施及应用领域转型，并将既有智能制造能力逐步升级为覆盖算力基础设施、核心部件、平台能力及行业应用的全栈AI能力。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:31",
+      "headline": "【新易盛：预计2026年上半年净利润同比增长77.56%～102.93%】",
+      "content": "新易盛公告，预计2026年1月1日—2026年6月30日归属于上市公司股东的净利润为70亿元～80亿元，同比增长77.56%～102.93%；扣除非经常性损益后的净利润为69.81亿元～79.81亿元，同比增长77.46%～102.88%。报告期内公司受益于人工智能相关算力投资持续增长，产品结构优化，公司预计销售收入和净利润较上年同期大幅增加。 相关文章： AI算力需求与产品结构优化双轮驱动，新易盛上半年净利同比预增78%～103%｜财报见闻",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:29",
+      "headline": "【巴林境内拉响防空警报】",
+      "content": "当地时间19日11时20分左右，巴林境内拉响防空警报。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:27",
+      "headline": "【Qwen3.8很快将发布并开源，新模型参数2.4T】",
+      "content": "Qwen3.8很快将发布并开源，新模型参数2.4T，正在以“天”为单位持续进化，可能是除了Fable 5外最强大的模型。 刚刚，Qwen3.8-Max预览版模型已首发上线阿里Token Plan、Qoder及QoderWork。（千问大模型微信公号） 相关文章： 阿里Token Plan个人版发布，Qwen3.8-Max预览版同步上线",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:13",
+      "headline": "世运电路：拟以2亿元-3亿元回购公司股份，回购价格不超过55元/股。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:12",
+      "headline": "【泰国总理阿努廷抵达北京】",
+      "content": "泰国总理阿努廷抵达北京，继续对中国的正式访问。阿努廷应邀于7月16日至20日对中国进行正式访问，这是阿努廷就任泰国总理后首次正式访华。抵京前，阿努廷在上海出席了2026世界人工智能大会暨人工智能全球治理高级别会议，并到四川省参访。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 16:07",
+      "headline": "【《功夫女足》进入年度票房榜前四】",
+      "content": "据灯塔专业版，截至7月19日，《功夫女足》上映9天总票房超13.76亿（含预售），进入2026年度票房榜前四。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:59",
+      "headline": "【中国神华：前6月煤炭销售量同比增长1.80%】",
+      "content": "中国神华公告，2026年6月商品煤产量4270万吨，同比降1.4%；煤炭销售量5050万吨，同比下降4.90%。2026年1-6月累计煤炭销售量3亿吨，同比增长1.80%。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:48",
+      "headline": "【纽约市长：内塔尼亚胡来美参加联大可能被捕】",
+      "content": "在一档18日播出的采访节目中，美国纽约市长马姆达尼被问到是否会逮捕可能前往纽约参加联合国大会的以色列总理内塔尼亚胡，以执行国际刑事法院的逮捕令，马姆达尼称正讨论逮捕以总理可能性。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:42",
+      "headline": "华安证券：董事长章宏韬提议1亿元—2亿元回购公司股份，用于维护公司价值及股东权益。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:36",
+      "headline": "【长鑫科技中签号出炉 共约770.22万个】",
+      "content": "长鑫科技披露首次公开发行股票网上中签结果，中签号码共有7702207个，每个中签号码只能认购500股长鑫科技A股股票。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:28",
+      "headline": "【洽洽食品：密切关注厄尔尼诺天气影响，已对部分坚果原料进行储备】",
+      "content": "洽洽食品在互动平台表示，公司密切关注厄尔尼诺天气对坚果原料供应量和供应价格的影响，对部分坚果原料进行了适当的储备。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:25",
+      "headline": "【科威特称拦截“敌方”导弹和无人机袭击】",
+      "content": "科威特武装部队19日表示，其防空系统“正在拦截敌方的导弹和无人机袭击”。科威特武装部队总参谋部在社交媒体发表声明说，居民听到的爆炸声是防空系统拦截“敌方”袭击的结果，所有人应遵守政府发布的安全指示。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:22",
+      "headline": "【乌称基辅遭大规模无人机和导弹联合打击】",
+      "content": "当地时间19日，乌克兰空军通报称，自18日18时起，俄军使用了无人机和多种类型导弹对乌克兰进行了大规模的联合打击，主要攻击方向是乌克兰首都基辅。乌克兰空军的雷达部队共记录了166个空中攻击目标，包括41枚导弹和125架各种类型的无人机。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:12",
+      "headline": "【百型智能在WAIC发布企业本体OntoZ】",
+      "content": "7月17日至20日，2026世界人工智能大会（WAIC）在上海举行。大会期间，跨境B2B产业AI企业百型智能在Future Tech论坛现场正式发布企业本体OntoZ。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:08",
+      "headline": "【捷佳伟创TGV单片清洗设备取得量产订单】",
+      "content": "近日，捷佳伟创自研TGV单片清洗装备成功取得国内TGV头部企业量产订单，首次将成熟半导体单片清洗技术落地超薄玻璃基板赛道，补齐国产TGV精密清洗关键装备领域短板，助力先进封装设备国产化提速。此次订单落地，标志着公司湿法设备技术成功从晶圆、PCB延伸至TGV玻璃基板领域。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:08",
+      "headline": "【我国首个煤制油化工国家级质量标准实验室成立】",
+      "content": "我国首个煤制油化工领域的国家级质量标准实验室在宁夏成立，已进入培育建设阶段。该实验室由国家能源集团宁夏煤业公司牵头建设，是我国煤炭及煤化工领域第一家国家级质量标准实验室。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:00",
+      "headline": "【伊朗媒体称伊朗击落一架美军无人机】",
+      "content": "据伊朗媒体19日报道，伊朗伊斯兰革命卫队在伊朗阿瓦士击落一架美军MQ－9型“死神”无人机。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:00",
+      "headline": "【加拿大总理：正“全员动员”应对严重野火灾情】",
+      "content": "加拿大总理马克·卡尼7月18日晚在社交媒体平台X上说，在极端热浪与破纪录的干旱天气影响下，加拿大正面临史上最严峻的野火季之一，政府正采取“全员动员”方式应对灾情。卡尼说，安大略省西北部的火灾尤为严重，已有超过10个社区被迫疏散。目前全国已部署5300多名消防人员，近300架各类飞机已投入灭火前线，包括灭火飞机、直升机及疏散专用机等。加拿大正利用无人机、热成像等技术手段，支持实时监测火灾与灭火工作。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 15:00",
+      "headline": "【告别“抽卡”，商汤发布最新旗舰模型U1 Pro】",
+      "content": "7月18日，在2026世界人工智能大会上，商汤科技正式推出最新旗舰模型SenseNova U1 Pro（简称“U1 Pro”）。作为面向长程任务的交付级原生多模态智能体基座，U1 Pro实现了理解、生成与行动能力的深度统一。依托原生统一架构与视觉创作领域的深度迭代，“交付级”复杂图片创作能力已比肩全球顶尖模型，解决了反复“抽卡”困境，最高支持8K原生分辨率输出。（澎湃）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:53",
+      "headline": "【两仪万象完成数亿元A+轮融资】",
+      "content": "两仪万象科技有限公司宣布完成数亿元A+轮融资。本轮融资由君联资本领投，新增投资机构包括北京基石创投、上海科创基金、北洋海棠基金和中信建投投资，A轮投资方顺为资本和科大讯飞持续加注。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:52",
+      "headline": "【乐奇Rokid携原生操作系统YodaOS亮相WAIC 2026】",
+      "content": "7月17日至20日，2026世界人工智能大会暨人工智能全球治理高级别会议（WAIC 2026）在上海世博、张江、西岸三地同步举行。乐奇Rokid携首款智能眼镜原生操作系统YodaOS及新一代AR空间计算设备亮相西岸国际会展中心，继今年6月底发布后，完成两大核心产品的全球首次展会首秀。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:52",
+      "headline": "【傲意科技上半年灵巧手订单突破万台】",
+      "content": "7月17日-20日，在2026世界人工智能大会(WAIC 2026)上，傲意科技携全系列“脑-肌- 机”全栈自研硬件矩阵亮相本届WAIC，并发布CeRelax消费级脑电头环、gForce Ultra肌电腕带、下肢智能康复外骨骼三大新品。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:50",
+      "headline": "【俄对乌首都等地实施大规模打击】",
+      "content": "俄罗斯国防部通报，当日凌晨，俄联邦武装力量使用空基、陆基高精度武器及攻击型无人机，对乌克兰基辅市及基辅州的军事工业企业和物流中心，以及敖德萨州南方港的基础设施目标发动了大规模打击。这些目标被用于接收和储存军用货物，以及保障乌克兰武装部队所需的燃油润滑油料。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:49",
+      "headline": "【中科闻歌WAIC 2026发布完整AI决策产品体系】",
+      "content": "7月18日，2026世界人工智能大会（WAIC2026）期间，中科闻歌发布“基、枢、核、脑、端”完整AI决策产品体系。该体系以DOMA架构为技术底座，覆盖数据治理、业务建模、模型推理与智能体执行全链路，打通从企业生产经营决策到科学发现的AI决策闭环。（上证报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:49",
+      "headline": "【中国平安发布“专病AI产品矩阵”】",
+      "content": "记者在2026世界人工智能大会上获悉，中国平安全面展示人工智能领域的最新成果，集中发布覆盖医疗、保险、支付等核心场景的创新产品与服务体系。 相关文章： 中国平安正加速“All in AI”：亮相智能体平台，首创专病服务矩阵，平安银行打通积分和算力",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:47",
+      "headline": "【意中小企业联合会：高温天气加重经济负担】",
+      "content": "意大利中小企业联合会日前公布数据显示，如果意大利每年遭遇30至60天极端高温天气，将造成60亿至120亿欧元的经济负担和损失，大约相当于国内生产总值的0.2%至0.4%。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:46",
+      "headline": "【科威特拉响防空警报】",
+      "content": "当地时间7月19日上午9时20分左右，科威特国内拉响防空警报。科威特武装部队随后发布消息称，科方防空系统正在应对进入科领空的“敌对”空中目标。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:45",
+      "headline": "【长三角人工智能协同投资平台共建签约】",
+      "content": "在2026世界人工智能大会分论坛“长三角人工智能产业集群发展论坛”上，长三角人工智能协同投资平台共建签约，签约方包括长三角投资公司、国家开发投资集团、上海国投公司、江苏省高投集团、浙江省国有资本公司、安徽省投资集团、浦发银行。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:31",
+      "headline": "【乌首都基辅遭俄军大规模袭击 致1死8伤】",
+      "content": "乌克兰国家紧急情况服务局19日通报，俄罗斯军队当天大规模袭击基辅，截至目前已造成1人死亡、8人受伤。乌首都多个区遭袭击命中发生火灾，多栋住宅楼等受损，救援人员已展开救援处置工作。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:31",
+      "headline": "【伊朗展开“闪电”行动第17阶段打击】",
+      "content": "据伊朗方面19日消息，伊朗军队从当天凌晨开始，展开了“闪电”行动第十七阶段的无人机打击，再次打击了美军驻科威特的基地。其中美军阿达伊里营地的弹药库，以及阿里·萨利姆基地的设备和人员库房，均遭到了无人机的密集轰炸。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:12",
+      "headline": "【心言集团首款家庭主动智能陪伴机器人巴布亮相世界人工智能大会】",
+      "content": "2026世界人工智能大会7月17日至7月20日在上海举行，心言集团首款家庭主动智能陪伴机器人巴布首次面向公众亮相。该款陪伴机器人的亮点之一，是通过多传感器融合感知用户的声音、动作和距离，结合持续互动的记忆，判断是否回应、以怎样的方式参与。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 14:12",
+      "headline": "【沪光股份携手启元机器人，加速消费级具身智能规模化落地】",
+      "content": "2026年7月18日，沪光股份全资子公司全能具身智能科技（苏州）有限公司与上纬新材达成产线战略合作，携手赋能消费级个人机器人产业化、规模化发展。双方将围绕机器人整机组装、专用线束配套、量产工艺优化等关键环节深度协同。沪光股份将为启元消费级机器人提供稳定、高精度的制造配套，有效解决消费级人形机器人小型化、高柔性、高稳定性的量产难题，加速产品落地普及。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 13:50",
+      "headline": "【2026年度票房破200亿】",
+      "content": "据灯塔专业版数据，截至7月19日，2026年度大盘票房(含预售)突破200亿，《飞驰人生3》《给阿嬷的情书》《镖人：风起大漠》《惊蛰无声》《功夫女足》暂列年度票房前五名。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 13:46",
+      "headline": "【鹿明机器人与三菱电机自动化将围绕工业装配场景开展联合研发】",
+      "content": "在WAIC 2026静安专场活动上，鹿明机器人与三菱电机自动化（中国）有限公司发布工业装配场景合作案例。双方将围绕工业装配开展联合研发，推动具身智能机器人提升任务理解、环境适配和自主学习能力。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 12:51",
+      "headline": "【俄副外长：日本与乌克兰在无人机领域合作是敌对行为】",
+      "content": "俄罗斯副外长鲁坚科18日表示，俄方将日本与乌克兰在无人机领域的合作视为公开敌对行为。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 12:45",
+      "headline": "【开工率100%，上海市重大工程上半年“时间过半、任务过半”】",
+      "content": "上海市住建委介绍，2026年上半年，上海市重大工程完成投资1303.1亿元，完成全年计划51.1%，同比增长6.7%，顺利实现“时间过半、任务过半”。上半年共计新开工项目19个，基本建成7个项目。新开工项目中，16个计划新开工项目全部开工，开工率达100%，3个预备项目提前开工，覆盖了城市基础设施、社会民生、科技产业等多个板块，为下半年重大工程接续发力积蓄动能。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 12:09",
+      "headline": "【敬业钢铁有限公司：正告英国政府立即停止以国内法践踏国际投资规则的行径】",
+      "content": "关于英国政府将敬业钢铁有限公司旗下英国钢铁有限公司强行收归国有、非法征收一事，敬业郑重声明如下： 法治不容践踏，契约精神不容亵渎。 敬业正告英国政府：1、立即停止以国内法践踏国际投资规则的行径，及时、充分、有效赔偿敬业全部投资损失。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 12:04",
+      "headline": "新加坡考虑下调对冲基金税率。（英国金融时报）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 12:03",
+      "headline": "【伊朗媒体称美军再次袭击格什姆岛】",
+      "content": "据伊朗塔斯尼姆通讯社19日报道，美军当天再次袭击伊朗南部格什姆岛。 报道说，当地时间6时10分，美军战机再次袭击格什姆岛部分地区，至少两次传出爆炸声。伊朗有关部门人员已抵达遭袭地区，正在评估袭击规模。 据伊朗媒体当天早些时候报道，当地时间3时38分左右，格什姆岛多个区域传出爆炸声。当地居民说，“有3至5枚导弹袭击了格什姆岛”。（新华社） 相关文章： 美军对伊朗发动新一轮空袭，约旦美军基地5天遭4袭，美军两人死亡，伊朗最高领袖强调将给美国留下“刻骨铭心的教训”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 11:45",
+      "headline": "【美国务院建议全球范围美公民提高警惕】",
+      "content": "美国国务院18日在其官方网站发布全球安全提醒，建议全球范围内的美国公民提高警惕。 提醒说，由于中东地区紧张局势加剧，安全环境仍然复杂，存在意外升级的可能性。全球各地美国公民，尤其是在中东地区的美国公民应提高警惕，关注新闻以了解最新动态。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 11:38",
+      "headline": "【美军称结束第八晚对伊朗打击行动】",
+      "content": "当地时间18日，美军中央司令部在社交媒体发布消息称，已于美东时间18日23时30分，结束第八晚对伊朗的打击行动。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 11:23",
+      "headline": "【伊朗称打击科威特境内美军基地】",
+      "content": "据伊朗媒体19日报道，伊朗军队使用无人机打击了美军在科威特的阿里·萨利姆空军基地和比林军营。 伊朗军队当天发表声明说，伊朗军队使用大量无人机，打击了阿里·萨利姆空军基地的弹药库和“爱国者”防空系统的雷达。 报道未提及伊朗军队对比林军营的具体打击情况。（新华社） 相关文章： 美军对伊朗发动新一轮空袭，约旦美军基地5天遭4袭，美军两人死亡，伊朗最高领袖强调将给美国留下“刻骨铭心的教训”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 11:23",
+      "headline": "【智元姚卯青：模型与数据飞轮，是物理AI持续进化的关键】",
+      "content": "7月19日，在2026世界人工智能大会“智启具身论坛2026——迎接物理AI智能涌现”上，智元合伙人、高级副总裁、具身业务部总裁，觅蜂科技董事长兼CEO姚卯青分享了智元、觅蜂科技推动物理AI规模化演进的技术路径。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 11:13",
+      "headline": "【伊朗胡齐斯坦省萨兰德地区发生5级地震】",
+      "content": "据伊朗德黑兰大学地震中心消息，当地时间19日6时许，伊朗胡齐斯坦省萨兰德地区发生5级地震，震源深度12公里。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 11:02",
+      "headline": "【韩国公布放宽外国投资者交易韩元的详细计划】",
+      "content": "韩国政府、韩国央行及监管机构周日发布的联合声明称，外国人之间通过预先登记的外籍机构进行的韩元转账，除境内房地产交易外，在大多数资本交易中将无需事先申报。自9月起，银行只需核实基本账户信息。相关结算将通过韩国央行新设立的24小时网络进行，该网络将于9月启动试点运行，计划2027年全面投入使用。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 11:01",
+      "headline": "【国家开发银行原党委副书记、行长欧阳卫民被查】",
+      "content": "国家开发银行原党委副书记、行长欧阳卫民涉嫌严重违纪违法，目前正接受中央纪委国家监委纪律审查和监察调查。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:55",
+      "headline": "【安徽上半年汽车出口量达100.6万辆】",
+      "content": "据安徽日报，“今年上半年，安徽汽车出口量已经突破百万辆，比去年提前了5个月。”近日，合肥海关副关长姜开源介绍。据悉，去年，安徽省成为全国首个汽车年出口突破百万辆的省份；今年仅用6个月，全省汽车出口量就达到100.6万辆，同比增加1.2倍。同期我国汽车出口509.6万辆，同比增长65.3%，半年度首破500万辆。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:53",
+      "headline": "【上海“星枢计划”首发星座发布】",
+      "content": "7月18日，在2026世界人工智能大会上，上海标志性太空数字基建工程“星枢计划”首发星座正式对外发布。仪式由WAIC组委会与复旦大学联合主办，作为上海重点布局的太空算力产业标杆项目，项目定位为上海市旗舰级太空算力星座工程，该星座由三颗卫星组成，核心是通过太空直接处理数据，减少对地面设备的依赖。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:47",
+      "headline": "伊朗对美军基地发动打击。伊朗打击了美军在乌代里营地的弹药库，伊朗还打击了阿里·萨勒姆空军基地的空中雷达。（伊朗官媒PRESS TV）",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:44",
+      "headline": "【不筹量子发布原子量子人工智能基座“量筹一号”】",
+      "content": "7月17日至20日，2026世界人工智能大会暨人工智能全球治理高级别会议（WAIC 2026）在上海举行。会上，上海不筹量子科技有限公司发布首款原子量子人工智能基座（Q-Cub）“量筹一号”，同步推出三档配置：面向高校科研的入门版Cloud-Linked（云共享QPU），面向企业研发中心与行业标杆项目的标准版Appliance（私有QPU+GPU），以及面向央企、大型机构与联合实验室的旗舰版Infrastructure（完整三算力集群）。此外，不筹量子与上海期智研究院、复旦大学共同宣布成立“中性原子量子智能实验室”。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:43",
+      "headline": "【一天涨1500元！“工业维生素”钼价格大涨】",
+      "content": "被誉为“工业维生素”的钼，是钢铁冶金、高端装备、新能源等领域不可或缺的金属原料，我国钼矿储量稳居全球第一。2026上半年钼市场全线走强，钼精矿、钼铁两大核心品种价格涨幅接近30%，创近三年新高。 钼铁是钼精矿冶炼后的核心成品，也是特种钢材不可或缺的合金添加剂。洛阳钼业中国区冶炼分公司经理任林海介绍，7月14日钼铁一吨的价格是33.2万元，7月13日价格在33.05万元，一天涨1500元，长周期来看，钼铁处于一个上扬的趋势。（央视财经）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:42",
+      "headline": "【蚂蚁韩歆毅：没有企业专属数据，就没有企业专属智能】",
+      "content": "7月19日，2026世界人工智能大会期间，蚂蚁集团首席执行官韩歆毅围绕企业AI如何从第一轮部署走向深度价值落地，分享了三点思考：企业AI的智能不止于知识累积，更在于经验沉淀；企业AI的更高价值，不止于个体提效，更在于组织进化；实现深度落地的路径，是打造“组织智能”。他表示，企业AI落地不能停留在工具提效层面，而要扎根产业场景，务实追求价值落地。（硬AI）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:38",
+      "headline": "【后摩智能WAIC展出M50芯片落地的多款AI终端，10W功耗下算力达160 TOPS】",
+      "content": "7月17日至20日，2026世界人工智能大会（WAIC）在上海召开。期间，后摩智能展出多款搭载M50芯片的AI终端。该芯片采用存算一体架构，在10W功耗下算力达160 TOPS，可流畅运行30B至120B参数量级大模型。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:37",
+      "headline": "【中国工程院院士郑纬民：智能体时代，产出稳定且低成本Token（词元）的能力非常稀缺】",
+      "content": "7月19日，中国工程院院士、清华大学计算机科学与技术系教授郑纬民在Agentic时代AI基础设施创新发展论坛上表示，算力规模快速扩张并不等于产生高效的Token（词元）产能。智能体时代真正稀缺的不只是芯片，而是稳定、低成本、高等级地产出Token的系统能力。Token正从技术指标变为产业核心生产要素，推理系统也从单机优化，走向分布式、缓存化、异构化、服务化。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:32",
+      "headline": "【美军对伊朗发动新一轮空袭】",
+      "content": "美军中央司令部18日在社交媒体发布消息说，美军于美国东部时间当天18时（北京时间19日6时）开始对伊朗进行新一轮空袭。 消息称，美军此次行动旨在“进一步削弱伊朗威胁霍尔木兹海峡航运的能力，并迅速惩罚17日晚袭击约旦美军基地的伊朗伊斯兰革命卫队”。（新华社） 相关文章： 美军对伊朗发动新一轮空袭，约旦美军基地5天遭4袭，美军两人死亡，伊朗最高领袖强调将给美国留下“刻骨铭心的教训”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:28",
+      "headline": "【德国联盟党议会党团主席因争议辞职】",
+      "content": "据德国媒体18日报道，德国联盟党议会党团主席延斯·施潘因近日个人行为引发的争议而辞职。 据德新社报道，施潘当天致函所在党团成员称，他意识到“个人幸福与其公职无法兼顾”，因此决定辞去职务。 德国总理、基民盟主席默茨表示，施潘的决定“正确且不可避免”。（新华社）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:24",
+      "headline": "【伊朗武装部队：将“毁灭性回击”美国野蛮行径】",
+      "content": "据伊朗媒体19日报道，伊朗武装部队哈塔姆安比亚中央总部司令阿里·阿卜杜拉希发表声明说，伊朗武装部队将对美国“任何野蛮行径予以毁灭性回击”。 阿卜杜拉希当天警告美国说，任何贪婪、欺凌和野蛮行径，都将遭到伊朗武装部队“坚决且毁灭性的回击”。（新华社） 相关文章： 美军对伊朗发动新一轮空袭，约旦美军基地5天遭4袭，美军两人死亡，伊朗最高领袖强调将给美国留下“刻骨铭心的教训”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:10",
+      "headline": "【阿里云百炼上线开放式世界模型HappyOyster 1.0】",
+      "content": "阿里云百炼宣布上线可实时构建和交互的开放式世界模型产品HappyOyster 1.0（快乐生蚝1.0）。据介绍，HappyOyster 1.0具备世界探索（Adventure）和实时导演（Directing）两大模式，用户输入一句话或一张图即可生成可互动、可探索的AI数字世界。目前已提供Android/iOS/Web三端SDK，在阿里云百炼开启灰测。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:09",
+      "headline": "【摩尔线程WAIC 2026披露三大“AI工厂”进展】",
+      "content": "7月17日至20日，2026世界人工智能大会（WAIC）在上海召开。期间，摩尔线程首次公开三大“AI工厂”（即模型训练工厂、词元生产工厂、智能体生产工厂）最新训练与推理实践数据。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 10:03",
+      "headline": "【美媒爆料：美伊冲突加剧，五角大楼加紧向中东地区增派F-16、F-35战机】",
+      "content": "据美国空军《空天部队》杂志网站、《华尔街日报》当地时间17日援引知情人士消息报道，随着美国与伊朗的冲突加剧，五角大楼正加紧向中东地区增派战机，包括美国空军的F-16“战隼”战机和F-35“闪电II”隐形战机。 报道称，此次被部署至中东地区的战机包括：来自德国施潘达勒姆空军基地的美国空军第480战斗机中队的F-16战机，以及来自英国皇家空军莱肯希思基地的美国空军第48战斗机联队的F-35战机。（环球网）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:53",
+      "headline": "【估值超百亿，一目科技完成超10亿元新融资，多家一线基金参投】",
+      "content": "一目科技完成E轮超10亿元融资，估值突破100亿元。本轮融资由多家一线人民币基金、头部美元基金和知名产业方联合参与，庚辛资本担任长期财务顾问。所融资金将用于具身智能触觉感知材料、芯片、算法和模型的研发，以及产线订单的规模化量产和高质量交付。（新浪科技）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:50",
+      "headline": "【首个城市级绿色词元（Token）工厂落地常州】",
+      "content": "7月18日，正值世界人工智能大会（WAIC）期间，首个城市级绿色词元（Token）工厂签约落地常州。常州市城市绿色词元（Token）工厂项目由市数据局、常州高新区、国家电投电投综能、山铁数科、阿里云智能集团、网宿科技、深度动力七方合作，旨在构建完善的算电协同生态体系。同时，常州高新区与网宿科技、深度动力就常州市城市绿色词元（Token）工厂运营签署了专项合作协议。（常州发布）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:45",
+      "headline": "量化私募平方和投资发布公告，将于下周内使用自有资金1亿元，申购公司旗下私募证券基金产品。",
+      "content": "",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:40",
+      "headline": "【WAIC 2026智启具身论坛今日举行，姚卯青：物理AI 要实现规模化，必须突破三道“墙”】",
+      "content": "7月19日，2026世界人工智能大会“智启具身论坛——迎接物理AI智能涌现”上，智元合伙人、高级副总裁、具身业务部总裁，觅蜂科技董事长兼CEO姚卯青发表《模型与数据飞轮：冲破物理墙，驱动物理AI智能涌现》主旨演讲，系统阐述物理AI从技术演示走向规模化应用所面临的核心挑战。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:39",
+      "headline": "【多份AI安全治理成果在上海集中发布】",
+      "content": "今天（19日）上午，2026世界人工智能大会期间，前沿AI与智能体安全论坛在上海举行，20余位全球顶尖专家与决策者齐聚现场，集中发布多份AI安全领域重磅报告和成果，围绕前沿人工智能风险管理、全球产业治理展开深度研讨。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:19",
+      "headline": "【地瓜机器人携手芯视界，推出行业首个专为具身机器人打造的1:1面阵固态激光雷达方案】",
+      "content": "2026年7月19日，地瓜机器人宣布与国内单光子dToF传感芯片企业芯视界达成战略合作。双方以旭日S600旗舰算力平台为基础，完成芯视界新一代高性能SPAD‑dToF深度传感器VA6150的深度适配，联合推出面向具身智能领域的端侧感知一体化方案，进一步提升机器人环境感知精度与实时决策能力，加速产品规模化落地。本次合作的VA6150是芯视界面向机器人赛道量身打造的旗舰级面阵dToF产品，采用行业首创1:1面阵固态激光雷达设计，最远探测距离可达350米，已在2026年3月顺利完成流片，具备成熟量产条件。（证券时报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:18",
+      "headline": "【实体世界智能科学论坛举办 学者：AI打破学科壁垒 人人可做科学家】",
+      "content": "2026世界人工智能大会的分论坛之一“实体世界智能科学论坛”昨天（18日）在上海举办，多位国际顶尖学者、产业界代表与青年科学家共同探讨人工智能如何重塑科学发现、产业变革与人类社会未来。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:15",
+      "headline": "【知乎Tech Club新知科技大会落地WAIC 2026】",
+      "content": "7月17日-20日，2026世界人工智能大会（WAIC 2026）在上海召开。记者了解到，知乎在浦东、徐汇两大展区设置展位，以“AI的最后一公里，还要走多久”为主题的第二届Tech Club新知科技大会也落地WAIC 2026，各领域专家、开发者、答主齐聚，将AI前沿探索从理论推向真实使用与创造，为全球人工智能盛会增加独特的观点碰撞和观察视野。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:14",
+      "headline": "【人工智能全球治理高级别会议在上海召开】",
+      "content": "昨天（18日），2026世界人工智能大会暨人工智能全球治理高级别会议在上海召开。数十位政府机构代表就应对人工智能全球治理挑战、推动人工智能技术普惠、共享，防范人工智能安全风险展开研讨。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:01",
+      "headline": "【伊朗媒体：格什姆岛遭导弹袭击】",
+      "content": "据伊朗媒体19日报道，伊朗南部的格什姆岛上多个地点当天遭导弹袭击。 报道说，当地时间3时38分左右，格什姆岛多个区域传出爆炸声。当地居民表示，“有3至5枚导弹袭击了格什姆岛”。报道还说，目前尚未接到平民伤亡或基础设施受损的报告。 伊朗媒体当天早些时候报道，阿巴斯港和格什姆岛附近传出数次爆炸声。（新华社） 相关文章： 美军对伊朗发动新一轮空袭，约旦美军基地5天遭4袭，美军两人死亡，伊朗最高领袖强调将给美国留下“刻骨铭心的教训”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 09:01",
+      "headline": "【伊朗革命卫队称打击三国美军目标】",
+      "content": "当地时间7月18日，伊朗伊斯兰革命卫队发布了近期打击美军基地的画面。画面内容显示，在“纳斯尔-2”第17至20波行动中，使用“海巴尔·谢坎”“佐勒菲卡尔”“征服者-110”“哈吉·卡西姆”等型号导弹，以及“见证者”无人机，打击位于科威特、巴林和约旦的多个美军目标。 相关文章： 美军对伊朗发动新一轮空袭，约旦美军基地5天遭4袭，美军两人死亡，伊朗最高领袖强调将给美国留下“刻骨铭心的教训”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:59",
+      "headline": "【美官员：约旦美军基地5天遭4袭，表明伊导弹库存充足】",
+      "content": "据美国方面18日消息，多名美国官员表示，伊朗在过去5天内对位于约旦的美军基地发动4次袭击，造成美军两人死亡、数十人受伤，并有多架直升机受损。美官员认为，这一系列袭击及其造成的损失表明，伊朗军队仍拥有充足的导弹库存，而且规避美军防空系统拦截的能力也有所提升。（央视） 相关文章： 美军对伊朗发动新一轮空袭，约旦美军基地5天遭4袭，美军两人死亡，伊朗最高领袖强调将给美国留下“刻骨铭心的教训”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:57",
+      "headline": "【黎以冲突未平息 黎南部农民收成遭重创】",
+      "content": "目前，以军仍然在黎巴嫩南部保持军事存在，并不时地在黎南部发动空袭。近期，一些黎巴嫩南部地区的居民返回家乡，尝试收获在冲突过后残存下来的小麦。斯里法位于黎巴嫩南部地区，以军在冲突中频繁对当地发动空袭。在被毁坏的住宅前，黎巴嫩农民哈米德正在和其他当地居民抢收仅剩的小麦。哈米德说，因为战火，这次的夏收被迫推迟了近两个月。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:57",
+      "headline": "【伊朗民众强烈谴责美军空袭 呼吁强硬反击】",
+      "content": "美军中央司令部18日在社交媒体发表声明称，美军于美国东部时间18日18时开始对伊朗发动新一轮空袭。这是美军连续第八晚发动空袭。另据伊朗方面当地时间19日凌晨消息，伊朗南部锡里克当地居民称听到爆炸声。霍尔木兹甘省政府官员表示，当天1时30分，美军一枚导弹击中锡里克附近一处地点。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:53",
+      "headline": "【今年上半年西南油气田天然气产量突破250亿立方米】",
+      "content": "据中国石油消息，我国西南最大天然气生产企业——中国石油西南油气田公司今年上半年油气生产实现双增长，累计生产天然气253.1亿立方米，油气当量突破2000万吨，创历史同期新高。作为西南地区天然气供应的“主力军”，今年上半年，西南油气田公司钻获百万方高产工业气井5口，天然气产量较去年同期增加12.96亿立方米，增幅达5.4%；原油产量同比大幅增长62.26%，油气当量较去年同期新增115万吨，增幅约6%，创历史同期新高。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:49",
+      "headline": "【上半年天津实现进出口4059亿元】",
+      "content": "从天津海关获悉，今年上半年，天津市外贸进出口总值达4059亿元，同比增长2.4%。其中，出口2266亿元，同比增长9.2%。进出口值、出口值均创下历史同期新高。（天津日报）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:49",
+      "headline": "【腾讯云发布ADP 4.0海外版】",
+      "content": "7月18日，在2026世界人工智能大会上，腾讯云正式发布腾讯云智能体开发平台ADP 4.0海外版，同步升级智能工作台、Claw模式、Skill广场三大模块。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:46",
+      "headline": "【美中央司令部：美军开始对伊朗发动新一轮空袭】",
+      "content": "当地时间7月18日，美国中央司令部表示，美国东部时间当日下午6时，美军奉三军统帅之命，开始对伊朗发动新一轮空袭。美军称，此次行动旨在进一步削弱伊朗威胁霍尔木兹海峡商业航运的能力，并迅速惩戒伊斯兰革命卫队——该组织前一日晚对驻约旦美军人员发动了袭击。（央视新闻） 相关文章： 美军对伊朗发动新一轮空袭，约旦美军基地5天遭4袭，美军两人死亡，伊朗最高领袖强调将给美国留下“刻骨铭心的教训”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:46",
+      "headline": "【委内瑞拉强震遇难人数升至5119人】",
+      "content": "当地时间7月18日，委内瑞拉全国代表大会主席豪尔赫·罗德里格斯通过社交媒体通报，该国6月24日发生的两次强震造成遇难人数上升至5119人。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:46",
+      "headline": "【伊朗南部锡里克地区遭美军导弹袭击】",
+      "content": "当地时间7月19日凌晨，伊朗南部锡里克当地居民称听到爆炸声。霍尔木兹甘省政府官员表示，当天1时30分，美军一枚导弹击中锡里克附近一处地点。据悉，过去几天，锡里克已多次遭到美军袭击，市区受到一定程度的破坏。（央视新闻） 相关文章： 美军对伊朗发动新一轮空袭，约旦美军基地5天遭4袭，美军两人死亡，伊朗最高领袖强调将给美国留下“刻骨铭心的教训”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:45",
+      "headline": "【伊拉克宣布将重修跨国输油管道】",
+      "content": "当地时间7月18日，伊拉克石油部宣布，伊拉克和叙利亚签署了一份谅解备忘录，将重修一条从伊拉克通往叙利亚地中海沿岸的原油出口管道。据了解，这条输油管道原建于1952年，东起伊拉克基尔库克，西至叙利亚巴尼亚斯，全长约800公里。这条管道在两伊战争和伊拉克战争中受到严重损坏，长期被弃用。伊拉克石油部表示，该项目有助于实现伊拉克原油出口路线多样化，加强能源基础设施建设与地区能源安全，为伊拉克原油通往全球市场创造一条新的战略走廊。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:44",
+      "headline": "【美加墨世界杯：英格兰6-4战胜法国获季军，姆巴佩双响保留金靴悬念】",
+      "content": "北京时间7月19日，2026美加墨世界杯季军争夺战中，英格兰6-4战胜法国，夺得本届世界杯季军。至此，英格兰自1966年首进世界杯决赛并成功夺冠后，时隔60年再次站上领奖台。此外，法国队球员姆巴佩打入两粒进球，暂列本届世界杯射手榜第一，保留金靴悬念，并且他在世界杯上的进球数来到22个，独占世界杯历史射手榜榜首。这是德尚执教法国国家队的187场也是最后一场比赛，世界杯后齐达内将接替他的帅位。（央视体育）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:44",
+      "headline": "【以军空袭加沙城致8人死亡】",
+      "content": "据巴勒斯坦方面当地时间7月18日消息，以色列军队当天空袭加沙城两处社区，共造成8人死亡。以军尚未对此发表回应。据加沙地带卫生部门18日发布的数据，自2025年10月加沙停火第一阶段协议生效以来，以军在加沙地带的行动已造成1144人死亡、3703人受伤。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:43",
+      "headline": "【阶跃星辰与上海期智研究院共建智能体前沿研究院】",
+      "content": "7月18日，阶跃星辰与上海期智研究院宣布正式达成合作，双方将共同设立智能体前沿研究院，围绕智能体网络及经济原理、AI Safety等方向开展联合研究，探索Agent时代的基础理论、核心技术、标准体系与产业范式。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:42",
+      "headline": "【伊朗称哈吉阿巴德遭美军袭击】",
+      "content": "据伊朗方面当地时间7月19日消息，伊朗霍尔木兹甘省的哈吉阿巴德遭到美军袭击。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:42",
+      "headline": "【世界首台（套）500兆瓦冲击式水电机组球阀完成现场装配并通过试验】",
+      "content": "据东方电气消息，近日，世界首台（套）500兆瓦冲击式水电机组——大唐扎拉水电站1号机组进水球阀在项目现场顺利通过水压试验，各工况下的密封性能均达设计要求。这标志着该电站首台巨型进水球阀现场装配及试验工作圆满完成。大唐扎拉水电站具有高水头、大容量、高海拔等特点，共装设2台单机容量500兆瓦的冲击式水电机组，东方电气负责其中1台套机组的研制供货。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:36",
+      "headline": "【地瓜机器人与思特威达成战略合作】",
+      "content": "7月18日，地瓜机器人宣布与CMOS图像传感器供应商思特威正式达成战略合作。双方将基于地瓜机器人旭日S600的ISP模块深度适配思特威方形全局快门（Global Shutter）CMOS图像传感器，联合开发“感知+计算”一体化系统级解决方案。（界面）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:36",
+      "headline": "【市场监管总局发布《个体工商户信用信息应用指南》】",
+      "content": "记者今天（19日）了解到，市场监管总局发布《个体工商户信用信息应用指南》推荐性国家标准，明确个体工商户信用信息内容和主要应用场景。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:35",
+      "headline": "【中国商飞：公司与柬埔寨民航国务秘书处签署战略合作谅解备忘录】",
+      "content": "7月17日，柬埔寨国家航空与中国商飞公司在上海签署20架C909飞机购机协议。同日，中国商飞公司还与柬埔寨民航国务秘书处签署战略合作谅解备忘录，双方将在航空安全、适航审定和人才培养等方面深化合作。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:34",
+      "headline": "【我国具身智能正加速迈向产业应用阶段】",
+      "content": "2026世界人工智能大会上，各类人工智能终端令人目不暇接，但记者注意到，行业关注的焦点已经从人工智能技术的展示转向相关技术如何更好地应用在生产和生活中。专家指出，数据规模、评测标准、网联协同——这些“幕后”工作决定着AI能否从展台真正走进工厂和家庭。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:33",
+      "headline": "【安大略省省长：美方不应将山火烟霾问题归咎于加拿大】",
+      "content": "随着加拿大进入野火季，连日来，席卷该国安大略省西北部的森林野火导致多地空气质量急剧恶化。加拿大烟霾还“跨境”影响到包括纽约在内的美国多个城市的空气质量，引发健康警告。7月18日，加拿大安大略省省长道格·福特就美国总统特朗普指责加拿大山火烟霾影响美国做出回应，批评美方不应将山火烟霾问题归咎于加拿大。（央视新闻）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-19 08:29",
+      "headline": "【伊媒：伊朗南部阿巴斯港和格什姆岛附近传出爆炸声】",
+      "content": "据伊朗媒体19日报道，伊朗南部阿巴斯港和格什姆岛附近传出数次爆炸声。（新华社） 相关文章： 美军对伊朗发动新一轮空袭，约旦美军基地5天遭4袭，美军两人死亡，伊朗最高领袖强调将给美国留下“刻骨铭心的教训”",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-19 01:31",
       "headline": "发送给美国国会议员们的项目拨款相关通报显示，美国正准备为欧洲亲MAGA（让美国再次伟大）的倡议提供资金。（英国金融时报）",
@@ -299,7 +1771,7 @@
     {
       "datetime": "2026-07-18 21:19",
       "headline": "【天孚通信：预计2026年上半年净利润同比增长25.00%-45.00%】",
-      "content": "天孚通信公告，预计2026年1月1日-2026年6月30日净利润为11.24亿元–13.04亿元，同比增长25.00%-45.00%；扣除非经常性损益后的净利润为10.89亿元–12.84亿元，同比增长25.56%-48.02%。 本报告期预计净利润较上年同期上升，主要得益于全球人工智能行业加速发展与全球数据中心建设，带动了高速光器件产品需求的持续稳定增长。",
+      "content": "天孚通信公告，预计2026年1月1日-2026年6月30日净利润为11.24亿元–13.04亿元，同比增长25.00%-45.00%；扣除非经常性损益后的净利润为10.89亿元–12.84亿元，同比增长25.56%-48.02%。 本报告期预计净利润较上年同期上升，主要得益于全球人工智能行业加速发展与全球数据中心建设，带动了高速光器件产品需求的持续稳定增长。 相关文章： AI算力需求提振光器件景气度，天孚通信上半年净利润预增25%—45%｜财报见闻",
       "source": "華爾街見聞",
       "url": "https://wallstreetcn.com/live/global",
       "timezone": "Asia/Taipei"
