@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-26 01:41",
+  "generated_at": "2026-07-26 07:06",
   "fetch_start_time": "2026-07-25 17:00",
-  "fetch_end_time": "2026-07-26 01:41",
+  "fetch_end_time": "2026-07-26 07:06",
   "source": "https://wallstreetcn.com/live/global",
   "timezone": "Asia/Taipei",
   "source_time_assumption": "browser timezone Asia/Taipei; page datetime treated as Taiwan time",
   "crawler_version": "tw-browser-time-v10-feed-scope-date-marker-fix",
-  "count": 43,
+  "count": 46,
   "items": [
+    {
+      "datetime": "2026-07-26 06:33",
+      "headline": "【特朗普下令暂停空袭伊朗】",
+      "content": "7月25日，美国总统特朗普下令美军当天不要对伊朗发动新的空袭，结束了此前连续近两周、持续13天的每日打击行动。 据悉，特朗普此前每天都会批准军方提交的对伊朗打击方案，但25日收到新的作战计划后，并未批准执行，而是直接下令当天暂停空袭。目前尚不清楚这一决定只是一天的临时安排，还是意味着军事行动将进入暂停阶段。",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-26 06:19",
+      "headline": "【以总理计划向特朗普递交伊朗情报】",
+      "content": "7月25日，总台记者自以色列方面获悉，以总理内塔尼亚胡及其访美团队计划于7月28日在白宫会晤美国总统特朗普时，向美方递交一份有关伊朗军事与核计划的最新情报。以色列消息人士称，以方在情报中指责伊朗正在加速推进核武器研发计划。据悉，有以色列高级官员称，美国与伊朗之间达成协议的可能性“微乎其微”，冲突升级“不可避免”。（央视）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "datetime": "2026-07-26 06:09",
+      "headline": "据地区消息认识透露，美国总统特朗普周五指示军方不要袭击伊朗。",
+      "content": "阿曼与伊朗可能在周末达成协议。（Axios）",
+      "source": "華爾街見聞",
+      "url": "https://wallstreetcn.com/live/global",
+      "timezone": "Asia/Taipei"
+    },
     {
       "datetime": "2026-07-25 23:04",
       "headline": "法国将缩短周日举行的环法自行车赛最后一个赛段的赛程。",
